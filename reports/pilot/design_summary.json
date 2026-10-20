@@ -1,0 +1,40 @@
+{
+  "total_designs": 75,
+  "read_errors": 0,
+  "groups": [
+    {
+      "label": "Initial miniproteins",
+      "count": 25,
+      "max_iptm": 0.21514,
+      "geometry": {
+        "target_fit_failed": 6,
+        "clash_free": 2,
+        "receptor_clashes": 17
+      },
+      "qualified_parents": 0
+    },
+    {
+      "label": "Initial nanobodies",
+      "count": 25,
+      "max_iptm": 0.30067,
+      "geometry": {
+        "receptor_clashes": 18,
+        "target_fit_failed": 5,
+        "clash_free": 2
+      },
+      "qualified_parents": 0
+    },
+    {
+      "label": "Apical-tip follow-up",
+      "count": 25,
+      "max_iptm": 0.25777,
+      "geometry": {
+        "receptor_clashes": 20,
+        "target_fit_failed": 4,
+        "clash_free": 1
+      },
+      "qualified_parents": 0
+    }
+  ],
+  "qualified_parents": 0
+}

@@ -1,0 +1,7 @@
+{
+  "superseded_results": "outputs/direction_exploratory_initial",
+  "reason": "Fitting refolded crop into native full receptor can break bonds at graft boundaries. Pilot protein01 C189-N190=2.38 A and C383-N384=5.33 A; PROPKA warns about failed protonation. No shifts from these failed models were accepted.",
+  "corrected_method": "PROPKA on intact modeled 194-residue crop plus binder, free binder in identical conformation; full-dimer fit retained for collision checks only.",
+  "corrected_results": "outputs/direction_initial",
+  "limitations": "Omitted receptor and glycans, and artificial crop termini, can influence pKa."
+}

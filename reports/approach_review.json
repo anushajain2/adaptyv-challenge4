@@ -1,0 +1,35 @@
+{
+  "scope": "Review of proposed next-step strategy; no new cloud jobs launched",
+  "clash_audit": {
+    "total_designs": 75,
+    "target_fit_failed": 15,
+    "models_with_full_context": 60,
+    "models_with_clashes_by_region_overlapping_counts": {
+      "modeled_crop": 23,
+      "omitted_same_subunit": 52,
+      "partner_subunit": 28
+    },
+    "clashing_atom_pairs_by_region": {
+      "modeled_crop": 67,
+      "omitted_same_subunit": 33086,
+      "partner_subunit": 14527
+    },
+    "criterion": "heavy-atom distance <2 A; protein-only saved full-context structures"
+  },
+  "reference_6WRV_fixture": {
+    "target_fit_rmsd_A": 0.8463796188691358,
+    "full_context_clashes": 0,
+    "scope": "Geometry round-trip on known coordinates; not blind sequence refolding"
+  },
+  "existing_target_preparation": "SASA already evaluated on full observed 11QC dimer including observed glycans; boundary mask currently sequence distance, not a full 3D exclusion envelope",
+  "pinned_refolding_configuration": {
+    "msa": "Input(msa={}) in data_from_generated.py line 431",
+    "target_templates": true,
+    "interpretation": "No MSA-server use in this path; not by itself evidence of misconfiguration"
+  },
+  "6W3H_deposited_target_mapping": {
+    "construct_2_55": "human 326-379",
+    "construct_56_158": "human 194-296",
+    "interpretation": "Engineered circular permutation, not a contiguous native crop; binder is Fc-based"
+  }
+}

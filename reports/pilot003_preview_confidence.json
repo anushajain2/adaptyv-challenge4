@@ -1,0 +1,127 @@
+[
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_07",
+    "max_interface_iptm_across_five_refolds": 0.25777217745780945,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_12",
+    "max_interface_iptm_across_five_refolds": 0.2517372965812683,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_16",
+    "max_interface_iptm_across_five_refolds": 0.23703733086585999,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_17",
+    "max_interface_iptm_across_five_refolds": 0.20962810516357422,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_05",
+    "max_interface_iptm_across_five_refolds": 0.18445353209972382,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_21",
+    "max_interface_iptm_across_five_refolds": 0.15888695418834686,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_02",
+    "max_interface_iptm_across_five_refolds": 0.15102924406528473,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_08",
+    "max_interface_iptm_across_five_refolds": 0.14600875973701477,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_14",
+    "max_interface_iptm_across_five_refolds": 0.13666166365146637,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_06",
+    "max_interface_iptm_across_five_refolds": 0.1318022757768631,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_03",
+    "max_interface_iptm_across_five_refolds": 0.13168565928936005,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_13",
+    "max_interface_iptm_across_five_refolds": 0.1314636766910553,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_01",
+    "max_interface_iptm_across_five_refolds": 0.1300092190504074,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_20",
+    "max_interface_iptm_across_five_refolds": 0.12971940636634827,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_11",
+    "max_interface_iptm_across_five_refolds": 0.12749089300632477,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_23",
+    "max_interface_iptm_across_five_refolds": 0.12557074427604675,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_18",
+    "max_interface_iptm_across_five_refolds": 0.12347313016653061,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_15",
+    "max_interface_iptm_across_five_refolds": 0.11984078586101532,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_10",
+    "max_interface_iptm_across_five_refolds": 0.11552415043115616,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_22",
+    "max_interface_iptm_across_five_refolds": 0.11413237452507019,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_04",
+    "max_interface_iptm_across_five_refolds": 0.11356933414936066,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_24",
+    "max_interface_iptm_across_five_refolds": 0.11279982328414917,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_09",
+    "max_interface_iptm_across_five_refolds": 0.11147594451904297,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_19",
+    "max_interface_iptm_across_five_refolds": 0.10713323950767517,
+    "refold_count": 5
+  },
+  {
+    "id": "apical_tip_basic_direction_probe_protein-anything_00",
+    "max_interface_iptm_across_five_refolds": 0.10000250488519669,
+    "refold_count": 5
+  }
+]

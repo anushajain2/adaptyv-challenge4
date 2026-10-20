@@ -1,0 +1,11 @@
+{
+  "metered_cost": "0.02221158",
+  "billed_cost": "0E-8",
+  "metered_cost_breakdown": {
+    "ephemeral_apps": "0.02291228",
+    "llm_tokens": "0E-8",
+    "volumes": "0E-8"
+  },
+  "source": "modal billing summary --json",
+  "purpose": "Attempt 001 reconciliation; figures may lag billing"
+}

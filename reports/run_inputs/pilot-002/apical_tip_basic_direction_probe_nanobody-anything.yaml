@@ -1,0 +1,54 @@
+entities:
+- file:
+    path: human_apical.cif
+    include:
+    - chain:
+        id: A
+    binding_types:
+    - chain:
+        id: A
+        binding: 16,19,182
+        not_binding: 1,2,3,4,5,7,10,12,15,21,22,23,26,28,33,36,37,38,40,56,58,59,60,65,72,83,85,96,97,101,103,105,107,108,123,124,125,126,127,128,129,130,131,132,133,136,159,163,166,167,169,170,173,175,176,177,178,180,181,187,189,190,191,192,193,194
+- file:
+    path: 7eow.cif
+    include:
+    - chain:
+        id: B
+    design:
+    - chain:
+        id: B
+        res_index: 26..34,52..59,98..118
+    structure_groups:
+    - group:
+        id: B
+        visibility: 2
+    - group:
+        id: B
+        visibility: 0
+        res_index: 26..34,52..59,98..118
+    exclude:
+    - chain:
+        id: B
+        res_index: 26..28
+    - chain:
+        id: B
+        res_index: 52..54
+    - chain:
+        id: B
+        res_index: 98..104
+    design_insertions:
+    - insertion:
+        id: B
+        res_index: 26
+        num_residues: 1..5
+    - insertion:
+        id: B
+        res_index: 52
+        num_residues: 1..5
+    - insertion:
+        id: B
+        res_index: 98
+        num_residues: 1..14
+    reset_res_index:
+    - chain:
+        id: B

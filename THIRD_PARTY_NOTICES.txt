@@ -1,0 +1,30 @@
+scripts/modal_pilot.py is adapted from hgbrian/biomodals/modal_boltzgen.py.
+
+MIT License
+
+Copyright (c) 2023 Brian Naughton
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+configs/7eow.cif and the scaffold instructions in generated nanobody YAML files
+come from HannesStark/boltzgen example/nanobody_scaffolds at commit
+247b9bbd8b68a60aba854c2968d6a0cddd21ad6d (MIT license; see docs/BOLTZGEN_LICENSE).
+The experimental structure is RCSB PDB 7EOW, used as a framework template.
+Raw PDB structures and UniProt sequences retain the source attribution in
+data/raw/manifest.json. Model weights have their own upstream terms.

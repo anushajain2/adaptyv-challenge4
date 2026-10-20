@@ -1,0 +1,10 @@
+biopython>=1.85
+numpy>=2
+scipy>=1.14
+PyYAML>=6
+propka>=3.5
+modal>=1
+openmm>=8.2
+pdbfixer>=1.11
+pytest>=8
+matplotlib>=3.9

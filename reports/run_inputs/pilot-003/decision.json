@@ -1,0 +1,9 @@
+{
+  "date_utc": "2026-10-20T15:58:39.152496+00:00",
+  "reason": "Initial 50 designs: max interface ipTM 0.21514 protein, 0.30067 nanobody; zero parents pass 0.5 gate. Frequent clashes with omitted receptor regions.",
+  "action": "25 additional protein-anything designs at exposed apical tip, using crop-exposure exclusions",
+  "cost_record": "reports/billing_after_pilot002.json",
+  "approved_total_usd": 30,
+  "observed_gross_usage_usd": 1.582212,
+  "cross_species_limitation": "Human-first divergent patch; no cross-reactivity claim"
+}

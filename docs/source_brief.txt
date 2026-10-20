@@ -1,0 +1,172 @@
+Challenge 4: What to Build for the TfR1 Binder
+Oct 20, 2026 · @Anusha
+Build a pH-switchable TfR1 binder and the pipeline that filters it, then submit up to 20 designs through the open track by Nov 1, 2026.
+What the challenge asks
+Design a binder to the human TfR1 ectodomain that holds on in blood and lets go inside the endosome, and that works in mouse too. Every tested design is measured in four conditions, with the design immobilised and the target in solution.
+Rank
+Objective
+Measured
+Counts as success
+1
+pH-selective binding
+Human TfR1 at pH 7.4 and at pH 6.0
+A measurable KD at 7.4 and no detectable binding at 6.0. Designs that bind at both rank below these, by the ratio of KD at 6.0 to KD at 7.4
+2
+Mouse cross-reactivity
+Mouse TfR1 at pH 7.4
+Mouse-to-human KD ratio as close to 1 as possible, among designs whose human KD is under 1 µM
+3
+Affinity
+Human TfR1 at pH 7.4
+Lowest KD. Binding at a functional epitope counts in its favour
+A design counts as binding in a condition when its sensorgram gives a fittable curve and a KD, or, where the curve cannot be fitted, when the association shift clears 300% over the negative control. The winner has to clear all three steps, with ties settled in that order, and each step also awards an honourable mention.
+The target is the soluble ectodomain, supplied as a homodimer, so each target presents two copies of the epitope. Human is residues 121–760 of UniProt P02786-1, mouse 123–763, both tag-free. The recommended epitope is the apical domain, the tip of each subunit, which leaves the transferrin site free; it is a hint, not a rule, and a design that binds elsewhere is measured all the same.
+The constraints that bound what you can build:
+• Deadline: Sunday 1 November, 23:59 Anywhere on Earth. Twelve days from today.
+• Open track only. Applications for the two supported tracks closed on 24 September, so this is self-funded: your own tools and your own compute.
+• Up to 20 designs, each 10–250 amino acids, de novo only, as a single-chain protein, nanobody, scFv or Fab.
+• A C-terminal Twin-Strep tag captures your design, and must not be part of the binding.
+• Selection for testing is a separate step from winning, done by Claude against a published prompt and approved by the organisers.
+If twelve days is too tight, Challenge 5 opens on 26 October and runs to 8 November, with the target unannounced. Challenge 3, a GLP1R agonist, is open until 25 October.
+Three design problems, and they fight each other
+The objectives are not independent. The recommended epitope is the one that differs most between human and mouse, and the obvious way to add pH sensitivity pushes the switch in the wrong direction. Knowing both before you start is most of the advantage you can get here.
+Where to bind
+The apical domain is the tip of each subunit: the patch around Tyr211, roughly residues 202–215 plus 348 and 371. Parvovirus B19, Machupo virus and the designed binders in PDB 6WRV all land there, and it leaves the transferrin site, the helical domain at residues 619–670, free. That matters biologically: a binder that blocks transferrin stops the receptor doing its job, and the whole point is to ride the receptor's normal recycling.
+One trap in the structures. Most older TfR1 crystal structures, including 6WRV and 3KAS, carry Ser142, while UniProt and the competition construct have Gly142. If you model from one of them, fix position 142 or your design is optimised against the wrong sequence.
+The pH switch, and why the obvious approach inverts
+Histidine is the only side chain that titrates in this window: a lone histidine has a pKa near 6.0, so it is neutral at pH 7.4 and protonated at pH 6.0. Put histidines at the interface and the binding should change with pH. That is the standard recipe, and the direction it gives is usually backwards.
+A 2026 study histidine-scanned all four CDR loops of 8D3, an anti-mouse-TfR1 antibody, and tested about 230 variants. Two results should shape your whole approach:
+• Single substitutions were mostly pH-neutral. Only paired light-plus-heavy-chain substitutions gave graded pH sensitivity. If you design one histidine per candidate, you will likely get nothing.
+• Every pH-sensitive variant bound better at pH 6.0, not worse. Their histidines sat opposite backbone carbonyls on the apical loop, so protonation added a new hydrogen-bond donor and strengthened binding at low pH. The best variant had a KD of about 15 nM at pH 5.5 and no detectable binding at 7.4, which is exactly the opposite of what this challenge scores. Those variants also failed in mice, reaching blood vessels but never the brain.
+Protonation always adds positive charge, so a naive scan is structurally biased toward trapping rather than release. To get release at pH 6.0, place histidines where protonation costs you: facing a basic patch of arginines or lysines, so the new positive charge repels, or buried where it pays a desolvation penalty. Avoid putting them opposite carbonyls, asparagine, aspartate or glutamate.
+The cheapest useful calculation is the sign of the pKa shift on complex formation. Run a pKa predictor on the free binder and on the complex. A histidine whose pKa is lowered by binding releases at low pH, which is what you want. One whose pKa is raised binds better at low pH, which is the 8D3 trap. Two runs per variant, and it filters the direction before you spend anything else.
+Be realistic about magnitude. One titratable site gives at most about tenfold per pH unit, which the selection prompt states too. The Fc–FcRn switch, the textbook case, uses two histidines for 50–100x across 1.25 pH units. Over the 1.4 units from 7.4 to 6.0, a realistic solo result is fivefold to twentyfold, with some loss of absolute affinity, not a clean on-off. Expect your best switch to bind somewhat worse at pH 7.4 than its parent; in the 8D3 work the best switch went from about 0.9 nM to 4.2 nM. That trade is acceptable here, because objective 1 outranks affinity.
+Two other useful levers: histidine pKa depends strongly on its surroundings, shifting from about 6.1 at a helix N-cap to 7.4 at a C-cap, so aim for candidates predicted in the 6.0–7.0 band. Prediction error on histidine pKa runs around 0.7 units, so anything predicted at the edge of the window will fall out of it. And putting histidines on a non-load-bearing part of the interface periphery, rather than the hot spot, adds titratable sites without destroying the binding itself.
+Mouse cross-reactivity, which pulls against the epitope choice
+The apical patch differs at six of nine positions between species: human D204, R208, V210, Y211, N348 and K371 become mouse Q207, N211, D213, P214, K350 and Q373, and human L212 has no counterpart at all. The ectodomains are only about 78% identical. This is exactly why TfR1 brain-shuttle antibodies are normally made twice, once for mouse and once for human.
+So the recommended epitope is the species-variable one. You have three options, and they are worth splitting your 20 designs across rather than betting on one:
+1. Target the conserved sub-positions within the apical region. Align human P02786 against mouse Q62351, find the residues that are identical across the patch, and build an interface that leans on those and avoids the six that differ.
+2. Accept a smaller contact area. A binder that touches fewer residues has fewer chances to hit a difference, at the cost of affinity.
+3. Pick a different, more conserved surface. The challenge says explicitly that a design binding elsewhere is measured and ranked all the same. A conserved patch outside the apical domain, as long as it is not the transferrin site, is a legitimate and under-explored play.
+For the first option, an alignment of P02786 against Q62351 gives concrete targets. Human 326–347 is 22 consecutive residues identical in mouse and carries no glycan, which makes it the best cross-reactivity candidate; 298–324 is 27 identical residues but sits partly behind the glycan at N317; 230–244 gives another 15. Conservation is not the same as surface exposure, so compute per-residue solvent accessibility before committing to any of them. Two things make this worth the risk: no published TfR1 brain-shuttle binder is cross-reactive, every documented one is single-species, so objective 2 is open ground. And the challenge page's count of six differing positions is a slight undercount, since K205 and N215 also differ.
+One more biological constraint worth respecting: for TfR1, very high affinity and bivalent engagement are known to hurt, driving the receptor toward degradation instead of recycling. Monovalent, mid-affinity binders gave far better brain target engagement in published work. Since the target here is supplied as a homodimer presenting two copies of the epitope, a design that grips both subunits at once may measure well on the instrument and be wrong biologically. Mid-nanomolar with a clean pH switch is a better target than picomolar without one.
+Structures to start from
+• 6W3H — Denali's ATV brain shuttle bound to TfR1, with the receptor already trimmed to a 166-residue apical fragment. The most useful single file you have: a clinical-stage footprint, pre-trimmed.
+• 6WRV, with 6WRW and 6WRX — Baker-lab de novo designed binders on the apical domain, working by beta-sheet extension onto the exposed sheet edge. The closest published analogue to this task, and a reusable binding mode.
+• 11QC — apo human ectodomain, cryo-EM at 2.40 Å, released May 2026. Highest resolution available, and new enough to be absent from most training sets.
+• 11RN — the same ectodomain with the parvovirus B19 VP1u domain bound.
+• 3KAS — Machupo virus GP1 at the apical tip, the classic precedent for this epitope.
+• 3S9L and 1SUV — transferrin complexes. Use these to draw the forbidden zone, not as design templates.
+Three details to fix before you model. The transferrin forbidden zone is wider than the 619–670 the challenge page gives: UniProt annotates the ligand-binding region as 569–760, with the RGD motif at 646–648 required for transferrin binding. The tag-free 121–760 construct is a non-covalent dimer rather than a disulfide-linked one, because both interchain cysteines sit at 89 and 98, below the construct; the disulfides inside it are 353–363 and 556–558. And L212, inside the recommended patch, is a common human polymorphism (rs41301381, Leu to Val), so do not make it a buried anchor.
+There is no experimental structure of the mouse ectodomain, so the mouse side has to be modelled from Q62351.
+The pipeline to build
+The loop is the part worth building deliberately. If no histidine pair survives the direction check, generate more backbones rather than pushing a design that binds better at pH 6.0 into expensive validation.
+Tools, metrics and what it costs
+Start from Adaptyv's own public protein-design skills repo. It documents their standard pipeline and ships Modal wrappers (modal_boltzgen.py, modal_bindcraft.py, modal_boltz.py, modal_chai1.py) that remove most of the setup. It is the organiser's own tooling, which is the closest thing to knowing what good looks like here.
+The generators
+BoltzGen is the current default and where to start. Released November 2025, it co-designs sequence and all-atom structure in one step, so there is no separate sequence-design stage, and it has native nanobody-anything and antibody-anything protocols. Its paper reports 66% success on nine novel targets with 15 or fewer designs tested. It is pip install boltzgen, MIT-licensed, about 6 GB of weights, and needs neither PyRosetta nor AlphaFold weights. Check the model-weight licence separately from the code licence before any commercial use.
+BindCraft is the proven hedge, worth running in parallel on a different hotspot set for method diversity. One warning that can cost you days: it needs a PyRosetta academic licence registered in ~/.condarc before the conda environment will build. Start BoltzGen first and set BindCraft up alongside, not on the critical path.
+Two things not to plan around. RFdiffusion2 is not a binder tool; its repo documents enzyme active-site scaffolding and small-molecule binders. RFantibody's own README says the lack of a reliable filter is the pipeline's main limitation, and Germinal needs 40–60 GB of VRAM and an estimated 200–400 H100-hours.
+The pH calculations
+pip install propka gives you PROPKA3, which is the triage tool: fast, empirical, and enough to compute the pKa shift on complex formation that tells you which direction your switch runs. PypKa is a scriptable Poisson-Boltzmann alternative. Rosetta's pHDock is the best-validated ranker, predicting 40x against 50–100x measured for Fc–FcRn, but it needs Rosetta and about 1,000 models per target.
+Do not use FoldX or DDmut as the primary ranker here. Both failed to reproduce experimentally observed histidine-protonation effects. Constant-pH molecular dynamics is out of scope: one single-ligand study burned about 16 microseconds of sampling.
+The metrics that matter
+The selection prompt names three screens explicitly and says to record at least three per design rather than a ranking, read within a class, because single-sequence predictors score antibodies and nanobodies lower.
+Metric
+What it is
+How to get it
+Working threshold
+ipSAE
+Interface score over only the interchain pairs that pass a PAE cutoff, fixing ipTM's dilution by disordered regions
+ipsae.py, numpy only, reads Boltz pae.npz + .cif
+No published cutoff. The paper anchors 0.0–0.1 as a non-interacting control and 0.73 as a real interface. Rank with it, don't gate on it
+pLDDT
+Per-residue confidence
+Boltz complex_plddt
+Above 0.85 standard, 0.90 stringent
+Mean Kyte-Doolittle hydropathy
+Sequence hydropathy, a solubility proxy
+Compute from sequence
+No binder-specific cutoff published. BindCraft's nearest analogue gates surface hydrophobicity below 0.35, but it is a different measure and the numbers are not interchangeable
+ipTM
+Interface TM averaged over all residues
+Boltz iptm
+Above 0.50 standard, 0.70 stringent
+Interface PAE
+Interchain aligned error, the most predictive single score in dl_binder_design
+Boltz pae_*.npz
+Below 10 Å standard, 5 Å stringent
+Boltz-2 affinity
+affinity_pred_value is log10 of IC50 in µM, lower is better
+affinity_*.json
+Use the binary probability to separate binders from decoys
+scRMSD
+Design against refold
+—
+Below 2.0 Å standard, 1.5 Å stringent
+Expect roughly 10–15% of designs to pass this filter set. BindCraft's own documentation is blunt that none of these metrics predict affinity, which is the honest reason the selection prompt refuses to let any one of them decide.
+Compute
+A trimmed target is the single biggest lever on cost: cut the ectodomain down to the apical-domain-bearing part before anything else. On RunPod an L40S 48 GB runs about $1.09 an hour and an A100 80 GB about $1.79; the L40S is the value pick unless you cannot get the complex under roughly 550 residues. Modal gives $30 a month in free credits, and academics can apply for up to $10,000.
+At roughly 125 seconds per BoltzGen design, 2,000 designs is about 69 GPU-hours, or $125–135. A lean run of BoltzGen plus Boltz-2 validation on a trimmed target lands around $150–300, or $120–270 after Modal's free credit. Adding a BindCraft campaign and two-model validation takes it to $400–700.
+One quirk worth knowing: avoid generating binders 73–76 amino acids long, where BoltzGen tends to produce ubiquitin.
+Twelve days, and what to put in the 20 slots
+The schedule below front-loads the direction check, because finding out on day 10 that every switch runs backwards leaves no time to fix it.
+Days
+What you do
+Done when
+1
+Target prep. Trim the ectodomain to the apical-domain region, fix Gly142, align human P02786 against mouse Q62351, mark the six divergent positions, pick 3–6 hotspot sets
+You have trimmed PDBs and a conserved-residue map
+1–2
+Set up Modal and BoltzGen from Adaptyv's wrappers. Run a 50-design pilot on one hotspot set, both nanobody-anything and protein-anything
+A pilot batch came back and you can read the outputs
+2–3
+Direction check on the pilot. His-pair scan a handful of pilot binders, run PROPKA on free and bound forms, confirm you can find pKa-lowering pairs at all
+You have at least a few candidates whose pKa drops on binding
+3–7
+Scale generation: 2,000–5,000 designs across your hotspot sets. Set BindCraft up in parallel, off the critical path
+A few thousand designs on disk
+6–9
+His-pair engineering on the survivors. Enumerate pairs, not singles, at the interface periphery. Reject anything that improves at pH 6.0, then reject anything that loses too much at 7.4
+A ranked list of switch candidates
+8–10
+Validate with Boltz-2, Chai-1 for consensus. Predict human and mouse complexes
+ipSAE, pLDDT, PAE and affinity scores for every survivor
+10–11
+Score, rank, and choose the 20. Write the method description and the epitope evidence
+A ranked CSV and a written rationale
+12
+Submit, with a day of slack
+Submitted before 23:59 AoE on 1 November
+The portfolio
+Don't submit 20 variations on one design. The selection prompt asks for diversity across method families, epitopes and nine structural classes, and reserves roughly a tenth of slots for new methods even untested, plus a few well-argued long shots. It also takes several designs from each selected submission rather than one or two, so a coherent set beats a scattered one. A reasonable split:
+• 8–10 designs on your main bet: apical-domain binders with the best pKa-lowering histidine pairs, as nanobodies or miniproteins.
+• 4–5 on the cross-reactivity play: designs built against the conserved sub-positions, or a smaller contact area, accepting lower affinity for a mouse-to-human ratio near 1.
+• 3–4 on a different epitope: a conserved surface away from the apical domain and away from the transferrin site at 619–670. Under-explored, explicitly allowed, and a genuine long shot worth arguing for.
+• 2–3 pH-independent controls: your best binders with no histidine engineering. If your switches all fail, these still produce a measured KD, and the comparison is the most informative thing you could publish.
+Rank them deliberately. A failed computational screen never removes a participant's top-ranked design, so put your most interesting design first, not your safest.
+What to write alongside
+Four things earn their place in the submission:
+1. Name the epitope and link the evidence. If you don't, they predict the complex and read the epitope off the model, treating it as a guess.
+2. State the pH mechanism: which residues titrate, which direction, and why. Designs relying on a designed pH mechanism are not penalised at selection; the measurement decides.
+3. Describe the method honestly, including what is novel. Novelty is judged on the binding part alone, so linkers, tags, padding and extra domains do not help.
+4. Keep it factual. Polished prose is not evidence, missing optional information is no fault, and identity, affiliation and which tools you used are all explicitly ignored.
+What will probably go wrong
+In Adaptyv's earlier open competition, about 1,857 designs were submitted, roughly 600 were tested, and 60 validated as binders. Getting selected is not winning, and most designs that are tested do not bind. Plan for that, and build the run so it produces something either way.
+The specific failure modes, in rough order of likelihood:
+• Your switch runs backwards. This is the default outcome, not an edge case: in the 8D3 scan, all the pH-sensitive variants bound better at low pH. Mitigation is the pKa-direction check, early and on the pilot batch.
+• Nothing switches at all. Single histidines are usually inert, and even designed histidine networks sometimes give no pH response whatsoever. Enumerate pairs from the start.
+• The switch works and the affinity is gone. Expect to lose some binding at pH 7.4; reject on that before ranking on the pH ratio, or you will drift into designs that are weak at both.
+• The midpoint lands in the wrong place. Tunable designs in the literature came out anywhere between pH 3.5 and 5.8. A switch centred at 4.5 scores as pH-independent across 7.4 and 6.0.
+• Prediction error swamps the signal. Histidine pKa prediction carries roughly 0.7 units of error, so prefer candidates predicted in the 6.0–7.0 band where the error still leaves them in window.
+• Cross-reactivity simply doesn't happen. No published TfR1 shuttle binder is cross-reactive. Treat objective 2 as a stretch, which is why some of the 20 slots should not depend on it.
+• Setup eats your week. The PyRosetta licence gate on BindCraft is the classic multi-day trap. BoltzGen needs no such licence, which is the main reason to start there.
+Two honest limits on the tooling. There is no validated machine-learning method for predicting whether a binder will be pH-switchable; the pKa calculations are the best available and they are empirical. And one study reported TfR1 precipitating at pH 5.5, so even the published work had to infer its mechanism from a model rather than a structure.
+Write it down as you go
+Selected designs are synthesised and tested by 7 December, and every measurement including the failures is published on Proteinbase in early January. That publication is the real artifact, and it is worth preparing for from day one.
+Keep a record of four things while you work:
+1. Your prediction for each submitted design, written before you see any result: will it bind, at what rough affinity, and which way will the pH switch run.
+2. The direction-check log: how many candidates ran the wrong way, and whether PROPKA's sign actually predicted it.
+3. What each metric said against what the lab measured. ipSAE, pLDDT and predicted affinity are known not to predict binding well; your designs are a chance to say something specific about where they failed.
+4. Where the tools fought you, concretely: setup, runtimes, cost, the gap between what the protocols assume and what this target needed.
+That last set is the part with value beyond the competition. Anyone can report that they entered. A clear account of where the current stack's predictions diverged from the measurements, on designs you made yourself, is the kind of thing the people running these pipelines actually argue about.

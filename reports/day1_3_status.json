@@ -1,0 +1,107 @@
+{
+  "updated_utc": "2026-10-20T16:26:32.265399+00:00",
+  "day_1": {
+    "status": "complete",
+    "target": "11QC chain A native 190-383",
+    "crop_residues": 194,
+    "hotspot_sets": 4,
+    "conservation_map": "data/prepared/conservation_map.csv",
+    "audit": "data/prepared/preparation_audit.json"
+  },
+  "day_1_2": {
+    "status": "complete",
+    "planned_designs": {
+      "protein-anything": 25,
+      "nanobody-anything": 25
+    },
+    "actual_generated_designs": 50,
+    "cloud_launched": true,
+    "authorized_total_usd": 30,
+    "pilot_gpu_validation": "completed_both_protocols",
+    "modal_app_url": "https://modal.com/apps/anushajain2/main/ap-SG12ilOCHzmhop05huhGoQ",
+    "run_id": "pilot-002",
+    "prior_attempt": "pilot-001 failed validation before generation; fixed missing CIF polymer metadata",
+    "readable_designs": 50,
+    "read_errors": 0,
+    "quality_by_protocol": {
+      "protein-anything": {
+        "designs": 25,
+        "max_interface_iptm": 0.21514,
+        "geometry": {
+          "target_fit_failed": 6,
+          "clash_free": 2,
+          "receptor_clashes": 17
+        },
+        "qualified_parents": 0
+      },
+      "nanobody-anything": {
+        "designs": 25,
+        "max_interface_iptm": 0.30067,
+        "geometry": {
+          "receptor_clashes": 18,
+          "target_fit_failed": 5,
+          "clash_free": 2
+        },
+        "qualified_parents": 0
+      }
+    }
+  },
+  "day_2_3": {
+    "status": "completed_exploratory_direction_check; qualified_candidate_milestone_not_met",
+    "pilot_candidates": 0,
+    "reference_test_only": {
+      "source": "published 6WRV, NOT a pilot design",
+      "completed_models": 2,
+      "provisional_candidates": 0,
+      "results": "outputs/reference_smoke_two_seeds/direction_results.csv"
+    },
+    "parents_scanned": 4,
+    "histidine_pairs": 8,
+    "models_attempted": 16,
+    "models_successful": 12,
+    "models_failed": 4,
+    "pairs_with_both_pKas_lowered_in_both_models": 6,
+    "pairs_passing_direction_criteria": 3,
+    "results": "reports/pilot/direction_summary.json"
+  },
+  "validation": {
+    "local_tests_passed": 14,
+    "remote_boltzgen_check": "passed_both_protocols",
+    "real_reference_rebuild_and_propka": "passed_two_seeds",
+    "all_pilot_files_readable": 75,
+    "read_errors": 0,
+    "successful_direction_models_audited": 12,
+    "cloud_input_hashes_match_archived_specs": true
+  },
+  "next_user_actions": [],
+  "limitations": [
+    "No experimental binding evidence",
+    "No qualified parents among all 75 designs",
+    "pKa lowering is a triage hypothesis; low-confidence parents cannot qualify",
+    "PROPKA uses intact trimmed complex; full-receptor graft is used only for clash checks",
+    "Finding qualifying pairs cannot be guaranteed within approved budget"
+  ],
+  "adaptive_followup": {
+    "status": "complete",
+    "run_id": "pilot-003",
+    "designs": 25,
+    "protocol": "protein-anything",
+    "hotspot": "apical_tip_basic_direction_probe",
+    "modal_app_url": "https://modal.com/apps/anushajain2/main/ap-UIvelg775b0skTC1Jm5x6k",
+    "reason_record": "reports/run_inputs/pilot-003/decision.json",
+    "readable_designs": 25,
+    "qualified_parents": 0,
+    "max_interface_iptm": 0.25777
+  },
+  "cost": {
+    "record": "reports/billing_final.json",
+    "metered_gross_usd": 2.39221223,
+    "conservative_reported_usage_usd": 2.394155,
+    "billed_usd": 0.0,
+    "authorized_total_including_credits_usd": 30,
+    "billing_may_lag": true,
+    "recorded_at_utc": "2026-10-20T16:21:02.898669+00:00"
+  },
+  "total_real_designs": 75,
+  "active_cloud_runs": 0
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "data/raw/11QC.cif",
+    "url": "https://files.rcsb.org/download/11QC.cif",
+    "sha256": "4eaa5db67ed83a896713c4b42d1dc214c778bdac240fdf3a9a82e86a66f79495",
+    "recorded_utc": "2026-10-20T13:14:23.146966+00:00"
+  },
+  {
+    "file": "data/raw/6W3H.cif",
+    "url": "https://files.rcsb.org/download/6W3H.cif",
+    "sha256": "8b8886ba4abb68f5206d721a5c29c4613170ab8d79a80b13952687107fa3a155",
+    "recorded_utc": "2026-10-20T13:14:25.113256+00:00"
+  },
+  {
+    "file": "data/raw/6WRV.cif",
+    "url": "https://files.rcsb.org/download/6WRV.cif",
+    "sha256": "022c811697a61ba0a9af39ef06a6e354fe7313659999e5c3e00756afbf0af02f",
+    "recorded_utc": "2026-10-20T13:14:25.690673+00:00"
+  },
+  {
+    "file": "data/raw/3S9L.cif",
+    "url": "https://files.rcsb.org/download/3S9L.cif",
+    "sha256": "8627bda91c65c8dd39589ccf5460cdca3f9ba08480e2ef545e4efb8aa5dc2527",
+    "recorded_utc": "2026-10-20T13:14:28.296456+00:00"
+  },
+  {
+    "file": "data/raw/P02786.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/P02786.fasta",
+    "sha256": "5d1a4b5d53b03c1781596fc048f339f9dfdaf8f77822faf6490909813155810d",
+    "recorded_utc": "2026-10-20T13:14:30.025108+00:00"
+  },
+  {
+    "file": "data/raw/Q62351.fasta",
+    "url": "https://rest.uniprot.org/uniprotkb/Q62351.fasta",
+    "sha256": "7f2e762c62dfa040cfd262a9630c69db2c7266d6b658be1e552694adc85eb460",
+    "recorded_utc": "2026-10-20T13:14:30.965924+00:00"
+  }
+]

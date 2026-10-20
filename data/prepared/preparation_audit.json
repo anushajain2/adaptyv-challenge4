@@ -1,0 +1,41 @@
+{
+  "primary": "11QC chain A",
+  "crop_uniprot": [
+    190,
+    383
+  ],
+  "crop_length": 194,
+  "G142_primary": "already GLY; outside crop",
+  "corrections": [
+    {
+      "structure": "6WRV",
+      "chain": "A",
+      "uniprot": 142,
+      "from": "SER",
+      "to": "GLY"
+    },
+    {
+      "structure": "6WRV",
+      "chain": "B",
+      "uniprot": 142,
+      "from": "SER",
+      "to": "GLY"
+    },
+    {
+      "structure": "6WRV",
+      "chain": "E",
+      "uniprot": 142,
+      "from": "SER",
+      "to": "GLY"
+    }
+  ],
+  "missing_primary_assay_residues": [
+    121
+  ],
+  "6W3H_caution": "Circularly permuted apical fragment; NOT simple native numbering. Not used as design target.",
+  "sasa": "Shrake-Rupley, 200 points; observed full dimer and glycans",
+  "glycan_limit": "Observed glycans are incomplete; no assurance of glycan clearance.",
+  "mouse_model": "No modeled mouse structure generated; conservation map only.",
+  "alignment": "Global BLOSUM62, gap open -10, extend -0.5. Sequence gap at V210 differs from published gap at L212; 210-212 excluded from conserved hotspots.",
+  "hotspots": "Provisional exposed sets, not experimentally established epitopes."
+}

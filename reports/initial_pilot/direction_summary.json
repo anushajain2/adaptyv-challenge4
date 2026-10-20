@@ -1,0 +1,22 @@
+{
+  "pilot_parents_analyzed": 4,
+  "histidine_pairs": 8,
+  "model_counts": {
+    "model_ok": 12,
+    "direction_release": 12,
+    "model_failed": 4,
+    "direction_unresolved": 4
+  },
+  "pairs_with_both_pKas_lowered_in_all_models": 6,
+  "pairs_passing_direction_criteria": 3,
+  "provisional_candidates": 0,
+  "exploratory_pka_lowering_variants": 6,
+  "strict_criteria": "Parent ipTM >=0.5, backbone refold RMSD <2.5 A, no receptor clashes; two successful seeds, both shifts <= -0.5, at least one free pKa 6-7, His-only Kd ratio >=2, no PROPKA incomplete-group warnings",
+  "limitations": [
+    "No experimental binding evidence",
+    "Mutant affinity and folding not validated",
+    "His-only independent-site linkage model",
+    "PROPKA uses trimmed target with artificial termini; omitted receptor/glycans may affect pKa",
+    "Incomplete conformational sampling"
+  ]
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.modal.toml
+vendor/
+outputs/
+*.egg-info/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

@@ -1,0 +1,63 @@
+{
+  "crop_length": 194,
+  "hotspots": [
+    {
+      "name": "conserved_326_347",
+      "human_positions": [
+        327,
+        331
+      ],
+      "cross_species": "sequence-conserved; binding not established",
+      "caution": "screen full-dimer clashes after generation",
+      "boltzgen_indices": [
+        138,
+        142
+      ]
+    },
+    {
+      "name": "conserved_230_244",
+      "human_positions": [
+        240,
+        241,
+        244
+      ],
+      "cross_species": "sequence-conserved; binding not established",
+      "caution": "screen full-dimer clashes after generation",
+      "boltzgen_indices": [
+        51,
+        52,
+        55
+      ]
+    },
+    {
+      "name": "conserved_298_324_glycan_caution",
+      "human_positions": [
+        303,
+        300,
+        311
+      ],
+      "cross_species": "sequence-conserved; binding not established",
+      "caution": "N317 glycan proximity",
+      "boltzgen_indices": [
+        114,
+        111,
+        122
+      ]
+    },
+    {
+      "name": "apical_tip_basic_direction_probe",
+      "human_positions": [
+        205,
+        208,
+        371
+      ],
+      "cross_species": "divergent: human-first direction probe",
+      "caution": "basic patch is a hypothesis; PROPKA must check sign",
+      "boltzgen_indices": [
+        16,
+        19,
+        182
+      ]
+    }
+  ]
+}

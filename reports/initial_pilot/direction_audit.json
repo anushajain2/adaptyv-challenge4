@@ -1,0 +1,23 @@
+{
+  "successful_models_audited": 12,
+  "checks": [
+    "free and bound binder heavy-atom coordinates identical",
+    "two complete engineered HIS residues",
+    "no PROPKA incomplete-group warnings",
+    "reported shifts equal bound minus free pKa"
+  ],
+  "models": [
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_03/H60_H62_seed11",
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_03/H60_H62_seed29",
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_03/H62_H106_seed11",
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_03/H62_H106_seed29",
+    "outputs/direction_initial/protein-anything_conserved_326_347_protein-anything_01/H44_H49_seed11",
+    "outputs/direction_initial/protein-anything_conserved_326_347_protein-anything_01/H44_H49_seed29",
+    "outputs/direction_initial/protein-anything_conserved_326_347_protein-anything_01/H44_H46_seed11",
+    "outputs/direction_initial/protein-anything_conserved_326_347_protein-anything_01/H44_H46_seed29",
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_22/H30_H104_seed11",
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_22/H30_H104_seed29",
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_22/H30_H118_seed11",
+    "outputs/direction_initial/nanobody-anything_conserved_326_347_nanobody-anything_22/H30_H118_seed29"
+  ]
+}

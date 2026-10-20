@@ -1,0 +1,10 @@
+human_uniprot,human_aa,mouse_uniprot,mouse_aa,conserved,documented_six,published_mouse_position,alignment_caution,recommended_tip,in_assay,in_crop,boltzgen_index,sasa_dimer_A2,sasa_crop_A2,observed_glycan_distance_A,near_N317_sequon,crop_boundary
+204,D,207,Q,False,True,207,,True,True,True,15,48.77,48.77,14.16,False,False
+205,K,208,S,False,False,,,True,True,True,16,132.16,132.16,10.08,False,False
+208,R,211,N,False,True,211,,True,True,True,19,150.28,150.28,17.72,False,False
+210,V,,-,False,True,213,gap placement differs from published structural correspondence,True,True,True,21,82.34,82.34,19.01,False,False
+211,Y,213,D,False,True,214,gap placement differs from published structural correspondence,True,True,True,22,70.36,70.36,20.86,False,False
+212,L,214,P,False,False,,gap placement differs from published structural correspondence,True,True,True,23,78.02,78.02,22.81,False,False
+215,N,217,S,False,False,,,True,True,True,26,72.82,72.82,25.03,False,False
+348,N,350,K,False,True,350,,True,True,True,159,25.09,25.09,15.98,False,False
+371,K,373,Q,False,True,373,,True,True,True,182,59.35,59.35,11.25,False,False
