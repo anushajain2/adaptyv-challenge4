@@ -216,11 +216,12 @@ def main():
     for s in sets:
         for protocol in ("protein-anything", "nanobody-anything"):
             target = {"path": "human_apical.cif", "include": [{"chain": {"id": "A"}}],
-                      "binding_types": [{"chain": {
-                          "id": "A", "binding": ",".join(map(str, s["boltzgen_indices"])),
-                          "not_binding": ",".join(str(p) for p in forbidden
-                                                  if p not in s["boltzgen_indices"]),
-                      }}]}
+                      # The pinned file parser uses if/elif for these keys.
+                      # Separate entries are required or hotspots are ignored.
+                      "binding_types": [
+                          {"chain": {"id": "A", "not_binding": ",".join(str(p) for p in forbidden
+                                                  if p not in s["boltzgen_indices"])}},
+                          {"chain": {"id": "A", "binding": ",".join(map(str, s["boltzgen_indices"]))}}]}
             binder = ({"protein": {"id": "B", "sequence": "80..110"}}
                       if protocol == "protein-anything" else {"file": scaffold})
             spec = {"entities": [{"file": target}, binder]}

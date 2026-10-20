@@ -1,0 +1,32 @@
+[
+  {
+    "arm": "unconstrained",
+    "design_tokens": 88,
+    "target_tokens": 194,
+    "sheet_positions": [],
+    "hotspots_crop": [
+      19,
+      21,
+      22
+    ],
+    "design_count": 10
+  },
+  {
+    "arm": "sheet",
+    "design_tokens": 88,
+    "target_tokens": 194,
+    "sheet_positions": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "hotspots_crop": [
+      19,
+      21,
+      22
+    ],
+    "design_count": 10
+  }
+]

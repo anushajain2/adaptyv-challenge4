@@ -1,0 +1,32 @@
+Using dataset artifact: /root/.cache/huggingface/hub/datasets--boltzgen--inference-data/snapshots/c3d36fd276e9caf098c75d4113c6d5eb320b1a4c/mols.zip
+Creating output directory: /results/generation-007-6wrw/unconstrained
+************** Checking design spec: /results/generation-007-6wrw/inputs/unconstrained.yaml **************
+Total designed residues: 88
+Design specification visualization is written to /results/generation-007-6wrw/unconstrained/unconstrained.cif
+**********************************************************************************************************
+Using kernels: True [device capability: (8, 9)]
+Config overrides for protocol protein-anything: {}
+Using 1 devices
+Raw designs will be saved to: /results/generation-007-6wrw/unconstrained/intermediate_designs
+Using diffusion batch size: 1
+Number of diffusion batches: 10
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Using model artifact: /root/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltzgen1_diverse.ckpt
+Using model artifact: /root/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltzgen1_adherence.ckpt
+Inverse-folded designs will be saved to: /results/generation-007-6wrw/unconstrained/intermediate_designs_inverse_folded
+Using model artifact: /root/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltzgen1_ifold.ckpt
+Using model artifact: /root/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltz2_conf_final.ckpt
+Using model artifact: /root/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltz2_conf_final.ckpt
+Final ranked designs will be saved to: /results/generation-007-6wrw/unconstrained/final_ranked_designs
+[1] design                   
+[2] inverse_folding          
+Configuration complete. Configs written to /results/generation-007-6wrw/unconstrained/config
+Steps manifest written to /results/generation-007-6wrw/unconstrained/steps.yaml
+Traceback (most recent call last):
+  File "/results/generation-007-6wrw/inputs/generation_comparison_worker.py", line 118, in <module>
+    if args.operation == "preflight": preflight(args.output)
+                                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/results/generation-007-6wrw/inputs/generation_comparison_worker.py", line 41, in preflight
+    assert hotspots.tolist() == manifest["hotspots_crop"], hotspots
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: []

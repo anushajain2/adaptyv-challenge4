@@ -1,0 +1,12 @@
+{
+  "run_id": "generation-007-6wrw",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "stage": "preflight",
+      "returncode": 1,
+      "elapsed_total_seconds": 18.454367082
+    }
+  ],
+  "elapsed_seconds": 18.456356299
+}

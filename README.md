@@ -5,15 +5,25 @@ This project prepares a human TfR1 target, runs 25 miniprotein and 25 nanobody d
 **Start with the [results report](reports/RESULTS.md).** The initial 50 designs and
 a 25-design follow-up are complete. Six exploratory pKa-lowering variants were
 found, but **zero candidates pass the full parent and direction gates**.
-The latest post-calibration Modal snapshot reports approximately **US$3.19 gross usage**.
+The latest Modal snapshot reports approximately **US$3.89 gross usage**.
+The new 20-design 6WRW comparison is complete: **0/20 advance**, with matched controls passing.
+
+**Hotspot correction:** feature-level preflight found that our specifications
+combined `binding` and `not_binding` in one chain entry, but the pinned parser
+reads only the latter in that case. All 75 earlier generated metadata files
+confirm zero positive hotspot tokens. Their metrics remain valid; they do not
+test the intended hotspot conditioning. Current specifications split the entries,
+and the new comparison verifies the actual features before sampling.
 
 **Calibration follow-up:** all 100 earlier control samples were audited, and
 80 matched BoltzGen plus 20 Chai-1 predictions were completed. BoltzGen recovered
 the held-out 2DS25.5 interface and fold in all 20 samples, strongest with 6WRW.
 ipSAE at the predeclared cutoff missed 3DS18; sequence-only Chai reproduced the
 2DS25.5 fold but recovered neither published interface. The replacement gate
-remains unvalidated, so the 20-design comparison was not launched. Full results,
-PAE export fixes and reproducibility records are in the results report.
+remains unvalidated. A separately justified exploratory comparison now uses
+6WRW, 10 unconstrained plus 10 sheet-constrained 88-residue miniproteins, with
+two fresh refolding seeds and matched controls. Full results, PAE export fixes
+and reproducibility records are in the results report.
 
 ## Current status
 
@@ -22,13 +32,17 @@ PAE export fixes and reproducibility records are in the results report.
 | Target structures, human/mouse conservation map, four hotspot sets | Generated |
 | Modal/BoltzGen pilot implementation | Both protocols completed successfully |
 | 50 real pilot designs | 25 miniproteins + 25 nanobodies downloaded; none pass the parent-confidence gate |
-| Adaptive follow-up | 25 miniproteins at the exposed apical tip completed; no qualified parents |
+| 6WRW generation comparison | 10 unconstrained + 10 sheet-constrained designs; 230 predictions scored; 0 advance |
+| Adaptive follow-up | 25 miniproteins completed; intended apical-tip hotspot labels were not applied; no qualified parents |
 | Histidine-pair rebuild, relaxation, and PROPKA pipeline | Ran 8 pairs × 2 models across 4 actual pilot parents |
 | pKa-lowering pairs from the pilot | 6 exploratory pairs lower both pKas in both models; 0 qualified candidates because parent confidence is low |
 
-The approved cloud budget is **US$30 total including credits**, with **25 designs per protocol**. No outcome is guaranteed within that budget.
+The approved cloud budget is **US$30 total including credits**. The original
+pilot used 25 designs per protocol; the new 20-design comparison has a separate
+**US$5 allowance within that total**, including its failed preflight attempt.
+No outcome is guaranteed within that budget.
 
-Local verification: **25 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **30 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.
@@ -269,3 +283,37 @@ are different. The target retains the shared observed construct span (positions
 The upstream writer omits their coordinates; analysis preserves that numbering.
 These controls are not new designs. The scrambled sequence and unrelated VHH are
 hypothesized negatives, not experimentally established nonbinders.
+
+
+### Reproduce the 6WRW generation comparison analysis
+
+The prospective specification is in `data/generation_comparison/manifest.json`.
+The two arms differ only in a five-residue secondary-structure constraint, with
+10 designs of length 88 per arm. Both use target-only templates and empty MSA
+for refolding at fresh seeds 101 and 211, five samples per sequence and seed.
+The published positive and two presumed negatives are controls, not candidates.
+
+```bash
+.venv/bin/python scripts/download_pilot.py generation-008-6wrw outputs/generation008_complete
+.venv/bin/python scripts/analyze_generation_comparison.py \
+  outputs/generation008_complete/generation-008-6wrw
+.venv/bin/python scripts/plot_generation_comparison.py
+```
+
+Generation uses the pinned upstream design and inverse-folding stages; refolding
+uses the same audited worker as the controls, retaining full PAE and all samples.
+The launcher reserves spending before loading Modal and refuses unreviewed repeat
+attempts. Both attempts share one $5 experiment ceiling within the $30 total.
+Configured RNG seeds are archived; upstream NumPy generators and GPU operations
+mean bit-for-bit reproducibility is not asserted.
+
+The original calibration gate remains failed. This experiment has its own
+prospective structural triage criteria; passing is not experimental validation.
+Inverse-folded reference sidechains are placeholders, so design-contact recall
+uses binder backbone contacts against target heavy atoms. Fully predicted atoms
+are used for hotspot, PAE and clash measurements. This metric clarification was
+recorded before examining new refolding results, with no threshold change.
+
+The hotspot-format defect and its actual-output audit are documented in
+`reports/generation_comparison/hotspot_conditioning_audit/audit.json`. Historical
+run inputs are preserved, while current `configs/` specifications are corrected.

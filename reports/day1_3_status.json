@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-20T19:16:24.090586+00:00",
+  "updated_utc": "2026-10-20T20:29:44.626116+00:00",
   "day_1": {
     "status": "complete",
     "target": "11QC chain A native 190-383",
@@ -65,7 +65,7 @@
     "results": "reports/pilot/direction_summary.json"
   },
   "validation": {
-    "local_tests_passed": 25,
+    "local_tests_passed": 30,
     "remote_boltzgen_check": "passed_both_protocols",
     "real_reference_rebuild_and_propka": "passed_two_seeds",
     "all_pilot_files_readable": 75,
@@ -76,7 +76,7 @@
   "next_user_actions": [],
   "limitations": [
     "No experimental binding evidence",
-    "No qualified parents among all 75 designs",
+    "No qualified parents among all 95 generated designs under their respective prospective screens",
     "pKa lowering is a triage hypothesis; low-confidence parents cannot qualify",
     "PROPKA uses intact trimmed complex; full-receptor graft is used only for clash checks",
     "Finding qualifying pairs cannot be guaranteed within approved budget"
@@ -94,42 +94,83 @@
     "max_interface_iptm": 0.25777
   },
   "cost": {
-    "record": "reports/controls_chai/billing_after.json",
-    "metered_gross_usd": 3.19348563,
-    "conservative_reported_usage_usd": 3.19348563,
+    "record": "reports/generation_comparison/run_record/billing_after.json",
+    "metered_gross_usd": 3.89348628,
+    "conservative_reported_usage_usd": 3.8935808,
     "billed_usd": 0.0,
     "authorized_total_including_credits_usd": 30,
     "billing_may_lag": true,
-    "recorded_at_utc": "2026-10-20T19:16:24.090586+00:00"
+    "recorded_at_utc": "2026-10-20T20:30:53.490698+00:00"
   },
-  "total_real_designs": 75,
+  "total_real_designs": 95,
   "active_cloud_runs": 0,
   "calibration": {
-    "checkpoint": "All-sample audit, matched full-PAE scoring and Chai cross-check",
+    "checkpoint": "Calibration complete; subsequent 6WRW generation comparison complete",
     "completed_runs": [
       "controls-002",
       "controls-004-msa",
       "controls-005-matched",
-      "controls-006-chai"
+      "controls-006-chai",
+      "generation-008-6wrw (30 controls plus 200 novel-design predictions)"
     ],
-    "total_control_diffusion_samples": 200,
-    "all_samples_analyzed": 200,
-    "new_control_samples_this_round": 100,
-    "new_designs_generated": 0,
-    "generation_gate": "failed; no threshold retuning; 20-design batch unlaunched",
+    "total_control_diffusion_samples": 230,
+    "all_samples_analyzed": 230,
+    "new_control_samples_this_round": 30,
+    "new_designs_generated": 20,
+    "generation_gate": "Original broader calibration gate remains failed; separate prospective 20-design experiment completed with 0 advancing designs",
     "best_complete_complex_reference": "2DS25.5 / 6WRW under target-templated BoltzGen",
     "new_histidine_screening": "not started; no new qualified parents",
-    "local_tests_passed": 25,
+    "local_tests_passed": 30,
     "budget_authorized_gross_usd": 30,
     "round_planning_ceiling_usd": 5,
-    "latest_reported_gross_usd": 3.19348563,
-    "billing_snapshot": "reports/controls_chai/billing_after.json",
+    "latest_reported_gross_usd": 3.8935808,
+    "billing_snapshot": "reports/generation_comparison/run_record/billing_after.json",
     "billing_may_lag": true,
     "active_cloud_runs": 0,
     "evidence": [
       "reports/controls/all_samples_audit.json",
       "reports/controls_matched/results.json",
-      "reports/controls_chai/results.json"
-    ]
-  }
+      "reports/controls_chai/results.json",
+      "reports/generation_comparison/results.json"
+    ],
+    "prospective_comparison_controls_pass": true,
+    "prospective_comparison": "reports/generation_comparison/results.json"
+  },
+  "hotspot_conditioning_correction": {
+    "status": "confirmed_from_hash_matched_archived_inputs",
+    "affected_designs": 75,
+    "cause": "Pinned file parser ignores binding if not_binding is present in the same chain entry",
+    "positive_hotspots_applied": false,
+    "historical_metrics_unchanged": true,
+    "audit": "reports/generation_comparison/hotspot_conditioning_audit/audit.json",
+    "actual_saved_metadata_verified": 75
+  },
+  "generation_comparison": {
+    "status": "complete_no_qualified_parents",
+    "run_id": "generation-008-6wrw",
+    "requested_designs": 20,
+    "arms": {
+      "unconstrained": 10,
+      "sheet": 10
+    },
+    "actual_feature_preflight": "passed",
+    "hotspots_native": [
+      208,
+      210,
+      211
+    ],
+    "experiment_cap_usd": 5,
+    "preceding_preflight_only_failure": "generation-007-6wrw",
+    "actual_unique_designs": 20,
+    "refolding_samples": 230,
+    "novel_design_refolding_samples": 200,
+    "control_samples": 30,
+    "controls_pass": true,
+    "qualified_parents": 0,
+    "active_cloud_tasks": 0,
+    "results": "reports/generation_comparison/results.json",
+    "gross_usage_latest_usd": 3.8935808
+  },
+  "latest_gross_usage_usd": 3.8935808,
+  "control_predictions_analyzed": 230
 }

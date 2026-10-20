@@ -61,7 +61,7 @@ def test_flat_nanobody_spec_has_real_framework_and_design():
     scaffold=spec["entities"][1]["file"]
     assert scaffold["design"]
     assert (ROOT/"configs"/scaffold["path"]).exists()
-    target=spec["entities"][0]["file"]["binding_types"][0]["chain"]
+    target={k:v for e in spec["entities"][0]["file"]["binding_types"] for k,v in e["chain"].items()}
     assert not set(target["binding"].split(",")) & set(target["not_binding"].split(","))
 
 

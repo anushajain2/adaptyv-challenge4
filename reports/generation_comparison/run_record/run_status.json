@@ -1,0 +1,47 @@
+{
+  "run_id": "generation-008-6wrw",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "stage": "preflight",
+      "returncode": 0,
+      "elapsed_total_seconds": 27.409069659
+    },
+    {
+      "stage": "unconstrained-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 190.477731398
+    },
+    {
+      "stage": "unconstrained-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 213.356317311
+    },
+    {
+      "stage": "sheet-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 370.914465647
+    },
+    {
+      "stage": "sheet-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 388.251209566
+    },
+    {
+      "stage": "assemble",
+      "returncode": 0,
+      "elapsed_total_seconds": 408.019587484
+    },
+    {
+      "stage": "seed-101",
+      "returncode": 0,
+      "elapsed_total_seconds": 741.551571039
+    },
+    {
+      "stage": "seed-211",
+      "returncode": 0,
+      "elapsed_total_seconds": 1072.0817929870002
+    }
+  ],
+  "elapsed_seconds": 1072.0818122780001
+}

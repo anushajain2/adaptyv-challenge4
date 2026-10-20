@@ -1,0 +1,563 @@
+{
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "parser_source": "src/boltzgen/data/parse/schema.py:1913-1928",
+  "rows": [
+    {
+      "run": "pilot-002",
+      "spec": "conserved_326_347_protein-anything.yaml",
+      "matches_archived_input_hash": true,
+      "binding_and_not_binding_same_entry": true,
+      "conclusion": "pinned file parser chooses not_binding and skips binding",
+      "source": "reports/run_inputs/pilot-002/conserved_326_347_protein-anything.yaml",
+      "sha256": "47b502034a1b3152ba01492fa8d7bd59eb9a192d51b30ec224636b3ef0cbb8f3"
+    },
+    {
+      "run": "pilot-002",
+      "spec": "conserved_326_347_nanobody-anything.yaml",
+      "matches_archived_input_hash": true,
+      "binding_and_not_binding_same_entry": true,
+      "conclusion": "pinned file parser chooses not_binding and skips binding",
+      "source": "reports/run_inputs/pilot-002/conserved_326_347_nanobody-anything.yaml",
+      "sha256": "246a38778fa4c7efe0732d28b90a0e1a2f3ae38251f2a4b469cb988ad35f5c02"
+    },
+    {
+      "run": "pilot-003",
+      "spec": "apical_tip_basic_direction_probe_protein-anything.yaml",
+      "matches_archived_input_hash": true,
+      "binding_and_not_binding_same_entry": true,
+      "conclusion": "pinned file parser chooses not_binding and skips binding",
+      "source": "reports/run_inputs/pilot-003/apical_tip_basic_direction_probe_protein-anything.yaml",
+      "sha256": "509206b583bd0d271ff1bb975e17bcc9a0de6c049072dd07d96828f543493499"
+    }
+  ],
+  "correction": "Separate same-chain binding_types entries; verify actual model feature arrays before generation.",
+  "actual_generated_metadata_audited": 75,
+  "models_with_positive_hotspot_tokens": 0,
+  "actual_metadata": [
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_00.npz",
+      "sha256": "6052e2de71958d938998d3bc436266748b1d7c5e6aa82fc0a73aab17e5e07273",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_01.npz",
+      "sha256": "612a29ebceccab9738cb71d285f2bfad390cced0b0902d146189ddef7d41118c",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_02.npz",
+      "sha256": "99b78a36a70ced399c07349de78e2095ea21f66db8fb54254447022c5a8217a2",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_03.npz",
+      "sha256": "25a1fcd16a5aa1ec352c6963e1d4fef60312ccf2ff9947ec18b0d11370afa8cf",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_04.npz",
+      "sha256": "1adc28d3a895b8ea98948d964e6b67d3d7a271b79c533032268733fcfad07765",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_05.npz",
+      "sha256": "e7c0e897b3b7c317c5cb95baab388050cbe4edd537f35019d5d53d50cbed64d7",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_06.npz",
+      "sha256": "addd4d60fe30b033ace60a4cf5493caa4b84ff096062a08b9fd32291a291fba0",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_07.npz",
+      "sha256": "1adc28d3a895b8ea98948d964e6b67d3d7a271b79c533032268733fcfad07765",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_08.npz",
+      "sha256": "09c737b08afdfcbee92752008b9469b13507238a5b25c8eee8ad3f47b082978d",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_09.npz",
+      "sha256": "b06c5a2805e920b615cc9cfcd77221d8bd11dcc6b8caf43a9c4599c64ebf4be9",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_10.npz",
+      "sha256": "0219c7287c1841fe3015424a4adc6a3e37d08ea527635e9d37b5f6c6bc801e0d",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_11.npz",
+      "sha256": "99038c6036210f69140be7e0b968a02a334c22c7b3d2922807a4c87b0f87b646",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_12.npz",
+      "sha256": "9733f00a52548b16873d4318c2e5d12430fe5fd01090da58f49986edfa671bd8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_13.npz",
+      "sha256": "35e312b07a466dfd1cea0ef72ca241f0d5496714807a0d268bc6629d8216eccc",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_14.npz",
+      "sha256": "eb60e491ee8e67ec295be1374b87557a25d10acf41762393eceadca2a1b582c0",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_15.npz",
+      "sha256": "e8a5d525b05f9af98e6dc4994d348838800c55e4d8754bc52fcc16afad030d80",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_16.npz",
+      "sha256": "b4e2f1463766c54d51352cff87198d4a26efb6f263ed2cb5afc41fb7dc698068",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_17.npz",
+      "sha256": "f30295c876927c04a89ef434f4a32e7e0d7e5366fff3b450e3554c132a39a0bf",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_18.npz",
+      "sha256": "602154a67f7f48eb15b5fe66166d7e237b5c29f2e28bd3e5f601c02dd36a9bd7",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_19.npz",
+      "sha256": "1a62a8a67d82ed62c617a1c22f69e26841873f2015e7b5c06919f510d46fbe6f",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_20.npz",
+      "sha256": "d4214ac217fccd23421981bb6856e012adcf446f9fa813c7ffe68a385dda3a53",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_21.npz",
+      "sha256": "4c1f2fdfb72a7f386d2e4480be0c2c4b2068a32e481657bf0c7603b35b4ef72a",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_22.npz",
+      "sha256": "ed399132539b67a911327648f690907e63d177db7093e9f2aa3468235a4f4616",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_23.npz",
+      "sha256": "897bc81e1abfec21250737116e1fbb16b3c9b2f3782bc6fae12eb4944645ae62",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/nanobody-anything/intermediate_designs/conserved_326_347_nanobody-anything_24.npz",
+      "sha256": "e6d511762648f91c4b15df81decc719f8314965323fc47793e710ce78258de08",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_00.npz",
+      "sha256": "50f6780ca8a10bb3816f159e183596d0250036acfc980aaa6fec268a1e1b031e",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_01.npz",
+      "sha256": "79e37bea0d676582ecad2203d480c2e6b973eeaf42fbb91f508c7a4b52cb7fe8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_02.npz",
+      "sha256": "77bbf27f33c24b397c7b28ba4b1254ede94f8299d8edfec838b04e146fd74974",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_03.npz",
+      "sha256": "390049d5f11b8e7fe20521a9419822a5d5cd769bac7eb2da39ecf1534c0b80c1",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_04.npz",
+      "sha256": "939b78acfd92cb5cb826774b73087dd27f845c06865be0cfcf868353459ebd18",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_05.npz",
+      "sha256": "a35cb1bd476ee5f4627af04d0f76f94c669bc3c94526cbc14f92cdb469e446f8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_06.npz",
+      "sha256": "e502e324d0ecdea49e2a46b99c0174d545cd5699145c305ebe18e2436ed7f9d5",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_07.npz",
+      "sha256": "a35cb1bd476ee5f4627af04d0f76f94c669bc3c94526cbc14f92cdb469e446f8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_08.npz",
+      "sha256": "939b78acfd92cb5cb826774b73087dd27f845c06865be0cfcf868353459ebd18",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_09.npz",
+      "sha256": "701888ad94abde8c22a231439e5cbc78a5b50ac3ab081731529bb3018ac55592",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_10.npz",
+      "sha256": "7be6a9d88198071f4ce0873becacac3b89f158f577f995c97ea72b4244dcf33d",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_11.npz",
+      "sha256": "25fa403990aa02d0b0080eaea6fff8c1ea87f759b5f8c1972aad9a7104662c67",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_12.npz",
+      "sha256": "e1371e8b0fcef61ef7f57772078bca19c352972121f17821f8a9c61fe9566c2d",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_13.npz",
+      "sha256": "e2d957b67132539e85da7faadf2b08ff5d90038bde7e72c9113564739f28a3ab",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_14.npz",
+      "sha256": "55774c5e9d86e1bbae328133826f97d2f40cfb5009ce2650e8e3698a1a4bfdf4",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_15.npz",
+      "sha256": "53ce9c6d9e4cb9b441f96d350dd0e90c763de631e1fee12829434e301b85aaa1",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_16.npz",
+      "sha256": "5194a464f59cc798c48bdd0515b96e8e4196a71ebf83cf9f2afc510464e05c07",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_17.npz",
+      "sha256": "53ce9c6d9e4cb9b441f96d350dd0e90c763de631e1fee12829434e301b85aaa1",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_18.npz",
+      "sha256": "579fc477aa705edbc27e8b2122d07e356560761b3a2c5baf887699f70aae300a",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_19.npz",
+      "sha256": "55774c5e9d86e1bbae328133826f97d2f40cfb5009ce2650e8e3698a1a4bfdf4",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_20.npz",
+      "sha256": "25fa403990aa02d0b0080eaea6fff8c1ea87f759b5f8c1972aad9a7104662c67",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_21.npz",
+      "sha256": "50f6780ca8a10bb3816f159e183596d0250036acfc980aaa6fec268a1e1b031e",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_22.npz",
+      "sha256": "1b21ccc0737b1fee0fee3de4f257d328f31ee4855d6a2c0b60181901788aa273",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_23.npz",
+      "sha256": "939b78acfd92cb5cb826774b73087dd27f845c06865be0cfcf868353459ebd18",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-002",
+      "path": "outputs/pilot002_complete/pilot-002/protein-anything/intermediate_designs/conserved_326_347_protein-anything_24.npz",
+      "sha256": "79e37bea0d676582ecad2203d480c2e6b973eeaf42fbb91f508c7a4b52cb7fe8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 69
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_00.npz",
+      "sha256": "8f8cb85023d31c401879e96b1e2d7e4c8a1a9522f1eef6793042c566d3c530c8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_01.npz",
+      "sha256": "ab9b5b77de01e42244edeb382a7f9b6a16585637998ba468d63dfd857df8b19d",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_02.npz",
+      "sha256": "24cea7c25e86634c79bae4834d641054c85ddc3526a5de437f64be2eaf0078bf",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_03.npz",
+      "sha256": "a8e218e95f447cd0fc387a87141c75c18b7cd7213de8d4e039a739823fa1234e",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_04.npz",
+      "sha256": "997135bfdc2b07c1b6ecba854ed6b444777b9183c3db150052b4c222a1f18736",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_05.npz",
+      "sha256": "3c829c9eb050d2a21ec53ae3575ea0bac52fdde628f4d2eac7572ee94505928a",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_06.npz",
+      "sha256": "b8874ccff99490a083ac0b539b4544fe04d60da80df412e4d45974f75f7125a2",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_07.npz",
+      "sha256": "b8874ccff99490a083ac0b539b4544fe04d60da80df412e4d45974f75f7125a2",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_08.npz",
+      "sha256": "42058066568f6b91217f98c8519b016f9fa4b33522f4c845378d275a17e71c7a",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_09.npz",
+      "sha256": "9493af6932bf2c8416f3576101a7679829fb49d329184e68777e5c40ca7058aa",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_10.npz",
+      "sha256": "9493af6932bf2c8416f3576101a7679829fb49d329184e68777e5c40ca7058aa",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_11.npz",
+      "sha256": "180f339a23a5d48b2e384b4b4c1a6818e6677dd6ccde4686957a11ba47dd80a1",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_12.npz",
+      "sha256": "3c829c9eb050d2a21ec53ae3575ea0bac52fdde628f4d2eac7572ee94505928a",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_13.npz",
+      "sha256": "8f8cb85023d31c401879e96b1e2d7e4c8a1a9522f1eef6793042c566d3c530c8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_14.npz",
+      "sha256": "6769ba6df0494f537abe9599b77660e4331383f6b0b3ff54c7861e269571bcfb",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_15.npz",
+      "sha256": "5d51408571e21ecf7e7a2dff9663e3c2df6c787a7c5220b55132134857b2ccdb",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_16.npz",
+      "sha256": "32ce681e2dacf49633b7741e9eb1fcd6fccad0dd44e40f3e365c756fa2264d28",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_17.npz",
+      "sha256": "32ce681e2dacf49633b7741e9eb1fcd6fccad0dd44e40f3e365c756fa2264d28",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_18.npz",
+      "sha256": "6b1d033d1df169399ccc6fc3f8b5a896fc4617cf3c460919bdd90683d1837bb3",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_19.npz",
+      "sha256": "a8e218e95f447cd0fc387a87141c75c18b7cd7213de8d4e039a739823fa1234e",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_20.npz",
+      "sha256": "5c596b0a4ec1f59e73b57abc66cd3265ce3103e372ef8c757a08d410c5b1466d",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_21.npz",
+      "sha256": "a8e218e95f447cd0fc387a87141c75c18b7cd7213de8d4e039a739823fa1234e",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_22.npz",
+      "sha256": "428e509ab093e689cfbd44d1d040eaa2b7ae71d48af43f86268958bbc45391ee",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_23.npz",
+      "sha256": "8f8cb85023d31c401879e96b1e2d7e4c8a1a9522f1eef6793042c566d3c530c8",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    },
+    {
+      "run": "pilot-003",
+      "path": "outputs/pilot003_complete/pilot-003/protein-anything/intermediate_designs/apical_tip_basic_direction_probe_protein-anything_24.npz",
+      "sha256": "6ce9d187d66bab77e0aaccefeee71d75541c0812e3de6318a7b516dbb628ac55",
+      "positive_hotspot_tokens": [],
+      "not_binding_tokens": 82
+    }
+  ]
+}

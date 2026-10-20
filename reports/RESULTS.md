@@ -2,6 +2,39 @@
 
 The workflow is built and has run on real designs. Target preparation and the 50-design pilot are complete. The direction check found **six exploratory histidine-pair variants with both pKas lowered in both modeled conformations**. **No variant passes the provisional parent-quality gate**, and binding remains unvalidated. The calibration below now shows that confidence failure alone is not sufficient evidence that a sequence cannot bind.
 
+## Completed 6WRW generation comparison — 21 October 2026
+
+**Twenty new designs completed; zero advance under the frozen two-seed screen.** The matched control checks passed. This is a completed negative pilot, not evidence that any candidate is an experimental nonbinder.
+
+| Arm | Unique designs | Best interface ipTM, all samples | Fold criterion in both selected models | Interface-pose criterion in both selected models | All criteria in both seeds |
+|---|---:|---:|---:|---:|---:|
+| Unconstrained | 10 | 0.371 | 6/10 | 1/10 | 0/10 |
+| Five-residue sheet constraint | 10 | 0.189 | 7/10 | 1/10 | 0/10 |
+
+No novel sample reached interface ipTM 0.50, even among all 200 samples rather than only the confidence-selected models. All novel minimum-directional ipSAE scores at the fixed 10 Å settings were zero. The small comparison does not show a benefit from this particular five-residue sheet constraint; it does not rule out other ways of designing sheet extension.
+
+**Controls:** 2DS25.5 recovered the experimental interface in all ten samples, with ipTM 0.624–0.643, native-contact recall 89–96%, and binder self-fit Cα RMSD 0.51–0.84 Å. Both selected models passed the predeclared positive-control check. The scrambled and unrelated-VHH controls remained below 0.145 and 0.127 respectively. These are two presumed negatives, not an experimental specificity panel.
+
+**Exploratory structures worth retaining:** `unconstrained_03` has reproducible folding (0.37–0.41 Å self-fit Cα RMSD), all three hotspot contacts, valid receptor fits and no detected <2 Å full-context clashes. However, its interface ipTM is only 0.366–0.371, contact PAE is 13.86–14.10 Å, and interface placement differs from its generated reference by 2.45–2.73 Å. It fails confidence and pose criteria. `unconstrained_02` passes the geometric checks in both selected models but has ipTM 0.183–0.188 and contact PAE 22.27–22.50 Å. Neither is a qualified parent. `sheet_05` preserves interface geometry but has low confidence and one close atom pair in one selected model. Their fully predicted structures are archived as [exploratory models](generation_comparison/exploratory_models/manifest.json), not submission recommendations.
+
+**Execution:** both arms used 88-residue de novo binders, the same bound 6WRW 194-residue receptor, native hotspots 208/210/211, the same exclusion masks and pinned design/inverse-folding stages. The sheet arm alone conditioned binder positions 33–37 as sheet; this does not enforce interchain strand pairing or register. The three hotspots are species-variable, so this is explicitly a human-first experiment. Refolding used the original fixed receptor coordinates, no binder templates, no MSA, fresh seeds 101/211, three recycles, 200 diffusion steps and five samples per sequence. Twenty designs plus three controls produced **230 predictions**, all analyzed. Twenty unique sequences were generated. Feature metadata confirms the requested hotspots in every generated output and the requested secondary-structure labels in the sheet arm. Input SHA256 hashes match the launch reservation.
+
+**Screen interpretation:** the confidence-selected sample was fixed by `0.8*ipTM + 0.2*pTM` before geometric evaluation. Both seeds had to pass interface confidence ≥0.50, binder self-fit Cα RMSD ≤2 Å, receptor-aligned interface Cα RMSD ≤2 Å, design-contact recall ≥0.5, at least two of three hotspots contacted, at least half of contact pairs in the reference region, a valid context fit and zero <2 Å receptor/glycan clashes. Interface RMSD and contacts for novel designs compare against generated backbone geometry, not a crystal binder pose. The inverse-folding writer puts placeholder sidechains in references, so design-contact recall uses binder N/CA/C/O against target heavy atoms in both reference and prediction; fully predicted atoms are used for hotspot, PAE and clash checks. This clarification was recorded before examining new refolding results, with no threshold changes. Reproducibility within one predictor is not independent binding validation.
+
+**Decision:** do not scale either arm or start new histidine engineering from this batch. Preserve `unconstrained_03` and `unconstrained_02` as diagnostic leads. A subsequent proposal should change the interface-design strategy rather than repeat this batch or relax its gates. No new GPU jobs, switch scans or submissions were launched after this result. The previous broader calibration gate remains failed; this experiment does not retroactively validate it. No mouse binding, affinity or pH-switching claim is made.
+
+**Cost and checks:** latest reported gross Modal usage is approximately **US$3.89 total**, billed US$0 after credits. The run took 1,072 seconds; the earlier failed preflight took 18.46 seconds and generated no designs. Both attempts share the authorized US$5 experiment allowance within the US$30 gross project cap. Billing may lag. Both apps are verified stopped with zero tasks. Thirty local tests pass; the comparison's actual feature arrays, sample-coordinate correspondence, exported PAE dimensions and chain order were checked.
+
+![Generation comparison](generation_comparison/comparison.png)
+
+Evidence: [all designs and per-seed checks](generation_comparison/designs.csv), [all sequences](generation_comparison/all_designs.fasta), [full 230-sample results](generation_comparison/results.json), [frozen plan](../data/generation_comparison/manifest.json), [metric clarification](generation_comparison/run_record/analysis_clarification.json), [remote preflight](generation_comparison/run_record/generation_preflight.json), [final billing](generation_comparison/run_record/billing_after.json). `generation_comparison/advancing_designs.fasta` is empty because zero designs qualify.
+
+## Hotspot-conditioning correction — 21 October 2026
+
+**The earlier 75 designs did not receive their intended positive hotspot conditioning.** A feature-level preflight for the new 6WRW comparison detected zero positive hotspot tokens. In the pinned BoltzGen file parser, `not_binding` and `binding` are processed with `if/elif`; placing both inside the same chain entry silently skips `binding`. Our specification writer used that combined format. The exact archived inputs for both pilot-002 protocols and pilot-003 match their recorded SHA256 hashes and contain this defect. An additional audit of all 75 saved generated NPZ metadata files found zero positive hotspot tokens in every model. Exclusion masks were applied, but positive hotspot labels were absent. Thus these runs cannot establish failure of their requested epitopes; their observed confidence, pose, clash and exploratory pKa results remain unchanged.
+
+The writer and current specifications now use separate entries, with a regression check. The new generation preflight checks actual model features, including hotspot positions and sheet constraints, before either arm is sampled. The first attempt stopped at preflight after 18.46 seconds, producing no designs; its evidence is preserved. A reviewed retry charges the same US$5 experiment allowance. See [historical input audit](generation_comparison/hotspot_conditioning_audit/audit.json) and [failed preflight](generation_comparison/failed_preflight_007/preflight.log).
+
 ## Matched scoring audit — 21 October 2026, India time
 
 **The new positive control works well, but ipSAE does not provide a universal replacement gate.** We audited all 100 previous diffusion samples and completed 80 new matched predictions: four binders × two bound receptor conformations × two seeds × five samples. No novel designs were generated in this round.
@@ -27,7 +60,7 @@ Contact-pair PAE separates both published positives from these presumed negative
 
 **Export correction:** previous archives contained PAE summaries, not the full matrices needed for ipSAE. The new worker preserves full PAE and pLDDT without changing sampling. The scrambled-input CIF contained only backbone atoms; the upstream output writer retained that resolved-atom mask despite predicting sidechain coordinates. Local scoring restores the actual predicted sidechains from NPZ using the pinned canonical atom order, checking every retained atom before adding any missing one. No coordinates are imputed. This avoids both an ipSAE auxiliary-metric failure and biased contact counting from missing negative-control sidechains.
 
-**Decision:** the predeclared ipSAE/whole-fold generation gate did not pass. The 20-design comparison remains unlaunched. The completed, sequence-only Chai-1 check below also failed to recover the experimental interfaces. It changes both predictor and template conditioning, so it is not a clean predictor-only comparison. Published binders remain controls, not competition candidates.
+**Decision:** the predeclared ipSAE/whole-fold generation gate did not pass. At this checkpoint the 20-design comparison remained unlaunched; the separately justified experiment above was run later. The completed, sequence-only Chai-1 check below also failed to recover the experimental interfaces. It changes both predictor and template conditioning, so it is not a clean predictor-only comparison. Published binders remain controls, not competition candidates.
 
 **Chai-1 cross-check:** all four controls completed (one seed, five samples each), using `chai_lab==0.6.1`, ESM embeddings, no MSA, no structural templates and no contact restraints. Full PAE and pLDDT arrays were saved explicitly.
 
@@ -81,7 +114,7 @@ Evidence: [baseline metrics and poses](controls/results.json), [MSA comparison](
 
 - **Target preparation:** 11QC chain A residues 190–383, a 194-residue crop; native-numbered and sequential-numbered structures; human–mouse alignment and conservation map; four hotspot sets. The older 6WRV Ser142 was corrected to Gly in the comparison ectodomain. Primary 11QC already has Gly142, outside the crop.
 - **Initial pilot:** 25 miniproteins and 25 nanobodies at the conserved 326–347 patch, using the Adaptyv-recommended Modal wrapper and pinned BoltzGen source. Both complete pipelines returned successfully.
-- **Follow-up:** 25 more miniproteins at the exposed basic apical tip, with additional exclusions for surfaces exposed by cropping. This is a human-first, species-variable patch. This pipeline also completed successfully.
+- **Follow-up:** 25 more miniproteins configured for the exposed basic apical tip, with additional exclusions for surfaces exposed by cropping. The intended positive hotspots were silently skipped as documented above. This pipeline completed, but did not implement the intended hotspot comparison.
 - **Direction check:** eight pairs across four clash-free original-pilot parents, two models per pair. Twelve models scored successfully; four models from two pairs failed PROPKA structure/protonation checks and were left unscored.
 
 ## Parent quality
@@ -100,7 +133,7 @@ The full receptor check revealed substantial contacts with omitted receptor regi
 
 Six pairs lowered both pKas consistently. Three also met the stronger direction criteria: both drops ≥0.5, at least one free pKa between 6 and 7, and an independent-site estimated Kd(6.0)/Kd(7.4) ≥2 in both models.
 
-**Every row below is exploratory and fails the parent-quality gate.** Mutation indices are one-based positions in the full binder sequence, not IMGT numbering. All three variants derive from the original conserved-patch pilot.
+**Every row below is exploratory and fails the parent-quality gate.** Mutation indices are one-based positions in the full binder sequence, not IMGT numbering. All three variants derive from the original pilot configured for the conserved patch; its positive hotspot labels were not applied.
 
 | Parent | Mutations | Least negative shifts across seeds | His-only estimated Kd ratio | Parent ipTM |
 |---|---|---:|---:|---:|
@@ -112,9 +145,9 @@ The ratios are conditional model estimates, not predicted experimental affinitie
 
 PROPKA uses the **intact 194-residue trimmed target** plus the mutant binder. The free binder retains exactly the same coordinates. A graft into the full receptor is used only for clash checks: graft junctions can have invalid peptide geometry, so that graft is not used for pKa. Failed earlier attempts are retained under `outputs/direction_exploratory_initial`; the corrected evidence is under `outputs/direction_initial`. Omitted receptor regions, glycans, artificial termini, coupled titration and conformational changes remain limitations.
 
-## Cost and verification
+## Earlier pilot/calibration cost and verification
 
-The latest Modal snapshot reports approximately **US$3.19 gross usage**, within the authorized **US$30 including credits**. Reported billed amount is **US$0.00**, with credits covering compute. Billing can lag and prior amounts can be reconciled; [the latest raw record](controls_chai/billing_after.json) preserves the exact values, and [the earlier pilot snapshot](billing_final.json) is retained. All four successful control runs completed (baseline, MSA, matched BoltzGen, and Chai). The two older failed startup/parser attempts remain in the launch history; neither produced predictions. This round used a US$5 planning ceiling within the original US$30 gross cap. Both new apps are verified stopped with zero tasks.
+At the end of the earlier calibration round, the Modal snapshot reported approximately **US$3.19 gross usage**, within the authorized **US$30 including credits**. Reported billed amount is **US$0.00**, with credits covering compute. Billing can lag and prior amounts can be reconciled; [the latest raw record](controls_chai/billing_after.json) preserves the exact values, and [the earlier pilot snapshot](billing_final.json) is retained. All four successful control runs completed (baseline, MSA, matched BoltzGen, and Chai). The two older failed startup/parser attempts remain in the launch history; neither produced predictions. This round used a US$5 planning ceiling within the original US$30 gross cap. Both new apps are verified stopped with zero tasks.
 
 **25 local tests passed.** Both initial cloud specifications and the follow-up specification validated. Control preflight checks verified residue masks and chain roles; the MSA comparison additionally verified binder-template exclusion and MSA depth 512. Downloaded input hashes match the archived inputs. All 12 scored direction models passed an actual-output audit for complete histidines, matching free/bound binder coordinates, valid PROPKA groups and arithmetic consistency.
 

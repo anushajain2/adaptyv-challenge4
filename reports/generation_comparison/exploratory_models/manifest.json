@@ -1,0 +1,50 @@
+[
+  {
+    "design": "unconstrained_02",
+    "seed": 101,
+    "sample": 3,
+    "path": "reports/generation_comparison/exploratory_models/unconstrained_02_seed-101.pdb",
+    "status": "exploratory; fails prospective advancement screen",
+    "sha256": "e03d6347fa70e3dd2beaa9862ccb7393ca4f556c7aae1a20fad60f9a8ffce475"
+  },
+  {
+    "design": "unconstrained_03",
+    "seed": 101,
+    "sample": 1,
+    "path": "reports/generation_comparison/exploratory_models/unconstrained_03_seed-101.pdb",
+    "status": "exploratory; fails prospective advancement screen",
+    "sha256": "f48d829c3aec49f5862b01184ec12988d216bc58d8447c3b36947adb9ed8dfd8"
+  },
+  {
+    "design": "sheet_05",
+    "seed": 101,
+    "sample": 3,
+    "path": "reports/generation_comparison/exploratory_models/sheet_05_seed-101.pdb",
+    "status": "exploratory; fails prospective advancement screen",
+    "sha256": "39678d7cbfbff83d0e1c6c6ace9afc5212577b0a23b660194a6c054e3216daf1"
+  },
+  {
+    "design": "unconstrained_02",
+    "seed": 211,
+    "sample": 3,
+    "path": "reports/generation_comparison/exploratory_models/unconstrained_02_seed-211.pdb",
+    "status": "exploratory; fails prospective advancement screen",
+    "sha256": "22b7627dab23e0b1d70f3ff42884a6773c940ca4893e5475f458b10c88248116"
+  },
+  {
+    "design": "unconstrained_03",
+    "seed": 211,
+    "sample": 3,
+    "path": "reports/generation_comparison/exploratory_models/unconstrained_03_seed-211.pdb",
+    "status": "exploratory; fails prospective advancement screen",
+    "sha256": "8cbc18c7a8b6f9eca6d2718a17ef0f4af365a9bd480e695a7dbb3b0830eea271"
+  },
+  {
+    "design": "sheet_05",
+    "seed": 211,
+    "sample": 0,
+    "path": "reports/generation_comparison/exploratory_models/sheet_05_seed-211.pdb",
+    "status": "exploratory; fails prospective advancement screen",
+    "sha256": "fe3483c354a6dbea79764d7a8e15222a75ee977cc4fa0003fa6a756f24989b03"
+  }
+]

@@ -1,28 +1,32 @@
 {
-  "checkpoint": "All-sample audit, matched full-PAE scoring and Chai cross-check",
+  "checkpoint": "Calibration complete; subsequent 6WRW generation comparison complete",
   "completed_runs": [
     "controls-002",
     "controls-004-msa",
     "controls-005-matched",
-    "controls-006-chai"
+    "controls-006-chai",
+    "generation-008-6wrw (30 controls plus 200 novel-design predictions)"
   ],
-  "total_control_diffusion_samples": 200,
-  "all_samples_analyzed": 200,
-  "new_control_samples_this_round": 100,
-  "new_designs_generated": 0,
-  "generation_gate": "failed; no threshold retuning; 20-design batch unlaunched",
+  "total_control_diffusion_samples": 230,
+  "all_samples_analyzed": 230,
+  "new_control_samples_this_round": 30,
+  "new_designs_generated": 20,
+  "generation_gate": "Original broader calibration gate remains failed; separate prospective 20-design experiment completed with 0 advancing designs",
   "best_complete_complex_reference": "2DS25.5 / 6WRW under target-templated BoltzGen",
   "new_histidine_screening": "not started; no new qualified parents",
-  "local_tests_passed": 25,
+  "local_tests_passed": 30,
   "budget_authorized_gross_usd": 30,
   "round_planning_ceiling_usd": 5,
-  "latest_reported_gross_usd": 3.19348563,
-  "billing_snapshot": "reports/controls_chai/billing_after.json",
+  "latest_reported_gross_usd": 3.8935808,
+  "billing_snapshot": "reports/generation_comparison/run_record/billing_after.json",
   "billing_may_lag": true,
   "active_cloud_runs": 0,
   "evidence": [
     "reports/controls/all_samples_audit.json",
     "reports/controls_matched/results.json",
-    "reports/controls_chai/results.json"
-  ]
+    "reports/controls_chai/results.json",
+    "reports/generation_comparison/results.json"
+  ],
+  "prospective_comparison_controls_pass": true,
+  "prospective_comparison": "reports/generation_comparison/results.json"
 }

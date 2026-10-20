@@ -1,0 +1,5 @@
+steps:
+- name: design
+  config_file: config/design.yaml
+- name: inverse_folding
+  config_file: config/inverse_folding.yaml

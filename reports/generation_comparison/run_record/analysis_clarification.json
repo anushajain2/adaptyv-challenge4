@@ -1,0 +1,7 @@
+{
+  "recorded_utc": "2026-10-20T20:12:39.196922+00:00",
+  "status": "Before inspecting any new refolding scores or poses",
+  "clarification": "The pinned inverse-folding writer adds zero-coordinate sidechain placeholders. Novel design-reference contact recall and interface membership therefore use binder backbone N/CA/C/O against target heavy atoms in BOTH reference and prediction, with the same 5A contact distance, 0.5 recall threshold and 2A interface threshold. Full predicted sidechains remain used for intended-region contacts, hotspot contacts, PAE and clashes. Experimental controls retain their complete crystal sidechains. No threshold changed.",
+  "source": "vendor/boltzgen/src/boltzgen/task/predict/writer.py:335-354",
+  "reason": "Placeholder coordinates cannot be evidence of designed residue contacts."
+}

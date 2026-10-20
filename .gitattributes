@@ -4,3 +4,5 @@
 *.csv whitespace=cr-at-eol
 # Preserve exact upstream source bytes and provenance hashes.
 third_party/ipsae/* -whitespace
+# Preserve the exact diagnostic log from the failed feature-level preflight.
+reports/generation_comparison/failed_preflight_007/preflight.log -whitespace

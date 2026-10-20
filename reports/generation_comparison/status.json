@@ -1,0 +1,13 @@
+{
+  "run": "generation-008-6wrw",
+  "status": "complete",
+  "designs": 20,
+  "predictions_analyzed": 230,
+  "controls_pass": true,
+  "qualified_parents": 0,
+  "advancing_families": 0,
+  "new_histidine_scans": 0,
+  "active_cloud_tasks": 0,
+  "gross_usage_latest_usd": 3.8935808,
+  "decision": "No scaling or new histidine engineering; preserve diagnostic leads and review interface strategy."
+}
