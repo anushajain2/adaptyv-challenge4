@@ -1,24 +1,28 @@
 {
-  "checkpoint": "Known-binder calibration and matched target-MSA comparison",
+  "checkpoint": "All-sample audit, matched full-PAE scoring and Chai cross-check",
   "completed_runs": [
     "controls-002",
-    "controls-004-msa"
+    "controls-004-msa",
+    "controls-005-matched",
+    "controls-006-chai"
   ],
-  "baseline_conditions": 6,
-  "msa_conditions": 4,
-  "seeds": [
-    17,
-    29
-  ],
-  "diffusion_samples_per_seed": 5,
-  "total_diffusion_samples": 100,
-  "selected_structures_analyzed": 20,
+  "total_control_diffusion_samples": 200,
+  "all_samples_analyzed": 200,
+  "new_control_samples_this_round": 100,
   "new_designs_generated": 0,
-  "generation_gate": "hold: original target/prediction setup not sufficiently calibrated",
-  "best_supported_receptor_for_further_calibration": "6WRV bound apical conformation",
+  "generation_gate": "failed; no threshold retuning; 20-design batch unlaunched",
+  "best_complete_complex_reference": "2DS25.5 / 6WRW under target-templated BoltzGen",
   "new_histidine_screening": "not started; no new qualified parents",
-  "local_tests_passed": 19,
+  "local_tests_passed": 25,
   "budget_authorized_gross_usd": 30,
-  "latest_reported_gross_usd": 2.63545257,
-  "billing_snapshot": "reports/controls/billing_after.json"
+  "round_planning_ceiling_usd": 5,
+  "latest_reported_gross_usd": 3.19348563,
+  "billing_snapshot": "reports/controls_chai/billing_after.json",
+  "billing_may_lag": true,
+  "active_cloud_runs": 0,
+  "evidence": [
+    "reports/controls/all_samples_audit.json",
+    "reports/controls_matched/results.json",
+    "reports/controls_chai/results.json"
+  ]
 }

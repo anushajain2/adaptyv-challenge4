@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/DunbrackLab/IPSAE",
+  "commit": "6174cf9e71cb1bd660cc805856a18c4871a6dec3",
+  "files": {
+    "ipsae.py": "10cf9b08c68c91e06cb28526cf2026f47a3980c9048fd3226d13e3304eaf1c27",
+    "LICENSE": "11b38cd2c82e0d197145ddc8d6312937f569868c8e58f11df9b40c8a37453ff3"
+  },
+  "modified": false
+}

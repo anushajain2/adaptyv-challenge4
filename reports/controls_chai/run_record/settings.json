@@ -1,0 +1,23 @@
+{
+  "chai_lab_version": "0.6.1",
+  "settings": {
+    "num_trunk_recycles": 3,
+    "num_diffn_timesteps": 200,
+    "num_diffn_samples": 5,
+    "num_trunk_samples": 1,
+    "seed": 42,
+    "use_esm_embeddings": true,
+    "use_msa_server": false,
+    "use_templates_server": false,
+    "device": "cuda:0",
+    "low_memory": true
+  },
+  "input": "Sequences only; no receptor/binder template or contact constraints",
+  "comparison_limit": "Different predictor AND conditioning from target-templated BoltzGen",
+  "cases": [
+    "3ds18_6wrv",
+    "2ds25_5_6wrv",
+    "scrambled_6wrv",
+    "caplacizumab_6wrv"
+  ]
+}

@@ -2,7 +2,50 @@
 
 The workflow is built and has run on real designs. Target preparation and the 50-design pilot are complete. The direction check found **six exploratory histidine-pair variants with both pKas lowered in both modeled conformations**. **No variant passes the provisional parent-quality gate**, and binding remains unvalidated. The calibration below now shows that confidence failure alone is not sufficient evidence that a sequence cannot bind.
 
-## Calibration checkpoint — 21 October 2026, India time
+## Matched scoring audit — 21 October 2026, India time
+
+**The new positive control works well, but ipSAE does not provide a universal replacement gate.** We audited all 100 previous diffusion samples and completed 80 new matched predictions: four binders × two bound receptor conformations × two seeds × five samples. No novel designs were generated in this round.
+
+2DS25.5 (the held-out positive from [6WRW](https://www.rcsb.org/structure/6WRW)) recovered its interface in all 20 samples, with whole-binder self-fit Cα RMSD 0.44–0.70 Å. Its ipTM also clears 0.50 in all 20 samples. Thus the earlier suggestion that the confidence threshold is simply wrong for this target is too broad: the predictor can reproduce a complete known binder, and confidence distinguishes that result from the poorly reproduced 3DS18 fold.
+
+| Binder / receptor | Interface recovered | ipTM range | Minimum directional ipSAE | Contact-pair PAE (Å) | Whole-binder self-fit RMSD (Å) |
+|---|---:|---:|---:|---:|---:|
+| 3DS18 / 6WRV | 10/10 | 0.278–0.297 | 0.000–0.000 | 14.44–14.97 | 14.21–14.61 |
+| 2DS25.5 / 6WRV | 10/10 | 0.506–0.529 | 0.059–0.082 | 7.57–8.10 | 0.51–0.69 |
+| Scrambled, presumed negative / 6WRV | No reference pose | 0.122–0.141 | 0.000–0.000 | 22.23–25.14 | — |
+| Unrelated VHH, presumed negative / 6WRV | No reference pose | 0.097–0.120 | 0.000–0.000 | 24.34–27.49 | — |
+| 3DS18 / 6WRW | 9/10 | 0.334–0.352 | 0.000–0.000 | 13.61–14.01 | 14.28–14.70 |
+| 2DS25.5 / 6WRW | 10/10 | 0.626–0.647 | 0.202–0.224 | 5.54–5.82 | 0.44–0.70 |
+| Scrambled, presumed negative / 6WRW | No reference pose | 0.104–0.143 | 0.000–0.000 | 21.92–25.93 | — |
+| Unrelated VHH, presumed negative / 6WRW | No reference pose | 0.101–0.127 | 0.000–0.000 | 23.67–26.90 | — |
+
+The primary ipSAE settings were fixed before inference: PAE cutoff 10 Å, distance cutoff 10 Å, and the smaller of the two directional scores. The official code is bundled unmodified under `third_party/ipsae/`, pinned to commit `6174cf9e71cb1bd660cc805856a18c4871a6dec3`. 3DS18 / 6WRV has minimum interchain PAE 10.51–10.86 Å, so no pairs survive that PAE cutoff and ipSAE is exactly zero. Changing the cutoff after seeing these results would be an exploratory sensitivity analysis, not validation of the predeclared gate.
+
+Contact-pair PAE separates both published positives from these presumed negatives in this panel. This is useful evidence for ranking, but it is not experimentally calibrated specificity, and it cannot establish a correctly folded binder. It differs from upstream `interaction_pae`, which averages all interchain residue pairs rather than just contacting pairs. Neither score predicts affinity or pH switching.
+
+**All-sample audit and RMSD frame check:** baseline 3DS18 / 6WRV recovered the interface in 8/10 earlier samples. The two MSA conditions each contained one recovered sample out of ten, both missed by confidence selection. Both reported pose RMSDs use the same receptor-derived rigid transformation, with no separate interface superposition. The large whole-binder discrepancy is concentrated in residues 1–20; the interface and much of the remaining chain are close to the reference. No biological explanation for that discrepancy has been established.
+
+**Export correction:** previous archives contained PAE summaries, not the full matrices needed for ipSAE. The new worker preserves full PAE and pLDDT without changing sampling. The scrambled-input CIF contained only backbone atoms; the upstream output writer retained that resolved-atom mask despite predicting sidechain coordinates. Local scoring restores the actual predicted sidechains from NPZ using the pinned canonical atom order, checking every retained atom before adding any missing one. No coordinates are imputed. This avoids both an ipSAE auxiliary-metric failure and biased contact counting from missing negative-control sidechains.
+
+**Decision:** the predeclared ipSAE/whole-fold generation gate did not pass. The 20-design comparison remains unlaunched. The completed, sequence-only Chai-1 check below also failed to recover the experimental interfaces. It changes both predictor and template conditioning, so it is not a clean predictor-only comparison. Published binders remain controls, not competition candidates.
+
+**Chai-1 cross-check:** all four controls completed (one seed, five samples each), using `chai_lab==0.6.1`, ESM embeddings, no MSA, no structural templates and no contact restraints. Full PAE and pLDDT arrays were saved explicitly.
+
+| Chai control | Native contact recall | Binder interface RMSD after receptor fit (Å) | Whole-binder self-fit RMSD (Å) | Minimum directional ipSAE |
+|---|---:|---:|---:|---:|
+| 3DS18 | 0% in all 5 | 33.89–36.04 | 15.49–16.53 | 0 |
+| 2DS25.5 | 0% in all 5 | 35.20–36.50 | 0.52–0.65 | 0.055–0.081 |
+| Scrambled / unrelated VHH | No experimental reference pose | — | — | 0 for both |
+
+Chai reproduced the 2DS25.5 fold but placed it at a different interface. A rule accepting ipSAE merely because it exceeds these negatives would therefore accept an incorrect experimental pose. This is a concrete counterexample to treating score separation as sufficient calibration. Chai's failure here is specific to this small, sequence-only configuration; it does not establish that Chai generally fails on TfR1. Receptor fits to the experimental crops were approximately 2.8–3.7 Å, another reason to avoid treating grafted clash counts as definitive when the context fit fails. See [Chai metrics](controls_chai/results.json) and [executed settings](controls_chai/run_record/settings.json).
+
+**End-of-round decision:** calibration is complete for this timebox. No further diagnostic jobs or generation jobs are running. Keep the original 75 designs exploratory, do not resume histidine engineering, and do not claim a validated replacement gate. The strongest complete-complex reference in this panel is **2DS25.5 with the 6WRW receptor**, which would be the starting reference for a separately justified, narrow generation experiment. The predeclared broader gate remains failed; no cutoff was changed to make it pass.
+
+![Matched calibration and RMSD audit](controls_matched/matched_calibration.png)
+
+Evidence: [all 100 original samples](controls/all_samples_audit.json), [all 80 matched samples and scores](controls_matched/results.json), [frozen inputs and analysis plan](../data/controls_matched/manifest.json), [executed worker and run records](controls_matched/run_record/). Raw per-sample structures, PAE arrays, and official ipSAE output are retained locally under `outputs/matched_scoring/controls-005-matched/`.
+
+## Earlier calibration checkpoint — 21 October 2026, India time
 
 **Hold further generation and histidine engineering until the scoring setup is better calibrated.** We completed 100 diffusion samples: six baseline conditions × two seeds × five samples, then four target-MSA conditions × two seeds × five samples. Each seed's confidence-selected model was compared with the experimental interface. No new binder designs were generated in this checkpoint.
 
@@ -71,9 +114,9 @@ PROPKA uses the **intact 194-residue trimmed target** plus the mutant binder. Th
 
 ## Cost and verification
 
-The latest Modal snapshot reports approximately **US$2.64 gross usage**, within the authorized **US$30 including credits**. Reported billed amount is **US$0.00**, with credits covering compute. Billing can lag and prior amounts can be reconciled; [the latest raw record](controls/billing_after.json) preserves the exact values, and [the earlier pilot snapshot](billing_final.json) is retained. Both successful control runs completed. Two failed startup/parser attempts are recorded in the launch history; neither produced predictions.
+The latest Modal snapshot reports approximately **US$3.19 gross usage**, within the authorized **US$30 including credits**. Reported billed amount is **US$0.00**, with credits covering compute. Billing can lag and prior amounts can be reconciled; [the latest raw record](controls_chai/billing_after.json) preserves the exact values, and [the earlier pilot snapshot](billing_final.json) is retained. All four successful control runs completed (baseline, MSA, matched BoltzGen, and Chai). The two older failed startup/parser attempts remain in the launch history; neither produced predictions. This round used a US$5 planning ceiling within the original US$30 gross cap. Both new apps are verified stopped with zero tasks.
 
-**19 local tests passed.** Both initial cloud specifications and the follow-up specification validated. Control preflight checks verified residue masks and chain roles; the MSA comparison additionally verified binder-template exclusion and MSA depth 512. Downloaded input hashes match the archived inputs. All 12 scored direction models passed an actual-output audit for complete histidines, matching free/bound binder coordinates, valid PROPKA groups and arithmetic consistency.
+**25 local tests passed.** Both initial cloud specifications and the follow-up specification validated. Control preflight checks verified residue masks and chain roles; the MSA comparison additionally verified binder-template exclusion and MSA depth 512. Downloaded input hashes match the archived inputs. All 12 scored direction models passed an actual-output audit for complete histidines, matching free/bound binder coordinates, valid PROPKA groups and arithmetic consistency.
 
 ## Files to use
 

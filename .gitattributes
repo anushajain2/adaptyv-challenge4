@@ -2,3 +2,5 @@
 *.pdb -whitespace
 *.cif -whitespace
 *.csv whitespace=cr-at-eol
+# Preserve exact upstream source bytes and provenance hashes.
+third_party/ipsae/* -whitespace

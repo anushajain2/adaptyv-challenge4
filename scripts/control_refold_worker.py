@@ -9,6 +9,7 @@ def main():
     p.add_argument("design_dir", type=Path)
     p.add_argument("--seed", type=int, required=True)
     p.add_argument("--target-msa", type=Path)
+    p.add_argument("--export-pae", action="store_true")
     args = p.parse_args()
     import hydra
     import numpy as np
@@ -46,6 +47,14 @@ def main():
     ]))
     if args.target_msa:
         cfg.data.cfg.max_seqs = 512
+    if args.export_pae:
+        # Preserve outputs already computed by the confidence head. No model or
+        # sampling changes: upstream FoldingWriter otherwise drops these arrays.
+        from boltzgen.data import const
+        extra = ["pae", "plddt"]
+        cfg.keys_dict_out = list(dict.fromkeys(list(cfg.keys_dict_out) + extra))
+        const.eval_keys = list(dict.fromkeys(
+            const.eval_keys + extra + ["asym_id", "residue_index", "token_pad_mask"]))
     OmegaConf.save(cfg, args.design_dir / "fold_config.yaml")
     task = hydra.utils.instantiate(cfg)
     expected = json.loads((args.design_dir / "expected.json").read_text())
@@ -80,6 +89,11 @@ def main():
     for case in expected:
         path = args.design_dir / const.folding_dirname / f"{case}.npz"
         data = np.load(path, allow_pickle=False)
+        if args.export_pae:
+            n_tokens = len(expected[case]["target_sequence"]) + len(expected[case]["binder_sequence"])
+            assert data["pae"].shape == (5, n_tokens, n_tokens), (case, data["pae"].shape)
+            assert data["plddt"].shape == (5, n_tokens), (case, data["plddt"].shape)
+            assert np.isfinite(data["pae"]).all() and np.isfinite(data["plddt"]).all()
         metrics = {k: data[k].tolist() for k in [
             "iptm", "ptm", "design_to_target_iptm", "target_ptm",
             "design_ptm", "min_design_to_target_pae", "interaction_pae"] if k in data}

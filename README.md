@@ -5,15 +5,15 @@ This project prepares a human TfR1 target, runs 25 miniprotein and 25 nanobody d
 **Start with the [results report](reports/RESULTS.md).** The initial 50 designs and
 a 25-design follow-up are complete. Six exploratory pKa-lowering variants were
 found, but **zero candidates pass the full parent and direction gates**.
-The latest post-calibration Modal snapshot reports approximately **US$2.64 gross usage**.
+The latest post-calibration Modal snapshot reports approximately **US$3.19 gross usage**.
 
-**Calibration follow-up:** published-complex controls and an explicit target-MSA
-comparison are documented in the results report and `reports/controls/`.
-The original pilot's confidence thresholds are provisional: low ipTM alone did
-not reliably distinguish failure to recover a known interface.
-The bound 6WRV crop recovered 86–92% of the 3DS18 interface contacts with the
-baseline settings; the original 11QC crop and the target-MSA comparison recovered
-none in their selected models. Further generation remains gated on better calibration.
+**Calibration follow-up:** all 100 earlier control samples were audited, and
+80 matched BoltzGen plus 20 Chai-1 predictions were completed. BoltzGen recovered
+the held-out 2DS25.5 interface and fold in all 20 samples, strongest with 6WRW.
+ipSAE at the predeclared cutoff missed 3DS18; sequence-only Chai reproduced the
+2DS25.5 fold but recovered neither published interface. The replacement gate
+remains unvalidated, so the 20-design comparison was not launched. Full results,
+PAE export fixes and reproducibility records are in the results report.
 
 ## Current status
 
@@ -28,7 +28,7 @@ none in their selected models. Further generation remains gated on better calibr
 
 The approved cloud budget is **US$30 total including credits**, with **25 designs per protocol**. No outcome is guaranteed within that budget.
 
-Local verification: **19 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **25 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.
@@ -206,6 +206,10 @@ The analysis commands require the downloaded runs; use `scripts/download_pilot.p
 with the run IDs above. `scripts/launch_controls.py` reconciles live billing,
 reserves US$8 of planning headroom under the existing US$30 gross cap, and records
 each attempt before cloud image creation. It does not automatically retry.
+`--reservation-usd` sets a smaller planning reservation. The matched control
+round reserves US$5, limits prediction to 20 minutes, and exports full PAE and
+pLDDT. Its optional Chai check reserves US$3 of the same round's remaining
+headroom; it is not an additional US$5 allocation.
 `scripts/fetch_control_msa.py` submits only the public receptor sequence to the
 standard ColabFold MSA server; the saved 512-sequence alignment is in
 `data/controls_msa/target.a3m`.
@@ -216,6 +220,48 @@ samples per seed (17 and 29). The MSA diagnostic keeps those settings and explic
 injects the receptor MSA into the upstream `Input` object, increasing `max_seqs`
 from 1 to 512. Preflight checks verify token counts, chain roles, exclusion of
 binder templates, and nontrivial MSA depth for the MSA run.
+
+### Reproduce the matched scoring audit
+
+```bash
+.venv/bin/python scripts/audit_control_samples.py \
+  outputs/controls_complete/controls-002 \
+  outputs/controls_msa_complete/controls-004-msa \
+  --output reports/controls/all_samples_audit.json
+.venv/bin/python scripts/prepare_matched_controls.py
+.venv/bin/python scripts/download_pilot.py controls-005-matched outputs/controls_matched_complete
+.venv/bin/python scripts/score_matched_controls.py \
+  outputs/controls_matched_complete/controls-005-matched --output reports/controls_matched
+.venv/bin/python scripts/plot_matched_controls.py
+```
+
+The published 6WRW source is archived in `data/raw/6WRW.cif`; its provenance and
+the analysis plan fixed before prediction are in `data/controls_matched/manifest.json`.
+The official ipSAE code is bundled unmodified with its license and commit/hash
+provenance in `third_party/ipsae/`. Primary cutoffs are 10 Å PAE and 10 Å distance;
+both directional scores are retained, with their minimum used for the primary
+comparison. No affinity or experimental specificity is inferred from these scores.
+
+The local sample reader checks exported CIF coordinates against the selected NPZ
+sample before reconstructing any other sample. For matched scoring it restores
+predicted sidechains omitted by the upstream resolved-atom export mask. Restoration
+uses the pinned canonical atom order in `configs/boltzgen_atom_order.json` and
+checks every retained atom. The coordinates come from the prediction, not an
+imputation or sidechain rebuild. This is particularly important for the scrambled
+control, whose input CIF intentionally retained only backbone atoms.
+
+The bounded Chai cross-check uses the `chai_lab==0.6.1` API from the biomodals
+wrapper with Torch 2.5.1, one seed (42), three recycles, 200 diffusion steps,
+five samples per control, ESM embeddings, no MSA search, and no templates or
+contact restraints. Its worker explicitly saves the returned PAE and pLDDT arrays.
+This changes predictor and conditioning simultaneously; it is not experimental
+validation or a pure predictor-only ablation.
+
+```bash
+.venv/bin/python scripts/download_pilot.py controls-006-chai outputs/controls_chai_complete
+.venv/bin/python scripts/analyze_chai_controls.py \
+  outputs/controls_chai_complete/controls-006-chai
+```
 
 6W3H author chains D/A form the tested receptor/Fc pair; PDB label-chain names
 are different. The target retains the shared observed construct span (positions

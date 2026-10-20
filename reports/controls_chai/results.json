@@ -1,0 +1,2316 @@
+{
+  "run": "controls-006-chai",
+  "settings": {
+    "chai_lab_version": "0.6.1",
+    "settings": {
+      "num_trunk_recycles": 3,
+      "num_diffn_timesteps": 200,
+      "num_diffn_samples": 5,
+      "num_trunk_samples": 1,
+      "seed": 42,
+      "use_esm_embeddings": true,
+      "use_msa_server": false,
+      "use_templates_server": false,
+      "device": "cuda:0",
+      "low_memory": true
+    },
+    "input": "Sequences only; no receptor/binder template or contact constraints",
+    "comparison_limit": "Different predictor AND conditioning from target-templated BoltzGen",
+    "cases": [
+      "3ds18_6wrv",
+      "2ds25_5_6wrv",
+      "scrambled_6wrv",
+      "caplacizumab_6wrv"
+    ]
+  },
+  "limitation": "One seed; different predictor and template conditioning. Published structures may occur in training. Presumed negatives are not measured nonbinders.",
+  "rows": [
+    {
+      "binder_id": "3ds18",
+      "kind": "positive",
+      "sample": 0,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 67,
+        "contact_pae_A_to_B_A": 17.931358337402344,
+        "contact_pae_B_to_A_A": 18.602041244506836,
+        "contact_pae_both_directions_A": 18.26669979095459,
+        "binder_mean_plddt": 0.6492419242858887
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.3014935255050659
+        ],
+        "ptm": [
+          0.6978273391723633
+        ],
+        "iptm": [
+          0.20241008698940277
+        ],
+        "per_chain_ptm": [
+          [
+            0.8744426965713501,
+            0.6249399781227112
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8744426965713501,
+              0.17065586149692535
+            ],
+            [
+              0.20241008698940277,
+              0.6249399781227112
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.7969532835407804,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 640,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          219,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          283,
+          287,
+          288,
+          289,
+          290,
+          291,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          318,
+          319,
+          320,
+          321
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.71587882708878,
+        "binder_CA_pose_rmsd_after_target_fit_A": 51.39137522700697,
+        "binder_interface_CA_rmsd_after_target_fit_A": 35.42405705367423,
+        "binder_CA_fold_rmsd_A": 15.868380531714445,
+        "native_contacts": 50,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "3ds18",
+      "kind": "positive",
+      "sample": 1,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 69,
+        "contact_pae_A_to_B_A": 18.244718551635742,
+        "contact_pae_B_to_A_A": 18.861692428588867,
+        "contact_pae_both_directions_A": 18.553205490112305,
+        "binder_mean_plddt": 0.6474783420562744
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.30297523736953735
+        ],
+        "ptm": [
+          0.6974599361419678
+        ],
+        "iptm": [
+          0.20435406267642975
+        ],
+        "per_chain_ptm": [
+          [
+            0.8761497139930725,
+            0.6215276122093201
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8761497139930725,
+              0.16698972880840302
+            ],
+            [
+              0.20435406267642975,
+              0.6215276122093201
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.6730370084890005,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 764,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          219,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          283,
+          287,
+          288,
+          289,
+          290,
+          291,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          305,
+          306,
+          307,
+          315,
+          316,
+          318,
+          319,
+          321
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.6462773190199544,
+        "binder_CA_pose_rmsd_after_target_fit_A": 51.707533750514784,
+        "binder_interface_CA_rmsd_after_target_fit_A": 36.0414837752353,
+        "binder_CA_fold_rmsd_A": 15.493589315754097,
+        "native_contacts": 50,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "3ds18",
+      "kind": "positive",
+      "sample": 2,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.010296,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.010296,
+        "contact_residue_pairs": 65,
+        "contact_pae_A_to_B_A": 16.987125396728516,
+        "contact_pae_B_to_A_A": 18.420166015625,
+        "contact_pae_both_directions_A": 17.703645706176758,
+        "binder_mean_plddt": 0.6505905985832214
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.2990412712097168
+        ],
+        "ptm": [
+          0.6994252800941467
+        ],
+        "iptm": [
+          0.19894526898860931
+        ],
+        "per_chain_ptm": [
+          [
+            0.8794760704040527,
+            0.6204110980033875
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8794760704040527,
+              0.16417862474918365
+            ],
+            [
+              0.19894526898860931,
+              0.6204110980033875
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.4099598142881846,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 790,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          221,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          266,
+          283,
+          287,
+          288,
+          290,
+          292,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          306,
+          307,
+          310,
+          313,
+          381
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.423249620825585,
+        "binder_CA_pose_rmsd_after_target_fit_A": 49.480206757414216,
+        "binder_interface_CA_rmsd_after_target_fit_A": 34.9689372221776,
+        "binder_CA_fold_rmsd_A": 16.412053255312802,
+        "native_contacts": 50,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "3ds18",
+      "kind": "positive",
+      "sample": 3,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.010418,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.010418,
+        "contact_residue_pairs": 47,
+        "contact_pae_A_to_B_A": 15.68102741241455,
+        "contact_pae_B_to_A_A": 17.395700454711914,
+        "contact_pae_both_directions_A": 16.538363933563232,
+        "binder_mean_plddt": 0.6521095633506775
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.29506716132164
+        ],
+        "ptm": [
+          0.6983994841575623
+        ],
+        "iptm": [
+          0.19423408806324005
+        ],
+        "per_chain_ptm": [
+          [
+            0.8781285285949707,
+            0.6200814843177795
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8781285285949707,
+              0.1648104041814804
+            ],
+            [
+              0.19423408806324005,
+              0.6200814843177795
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.084003393069382,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 630,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          192,
+          219,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          283,
+          287,
+          288,
+          290,
+          291,
+          292,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.1912746164221915,
+        "binder_CA_pose_rmsd_after_target_fit_A": 48.99108168830754,
+        "binder_interface_CA_rmsd_after_target_fit_A": 33.886255797734414,
+        "binder_CA_fold_rmsd_A": 16.194808365324818,
+        "native_contacts": 50,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "3ds18",
+      "kind": "positive",
+      "sample": 4,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.01035,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.01035,
+        "contact_residue_pairs": 92,
+        "contact_pae_A_to_B_A": 17.827285766601562,
+        "contact_pae_B_to_A_A": 19.175825119018555,
+        "contact_pae_both_directions_A": 18.50155544281006,
+        "binder_mean_plddt": 0.649077832698822
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.3006616234779358
+        ],
+        "ptm": [
+          0.7009133696556091
+        ],
+        "iptm": [
+          0.20059868693351746
+        ],
+        "per_chain_ptm": [
+          [
+            0.8779157400131226,
+            0.618908166885376
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8779157400131226,
+              0.17033208906650543
+            ],
+            [
+              0.20059868693351746,
+              0.618908166885376
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.436174153238167,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 821,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          266,
+          283,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          302,
+          304,
+          306,
+          307,
+          308,
+          313,
+          314,
+          316,
+          319,
+          320,
+          321,
+          383
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.460241063745972,
+        "binder_CA_pose_rmsd_after_target_fit_A": 48.280695833052064,
+        "binder_interface_CA_rmsd_after_target_fit_A": 35.57618084794341,
+        "binder_CA_fold_rmsd_A": 16.525966194456633,
+        "native_contacts": 50,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "2ds25_5",
+      "kind": "positive",
+      "sample": 0,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.096326,
+          "B_A": 0.074635
+        },
+        "ipsae_min": 0.074635,
+        "ipsae_max": 0.096326,
+        "contact_residue_pairs": 85,
+        "contact_pae_A_to_B_A": 13.307978630065918,
+        "contact_pae_B_to_A_A": 13.196950912475586,
+        "contact_pae_both_directions_A": 13.252464771270752,
+        "binder_mean_plddt": 0.757538378238678
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.4465060234069824
+        ],
+        "ptm": [
+          0.7646086812019348
+        ],
+        "iptm": [
+          0.36698034405708313
+        ],
+        "per_chain_ptm": [
+          [
+            0.8770045638084412,
+            0.7724463939666748
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8770045638084412,
+              0.315219908952713
+            ],
+            [
+              0.36698034405708313,
+              0.7724463939666748
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 2.722656502280108,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 4,
+        "omitted_same_subunit_clash_pairs_lt2A": 938,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          192,
+          193,
+          194,
+          195,
+          196,
+          218,
+          219,
+          221,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          283,
+          287,
+          288,
+          290,
+          291,
+          292,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          315,
+          382
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 2.8085332439488506,
+        "binder_CA_pose_rmsd_after_target_fit_A": 45.715118191984615,
+        "binder_interface_CA_rmsd_after_target_fit_A": 36.49890594321572,
+        "binder_CA_fold_rmsd_A": 0.6209058591907832,
+        "native_contacts": 56,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "2ds25_5",
+      "kind": "positive",
+      "sample": 1,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.086058,
+          "B_A": 0.06766
+        },
+        "ipsae_min": 0.06766,
+        "ipsae_max": 0.086058,
+        "contact_residue_pairs": 96,
+        "contact_pae_A_to_B_A": 14.44738483428955,
+        "contact_pae_B_to_A_A": 14.031622886657715,
+        "contact_pae_both_directions_A": 14.239503860473633,
+        "binder_mean_plddt": 0.7570590972900391
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.4449962377548218
+        ],
+        "ptm": [
+          0.7646481990814209
+        ],
+        "iptm": [
+          0.3650832176208496
+        ],
+        "per_chain_ptm": [
+          [
+            0.8782014846801758,
+            0.7759145498275757
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8782014846801758,
+              0.3094991445541382
+            ],
+            [
+              0.3650832176208496,
+              0.7759145498275757
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.2469407053800694,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 866,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          219,
+          221,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          283,
+          287,
+          288,
+          290,
+          291,
+          292,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          320,
+          321,
+          322,
+          324,
+          383
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.326864916853645,
+        "binder_CA_pose_rmsd_after_target_fit_A": 45.73502848233972,
+        "binder_interface_CA_rmsd_after_target_fit_A": 36.48359766343055,
+        "binder_CA_fold_rmsd_A": 0.6207912830696974,
+        "native_contacts": 56,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "2ds25_5",
+      "kind": "positive",
+      "sample": 2,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.092988,
+          "B_A": 0.054942
+        },
+        "ipsae_min": 0.054942,
+        "ipsae_max": 0.092988,
+        "contact_residue_pairs": 74,
+        "contact_pae_A_to_B_A": 13.567092895507812,
+        "contact_pae_B_to_A_A": 13.26865005493164,
+        "contact_pae_both_directions_A": 13.417871475219727,
+        "binder_mean_plddt": 0.759255051612854
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.4373541474342346
+        ],
+        "ptm": [
+          0.7649711966514587
+        ],
+        "iptm": [
+          0.3554498851299286
+        ],
+        "per_chain_ptm": [
+          [
+            0.8783904314041138,
+            0.7763791084289551
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8783904314041138,
+              0.30660516023635864
+            ],
+            [
+              0.3554498851299286,
+              0.7763791084289551
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.287335731882989,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 2,
+        "omitted_same_subunit_clash_pairs_lt2A": 857,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          194,
+          218,
+          219,
+          221,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          283,
+          287,
+          288,
+          289,
+          291,
+          292,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          302,
+          305,
+          306,
+          307,
+          308,
+          310,
+          313,
+          381
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.2977375090236976,
+        "binder_CA_pose_rmsd_after_target_fit_A": 44.553618543160894,
+        "binder_interface_CA_rmsd_after_target_fit_A": 35.734450372871535,
+        "binder_CA_fold_rmsd_A": 0.6515904693818302,
+        "native_contacts": 56,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "2ds25_5",
+      "kind": "positive",
+      "sample": 3,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.091345,
+          "B_A": 0.080943
+        },
+        "ipsae_min": 0.080943,
+        "ipsae_max": 0.091345,
+        "contact_residue_pairs": 85,
+        "contact_pae_A_to_B_A": 13.389572143554688,
+        "contact_pae_B_to_A_A": 13.295434951782227,
+        "contact_pae_both_directions_A": 13.342503547668457,
+        "binder_mean_plddt": 0.7572914361953735
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.4483994245529175
+        ],
+        "ptm": [
+          0.7659348249435425
+        ],
+        "iptm": [
+          0.3690156042575836
+        ],
+        "per_chain_ptm": [
+          [
+            0.8784270286560059,
+            0.773139476776123
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8784270286560059,
+              0.3136782944202423
+            ],
+            [
+              0.3690156042575836,
+              0.773139476776123
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.3339935187885703,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 911,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          192,
+          193,
+          194,
+          196,
+          218,
+          219,
+          221,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          283,
+          287,
+          288,
+          290,
+          291,
+          292,
+          295,
+          297,
+          298,
+          299,
+          300,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          310,
+          312,
+          313,
+          314,
+          318,
+          320,
+          379,
+          381
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.381524695830569,
+        "binder_CA_pose_rmsd_after_target_fit_A": 44.72897979138646,
+        "binder_interface_CA_rmsd_after_target_fit_A": 35.79582491994864,
+        "binder_CA_fold_rmsd_A": 0.652653138312881,
+        "native_contacts": 56,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "2ds25_5",
+      "kind": "positive",
+      "sample": 4,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.090475,
+          "B_A": 0.079593
+        },
+        "ipsae_min": 0.079593,
+        "ipsae_max": 0.090475,
+        "contact_residue_pairs": 77,
+        "contact_pae_A_to_B_A": 13.072052001953125,
+        "contact_pae_B_to_A_A": 12.993539810180664,
+        "contact_pae_both_directions_A": 13.032795906066895,
+        "binder_mean_plddt": 0.758730947971344
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.44633740186691284
+        ],
+        "ptm": [
+          0.7652965784072876
+        ],
+        "iptm": [
+          0.36659759283065796
+        ],
+        "per_chain_ptm": [
+          [
+            0.8776388168334961,
+            0.7740079164505005
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8776388168334961,
+              0.31503987312316895
+            ],
+            [
+              0.36659759283065796,
+              0.7740079164505005
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.293806188060388,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 1,
+        "omitted_same_subunit_clash_pairs_lt2A": 850,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          191,
+          192,
+          193,
+          196,
+          217,
+          218,
+          219,
+          221,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          283,
+          287,
+          288,
+          290,
+          291,
+          292,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          302,
+          304,
+          305,
+          306,
+          307,
+          308,
+          313,
+          381
+        ]
+      },
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 3.3252623961524597,
+        "binder_CA_pose_rmsd_after_target_fit_A": 44.09613253875944,
+        "binder_interface_CA_rmsd_after_target_fit_A": 35.195882104033366,
+        "binder_CA_fold_rmsd_A": 0.5190375526703591,
+        "native_contacts": 56,
+        "recovered_contacts": 0,
+        "native_contact_recall": 0.0
+      },
+      "interface_recovered": false,
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "scrambled",
+      "kind": "negative_hypothesis",
+      "sample": 0,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 93,
+        "contact_pae_A_to_B_A": 23.587491989135742,
+        "contact_pae_B_to_A_A": 24.422470092773438,
+        "contact_pae_both_directions_A": 24.00498104095459,
+        "binder_mean_plddt": 0.4117582142353058
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.2107096165418625
+        ],
+        "ptm": [
+          0.662676990032196
+        ],
+        "iptm": [
+          0.0977177694439888
+        ],
+        "per_chain_ptm": [
+          [
+            0.8737002015113831,
+            0.23182159662246704
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8737002015113831,
+              0.0977177694439888
+            ],
+            [
+              0.09126925468444824,
+              0.23182159662246704
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 4.808352789342761,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 2,
+        "omitted_same_subunit_clash_pairs_lt2A": 801,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          192,
+          193,
+          194,
+          195,
+          196,
+          215,
+          217,
+          219,
+          237,
+          260,
+          261,
+          262,
+          263,
+          264,
+          266,
+          283,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          383
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "scrambled",
+      "kind": "negative_hypothesis",
+      "sample": 1,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 128,
+        "contact_pae_A_to_B_A": 23.16002655029297,
+        "contact_pae_B_to_A_A": 23.805526733398438,
+        "contact_pae_both_directions_A": 23.482776641845703,
+        "binder_mean_plddt": 0.4158666729927063
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.20871993899345398
+        ],
+        "ptm": [
+          0.662803053855896
+        ],
+        "iptm": [
+          0.09519915282726288
+        ],
+        "per_chain_ptm": [
+          [
+            0.8745136260986328,
+            0.23231849074363708
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8745136260986328,
+              0.09519915282726288
+            ],
+            [
+              0.08973661065101624,
+              0.23231849074363708
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.3916358474050776,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 1,
+        "omitted_same_subunit_clash_pairs_lt2A": 897,
+        "partner_subunit_clash_pairs_lt2A": 41,
+        "observed_glycans_clash_pairs_lt2A": 6,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          217,
+          218,
+          219,
+          221,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          283,
+          287,
+          288,
+          289,
+          290,
+          291,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          318,
+          319,
+          320,
+          321
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "scrambled",
+      "kind": "negative_hypothesis",
+      "sample": 2,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 124,
+        "contact_pae_A_to_B_A": 23.16155242919922,
+        "contact_pae_B_to_A_A": 24.053987503051758,
+        "contact_pae_both_directions_A": 23.60776996612549,
+        "binder_mean_plddt": 0.4130542576313019
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.2131296694278717
+        ],
+        "ptm": [
+          0.6623544096946716
+        ],
+        "iptm": [
+          0.10082346946001053
+        ],
+        "per_chain_ptm": [
+          [
+            0.8743308782577515,
+            0.22021758556365967
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8743308782577515,
+              0.09310808032751083
+            ],
+            [
+              0.10082346946001053,
+              0.22021758556365967
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.4643731265433773,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 1,
+        "omitted_same_subunit_clash_pairs_lt2A": 816,
+        "partner_subunit_clash_pairs_lt2A": 15,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          222,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          283,
+          287,
+          288,
+          290,
+          291,
+          292,
+          294,
+          295,
+          296,
+          297,
+          298,
+          300,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          321,
+          335
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "scrambled",
+      "kind": "negative_hypothesis",
+      "sample": 3,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 118,
+        "contact_pae_A_to_B_A": 23.15577507019043,
+        "contact_pae_B_to_A_A": 23.94353485107422,
+        "contact_pae_both_directions_A": 23.549654960632324,
+        "binder_mean_plddt": 0.4134306013584137
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.20975470542907715
+        ],
+        "ptm": [
+          0.6618950963020325
+        ],
+        "iptm": [
+          0.09671960026025772
+        ],
+        "per_chain_ptm": [
+          [
+            0.872347891330719,
+            0.22147631645202637
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.872347891330719,
+              0.09671960026025772
+            ],
+            [
+              0.0913037583231926,
+              0.22147631645202637
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 4.014870341724392,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 4,
+        "omitted_same_subunit_clash_pairs_lt2A": 830,
+        "partner_subunit_clash_pairs_lt2A": 27,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          218,
+          219,
+          221,
+          222,
+          260,
+          261,
+          262,
+          263,
+          264,
+          283,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          313,
+          314,
+          316,
+          319,
+          321,
+          322,
+          323,
+          324
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "scrambled",
+      "kind": "negative_hypothesis",
+      "sample": 4,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 104,
+        "contact_pae_A_to_B_A": 23.037517547607422,
+        "contact_pae_B_to_A_A": 23.764034271240234,
+        "contact_pae_both_directions_A": 23.400775909423828,
+        "binder_mean_plddt": 0.41438716650009155
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.2026623785495758
+        ],
+        "ptm": [
+          0.6586061716079712
+        ],
+        "iptm": [
+          0.08867640793323517
+        ],
+        "per_chain_ptm": [
+          [
+            0.8734164834022522,
+            0.22676129639148712
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8734164834022522,
+              0.08867640793323517
+            ],
+            [
+              0.08716832101345062,
+              0.22676129639148712
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 2.8340666960341694,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 2,
+        "omitted_same_subunit_clash_pairs_lt2A": 1031,
+        "partner_subunit_clash_pairs_lt2A": 68,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          190,
+          192,
+          217,
+          218,
+          219,
+          222,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          266,
+          267,
+          283,
+          287,
+          288,
+          290,
+          291,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          310,
+          311,
+          312,
+          313,
+          314,
+          316,
+          317,
+          318,
+          319,
+          321,
+          382,
+          383
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "caplacizumab",
+      "kind": "negative_hypothesis",
+      "sample": 0,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 40,
+        "contact_pae_A_to_B_A": 19.35524559020996,
+        "contact_pae_B_to_A_A": 19.521650314331055,
+        "contact_pae_both_directions_A": 19.438447952270508,
+        "binder_mean_plddt": 0.8478415012359619
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.2865646481513977
+        ],
+        "ptm": [
+          0.6389331817626953
+        ],
+        "iptm": [
+          0.1984724998474121
+        ],
+        "per_chain_ptm": [
+          [
+            0.8720251321792603,
+            0.9207263588905334
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8720251321792603,
+              0.14956384897232056
+            ],
+            [
+              0.1984724998474121,
+              0.9207263588905334
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 2.6696811152911843,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 0,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          230,
+          231,
+          232,
+          245,
+          247,
+          248,
+          249,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          365,
+          366,
+          367,
+          368,
+          369,
+          371,
+          372
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "caplacizumab",
+      "kind": "negative_hypothesis",
+      "sample": 1,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 42,
+        "contact_pae_A_to_B_A": 18.255855560302734,
+        "contact_pae_B_to_A_A": 18.359827041625977,
+        "contact_pae_both_directions_A": 18.307841300964355,
+        "binder_mean_plddt": 0.8477790951728821
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.29226261377334595
+        ],
+        "ptm": [
+          0.6453617215156555
+        ],
+        "iptm": [
+          0.20398782193660736
+        ],
+        "per_chain_ptm": [
+          [
+            0.8717039823532104,
+            0.9198249578475952
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8717039823532104,
+              0.16147854924201965
+            ],
+            [
+              0.20398782193660736,
+              0.9198249578475952
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 2.499888758046078,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 2,
+        "omitted_same_subunit_clash_pairs_lt2A": 0,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          240,
+          241,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          274,
+          350,
+          351,
+          352,
+          354,
+          356,
+          369
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "caplacizumab",
+      "kind": "negative_hypothesis",
+      "sample": 2,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 32,
+        "contact_pae_A_to_B_A": 19.204158782958984,
+        "contact_pae_B_to_A_A": 18.90847396850586,
+        "contact_pae_both_directions_A": 19.056316375732422,
+        "binder_mean_plddt": 0.8473573327064514
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.28537875413894653
+        ],
+        "ptm": [
+          0.6376809477806091
+        ],
+        "iptm": [
+          0.19730320572853088
+        ],
+        "per_chain_ptm": [
+          [
+            0.8717280030250549,
+            0.9206228256225586
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8717280030250549,
+              0.14932286739349365
+            ],
+            [
+              0.19730320572853088,
+              0.9206228256225586
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.271814714423363,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 1,
+        "omitted_same_subunit_clash_pairs_lt2A": 0,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          231,
+          233,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          253,
+          350,
+          351,
+          365,
+          366,
+          369
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "caplacizumab",
+      "kind": "negative_hypothesis",
+      "sample": 3,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 40,
+        "contact_pae_A_to_B_A": 18.992755889892578,
+        "contact_pae_B_to_A_A": 19.023500442504883,
+        "contact_pae_both_directions_A": 19.00812816619873,
+        "binder_mean_plddt": 0.8474794030189514
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.28805965185165405
+        ],
+        "ptm": [
+          0.6397029161453247
+        ],
+        "iptm": [
+          0.2001488357782364
+        ],
+        "per_chain_ptm": [
+          [
+            0.8730352520942688,
+            0.9201678037643433
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.8730352520942688,
+              0.1528136432170868
+            ],
+            [
+              0.2001488357782364,
+              0.9201678037643433
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.3513695449203964,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 0,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          245,
+          246,
+          247,
+          248,
+          249,
+          350,
+          351,
+          352,
+          354,
+          356,
+          357,
+          365,
+          366,
+          367,
+          368,
+          369
+        ]
+      },
+      "full_context_fit_valid": false
+    },
+    {
+      "binder_id": "caplacizumab",
+      "kind": "negative_hypothesis",
+      "sample": 4,
+      "seed": 42,
+      "scores": {
+        "ipsae_directional": {
+          "A_B": 0.0,
+          "B_A": 0.0
+        },
+        "ipsae_min": 0.0,
+        "ipsae_max": 0.0,
+        "contact_residue_pairs": 39,
+        "contact_pae_A_to_B_A": 18.72437858581543,
+        "contact_pae_B_to_A_A": 18.909082412719727,
+        "contact_pae_both_directions_A": 18.816730499267578,
+        "binder_mean_plddt": 0.8475139141082764
+      },
+      "chai_scores": {
+        "aggregate_score": [
+          0.2914336919784546
+        ],
+        "ptm": [
+          0.6417035460472107
+        ],
+        "iptm": [
+          0.20386621356010437
+        ],
+        "per_chain_ptm": [
+          [
+            0.872233510017395,
+            0.9200071096420288
+          ]
+        ],
+        "per_chain_pair_iptm": [
+          [
+            [
+              0.872233510017395,
+              0.15651527047157288
+            ],
+            [
+              0.20386621356010437,
+              0.9200071096420288
+            ]
+          ]
+        ],
+        "has_inter_chain_clashes": [
+          false
+        ],
+        "chain_chain_clashes": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "geometry": {
+        "target_fit_rmsd_A": 3.0620245929608703,
+        "mapped_target_residues": 194,
+        "modeled_target_clash_pairs_lt2A": 0,
+        "omitted_same_subunit_clash_pairs_lt2A": 0,
+        "partner_subunit_clash_pairs_lt2A": 0,
+        "observed_glycans_clash_pairs_lt2A": 0,
+        "native_target_contacts_lt5A": [
+          231,
+          234,
+          236,
+          242,
+          245,
+          246,
+          247,
+          248,
+          249,
+          251,
+          253,
+          350,
+          351,
+          352,
+          354,
+          355,
+          356,
+          357,
+          365,
+          366,
+          369
+        ]
+      },
+      "full_context_fit_valid": false
+    }
+  ],
+  "summary": {
+    "3ds18": {
+      "samples": 5,
+      "interface_recovered": 0,
+      "ipsae_min_range": [
+        0.0,
+        0.0
+      ]
+    },
+    "2ds25_5": {
+      "samples": 5,
+      "interface_recovered": 0,
+      "ipsae_min_range": [
+        0.054942,
+        0.080943
+      ]
+    },
+    "scrambled": {
+      "samples": 5,
+      "interface_recovered": 0,
+      "ipsae_min_range": [
+        0.0,
+        0.0
+      ]
+    },
+    "caplacizumab": {
+      "samples": 5,
+      "interface_recovered": 0,
+      "ipsae_min_range": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

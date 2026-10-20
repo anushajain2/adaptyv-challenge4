@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-20T16:26:32.265399+00:00",
+  "updated_utc": "2026-10-20T19:16:24.090586+00:00",
   "day_1": {
     "status": "complete",
     "target": "11QC chain A native 190-383",
@@ -65,7 +65,7 @@
     "results": "reports/pilot/direction_summary.json"
   },
   "validation": {
-    "local_tests_passed": 14,
+    "local_tests_passed": 25,
     "remote_boltzgen_check": "passed_both_protocols",
     "real_reference_rebuild_and_propka": "passed_two_seeds",
     "all_pilot_files_readable": 75,
@@ -94,14 +94,42 @@
     "max_interface_iptm": 0.25777
   },
   "cost": {
-    "record": "reports/billing_final.json",
-    "metered_gross_usd": 2.39221223,
-    "conservative_reported_usage_usd": 2.394155,
+    "record": "reports/controls_chai/billing_after.json",
+    "metered_gross_usd": 3.19348563,
+    "conservative_reported_usage_usd": 3.19348563,
     "billed_usd": 0.0,
     "authorized_total_including_credits_usd": 30,
     "billing_may_lag": true,
-    "recorded_at_utc": "2026-10-20T16:21:02.898669+00:00"
+    "recorded_at_utc": "2026-10-20T19:16:24.090586+00:00"
   },
   "total_real_designs": 75,
-  "active_cloud_runs": 0
+  "active_cloud_runs": 0,
+  "calibration": {
+    "checkpoint": "All-sample audit, matched full-PAE scoring and Chai cross-check",
+    "completed_runs": [
+      "controls-002",
+      "controls-004-msa",
+      "controls-005-matched",
+      "controls-006-chai"
+    ],
+    "total_control_diffusion_samples": 200,
+    "all_samples_analyzed": 200,
+    "new_control_samples_this_round": 100,
+    "new_designs_generated": 0,
+    "generation_gate": "failed; no threshold retuning; 20-design batch unlaunched",
+    "best_complete_complex_reference": "2DS25.5 / 6WRW under target-templated BoltzGen",
+    "new_histidine_screening": "not started; no new qualified parents",
+    "local_tests_passed": 25,
+    "budget_authorized_gross_usd": 30,
+    "round_planning_ceiling_usd": 5,
+    "latest_reported_gross_usd": 3.19348563,
+    "billing_snapshot": "reports/controls_chai/billing_after.json",
+    "billing_may_lag": true,
+    "active_cloud_runs": 0,
+    "evidence": [
+      "reports/controls/all_samples_audit.json",
+      "reports/controls_matched/results.json",
+      "reports/controls_chai/results.json"
+    ]
+  }
 }

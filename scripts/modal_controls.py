@@ -47,6 +47,9 @@ def run_controls(files: dict[str, bytes], run_id: str):
             raise ValueError("Flat input filenames required")
         (source / name).write_bytes(data)
     manifest = json.loads((source / "manifest.json").read_text())
+    max_seconds = int(manifest.get("max_prediction_seconds", 4800))
+    if not 60 <= max_seconds <= 4800:
+        raise ValueError("Invalid prediction time limit")
     (out / "input_hashes.json").write_text(json.dumps(
         {k: hashlib.sha256(v).hexdigest() for k, v in files.items()}, indent=2))
     (out / "requirements-cloud.txt").write_text(subprocess.check_output(
@@ -67,6 +70,8 @@ def run_controls(files: dict[str, bytes], run_id: str):
                    str(dest), "--seed", str(seed)]
             if manifest["refolding"].get("target_msa"):
                 cmd += ["--target-msa", str(source / manifest["refolding"]["target_msa"])]
+            if manifest["refolding"].get("export_pae"):
+                cmd += ["--export-pae"]
             log_path = out / f"seed-{seed}.log"
             with log_path.open("w") as log:
                 proc = subprocess.Popen(cmd, stdout=log, stderr=subprocess.STDOUT,
@@ -74,14 +79,14 @@ def run_controls(files: dict[str, bytes], run_id: str):
                                         start_new_session=True)
                 last = ""
                 while proc.poll() is None:
-                    if time.monotonic()-started > 4800:
+                    if time.monotonic()-started > max_seconds:
                         os.killpg(proc.pid, signal.SIGTERM)
                         try:
                             proc.wait(timeout=10)
                         except subprocess.TimeoutExpired:
                             os.killpg(proc.pid, signal.SIGKILL)
                             proc.wait()
-                        raise TimeoutError("Control run exceeded 80-minute compute bound")
+                        raise TimeoutError(f"Control run exceeded {max_seconds}-second compute bound")
                     try:
                         proc.wait(timeout=25)
                     except subprocess.TimeoutExpired:

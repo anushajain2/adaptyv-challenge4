@@ -1,0 +1,15 @@
+{
+  "run_id": "controls-005-matched",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "seed": 17,
+      "returncode": 0
+    },
+    {
+      "seed": 29,
+      "returncode": 0
+    }
+  ],
+  "elapsed_seconds": 282.70161941599997
+}
