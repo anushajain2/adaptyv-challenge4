@@ -1,0 +1,16 @@
+{
+  "3ds18_crystal.cif": "e53813ff9ecfbcdb4985df3af372bdc6d607df057f3a39fb8f73f046242637db",
+  "atv_permuted.cif": "b442ce81d5381ae12c9c09f27700d087f469cd4747029e8b219ddd05268bfd19",
+  "caplacizumab_current.npz": "6755ab16ef25f316e050ff55c6dcabb88b0e833487bd621e20e524ac2fcbd1b9",
+  "3ds18_current.cif": "90be5af55b2329f24dd3d75ae412e41955c36cc0ae1324feb5df6d5c84db1e7b",
+  "3ds18_scrambled.cif": "7c1dcbd343301824c8288dee04d9722f22aa38122ea5e62a7f74fb1ef29a9e07",
+  "atv_current.cif": "b57714c57cbcb03cd3ef9b504f422014ebfd69044f34148e5c0c54ec768af4d0",
+  "atv_permuted.npz": "c2b800f690efa7cb8dd1e1e009652b2921d3516dd50736c9fab649d94a70c589",
+  "3ds18_crystal.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "manifest.json": "cede9d897f125ba18afc15a4f984981f7950fd09b7a3a233d72533e3a18b8fea",
+  "3ds18_current.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "caplacizumab_current.cif": "ec8fc2fef6abf956d301a092793148ba173d1f56db50d4634135fac8e2807f9f",
+  "atv_current.npz": "4a4df38b9974fa73ea380841ccca80f8ddb07b35252de6a59bdaf1eb5ef7202e",
+  "3ds18_scrambled.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "control_refold_worker.py": "a5dc23da9dcce504e0cf32896fef260b0aa53cc8a5a5ce8de2dad2bf2cdfa950"
+}

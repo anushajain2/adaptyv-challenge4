@@ -1,0 +1,47 @@
+{
+  "run_id": "controls-004-msa",
+  "authorized_total_usd": 30,
+  "prior_gross_high_water_usd": 2.45317185,
+  "reserved_usd": 8,
+  "started_utc": "2026-10-20T18:25:09.116395+00:00",
+  "status": "launched_or_attempted",
+  "prior_attempts": [
+    {
+      "run_id": "controls-001",
+      "authorized_total_usd": 30,
+      "prior_gross_high_water_usd": 2.394155,
+      "reserved_usd": 8,
+      "started_utc": "2026-10-20T18:11:22.966131+00:00",
+      "status": "launched_or_attempted",
+      "note": "Existing user-confirmed US$30 gross workspace cap remains required.",
+      "client_exit_code": 1
+    },
+    {
+      "run_id": "controls-002",
+      "authorized_total_usd": 30,
+      "prior_gross_high_water_usd": 2.394155,
+      "reserved_usd": 8,
+      "started_utc": "2026-10-20T18:12:47.524669+00:00",
+      "status": "launched_or_attempted",
+      "reviewed_retry_reason": "Stopped controls-001 after missing local module during container startup; runner now standalone; no predictions had started.",
+      "note": "Existing user-confirmed US$30 gross workspace cap remains required.",
+      "client_exit_code": 0
+    },
+    {
+      "run_id": "controls-003-msa",
+      "authorized_total_usd": 30,
+      "prior_gross_high_water_usd": 2.43627398,
+      "reserved_usd": 8,
+      "started_utc": "2026-10-20T18:21:47.368918+00:00",
+      "status": "launched_or_attempted",
+      "input_dir": "data/controls_msa",
+      "reviewed_retry_reason": "Baseline controls-002 completed; low confidence and conformation-dependent interface recovery justify a matched target-MSA diagnostic, not new design generation.",
+      "note": "Existing user-confirmed US$30 gross workspace cap remains required.",
+      "client_exit_code": 1
+    }
+  ],
+  "input_dir": "data/controls_msa",
+  "reviewed_retry_reason": "controls-003-msa stopped before prediction: upstream A3M parser imports missing redis dependency. Added redis 5.2.1 to cached CPU image; baseline predictions unchanged.",
+  "note": "Existing user-confirmed US$30 gross workspace cap remains required.",
+  "client_exit_code": 0
+}

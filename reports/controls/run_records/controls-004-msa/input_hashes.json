@@ -1,0 +1,14 @@
+{
+  "msa_job.json": "0b6184feb03a2fa75ad104980fd97f52906d425d4a80de7572253bd8db0c6d93",
+  "3ds18_crystal.cif": "e53813ff9ecfbcdb4985df3af372bdc6d607df057f3a39fb8f73f046242637db",
+  "target.a3m": "14d7ca256ec987bef673c45208e19e931aca53ff8844405637a92d580213b649",
+  "caplacizumab_current.npz": "6755ab16ef25f316e050ff55c6dcabb88b0e833487bd621e20e524ac2fcbd1b9",
+  "3ds18_current.cif": "90be5af55b2329f24dd3d75ae412e41955c36cc0ae1324feb5df6d5c84db1e7b",
+  "3ds18_scrambled.cif": "7c1dcbd343301824c8288dee04d9722f22aa38122ea5e62a7f74fb1ef29a9e07",
+  "3ds18_crystal.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "manifest.json": "0ba89e0b71ca216012ebb3899426536d1ce48ef379e0aa8fe54e705eb86a5101",
+  "3ds18_current.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "caplacizumab_current.cif": "ec8fc2fef6abf956d301a092793148ba173d1f56db50d4634135fac8e2807f9f",
+  "3ds18_scrambled.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "control_refold_worker.py": "04ef17ba9054c9bcd6076a6fbf5d9d325b22c815b2e63417a20bdb9adff66a84"
+}

@@ -11,3 +11,4 @@ outputs/
 !.env.example
 *.pem
 *.key
+data/controls_msa/server_result.tar.gz

@@ -1,0 +1,4 @@
+# Preserve scientific coordinate formatting and CSV writer line endings.
+*.pdb -whitespace
+*.cif -whitespace
+*.csv whitespace=cr-at-eol

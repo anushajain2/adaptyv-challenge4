@@ -5,7 +5,15 @@ This project prepares a human TfR1 target, runs 25 miniprotein and 25 nanobody d
 **Start with the [results report](reports/RESULTS.md).** The initial 50 designs and
 a 25-design follow-up are complete. Six exploratory pKa-lowering variants were
 found, but **zero candidates pass the full parent and direction gates**.
-Reported gross Modal usage is approximately **US$2.40**; both cloud apps have completed.
+The latest post-calibration Modal snapshot reports approximately **US$2.64 gross usage**.
+
+**Calibration follow-up:** published-complex controls and an explicit target-MSA
+comparison are documented in the results report and `reports/controls/`.
+The original pilot's confidence thresholds are provisional: low ipTM alone did
+not reliably distinguish failure to recover a known interface.
+The bound 6WRV crop recovered 86–92% of the 3DS18 interface contacts with the
+baseline settings; the original 11QC crop and the target-MSA comparison recovered
+none in their selected models. Further generation remains gated on better calibration.
 
 ## Current status
 
@@ -20,7 +28,7 @@ Reported gross Modal usage is approximately **US$2.40**; both cloud apps have co
 
 The approved cloud budget is **US$30 total including credits**, with **25 designs per protocol**. No outcome is guaranteed within that budget.
 
-Local verification: **14 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **19 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.
@@ -183,3 +191,35 @@ This estimate omits proton linkage at other sites, coupled titration, free-binde
 - [Human UniProt P02786](https://www.uniprot.org/uniprotkb/P02786/entry), [mouse Q62351](https://www.uniprot.org/uniprotkb/Q62351/entry)
 - [11QC](https://www.rcsb.org/structure/11QC), [6WRV](https://www.rcsb.org/structure/6WRV), [6W3H](https://www.rcsb.org/structure/6W3H)
 - [Modal pricing](https://modal.com/pricing)
+
+## Reproduce the calibration checks
+
+```bash
+.venv/bin/python scripts/prepare_controls.py
+.venv/bin/python scripts/audit_target_context.py
+.venv/bin/python scripts/analyze_controls.py outputs/controls_complete/controls-002
+.venv/bin/python scripts/analyze_controls.py outputs/controls_msa_complete/controls-004-msa --out reports/controls_msa
+.venv/bin/python scripts/plot_controls.py
+```
+
+The analysis commands require the downloaded runs; use `scripts/download_pilot.py`
+with the run IDs above. `scripts/launch_controls.py` reconciles live billing,
+reserves US$8 of planning headroom under the existing US$30 gross cap, and records
+each attempt before cloud image creation. It does not automatically retry.
+`scripts/fetch_control_msa.py` submits only the public receptor sequence to the
+standard ColabFold MSA server; the saved 512-sequence alignment is in
+`data/controls_msa/target.a3m`.
+
+The baseline uses the pinned BoltzGen folding configuration with target-only
+templates, empty MSA, three recycling steps, 200 sampling steps, and five diffusion
+samples per seed (17 and 29). The MSA diagnostic keeps those settings and explicitly
+injects the receptor MSA into the upstream `Input` object, increasing `max_seqs`
+from 1 to 512. Preflight checks verify token counts, chain roles, exclusion of
+binder templates, and nontrivial MSA depth for the MSA run.
+
+6W3H author chains D/A form the tested receptor/Fc pair; PDB label-chain names
+are different. The target retains the shared observed construct span (positions
+6–149), with two unresolved internal residues retained in the input sequence.
+The upstream writer omits their coordinates; analysis preserves that numbering.
+These controls are not new designs. The scrambled sequence and unrelated VHH are
+hypothesized negatives, not experimentally established nonbinders.

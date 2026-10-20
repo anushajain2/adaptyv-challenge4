@@ -1,0 +1,10 @@
+{
+  "query_sha256": "7ca2788caf9d88e9e82284fa362f5000f5d004e2a1204a61d7f041e9e539af34",
+  "server": "https://api.colabfold.com",
+  "mode": "env",
+  "id": "7e726be830d0ebd18a85fae9016ff0b61b85043c389699c807fbc6892d1e1c6b",
+  "status": "COMPLETE",
+  "stored_sequences": 512,
+  "target_length": 194,
+  "a3m_sha256": "14d7ca256ec987bef673c45208e19e931aca53ff8844405637a92d580213b649"
+}

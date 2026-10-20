@@ -1,0 +1,24 @@
+{
+  "checkpoint": "Known-binder calibration and matched target-MSA comparison",
+  "completed_runs": [
+    "controls-002",
+    "controls-004-msa"
+  ],
+  "baseline_conditions": 6,
+  "msa_conditions": 4,
+  "seeds": [
+    17,
+    29
+  ],
+  "diffusion_samples_per_seed": 5,
+  "total_diffusion_samples": 100,
+  "selected_structures_analyzed": 20,
+  "new_designs_generated": 0,
+  "generation_gate": "hold: original target/prediction setup not sufficiently calibrated",
+  "best_supported_receptor_for_further_calibration": "6WRV bound apical conformation",
+  "new_histidine_screening": "not started; no new qualified parents",
+  "local_tests_passed": 19,
+  "budget_authorized_gross_usd": 30,
+  "latest_reported_gross_usd": 2.63545257,
+  "billing_snapshot": "reports/controls/billing_after.json"
+}

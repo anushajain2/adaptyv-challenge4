@@ -1,0 +1,86 @@
+{
+  "geometry_source": "Full observed 11QC dimer; existing dimer SASA and observed-glycan distances retained",
+  "glycan_anchors": [
+    "A251",
+    "A317",
+    "A727",
+    "B251",
+    "B317",
+    "B727"
+  ],
+  "limits": "10 A cut/anchor buffers and 25 A2 SASA are heuristics, not validated glycan envelopes or binding guarantees.",
+  "original_hotspot_sets": [
+    {
+      "name": "conserved_326_347",
+      "positions": [
+        327,
+        331
+      ],
+      "passing_positions": [
+        327,
+        331
+      ],
+      "excluded": {}
+    },
+    {
+      "name": "conserved_230_244",
+      "positions": [
+        240,
+        241,
+        244
+      ],
+      "passing_positions": [
+        240,
+        241,
+        244
+      ],
+      "excluded": {}
+    },
+    {
+      "name": "conserved_298_324_glycan_caution",
+      "positions": [
+        303,
+        300,
+        311
+      ],
+      "passing_positions": [
+        303
+      ],
+      "excluded": {
+        "300": "crop_exposes_buried_surface",
+        "311": "crop_exposes_buried_surface"
+      }
+    },
+    {
+      "name": "apical_tip_basic_direction_probe",
+      "positions": [
+        205,
+        208,
+        371
+      ],
+      "passing_positions": [
+        205,
+        208,
+        371
+      ],
+      "excluded": {}
+    }
+  ],
+  "published_interface_passing_spatial_screen": [
+    204,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    215,
+    343,
+    344,
+    348,
+    371,
+    374,
+    376
+  ],
+  "total_residues_passing_spatial_screen": 75
+}

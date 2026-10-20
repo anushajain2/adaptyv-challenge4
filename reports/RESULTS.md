@@ -1,6 +1,38 @@
 # TfR1 days 1–3: results
 
-The workflow is built and has run on real designs. Target preparation and the 50-design pilot are complete. The direction check found **six exploratory histidine-pair variants with both pKas lowered in both modeled conformations**. **No variant qualifies as a reliable binder candidate**, because every parent design failed the interface-confidence screen. The stronger candidate milestone remains unmet.
+The workflow is built and has run on real designs. Target preparation and the 50-design pilot are complete. The direction check found **six exploratory histidine-pair variants with both pKas lowered in both modeled conformations**. **No variant passes the provisional parent-quality gate**, and binding remains unvalidated. The calibration below now shows that confidence failure alone is not sufficient evidence that a sequence cannot bind.
+
+## Calibration checkpoint — 21 October 2026, India time
+
+**Hold further generation and histidine engineering until the scoring setup is better calibrated.** We completed 100 diffusion samples: six baseline conditions × two seeds × five samples, then four target-MSA conditions × two seeds × five samples. Each seed's confidence-selected model was compared with the experimental interface. No new binder designs were generated in this checkpoint.
+
+| Control / receptor | Baseline selected ipTM | Baseline native-contact recall | With target MSA: selected ipTM | With target MSA: native-contact recall |
+|---|---:|---:|---:|---:|
+| 3DS18 / original 11QC crop | 0.174–0.184 | 0% | 0.290–0.297 | 0% |
+| 3DS18 / bound 6WRV crop | 0.297–0.302 | 86–92% | 0.285–0.314 | 0% |
+| ATV Fc / 11QC crop | 0.135–0.147 | 0% | Not run | Not run |
+| ATV Fc / permuted 6W3H crop | 0.138–0.143 | 0% | Not run | Not run |
+| Scrambled 3DS18 / 11QC | 0.145 | No experimental pose | 0.193–0.208 | No experimental pose |
+| Unrelated VHH / 11QC | 0.115–0.132 | No experimental pose | 0.121 | No experimental pose |
+
+For 3DS18 with the bound receptor and baseline settings, the binder's interface Cα RMSD after fitting the receptor is **0.77–0.95 Å**. Whole-binder pose RMSD remains high (18.5–18.8 Å), reflecting disagreement outside the recovered interface. Thus an ipTM cutoff of 0.6, or whole-binder RMSD alone, would miss this accurately recovered interface. This does not justify lowering thresholds for novel designs without further validation.
+
+The 512-sequence target MSA was actually present in model features in every MSA condition. Binder templates were explicitly excluded. Adding the MSA failed to improve interface recovery in this small matched comparison; two selected models also distorted the receptor substantially. This does not establish that MSAs are generally harmful, but it refutes the assumption that merely enabling one fixes this setup.
+
+The geometric controls were distinct from blind prediction:
+
+- Both native published complexes are free of <2 Å receptor–binder clashes after mapped placement into the full 11QC context, including observed glycans.
+- Replacing the bound receptor coordinates with 11QC introduces 15 close atom pairs for 3DS18, despite a good global alignment. Receptor conformation matters.
+- 6W3H uses author receptor chain **D** with Fc chain **A**; label-chain IDs differ. Its circularly permuted target is mapped explicitly. We use construct positions 6–149, preserving two unresolved residues in the sequence, and the observed Fc fragment. This is a secondary construct-sensitive control, not an intact therapeutic antibody.
+- The spatial audit adds 10 Å crop-cut and glycan-anchor buffers to the full-dimer SASA map. Original hotspots **327/331 pass** these checks. Positions 300/311 in the alternative patch fail the crop-exposure check. The data do not support claiming the conserved patch is simply inaccessible.
+
+**Decision:** retain the 6WRV bound receptor conformation for further calibration; test an additional independent positive control or predictor and evaluate local interface geometry alongside confidence. The planned beta-sheet-biased versus unrestricted generation comparison remains gated. Do not restart PROPKA screening on new parents yet. Sequence conservation, glycan clearance and mouse binding remain separate requirements.
+
+The controls are published binders ([6WRV](https://www.rcsb.org/structure/6WRV), [6W3H](https://www.rcsb.org/structure/6W3H)), and their structures may occur in predictor training data. The scrambled sequence and unrelated VHH are hypothesized negatives, not experimentally verified nonbinders. Two seeds provide limited sampling. No affinity, pH switch or cross-species performance has been established.
+
+![Calibration confidence and contact recovery](controls/calibration_overview.png)
+
+Evidence: [baseline metrics and poses](controls/results.json), [MSA comparison](controls_msa/results.json), [construct preparation](controls/preparation.json), [spatial audit](controls/spatial_target_audit.json), [spatial residue map](controls/spatial_target_map.csv). Archived execution settings, input hashes, environment versions, preflight checks and confidence arrays are under `controls/run_records/`.
 
 ## What was completed
 
@@ -39,14 +71,14 @@ PROPKA uses the **intact 194-residue trimmed target** plus the mutant binder. Th
 
 ## Cost and verification
 
-Modal currently reports approximately **US$2.40 gross usage**, within the authorized **US$30 including credits**. Reported billed amount is **US$0.00**, with credits covering compute. Billing can lag; [the raw record](billing_final.json) preserves the exact values. Both cloud apps have completed; no generation job remains running.
+The latest Modal snapshot reports approximately **US$2.64 gross usage**, within the authorized **US$30 including credits**. Reported billed amount is **US$0.00**, with credits covering compute. Billing can lag and prior amounts can be reconciled; [the latest raw record](controls/billing_after.json) preserves the exact values, and [the earlier pilot snapshot](billing_final.json) is retained. Both successful control runs completed. Two failed startup/parser attempts are recorded in the launch history; neither produced predictions.
 
-**14 local tests passed.** Both initial cloud specifications and the follow-up specification validated. Downloaded input hashes match the archived inputs. All 12 scored direction models passed an actual-output audit for complete histidines, matching free/bound binder coordinates, valid PROPKA groups and arithmetic consistency.
+**19 local tests passed.** Both initial cloud specifications and the follow-up specification validated. Control preflight checks verified residue masks and chain roles; the MSA comparison additionally verified binder-template exclusion and MSA depth 512. Downloaded input hashes match the archived inputs. All 12 scored direction models passed an actual-output audit for complete histidines, matching free/bound binder coordinates, valid PROPKA groups and arithmetic consistency.
 
 ## Files to use
 
 - [Conservation map](../data/prepared/conservation_map.csv), [hotspot sets](../data/prepared/hotspot_sets.json), [trimmed target PDB](../data/prepared/human_apical.pdb).
-- [All 75 designs and metrics](../outputs/analysis/pilot_designs.csv), [parent sequences](../outputs/analysis/pilot_designs.fasta).
+- [All 75 designs and metrics](pilot/pilot_designs.csv), [parent sequences](pilot/pilot_sequences.fasta).
 - [All eight histidine pairs and evidence paths](pilot/all_histidine_pairs.csv), [six exploratory variant sequences](pilot/exploratory_pka_lowering.fasta).
 - [Direction summary](pilot/direction_summary.json), [output audit](initial_pilot/direction_audit.json), [machine-readable project status](day1_3_status.json).
 - [Overview plot](pilot/pilot_overview.png), [PDF plot](pilot/pilot_overview.pdf), [reproduction instructions](../README.md).

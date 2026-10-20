@@ -1,0 +1,210 @@
+[
+  {
+    "id": "3ds18_crystal",
+    "target_tokens": 194,
+    "binder_tokens": 93,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 512,
+    "template_features": {
+      "template_restype": [
+        1,
+        287,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        287,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        287,
+        3
+      ],
+      "template_cb": [
+        1,
+        287,
+        3
+      ],
+      "template_ca": [
+        1,
+        287,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        287
+      ],
+      "template_mask_frame": [
+        1,
+        287
+      ],
+      "template_mask": [
+        1,
+        287
+      ],
+      "query_to_template": [
+        1,
+        287
+      ]
+    }
+  },
+  {
+    "id": "3ds18_current",
+    "target_tokens": 194,
+    "binder_tokens": 93,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 512,
+    "template_features": {
+      "template_restype": [
+        1,
+        287,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        287,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        287,
+        3
+      ],
+      "template_cb": [
+        1,
+        287,
+        3
+      ],
+      "template_ca": [
+        1,
+        287,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        287
+      ],
+      "template_mask_frame": [
+        1,
+        287
+      ],
+      "template_mask": [
+        1,
+        287
+      ],
+      "query_to_template": [
+        1,
+        287
+      ]
+    }
+  },
+  {
+    "id": "3ds18_scrambled",
+    "target_tokens": 194,
+    "binder_tokens": 93,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 512,
+    "template_features": {
+      "template_restype": [
+        1,
+        287,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        287,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        287,
+        3
+      ],
+      "template_cb": [
+        1,
+        287,
+        3
+      ],
+      "template_ca": [
+        1,
+        287,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        287
+      ],
+      "template_mask_frame": [
+        1,
+        287
+      ],
+      "template_mask": [
+        1,
+        287
+      ],
+      "query_to_template": [
+        1,
+        287
+      ]
+    }
+  },
+  {
+    "id": "caplacizumab_current",
+    "target_tokens": 194,
+    "binder_tokens": 128,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 512,
+    "template_features": {
+      "template_restype": [
+        1,
+        322,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        322,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        322,
+        3
+      ],
+      "template_cb": [
+        1,
+        322,
+        3
+      ],
+      "template_ca": [
+        1,
+        322,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        322
+      ],
+      "template_mask_frame": [
+        1,
+        322
+      ],
+      "template_mask": [
+        1,
+        322
+      ],
+      "query_to_template": [
+        1,
+        322
+      ]
+    }
+  }
+]
