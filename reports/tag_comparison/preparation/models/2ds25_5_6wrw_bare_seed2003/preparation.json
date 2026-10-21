@@ -1,0 +1,107 @@
+{
+  "id": "2ds25_5_6wrw_bare",
+  "seed": 2003,
+  "sample": 4,
+  "core_length": 88,
+  "source": "outputs/tag_comparison_scoring/seed-2003/2ds25_5_6wrw_bare/4/model.pdb",
+  "dest": "reports/tag_comparison/preparation/models/2ds25_5_6wrw_bare_seed2003",
+  "status": "ok",
+  "source_sha256": "4fe92601cf4a73c9067269053a60dc8fb6409a0708ed28210eff257322ccbdd4",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15668151357350005,
+        "max_A": 0.7305930256843567
+      },
+      "sidechain": {
+        "rms_A": 0.4994028620244202,
+        "max_A": 2.113053321838379
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.15318241854792708,
+        "max_A": 0.9151108264923096
+      },
+      "sidechain": {
+        "rms_A": 0.6052844384486759,
+        "max_A": 2.515583038330078
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15668151357350005,
+        "max_A": 0.7305930256843567
+      },
+      "sidechain": {
+        "rms_A": 0.4994028620244202,
+        "max_A": 2.113053321838379
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.15318241854792708,
+        "max_A": 0.9151108264923096
+      },
+      "sidechain": {
+        "rms_A": 0.6052844384486759,
+        "max_A": 2.515583038330078
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9456158232181338,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      196,
+      197,
+      199,
+      201,
+      202,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      294,
+      340,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "ef501019b324eb70932e45e80177fdd4cdbc4df68f8e9e3b5cb7095cbee7fab4",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 35
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 84
+    }
+  }
+}

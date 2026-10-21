@@ -1,0 +1,647 @@
+{
+  "id": "apical_short_008_A41H_tagged",
+  "base_id": "apical_short_008_A41H",
+  "condition": "tagged",
+  "kind": "novel_design",
+  "arm": "apical_short",
+  "seed": 2003,
+  "sample": 0,
+  "confidence_selected": true,
+  "upstream_confidence_selected": true,
+  "metrics": {
+    "iptm": 0.5008283853530884,
+    "ptm": 0.5077694058418274,
+    "design_to_target_iptm": 0.5008283853530884,
+    "interaction_pae": 20.64247703552246,
+    "min_design_to_target_pae": 3.117893934249878,
+    "design_ptm": 0.43493157625198364
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.154421,
+      "B_A": 0.280207
+    },
+    "ipsae_min": 0.154421,
+    "ipsae_max": 0.280207,
+    "contact_residue_pairs": 60,
+    "contact_pae_A_to_B_A": 5.303589344024658,
+    "contact_pae_B_to_A_A": 5.057586193084717,
+    "contact_pae_both_directions_A": 5.1805877685546875,
+    "binder_core_mean_plddt": 0.6681479811668396
+  },
+  "core_length": 58,
+  "core_mean_cross_PAE_A": 12.697883605957031,
+  "target_CA_rmsd_to_input_A": 1.603555068605255,
+  "raw_scoring_output": "outputs/tag_comparison_scoring/seed-2003/apical_short_008_A41H_tagged/0",
+  "geometry": {
+    "target_fit_rmsd_A": 1.656314940084596,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 1,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      196,
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 1.603555068605255,
+    "binder_CA_pose_rmsd_after_target_fit_A": 1.0867985938527607,
+    "binder_interface_CA_rmsd_after_target_fit_A": 0.9243873975487145,
+    "binder_CA_fold_rmsd_A": 0.5541053936305794,
+    "native_contacts": 29,
+    "recovered_contacts": 24,
+    "native_contact_recall": 0.8275862068965517
+  },
+  "contacts": {
+    "pairs": 60,
+    "target_native_positions": [
+      196,
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ],
+    "hotspots_contacted_crop": [
+      19,
+      21,
+      22
+    ],
+    "fraction_pairs_in_reference_region": 0.8833333333333333,
+    "fraction_pairs_at_conserved_target_positions": 0.3333333333333333,
+    "backbone_NO_contacts_lt3_5A": [
+      {
+        "target_native": 197,
+        "target_atom": "O",
+        "binder_position": 1,
+        "binder_atom": "N",
+        "distance_A": 3.2907373905181885
+      },
+      {
+        "target_native": 210,
+        "target_atom": "N",
+        "binder_position": 46,
+        "binder_atom": "O",
+        "distance_A": 2.9074015617370605
+      },
+      {
+        "target_native": 210,
+        "target_atom": "O",
+        "binder_position": 46,
+        "binder_atom": "N",
+        "distance_A": 2.5694947242736816
+      }
+    ],
+    "backbone_contact_note": "Distance-only observations, not hydrogen-bond or beta-sheet assignments"
+  },
+  "screen": {
+    "pass": false,
+    "checks": {
+      "binder_fold": true,
+      "interface_pose": true,
+      "design_contact_recall": true,
+      "hotspot_contacts": true,
+      "intended_region": true,
+      "context_fit": true,
+      "clash_clearance": false,
+      "core_cross_PAE": true,
+      "core_contact_PAE": true
+    },
+    "failed": [
+      "clash_clearance"
+    ]
+  },
+  "tag": {
+    "target_contact_residue_pairs": [
+      [
+        14,
+        108
+      ],
+      [
+        16,
+        75
+      ],
+      [
+        16,
+        110
+      ],
+      [
+        17,
+        107
+      ],
+      [
+        17,
+        108
+      ],
+      [
+        17,
+        109
+      ],
+      [
+        17,
+        110
+      ],
+      [
+        18,
+        108
+      ],
+      [
+        20,
+        72
+      ],
+      [
+        21,
+        72
+      ],
+      [
+        22,
+        82
+      ],
+      [
+        22,
+        83
+      ],
+      [
+        38,
+        102
+      ],
+      [
+        38,
+        103
+      ],
+      [
+        38,
+        104
+      ],
+      [
+        39,
+        101
+      ],
+      [
+        39,
+        102
+      ],
+      [
+        39,
+        103
+      ],
+      [
+        40,
+        100
+      ],
+      [
+        40,
+        101
+      ],
+      [
+        40,
+        102
+      ],
+      [
+        40,
+        106
+      ],
+      [
+        41,
+        99
+      ],
+      [
+        41,
+        100
+      ],
+      [
+        41,
+        101
+      ],
+      [
+        42,
+        95
+      ],
+      [
+        42,
+        96
+      ],
+      [
+        42,
+        97
+      ],
+      [
+        42,
+        98
+      ],
+      [
+        42,
+        99
+      ],
+      [
+        42,
+        100
+      ],
+      [
+        58,
+        92
+      ],
+      [
+        58,
+        93
+      ],
+      [
+        58,
+        94
+      ],
+      [
+        58,
+        95
+      ],
+      [
+        59,
+        93
+      ],
+      [
+        59,
+        94
+      ],
+      [
+        59,
+        95
+      ],
+      [
+        60,
+        98
+      ],
+      [
+        62,
+        100
+      ],
+      [
+        63,
+        99
+      ],
+      [
+        63,
+        100
+      ],
+      [
+        63,
+        101
+      ],
+      [
+        64,
+        98
+      ],
+      [
+        64,
+        100
+      ],
+      [
+        86,
+        102
+      ],
+      [
+        88,
+        100
+      ],
+      [
+        88,
+        101
+      ],
+      [
+        88,
+        102
+      ],
+      [
+        157,
+        87
+      ],
+      [
+        158,
+        80
+      ],
+      [
+        158,
+        81
+      ],
+      [
+        158,
+        82
+      ],
+      [
+        158,
+        85
+      ],
+      [
+        158,
+        86
+      ],
+      [
+        158,
+        87
+      ],
+      [
+        159,
+        81
+      ],
+      [
+        159,
+        82
+      ],
+      [
+        160,
+        86
+      ],
+      [
+        160,
+        87
+      ],
+      [
+        160,
+        88
+      ],
+      [
+        161,
+        87
+      ],
+      [
+        161,
+        88
+      ],
+      [
+        161,
+        95
+      ],
+      [
+        161,
+        115
+      ],
+      [
+        162,
+        87
+      ],
+      [
+        162,
+        88
+      ],
+      [
+        162,
+        89
+      ],
+      [
+        162,
+        90
+      ],
+      [
+        162,
+        91
+      ],
+      [
+        162,
+        115
+      ],
+      [
+        163,
+        87
+      ],
+      [
+        163,
+        88
+      ],
+      [
+        163,
+        89
+      ],
+      [
+        163,
+        90
+      ],
+      [
+        163,
+        91
+      ],
+      [
+        163,
+        92
+      ],
+      [
+        164,
+        91
+      ],
+      [
+        165,
+        91
+      ],
+      [
+        165,
+        92
+      ],
+      [
+        175,
+        86
+      ],
+      [
+        175,
+        87
+      ],
+      [
+        176,
+        91
+      ],
+      [
+        176,
+        92
+      ],
+      [
+        176,
+        115
+      ],
+      [
+        177,
+        95
+      ],
+      [
+        177,
+        115
+      ],
+      [
+        178,
+        95
+      ],
+      [
+        179,
+        81
+      ],
+      [
+        179,
+        95
+      ],
+      [
+        180,
+        95
+      ],
+      [
+        180,
+        96
+      ],
+      [
+        180,
+        97
+      ],
+      [
+        180,
+        109
+      ],
+      [
+        180,
+        110
+      ],
+      [
+        180,
+        111
+      ],
+      [
+        180,
+        112
+      ],
+      [
+        180,
+        113
+      ],
+      [
+        180,
+        114
+      ],
+      [
+        180,
+        115
+      ],
+      [
+        181,
+        109
+      ],
+      [
+        181,
+        110
+      ],
+      [
+        181,
+        111
+      ],
+      [
+        182,
+        81
+      ],
+      [
+        182,
+        110
+      ],
+      [
+        183,
+        99
+      ],
+      [
+        183,
+        108
+      ],
+      [
+        183,
+        109
+      ],
+      [
+        185,
+        104
+      ]
+    ],
+    "target_contact_pair_count": 109,
+    "geometry": {
+      "target_fit_rmsd_A": 1.656314940084596,
+      "mapped_target_residues": 194,
+      "modeled_target_clash_pairs_lt2A": 1,
+      "omitted_same_subunit_clash_pairs_lt2A": 0,
+      "partner_subunit_clash_pairs_lt2A": 0,
+      "observed_glycans_clash_pairs_lt2A": 2,
+      "native_target_contacts_lt5A": [
+        203,
+        205,
+        206,
+        207,
+        209,
+        210,
+        211,
+        227,
+        228,
+        229,
+        230,
+        231,
+        247,
+        248,
+        249,
+        251,
+        252,
+        253,
+        275,
+        277,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        374
+      ]
+    },
+    "mean_plddt": 0.3481086492538452,
+    "pass": false
+  },
+  "target_integrity_pass": true
+}

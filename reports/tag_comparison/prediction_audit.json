@@ -1,0 +1,227 @@
+{
+  "status": "pass",
+  "predictions_audited": 140,
+  "selected_models": 28,
+  "source_files": [
+    {
+      "id": "apical_short_008_bare",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/apical_short_008_bare.npz",
+      "sha256": "c52986a5d6c5f61b300decce49ef3116659ecf216d633691230e1cb505883cec",
+      "samples": 5
+    },
+    {
+      "id": "apical_short_008_tagged",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/apical_short_008_tagged.npz",
+      "sha256": "c93d42ef5c69a6c2089c97318ebd16857d3a4b30b3a0a63aab486aaaa4da5fb6",
+      "samples": 5
+    },
+    {
+      "id": "apical_short_008_A41H_bare",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/apical_short_008_A41H_bare.npz",
+      "sha256": "437fcb3f0dd38d613bf315ad0eacd4668d101cad00e85259088e3c284d84c76f",
+      "samples": 5
+    },
+    {
+      "id": "apical_short_008_A41H_tagged",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/apical_short_008_A41H_tagged.npz",
+      "sha256": "e08023c4f9c840b27b0cdbadeb511a798cac37bd1b23d2d6d07328a202f917c5",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_bare",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/expansion_apical_short_026_bare.npz",
+      "sha256": "2bc06e3861d15a4aea77fd1789366dd52d788944b3932ab68bbc0ebb47534fcf",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_tagged",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/expansion_apical_short_026_tagged.npz",
+      "sha256": "d0ba2a1af987efbb7bccba3be5ee180ce564681ffc051c1b634bdb839b88337c",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_bare",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/expansion_apical_short_026_E19H_bare.npz",
+      "sha256": "3fb313519dd859b43c1fd69f928318b70a3c2cb9af3ea0778261a7c85da6e9b2",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_tagged",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/expansion_apical_short_026_E19H_tagged.npz",
+      "sha256": "7621f08968c6f6f614cdbb836ea4e462f4aa4a9540d7731ca2cc490d0107e573",
+      "samples": 5
+    },
+    {
+      "id": "2ds25_5_6wrw_bare",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/2ds25_5_6wrw_bare.npz",
+      "sha256": "8fedc930ee8f520732c49e4c2500d4c053fa6f973fb6a5a7c31b74f7930059a6",
+      "samples": 5
+    },
+    {
+      "id": "2ds25_5_6wrw_tagged",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/2ds25_5_6wrw_tagged.npz",
+      "sha256": "ff4e91d731e0d84380fd05baff9ade3088e6e90e0a387639eed48be36fce13f8",
+      "samples": 5
+    },
+    {
+      "id": "scrambled_6wrw_bare",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/scrambled_6wrw_bare.npz",
+      "sha256": "3c76759dc68bffbe8cdcc51d77654bc2e5d00565bf6bd34fa539771b7cea30aa",
+      "samples": 5
+    },
+    {
+      "id": "scrambled_6wrw_tagged",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/scrambled_6wrw_tagged.npz",
+      "sha256": "4a9697f6fe14d1e9df1bfb3313135eed8984afd7a81d53dd9751416ab1dd761d",
+      "samples": 5
+    },
+    {
+      "id": "caplacizumab_6wrw_bare",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/caplacizumab_6wrw_bare.npz",
+      "sha256": "a70873370487a61e03a910cb52c47ce475bb87b32899095b2ed40bd03f6e35d0",
+      "samples": 5
+    },
+    {
+      "id": "caplacizumab_6wrw_tagged",
+      "seed": 2003,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2003/fold_out_npz/caplacizumab_6wrw_tagged.npz",
+      "sha256": "141cdf209c02df042c206e49afcd9ad2016b60c0049110570f431ff9d20e6564",
+      "samples": 5
+    },
+    {
+      "id": "apical_short_008_bare",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/apical_short_008_bare.npz",
+      "sha256": "ff5fd1eca53568c71e9a0cbd77486297d695e61412dfa6d2a7b4b96f46149064",
+      "samples": 5
+    },
+    {
+      "id": "apical_short_008_tagged",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/apical_short_008_tagged.npz",
+      "sha256": "f441394278f1a54ef9c8255f0ccfc50e73bb07bf99daa78b74063f7d88eff2cb",
+      "samples": 5
+    },
+    {
+      "id": "apical_short_008_A41H_bare",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/apical_short_008_A41H_bare.npz",
+      "sha256": "e6de66b17a6317d1afebc0d6819a497bb577381203afef0d8635d72cdd8ba81f",
+      "samples": 5
+    },
+    {
+      "id": "apical_short_008_A41H_tagged",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/apical_short_008_A41H_tagged.npz",
+      "sha256": "1e54b1573a2f4b10f280f27332dd3763ea26d943aeeb2f5ea053c5d20dbbb885",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_bare",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/expansion_apical_short_026_bare.npz",
+      "sha256": "7b53c1d83c923709b45476837e5f54ecec77a14923789940a70abba2b1bfe442",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_tagged",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/expansion_apical_short_026_tagged.npz",
+      "sha256": "46e475bc543d7fa8e0bbc1d2eb726921de84be0e1f6f4be9db4f781b3f8c4e34",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_bare",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/expansion_apical_short_026_E19H_bare.npz",
+      "sha256": "0789b1d104c791713cc66234eac94e1cb63ddaca1e70e10d58771e9ec013132e",
+      "samples": 5
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_tagged",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/expansion_apical_short_026_E19H_tagged.npz",
+      "sha256": "5b3c78e2b4650921a4e0e67f1ef646b723c889d8064f7777a196c4f715eaa02b",
+      "samples": 5
+    },
+    {
+      "id": "2ds25_5_6wrw_bare",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/2ds25_5_6wrw_bare.npz",
+      "sha256": "e686cb5e14f747a0301e283b60ccebc3ac65a3da6b4c5cbdf95adf70ca45c9cb",
+      "samples": 5
+    },
+    {
+      "id": "2ds25_5_6wrw_tagged",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/2ds25_5_6wrw_tagged.npz",
+      "sha256": "972614a323cd6775a23c02c8f56f8aa5c51647f448a103bcec311b920fc7d9a5",
+      "samples": 5
+    },
+    {
+      "id": "scrambled_6wrw_bare",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/scrambled_6wrw_bare.npz",
+      "sha256": "961426d1c798bee62ee04686732c331a59cf0f027c64163bc01c2105f24da1b2",
+      "samples": 5
+    },
+    {
+      "id": "scrambled_6wrw_tagged",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/scrambled_6wrw_tagged.npz",
+      "sha256": "bcd6b7b7d2294fe6a43625e2e879a313077d4e61bfd9afdf1df9a02df6ef9ab0",
+      "samples": 5
+    },
+    {
+      "id": "caplacizumab_6wrw_bare",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/caplacizumab_6wrw_bare.npz",
+      "sha256": "dffa184eb4e105ada32276834aad9b9b7fc111f7d7ed983a41904d6221795331",
+      "samples": 5
+    },
+    {
+      "id": "caplacizumab_6wrw_tagged",
+      "seed": 2011,
+      "source": "outputs/tag_comparison022_complete/tag-comparison-022-6wrw/seed-2011/fold_out_npz/caplacizumab_6wrw_tagged.npz",
+      "sha256": "0a2218d21d98330ef8a4478f44e23468c00b76860e4f21241c332ccb86d1f060",
+      "samples": 5
+    }
+  ],
+  "checks": [
+    "Input and analysis snapshot hashes match",
+    "All target/core/suffix sequences and lengths verified",
+    "Binder and suffix excluded from target templates",
+    "Core scores recomputed from exported PAE",
+    "Selection uses core PAE and target integrity only",
+    "All 140 raw models retained without substitute samples"
+  ],
+  "run_status": {
+    "run_id": "tag-comparison-022-6wrw",
+    "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+    "statuses": [
+      {
+        "seed": 2003,
+        "returncode": 0
+      },
+      {
+        "seed": 2011,
+        "returncode": 0
+      }
+    ],
+    "elapsed_seconds": 503.16326394400005
+  },
+  "result_sha256": "347fb0b68e6bcab8f366e033009fe2ef9cf5a0f994fa5742534177b44a6694fb"
+}

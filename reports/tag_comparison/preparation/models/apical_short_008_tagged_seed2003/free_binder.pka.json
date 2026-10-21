@@ -1,0 +1,282 @@
+[
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "GLY",
+    "group": "N+",
+    "pka": 9.116793435690608
+  },
+  {
+    "chain": "B",
+    "residue": 4,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.525917523256394
+  },
+  {
+    "chain": "B",
+    "residue": 5,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.6874501715640235
+  },
+  {
+    "chain": "B",
+    "residue": 8,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 5.039720769610004
+  },
+  {
+    "chain": "B",
+    "residue": 11,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.57186490664529
+  },
+  {
+    "chain": "B",
+    "residue": 12,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.620962442238998
+  },
+  {
+    "chain": "B",
+    "residue": 14,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.1655695217298887
+  },
+  {
+    "chain": "B",
+    "residue": 16,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.476067241471166
+  },
+  {
+    "chain": "B",
+    "residue": 19,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.66755663629824
+  },
+  {
+    "chain": "B",
+    "residue": 20,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.7555254958910433
+  },
+  {
+    "chain": "B",
+    "residue": 22,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.59314489084097
+  },
+  {
+    "chain": "B",
+    "residue": 23,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.48766415151365
+  },
+  {
+    "chain": "B",
+    "residue": 27,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.629140452236539
+  },
+  {
+    "chain": "B",
+    "residue": 30,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.542841833650738
+  },
+  {
+    "chain": "B",
+    "residue": 31,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.143096511180763
+  },
+  {
+    "chain": "B",
+    "residue": 33,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.405071952707964
+  },
+  {
+    "chain": "B",
+    "residue": 35,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 2.2300367443440563
+  },
+  {
+    "chain": "B",
+    "residue": 37,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.627938080996025
+  },
+  {
+    "chain": "B",
+    "residue": 39,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.689613642285481
+  },
+  {
+    "chain": "B",
+    "residue": 42,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.168386344005494
+  },
+  {
+    "chain": "B",
+    "residue": 43,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.914247080871249
+  },
+  {
+    "chain": "B",
+    "residue": 44,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.398695343319309
+  },
+  {
+    "chain": "B",
+    "residue": 49,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 6.036113401897486
+  },
+  {
+    "chain": "B",
+    "residue": 50,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 5.182404545312783
+  },
+  {
+    "chain": "B",
+    "residue": 53,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 9.105887173342792
+  },
+  {
+    "chain": "B",
+    "residue": 56,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.224858502660274
+  },
+  {
+    "chain": "B",
+    "residue": 57,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 7.33465926902706
+  },
+  {
+    "chain": "B",
+    "residue": 67,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.95032704282791
+  },
+  {
+    "chain": "B",
+    "residue": 68,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.299450828137306
+  },
+  {
+    "chain": "B",
+    "residue": 69,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.575596655692444
+  },
+  {
+    "chain": "B",
+    "residue": 73,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.0389635025049335
+  },
+  {
+    "chain": "B",
+    "residue": 74,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.75553731724985
+  },
+  {
+    "chain": "B",
+    "residue": 75,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 11.912875770288128
+  },
+  {
+    "chain": "B",
+    "residue": 97,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.287250620776028
+  },
+  {
+    "chain": "B",
+    "residue": 101,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.9596721400316843
+  },
+  {
+    "chain": "B",
+    "residue": 102,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.423704631319403
+  },
+  {
+    "chain": "B",
+    "residue": 117,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.306086136981849
+  },
+  {
+    "chain": "B",
+    "residue": 121,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 6.785577622133025
+  },
+  {
+    "chain": "B",
+    "residue": 122,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.712764674031078
+  },
+  {
+    "chain": "B",
+    "residue": 122,
+    "resname": "LYS",
+    "group": "COO",
+    "pka": 3.5895382413217023
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "id": "caplacizumab_6wrw_bare",
+  "seed": 2003,
+  "sample": 2,
+  "core_length": 128,
+  "source": "outputs/tag_comparison_scoring/seed-2003/caplacizumab_6wrw_bare/2/model.pdb",
+  "dest": "reports/tag_comparison/preparation/models/caplacizumab_6wrw_bare_seed2003",
+  "status": "ok",
+  "source_sha256": "f5726e6ed5d4132b658c457245f160fdc2e6fc64005f01ba0564297b3432fd74",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.14964460952809922,
+        "max_A": 0.7181565165519714
+      },
+      "sidechain": {
+        "rms_A": 0.5035718858912883,
+        "max_A": 2.6863322257995605
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.15760669806198838,
+        "max_A": 0.7166269421577454
+      },
+      "sidechain": {
+        "rms_A": 0.48147780391016143,
+        "max_A": 2.5197176933288574
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.14964460952809922,
+        "max_A": 0.7181565165519714
+      },
+      "sidechain": {
+        "rms_A": 0.5035718858912883,
+        "max_A": 2.6863322257995605
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.15760669806198838,
+        "max_A": 0.7166269421577454
+      },
+      "sidechain": {
+        "rms_A": 0.48147780391016143,
+        "max_A": 2.5197176933288574
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.129186677490731,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 27,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 12,
+    "native_target_contacts_lt5A": [
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      251,
+      273,
+      274,
+      275
+    ]
+  },
+  "prepared_sha256": "d582876ef8ce9067c4d8729df382f63d3c8084ff80b87e1edc518766b982b25b",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 34
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 83
+    }
+  }
+}

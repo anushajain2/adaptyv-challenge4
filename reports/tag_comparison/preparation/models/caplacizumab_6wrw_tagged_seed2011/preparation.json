@@ -1,0 +1,125 @@
+{
+  "id": "caplacizumab_6wrw_tagged",
+  "seed": 2011,
+  "sample": 4,
+  "core_length": 128,
+  "source": "outputs/tag_comparison_scoring/seed-2011/caplacizumab_6wrw_tagged/4/model.pdb",
+  "dest": "reports/tag_comparison/preparation/models/caplacizumab_6wrw_tagged_seed2011",
+  "status": "ok",
+  "source_sha256": "2c207c4dbe62e731767966641b6d155882df40369057915939beaa6125d8bac8",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1498381923581472,
+        "max_A": 0.45148080587387085
+      },
+      "sidechain": {
+        "rms_A": 0.4708796825550521,
+        "max_A": 1.8725361824035645
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1914226821266332,
+        "max_A": 0.7866671085357666
+      },
+      "sidechain": {
+        "rms_A": 0.5277165658260352,
+        "max_A": 1.6832422018051147
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1498381923581472,
+        "max_A": 0.45148080587387085
+      },
+      "sidechain": {
+        "rms_A": 0.4708796825550521,
+        "max_A": 1.8725361824035645
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.20578883615885293,
+        "max_A": 0.7866671085357666
+      },
+      "sidechain": {
+        "rms_A": 0.5673838253962885,
+        "max_A": 2.773477792739868
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.2567378307575285,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 165,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      190,
+      202,
+      204,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      217,
+      218,
+      219,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      283,
+      287,
+      288,
+      290,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      300,
+      338,
+      340,
+      343,
+      344,
+      347,
+      348,
+      362,
+      371
+    ]
+  },
+  "prepared_sha256": "995885f7ec0a690602c3f91325390ab0a572682420d587355bec6a3fadffc7dd",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 46
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 95
+    }
+  }
+}

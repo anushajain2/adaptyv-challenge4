@@ -1,0 +1,698 @@
+{
+  "rows": [
+    {
+      "id": "apical_short_008_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "apical_short_008_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 3,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "apical_short_008_A41H_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 3,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "apical_short_008_A41H_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 0,
+      "raw_pass": false,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 2,
+      "raw_pass": true,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": false,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 3,
+      "raw_pass": true,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": false,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "2ds25_5_6wrw_bare",
+      "condition": "bare",
+      "kind": "positive",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 0.591390324027581,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.992404575879372,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.661857776726086,
+        "binder_CA_fold_rmsd_A": 0.5449455755435055,
+        "native_contacts": 56,
+        "recovered_contacts": 51,
+        "native_contact_recall": 0.9107142857142857
+      },
+      "prepared_screen": {
+        "pass": true
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": false,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": false,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": false,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": [
+          "interface_pose"
+        ]
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "scrambled_6wrw_bare",
+      "condition": "bare",
+      "kind": "negative_hypothesis",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "2ds25_5_6wrw_tagged",
+      "condition": "tagged",
+      "kind": "positive",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 0.4247498208552588,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.6575624393803329,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.60724984669191,
+        "binder_CA_fold_rmsd_A": 0.5461842428420375,
+        "native_contacts": 56,
+        "recovered_contacts": 52,
+        "native_contact_recall": 0.9285714285714286
+      },
+      "prepared_screen": {
+        "pass": true
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "caplacizumab_6wrw_bare",
+      "condition": "bare",
+      "kind": "negative_hypothesis",
+      "seed": 2003,
+      "sample": 2,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "scrambled_6wrw_tagged",
+      "condition": "tagged",
+      "kind": "negative_hypothesis",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": false,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "apical_short_008_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 2,
+      "raw_pass": false,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "caplacizumab_6wrw_tagged",
+      "condition": "tagged",
+      "kind": "negative_hypothesis",
+      "seed": 2003,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "apical_short_008_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 1,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "apical_short_008_A41H_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 1,
+      "raw_pass": true,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": false,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "apical_short_008_A41H_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_bare",
+      "condition": "bare",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 3,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 3,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": []
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "2ds25_5_6wrw_bare",
+      "condition": "bare",
+      "kind": "positive",
+      "seed": 2011,
+      "sample": 3,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 0.5597118614619633,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.6593891054759873,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.2687967323305798,
+        "binder_CA_fold_rmsd_A": 0.5491557059504967,
+        "native_contacts": 56,
+        "recovered_contacts": 53,
+        "native_contact_recall": 0.9464285714285714
+      },
+      "prepared_screen": {
+        "pass": true
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_tagged",
+      "condition": "tagged",
+      "kind": "novel_design",
+      "seed": 2011,
+      "sample": 4,
+      "raw_pass": false,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": false,
+        "checks": {
+          "binder_fold": true,
+          "interface_pose": false,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true,
+          "core_cross_PAE": true,
+          "core_contact_PAE": true
+        },
+        "failed": [
+          "interface_pose"
+        ]
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "2ds25_5_6wrw_tagged",
+      "condition": "tagged",
+      "kind": "positive",
+      "seed": 2011,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "pose": {
+        "target_CA_rmsd_to_reference_A": 0.6449262785168985,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.352192739709114,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.9906080229917312,
+        "binder_CA_fold_rmsd_A": 0.9350361440826124,
+        "native_contacts": 56,
+        "recovered_contacts": 53,
+        "native_contact_recall": 0.9464285714285714
+      },
+      "prepared_screen": {
+        "pass": true
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "scrambled_6wrw_bare",
+      "condition": "bare",
+      "kind": "negative_hypothesis",
+      "seed": 2011,
+      "sample": 3,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "caplacizumab_6wrw_bare",
+      "condition": "bare",
+      "kind": "negative_hypothesis",
+      "seed": 2011,
+      "sample": 1,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "scrambled_6wrw_tagged",
+      "condition": "tagged",
+      "kind": "negative_hypothesis",
+      "seed": 2011,
+      "sample": 2,
+      "raw_pass": true,
+      "prepared_eligible": false,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": false,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    },
+    {
+      "id": "caplacizumab_6wrw_tagged",
+      "condition": "tagged",
+      "kind": "negative_hypothesis",
+      "seed": 2011,
+      "sample": 4,
+      "raw_pass": true,
+      "prepared_eligible": true,
+      "preparation_status": "ok",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original core PAE; not recalculated by minimization"
+      },
+      "movement_pass": true,
+      "internal_geometry_pass": true,
+      "protonation_pass": true
+    }
+  ],
+  "prepared_controls_pass": {
+    "bare": true,
+    "tagged": false
+  },
+  "source_preparation_sha256": "b172077dace755d48419a9f0231181e0082f06795517d598f836234a2df0e33e",
+  "scope": "Prepared evidence is a separate diagnostic. Raw exclusions remain failures; full-tag movement is reported separately from core guards."
+}

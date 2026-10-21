@@ -1,0 +1,751 @@
+[
+  {
+    "chain": "A",
+    "residue": 1,
+    "resname": "ILE",
+    "group": "N+",
+    "pka": 5.926959579114576
+  },
+  {
+    "chain": "A",
+    "residue": 4,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 9.091935743555748
+  },
+  {
+    "chain": "A",
+    "residue": 5,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.2330080566853336
+  },
+  {
+    "chain": "A",
+    "residue": 15,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.0673263532435238
+  },
+  {
+    "chain": "A",
+    "residue": 16,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.563532237014318
+  },
+  {
+    "chain": "A",
+    "residue": 19,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.399091027005303
+  },
+  {
+    "chain": "A",
+    "residue": 22,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.247568550661034
+  },
+  {
+    "chain": "A",
+    "residue": 25,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 6.192496688456437
+  },
+  {
+    "chain": "A",
+    "residue": 30,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 12.428704520048978
+  },
+  {
+    "chain": "A",
+    "residue": 33,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 15.58990908643581
+  },
+  {
+    "chain": "A",
+    "residue": 35,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.159122945730244
+  },
+  {
+    "chain": "A",
+    "residue": 42,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.3566581982204
+  },
+  {
+    "chain": "A",
+    "residue": 45,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 2.801926496871774
+  },
+  {
+    "chain": "A",
+    "residue": 51,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.27772399089883
+  },
+  {
+    "chain": "A",
+    "residue": 52,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.93013408432199
+  },
+  {
+    "chain": "A",
+    "residue": 53,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 4.774012305159967
+  },
+  {
+    "chain": "A",
+    "residue": 55,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.692978341825004
+  },
+  {
+    "chain": "A",
+    "residue": 56,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.9315651087484076
+  },
+  {
+    "chain": "A",
+    "residue": 58,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.050765957414985
+  },
+  {
+    "chain": "A",
+    "residue": 69,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.967422850158362
+  },
+  {
+    "chain": "A",
+    "residue": 72,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 9.311021397502753
+  },
+  {
+    "chain": "A",
+    "residue": 77,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 5.31479934671766
+  },
+  {
+    "chain": "A",
+    "residue": 78,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 6.634492530393242
+  },
+  {
+    "chain": "A",
+    "residue": 83,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.830476955292998
+  },
+  {
+    "chain": "A",
+    "residue": 93,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 14.342295318195285
+  },
+  {
+    "chain": "A",
+    "residue": 95,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 5.140623959147888
+  },
+  {
+    "chain": "A",
+    "residue": 98,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.37595969225055
+  },
+  {
+    "chain": "A",
+    "residue": 105,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.622414317272532
+  },
+  {
+    "chain": "A",
+    "residue": 111,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 3.2658579389915277
+  },
+  {
+    "chain": "A",
+    "residue": 113,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 5.015816271167942
+  },
+  {
+    "chain": "A",
+    "residue": 118,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 4.455972348763375
+  },
+  {
+    "chain": "A",
+    "residue": 120,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.657017695633227
+  },
+  {
+    "chain": "A",
+    "residue": 129,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.345046150882123
+  },
+  {
+    "chain": "A",
+    "residue": 136,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.544041560131921
+  },
+  {
+    "chain": "A",
+    "residue": 150,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.773965213691369
+  },
+  {
+    "chain": "A",
+    "residue": 154,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.643763469393925
+  },
+  {
+    "chain": "A",
+    "residue": 155,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.499067017894468
+  },
+  {
+    "chain": "A",
+    "residue": 161,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.7828626932530636
+  },
+  {
+    "chain": "A",
+    "residue": 163,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.686702612643382
+  },
+  {
+    "chain": "A",
+    "residue": 167,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.8240845721281964
+  },
+  {
+    "chain": "A",
+    "residue": 169,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.594636728982076
+  },
+  {
+    "chain": "A",
+    "residue": 171,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.5977084316174484
+  },
+  {
+    "chain": "A",
+    "residue": 175,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.488257833667232
+  },
+  {
+    "chain": "A",
+    "residue": 180,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.525660824847877
+  },
+  {
+    "chain": "A",
+    "residue": 182,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.463750982971906
+  },
+  {
+    "chain": "A",
+    "residue": 185,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.138658863890887
+  },
+  {
+    "chain": "A",
+    "residue": 193,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.472738855612334
+  },
+  {
+    "chain": "A",
+    "residue": 194,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 5.033695576558772
+  },
+  {
+    "chain": "A",
+    "residue": 194,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.246588275240683
+  },
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "GLU",
+    "group": "N+",
+    "pka": 7.642857024839307
+  },
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.57837972584553
+  },
+  {
+    "chain": "B",
+    "residue": 2,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.643078606102
+  },
+  {
+    "chain": "B",
+    "residue": 3,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 2.1389859127685447
+  },
+  {
+    "chain": "B",
+    "residue": 4,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.525014778728018
+  },
+  {
+    "chain": "B",
+    "residue": 7,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.4946450869545376
+  },
+  {
+    "chain": "B",
+    "residue": 9,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.626363023073326
+  },
+  {
+    "chain": "B",
+    "residue": 12,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.8228443815728586
+  },
+  {
+    "chain": "B",
+    "residue": 14,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.768238056007593
+  },
+  {
+    "chain": "B",
+    "residue": 16,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 11.034157604461443
+  },
+  {
+    "chain": "B",
+    "residue": 17,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.397140453063792
+  },
+  {
+    "chain": "B",
+    "residue": 18,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 5.232682527714874
+  },
+  {
+    "chain": "B",
+    "residue": 19,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.6109469458270187
+  },
+  {
+    "chain": "B",
+    "residue": 20,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.2899045694511524
+  },
+  {
+    "chain": "B",
+    "residue": 22,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.238104711149104
+  },
+  {
+    "chain": "B",
+    "residue": 24,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.051403202903438
+  },
+  {
+    "chain": "B",
+    "residue": 25,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.5024037556107523
+  },
+  {
+    "chain": "B",
+    "residue": 27,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 15.209978449945693
+  },
+  {
+    "chain": "B",
+    "residue": 28,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 6.225786970682903
+  },
+  {
+    "chain": "B",
+    "residue": 29,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.674470196969289
+  },
+  {
+    "chain": "B",
+    "residue": 30,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.729936046006388
+  },
+  {
+    "chain": "B",
+    "residue": 31,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.864984447534789
+  },
+  {
+    "chain": "B",
+    "residue": 32,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.841901134874374
+  },
+  {
+    "chain": "B",
+    "residue": 34,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.800183781715422
+  },
+  {
+    "chain": "B",
+    "residue": 35,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.855137640762261
+  },
+  {
+    "chain": "B",
+    "residue": 38,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.3156018553759
+  },
+  {
+    "chain": "B",
+    "residue": 45,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.6336456510790742
+  },
+  {
+    "chain": "B",
+    "residue": 52,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.30383059717501
+  },
+  {
+    "chain": "B",
+    "residue": 54,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.8845718540486165
+  },
+  {
+    "chain": "B",
+    "residue": 55,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.402416363916659
+  },
+  {
+    "chain": "B",
+    "residue": 61,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.107796701804121
+  },
+  {
+    "chain": "B",
+    "residue": 67,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.36275292229101
+  },
+  {
+    "chain": "B",
+    "residue": 68,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.90092979765781
+  },
+  {
+    "chain": "B",
+    "residue": 71,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 11.743322082805351
+  },
+  {
+    "chain": "B",
+    "residue": 76,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.9830926668371145
+  },
+  {
+    "chain": "B",
+    "residue": 77,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 4.424218576496515
+  },
+  {
+    "chain": "B",
+    "residue": 78,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.883464898022849
+  },
+  {
+    "chain": "B",
+    "residue": 79,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.642755021169425
+  },
+  {
+    "chain": "B",
+    "residue": 80,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.810470338171788
+  },
+  {
+    "chain": "B",
+    "residue": 83,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.468315687843613
+  },
+  {
+    "chain": "B",
+    "residue": 84,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.414118501129705
+  },
+  {
+    "chain": "B",
+    "residue": 87,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 11.543205820096667
+  },
+  {
+    "chain": "B",
+    "residue": 88,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 14.417233180045985
+  },
+  {
+    "chain": "B",
+    "residue": 92,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.520774006660705
+  },
+  {
+    "chain": "B",
+    "residue": 93,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.420214244124107
+  },
+  {
+    "chain": "B",
+    "residue": 102,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.223283026553318
+  },
+  {
+    "chain": "B",
+    "residue": 103,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.9895422299881074
+  },
+  {
+    "chain": "B",
+    "residue": 104,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 5.35803418072112
+  },
+  {
+    "chain": "B",
+    "residue": 108,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.008066864820576
+  },
+  {
+    "chain": "B",
+    "residue": 109,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.628308003480455
+  },
+  {
+    "chain": "B",
+    "residue": 110,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.67774058191551
+  },
+  {
+    "chain": "B",
+    "residue": 132,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 4.033921002717996
+  },
+  {
+    "chain": "B",
+    "residue": 136,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 5.036934667099859
+  },
+  {
+    "chain": "B",
+    "residue": 137,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.481334256179077
+  },
+  {
+    "chain": "B",
+    "residue": 152,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.849753529627362
+  },
+  {
+    "chain": "B",
+    "residue": 156,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.565461594050718
+  },
+  {
+    "chain": "B",
+    "residue": 157,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.448703006972131
+  },
+  {
+    "chain": "B",
+    "residue": 157,
+    "resname": "LYS",
+    "group": "COO",
+    "pka": 3.3284052294554707
+  }
+]

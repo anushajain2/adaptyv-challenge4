@@ -1,0 +1,10 @@
+{
+  "scope": "Text-only clarification of inherited metadata; no numerical, coordinate, selection or gate changes.",
+  "stale_fields": [
+    "data/tag_comparison/manifest.json: preparation.cohort and preparation.limitations entry No assay tag modeled",
+    "reports/tag_comparison/preparation: inherited limitations entry No assay tag modeled"
+  ],
+  "correct_scope": "The tag-comparison cohort consists of all 28 selected models (14 bare and 14 tagged). The documented 64-residue suffix is retained in every tagged prediction, prepared complex and free-binder structure. Core movement limits apply to receptor and designed core; full-tag movement is reported separately.",
+  "verification": "prediction_audit.json verifies all 140 sequences and core scoring; round_evidence_audit.json verifies prepared full binder/suffix sequences and admitted pKa calculations.",
+  "preservation": "Frozen inputs, implementation snapshots and model results are unchanged."
+}

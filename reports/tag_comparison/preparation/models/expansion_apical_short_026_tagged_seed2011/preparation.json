@@ -1,0 +1,152 @@
+{
+  "id": "expansion_apical_short_026_tagged",
+  "seed": 2011,
+  "sample": 3,
+  "core_length": 62,
+  "source": "outputs/tag_comparison_scoring/seed-2011/expansion_apical_short_026_tagged/3/model.pdb",
+  "dest": "reports/tag_comparison/preparation/models/expansion_apical_short_026_tagged_seed2011",
+  "status": "ok",
+  "source_sha256": "5464ba78c8fffbbe3da9fdc59f872c4cf27a0622bb45c8e6c088896c606f1363",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.17562937568147868,
+        "max_A": 0.8998223543167114
+      },
+      "sidechain": {
+        "rms_A": 0.5643743625757218,
+        "max_A": 2.209594488143921
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.17063809314403497,
+        "max_A": 0.4639328420162201
+      },
+      "sidechain": {
+        "rms_A": 0.6592627187120246,
+        "max_A": 2.2394073009490967
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.17562937568147868,
+        "max_A": 0.8998223543167114
+      },
+      "sidechain": {
+        "rms_A": 0.5643743625757218,
+        "max_A": 2.209594488143921
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.2411816825526086,
+        "max_A": 1.1228398084640503
+      },
+      "sidechain": {
+        "rms_A": 0.8383760951963568,
+        "max_A": 2.8136870861053467
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9641681848937915,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 457,
+    "partner_subunit_clash_pairs_lt2A": 45,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      190,
+      192,
+      196,
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      222,
+      227,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      283,
+      288,
+      290,
+      292,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      302,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      314,
+      315,
+      316,
+      318,
+      321,
+      338,
+      340,
+      341,
+      343,
+      344,
+      348,
+      371,
+      374,
+      376,
+      381,
+      382,
+      383
+    ]
+  },
+  "prepared_sha256": "509288fdcf270b81916f2689cab15b67c3bc526dd7cf16e26cad249af5db2c84",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 39
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 88
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "source_results_sha256": "347fb0b68e6bcab8f366e033009fe2ef9cf5a0f994fa5742534177b44a6694fb",
+  "preparation_results_sha256": "b172077dace755d48419a9f0231181e0082f06795517d598f836234a2df0e33e",
+  "variants": [
+    {
+      "id": "apical_short_008_A41H_bare",
+      "base_id": "apical_short_008_A41H",
+      "condition": "bare",
+      "parent_id": "apical_short_008",
+      "raw_core_pass_both_seeds": true,
+      "raw_tag_independent_pass_both_seeds": true,
+      "prepared_controls_pass": true,
+      "matched_parent_prepared_pass_both_seeds": false,
+      "models": [
+        {
+          "id": "apical_short_008_A41H_bare",
+          "seed": 2003,
+          "status": "ok",
+          "direction_pass": true,
+          "tag_independent_direction_pass": true,
+          "prepared_core_screen": {
+            "pass": true,
+            "checks": {
+              "binder_fold": true,
+              "interface_pose": true,
+              "design_contact_recall": true,
+              "hotspot_contacts": true,
+              "intended_region": true,
+              "context_fit": true,
+              "clash_clearance": true,
+              "core_cross_PAE": true,
+              "core_contact_PAE": true
+            },
+            "failed": []
+          },
+          "free_pkas": [
+            6.4805829733435
+          ],
+          "bound_pkas": [
+            5.872096051045305
+          ],
+          "shifts": [
+            -0.6084869222981952
+          ],
+          "his_only_Kd6_over_Kd7_4": 2.119397396293701,
+          "artificial_terminus_distance_A": 24.99683952331543,
+          "checks": {
+            "all_shifts_le_minus_0_5": true,
+            "any_free_pka_6_to_7": true,
+            "his_only_ratio_ge_2": true,
+            "target_terminus_ge_10A": true
+          },
+          "source_sha256": "22883c221a4e150e064f13622a42aec4fdaec7cd949601eb9b327ffbdef4ec29",
+          "prepared_tag_target_contacts": [],
+          "prepared_full_construct_geometry": {
+            "target_fit_rmsd_A": 0.9235265272628447,
+            "mapped_target_residues": 194,
+            "modeled_target_clash_pairs_lt2A": 0,
+            "omitted_same_subunit_clash_pairs_lt2A": 0,
+            "partner_subunit_clash_pairs_lt2A": 0,
+            "observed_glycans_clash_pairs_lt2A": 0,
+            "native_target_contacts_lt5A": [
+              197,
+              199,
+              201,
+              202,
+              203,
+              204,
+              206,
+              207,
+              208,
+              209,
+              210,
+              211,
+              212,
+              215,
+              227,
+              344,
+              348,
+              371,
+              374,
+              376
+            ]
+          }
+        },
+        {
+          "id": "apical_short_008_A41H_bare",
+          "seed": 2011,
+          "status": "excluded",
+          "direction_pass": false,
+          "tag_independent_direction_pass": false,
+          "reason": "AssertionError: Prepared core movement/internal geometry failed"
+        }
+      ],
+      "direction_pass_both_seeds": false,
+      "tag_independent_direction_pass_both_seeds": false,
+      "fully_qualified_direction_pass_both_seeds": false
+    },
+    {
+      "id": "apical_short_008_A41H_tagged",
+      "base_id": "apical_short_008_A41H",
+      "condition": "tagged",
+      "parent_id": "apical_short_008",
+      "raw_core_pass_both_seeds": false,
+      "raw_tag_independent_pass_both_seeds": false,
+      "prepared_controls_pass": false,
+      "matched_parent_prepared_pass_both_seeds": true,
+      "models": [
+        {
+          "id": "apical_short_008_A41H_tagged",
+          "seed": 2003,
+          "status": "excluded",
+          "direction_pass": false,
+          "tag_independent_direction_pass": false,
+          "reason": "AssertionError: Raw core screen or controls fail in a selected seed"
+        },
+        {
+          "id": "apical_short_008_A41H_tagged",
+          "seed": 2011,
+          "status": "excluded",
+          "direction_pass": false,
+          "tag_independent_direction_pass": false,
+          "reason": "AssertionError: Raw core screen or controls fail in a selected seed"
+        }
+      ],
+      "direction_pass_both_seeds": false,
+      "tag_independent_direction_pass_both_seeds": false,
+      "fully_qualified_direction_pass_both_seeds": false
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_bare",
+      "base_id": "expansion_apical_short_026_E19H",
+      "condition": "bare",
+      "parent_id": "expansion_apical_short_026",
+      "raw_core_pass_both_seeds": true,
+      "raw_tag_independent_pass_both_seeds": true,
+      "prepared_controls_pass": true,
+      "matched_parent_prepared_pass_both_seeds": true,
+      "models": [
+        {
+          "id": "expansion_apical_short_026_E19H_bare",
+          "seed": 2003,
+          "status": "excluded",
+          "direction_pass": false,
+          "tag_independent_direction_pass": false,
+          "reason": "AssertionError: Prepared core movement/internal geometry failed"
+        },
+        {
+          "id": "expansion_apical_short_026_E19H_bare",
+          "seed": 2011,
+          "status": "ok",
+          "direction_pass": false,
+          "tag_independent_direction_pass": false,
+          "prepared_core_screen": {
+            "pass": true,
+            "checks": {
+              "binder_fold": true,
+              "interface_pose": true,
+              "design_contact_recall": true,
+              "hotspot_contacts": true,
+              "intended_region": true,
+              "context_fit": true,
+              "clash_clearance": true,
+              "core_cross_PAE": true,
+              "core_contact_PAE": true
+            },
+            "failed": []
+          },
+          "free_pkas": [
+            7.434817367160539
+          ],
+          "bound_pkas": [
+            6.76818677734939
+          ],
+          "shifts": [
+            -0.6666305898111489
+          ],
+          "his_only_Kd6_over_Kd7_4": 2.433606362214063,
+          "artificial_terminus_distance_A": 22.01102066040039,
+          "checks": {
+            "all_shifts_le_minus_0_5": true,
+            "any_free_pka_6_to_7": false,
+            "his_only_ratio_ge_2": true,
+            "target_terminus_ge_10A": true
+          },
+          "source_sha256": "5ef5931c811ccfbec3ab123173a452ac8805abba92d4f4f0384584c9b76b8f4d",
+          "prepared_tag_target_contacts": [],
+          "prepared_full_construct_geometry": {
+            "target_fit_rmsd_A": 0.9396385088489086,
+            "mapped_target_residues": 194,
+            "modeled_target_clash_pairs_lt2A": 0,
+            "omitted_same_subunit_clash_pairs_lt2A": 0,
+            "partner_subunit_clash_pairs_lt2A": 0,
+            "observed_glycans_clash_pairs_lt2A": 0,
+            "native_target_contacts_lt5A": [
+              197,
+              198,
+              199,
+              201,
+              203,
+              206,
+              207,
+              208,
+              209,
+              210,
+              211,
+              212,
+              215,
+              227,
+              374,
+              376
+            ]
+          }
+        }
+      ],
+      "direction_pass_both_seeds": false,
+      "tag_independent_direction_pass_both_seeds": false,
+      "fully_qualified_direction_pass_both_seeds": false
+    },
+    {
+      "id": "expansion_apical_short_026_E19H_tagged",
+      "base_id": "expansion_apical_short_026_E19H",
+      "condition": "tagged",
+      "parent_id": "expansion_apical_short_026",
+      "raw_core_pass_both_seeds": false,
+      "raw_tag_independent_pass_both_seeds": false,
+      "prepared_controls_pass": false,
+      "matched_parent_prepared_pass_both_seeds": false,
+      "models": [
+        {
+          "id": "expansion_apical_short_026_E19H_tagged",
+          "seed": 2003,
+          "status": "excluded",
+          "direction_pass": false,
+          "tag_independent_direction_pass": false,
+          "reason": "AssertionError: Raw core screen or controls fail in a selected seed"
+        },
+        {
+          "id": "expansion_apical_short_026_E19H_tagged",
+          "seed": 2011,
+          "status": "excluded",
+          "direction_pass": false,
+          "tag_independent_direction_pass": false,
+          "reason": "AssertionError: Raw core screen or controls fail in a selected seed"
+        }
+      ],
+      "direction_pass_both_seeds": false,
+      "tag_independent_direction_pass_both_seeds": false,
+      "fully_qualified_direction_pass_both_seeds": false
+    }
+  ],
+  "scope": "Full binder+suffix free/bound chemistry; only designed mutation sites contribute to reported His-only ratio. No tag histidine counted as a designed mechanism. No experimental binding or capture-surface model."
+}

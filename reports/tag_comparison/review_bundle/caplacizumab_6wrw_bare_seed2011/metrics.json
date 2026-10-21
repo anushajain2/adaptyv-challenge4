@@ -1,0 +1,62 @@
+{
+  "id": "caplacizumab_6wrw_bare",
+  "base_id": "caplacizumab_6wrw",
+  "condition": "bare",
+  "kind": "negative_hypothesis",
+  "arm": "control",
+  "seed": 2011,
+  "sample": 1,
+  "confidence_selected": true,
+  "upstream_confidence_selected": true,
+  "metrics": {
+    "iptm": 0.11924850940704346,
+    "ptm": 0.4591449201107025,
+    "design_to_target_iptm": 0.11924850940704346,
+    "interaction_pae": 26.96219253540039,
+    "min_design_to_target_pae": 22.00457191467285,
+    "design_ptm": 0.7709267139434814
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.0,
+      "B_A": 0.0
+    },
+    "ipsae_min": 0.0,
+    "ipsae_max": 0.0,
+    "contact_residue_pairs": 24,
+    "contact_pae_A_to_B_A": 24.486328125,
+    "contact_pae_B_to_A_A": 24.660242080688477,
+    "contact_pae_both_directions_A": 24.57328510284424,
+    "binder_core_mean_plddt": 0.7389427423477173
+  },
+  "core_length": 128,
+  "core_mean_cross_PAE_A": 26.96219253540039,
+  "target_CA_rmsd_to_input_A": 1.2750174485435577,
+  "raw_scoring_output": "outputs/tag_comparison_scoring/seed-2011/caplacizumab_6wrw_bare/1",
+  "geometry": {
+    "target_fit_rmsd_A": 1.5570932803025463,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      204,
+      209,
+      210,
+      211,
+      343,
+      344,
+      347,
+      348,
+      371
+    ]
+  },
+  "control_pass": true,
+  "tag": {
+    "pass": true,
+    "target_contact_pair_count": 0,
+    "note": "No tag in this condition"
+  },
+  "target_integrity_pass": true
+}

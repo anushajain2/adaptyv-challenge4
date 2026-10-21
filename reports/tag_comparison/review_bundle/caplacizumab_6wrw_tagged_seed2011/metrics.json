@@ -1,0 +1,341 @@
+{
+  "id": "caplacizumab_6wrw_tagged",
+  "base_id": "caplacizumab_6wrw",
+  "condition": "tagged",
+  "kind": "negative_hypothesis",
+  "arm": "control",
+  "seed": 2011,
+  "sample": 4,
+  "confidence_selected": true,
+  "upstream_confidence_selected": true,
+  "metrics": {
+    "iptm": 0.13515838980674744,
+    "ptm": 0.44162431359291077,
+    "design_to_target_iptm": 0.13515838980674744,
+    "interaction_pae": 27.066055297851562,
+    "min_design_to_target_pae": 17.855960845947266,
+    "design_ptm": 0.5707672834396362
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.0,
+      "B_A": 0.0
+    },
+    "ipsae_min": 0.0,
+    "ipsae_max": 0.0,
+    "contact_residue_pairs": 41,
+    "contact_pae_A_to_B_A": 25.357858657836914,
+    "contact_pae_B_to_A_A": 26.246618270874023,
+    "contact_pae_both_directions_A": 25.80223846435547,
+    "binder_core_mean_plddt": 0.7104089260101318
+  },
+  "core_length": 128,
+  "core_mean_cross_PAE_A": 27.342092514038086,
+  "target_CA_rmsd_to_input_A": 0.8920254028632434,
+  "raw_scoring_output": "outputs/tag_comparison_scoring/seed-2011/caplacizumab_6wrw_tagged/4",
+  "geometry": {
+    "target_fit_rmsd_A": 1.2443631646251379,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      202,
+      204,
+      209,
+      210,
+      211,
+      212,
+      213,
+      292,
+      293,
+      294,
+      340,
+      343,
+      344,
+      347,
+      348,
+      362,
+      371
+    ]
+  },
+  "control_pass": true,
+  "tag": {
+    "target_contact_residue_pairs": [
+      [
+        1,
+        167
+      ],
+      [
+        24,
+        185
+      ],
+      [
+        25,
+        185
+      ],
+      [
+        26,
+        185
+      ],
+      [
+        28,
+        163
+      ],
+      [
+        28,
+        182
+      ],
+      [
+        28,
+        183
+      ],
+      [
+        30,
+        167
+      ],
+      [
+        70,
+        170
+      ],
+      [
+        71,
+        170
+      ],
+      [
+        71,
+        171
+      ],
+      [
+        71,
+        172
+      ],
+      [
+        71,
+        173
+      ],
+      [
+        72,
+        171
+      ],
+      [
+        72,
+        172
+      ],
+      [
+        72,
+        173
+      ],
+      [
+        73,
+        171
+      ],
+      [
+        73,
+        172
+      ],
+      [
+        74,
+        171
+      ],
+      [
+        75,
+        170
+      ],
+      [
+        75,
+        171
+      ],
+      [
+        94,
+        170
+      ],
+      [
+        98,
+        174
+      ],
+      [
+        98,
+        175
+      ],
+      [
+        99,
+        170
+      ],
+      [
+        99,
+        172
+      ],
+      [
+        99,
+        173
+      ],
+      [
+        99,
+        174
+      ],
+      [
+        99,
+        175
+      ],
+      [
+        101,
+        175
+      ],
+      [
+        101,
+        176
+      ],
+      [
+        101,
+        177
+      ],
+      [
+        103,
+        159
+      ],
+      [
+        103,
+        160
+      ],
+      [
+        103,
+        161
+      ],
+      [
+        103,
+        162
+      ],
+      [
+        105,
+        159
+      ],
+      [
+        105,
+        160
+      ],
+      [
+        105,
+        161
+      ],
+      [
+        105,
+        162
+      ],
+      [
+        105,
+        185
+      ],
+      [
+        106,
+        160
+      ],
+      [
+        106,
+        162
+      ],
+      [
+        106,
+        163
+      ],
+      [
+        106,
+        164
+      ],
+      [
+        106,
+        176
+      ],
+      [
+        106,
+        178
+      ],
+      [
+        106,
+        179
+      ],
+      [
+        107,
+        162
+      ],
+      [
+        107,
+        163
+      ],
+      [
+        107,
+        164
+      ],
+      [
+        108,
+        164
+      ],
+      [
+        108,
+        170
+      ],
+      [
+        109,
+        165
+      ],
+      [
+        109,
+        166
+      ],
+      [
+        109,
+        167
+      ],
+      [
+        109,
+        168
+      ],
+      [
+        109,
+        170
+      ],
+      [
+        111,
+        171
+      ]
+    ],
+    "target_contact_pair_count": 59,
+    "geometry": {
+      "target_fit_rmsd_A": 1.2443631646251379,
+      "mapped_target_residues": 194,
+      "modeled_target_clash_pairs_lt2A": 0,
+      "omitted_same_subunit_clash_pairs_lt2A": 170,
+      "partner_subunit_clash_pairs_lt2A": 0,
+      "observed_glycans_clash_pairs_lt2A": 0,
+      "native_target_contacts_lt5A": [
+        190,
+        213,
+        214,
+        215,
+        217,
+        219,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        283,
+        287,
+        288,
+        290,
+        292,
+        294,
+        295,
+        296,
+        297,
+        298,
+        300
+      ]
+    },
+    "mean_plddt": 0.29492661356925964,
+    "pass": false
+  },
+  "target_integrity_pass": true
+}

@@ -1,0 +1,86 @@
+{
+  "id": "2ds25_5_6wrw_bare",
+  "base_id": "2ds25_5_6wrw",
+  "condition": "bare",
+  "kind": "positive",
+  "arm": "control",
+  "seed": 2011,
+  "sample": 3,
+  "confidence_selected": true,
+  "upstream_confidence_selected": true,
+  "metrics": {
+    "iptm": 0.6365697383880615,
+    "ptm": 0.6206737756729126,
+    "design_to_target_iptm": 0.6365697383880615,
+    "interaction_pae": 13.269684791564941,
+    "min_design_to_target_pae": 3.4050328731536865,
+    "design_ptm": 0.7935109734535217
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.211851,
+      "B_A": 0.26929
+    },
+    "ipsae_min": 0.211851,
+    "ipsae_max": 0.26929,
+    "contact_residue_pairs": 67,
+    "contact_pae_A_to_B_A": 5.942051887512207,
+    "contact_pae_B_to_A_A": 5.449403762817383,
+    "contact_pae_both_directions_A": 5.695727825164795,
+    "binder_core_mean_plddt": 0.7245073318481445
+  },
+  "core_length": 88,
+  "core_mean_cross_PAE_A": 13.269684791564941,
+  "target_CA_rmsd_to_input_A": 0.5498206286330022,
+  "raw_scoring_output": "outputs/tag_comparison_scoring/seed-2011/2ds25_5_6wrw_bare/3",
+  "geometry": {
+    "target_fit_rmsd_A": 0.9589424244984203,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      294,
+      340,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.5498206286330022,
+    "binder_CA_pose_rmsd_after_target_fit_A": 1.6739944298256446,
+    "binder_interface_CA_rmsd_after_target_fit_A": 1.3174923884210057,
+    "binder_CA_fold_rmsd_A": 0.5673656052100888,
+    "native_contacts": 56,
+    "recovered_contacts": 54,
+    "native_contact_recall": 0.9642857142857143
+  },
+  "control_pass": true,
+  "tag": {
+    "pass": true,
+    "target_contact_pair_count": 0,
+    "note": "No tag in this condition"
+  },
+  "target_integrity_pass": true
+}

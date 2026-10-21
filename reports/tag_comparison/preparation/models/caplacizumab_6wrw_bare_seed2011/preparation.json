@@ -1,0 +1,101 @@
+{
+  "id": "caplacizumab_6wrw_bare",
+  "seed": 2011,
+  "sample": 1,
+  "core_length": 128,
+  "source": "outputs/tag_comparison_scoring/seed-2011/caplacizumab_6wrw_bare/1/model.pdb",
+  "dest": "reports/tag_comparison/preparation/models/caplacizumab_6wrw_bare_seed2011",
+  "status": "ok",
+  "source_sha256": "fe59acb2d4008cfb7d282008bfc7e0431e762a59c01b41594b6539e543fdddbc",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15195259648475867,
+        "max_A": 0.538959264755249
+      },
+      "sidechain": {
+        "rms_A": 0.4474574788270379,
+        "max_A": 2.7983195781707764
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1640588587263589,
+        "max_A": 0.48255348205566406
+      },
+      "sidechain": {
+        "rms_A": 0.4842069316479342,
+        "max_A": 2.336634397506714
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15195259648475867,
+        "max_A": 0.538959264755249
+      },
+      "sidechain": {
+        "rms_A": 0.4474574788270379,
+        "max_A": 2.7983195781707764
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1640588587263589,
+        "max_A": 0.48255348205566406
+      },
+      "sidechain": {
+        "rms_A": 0.4842069316479342,
+        "max_A": 2.336634397506714
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:1:ILE:CD1",
+        "b": "A:33:TYR:OH",
+        "distance_A": 1.4744578664716064
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.5732032804582576,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      204,
+      209,
+      210,
+      211,
+      212,
+      343,
+      344,
+      347,
+      348,
+      371
+    ]
+  },
+  "prepared_sha256": "41072fba56c76be1d7bf78077550e13c04576d2d4e38278c0c2dcc0a89f8047f",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 34
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 83
+    }
+  }
+}

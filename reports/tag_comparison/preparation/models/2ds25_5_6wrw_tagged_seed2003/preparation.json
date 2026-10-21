@@ -1,0 +1,127 @@
+{
+  "id": "2ds25_5_6wrw_tagged",
+  "seed": 2003,
+  "sample": 4,
+  "core_length": 88,
+  "source": "outputs/tag_comparison_scoring/seed-2003/2ds25_5_6wrw_tagged/4/model.pdb",
+  "dest": "reports/tag_comparison/preparation/models/2ds25_5_6wrw_tagged_seed2003",
+  "status": "ok",
+  "source_sha256": "98c6c119dc82d28eee5f2c83541a5d9802abc9f52307123a79e06d6f01764719",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.14859712682962642,
+        "max_A": 0.6558477282524109
+      },
+      "sidechain": {
+        "rms_A": 0.4812750145268766,
+        "max_A": 3.3252923488616943
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.15781487347705261,
+        "max_A": 0.7549101710319519
+      },
+      "sidechain": {
+        "rms_A": 0.5889889646001025,
+        "max_A": 2.968341112136841
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.14859712682962642,
+        "max_A": 0.6558477282524109
+      },
+      "sidechain": {
+        "rms_A": 0.4812750145268766,
+        "max_A": 3.3252923488616943
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.26668023051301876,
+        "max_A": 1.2965714931488037
+      },
+      "sidechain": {
+        "rms_A": 0.7252478396536073,
+        "max_A": 3.010737657546997
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:53:ARG:O",
+        "b": "B:130:PHE:CZ",
+        "distance_A": 1.1785847445135207
+      },
+      {
+        "a": "B:119:GLY:O",
+        "b": "B:145:TRP:CD1",
+        "distance_A": 1.337858363205911
+      },
+      {
+        "a": "B:119:GLY:O",
+        "b": "B:145:TRP:NE1",
+        "distance_A": 1.2290020341724406
+      },
+      {
+        "a": "B:128:PRO:CB",
+        "b": "B:145:TRP:O",
+        "distance_A": 1.6252202927603396
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.8105771611921808,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      294,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "c073a8085776482fa1c3643df9fb7fc07f4a227d194133769654c9e293cb1be7",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 47
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 96
+    }
+  }
+}

@@ -2,32 +2,35 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest result:** the [uniform receptor-preparation and assay-tag review](reports/receptor_preparation_v2/RESULTS.md)
-is complete. A separate preparation of all 28 selected models removes the severe
-internal overlaps and yields 56 warning-free free/bound PROPKA calculations.
-Three models fail backbone-movement guards, including both scrambled controls;
-the full prepared control-panel gate therefore remains failed. Original raw and
-fixed-receptor outcomes are preserved.
+**Latest result:** the [matched bare/tagged comparison](reports/tag_comparison/RESULTS.md)
+completed **140 predictions** using the documented 64-residue platform-default
+suffix. All 12 selected raw control checks pass using binder-core PAE. Both bare
+variants pass the two-seed core screen; neither tagged variant does. Tagged A41H
+has one 1.909 Å core close pair in a selected pose; tagged E19H misses the
+interface-pose limit in both seeds. Candidate suffix placements have low confidence,
+so their contacts neither validate tag independence nor prove interference.
 
-**A41H remains the leading pH-direction hypothesis; no strict two-pose hit is established.**
-Its revised shifts are −1.036 and −0.963. E19H's previously excluded second pose is
-now usable but gives a weaker −0.335 shift. Re-preparation is sensitivity analysis,
-not independent replication. No experimental binding or pH switch is established.
+**A41H remains the leading hypothesis; no qualified tagged two-pose pH switch is established.**
+All 28 selected models were prepared uniformly with the suffix retained; 23 pass
+core movement guards and all 56 free/bound PROPKA calculations execute successfully.
+One new bare A41H model gives a −0.608 pKa shift and a 2.12 His-only ratio proxy;
+the other is excluded by movement. E19H has one usable shift but fails the free-pKa
+heuristic. No experimental binding or pH switch is established.
 
-The exact documented platform-default suffix is available: 64 residues including
-linkers, split-GFP11 and Twin-Strep. [Tagged modeling inputs](data/assay_tag_review/manifest.json)
-are prepared, with challenge-specific applicability explicitly an assumption.
-The recommended next experiment is a matched bare/tagged check on A41H and its
-parent, with E19H/parent as a secondary pair and controls, before more generation.
-No tagged predictions have been run. The [previous 24-variant follow-up](reports/expansion_his_direction/RESULTS.md)
-retains all its original results and exclusions.
+Next: prepare a ranked submission draft and audit sequence liabilities and diversity,
+keeping A41H as the primary hypothesis and preserving every exclusion. Further
+generation, if pursued, should add different apical scaffold families. Tag
+compatibility and mouse cross-reactivity remain unresolved. The
+[earlier preparation review](reports/receptor_preparation_v2/RESULTS.md) and
+[24-variant follow-up](reports/expansion_his_direction/RESULTS.md) retain their
+original decisions.
 
 The [previous 200-design expansion](reports/next_round/RESULTS.md) supplies four
 computational parent scaffolds. Mouse cross-reactivity remains unknown after an
 inconclusive matched-conformation comparison. The latest recorded gross Modal
-usage is approximately **US$10.45 before credits**, within the **US$30 total**;
+usage is approximately **US$10.75 before credits**, within the **US$30 total**;
 billing may lag. All cloud jobs are stopped. No upstream issue, PR or challenge
-submission has been filed. [Review structures, checks and direction evidence](reports/expansion_his_direction/review_bundle/manifest.json).
+submission has been filed. [Review selected structures and full confidence arrays](reports/tag_comparison/review_bundle/manifest.json).
 
 **Hotspot correction:** feature-level preflight found that our specifications
 combined `binding` and `not_binding` in one chain entry, but the pinned parser
@@ -50,8 +53,10 @@ and reproducibility records are in the results report.
 
 | Deliverable | Status |
 |---|---|
+| Matched bare/tagged comparison | 140 predictions; raw controls pass; neither tagged variant clears both selected core screens |
+| Tagged-round preparation/direction | 28 models, 56 successful pKa calculations; 23 movement passes; zero qualified two-pose direction passes |
 | Uniform receptor preparation v2 | 28 models, 56 warning-free pKa calculations; 25 movement passes; complete prepared control-panel gate fails |
-| Assay-tag review | Exact public default suffix found; 14 modeling inputs prepared; tag compatibility untested |
+| Assay-tag review | Exact public default suffix found and tested as an explicit challenge assumption; compatibility unresolved |
 | New apical expansion | 200 designs; 16 initial full passes; four new parents pass both fresh-seed checks |
 | Latest His follow-up | 24 new variants; four raw structural confirmations; zero strict two-pose direction passes; four receptor-protonation scoring exclusions |
 | Earlier His panel | 20 variants/comparator; A41H retained as a qualified direction hypothesis |
@@ -69,7 +74,7 @@ pilot used 25 designs per protocol; the earlier 20-design comparison had a separ
 **US$5 allowance within that total**, including its failed preflight attempt.
 No outcome is guaranteed within that budget.
 
-Local verification: **60 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **64 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.

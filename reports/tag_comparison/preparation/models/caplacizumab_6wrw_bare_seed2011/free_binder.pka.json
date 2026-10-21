@@ -1,0 +1,240 @@
+[
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "GLU",
+    "group": "N+",
+    "pka": 8.024354948977377
+  },
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.3682431044241685
+  },
+  {
+    "chain": "B",
+    "residue": 6,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.823729312893731
+  },
+  {
+    "chain": "B",
+    "residue": 19,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.33492303764701
+  },
+  {
+    "chain": "B",
+    "residue": 27,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.468320667916016
+  },
+  {
+    "chain": "B",
+    "residue": 31,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 9.144074465026849
+  },
+  {
+    "chain": "B",
+    "residue": 38,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 14.596651906466239
+  },
+  {
+    "chain": "B",
+    "residue": 43,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.505538266605756
+  },
+  {
+    "chain": "B",
+    "residue": 45,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.289752443649101
+  },
+  {
+    "chain": "B",
+    "residue": 46,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.989694426685465
+  },
+  {
+    "chain": "B",
+    "residue": 53,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.329202350953334
+  },
+  {
+    "chain": "B",
+    "residue": 59,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.458414105870922
+  },
+  {
+    "chain": "B",
+    "residue": 60,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.109278339965778
+  },
+  {
+    "chain": "B",
+    "residue": 62,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.9318725352277903
+  },
+  {
+    "chain": "B",
+    "residue": 65,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.3001539819131125
+  },
+  {
+    "chain": "B",
+    "residue": 67,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.58719400765401
+  },
+  {
+    "chain": "B",
+    "residue": 72,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 10.176981341246067
+  },
+  {
+    "chain": "B",
+    "residue": 73,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.035315894960583
+  },
+  {
+    "chain": "B",
+    "residue": 76,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.795965110007817
+  },
+  {
+    "chain": "B",
+    "residue": 77,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.458964082249215
+  },
+  {
+    "chain": "B",
+    "residue": 80,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.13647429141883
+  },
+  {
+    "chain": "B",
+    "residue": 87,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.113701765807477
+  },
+  {
+    "chain": "B",
+    "residue": 89,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.8960241300949963
+  },
+  {
+    "chain": "B",
+    "residue": 90,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.1403170817625523
+  },
+  {
+    "chain": "B",
+    "residue": 94,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 12.160482886163244
+  },
+  {
+    "chain": "B",
+    "residue": 95,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.268054206870236
+  },
+  {
+    "chain": "B",
+    "residue": 102,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.617838370567114
+  },
+  {
+    "chain": "B",
+    "residue": 104,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.9297532019022756
+  },
+  {
+    "chain": "B",
+    "residue": 105,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.373115961835072
+  },
+  {
+    "chain": "B",
+    "residue": 107,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.756171207115035
+  },
+  {
+    "chain": "B",
+    "residue": 109,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.847284923273277
+  },
+  {
+    "chain": "B",
+    "residue": 114,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.951696975253849
+  },
+  {
+    "chain": "B",
+    "residue": 115,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 13.044727118618352
+  },
+  {
+    "chain": "B",
+    "residue": 128,
+    "resname": "SER",
+    "group": "COO",
+    "pka": 3.338164285751138
+  }
+]

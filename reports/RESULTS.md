@@ -2,7 +2,15 @@
 
 The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
 
-## Latest uniform receptor preparation and tag review — 21 October 2026
+## Latest matched bare/tagged comparison — 21 October 2026
+
+**A41H remains the leading hypothesis, with tag compatibility unresolved.** The 140-prediction comparison tests A41H, E19H, their parents and controls with and without the documented 64-residue platform-default suffix. All 12 selected raw control checks pass on binder-core PAE. Both bare variants pass both selected core screens. Tagged A41H fails one selected clash check (1.909 Å Glu5–Thr376); tagged E19H fails both interface-pose checks (2.185/2.403 Å). Low-confidence suffix contacts also occur on presumed negatives, preventing a simple real-binding interpretation.
+
+All 28 selected models were prepared with the full suffix retained where present: 23 pass core movement guards and all 56 free/bound PROPKA calculations complete. One admitted bare A41H pose passes the model-level direction heuristics (shift −0.608, ratio proxy 2.12); its second pose fails movement. The admitted E19H pose fails the free-pKa heuristic. There are no qualified two-pose direction passes, and neither tagged variant is admitted to direction interpretation under the frozen raw gate.
+
+Next: a ranked submission draft with sequence/developability/diversity review, keeping A41H as a clearly labeled hypothesis and preserving exclusions. See the [full report](tag_comparison/RESULTS.md), [selected structures and PAE](tag_comparison/review_bundle/manifest.json), and [evidence audit](tag_comparison/round_evidence_audit.json). This run added approximately $0.30; latest recorded gross usage is $10.75 of $30, subject to meter lag. All cloud apps stopped; 64 tests pass. No upstream issue, PR or submission was filed.
+
+## Earlier uniform receptor preparation and tag review — 21 October 2026
 
 **A41H remains the best direction hypothesis; no strict two-pose hit.** The revised, uniform preparation of all 28 selected models removes the 14 severe intrachain nonbonded overlaps and gives 56 warning-free free/bound PROPKA calculations. Three models exceed backbone-movement limits, including both scrambled controls, so full prepared-panel validation fails. Raw and fixed-receptor decisions remain unchanged.
 

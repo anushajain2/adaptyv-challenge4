@@ -1,0 +1,112 @@
+{
+  "id": "expansion_apical_short_026_E19H_bare",
+  "seed": 2011,
+  "sample": 3,
+  "core_length": 62,
+  "source": "outputs/tag_comparison_scoring/seed-2011/expansion_apical_short_026_E19H_bare/3/model.pdb",
+  "dest": "reports/tag_comparison/preparation/models/expansion_apical_short_026_E19H_bare_seed2011",
+  "status": "ok",
+  "source_sha256": "5812988e851332e4aa1b11de958a685ef38fb7ba30561b13517a0b11e6608514",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1515338069044306,
+        "max_A": 0.6256263852119446
+      },
+      "sidechain": {
+        "rms_A": 0.5438299207765199,
+        "max_A": 2.3878567218780518
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.14654387027911617,
+        "max_A": 0.3740733563899994
+      },
+      "sidechain": {
+        "rms_A": 0.6505860285421723,
+        "max_A": 3.00431227684021
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1515338069044306,
+        "max_A": 0.6256263852119446
+      },
+      "sidechain": {
+        "rms_A": 0.5438299207765199,
+        "max_A": 2.3878567218780518
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.14654387027911617,
+        "max_A": 0.3740733563899994
+      },
+      "sidechain": {
+        "rms_A": 0.6505860285421723,
+        "max_A": 3.00431227684021
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:101:ILE:O",
+        "b": "A:150:ARG:NH2",
+        "distance_A": 1.7349518725313393
+      },
+      {
+        "a": "B:33:ALA:O",
+        "b": "B:59:LYS:NZ",
+        "distance_A": 1.794450333667668
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9396385088489086,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      198,
+      199,
+      201,
+      203,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "5ef5931c811ccfbec3ab123173a452ac8805abba92d4f4f0384584c9b76b8f4d",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 27
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 76
+    }
+  }
+}
