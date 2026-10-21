@@ -53,7 +53,8 @@ def analyze(run,output):
     arms={a['id']:a for a in m['arms']};seed=m['refolding']['seeds'][0];folder=run/f'seed-{seed}'
     assert m['refolding']['diffusion_samples_per_seed']==1
     preflight=json.loads((folder/'preflight.json').read_text())
-    assert len(preflight)==203 and all(p['binder_template_excluded'] and p['msa_depth']==1 for p in preflight)
+    expected_designs=sum(a['num_designs'] for a in m['arms'])
+    assert len(preflight)==expected_designs+len(m['controls']) and all(p['binder_template_excluded'] and p['msa_depth']==1 for p in preflight)
     feature_audit=[]
     for arm in arms.values():
         paths=sorted((run/arm['id']/'intermediate_designs').glob('*.npz'));assert len(paths)==arm['num_designs']
@@ -114,7 +115,7 @@ def analyze(run,output):
             row['diversity_sequence']=''.join(seq[i-1] for i in designed) if case['protocol']=='nanobody-anything' else seq
             rows.append(row)
         print('Scored',name,flush=True)
-    assert len(rows)==200 and len(controls)==3
+    assert len(rows)==expected_designs and len(controls)==len(m['controls'])==3
     controls_pass=all(r['pass'] for r in controls)
     prior=json.loads((ROOT/m['prior_campaign']).read_text())
     old_sequences={r['sequence'] for r in prior['ranked_candidates']}
