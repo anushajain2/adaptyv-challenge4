@@ -1,0 +1,890 @@
+[
+  {
+    "parent": "apical_long_015",
+    "sources": [
+      {
+        "seed": 809,
+        "sample": 2,
+        "sha256": "6450c267c4ea6a0368868e3fa7fd640129eb65dfb857828287749d5f17fc0147"
+      },
+      {
+        "seed": 907,
+        "sample": 4,
+        "sha256": "fb26d656ee67c54d846e60ed143121c67b33034c203af677e68143e2af2bdc24"
+      }
+    ],
+    "site_audit": [
+      {
+        "position": 6,
+        "sites": [
+          {
+            "position": 6,
+            "parent": "L",
+            "buried_sasa_A2": 27.78,
+            "min_target_distance_A": 3.71,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          },
+          {
+            "position": 6,
+            "parent": "L",
+            "buried_sasa_A2": 37.3,
+            "min_target_distance_A": 3.33,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -3
+      },
+      {
+        "position": 7,
+        "sites": [
+          {
+            "position": 7,
+            "parent": "L",
+            "buried_sasa_A2": 56.76,
+            "min_target_distance_A": 3.23,
+            "nearby_basic_atoms": 2,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 4
+          },
+          {
+            "position": 7,
+            "parent": "L",
+            "buried_sasa_A2": 61.59,
+            "min_target_distance_A": 3.32,
+            "nearby_basic_atoms": 2,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 4
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": 4
+      },
+      {
+        "position": 43,
+        "sites": [
+          {
+            "position": 43,
+            "parent": "D",
+            "buried_sasa_A2": 27.19,
+            "min_target_distance_A": 3.66,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 1
+          },
+          {
+            "position": 43,
+            "parent": "D",
+            "buried_sasa_A2": 20.49,
+            "min_target_distance_A": 2.87,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          }
+        ],
+        "excluded_reasons": [
+          "possible charged anchor within 3.5 A in a source pose"
+        ],
+        "worst_pose_heuristic": 1
+      },
+      {
+        "position": 45,
+        "sites": [
+          {
+            "position": 45,
+            "parent": "S",
+            "buried_sasa_A2": 38.06,
+            "min_target_distance_A": 3.32,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 0
+          },
+          {
+            "position": 45,
+            "parent": "S",
+            "buried_sasa_A2": 45.7,
+            "min_target_distance_A": 3.55,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -1
+      },
+      {
+        "position": 46,
+        "sites": [
+          {
+            "position": 46,
+            "parent": "F",
+            "buried_sasa_A2": 27.78,
+            "min_target_distance_A": 3.28,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          },
+          {
+            "position": 46,
+            "parent": "F",
+            "buried_sasa_A2": 14.49,
+            "min_target_distance_A": 3.57,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -2
+      },
+      {
+        "position": 49,
+        "sites": [
+          {
+            "position": 49,
+            "parent": "T",
+            "buried_sasa_A2": 46.25,
+            "min_target_distance_A": 2.82,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          },
+          {
+            "position": 49,
+            "parent": "T",
+            "buried_sasa_A2": 50.42,
+            "min_target_distance_A": 2.97,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -3
+      },
+      {
+        "position": 50,
+        "sites": [
+          null,
+          {
+            "position": 50,
+            "parent": "V",
+            "buried_sasa_A2": 26.57,
+            "min_target_distance_A": 3.17,
+            "nearby_basic_atoms": 3,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": 8
+          }
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses"
+        ],
+        "worst_pose_heuristic": 8
+      },
+      {
+        "position": 51,
+        "sites": [
+          null,
+          {
+            "position": 51,
+            "parent": "D",
+            "buried_sasa_A2": 53.09,
+            "min_target_distance_A": 2.74,
+            "nearby_basic_atoms": 3,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": 8
+          }
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses",
+          "possible charged anchor within 3.5 A in a source pose",
+          "preserve Asp51 except diagnostic"
+        ],
+        "worst_pose_heuristic": 8
+      },
+      {
+        "position": 62,
+        "sites": [
+          null,
+          {
+            "position": 62,
+            "parent": "K",
+            "buried_sasa_A2": 7.5,
+            "min_target_distance_A": 4.57,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          }
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses"
+        ],
+        "worst_pose_heuristic": 3
+      },
+      {
+        "position": 66,
+        "sites": [
+          {
+            "position": 66,
+            "parent": "E",
+            "buried_sasa_A2": 31.34,
+            "min_target_distance_A": 1.69,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          },
+          {
+            "position": 66,
+            "parent": "E",
+            "buried_sasa_A2": 21.72,
+            "min_target_distance_A": 3.29,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          }
+        ],
+        "excluded_reasons": [
+          "possible charged anchor within 3.5 A in a source pose"
+        ],
+        "worst_pose_heuristic": 3
+      },
+      {
+        "position": 67,
+        "sites": [
+          null,
+          {
+            "position": 67,
+            "parent": "E",
+            "buried_sasa_A2": 63.39,
+            "min_target_distance_A": 2.2,
+            "nearby_basic_atoms": 3,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 9
+          }
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses",
+          "possible charged anchor within 3.5 A in a source pose"
+        ],
+        "worst_pose_heuristic": 9
+      },
+      {
+        "position": 70,
+        "sites": [
+          {
+            "position": 70,
+            "parent": "T",
+            "buried_sasa_A2": 49.22,
+            "min_target_distance_A": 3.18,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": 2
+          },
+          {
+            "position": 70,
+            "parent": "T",
+            "buried_sasa_A2": 50.43,
+            "min_target_distance_A": 3.52,
+            "nearby_basic_atoms": 2,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 4
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": 2
+      },
+      {
+        "position": 73,
+        "sites": [
+          {
+            "position": 73,
+            "parent": "R",
+            "buried_sasa_A2": 24.79,
+            "min_target_distance_A": 4.06,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          },
+          {
+            "position": 73,
+            "parent": "R",
+            "buried_sasa_A2": 25.54,
+            "min_target_distance_A": 3.65,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 1
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -2
+      },
+      {
+        "position": 77,
+        "sites": [
+          {
+            "position": 77,
+            "parent": "N",
+            "buried_sasa_A2": 36.5,
+            "min_target_distance_A": 3.04,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          },
+          {
+            "position": 77,
+            "parent": "N",
+            "buried_sasa_A2": 39.68,
+            "min_target_distance_A": 2.6,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -3
+      },
+      {
+        "position": 81,
+        "sites": [
+          {
+            "position": 81,
+            "parent": "A",
+            "buried_sasa_A2": 40.38,
+            "min_target_distance_A": 3.59,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          },
+          {
+            "position": 81,
+            "parent": "A",
+            "buried_sasa_A2": 46.28,
+            "min_target_distance_A": 3.6,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -3
+      },
+      {
+        "position": 82,
+        "sites": [
+          {
+            "position": 82,
+            "parent": "L",
+            "buried_sasa_A2": 41.06,
+            "min_target_distance_A": 3.44,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 1
+          },
+          {
+            "position": 82,
+            "parent": "L",
+            "buried_sasa_A2": 42.79,
+            "min_target_distance_A": 3.35,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 1
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": 1
+      }
+    ],
+    "chosen_sites": [
+      7,
+      70,
+      82,
+      45,
+      46
+    ],
+    "chosen_pairs": [
+      {
+        "positions": [
+          7,
+          82
+        ],
+        "CA_distances_A": [
+          13.10675048828125,
+          13.332269668579102
+        ],
+        "score": 5
+      },
+      {
+        "positions": [
+          45,
+          82
+        ],
+        "CA_distances_A": [
+          12.218822479248047,
+          11.332613945007324
+        ],
+        "score": 0
+      },
+      {
+        "positions": [
+          46,
+          70
+        ],
+        "CA_distances_A": [
+          15.777868270874023,
+          15.290326118469238
+        ],
+        "score": 0
+      },
+      {
+        "positions": [
+          46,
+          82
+        ],
+        "CA_distances_A": [
+          10.630778312683105,
+          10.273261070251465
+        ],
+        "score": -1
+      }
+    ]
+  },
+  {
+    "parent": "apical_short_008",
+    "sources": [
+      {
+        "seed": 607,
+        "sample": 1,
+        "sha256": "a3f0dd4c9a944e56e945ec311a20b4ccc9555516aa2e90ccccd46ae25bbfac1c"
+      },
+      {
+        "seed": 709,
+        "sample": 2,
+        "sha256": "2022a02b85b19dcd3b79fe501e82051bc4fd53989bb9be1276dd58f4a318f2e6"
+      }
+    ],
+    "site_audit": [
+      {
+        "position": 2,
+        "sites": [
+          {
+            "position": 2,
+            "parent": "A",
+            "buried_sasa_A2": 47.85,
+            "min_target_distance_A": 3.3,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          },
+          {
+            "position": 2,
+            "parent": "A",
+            "buried_sasa_A2": 58.06,
+            "min_target_distance_A": 2.69,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -2
+      },
+      {
+        "position": 6,
+        "sites": [
+          {
+            "position": 6,
+            "parent": "I",
+            "buried_sasa_A2": 39.85,
+            "min_target_distance_A": 3.5,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 0
+          },
+          {
+            "position": 6,
+            "parent": "I",
+            "buried_sasa_A2": 47.1,
+            "min_target_distance_A": 3.36,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 0
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": 0
+      },
+      {
+        "position": 8,
+        "sites": [
+          {
+            "position": 8,
+            "parent": "E",
+            "buried_sasa_A2": 7.25,
+            "min_target_distance_A": 4.84,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          },
+          null
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses"
+        ],
+        "worst_pose_heuristic": 3
+      },
+      {
+        "position": 10,
+        "sites": [
+          {
+            "position": 10,
+            "parent": "F",
+            "buried_sasa_A2": 20.53,
+            "min_target_distance_A": 3.21,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          },
+          null
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses"
+        ],
+        "worst_pose_heuristic": -2
+      },
+      {
+        "position": 12,
+        "sites": [
+          null,
+          {
+            "position": 12,
+            "parent": "E",
+            "buried_sasa_A2": 8.57,
+            "min_target_distance_A": 4.76,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          }
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses"
+        ],
+        "worst_pose_heuristic": 3
+      },
+      {
+        "position": 13,
+        "sites": [
+          {
+            "position": 13,
+            "parent": "V",
+            "buried_sasa_A2": 60.77,
+            "min_target_distance_A": 2.61,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 1
+          },
+          null
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses"
+        ],
+        "worst_pose_heuristic": 1
+      },
+      {
+        "position": 14,
+        "sites": [
+          {
+            "position": 14,
+            "parent": "D",
+            "buried_sasa_A2": 13.67,
+            "min_target_distance_A": 3.83,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          },
+          {
+            "position": 14,
+            "parent": "D",
+            "buried_sasa_A2": 13.54,
+            "min_target_distance_A": 4.68,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 3
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": 3
+      },
+      {
+        "position": 37,
+        "sites": [
+          {
+            "position": 37,
+            "parent": "E",
+            "buried_sasa_A2": 33.51,
+            "min_target_distance_A": 3.25,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          },
+          {
+            "position": 37,
+            "parent": "E",
+            "buried_sasa_A2": 13.27,
+            "min_target_distance_A": 4.56,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 0
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -2
+      },
+      {
+        "position": 40,
+        "sites": [
+          {
+            "position": 40,
+            "parent": "L",
+            "buried_sasa_A2": 21.17,
+            "min_target_distance_A": 3.86,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          },
+          {
+            "position": 40,
+            "parent": "L",
+            "buried_sasa_A2": 28.28,
+            "min_target_distance_A": 3.21,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -1
+      },
+      {
+        "position": 41,
+        "sites": [
+          {
+            "position": 41,
+            "parent": "A",
+            "buried_sasa_A2": 36.76,
+            "min_target_distance_A": 3.86,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": 2
+          },
+          {
+            "position": 41,
+            "parent": "A",
+            "buried_sasa_A2": 40.21,
+            "min_target_distance_A": 3.76,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": 1
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": 1
+      },
+      {
+        "position": 42,
+        "sites": [
+          null,
+          {
+            "position": 42,
+            "parent": "E",
+            "buried_sasa_A2": 5.36,
+            "min_target_distance_A": 3.09,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          }
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses"
+        ],
+        "worst_pose_heuristic": -1
+      },
+      {
+        "position": 43,
+        "sites": [
+          {
+            "position": 43,
+            "parent": "D",
+            "buried_sasa_A2": 49.07,
+            "min_target_distance_A": 3.26,
+            "nearby_basic_atoms": 1,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": 2
+          },
+          {
+            "position": 43,
+            "parent": "D",
+            "buried_sasa_A2": 53.86,
+            "min_target_distance_A": 2.44,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -2
+      },
+      {
+        "position": 44,
+        "sites": [
+          {
+            "position": 44,
+            "parent": "R",
+            "buried_sasa_A2": 23.07,
+            "min_target_distance_A": 3.55,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          },
+          {
+            "position": 44,
+            "parent": "R",
+            "buried_sasa_A2": 19.44,
+            "min_target_distance_A": 2.81,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 2,
+            "heuristic": -2
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -2
+      },
+      {
+        "position": 46,
+        "sites": [
+          {
+            "position": 46,
+            "parent": "F",
+            "buried_sasa_A2": 32.25,
+            "min_target_distance_A": 2.65,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          },
+          {
+            "position": 46,
+            "parent": "F",
+            "buried_sasa_A2": 37.88,
+            "min_target_distance_A": 2.81,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 3,
+            "heuristic": -3
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -3
+      },
+      {
+        "position": 47,
+        "sites": [
+          {
+            "position": 47,
+            "parent": "S",
+            "buried_sasa_A2": 17.89,
+            "min_target_distance_A": 3.49,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          },
+          {
+            "position": 47,
+            "parent": "S",
+            "buried_sasa_A2": 15.59,
+            "min_target_distance_A": 3.42,
+            "nearby_basic_atoms": 0,
+            "nearby_oxygen_atoms": 1,
+            "heuristic": -1
+          }
+        ],
+        "excluded_reasons": [],
+        "worst_pose_heuristic": -1
+      },
+      {
+        "position": 49,
+        "sites": [
+          {
+            "position": 49,
+            "parent": "E",
+            "buried_sasa_A2": 22.91,
+            "min_target_distance_A": 2.78,
+            "nearby_basic_atoms": 3,
+            "nearby_oxygen_atoms": 0,
+            "heuristic": 9
+          },
+          null
+        ],
+        "excluded_reasons": [
+          "not peripheral contact in both source poses",
+          "possible charged anchor within 3.5 A in a source pose"
+        ],
+        "worst_pose_heuristic": 9
+      }
+    ],
+    "chosen_sites": [
+      14,
+      41,
+      6,
+      40,
+      47
+    ],
+    "chosen_pairs": [
+      {
+        "positions": [
+          6,
+          14
+        ],
+        "CA_distances_A": [
+          12.077746391296387,
+          11.862598419189453
+        ],
+        "score": 3
+      },
+      {
+        "positions": [
+          14,
+          47
+        ],
+        "CA_distances_A": [
+          10.681314468383789,
+          10.37430191040039
+        ],
+        "score": 2
+      },
+      {
+        "positions": [
+          6,
+          41
+        ],
+        "CA_distances_A": [
+          12.198945045471191,
+          11.737076759338379
+        ],
+        "score": 1
+      },
+      {
+        "positions": [
+          41,
+          47
+        ],
+        "CA_distances_A": [
+          13.737360000610352,
+          13.6444091796875
+        ],
+        "score": 0
+      }
+    ]
+  }
+]

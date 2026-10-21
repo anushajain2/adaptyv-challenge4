@@ -1,0 +1,85 @@
+{
+  "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/caplacizumab_6wrw/0/model.pdb",
+  "source_sha256": "87be288f14a7412651803db5c399fc7549c9231ab8a27809a3ec76f3ea57281a",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.1640820302930784,
+      "max_A": 1.1644706726074219
+    },
+    "pass": false
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 1.3304259498272766,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 1,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 18,
+    "native_target_contacts_lt5A": [
+      228,
+      229,
+      230,
+      231,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      273,
+      274,
+      275,
+      277
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.3304259498272766,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 1,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 22,
+    "native_target_contacts_lt5A": [
+      229,
+      230,
+      231,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      273,
+      274,
+      275,
+      277
+    ]
+  },
+  "prepared_sha256": "52e252a8911e1aaf2c36dff66d2dccd62549ab495c8c5ac13ae6def5fc21e575"
+}

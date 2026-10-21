@@ -1,0 +1,73 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_018/model.pdb",
+  "source_sha256": "96bd60f3a589eec47cc3dcd934b82ac544bd0c5b25991b938c3fa8daab5bdb67",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.21449799875992206,
+      "max_A": 0.9295041561126709
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 0.9357448312423194,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 7,
+    "partner_subunit_clash_pairs_lt2A": 518,
+    "observed_glycans_clash_pairs_lt2A": 21,
+    "native_target_contacts_lt5A": [
+      311,
+      312,
+      313,
+      314,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9357448312423194,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 7,
+    "partner_subunit_clash_pairs_lt2A": 519,
+    "observed_glycans_clash_pairs_lt2A": 22,
+    "native_target_contacts_lt5A": [
+      311,
+      312,
+      313,
+      314,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325
+    ]
+  },
+  "prepared_sha256": "909a6464414bd0b8b006485aab6e887b6aa0f1969ea9b90b2babe000d9bc7af4"
+}

@@ -1,0 +1,9 @@
+{
+  "timing": "Frozen before downloading/scoring panel outputs",
+  "sha256": {
+    "prepare_selected_models.py": "4e83fbb4cd45ccccc9da9a7fabcc1686bf9cecc064f3b7f9141ddeb388234365",
+    "prepare_his_confirmation.py": "08ca9ffeeb716737bdb7ae128d4d5cd6534f6162291852d85a2cd7557c01d710",
+    "check_confirmed_his_direction.py": "a743d3b4bb4e6f2b4f13b8eef5c6bed2461eccb510f9e44a25482d309d1deba4"
+  },
+  "direction_plan_sha256": "bcd497ce86f03f608f235262cabf07679ce769eb8fb5246d6afeb9a924ef7791"
+}

@@ -1,0 +1,70 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_035/model.pdb",
+  "source_sha256": "a944411d26c88f1e6a6d1fd812faf6161df6d38c485009a5086bca77b36f5550",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.17631215613935908,
+      "max_A": 0.7791750431060791
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 0.8092209321341703,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 25,
+    "partner_subunit_clash_pairs_lt2A": 663,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      312,
+      313,
+      314,
+      316,
+      318,
+      319,
+      320,
+      322,
+      323,
+      324
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.8092209321341703,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 30,
+    "partner_subunit_clash_pairs_lt2A": 689,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      312,
+      313,
+      314,
+      316,
+      317,
+      318,
+      319,
+      320,
+      322,
+      323,
+      324
+    ]
+  },
+  "prepared_sha256": "16481ba47fd00f3aeedf1e2befc7c18def3aa6517eb3ab46444cf48091a13e0b"
+}

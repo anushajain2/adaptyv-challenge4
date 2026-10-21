@@ -1,0 +1,69 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_094/model.pdb",
+  "source_sha256": "b58d3d36d74d1d85eaf7e9433186ba3aff98626a805cf0b7a048134bb4a88cbe",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.2146173903068582,
+      "max_A": 0.7499445080757141
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 0.9208198844722733,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 235,
+    "partner_subunit_clash_pairs_lt2A": 527,
+    "observed_glycans_clash_pairs_lt2A": 12,
+    "native_target_contacts_lt5A": [
+      312,
+      313,
+      314,
+      316,
+      318,
+      319,
+      320,
+      322,
+      323,
+      324
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9208198844722733,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 239,
+    "partner_subunit_clash_pairs_lt2A": 515,
+    "observed_glycans_clash_pairs_lt2A": 15,
+    "native_target_contacts_lt5A": [
+      312,
+      313,
+      314,
+      316,
+      318,
+      319,
+      320,
+      322,
+      323,
+      324
+    ]
+  },
+  "prepared_sha256": "182d61396af5938228726f6113f6488d80d0ed296425c4fe2ae77947ffc75429"
+}

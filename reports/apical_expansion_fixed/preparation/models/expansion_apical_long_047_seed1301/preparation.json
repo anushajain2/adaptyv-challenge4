@@ -1,0 +1,71 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_047/model.pdb",
+  "source_sha256": "85899a80a301d6ce81d980d0e4304b2857e8f4197e1d05e68065d7a9c6f62844",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.21770082469591007,
+      "max_A": 0.9986042976379395
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 2.1611304534388234,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 137,
+    "partner_subunit_clash_pairs_lt2A": 646,
+    "observed_glycans_clash_pairs_lt2A": 1,
+    "native_target_contacts_lt5A": [
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 2.1611304534388234,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 137,
+    "partner_subunit_clash_pairs_lt2A": 651,
+    "observed_glycans_clash_pairs_lt2A": 1,
+    "native_target_contacts_lt5A": [
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323
+    ]
+  },
+  "prepared_sha256": "49c76b19254270436e6d86e0012effca21c3fe4d6b216bbc13a2fafefe3909fa"
+}

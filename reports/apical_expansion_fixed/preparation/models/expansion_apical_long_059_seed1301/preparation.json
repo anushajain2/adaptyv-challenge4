@@ -1,0 +1,101 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_059/model.pdb",
+  "source_sha256": "fe739c67d90d911dad537174e194a557c17c715c8a3f10755577c33c234aaace",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.180791207704819,
+      "max_A": 0.541710376739502
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 1.4673968007509373,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 2,
+    "omitted_same_subunit_clash_pairs_lt2A": 796,
+    "partner_subunit_clash_pairs_lt2A": 88,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      190,
+      191,
+      192,
+      219,
+      222,
+      263,
+      264,
+      265,
+      298,
+      299,
+      300,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      320,
+      321,
+      383
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.4673968007509373,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 779,
+    "partner_subunit_clash_pairs_lt2A": 91,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      190,
+      191,
+      192,
+      219,
+      222,
+      263,
+      264,
+      265,
+      298,
+      299,
+      300,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      320,
+      321,
+      322
+    ]
+  },
+  "prepared_sha256": "8d8f1e0f2e6569c1b1f41f8863e96bbd4ea9cd19823ed3fced7b4110d4434586"
+}

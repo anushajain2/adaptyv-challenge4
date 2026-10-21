@@ -1,0 +1,101 @@
+{
+  "id": "apical_short_008_A41H",
+  "status": "Retained computational hypothesis; strict two-pose direction gate NOT passed",
+  "strict_direction_gate_pass": false,
+  "structural_confirmation_pass": true,
+  "passing_confirmation_samples": 9,
+  "total_confirmation_samples": 10,
+  "no_experimental_binding_or_pH_validation": true,
+  "reason_for_direction_gate_failure": "Free pKa 7.302 exceeds the frozen 6\u20137 heuristic in seed 1201",
+  "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+  "models": [
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1103,
+      "positions": [
+        41
+      ],
+      "status": "ok",
+      "direction_pass": true,
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "free_pkas": [
+        6.405705567404332
+      ],
+      "bound_pkas": [
+        5.500266926414457
+      ],
+      "shifts": [
+        -0.9054386409898747
+      ],
+      "artificial_terminus_distance_A": 24.48650360107422,
+      "his_only_Kd6_over_Kd7_4": 2.476030350792488,
+      "source_sha256": "948e44b8aba1b2de4cb5362cc71470bc7230f4ee51ad65caa777b0e8190996e3"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1201,
+      "positions": [
+        41
+      ],
+      "status": "ok",
+      "direction_pass": false,
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "free_pkas": [
+        7.301856463262677
+      ],
+      "bound_pkas": [
+        6.183445829390992
+      ],
+      "shifts": [
+        -1.1184106338716848
+      ],
+      "artificial_terminus_distance_A": 25.33056640625,
+      "his_only_Kd6_over_Kd7_4": 4.91497537435824,
+      "source_sha256": "83b4f1f294bc61bcc28b8c887f9af34ce05c3387c07e5481fc039e76f09d1d3d"
+    }
+  ],
+  "sha256": {
+    "A41H_contact_audit.json": "fdceb4202e4595bb455d127d586c3cedda23a6d7ec1a6d0f3600dd21f8ae46ad",
+    "A41H_context_audit.json": "f392191a1318b32359b297d5128661763c93613c34af312aa0bc9e90521aeb7c",
+    "parent_and_variant.fasta": "205d7e83bde6aa015de7867bed2ef03ef471788b738abedc3eb094e596c50aae",
+    "evidence_audit.json": "6aa4dea32379cd1bef4ada652843271a507d7728ac19a27d6e8c7203892f5c07",
+    "seed1103/complex.pka.json": "b3a94e4bddd43b19e60c62a675b34556330a961a614f2c83f4eb0712b5aca5c4",
+    "seed1103/complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "seed1103/free_binder.pka.json": "4d5ffdaaace0981b375d311f31bdf76979dca36be34072ab62598972a2aca27b",
+    "seed1103/free_binder.pdb": "1d9edd0fb72aa899b19771675ae5842c2cec466a533420061e30d7b5b85927b9",
+    "seed1103/complex.pdb": "948e44b8aba1b2de4cb5362cc71470bc7230f4ee51ad65caa777b0e8190996e3",
+    "seed1103/free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "seed1201/complex.pka.json": "3315d44d0f19c3a2dae8a44b4d254b69c3728960e7138d77301b47ce504a3aab",
+    "seed1201/complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "seed1201/free_binder.pka.json": "ea0b51dd2ae41a42d9edf7d4d83642e8c19995d202c4c91e74aba5b331c55dca",
+    "seed1201/free_binder.pdb": "78872ed944befd2ef948bb6e6b0cf1736843f0e74c6daa473098ec851a76fe96",
+    "seed1201/complex.pdb": "83b4f1f294bc61bcc28b8c887f9af34ce05c3387c07e5481fc039e76f09d1d3d",
+    "seed1201/free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "arm": "expansion_apical_short",
+    "target_tokens": 194,
+    "binder_tokens": 57,
+    "designed_tokens": 57,
+    "hotspots_crop": [
+      19,
+      21,
+      22
+    ],
+    "diffusion_batches": 10,
+    "diffusion_samples": 10,
+    "design_count": 100
+  },
+  {
+    "arm": "expansion_apical_long",
+    "target_tokens": 194,
+    "binder_tokens": 87,
+    "designed_tokens": 87,
+    "hotspots_crop": [
+      19,
+      21,
+      22
+    ],
+    "diffusion_batches": 10,
+    "diffusion_samples": 10,
+    "design_count": 100
+  }
+]

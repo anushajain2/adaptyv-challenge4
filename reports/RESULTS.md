@@ -2,11 +2,19 @@
 
 The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
 
-## Latest independent mutant test — 21 October 2026
+## Latest expansion and histidine follow-up — 21 October 2026
+
+**Four new human-target parents pass both fresh-seed structural checks; A41H is retained as a qualified pH-direction hypothesis.** The additional 200-design apical campaign yields 16 initial full passes; four of six prospectively selected diverse candidates pass confirmation, with all selected controls passing. The 20-variant/comparator His panel and fresh-seed follow-up identify A41H as the strongest retained variant: 9/10 raw sample passes, two consistent negative pKa shifts, but one failure of the strict free-pKa 6–7 heuristic. The strict direction-pass count remains zero. No experimental binding or pH switching is established.
+
+The 81-prediction human/mouse comparison is inconclusive: the positive human control fails on the AlphaFold-human target, preventing a species-only interpretation of low mouse scores. Mouse cross-reactivity remains unknown. Uniform preparation diagnostics preserve every raw failure and do not rescue candidates retroactively.
+
+See the [round report](next_round/RESULTS.md), [review bundle](next_round/review_bundle/manifest.json), and [working method](next_round/METHODS.md). This round includes 599 structural predictions. Observed gross Modal usage reached approximately **$9.96 before credits**, subject to meter lag; all cloud apps are stopped and 52 local tests pass. No upstream issue, PR or challenge submission was filed. The next recommendation is pH-direction triage on the new parents before another large generation batch.
+
+## Earlier independent mutant test — 21 October 2026
 
 **D51H/T70H is rejected after independent refolding.** The matched controls pass, but all ten mutant samples have interface ipTM 0.091–0.116 and almost no original interface contacts. The parent preserves its intended pose and higher confidence, but one selected model fails the strict clash rule. No sequence advances under this matched experiment's both-seed rule. The earlier pKa calculation remains conditional on an interface the mutant predictor did not recover.
 
-See the [full mutant report](mutant_validation/RESULTS.md). The next recommendation is a small diagnostic test of D51H and T70H separately, with parent and controls, rather than retaining the failed double mutant or changing its gates. Latest gross compute usage is approximately **$7.96**, all cloud apps are stopped, and 44 tests pass. No upstream issue, PR or challenge submission was filed.
+See the [full mutant report](mutant_validation/RESULTS.md). At that stage, the next recommendation was a diagnostic test of D51H and T70H separately with parent and controls; the expanded follow-up above now includes those tests. At that stage, gross compute usage was approximately **$7.96**, all cloud apps were stopped, and 44 tests passed. No upstream issue, PR or challenge submission was filed.
 
 ## Earlier confirmation and direction result — 21 October 2026
 

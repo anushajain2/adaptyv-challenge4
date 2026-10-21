@@ -1,0 +1,167 @@
+{
+  "leads": [
+    {
+      "id": "expansion_apical_short_015",
+      "sequence": "SEEELLERLGALMRRLAAAGPLSPEAEKLLEEAYRLAEEGRYEEAIELAEKALALVEERRA",
+      "length": 61,
+      "models": [
+        {
+          "seed": 1409,
+          "backbone_angles_evaluated": 59,
+          "alpha_region_fraction": 0.8813559322033898,
+          "beta_region_fraction": 0.01694915254237288,
+          "source_sha256": "c84f45ad7786a05bd81ff31641d6657ee0a25831daa063ecc96a779830d2d164"
+        },
+        {
+          "seed": 1511,
+          "backbone_angles_evaluated": 59,
+          "alpha_region_fraction": 0.864406779661017,
+          "beta_region_fraction": 0.0,
+          "source_sha256": "03535f609ad87bcc660385c9707472c5e1ecec2150e7f5100278c4e373dce22a"
+        }
+      ],
+      "pH_evidence": "No pH-direction evaluation for this new parent"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "length": 61,
+      "models": [
+        {
+          "seed": 1409,
+          "backbone_angles_evaluated": 59,
+          "alpha_region_fraction": 0.4576271186440678,
+          "beta_region_fraction": 0.288135593220339,
+          "source_sha256": "ad3a5689528ae0437b11526ab9bd1dd1cb5f0d19eaefc11769b8f1e29dc58f5e"
+        },
+        {
+          "seed": 1511,
+          "backbone_angles_evaluated": 59,
+          "alpha_region_fraction": 0.4915254237288136,
+          "beta_region_fraction": 0.3389830508474576,
+          "source_sha256": "5b1253c660abe54f89fa58803944315553374a125b5567c577bfb14780b1765b"
+        }
+      ],
+      "pH_evidence": "No pH-direction evaluation for this new parent"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "length": 62,
+      "models": [
+        {
+          "seed": 1409,
+          "backbone_angles_evaluated": 60,
+          "alpha_region_fraction": 0.4666666666666667,
+          "beta_region_fraction": 0.3333333333333333,
+          "source_sha256": "18c7ec59ea853bc709aebef6b8a49621489a34493237412a96eeb8769479e206"
+        },
+        {
+          "seed": 1511,
+          "backbone_angles_evaluated": 60,
+          "alpha_region_fraction": 0.5,
+          "beta_region_fraction": 0.38333333333333336,
+          "source_sha256": "a75215d50aeefe5b94641be4aa7f5a0560d82fae4507912e78d4c3bee4af10ee"
+        }
+      ],
+      "pH_evidence": "No pH-direction evaluation for this new parent"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "length": 89,
+      "models": [
+        {
+          "seed": 1409,
+          "backbone_angles_evaluated": 87,
+          "alpha_region_fraction": 0.4482758620689655,
+          "beta_region_fraction": 0.39080459770114945,
+          "source_sha256": "d8c6b4554eab06d527b95d12f9c47210a2e4838bdc00540e2d2a14e82443e89b"
+        },
+        {
+          "seed": 1511,
+          "backbone_angles_evaluated": 87,
+          "alpha_region_fraction": 0.4482758620689655,
+          "beta_region_fraction": 0.40229885057471265,
+          "source_sha256": "74ced504494eb7874c22a4db81b539ad7ba4e16cb67afaf9ff3e4be518afb66b"
+        }
+      ],
+      "pH_evidence": "No pH-direction evaluation for this new parent"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "length": 58,
+      "models": [
+        {
+          "seed": 1103,
+          "backbone_angles_evaluated": 56,
+          "alpha_region_fraction": 0.75,
+          "beta_region_fraction": 0.07142857142857142,
+          "source_sha256": "8f74437d1a3183ea23fd0c3b3abf2217fc8faeb1ca5953f3c9cbe317a13fecbb"
+        },
+        {
+          "seed": 1201,
+          "backbone_angles_evaluated": 56,
+          "alpha_region_fraction": 0.75,
+          "beta_region_fraction": 0.08928571428571429,
+          "source_sha256": "924a9b202ef11ac92d4c3fd69ca4ae5cf903d4c8f68fe39aaa4a12d6c342464c"
+        }
+      ],
+      "pH_evidence": "A41H direction hypothesis; strict gate failed in one pose"
+    }
+  ],
+  "pairwise_sequence_identity": [
+    {
+      "a": "expansion_apical_short_015",
+      "b": "expansion_apical_short_018",
+      "global_sequence_identity": 0.2459016393442623
+    },
+    {
+      "a": "expansion_apical_short_015",
+      "b": "expansion_apical_short_026",
+      "global_sequence_identity": 0.2903225806451613
+    },
+    {
+      "a": "expansion_apical_short_015",
+      "b": "expansion_apical_long_092",
+      "global_sequence_identity": 0.25842696629213485
+    },
+    {
+      "a": "expansion_apical_short_015",
+      "b": "apical_short_008_A41H",
+      "global_sequence_identity": 0.32786885245901637
+    },
+    {
+      "a": "expansion_apical_short_018",
+      "b": "expansion_apical_short_026",
+      "global_sequence_identity": 0.2903225806451613
+    },
+    {
+      "a": "expansion_apical_short_018",
+      "b": "expansion_apical_long_092",
+      "global_sequence_identity": 0.2247191011235955
+    },
+    {
+      "a": "expansion_apical_short_018",
+      "b": "apical_short_008_A41H",
+      "global_sequence_identity": 0.32786885245901637
+    },
+    {
+      "a": "expansion_apical_short_026",
+      "b": "expansion_apical_long_092",
+      "global_sequence_identity": 0.2696629213483146
+    },
+    {
+      "a": "expansion_apical_short_026",
+      "b": "apical_short_008_A41H",
+      "global_sequence_identity": 0.3387096774193548
+    },
+    {
+      "a": "expansion_apical_long_092",
+      "b": "apical_short_008_A41H",
+      "global_sequence_identity": 0.2696629213483146
+    }
+  ],
+  "limitations": "Backbone-angle bins are descriptive, not DSSP assignments or independent fold-class clustering. Sequence diversity does not establish structural-class or method-family diversity. All candidates originate from BoltzGen and this same apical campaign."
+}

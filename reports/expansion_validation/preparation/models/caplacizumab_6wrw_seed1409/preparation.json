@@ -1,0 +1,78 @@
+{
+  "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/caplacizumab_6wrw/4/model.pdb",
+  "source_sha256": "78b337827273be4ece8d9e909f80b5794143dfeda1f486fbb2a51e30fb6bd7a3",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.1727282120008665,
+      "max_A": 0.6459749937057495
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 1.1515488002896113,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      231,
+      247,
+      248,
+      249,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      366,
+      367,
+      368,
+      369,
+      370
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.1515488002896113,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      231,
+      247,
+      248,
+      249,
+      350,
+      351,
+      352,
+      353,
+      355,
+      366,
+      367,
+      368,
+      369,
+      370
+    ]
+  },
+  "prepared_sha256": "2ef3e3be1c9f13aff8e0a102734e346928e642a9c90181438b9f2aac2e81621a"
+}

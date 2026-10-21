@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/root/modal_apical_expansion.py", line 77, in run_comparison
+    run("preflight",["python",worker,"preflight",str(out)])
+  File "/root/modal_apical_expansion.py", line 74, in run
+    if proc.returncode: raise RuntimeError(f"Failed stage: {label}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Failed stage: preflight

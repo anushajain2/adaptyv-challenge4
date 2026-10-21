@@ -1,0 +1,876 @@
+{
+  "source": {
+    "api_url": "https://alphafold.ebi.ac.uk/api/prediction/Q62351",
+    "model_url": "https://alphafold.ebi.ac.uk/files/AF-Q62351-F1-model_v6.cif",
+    "sha256": "d69bbb0ad6a27fcb1a1774e3103578a9d1ff2e1bddf2f0a8f90ce5176043de0a",
+    "purpose": "Structural correspondence audit only; predicted monomer, not experimental mouse binding evidence"
+  },
+  "full_mouse_sequence_matches_Q62351": true,
+  "anchors": [
+    [
+      190,
+      192
+    ],
+    [
+      191,
+      193
+    ],
+    [
+      192,
+      194
+    ],
+    [
+      193,
+      195
+    ],
+    [
+      195,
+      197
+    ],
+    [
+      197,
+      200
+    ],
+    [
+      219,
+      221
+    ],
+    [
+      220,
+      222
+    ],
+    [
+      221,
+      223
+    ],
+    [
+      223,
+      225
+    ],
+    [
+      224,
+      226
+    ],
+    [
+      228,
+      230
+    ],
+    [
+      230,
+      232
+    ],
+    [
+      231,
+      233
+    ],
+    [
+      232,
+      234
+    ],
+    [
+      233,
+      235
+    ],
+    [
+      234,
+      236
+    ],
+    [
+      235,
+      237
+    ],
+    [
+      236,
+      238
+    ],
+    [
+      237,
+      239
+    ],
+    [
+      238,
+      240
+    ],
+    [
+      239,
+      241
+    ],
+    [
+      240,
+      242
+    ],
+    [
+      241,
+      243
+    ],
+    [
+      242,
+      244
+    ],
+    [
+      243,
+      245
+    ],
+    [
+      244,
+      246
+    ],
+    [
+      246,
+      248
+    ],
+    [
+      250,
+      252
+    ],
+    [
+      251,
+      253
+    ],
+    [
+      252,
+      254
+    ],
+    [
+      253,
+      255
+    ],
+    [
+      255,
+      257
+    ],
+    [
+      256,
+      258
+    ],
+    [
+      257,
+      259
+    ],
+    [
+      258,
+      260
+    ],
+    [
+      259,
+      261
+    ],
+    [
+      260,
+      262
+    ],
+    [
+      262,
+      264
+    ],
+    [
+      263,
+      265
+    ],
+    [
+      264,
+      266
+    ],
+    [
+      265,
+      267
+    ],
+    [
+      266,
+      268
+    ],
+    [
+      267,
+      269
+    ],
+    [
+      268,
+      270
+    ],
+    [
+      269,
+      271
+    ],
+    [
+      270,
+      272
+    ],
+    [
+      271,
+      273
+    ],
+    [
+      273,
+      275
+    ],
+    [
+      275,
+      277
+    ],
+    [
+      276,
+      278
+    ],
+    [
+      277,
+      279
+    ],
+    [
+      278,
+      280
+    ],
+    [
+      279,
+      281
+    ],
+    [
+      280,
+      282
+    ],
+    [
+      281,
+      283
+    ],
+    [
+      282,
+      284
+    ],
+    [
+      283,
+      285
+    ],
+    [
+      284,
+      286
+    ],
+    [
+      287,
+      289
+    ],
+    [
+      288,
+      290
+    ],
+    [
+      289,
+      291
+    ],
+    [
+      291,
+      293
+    ],
+    [
+      293,
+      295
+    ],
+    [
+      295,
+      297
+    ],
+    [
+      298,
+      300
+    ],
+    [
+      299,
+      301
+    ],
+    [
+      300,
+      302
+    ],
+    [
+      301,
+      303
+    ],
+    [
+      302,
+      304
+    ],
+    [
+      303,
+      305
+    ],
+    [
+      304,
+      306
+    ],
+    [
+      305,
+      307
+    ],
+    [
+      306,
+      308
+    ],
+    [
+      307,
+      309
+    ],
+    [
+      308,
+      310
+    ],
+    [
+      309,
+      311
+    ],
+    [
+      310,
+      312
+    ],
+    [
+      311,
+      313
+    ],
+    [
+      312,
+      314
+    ],
+    [
+      313,
+      315
+    ],
+    [
+      314,
+      316
+    ],
+    [
+      315,
+      317
+    ],
+    [
+      316,
+      318
+    ],
+    [
+      324,
+      326
+    ],
+    [
+      326,
+      328
+    ],
+    [
+      327,
+      329
+    ],
+    [
+      328,
+      330
+    ],
+    [
+      329,
+      331
+    ],
+    [
+      330,
+      332
+    ],
+    [
+      331,
+      333
+    ],
+    [
+      332,
+      334
+    ],
+    [
+      333,
+      335
+    ],
+    [
+      334,
+      336
+    ],
+    [
+      335,
+      337
+    ],
+    [
+      336,
+      338
+    ],
+    [
+      337,
+      339
+    ],
+    [
+      338,
+      340
+    ],
+    [
+      339,
+      341
+    ],
+    [
+      340,
+      342
+    ],
+    [
+      341,
+      343
+    ],
+    [
+      342,
+      344
+    ],
+    [
+      343,
+      345
+    ],
+    [
+      344,
+      346
+    ],
+    [
+      345,
+      347
+    ],
+    [
+      346,
+      348
+    ],
+    [
+      347,
+      349
+    ],
+    [
+      349,
+      351
+    ],
+    [
+      350,
+      352
+    ],
+    [
+      351,
+      353
+    ],
+    [
+      353,
+      355
+    ],
+    [
+      354,
+      356
+    ],
+    [
+      357,
+      359
+    ],
+    [
+      363,
+      365
+    ],
+    [
+      368,
+      370
+    ],
+    [
+      372,
+      374
+    ],
+    [
+      373,
+      375
+    ],
+    [
+      374,
+      376
+    ],
+    [
+      375,
+      377
+    ],
+    [
+      377,
+      379
+    ],
+    [
+      379,
+      381
+    ],
+    [
+      380,
+      382
+    ],
+    [
+      381,
+      383
+    ],
+    [
+      382,
+      384
+    ],
+    [
+      383,
+      385
+    ]
+  ],
+  "anchor_CA_rmsd_A": 0.892113412635394,
+  "excluded_loop_human": [
+    198,
+    218
+  ],
+  "loop_audit": [
+    {
+      "human_native": 204,
+      "human_resname": "ASP",
+      "sequence_alignment_mouse": "207",
+      "published_correspondence_mouse": "207",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 207,
+          "resname": "GLN",
+          "distance_A": 1.2513757944107056,
+          "pLDDT": 87.88
+        },
+        {
+          "mouse_native": 208,
+          "resname": "SER",
+          "distance_A": 2.7802913188934326,
+          "pLDDT": 82.44
+        },
+        {
+          "mouse_native": 206,
+          "resname": "VAL",
+          "distance_A": 4.506082534790039,
+          "pLDDT": 93.25
+        }
+      ]
+    },
+    {
+      "human_native": 205,
+      "human_resname": "LYS",
+      "sequence_alignment_mouse": "208",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 208,
+          "resname": "SER",
+          "distance_A": 1.3641716241836548,
+          "pLDDT": 82.44
+        },
+        {
+          "mouse_native": 209,
+          "resname": "ASN",
+          "distance_A": 3.0149667263031006,
+          "pLDDT": 84.0
+        },
+        {
+          "mouse_native": 207,
+          "resname": "GLN",
+          "distance_A": 4.714653491973877,
+          "pLDDT": 87.88
+        }
+      ]
+    },
+    {
+      "human_native": 206,
+      "human_resname": "ASN",
+      "sequence_alignment_mouse": "209",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 208,
+          "resname": "SER",
+          "distance_A": 3.680840253829956,
+          "pLDDT": 82.44
+        },
+        {
+          "mouse_native": 209,
+          "resname": "ASN",
+          "distance_A": 4.433591842651367,
+          "pLDDT": 84.0
+        },
+        {
+          "mouse_native": 210,
+          "resname": "GLY",
+          "distance_A": 4.513485431671143,
+          "pLDDT": 82.06
+        }
+      ]
+    },
+    {
+      "human_native": 207,
+      "human_resname": "GLY",
+      "sequence_alignment_mouse": "210",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 210,
+          "resname": "GLY",
+          "distance_A": 1.312522053718567,
+          "pLDDT": 82.06
+        },
+        {
+          "mouse_native": 209,
+          "resname": "ASN",
+          "distance_A": 4.503228187561035,
+          "pLDDT": 84.0
+        },
+        {
+          "mouse_native": 211,
+          "resname": "ASN",
+          "distance_A": 4.8332648277282715,
+          "pLDDT": 88.5
+        }
+      ]
+    },
+    {
+      "human_native": 208,
+      "human_resname": "ARG",
+      "sequence_alignment_mouse": "211",
+      "published_correspondence_mouse": "211",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 209,
+          "resname": "ASN",
+          "distance_A": 2.5569119453430176,
+          "pLDDT": 84.0
+        },
+        {
+          "mouse_native": 210,
+          "resname": "GLY",
+          "distance_A": 2.6165366172790527,
+          "pLDDT": 82.06
+        },
+        {
+          "mouse_native": 211,
+          "resname": "ASN",
+          "distance_A": 3.7475719451904297,
+          "pLDDT": 88.5
+        }
+      ]
+    },
+    {
+      "human_native": 209,
+      "human_resname": "LEU",
+      "sequence_alignment_mouse": "212",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 211,
+          "resname": "ASN",
+          "distance_A": 2.6178364753723145,
+          "pLDDT": 88.5
+        },
+        {
+          "mouse_native": 207,
+          "resname": "GLN",
+          "distance_A": 3.94173264503479,
+          "pLDDT": 87.88
+        },
+        {
+          "mouse_native": 209,
+          "resname": "ASN",
+          "distance_A": 4.479036808013916,
+          "pLDDT": 84.0
+        }
+      ]
+    },
+    {
+      "human_native": 210,
+      "human_resname": "VAL",
+      "sequence_alignment_mouse": "",
+      "published_correspondence_mouse": "213",
+      "alignment_caution": "gap placement differs from published structural correspondence",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 212,
+          "resname": "LEU",
+          "distance_A": 1.897287130355835,
+          "pLDDT": 90.69
+        },
+        {
+          "mouse_native": 211,
+          "resname": "ASN",
+          "distance_A": 2.9975147247314453,
+          "pLDDT": 88.5
+        },
+        {
+          "mouse_native": 213,
+          "resname": "ASP",
+          "distance_A": 3.634054183959961,
+          "pLDDT": 91.81
+        }
+      ]
+    },
+    {
+      "human_native": 211,
+      "human_resname": "TYR",
+      "sequence_alignment_mouse": "213",
+      "published_correspondence_mouse": "214",
+      "alignment_caution": "gap placement differs from published structural correspondence",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 213,
+          "resname": "ASP",
+          "distance_A": 0.7291008830070496,
+          "pLDDT": 91.81
+        },
+        {
+          "mouse_native": 214,
+          "resname": "PRO",
+          "distance_A": 4.250386714935303,
+          "pLDDT": 94.38
+        },
+        {
+          "mouse_native": 212,
+          "resname": "LEU",
+          "distance_A": 4.292474269866943,
+          "pLDDT": 90.69
+        }
+      ]
+    },
+    {
+      "human_native": 212,
+      "human_resname": "LEU",
+      "sequence_alignment_mouse": "214",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "gap placement differs from published structural correspondence",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 214,
+          "resname": "PRO",
+          "distance_A": 0.5860155820846558,
+          "pLDDT": 94.38
+        },
+        {
+          "mouse_native": 213,
+          "resname": "ASP",
+          "distance_A": 3.475046157836914,
+          "pLDDT": 91.81
+        },
+        {
+          "mouse_native": 215,
+          "resname": "VAL",
+          "distance_A": 3.678022861480713,
+          "pLDDT": 95.0
+        }
+      ]
+    },
+    {
+      "human_native": 213,
+      "human_resname": "VAL",
+      "sequence_alignment_mouse": "215",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 215,
+          "resname": "VAL",
+          "distance_A": 0.4525207281112671,
+          "pLDDT": 95.0
+        },
+        {
+          "mouse_native": 214,
+          "resname": "PRO",
+          "distance_A": 4.008256435394287,
+          "pLDDT": 94.38
+        },
+        {
+          "mouse_native": 216,
+          "resname": "GLU",
+          "distance_A": 4.205294132232666,
+          "pLDDT": 96.38
+        }
+      ]
+    },
+    {
+      "human_native": 214,
+      "human_resname": "GLU",
+      "sequence_alignment_mouse": "216",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 216,
+          "resname": "GLU",
+          "distance_A": 0.41820552945137024,
+          "pLDDT": 96.38
+        },
+        {
+          "mouse_native": 215,
+          "resname": "VAL",
+          "distance_A": 3.4029431343078613,
+          "pLDDT": 95.0
+        },
+        {
+          "mouse_native": 217,
+          "resname": "SER",
+          "distance_A": 4.178888320922852,
+          "pLDDT": 95.56
+        }
+      ]
+    },
+    {
+      "human_native": 215,
+      "human_resname": "ASN",
+      "sequence_alignment_mouse": "217",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 217,
+          "resname": "SER",
+          "distance_A": 0.604375958442688,
+          "pLDDT": 95.56
+        },
+        {
+          "mouse_native": 216,
+          "resname": "GLU",
+          "distance_A": 3.429683208465576,
+          "pLDDT": 96.38
+        },
+        {
+          "mouse_native": 218,
+          "resname": "PRO",
+          "distance_A": 4.293838024139404,
+          "pLDDT": 93.81
+        }
+      ]
+    },
+    {
+      "human_native": 216,
+      "human_resname": "PRO",
+      "sequence_alignment_mouse": "218",
+      "published_correspondence_mouse": "",
+      "alignment_caution": "",
+      "nearest_mouse_CA_candidates": [
+        {
+          "mouse_native": 218,
+          "resname": "PRO",
+          "distance_A": 0.6375747323036194,
+          "pLDDT": 93.81
+        },
+        {
+          "mouse_native": 217,
+          "resname": "SER",
+          "distance_A": 3.351644515991211,
+          "pLDDT": 95.56
+        },
+        {
+          "mouse_native": 219,
+          "resname": "GLU",
+          "distance_A": 4.367999076843262,
+          "pLDDT": 92.0
+        }
+      ]
+    }
+  ],
+  "mouse_crop_candidate_native": [
+    192,
+    385
+  ],
+  "mouse_crop_length": 194,
+  "mouse_crop_sequence": "IQVKSSIGQNMVTIVQSNGNLDPVESPEGYVAFSKPTEVSGKLVHANFGTKKDFEELSYSVNGSLVIVRAGEITFAEKVANAQSFNAIGVLIYMDKNKFPVVEADLALFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRAAAEKLFGKMEGSCPARWNIDSSCKLELSQNQNVKLIVKNVLKE",
+  "interpretation": "This is a predicted monomer and a structural correspondence diagnostic. Nearest C-alpha distance is not a definitive evolutionary alignment or a bound receptor conformation. Do not replace the sequence map or infer mouse binding from this audit."
+}

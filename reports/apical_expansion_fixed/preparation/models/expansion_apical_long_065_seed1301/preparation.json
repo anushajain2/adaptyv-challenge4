@@ -1,0 +1,68 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_065/model.pdb",
+  "source_sha256": "f1818c85c415855130109e11ec8b636ab00ecf2920fe5e6253ef516cb53555ef",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.15473036561271897,
+      "max_A": 0.6190692782402039
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 0.9618468004846886,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 138,
+    "partner_subunit_clash_pairs_lt2A": 755,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      312,
+      313,
+      314,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9618468004846886,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 138,
+    "partner_subunit_clash_pairs_lt2A": 768,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      312,
+      313,
+      314,
+      316,
+      317,
+      318,
+      319,
+      321,
+      322
+    ]
+  },
+  "prepared_sha256": "6eabd52b5a2e90f570c01289032fe24304cdd033d2b90835bf70005e6957d027"
+}

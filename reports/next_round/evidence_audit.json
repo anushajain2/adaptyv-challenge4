@@ -1,0 +1,1091 @@
+{
+  "audited_utc": "2026-10-21T11:03:08.264192+00:00",
+  "run_checks": {
+    "his_panel": {
+      "cloud_launch_hashes_match": true,
+      "local_input_hashes_match": true,
+      "archived_analysis_hashes_match": true,
+      "successful_worker_status": true
+    },
+    "his_confirmation": {
+      "cloud_launch_hashes_match": true,
+      "local_input_hashes_match": true,
+      "archived_analysis_hashes_match": true,
+      "successful_worker_status": true
+    },
+    "apical_expansion_fixed": {
+      "cloud_launch_hashes_match": true,
+      "local_input_hashes_match": true,
+      "archived_analysis_hashes_match": true,
+      "successful_worker_status": true
+    },
+    "expansion_validation": {
+      "cloud_launch_hashes_match": true,
+      "local_input_hashes_match": true,
+      "archived_analysis_hashes_match": true,
+      "successful_worker_status": true
+    },
+    "species_exploration": {
+      "cloud_launch_hashes_match": true,
+      "local_input_hashes_match": true,
+      "archived_analysis_hashes_match": true,
+      "successful_worker_status": true
+    }
+  },
+  "preparation": [
+    {
+      "experiment": "structural_preparation",
+      "expected": 12,
+      "completed": 12,
+      "execution_ok": 12,
+      "movement_pass": 11,
+      "excluded_prepared_models": [
+        {
+          "id": "caplacizumab_6wrw",
+          "seed": 809,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.23882322773687953,
+              "max_A": 1.3175679445266724
+            },
+            "pass": false
+          }
+        }
+      ]
+    },
+    {
+      "experiment": "his_panel",
+      "expected": 25,
+      "completed": 25,
+      "execution_ok": 25,
+      "movement_pass": 21,
+      "excluded_prepared_models": [
+        {
+          "id": "2ds25_5_6wrw",
+          "seed": 1009,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.1697031942594654,
+              "max_A": 1.2210034132003784
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "scrambled_6wrw",
+          "seed": 1009,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.32272083828532105,
+              "max_A": 1.166508436203003
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "apical_long_015_D51H",
+          "seed": 1009,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.17242463000833275,
+              "max_A": 1.0440658330917358
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "apical_short_008_D14H",
+          "seed": 1009,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.21524215099201885,
+              "max_A": 1.0559329986572266
+            },
+            "pass": false
+          }
+        }
+      ]
+    },
+    {
+      "experiment": "his_confirmation",
+      "expected": 20,
+      "completed": 20,
+      "execution_ok": 20,
+      "movement_pass": 17,
+      "excluded_prepared_models": [
+        {
+          "id": "scrambled_6wrw",
+          "seed": 1103,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.24570808428583857,
+              "max_A": 1.3922090530395508
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "caplacizumab_6wrw",
+          "seed": 1103,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.1640820302930784,
+              "max_A": 1.1644706726074219
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "apical_short_008_D14H_S47H",
+          "seed": 1201,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.20451704747728988,
+              "max_A": 1.7667511701583862
+            },
+            "pass": false
+          }
+        }
+      ]
+    },
+    {
+      "experiment": "apical_expansion_fixed",
+      "expected": 203,
+      "completed": 203,
+      "execution_ok": 203,
+      "movement_pass": 155,
+      "excluded_prepared_models": [
+        {
+          "id": "expansion_apical_long_039",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.1952724927439333,
+              "max_A": 1.0009765625
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_027",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.18126131807993637,
+              "max_A": 1.1828250885009766
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_024",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.17790441694974843,
+              "max_A": 1.1684976816177368
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_011",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.1877595406695757,
+              "max_A": 1.1731904745101929
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_065",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2260027640020864,
+              "max_A": 1.2446529865264893
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_064",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.17045603510931484,
+              "max_A": 1.0558269023895264
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_083",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.24167839925031614,
+              "max_A": 1.5775731801986694
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_034",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.19845124119295604,
+              "max_A": 1.1134883165359497
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_072",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2026002715096926,
+              "max_A": 1.3198833465576172
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_053",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.27567571067817964,
+              "max_A": 1.840142846107483
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_040",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.18968709887032564,
+              "max_A": 1.3515419960021973
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_019",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2186056507480715,
+              "max_A": 1.100886583328247
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_083",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2843849164845323,
+              "max_A": 1.5249505043029785
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_007",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.24408746261484715,
+              "max_A": 1.8410378694534302
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_057",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.14400421543890551,
+              "max_A": 1.0171289443969727
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_013",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.21668684065129337,
+              "max_A": 1.1587446928024292
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_088",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.20602907105119678,
+              "max_A": 1.06513249874115
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_030",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2197721537556172,
+              "max_A": 1.3360832929611206
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_070",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2269256293779966,
+              "max_A": 1.0326334238052368
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_087",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2565001700883976,
+              "max_A": 1.1286718845367432
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_056",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.25704750382970304,
+              "max_A": 1.072533130645752
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_066",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2358928776554852,
+              "max_A": 1.8720753192901611
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_005",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.18997069255386434,
+              "max_A": 1.076513648033142
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_027",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.20479303794165618,
+              "max_A": 1.6522966623306274
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_071",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.23237243269503982,
+              "max_A": 1.2112451791763306
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_085",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2583256640521084,
+              "max_A": 1.1408295631408691
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_004",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.1873527358312016,
+              "max_A": 1.2994439601898193
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_009",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.23066364219685517,
+              "max_A": 1.0175645351409912
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_060",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.36832805852333506,
+              "max_A": 3.539820671081543
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_046",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.22499436119807634,
+              "max_A": 1.421144723892212
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_001",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.18486633153354823,
+              "max_A": 1.0370968580245972
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_097",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.23324514460770537,
+              "max_A": 1.0482066869735718
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_058",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.22474413071046465,
+              "max_A": 1.6903266906738281
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_067",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.21750326439021825,
+              "max_A": 1.3395112752914429
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_073",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2140575481229259,
+              "max_A": 1.0122098922729492
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_063",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2281936588408938,
+              "max_A": 1.248809576034546
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_077",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2438865454028587,
+              "max_A": 1.327013611793518
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_042",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.31070919871502134,
+              "max_A": 1.9527429342269897
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_020",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.21639852441384858,
+              "max_A": 1.3757137060165405
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_081",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.1879870839316211,
+              "max_A": 1.0003267526626587
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_056",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2861116126288434,
+              "max_A": 1.067164659500122
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_017",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.18368738527557976,
+              "max_A": 1.2628263235092163
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_062",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.19710743429510075,
+              "max_A": 1.529145359992981
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_069",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.3440737240452752,
+              "max_A": 1.5690248012542725
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_059",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2996651180254707,
+              "max_A": 1.7849507331848145
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_054",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.329416014310455,
+              "max_A": 1.3063081502914429
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_short_074",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.17644940046905913,
+              "max_A": 1.5341366529464722
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "caplacizumab_6wrw",
+          "seed": 1301,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.17711763025654648,
+              "max_A": 1.1124780178070068
+            },
+            "pass": false
+          }
+        }
+      ]
+    },
+    {
+      "experiment": "expansion_validation",
+      "expected": 18,
+      "completed": 18,
+      "execution_ok": 18,
+      "movement_pass": 15,
+      "excluded_prepared_models": [
+        {
+          "id": "scrambled_6wrw",
+          "seed": 1409,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.3041841148192583,
+              "max_A": 1.359006404876709
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "expansion_apical_long_020",
+          "seed": 1511,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.2363646712950126,
+              "max_A": 1.6561260223388672
+            },
+            "pass": false
+          }
+        },
+        {
+          "id": "caplacizumab_6wrw",
+          "seed": 1511,
+          "status": "ok",
+          "error": null,
+          "displacement": {
+            "A": {
+              "rms_A": 0.0,
+              "max_A": 0.0
+            },
+            "B": {
+              "rms_A": 0.21923319653919907,
+              "max_A": 1.514432668685913
+            },
+            "pass": false
+          }
+        }
+      ]
+    }
+  ],
+  "review_models_verified": 10,
+  "all_cloud_apps_stopped": true,
+  "gross_meter_high_water_usd": 9.9576284,
+  "latest_gross_meter_usd": 9.9234889,
+  "authorized_gross_cap_usd": 30,
+  "billing_may_lag": true
+}

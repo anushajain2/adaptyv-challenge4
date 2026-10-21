@@ -1,0 +1,12 @@
+{
+  "comparison": "Exact identity to all 295 earlier generated sequences; not a comprehensive database novelty search",
+  "unique_previous_sequences": 295,
+  "new_designs": 200,
+  "unique_new_sequences": 200,
+  "exact_previous_matches": [],
+  "source_sha256": {
+    "reports/pilot/pilot_sequences.fasta": "1a6ef01a5c49a647470ef06f57534398a74f173b7c9709a5821b86a5195f63d6",
+    "reports/generation_comparison/all_designs.fasta": "ad24c045b0d61f4c8cdcf9432b328bf3fdb8102c8af3273aaf139074b948e87f",
+    "reports/broad_campaign/all_designs.fasta": "334a4e659e9aae8e61b01964c23793143848384582d1efe678bcd0f92f2394bf"
+  }
+}

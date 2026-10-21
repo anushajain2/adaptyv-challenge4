@@ -1,0 +1,85 @@
+{
+  "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/caplacizumab_6wrw/4/model.pdb",
+  "source_sha256": "b30f3efc9a8a076a3a590fd19a69b77321a5b0f3399af1f6fb9c8e48329aa22d",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.16948911728551164,
+      "max_A": 0.7321715354919434
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 1.3340925848058671,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      202,
+      211,
+      213,
+      291,
+      292,
+      293,
+      294,
+      339,
+      340,
+      341,
+      343,
+      344,
+      347,
+      348,
+      360,
+      361,
+      362,
+      371
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.3340925848058671,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      211,
+      213,
+      214,
+      291,
+      292,
+      293,
+      294,
+      338,
+      339,
+      340,
+      341,
+      343,
+      344,
+      347,
+      348,
+      361,
+      362,
+      371
+    ]
+  },
+  "prepared_sha256": "d72fd3d47cbfa0182b0df24eb570ae097b01e01e465591790257a1f66ad7bef9"
+}

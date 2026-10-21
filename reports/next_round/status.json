@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "completed_utc": "2026-10-21T11:03:27.113102+00:00",
+  "new_designs": 200,
+  "structural_predictions": 599,
+  "initial_full_passes": 16,
+  "new_parents_passing_both_selected_seeds": 4,
+  "retained_existing_variant": "apical_short_008_A41H",
+  "strict_direction_both_pose_passes": 0,
+  "A41H_interpretation": "Consistent computed pKa-lowering hypothesis; strict free-pKa window failed in one pose",
+  "mouse_cross_reactivity": "unknown; matched AlphaFold-human positive control failed",
+  "preparation_completed": 278,
+  "preparation_execution_ok": 278,
+  "preparation_movement_pass": 219,
+  "local_tests_passed": 52,
+  "all_cloud_apps_stopped": true,
+  "budget": {
+    "observed_gross_high_water_usd": 9.9576284,
+    "latest_gross_meter_usd": 9.9234889,
+    "authorized_total_usd": 30,
+    "new_round_allocations_usd": 12,
+    "allocations_are_not_actual_spend": true,
+    "billing_may_lag": true
+  },
+  "no_upstream_report_or_pr": true,
+  "no_challenge_submission": true
+}

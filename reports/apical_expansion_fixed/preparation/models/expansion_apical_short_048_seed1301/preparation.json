@@ -1,0 +1,76 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_048/model.pdb",
+  "source_sha256": "043a9e29926a2876d780e89f07144a65e71dac6f6754645e7321cee167b35c5e",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.17559020861761057,
+      "max_A": 0.5125630497932434
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 0.8356351019587663,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 79,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      191,
+      222,
+      223,
+      224,
+      225,
+      309,
+      323,
+      324,
+      325,
+      379,
+      380,
+      381,
+      382,
+      383
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.8356351019587663,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 79,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      191,
+      223,
+      224,
+      225,
+      309,
+      323,
+      324,
+      325,
+      379,
+      380,
+      381,
+      382,
+      383
+    ]
+  },
+  "prepared_sha256": "6dd99324caf90e50c9ad755907dc60fddbbeac6ddf4cfd0ac393df4fbcca17fa"
+}

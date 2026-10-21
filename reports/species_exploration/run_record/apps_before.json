@@ -1,0 +1,66 @@
+[
+  {
+    "app_id": "ap-eOloea50j3VRYoDOK2UVw9",
+    "description": "tfr1-next-validation",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 16:01:19+05:30",
+    "stopped_at": "2026-10-21 16:06:19+05:30"
+  },
+  {
+    "app_id": "ap-OVUY3dmpmrS2Pe76G8hhdv",
+    "description": "tfr1-next-confirmation",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 15:28:45+05:30",
+    "stopped_at": "2026-10-21 15:34:49+05:30"
+  },
+  {
+    "app_id": "ap-S2Suq1nY6iM9pBHvpOjzmk",
+    "description": "tfr1-next-expansion",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 15:24:05+05:30",
+    "stopped_at": "2026-10-21 15:56:57+05:30"
+  },
+  {
+    "app_id": "ap-2bkPN9oIpaequFozlko42X",
+    "description": "tfr1-next-expansion",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 15:21:01+05:30",
+    "stopped_at": "2026-10-21 15:21:34+05:30"
+  },
+  {
+    "app_id": "ap-o5LapHsaccbu8MvAmfFAse",
+    "description": "tfr1-next-panel",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 15:20:17+05:30",
+    "stopped_at": "2026-10-21 15:26:38+05:30"
+  },
+  {
+    "app_id": "ap-Nsx1Pm3tYRRCzyou5ARxgK",
+    "description": "tfr1-mutant_validation",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 14:48:08+05:30",
+    "stopped_at": "2026-10-21 14:51:42+05:30"
+  },
+  {
+    "app_id": "ap-tu1kRV7oESyko3uuYF0AT8",
+    "description": "tfr1-mutant_validation",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 14:44:32+05:30",
+    "stopped_at": "2026-10-21 14:44:58+05:30"
+  },
+  {
+    "app_id": "ap-ufnQ49LzWARsWoBXu44Ji5",
+    "description": "tfr1-confirmation",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 14:26:40+05:30",
+    "stopped_at": "2026-10-21 14:30:24+05:30"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "expansion_apical_short.yaml": "666223265fc846cefb261aa0d330fdf116401b8d233ec949612d3378b15dd467",
+  "target_6wrw.cif": "c0ed8c991c1199cdbb07cf286533138d52914974dab53a10f6eddae9f4da489e",
+  "2ds25_5_6wrw.pdb": "b7871d1883f4d96b1398f1f869fda3e1a1544f89aaab6933a06975dced8ac169",
+  "2ds25_5_6wrw.cif": "9a8312776c8d92c588ff55bc165b72d0d4e11f7a16f8dd877fb1a10b3dea28c4",
+  "caplacizumab_6wrw.cif": "40d6c73b957054e52973ff66addb1623de84a5c71e2938012a727a0937681d68",
+  "spatial_map.csv": "acb8be87f61fecceb5446b76f8d72608e765728c7b79771c81bd758c855d2203",
+  "caplacizumab_6wrw.pdb": "c8361d80318903879f3589c0568323ab241ef5b9ea908d02a351d10b317705af",
+  "scrambled_6wrw.pdb": "3127eb1fc84c3bede5472257a9405509bd4c4769b1f0140fd40059b524c4eb40",
+  "scrambled_6wrw.cif": "50cd66e0ae34a6c032421f591a31b277b5421465b7cb405feeafafb635205c3d",
+  "expansion_apical_long.yaml": "ec95515205b4c92c7a5614787a984b8da6c55f0d55cac44336c6c366f29fb7bf",
+  "caplacizumab_6wrw.npz": "6755ab16ef25f316e050ff55c6dcabb88b0e833487bd621e20e524ac2fcbd1b9",
+  "manifest.json": "8db332ff3ff1f14f9d1cc36070bbea93c93058c6ac01976645e5d8afe41bb987",
+  "2ds25_5_6wrw.npz": "14729372120edc4a7293ab2f60ca550ed39e6dd63230c68167683c03692e7d08",
+  "scrambled_6wrw.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "apical_expansion_worker.py": "a3049aaddb1a8a0be128ec627476814c776babff840b13c229d8e6eb0cfaca5b",
+  "control_refold_worker.py": "75111f5cc31d1488378c13568f06c9e6f004abf3ac122d6f4686b7d7818f82d2",
+  "prepare_controls.py": "9e2713e30c11dabd36e2d9f32b7ff115915cf28e52fd8eb31007d037fbb5f042",
+  "prepare_target.py": "70f464a0e7c1a3ea0ca0c4b554ff7bba4793e8c76e696c21112b1a2a2a350714",
+  "direction_check.py": "7ccaf26e82b1f0cdeeb7c13140bfc2f53ba1a08555ddf78a73a84991a1a06d32",
+  "generation_comparison_worker.py": "518dd46e4c7b27d6409d7314523c023ee8d77dcd5b1c07b5ed24ab6f9979fa51"
+}

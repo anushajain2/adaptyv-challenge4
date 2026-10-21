@@ -1,0 +1,75 @@
+{
+  "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-907/caplacizumab_6wrw/2/model.pdb",
+  "source_sha256": "54ed5224d77fa411411c4bbfc4e107812b50205d1eca02b9b9c6df8ef2859dc5",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.17255477868383381,
+      "max_A": 0.6023861169815063
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 1.1498593144864926,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 133,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 6,
+    "native_target_contacts_lt5A": [
+      240,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      273,
+      274,
+      275
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.1498593144864926,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 133,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 5,
+    "native_target_contacts_lt5A": [
+      240,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      273,
+      274,
+      275
+    ]
+  },
+  "prepared_sha256": "09b877da3f11ae9e065293aef46f5c7b8f10b8687a723119d5dc55b5796b2518"
+}

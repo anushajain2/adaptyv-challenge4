@@ -1,34 +1,27 @@
-# TfR1 pilot: days 1–3
+# TfR1 challenge: computational binder and pH-direction campaign
 
 This project prepares a human TfR1 target, runs 25 miniprotein and 25 nanobody designs on Modal, and screens histidine pairs for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest result:** [independent mutant refolding](reports/mutant_validation/RESULTS.md)
-**rejects D51H/T70H**: all ten mutant samples lose the intended interface despite
-the earlier favorable [pKa direction calculation](reports/confirmation_direction/RESULTS.md).
-Controls pass. The unmodified parent remains a lead, but one selected model
-fails the strict clash rule in this round. The next recommendation is a diagnostic
-comparison of the two single substitutions. Binding, mouse cross-reactivity and
-pH switching remain unvalidated. The latest gross Modal meter is approximately **US$7.96**
-before credits, within the US$30 cap. All cloud apps have stopped.
+**Latest result:** the [completed expansion and histidine follow-up](reports/next_round/RESULTS.md)
+produced **four new computational parents** that pass both fresh-seed human-target
+checks. The existing **A41H** variant shows consistent computed pKa lowering in
+two poses, but fails the strict free-pKa window in one pose; it remains an explicitly
+qualified hypothesis. Mouse cross-reactivity is **unknown**: the advisory comparison
+fails its matched AlphaFold-human positive control.
 
-The [historical results report](reports/RESULTS.md) preserves the original
-75-design pilot and 20-design comparison, which produced no qualified parents.
+The new round generated 200 miniproteins and completed 599 predictions. Sixteen
+sequences pass the initial screen; six diverse candidates received confirmation,
+and four passed. [Review the five retained human leads](reports/next_round/review_bundle/manifest.json),
+including A41H, with their raw/prepared structures and full evidence. No experimental
+binding or pH-switching claim is made. The next recommendation is bounded histidine
+engineering on the new parents before further large-scale generation.
 
-**Current campaign:** the authorized [200-design broad screen](reports/broad_campaign/RESULTS.md)
-is complete on the bound 6WRW crop: 80 apical miniproteins, 80 conserved-patch
-miniproteins, and 40 apical nanobodies. **Two designs pass the full initial screen;
-seven pass the geometry checks.** All seven apical miniproteins completed
-evaluation with two fresh seeds, five samples per seed. **Two leads reproduce
-their candidate-level passes, but that batch remains held:** one selected
-positive-control model has a distorted receptor and fails the frozen pose gate.
-See the [fresh-seed report](reports/broad_validation/RESULTS.md). Actual
-generated hotspot features were checked for all 200 designs. The interrupted
-screen was resumed only for missing predictions, within its original US$6
-reservation. Fresh-seed evaluation reserves at most US$4 within the US$30 gross
-total. A separate 50-prediction confirmation with a frozen target-conformation
-filter reserved at most US$1.50 and cleared the long lead. The short lead remains
-a backup after narrowly failing the unchanged full-context fit cutoff. No
-upstream issue or PR is authorized or has been filed.
+The [historical results report](reports/RESULTS.md) preserves previous negative
+pilots, the broad 200-design screen, and rejection of D51H/T70H after independent
+mutant prediction. These earlier decisions have not been overwritten. The observed
+gross Modal usage high-water mark is approximately **US$9.96 before credits**, within the
+US$30 total; the meter may lag. All cloud apps are verified stopped. No upstream
+issue, PR or challenge submission has been filed.
 
 **Hotspot correction:** feature-level preflight found that our specifications
 combined `binding` and `not_binding` in one chain entry, but the pinned parser
@@ -51,6 +44,9 @@ and reproducibility records are in the results report.
 
 | Deliverable | Status |
 |---|---|
+| New apical expansion | 200 designs; 16 initial full passes; four new parents pass both fresh-seed checks |
+| Expanded His panel | 20 variants/comparator; A41H retained as a qualified direction hypothesis, zero strict both-pose direction passes |
+| Advisory mouse comparison | Inconclusive because AlphaFold-human positive control fails |
 | Target structures, human/mouse conservation map, four hotspot sets | Generated |
 | Modal/BoltzGen pilot implementation | Both protocols completed successfully |
 | 50 real pilot designs | 25 miniproteins + 25 nanobodies downloaded; none pass the parent-confidence gate |
@@ -60,11 +56,11 @@ and reproducibility records are in the results report.
 | pKa-lowering pairs from the pilot | 6 exploratory pairs lower both pKas in both models; 0 qualified candidates because parent confidence is low |
 
 The approved cloud budget is **US$30 total including credits**. The original
-pilot used 25 designs per protocol; the new 20-design comparison has a separate
+pilot used 25 designs per protocol; the earlier 20-design comparison had a separate
 **US$5 allowance within that total**, including its failed preflight attempt.
 No outcome is guaranteed within that budget.
 
-Local verification: **44 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **52 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.

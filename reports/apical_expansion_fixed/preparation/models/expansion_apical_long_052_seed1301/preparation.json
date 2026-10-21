@@ -1,0 +1,59 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_052/model.pdb",
+  "source_sha256": "a1be71573965b10cd9219233ca0654564ce29e305927cfa0f2c2d15f1170b69a",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.15191305412379505,
+      "max_A": 0.4735923111438751
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 0.9154575538114446,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 343,
+    "partner_subunit_clash_pairs_lt2A": 216,
+    "observed_glycans_clash_pairs_lt2A": 33,
+    "native_target_contacts_lt5A": [
+      240,
+      243,
+      244,
+      273,
+      274
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9154575538114446,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 345,
+    "partner_subunit_clash_pairs_lt2A": 210,
+    "observed_glycans_clash_pairs_lt2A": 42,
+    "native_target_contacts_lt5A": [
+      240,
+      243,
+      244,
+      273,
+      274
+    ]
+  },
+  "prepared_sha256": "6b54410a70bd628878987bdb96b1bbf676806470cf47240cb7b5e637001e9000"
+}

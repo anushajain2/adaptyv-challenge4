@@ -1,0 +1,95 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_070/model.pdb",
+  "source_sha256": "f787691e1f085e03dd374f5086f8670768770de2ff976a14b25a8e186d73d762",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.2269256293779966,
+      "max_A": 1.0326334238052368
+    },
+    "pass": false
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 2.234535886899583,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 191,
+    "observed_glycans_clash_pairs_lt2A": 24,
+    "native_target_contacts_lt5A": [
+      224,
+      225,
+      272,
+      309,
+      311,
+      313,
+      314,
+      315,
+      316,
+      318,
+      319,
+      320,
+      322,
+      323,
+      324,
+      325,
+      326,
+      331,
+      332,
+      378,
+      379,
+      380,
+      381
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 2.234535886899583,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 189,
+    "observed_glycans_clash_pairs_lt2A": 24,
+    "native_target_contacts_lt5A": [
+      224,
+      225,
+      272,
+      309,
+      311,
+      313,
+      314,
+      315,
+      316,
+      318,
+      319,
+      320,
+      322,
+      323,
+      324,
+      325,
+      326,
+      331,
+      332,
+      378,
+      379,
+      380,
+      381
+    ]
+  },
+  "prepared_sha256": "3eb310742207accf55ff843946069f7f07554caa4b9028ff322e2462034e89b0"
+}

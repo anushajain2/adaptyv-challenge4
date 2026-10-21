@@ -1,0 +1,18 @@
+{
+  "frozen_before_expansion_results": true,
+  "selection": "At most six diverse full-screen expansion passes, using existing rank/diversity functions and round-robin length strata. Require matched controls to pass. No low-confidence or geometry-failure rescue.",
+  "seeds": [
+    1409,
+    1511
+  ],
+  "samples_per_seed": 5,
+  "controls": [
+    "2ds25_5_6wrw",
+    "scrambled_6wrw",
+    "caplacizumab_6wrw"
+  ],
+  "maximum_predictions": 90,
+  "maximum_additional_compute_usd": 1.5,
+  "total_authorized_usd": 30,
+  "purpose": "Use reserved validation budget on new diverse leads rather than calling one-sample passes qualified parents. No automatic expansion beyond these six."
+}

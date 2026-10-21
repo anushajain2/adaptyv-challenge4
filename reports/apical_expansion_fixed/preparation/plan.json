@@ -1,0 +1,1440 @@
+{
+  "source_results_sha256": "88f4e68a939c8cba0cf3a1d96d31ce38ab241b760331ca7ef033db04e3e4e58f",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "local_workers": 4,
+  "plan": [
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_026/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_026_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_015",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_015/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_015_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_092/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_092_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_018/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_018_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_084",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_084/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_084_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_032",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_032/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_032_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_077",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_077/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_077_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_022",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_022/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_022_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_014",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_014/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_014_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_012",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_012/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_012_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_028",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_028/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_028_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_089",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_089/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_089_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_031",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_031/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_031_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_079",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_079/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_079_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_099",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_099/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_099_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_091",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_091/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_091_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_039",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_039/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_039_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_080",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_080/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_080_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_076",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_076/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_076_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_020",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_020/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_020_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_025",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_025/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_025_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_094",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_094/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_094_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_038",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_038/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_038_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_090",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_090/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_090_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_027",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_027/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_027_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_091",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_091/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_091_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_096",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_096/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_096_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_021",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_021/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_021_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_051",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_051/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_051_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_068",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_068/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_068_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_051",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_051/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_051_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_043",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_043/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_043_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_073",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_073/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_073_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_008",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_008/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_008_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_038",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_038/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_038_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_055",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_055/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_055_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_026",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_026/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_026_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_014",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_014/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_014_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_024",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_024/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_024_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_030",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_030/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_030_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_011",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_011/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_011_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_000",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_000/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_000_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_025",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_025/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_025_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_015",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_015/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_015_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_096",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_096/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_096_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_002",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_002/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_002_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_069",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_069/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_069_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_033",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_033/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_033_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_072",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_072/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_072_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_041",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_041/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_041_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_052",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_052/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_052_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_033",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_033/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_033_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_036",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_036/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_036_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_081",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_081/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_081_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_031",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_031/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_031_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_021",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_021/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_021_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_010",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_010/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_010_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_055",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_055/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_055_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_090",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_090/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_090_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_064",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_064/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_064_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_065",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_065/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_065_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_097",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_097/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_097_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_058",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_058/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_058_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_098",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_098/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_098_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_078",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_078/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_078_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_087",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_087/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_087_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_053",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_053/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_053_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_098",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_098/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_098_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_022",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_022/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_022_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_066",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_066/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_066_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_086",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_086/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_086_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_086",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_086/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_086_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_099",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_099/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_099_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_007",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_007/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_007_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_054",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_054/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_054_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_010",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_010/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_010_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_024",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_024/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_024_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_083",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_083/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_083_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_049",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_049/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_049_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_071",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_071/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_071_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_008",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_008/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_008_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_043",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_043/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_043_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_040",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_040/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_040_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_003",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_003/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_003_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_016",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_016/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_016_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_070",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_070/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_070_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_085",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_085/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_085_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_034",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_034/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_034_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_072",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_072/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_072_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_045",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_045/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_045_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_006",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_006/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_006_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_080",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_080/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_080_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_095",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_095/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_095_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_079",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_079/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_079_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_053",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_053/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_053_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_062",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_062/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_062_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_040",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_040/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_040_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_089",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_089/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_089_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_049",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_049/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_049_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_045",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_045/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_045_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_018",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_018/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_018_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_044",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_044/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_044_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_019",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_019/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_019_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_047",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_047/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_047_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_083",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_083/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_083_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_009",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_009/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_009_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_061",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_061/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_061_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_007",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_007/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_007_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_088",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_088/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_088_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_029",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_029/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_029_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_057",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_057/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_057_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_092",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_092/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_092_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_013",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_013/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_013_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_059",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_059/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_059_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_048",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_048/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_048_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_088",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_088/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_088_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_041",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_041/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_041_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_030",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_030/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_030_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_075",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_075/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_075_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_032",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_032/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_032_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_050",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_050/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_050_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_070",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_070/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_070_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_006",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_006/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_006_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_087",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_087/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_087_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_056",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_056/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_056_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_016",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_016/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_016_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_095",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_095/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_095_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_034",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_034/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_034_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_075",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_075/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_075_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_065",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_065/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_065_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_017",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_017/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_017_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_037",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_037/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_037_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_066",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_066/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_066_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_005",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_005/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_005_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_046",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_046/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_046_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_035",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_035/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_035_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_000",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_000/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_000_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_036",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_036/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_036_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_039",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_039/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_039_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_064",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_064/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_064_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_027",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_027/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_027_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_029",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_029/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_029_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_071",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_071/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_071_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_044",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_044/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_044_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_084",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_084/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_084_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_003",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_003/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_003_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_085",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_085/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_085_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_004",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_004/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_004_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_009",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_009/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_009_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_060",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_060/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_060_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_004",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_004/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_004_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_013",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_013/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_013_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_067",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_067/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_067_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_001",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_001/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_001_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_011",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_011/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_011_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_093",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_093/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_093_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_046",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_046/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_046_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_047",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_047/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_047_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_035",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_035/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_035_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_028",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_028/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_028_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_060",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_060/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_060_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_068",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_068/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_068_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_001",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_001/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_001_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_097",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_097/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_097_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_037",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_037/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_037_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_058",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_058/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_058_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_074",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_074/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_074_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_073",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_073/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_073_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_067",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_067/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_067_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_063",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_063/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_063_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_057",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_057/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_057_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_078",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_078/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_078_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_048",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_048/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_048_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_002",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_002/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_002_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_005",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_005/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_005_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_077",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_077/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_077_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_042",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_042/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_042_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_042",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_042/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_042_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_081",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_081/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_081_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_020",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_020/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_020_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_056",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_056/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_056_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_017",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_017/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_017_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_050",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_050/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_050_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_076",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_076/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_076_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_094",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_094/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_094_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_023",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_023/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_023_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_023",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_023/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_023_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_052",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_052/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_052_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_082",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_082/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_082_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_093",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_093/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_093_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_012",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_012/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_012_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_062",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_062/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_062_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_069",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_069/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_069_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_059",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_059/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_059_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_019",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_019/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_019_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_063",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_063/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_063_seed1301"
+    },
+    {
+      "id": "expansion_apical_long_054",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_054/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_long_054_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_082",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_082/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_082_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_074",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_074/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_074_seed1301"
+    },
+    {
+      "id": "expansion_apical_short_061",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_short_061/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/expansion_apical_short_061_seed1301"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/2ds25_5_6wrw/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/2ds25_5_6wrw_seed1301"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/scrambled_6wrw/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/scrambled_6wrw_seed1301"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1301,
+      "sample": 0,
+      "source": "outputs/broad_scoring/apical-017-6wrw/caplacizumab_6wrw/model.pdb",
+      "dest": "reports/apical_expansion_fixed/preparation/models/caplacizumab_6wrw_seed1301"
+    }
+  ],
+  "rows": []
+}

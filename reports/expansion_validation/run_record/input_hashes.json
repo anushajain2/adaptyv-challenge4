@@ -1,0 +1,22 @@
+{
+  "expansion_apical_long_092.cif": "f9ab5dbab7d6dcc483050f18adfc2e709a2a4834a7060c5bd2816f65ae7a20a3",
+  "expansion_apical_short_015.cif": "ed35f178f3e0d4d92b726ed2d724d2cffa4062e433ef174a1d2dc159e56d07f1",
+  "2ds25_5_6wrw.cif": "9a8312776c8d92c588ff55bc165b72d0d4e11f7a16f8dd877fb1a10b3dea28c4",
+  "caplacizumab_6wrw.cif": "40d6c73b957054e52973ff66addb1623de84a5c71e2938012a727a0937681d68",
+  "expansion_apical_long_020.cif": "18c9137713088feca58b106efd5ae1d56768e835594fd78adacbc36d6eb16977",
+  "expansion_apical_short_026.npz": "98c6772438c6d0a3a37af82ac20aadf0d29232fb9fc1be799c0b133d4388712b",
+  "expansion_apical_short_018.npz": "1d0452ab6a37a34a3df3189e8729ee03abd0857be04136adba7c0d3542a6a831",
+  "expansion_apical_long_089.npz": "30f8502ab44580b6e7ed8d5e8094123c81be45cb19d08f89004a736cd67ade71",
+  "scrambled_6wrw.cif": "50cd66e0ae34a6c032421f591a31b277b5421465b7cb405feeafafb635205c3d",
+  "expansion_apical_short_015.npz": "1d0452ab6a37a34a3df3189e8729ee03abd0857be04136adba7c0d3542a6a831",
+  "expansion_apical_long_092.npz": "bca8c2292c1e6b80da6858ab46214d9187bb436932531a551346d3c3169559d1",
+  "caplacizumab_6wrw.npz": "6755ab16ef25f316e050ff55c6dcabb88b0e833487bd621e20e524ac2fcbd1b9",
+  "manifest.json": "d43db0c18893fa0837e442d18fead47c1478150e075f23bc6217d35109fb0332",
+  "2ds25_5_6wrw.npz": "14729372120edc4a7293ab2f60ca550ed39e6dd63230c68167683c03692e7d08",
+  "scrambled_6wrw.npz": "cb3562e05ac619daa278b10f7357547d7af75f54757a3f2096e2fe88b4278ef1",
+  "expansion_apical_long_089.cif": "e2536a932cdf1ae9fb39be921317c623733c18b15333b936cce0672e6a5dd377",
+  "expansion_apical_short_018.cif": "7fbf265745811ca470f8eca34da9a9e62368f911fa069d09f58fd25803778e0b",
+  "expansion_apical_short_026.cif": "bf67ae2ef27bae44969f17872ab6db19f1d1504124b78f5aaa59d2dd51ca06d6",
+  "expansion_apical_long_020.npz": "bca8c2292c1e6b80da6858ab46214d9187bb436932531a551346d3c3169559d1",
+  "control_refold_worker.py": "75111f5cc31d1488378c13568f06c9e6f004abf3ac122d6f4686b7d7818f82d2"
+}

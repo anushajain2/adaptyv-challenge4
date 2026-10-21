@@ -1,0 +1,145 @@
+{
+  "source_results_sha256": "1bd0af5a15df16b25ac40ab291929b056eb55abbf1dbaf7ae98d4a45458c9e67",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "local_workers": 2,
+  "plan": [
+    {
+      "id": "expansion_apical_short_015",
+      "seed": 1409,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/expansion_apical_short_015/0/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_short_015_seed1409"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1409,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/expansion_apical_short_018/4/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_short_018_seed1409"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1409,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/expansion_apical_short_026/1/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_short_026_seed1409"
+    },
+    {
+      "id": "expansion_apical_long_020",
+      "seed": 1409,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/expansion_apical_long_020/1/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_long_020_seed1409"
+    },
+    {
+      "id": "expansion_apical_long_089",
+      "seed": 1409,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/expansion_apical_long_089/0/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_long_089_seed1409"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1409,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/expansion_apical_long_092/1/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_long_092_seed1409"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1409,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/2ds25_5_6wrw/1/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/2ds25_5_6wrw_seed1409"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1409,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/scrambled_6wrw/4/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/scrambled_6wrw_seed1409"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1409,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/caplacizumab_6wrw/4/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/caplacizumab_6wrw_seed1409"
+    },
+    {
+      "id": "expansion_apical_short_015",
+      "seed": 1511,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/expansion_apical_short_015/1/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_short_015_seed1511"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1511,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/expansion_apical_short_018/3/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_short_018_seed1511"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1511,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/expansion_apical_short_026/3/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_short_026_seed1511"
+    },
+    {
+      "id": "expansion_apical_long_020",
+      "seed": 1511,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/expansion_apical_long_020/4/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_long_020_seed1511"
+    },
+    {
+      "id": "expansion_apical_long_089",
+      "seed": 1511,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/expansion_apical_long_089/0/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_long_089_seed1511"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1511,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/expansion_apical_long_092/2/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/expansion_apical_long_092_seed1511"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1511,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/2ds25_5_6wrw/4/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/2ds25_5_6wrw_seed1511"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1511,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/scrambled_6wrw/1/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/scrambled_6wrw_seed1511"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1511,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/caplacizumab_6wrw/3/model.pdb",
+      "dest": "reports/expansion_validation/preparation/models/caplacizumab_6wrw_seed1511"
+    }
+  ],
+  "rows": []
+}

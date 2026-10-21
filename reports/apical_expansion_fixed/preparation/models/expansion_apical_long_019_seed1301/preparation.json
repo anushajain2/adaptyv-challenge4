@@ -1,0 +1,69 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_019/model.pdb",
+  "source_sha256": "715d33e01bddfe84a57384473e6bf342e5dd497ca698ee6e92bcac4d3f196b47",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.19274451826810685,
+      "max_A": 0.5317094326019287
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 1.0374459248281038,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 596,
+    "partner_subunit_clash_pairs_lt2A": 352,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      300,
+      304,
+      305,
+      312,
+      313,
+      314,
+      316,
+      318,
+      319,
+      320
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.0374459248281038,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 573,
+    "partner_subunit_clash_pairs_lt2A": 358,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      300,
+      304,
+      305,
+      312,
+      313,
+      314,
+      316,
+      318,
+      319,
+      320
+    ]
+  },
+  "prepared_sha256": "b5311c5f43cc5106c6ee299f013872fd60d3597fc0d74522098cfb770ddb5835"
+}

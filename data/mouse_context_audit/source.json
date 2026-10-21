@@ -1,0 +1,6 @@
+{
+  "api_url": "https://alphafold.ebi.ac.uk/api/prediction/Q62351",
+  "model_url": "https://alphafold.ebi.ac.uk/files/AF-Q62351-F1-model_v6.cif",
+  "sha256": "d69bbb0ad6a27fcb1a1774e3103578a9d1ff2e1bddf2f0a8f90ce5176043de0a",
+  "purpose": "Structural correspondence audit only; predicted monomer, not experimental mouse binding evidence"
+}

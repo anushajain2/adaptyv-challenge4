@@ -1,0 +1,158 @@
+{
+  "source_results_sha256": "7b37b43a687fe1ebe73b1b57e9281a1dff0c667459f3cdaca67de2ab688e85c1",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "plan": [
+    {
+      "id": "apical_short_008",
+      "seed": 1103,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/apical_short_008/1/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_seed1103"
+    },
+    {
+      "id": "apical_long_015",
+      "seed": 1103,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/apical_long_015/4/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_long_015_seed1103"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1103,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/2ds25_5_6wrw/0/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/2ds25_5_6wrw_seed1103"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1103,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/scrambled_6wrw/4/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/scrambled_6wrw_seed1103"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1103,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/caplacizumab_6wrw/0/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/caplacizumab_6wrw_seed1103"
+    },
+    {
+      "id": "apical_long_015_L7H_L82H",
+      "seed": 1103,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/apical_long_015_L7H_L82H/2/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_long_015_L7H_L82H_seed1103"
+    },
+    {
+      "id": "apical_long_015_F46H_T70H",
+      "seed": 1103,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/apical_long_015_F46H_T70H/4/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_long_015_F46H_T70H_seed1103"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1103,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/apical_short_008_A41H/4/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_A41H_seed1103"
+    },
+    {
+      "id": "apical_short_008_D14H_S47H",
+      "seed": 1103,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/apical_short_008_D14H_S47H/3/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_D14H_S47H_seed1103"
+    },
+    {
+      "id": "apical_short_008_A41H_S47H",
+      "seed": 1103,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1103/apical_short_008_A41H_S47H/3/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_A41H_S47H_seed1103"
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 1201,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/apical_short_008/0/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_seed1201"
+    },
+    {
+      "id": "apical_long_015",
+      "seed": 1201,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/apical_long_015/3/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_long_015_seed1201"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1201,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/2ds25_5_6wrw/0/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/2ds25_5_6wrw_seed1201"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1201,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/scrambled_6wrw/3/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/scrambled_6wrw_seed1201"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1201,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/caplacizumab_6wrw/4/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/caplacizumab_6wrw_seed1201"
+    },
+    {
+      "id": "apical_long_015_L7H_L82H",
+      "seed": 1201,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/apical_long_015_L7H_L82H/0/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_long_015_L7H_L82H_seed1201"
+    },
+    {
+      "id": "apical_long_015_F46H_T70H",
+      "seed": 1201,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/apical_long_015_F46H_T70H/3/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_long_015_F46H_T70H_seed1201"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1201,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/apical_short_008_A41H/3/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_A41H_seed1201"
+    },
+    {
+      "id": "apical_short_008_D14H_S47H",
+      "seed": 1201,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/apical_short_008_D14H_S47H/2/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_D14H_S47H_seed1201"
+    },
+    {
+      "id": "apical_short_008_A41H_S47H",
+      "seed": 1201,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-confirm-016-6wrw/seed-1201/apical_short_008_A41H_S47H/1/model.pdb",
+      "dest": "reports/his_confirmation/preparation/models/apical_short_008_A41H_S47H_seed1201"
+    }
+  ],
+  "rows": []
+}

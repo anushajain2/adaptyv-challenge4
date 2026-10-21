@@ -1,0 +1,75 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_045/model.pdb",
+  "source_sha256": "ac5c2c6898b60e1982c981c891c93897a4c8c6ef9d9073d7c6dd286d3fd7ee79",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.20252361684555423,
+      "max_A": 0.7227230668067932
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 1.288583047053826,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 31,
+    "partner_subunit_clash_pairs_lt2A": 1029,
+    "observed_glycans_clash_pairs_lt2A": 6,
+    "native_target_contacts_lt5A": [
+      311,
+      312,
+      313,
+      314,
+      316,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      327
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.288583047053826,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 33,
+    "partner_subunit_clash_pairs_lt2A": 1032,
+    "observed_glycans_clash_pairs_lt2A": 4,
+    "native_target_contacts_lt5A": [
+      311,
+      312,
+      313,
+      314,
+      316,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      327
+    ]
+  },
+  "prepared_sha256": "5d6015249f72747c5f35faff222164a22cf33f59ac6e4a911b9e5ac13fec5953"
+}

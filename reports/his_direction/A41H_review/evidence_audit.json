@@ -1,0 +1,29 @@
+{
+  "models": [
+    {
+      "id": "apical_long_015_L7H_L82H",
+      "seed": 1103,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    },
+    {
+      "id": "apical_long_015_L7H_L82H",
+      "seed": 1201,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1103,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": true
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1201,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    }
+  ],
+  "result": "All four saved models and pKa tables match the report; no warnings; strict failures preserved"
+}

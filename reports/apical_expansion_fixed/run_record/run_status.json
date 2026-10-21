@@ -1,0 +1,42 @@
+{
+  "run_id": "apical-017-6wrw",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "stage": "preflight",
+      "returncode": 0,
+      "elapsed_total_seconds": 20.532553919999998
+    },
+    {
+      "stage": "expansion_apical_short-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 337.49732057899996
+    },
+    {
+      "stage": "expansion_apical_short-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 389.644349301
+    },
+    {
+      "stage": "expansion_apical_long-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 762.540639695
+    },
+    {
+      "stage": "expansion_apical_long-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 821.2062133210001
+    },
+    {
+      "stage": "assemble",
+      "returncode": 0,
+      "elapsed_total_seconds": 879.052025589
+    },
+    {
+      "stage": "seed-1301",
+      "returncode": 0,
+      "elapsed_total_seconds": 1963.003364387
+    }
+  ],
+  "elapsed_seconds": 1963.003385816
+}

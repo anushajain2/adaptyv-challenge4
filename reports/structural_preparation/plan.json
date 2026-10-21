@@ -1,0 +1,74 @@
+[
+  {
+    "id": "apical_long_015",
+    "seed": 809,
+    "sample": 2,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-809/apical_long_015/2/model.pdb"
+  },
+  {
+    "id": "apical_long_015_D51H_T70H",
+    "seed": 809,
+    "sample": 1,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-809/apical_long_015_D51H_T70H/1/model.pdb"
+  },
+  {
+    "id": "2ds25_5_6wrw",
+    "seed": 809,
+    "sample": 1,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-809/2ds25_5_6wrw/1/model.pdb"
+  },
+  {
+    "id": "scrambled_6wrw",
+    "seed": 809,
+    "sample": 0,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-809/scrambled_6wrw/0/model.pdb"
+  },
+  {
+    "id": "caplacizumab_6wrw",
+    "seed": 809,
+    "sample": 1,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-809/caplacizumab_6wrw/1/model.pdb"
+  },
+  {
+    "id": "apical_long_015",
+    "seed": 907,
+    "sample": 4,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-907/apical_long_015/4/model.pdb"
+  },
+  {
+    "id": "apical_long_015_D51H_T70H",
+    "seed": 907,
+    "sample": 2,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-907/apical_long_015_D51H_T70H/2/model.pdb"
+  },
+  {
+    "id": "2ds25_5_6wrw",
+    "seed": 907,
+    "sample": 4,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-907/2ds25_5_6wrw/4/model.pdb"
+  },
+  {
+    "id": "scrambled_6wrw",
+    "seed": 907,
+    "sample": 2,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-907/scrambled_6wrw/2/model.pdb"
+  },
+  {
+    "id": "caplacizumab_6wrw",
+    "seed": 907,
+    "sample": 2,
+    "source": "outputs/mutant_validation_scoring/mutant-013-6wrw/seed-907/caplacizumab_6wrw/2/model.pdb"
+  },
+  {
+    "id": "apical_short_008",
+    "seed": 607,
+    "sample": 1,
+    "source": "outputs/confirmation_scoring/confirmation-011-6wrw/seed-607/apical_short_008/1/model.pdb"
+  },
+  {
+    "id": "apical_short_008",
+    "seed": 709,
+    "sample": 2,
+    "source": "outputs/confirmation_scoring/confirmation-011-6wrw/seed-709/apical_short_008/2/model.pdb"
+  }
+]

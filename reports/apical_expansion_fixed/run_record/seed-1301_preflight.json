@@ -1,0 +1,10558 @@
+[
+  {
+    "id": "2ds25_5_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 88,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        282,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        282,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        282,
+        3
+      ],
+      "template_cb": [
+        1,
+        282,
+        3
+      ],
+      "template_ca": [
+        1,
+        282,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        282
+      ],
+      "template_mask_frame": [
+        1,
+        282
+      ],
+      "template_mask": [
+        1,
+        282
+      ],
+      "query_to_template": [
+        1,
+        282
+      ]
+    }
+  },
+  {
+    "id": "caplacizumab_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 128,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        322,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        322,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        322,
+        3
+      ],
+      "template_cb": [
+        1,
+        322,
+        3
+      ],
+      "template_ca": [
+        1,
+        322,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        322
+      ],
+      "template_mask_frame": [
+        1,
+        322
+      ],
+      "template_mask": [
+        1,
+        322
+      ],
+      "query_to_template": [
+        1,
+        322
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_000",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_001",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_002",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_003",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_004",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_005",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_006",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_007",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_008",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_009",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_010",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_011",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_012",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_013",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_014",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_015",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_016",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_017",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_018",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_019",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_020",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_021",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_022",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_023",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_024",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_025",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_026",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_027",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_028",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_029",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_030",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_031",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_032",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_033",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_034",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_035",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_036",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_037",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_038",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_039",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_040",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_041",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_042",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_043",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_044",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_045",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_046",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_047",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_048",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_049",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_050",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_051",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_052",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_053",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_054",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_055",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_056",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_057",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_058",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_059",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_060",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_061",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_062",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_063",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_064",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_065",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_066",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_067",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_068",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_069",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_070",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_071",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_072",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_073",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_074",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_075",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_076",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_077",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_078",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_079",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_080",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_081",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_082",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_083",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_084",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_085",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_086",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_087",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_088",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_089",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_090",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_091",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_092",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_093",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_094",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_095",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_096",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_097",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_098",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_long_099",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_000",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_001",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_002",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_003",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_004",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_005",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_006",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_007",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_008",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_009",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_010",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_011",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_012",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_013",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_014",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_015",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_016",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_017",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_018",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_019",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_020",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_021",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_022",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_023",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_024",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_025",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_026",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_027",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_028",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_029",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_030",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_031",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_032",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_033",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_034",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_035",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_036",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_037",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_038",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_039",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_040",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_041",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_042",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_043",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_044",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_045",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_046",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_047",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_048",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_049",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_050",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_051",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_052",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_053",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_054",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_055",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_056",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_057",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_058",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_059",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_060",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_061",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_062",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_063",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_064",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_065",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_066",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_067",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_068",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_069",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_070",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_071",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_072",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_073",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_074",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_075",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_076",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_077",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_078",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_079",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_080",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_081",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_082",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_083",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_084",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_085",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_086",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_087",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_088",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_089",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_090",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_091",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_092",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_093",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_094",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_095",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_096",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_097",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_098",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "expansion_apical_short_099",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "scrambled_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 93,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        287,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        287,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        287,
+        3
+      ],
+      "template_cb": [
+        1,
+        287,
+        3
+      ],
+      "template_ca": [
+        1,
+        287,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        287
+      ],
+      "template_mask_frame": [
+        1,
+        287
+      ],
+      "template_mask": [
+        1,
+        287
+      ],
+      "query_to_template": [
+        1,
+        287
+      ]
+    }
+  }
+]

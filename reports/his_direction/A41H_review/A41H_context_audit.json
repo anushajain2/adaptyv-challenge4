@@ -1,0 +1,70 @@
+[
+  {
+    "seed": 1103,
+    "His41_ring_to_binder_termini_A": {
+      "N_terminus": 12.447669982910156,
+      "C_terminus": 17.080585479736328
+    },
+    "C_terminal_C_to_target_min_A": 17.962852478027344,
+    "nearby_target_species_map": [
+      {
+        "human_uniprot": "208",
+        "human_aa": "R",
+        "mouse_uniprot": "211",
+        "mouse_aa": "N",
+        "conserved": "False",
+        "alignment_caution": ""
+      },
+      {
+        "human_uniprot": "212",
+        "human_aa": "L",
+        "mouse_uniprot": "214",
+        "mouse_aa": "P",
+        "conserved": "False",
+        "alignment_caution": "gap placement differs from published structural correspondence"
+      },
+      {
+        "human_uniprot": "215",
+        "human_aa": "N",
+        "mouse_uniprot": "217",
+        "mouse_aa": "S",
+        "conserved": "False",
+        "alignment_caution": ""
+      }
+    ]
+  },
+  {
+    "seed": 1201,
+    "His41_ring_to_binder_termini_A": {
+      "N_terminus": 12.208454132080078,
+      "C_terminus": 17.14200782775879
+    },
+    "C_terminal_C_to_target_min_A": 17.84870147705078,
+    "nearby_target_species_map": [
+      {
+        "human_uniprot": "208",
+        "human_aa": "R",
+        "mouse_uniprot": "211",
+        "mouse_aa": "N",
+        "conserved": "False",
+        "alignment_caution": ""
+      },
+      {
+        "human_uniprot": "212",
+        "human_aa": "L",
+        "mouse_uniprot": "214",
+        "mouse_aa": "P",
+        "conserved": "False",
+        "alignment_caution": "gap placement differs from published structural correspondence"
+      },
+      {
+        "human_uniprot": "215",
+        "human_aa": "N",
+        "mouse_uniprot": "217",
+        "mouse_aa": "S",
+        "conserved": "False",
+        "alignment_caution": ""
+      }
+    ]
+  }
+]

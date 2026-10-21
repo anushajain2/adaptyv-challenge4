@@ -1,0 +1,7 @@
+{
+  "initial_energy_kJ_mol": 59875.55179090936,
+  "final_energy_kJ_mol": 35673.62046817991,
+  "method": "Amber14/GBn2, 12 A cutoff, fixed target, restrained binder backbone",
+  "max_iterations": 500,
+  "seed": 43
+}

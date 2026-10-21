@@ -1,0 +1,47 @@
+[
+  {
+    "seed": 1103,
+    "contacts": [
+      {
+        "target_native": 215,
+        "target_residue": "ASN",
+        "target_atom": "OD1",
+        "his_atom": "CE1",
+        "distance_A": 3.8719303607940674
+      },
+      {
+        "target_native": 212,
+        "target_residue": "LEU",
+        "target_atom": "CD2",
+        "his_atom": "ND1",
+        "distance_A": 3.872314214706421
+      },
+      {
+        "target_native": 212,
+        "target_residue": "LEU",
+        "target_atom": "CD2",
+        "his_atom": "CE1",
+        "distance_A": 3.921783208847046
+      }
+    ]
+  },
+  {
+    "seed": 1201,
+    "contacts": [
+      {
+        "target_native": 212,
+        "target_residue": "LEU",
+        "target_atom": "CD2",
+        "his_atom": "CE1",
+        "distance_A": 3.5775465965270996
+      },
+      {
+        "target_native": 212,
+        "target_residue": "LEU",
+        "target_atom": "CD2",
+        "his_atom": "ND1",
+        "distance_A": 3.828650951385498
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "original_run": "apical-015-6wrw",
+  "reason": "CLI switches diffusion_samples to 10 at 100 designs; dataset length is diffusion batches, not final design count. Correct cardinality assertion to len(dataset) * diffusion_samples. No generation completed in failed attempt.",
+  "failed_attempt_allowance_usd": 0.6656935448237873,
+  "combined_allocation_usd": 6
+}

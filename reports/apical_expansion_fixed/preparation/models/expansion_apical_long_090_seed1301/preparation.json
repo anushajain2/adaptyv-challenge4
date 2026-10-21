@@ -1,0 +1,101 @@
+{
+  "source": "outputs/broad_scoring/apical-017-6wrw/expansion_apical_long_090/model.pdb",
+  "source_sha256": "ce7695812186ada2bb41c6446b0dde0ee338a443586287c05d1825b71c3c1487",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "status": "ok",
+  "displacement": {
+    "A": {
+      "rms_A": 0.0,
+      "max_A": 0.0
+    },
+    "B": {
+      "rms_A": 0.17910602609763684,
+      "max_A": 0.9260780215263367
+    },
+    "pass": true
+  },
+  "raw_geometry": {
+    "target_fit_rmsd_A": 0.9962104747297376,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 1,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      201,
+      205,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      285,
+      286,
+      291,
+      293,
+      294,
+      340,
+      343,
+      344,
+      346,
+      347,
+      348,
+      359,
+      360,
+      361,
+      362,
+      364,
+      371,
+      374
+    ]
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9962104747297376,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      201,
+      205,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      285,
+      286,
+      291,
+      293,
+      294,
+      340,
+      343,
+      344,
+      346,
+      347,
+      348,
+      359,
+      360,
+      361,
+      362,
+      364,
+      371,
+      374
+    ]
+  },
+  "prepared_sha256": "a5f2fc2457f9c36a7034db3161739a78a70d2063e47d019e4874e71a79f8180d"
+}

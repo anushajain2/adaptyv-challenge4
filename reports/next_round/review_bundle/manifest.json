@@ -1,0 +1,115 @@
+{
+  "models": [
+    {
+      "id": "expansion_apical_short_015",
+      "seed": 1409,
+      "sequence": "SEEELLERLGALMRRLAAAGPLSPEAEKLLEEAYRLAEEGRYEEAIELAEKALALVEERRA",
+      "path": "reports/next_round/review_bundle/expansion_apical_short_015_seed1409",
+      "hashes": {
+        "raw_complex.pdb": "c84f45ad7786a05bd81ff31641d6657ee0a25831daa063ecc96a779830d2d164",
+        "prepared_complex.pdb": "1cd138fa5113767e68fcff4c1fa0407c0704776ada51cfceaf275eeaf7a17833"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "expansion_apical_short_015",
+      "seed": 1511,
+      "sequence": "SEEELLERLGALMRRLAAAGPLSPEAEKLLEEAYRLAEEGRYEEAIELAEKALALVEERRA",
+      "path": "reports/next_round/review_bundle/expansion_apical_short_015_seed1511",
+      "hashes": {
+        "raw_complex.pdb": "03535f609ad87bcc660385c9707472c5e1ecec2150e7f5100278c4e373dce22a",
+        "prepared_complex.pdb": "60b84afebc1dccdc3d8f6e5188ac092bb96333d12b3f75801ed30e5d0c69c433"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1409,
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "path": "reports/next_round/review_bundle/expansion_apical_short_018_seed1409",
+      "hashes": {
+        "raw_complex.pdb": "ad3a5689528ae0437b11526ab9bd1dd1cb5f0d19eaefc11769b8f1e29dc58f5e",
+        "prepared_complex.pdb": "b936368e5d4b1a9431e777763499cd243b21ac2498ec3d2121cd85accc8a4b8e"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1511,
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "path": "reports/next_round/review_bundle/expansion_apical_short_018_seed1511",
+      "hashes": {
+        "raw_complex.pdb": "5b1253c660abe54f89fa58803944315553374a125b5567c577bfb14780b1765b",
+        "prepared_complex.pdb": "061899045b0a10509eaa8db5d811e74d6e23c68b0543e43fab7b565af9c6425c"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1409,
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "path": "reports/next_round/review_bundle/expansion_apical_short_026_seed1409",
+      "hashes": {
+        "raw_complex.pdb": "18c7ec59ea853bc709aebef6b8a49621489a34493237412a96eeb8769479e206",
+        "prepared_complex.pdb": "8bb01595bce096ce32fefa29689cc19bc3e0dcabf5310c2154ae295fb94042bd"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1511,
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "path": "reports/next_round/review_bundle/expansion_apical_short_026_seed1511",
+      "hashes": {
+        "raw_complex.pdb": "a75215d50aeefe5b94641be4aa7f5a0560d82fae4507912e78d4c3bee4af10ee",
+        "prepared_complex.pdb": "05e7fa6fa0479b19bd251846da7b33916b09eea57d5448d61e24a2b394c0fa76"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1409,
+      "sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "path": "reports/next_round/review_bundle/expansion_apical_long_092_seed1409",
+      "hashes": {
+        "raw_complex.pdb": "d8c6b4554eab06d527b95d12f9c47210a2e4838bdc00540e2d2a14e82443e89b",
+        "prepared_complex.pdb": "534771164c2128d5151049d9dd304d712ba39bd679e5ccb7409d181cd9954fbe"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1511,
+      "sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "path": "reports/next_round/review_bundle/expansion_apical_long_092_seed1511",
+      "hashes": {
+        "raw_complex.pdb": "74ced504494eb7874c22a4db81b539ad7ba4e16cb67afaf9ff3e4be518afb66b",
+        "prepared_complex.pdb": "d62fe5b139f988c395a65b36a2b2ad5545100457858bddc8294baa40d62431bc"
+      },
+      "pH_evidence": "Not evaluated"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1103,
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "path": "reports/next_round/review_bundle/apical_short_008_A41H_seed1103",
+      "hashes": {
+        "raw_complex.pdb": "8f74437d1a3183ea23fd0c3b3abf2217fc8faeb1ca5953f3c9cbe317a13fecbb",
+        "prepared_complex.pdb": "948e44b8aba1b2de4cb5362cc71470bc7230f4ee51ad65caa777b0e8190996e3"
+      },
+      "pH_evidence": "Consistent direction hypothesis; strict heuristic failed in one pose"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1201,
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "path": "reports/next_round/review_bundle/apical_short_008_A41H_seed1201",
+      "hashes": {
+        "raw_complex.pdb": "924a9b202ef11ac92d4c3fd69ca4ae5cf903d4c8f68fe39aaa4a12d6c342464c",
+        "prepared_complex.pdb": "83b4f1f294bc61bcc28b8c887f9af34ce05c3387c07e5481fc039e76f09d1d3d"
+      },
+      "pH_evidence": "Consistent direction hypothesis; strict heuristic failed in one pose"
+    }
+  ],
+  "all_binding_and_pH_properties_experimentally_unvalidated": true
+}

@@ -1,0 +1,5 @@
+{
+  "api_url": "https://alphafold.ebi.ac.uk/api/prediction/P02786",
+  "model_url": "https://alphafold.ebi.ac.uk/files/AF-P02786-F1-model_v6.cif",
+  "sha256": "6357bdd811230a4b4306459c36b46b76f360f12525c8ac9276d8fb0a4302e1b1"
+}
