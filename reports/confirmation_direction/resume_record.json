@@ -1,0 +1,9 @@
+{
+  "reason": "Relative CLI output path caused report-only relative_to error after two completed local models. Resolve paths and reuse completed per-pair CSV/summary; scientific criteria unchanged.",
+  "original_source_sha256": "d650b28b04037a850dbbfd31c7c68e8651404c5908ff93ec98889ae5d50e3b60",
+  "resumed_source_sha256": "da2f55f0bd9fbc5b0f69f8f7c1b6b89be8b3be230ababfe5208087584b32d809",
+  "reused_models": [
+    "apical_long_015/seed-607/H51_H70/H51_H70_seed11",
+    "apical_long_015/seed-607/H51_H70/H51_H70_seed29"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "reason": "Double underscore creates an empty component rejected by the pinned target_id_regex.",
+  "filename_regex": "^(?:(?:sample\\d+_|batch\\d+_|rank\\d+_)+)?([^_]+)(?:_[^_]+)*?(?:_(?:gen))*$",
+  "alias": {
+    "apical_long_015_D51H_T70H": "apical_long_015__D51H_T70H"
+  },
+  "sequence_coordinates_masks_and_scientific_thresholds_unchanged": true,
+  "all_cif_npz_pdb_bytes_identical_under_alias": true,
+  "failed_run": "mutant-012-6wrw",
+  "corrected_run": "mutant-013-6wrw",
+  "corrected_runtime": {
+    "work_seconds": 650,
+    "function_timeout_seconds": 750,
+    "startup_timeout_seconds": 120
+  }
+}

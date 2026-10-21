@@ -1,0 +1,44 @@
+{
+  "id": "2ds25_5_6wrw",
+  "seed": 307,
+  "pass": true,
+  "metrics": {
+    "iptm": 0.6390659809112549,
+    "ptm": 0.6193328499794006,
+    "design_to_target_iptm": 0.6390659809112549,
+    "interaction_pae": 13.289366722106934,
+    "min_design_to_target_pae": 3.3094537258148193,
+    "design_ptm": 0.7931132912635803
+  },
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.6289289814351615,
+    "binder_CA_pose_rmsd_after_target_fit_A": 0.8979106649341665,
+    "binder_interface_CA_rmsd_after_target_fit_A": 0.8880028772836468,
+    "binder_CA_fold_rmsd_A": 0.6150220921686471,
+    "native_contacts": 56,
+    "recovered_contacts": 54,
+    "native_contact_recall": 0.9642857142857143
+  },
+  "scores": {
+    "contact_residue_pairs": 67,
+    "contact_pae_A_to_B_A": 5.866152763366699,
+    "contact_pae_B_to_A_A": 5.339111328125,
+    "contact_pae_both_directions_A": 5.60263204574585
+  },
+  "shapes": {
+    "pae": [
+      1,
+      282,
+      282
+    ],
+    "plddt": [
+      1,
+      282
+    ],
+    "coords": [
+      1,
+      2208,
+      3
+    ]
+  }
+}

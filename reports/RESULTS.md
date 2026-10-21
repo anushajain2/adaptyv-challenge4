@@ -1,6 +1,20 @@
 # TfR1 days 1–3: results
 
-The workflow is built and has run on real designs. Target preparation and the 50-design pilot are complete. The direction check found **six exploratory histidine-pair variants with both pKas lowered in both modeled conformations**. **No variant passes the provisional parent-quality gate**, and binding remains unvalidated. The calibration below now shows that confidence failure alone is not sufficient evidence that a sequence cannot bind.
+The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
+
+## Latest independent mutant test — 21 October 2026
+
+**D51H/T70H is rejected after independent refolding.** The matched controls pass, but all ten mutant samples have interface ipTM 0.091–0.116 and almost no original interface contacts. The parent preserves its intended pose and higher confidence, but one selected model fails the strict clash rule. No sequence advances under this matched experiment's both-seed rule. The earlier pKa calculation remains conditional on an interface the mutant predictor did not recover.
+
+See the [full mutant report](mutant_validation/RESULTS.md). The next recommendation is a small diagnostic test of D51H and T70H separately, with parent and controls, rather than retaining the failed double mutant or changing its gates. Latest gross compute usage is approximately **$7.96**, all cloud apps are stopped, and 44 tests pass. No upstream issue, PR or challenge submission was filed.
+
+## Earlier confirmation and direction result — 21 October 2026
+
+The subsequent 200-design screen produced two reproducible apical leads. A held fresh-seed batch exposed a distorted positive-control receptor selected by confidence. A separate, prospectively specified 50-prediction confirmation applied a target-conformation filter before confidence ranking, with identical treatment of leads and controls. All selected controls pass; **one parent, `apical_long_015`, passes the full screen in both fresh seeds**. The shorter lead remains a backup after a selected model narrowly misses the unchanged full-context fit cutoff.
+
+Two His pairs were tested on the passing parent, each on two predicted poses with two local rebuild seeds. **D51H/T70H passes the direction criteria in all four models**; D51H/K62H fails the second pKa-shift criterion. Saved structures and pKa tables pass an eight-model evidence audit. At that stage, the mutant had not been independently refolded; the subsequent experiment above rejects it. Neither binding, mouse cross-reactivity nor pH switching has been experimentally established.
+
+See the [confirmation report](confirmation/RESULTS.md), [direction report](confirmation_direction/RESULTS.md), and [review bundle](confirmation_direction/review_bundle/manifest.json). At that stage, gross Modal usage was approximately **$7.79**, all cloud apps had stopped, and 42 tests passed. No upstream issue, PR or challenge submission was filed. Independent refolding was the next priority and is now complete, as reported above.
 
 ## Completed 6WRW generation comparison — 21 October 2026
 

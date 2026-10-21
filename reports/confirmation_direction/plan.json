@@ -1,0 +1,18 @@
+{
+  "validation_results_sha256": "05a97d31b6db2b3987c6670397b280f9ca823c79cd73724291bace6d4440e233",
+  "parent_ids": [
+    "apical_long_015"
+  ],
+  "max_pairs_per_parent": 2,
+  "prediction_seeds": [
+    607,
+    709
+  ],
+  "local_rebuild_seeds": [
+    11,
+    29
+  ],
+  "pair_selection": "Enumerate on the selected seed-607 pose, then test identical mutations on both selected prediction poses.",
+  "min_distance_to_artificial_target_termini_A": 10.0,
+  "decision": "All four models must satisfy the existing direction criteria and the artificial-terminus distance buffer. This is a direction hypothesis, not mutant fold or affinity validation."
+}

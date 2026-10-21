@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/modal_mutant_validation.py", line 101, in run_controls
+    raise RuntimeError(f"Control prediction failed for seed {seed}")
+RuntimeError: Control prediction failed for seed 809

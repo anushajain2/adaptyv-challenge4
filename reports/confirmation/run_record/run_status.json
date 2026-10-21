@@ -1,0 +1,15 @@
+{
+  "run_id": "confirmation-011-6wrw",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "seed": 607,
+      "returncode": 0
+    },
+    {
+      "seed": 709,
+      "returncode": 0
+    }
+  ],
+  "elapsed_seconds": 207.41438706099999
+}

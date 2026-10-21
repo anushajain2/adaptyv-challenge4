@@ -1,0 +1,67 @@
+{
+  "run_id": "broad-009-6wrw",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "stage": "preflight",
+      "returncode": 0,
+      "elapsed_total_seconds": 47.238898321
+    },
+    {
+      "stage": "apical_short-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 904.182823421
+    },
+    {
+      "stage": "apical_short-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 943.395217368
+    },
+    {
+      "stage": "conserved_short-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 1798.9628549660001
+    },
+    {
+      "stage": "conserved_short-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 1839.6282791190001
+    },
+    {
+      "stage": "apical_long-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 2673.947881149
+    },
+    {
+      "stage": "apical_long-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 2718.647180213
+    },
+    {
+      "stage": "conserved_long-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 3543.920062682
+    },
+    {
+      "stage": "conserved_long-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 3592.524868524
+    },
+    {
+      "stage": "apical_nanobody-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 4439.347088581
+    },
+    {
+      "stage": "apical_nanobody-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 4480.3272246530005
+    },
+    {
+      "stage": "assemble",
+      "returncode": 0,
+      "elapsed_total_seconds": 4558.616450814
+    }
+  ],
+  "elapsed_seconds": 5290.081170498
+}

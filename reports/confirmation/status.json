@@ -1,0 +1,28 @@
+{
+  "updated_utc": "2026-10-21T09:10:50.495079+00:00",
+  "status": "confirmation_and_bounded_direction_complete",
+  "run": "confirmation-011-6wrw",
+  "confirmation_predictions": 50,
+  "controls_pass": true,
+  "provisional_parent_ids": [
+    "apical_long_015"
+  ],
+  "backup_ids": [
+    "apical_short_008"
+  ],
+  "his_pairs_tested": 2,
+  "local_direction_models": 8,
+  "passing_direction_hypotheses": [
+    "apical_long_015__D51H_T70H"
+  ],
+  "mutant_independently_refolded": false,
+  "experimental_binding": false,
+  "mouse_binding_tested": false,
+  "gross_usage_high_water_usd": 7.78736345,
+  "authorized_total_usd": 30,
+  "all_modal_apps_stopped": true,
+  "tests_passed": 42,
+  "upstream_issue_or_pr_filed": false,
+  "challenge_submission_made": false,
+  "next_step": "Independent refolding of D51H/T70H alongside its unmodified parent and controls, using fresh seeds and the frozen target/structural rules."
+}

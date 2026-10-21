@@ -1,0 +1,22 @@
+{
+  "updated_utc": "2026-10-21T09:29:28.932151+00:00",
+  "status": "completed_mutant_rejected",
+  "run": "mutant-013-6wrw",
+  "failed_preflight_run": "mutant-012-6wrw",
+  "predictions_completed": 50,
+  "controls_pass": true,
+  "matched_parent_and_mutant_pass": false,
+  "mutant_passing_samples": 0,
+  "mutant_total_samples": 10,
+  "parent_passing_samples": 6,
+  "gross_usage_high_water_usd": 7.96348782,
+  "authorized_total_usd": 30,
+  "shared_experiment_reservation_usd": 1.5,
+  "all_cloud_apps_stopped": true,
+  "tests_passed": 44,
+  "new_pka_models_run": 0,
+  "new_designs_generated": 0,
+  "upstream_issue_or_pr_filed": false,
+  "challenge_submission_made": false,
+  "next_step": "Diagnostic single-substitution panel D51H and T70H, with parent and controls; do not advance double mutant."
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "arm": "apical_short",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "designed_tokens": 67,
+    "hotspots_crop": [
+      19,
+      21,
+      22
+    ],
+    "design_count": 40
+  },
+  {
+    "arm": "conserved_short",
+    "target_tokens": 194,
+    "binder_tokens": 69,
+    "designed_tokens": 69,
+    "hotspots_crop": [
+      138,
+      142
+    ],
+    "design_count": 40
+  },
+  {
+    "arm": "apical_long",
+    "target_tokens": 194,
+    "binder_tokens": 86,
+    "designed_tokens": 86,
+    "hotspots_crop": [
+      19,
+      21,
+      22
+    ],
+    "design_count": 40
+  },
+  {
+    "arm": "conserved_long",
+    "target_tokens": 194,
+    "binder_tokens": 110,
+    "designed_tokens": 110,
+    "hotspots_crop": [
+      138,
+      142
+    ],
+    "design_count": 40
+  },
+  {
+    "arm": "apical_nanobody",
+    "target_tokens": 194,
+    "binder_tokens": 124,
+    "designed_tokens": 34,
+    "hotspots_crop": [
+      19,
+      21,
+      22
+    ],
+    "design_count": 40
+  }
+]

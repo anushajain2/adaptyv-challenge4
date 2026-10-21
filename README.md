@@ -2,11 +2,33 @@
 
 This project prepares a human TfR1 target, runs 25 miniprotein and 25 nanobody designs on Modal, and screens histidine pairs for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Start with the [results report](reports/RESULTS.md).** The initial 50 designs and
-a 25-design follow-up are complete. Six exploratory pKa-lowering variants were
-found, but **zero candidates pass the full parent and direction gates**.
-The latest Modal snapshot reports approximately **US$3.89 gross usage**.
-The new 20-design 6WRW comparison is complete: **0/20 advance**, with matched controls passing.
+**Latest result:** [independent mutant refolding](reports/mutant_validation/RESULTS.md)
+**rejects D51H/T70H**: all ten mutant samples lose the intended interface despite
+the earlier favorable [pKa direction calculation](reports/confirmation_direction/RESULTS.md).
+Controls pass. The unmodified parent remains a lead, but one selected model
+fails the strict clash rule in this round. The next recommendation is a diagnostic
+comparison of the two single substitutions. Binding, mouse cross-reactivity and
+pH switching remain unvalidated. The latest gross Modal meter is approximately **US$7.96**
+before credits, within the US$30 cap. All cloud apps have stopped.
+
+The [historical results report](reports/RESULTS.md) preserves the original
+75-design pilot and 20-design comparison, which produced no qualified parents.
+
+**Current campaign:** the authorized [200-design broad screen](reports/broad_campaign/RESULTS.md)
+is complete on the bound 6WRW crop: 80 apical miniproteins, 80 conserved-patch
+miniproteins, and 40 apical nanobodies. **Two designs pass the full initial screen;
+seven pass the geometry checks.** All seven apical miniproteins completed
+evaluation with two fresh seeds, five samples per seed. **Two leads reproduce
+their candidate-level passes, but that batch remains held:** one selected
+positive-control model has a distorted receptor and fails the frozen pose gate.
+See the [fresh-seed report](reports/broad_validation/RESULTS.md). Actual
+generated hotspot features were checked for all 200 designs. The interrupted
+screen was resumed only for missing predictions, within its original US$6
+reservation. Fresh-seed evaluation reserves at most US$4 within the US$30 gross
+total. A separate 50-prediction confirmation with a frozen target-conformation
+filter reserved at most US$1.50 and cleared the long lead. The short lead remains
+a backup after narrowly failing the unchanged full-context fit cutoff. No
+upstream issue or PR is authorized or has been filed.
 
 **Hotspot correction:** feature-level preflight found that our specifications
 combined `binding` and `not_binding` in one chain entry, but the pinned parser
@@ -42,7 +64,7 @@ pilot used 25 designs per protocol; the new 20-design comparison has a separate
 **US$5 allowance within that total**, including its failed preflight attempt.
 No outcome is guaranteed within that budget.
 
-Local verification: **30 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **44 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.

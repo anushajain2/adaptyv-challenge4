@@ -1,0 +1,165 @@
+{
+  "parent": "apical_long_015",
+  "direction_hypothesis": "apical_long_015__D51H_T70H",
+  "mutant_independently_refolded": false,
+  "experimental_binding": false,
+  "mouse_binding_tested": false,
+  "files": [
+    {
+      "file": "apical_long_015_parent_seed607.pdb",
+      "role": "independently predicted parent complex",
+      "sha256": "ea644208ce3e6690827f4007e75271d79f6b5bf07196080e669c4bb6a4f21b82"
+    },
+    {
+      "file": "apical_long_015_parent_seed709.pdb",
+      "role": "independently predicted parent complex",
+      "sha256": "85d0a0cdda58ca00397cbb31930a4d6b66a84818ef9a79dddcd724e54124b770"
+    },
+    {
+      "file": "mutant_prediction607_rebuild11/complex.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "e5d92a0336e096f379270dd21fedca82a1a8f68269e126dfc9623184ba3f7f91"
+    },
+    {
+      "file": "mutant_prediction607_rebuild11/free_binder.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "a114b09439610a2f7fa75789fd8014a60fea794410c300e98df37f26b0fc7c38"
+    },
+    {
+      "file": "mutant_prediction607_rebuild11/complex.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "5f7a67ae14932bd4e10c9093e1163d01d31e08ea257a61e14667141469dda8e3"
+    },
+    {
+      "file": "mutant_prediction607_rebuild11/free_binder.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "2fad65e4896d90f78c8896b93e71f49d356adbc54ad7ea5ef4f396538d86bc5d"
+    },
+    {
+      "file": "mutant_prediction607_rebuild11/complex.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction607_rebuild11/free_binder.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction607_rebuild11/complex.relaxation.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "236641e2cae9b1cde057865cf365731bd2cabfc2a89009893c4e60ac069d91b6"
+    },
+    {
+      "file": "mutant_prediction607_rebuild29/complex.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "149213281f91be3b2c2bfaccd62ea777fb755e60a9772db528b997bdf5359feb"
+    },
+    {
+      "file": "mutant_prediction607_rebuild29/free_binder.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "26b1db97b4c6cbeb7a6849582a56c6c2eb41fc0ba1802c7be7649b7d80406db4"
+    },
+    {
+      "file": "mutant_prediction607_rebuild29/complex.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "b29a61b1ee1a23d5218a120f9abe578a18eccef1cfb2750187f8624e1ee0e765"
+    },
+    {
+      "file": "mutant_prediction607_rebuild29/free_binder.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "e7387ae4efcc2368d16fe01deb0a676ebd08f5fffcbf15090daf3930e95a17a8"
+    },
+    {
+      "file": "mutant_prediction607_rebuild29/complex.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction607_rebuild29/free_binder.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction607_rebuild29/complex.relaxation.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "854bc513dd53d4cbe815db28925a6e69e3bc0fa96d739326bbef370240243eb3"
+    },
+    {
+      "file": "mutant_prediction709_rebuild11/complex.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "51c6de1db66d63fcd3c003b5df23f5a5dc2be595fcfd5309e95eead27e298870"
+    },
+    {
+      "file": "mutant_prediction709_rebuild11/free_binder.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "053ea06e0f59918367fbc47c7a538f906e7e939be9b2f2df979adcbbc2b0e5ed"
+    },
+    {
+      "file": "mutant_prediction709_rebuild11/complex.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "b6070ff2819269ddb062c38b2067a7c40413a760b170dec1ef7811f2899d1d4f"
+    },
+    {
+      "file": "mutant_prediction709_rebuild11/free_binder.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "eb17503cc974a5acf8e9d49a51028177d7139905cea267a2a2cf7d9e7b3dbd43"
+    },
+    {
+      "file": "mutant_prediction709_rebuild11/complex.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction709_rebuild11/free_binder.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction709_rebuild11/complex.relaxation.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "3d8f0549a4b1ba9447048ed5fa08404134006bd66d164fbfe10ee6ca0d84246f"
+    },
+    {
+      "file": "mutant_prediction709_rebuild29/complex.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "cb66f5907c696f66fe832732f69c26286bc4073dbd7f9542b503d4b0573a12d4"
+    },
+    {
+      "file": "mutant_prediction709_rebuild29/free_binder.pdb",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "7e8c1a10dfaf8cc24ad374929c18a46c59f4559ab917cfb2fa92dc0923fbdbeb"
+    },
+    {
+      "file": "mutant_prediction709_rebuild29/complex.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "ddc474989a7352451c87bc04a8d4c5fb159e402fcb4e554041dd2cebf991ec3b"
+    },
+    {
+      "file": "mutant_prediction709_rebuild29/free_binder.pka.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "f20d0b9e97dea54d8ab7e72a73ea400ce4322af1a474069bfb822bbcbeefa886"
+    },
+    {
+      "file": "mutant_prediction709_rebuild29/complex.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction709_rebuild29/free_binder.propka_warnings.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "mutant_prediction709_rebuild29/complex.relaxation.json",
+      "role": "locally mutated and relaxed direction model; not an independent mutant prediction",
+      "sha256": "51ea0cc2801b950df72384c64b399c5bfb198ed4c480dda51560b4ec8fbe8f6e"
+    }
+  ],
+  "subsequent_evaluation": {
+    "report": "reports/mutant_validation/RESULTS.md",
+    "mutant_independently_refolded": true,
+    "status": "failed_all_ten_mutant_samples",
+    "advance": false
+  }
+}

@@ -10,6 +10,7 @@ def main():
     p.add_argument("--seed", type=int, required=True)
     p.add_argument("--target-msa", type=Path)
     p.add_argument("--export-pae", action="store_true")
+    p.add_argument("--samples", type=int, default=5, choices=range(1, 6))
     args = p.parse_args()
     import hydra
     import numpy as np
@@ -43,7 +44,7 @@ def main():
         f"checkpoint={checkpoint}", f"data.cfg.moldir={moldir}",
         "data.cfg.num_workers=0", "data.target_templates=true",
         "trainer.devices=1", "override.use_kernels=true",
-        "recycling_steps=3", "sampling_steps=200", "diffusion_samples=5",
+        "recycling_steps=3", "sampling_steps=200", f"diffusion_samples={args.samples}",
     ]))
     if args.target_msa:
         cfg.data.cfg.max_seqs = 512
@@ -91,8 +92,8 @@ def main():
         data = np.load(path, allow_pickle=False)
         if args.export_pae:
             n_tokens = len(expected[case]["target_sequence"]) + len(expected[case]["binder_sequence"])
-            assert data["pae"].shape == (5, n_tokens, n_tokens), (case, data["pae"].shape)
-            assert data["plddt"].shape == (5, n_tokens), (case, data["plddt"].shape)
+            assert data["pae"].shape == (args.samples, n_tokens, n_tokens), (case, data["pae"].shape)
+            assert data["plddt"].shape == (args.samples, n_tokens), (case, data["plddt"].shape)
             assert np.isfinite(data["pae"]).all() and np.isfinite(data["plddt"]).all()
         metrics = {k: data[k].tolist() for k in [
             "iptm", "ptm", "design_to_target_iptm", "target_ptm",

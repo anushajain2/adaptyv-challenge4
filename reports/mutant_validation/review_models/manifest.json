@@ -1,0 +1,49 @@
+{
+  "matched_parent_and_mutant_pass": false,
+  "models": [
+    {
+      "id": "apical_long_015",
+      "original_label": "apical_long_015",
+      "seed": 809,
+      "sample": 2,
+      "file": "review_models/apical_long_015_seed809_sample2.pdb",
+      "sha256": "6450c267c4ea6a0368868e3fa7fd640129eb65dfb857828287749d5f17fc0147",
+      "per_model_screen_pass": false,
+      "both_seed_screen_pass": false,
+      "purpose": "Diagnostic evidence, not submission-ready design"
+    },
+    {
+      "id": "apical_long_015",
+      "original_label": "apical_long_015",
+      "seed": 907,
+      "sample": 4,
+      "file": "review_models/apical_long_015_seed907_sample4.pdb",
+      "sha256": "fb26d656ee67c54d846e60ed143121c67b33034c203af677e68143e2af2bdc24",
+      "per_model_screen_pass": true,
+      "both_seed_screen_pass": false,
+      "purpose": "Diagnostic evidence, not submission-ready design"
+    },
+    {
+      "id": "apical_long_015_D51H_T70H",
+      "original_label": "apical_long_015__D51H_T70H",
+      "seed": 809,
+      "sample": 1,
+      "file": "review_models/apical_long_015_D51H_T70H_seed809_sample1.pdb",
+      "sha256": "e5f875643582264814a80d3164870e5c5910ba97b2d31eeb09eb8d6868318238",
+      "per_model_screen_pass": false,
+      "both_seed_screen_pass": false,
+      "purpose": "Diagnostic evidence, not submission-ready design"
+    },
+    {
+      "id": "apical_long_015_D51H_T70H",
+      "original_label": "apical_long_015__D51H_T70H",
+      "seed": 907,
+      "sample": 2,
+      "file": "review_models/apical_long_015_D51H_T70H_seed907_sample2.pdb",
+      "sha256": "49018d60da8b91fa1faac4a08dcb32e0962e863237e1c5d4beaed7a8f4e04f86",
+      "per_model_screen_pass": false,
+      "both_seed_screen_pass": false,
+      "purpose": "Diagnostic evidence, not submission-ready design"
+    }
+  ]
+}

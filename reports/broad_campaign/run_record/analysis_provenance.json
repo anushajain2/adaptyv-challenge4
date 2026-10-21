@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-21T06:28:40.633485+00:00",
+  "note": "Analysis implementation recorded while generation of the first arm is running, before any refolding outputs exist.",
+  "sha256": {
+    "analyze_broad_campaign.py": "2ca0ff5293c11c033730065eb1d45e68ab4c68e672e5aef0e915ce054c96cf09",
+    "plot_broad_campaign.py": "aa7169133f519de665cf6ecf9cc4107dfbd05e733fc4d778e3c0506f8c8d7d89"
+  },
+  "updated_utc": "2026-10-21T07:30:08.019148+00:00",
+  "update_reason": "Exclude exact matches to the published controls or starting framework from novel shortlist; before any refolding outputs.",
+  "diversity_clarification": "Before any refolding outputs: compare VHH redesigned CDR residues (concatenated in sequence order) for sequence diversity; compare full miniprotein sequences. Always exclude exact full-sequence duplicates. This affects shortlist diversity only, not scientific thresholds.",
+  "resume_provenance_update_utc": "2026-10-21T08:15:06.820019+00:00",
+  "resume_provenance_update": "Record each prediction source after interruption/resume; no scoring or selection changes."
+}

@@ -1,0 +1,230 @@
+{
+  "models_checked": 8,
+  "all_pass": true,
+  "rows": [
+    {
+      "variant": "apical_long_015__D51H_T70H",
+      "prediction_seed": 607,
+      "rebuild_seed": 11,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 7.886305611234464e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.12521784903425207,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.14948740822113063,
+        "binder_CA_fold_rmsd_A": 0.12382756964892787,
+        "native_contacts": 78,
+        "recovered_contacts": 74,
+        "native_contact_recall": 0.9487179487179487
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "5f7a67ae14932bd4e10c9093e1163d01d31e08ea257a61e14667141469dda8e3",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "f9f595d800877675c3b5161145c65da4e057146870f719deb9ad4d61b37580db",
+        "free_binder.pka.json": "2fad65e4896d90f78c8896b93e71f49d356adbc54ad7ea5ef4f396538d86bc5d",
+        "complex.relaxation.json": "236641e2cae9b1cde057865cf365731bd2cabfc2a89009893c4e60ac069d91b6",
+        "free_binder.pdb": "a114b09439610a2f7fa75789fd8014a60fea794410c300e98df37f26b0fc7c38",
+        "complex.pdb": "e5d92a0336e096f379270dd21fedca82a1a8f68269e126dfc9623184ba3f7f91",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    {
+      "variant": "apical_long_015__D51H_T70H",
+      "prediction_seed": 607,
+      "rebuild_seed": 29,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 7.886305611234464e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.12554218927917513,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.1522676548149656,
+        "binder_CA_fold_rmsd_A": 0.12375045837991547,
+        "native_contacts": 78,
+        "recovered_contacts": 76,
+        "native_contact_recall": 0.9743589743589743
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "b29a61b1ee1a23d5218a120f9abe578a18eccef1cfb2750187f8624e1ee0e765",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "3602a8458eca07dc6911a8dd94057605234ab55f04d0b20a5f04716f53b21e9b",
+        "free_binder.pka.json": "e7387ae4efcc2368d16fe01deb0a676ebd08f5fffcbf15090daf3930e95a17a8",
+        "complex.relaxation.json": "854bc513dd53d4cbe815db28925a6e69e3bc0fa96d739326bbef370240243eb3",
+        "free_binder.pdb": "26b1db97b4c6cbeb7a6849582a56c6c2eb41fc0ba1802c7be7649b7d80406db4",
+        "complex.pdb": "149213281f91be3b2c2bfaccd62ea777fb755e60a9772db528b997bdf5359feb",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    {
+      "variant": "apical_long_015__D51H_T70H",
+      "prediction_seed": 709,
+      "rebuild_seed": 11,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 5.940438465221528e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.17637519848251754,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.22956382875260242,
+        "binder_CA_fold_rmsd_A": 0.173992916871696,
+        "native_contacts": 73,
+        "recovered_contacts": 69,
+        "native_contact_recall": 0.9452054794520548
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "b6070ff2819269ddb062c38b2067a7c40413a760b170dec1ef7811f2899d1d4f",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "c727d10521f82133908328f3115001f13fe91524db51d1584976823388d0f0bd",
+        "free_binder.pka.json": "eb17503cc974a5acf8e9d49a51028177d7139905cea267a2a2cf7d9e7b3dbd43",
+        "complex.relaxation.json": "3d8f0549a4b1ba9447048ed5fa08404134006bd66d164fbfe10ee6ca0d84246f",
+        "free_binder.pdb": "053ea06e0f59918367fbc47c7a538f906e7e939be9b2f2df979adcbbc2b0e5ed",
+        "complex.pdb": "51c6de1db66d63fcd3c003b5df23f5a5dc2be595fcfd5309e95eead27e298870",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    {
+      "variant": "apical_long_015__D51H_T70H",
+      "prediction_seed": 709,
+      "rebuild_seed": 29,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 5.940438465221528e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.1804991141820009,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.23619602407927393,
+        "binder_CA_fold_rmsd_A": 0.17800283702048683,
+        "native_contacts": 73,
+        "recovered_contacts": 68,
+        "native_contact_recall": 0.9315068493150684
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "ddc474989a7352451c87bc04a8d4c5fb159e402fcb4e554041dd2cebf991ec3b",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "362830458ad272ebf800607f77b8cc7965714d6007e15d966f94e970400c7807",
+        "free_binder.pka.json": "f20d0b9e97dea54d8ab7e72a73ea400ce4322af1a474069bfb822bbcbeefa886",
+        "complex.relaxation.json": "51ea0cc2801b950df72384c64b399c5bfb198ed4c480dda51560b4ec8fbe8f6e",
+        "free_binder.pdb": "7e8c1a10dfaf8cc24ad374929c18a46c59f4559ab917cfb2fa92dc0923fbdbeb",
+        "complex.pdb": "cb66f5907c696f66fe832732f69c26286bc4073dbd7f9542b503d4b0573a12d4",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    {
+      "variant": "apical_long_015__D51H_K62H",
+      "prediction_seed": 607,
+      "rebuild_seed": 11,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 7.886305611234464e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.12762278253457837,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.14837108634589957,
+        "binder_CA_fold_rmsd_A": 0.12552754582460743,
+        "native_contacts": 78,
+        "recovered_contacts": 74,
+        "native_contact_recall": 0.9487179487179487
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "1bc5befcc56310f0ab9a1f78681a6481989a33f3db06a631d5624eaccae3047f",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "5d58b4edbfc86ee7c8ec2dbdd64dfd4d0a82ce9bbd1b9a23de1634ab773d0ac0",
+        "free_binder.pka.json": "293cb96294da8b49aa33a6dd366c0562d375dcff3f1ec8d29b8cf49859364ab5",
+        "complex.relaxation.json": "370e871a9c3eb3b9e5450e7721225cdf5b1923af04023b1637163750ab5272a6",
+        "free_binder.pdb": "e0d58ca4858db5b0d7ee5103602befb54d97f6c294463dba216d0b248d0b580d",
+        "complex.pdb": "6f7201109f8e0f09dbbcd73856f58ef4505b9ce3ff865e9b890438dfed365aa6",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    {
+      "variant": "apical_long_015__D51H_K62H",
+      "prediction_seed": 607,
+      "rebuild_seed": 29,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 7.886305611234464e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.1277194317159504,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.15228886702397962,
+        "binder_CA_fold_rmsd_A": 0.12559576876351125,
+        "native_contacts": 78,
+        "recovered_contacts": 74,
+        "native_contact_recall": 0.9487179487179487
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "b3d4a115bfe8b2d7b7aea813c4d8ff90abcb2635105b038d8584d4fa71e54b7f",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "9e73fd58215f88c72e87ab46b7f5dc89454a31c9a6667206d95a5a7041815da4",
+        "free_binder.pka.json": "06e75c7c52d91399649b3842f42ba1575f49c25659336c055becef4de6a1384a",
+        "complex.relaxation.json": "8948be17ab0e4dce0f48a8bdcfa43fd7a9583b313a642c0ae5bf3831cb3f4c47",
+        "free_binder.pdb": "c30fd1d19c3b8a1756827218c5dda3f36109edf14a95168e2c9afb91a702ae2f",
+        "complex.pdb": "ae2b906f7b4ff10f4c1a052d35c8239edb6915c8a3de56884bdcef2c000792e9",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    {
+      "variant": "apical_long_015__D51H_K62H",
+      "prediction_seed": 709,
+      "rebuild_seed": 11,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 5.940438465221528e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.17844577159978495,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.23121893444332606,
+        "binder_CA_fold_rmsd_A": 0.17624955404253248,
+        "native_contacts": 73,
+        "recovered_contacts": 68,
+        "native_contact_recall": 0.9315068493150684
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "f1aca135437b2370cec79d73c29eb62c89a492ca447815e2d2e96a1c77037457",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "67214da5796fe241a680a4674c28dd9bb80a5ce4118a3fb9c9f165d912623d58",
+        "free_binder.pka.json": "7e3f7807ea0e6257b7eb9538630bddd11961fa944982f16d41885a9e77720979",
+        "complex.relaxation.json": "bbf18d987c8f716b5023cbbd991165923e9c10d6d35aea012eda44afb681b180",
+        "free_binder.pdb": "581019c73cc24ef4843df4b933441794ce64bccab4810e8f490d268371d9a07e",
+        "complex.pdb": "ada088ba1d4cd1ec20128ccd7b0b848d9b1c8bcc7980a104d2a180a5a785df61",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    },
+    {
+      "variant": "apical_long_015__D51H_K62H",
+      "prediction_seed": 709,
+      "rebuild_seed": 29,
+      "matches_saved_pka_tables": true,
+      "complete_engineered_histidines": true,
+      "propka_warnings": [],
+      "recomputed_full_context_clashes": 0,
+      "relaxed_pose_against_parent": {
+        "target_CA_rmsd_to_reference_A": 5.940438465221528e-15,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.17707910441848315,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.23317608673969836,
+        "binder_CA_fold_rmsd_A": 0.17438246917092348,
+        "native_contacts": 73,
+        "recovered_contacts": 68,
+        "native_contact_recall": 0.9315068493150684
+      },
+      "evidence_sha256": {
+        "complex.pka.json": "a0e5f033a9c467a170b541ee271e00e81a4e5146878e3b2cff87ab8af8be88e3",
+        "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "full_complex.pdb": "d14e4b8c6a9117dc500f8b805c789c399d4ea4f8c2048847ae8aebbe1a6db397",
+        "free_binder.pka.json": "09aff6dd7937c1b2049463ba4d24b49d3c9d416ce30947989e1cebf60e6965d3",
+        "complex.relaxation.json": "b110027620f9a9c7c417219a7daa60c6fc51c0a409834c4b3735e54b08850b42",
+        "free_binder.pdb": "5de26677c785fe6afa40ae61d230f20005716111024eecd8977fba1850278889",
+        "complex.pdb": "504de3190cd3901bd73eec089b6fcaa81f2d0c7584338193713bfe07f08d8847",
+        "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  ]
+}

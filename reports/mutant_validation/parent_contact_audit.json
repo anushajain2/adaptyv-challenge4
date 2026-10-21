@@ -1,0 +1,282 @@
+{
+  "rows": [
+    {
+      "seed": 809,
+      "sample": 2,
+      "modeled_target_clashes": [
+        {
+          "target_native": 205,
+          "target_residue": "LYS",
+          "target_atom": "NZ",
+          "binder_position": 66,
+          "binder_residue": "GLU",
+          "binder_atom": "OE2",
+          "distance_A": 1.6938371658325195
+        }
+      ],
+      "parent_mutation_site_contacts_lt4A": {
+        "51": [
+          {
+            "binder_atom": "OD2",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NH2",
+            "distance_A": 2.308534622192383
+          },
+          {
+            "binder_atom": "N",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "O",
+            "distance_A": 2.7209296226501465
+          },
+          {
+            "binder_atom": "OD2",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CZ",
+            "distance_A": 2.762925386428833
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NE",
+            "distance_A": 2.7636404037475586
+          },
+          {
+            "binder_atom": "OD2",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NE",
+            "distance_A": 3.078085422515869
+          },
+          {
+            "binder_atom": "CG",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NH2",
+            "distance_A": 3.1323745250701904
+          },
+          {
+            "binder_atom": "CG",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NE",
+            "distance_A": 3.301060438156128
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NH2",
+            "distance_A": 3.353703498840332
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CZ",
+            "distance_A": 3.3777575492858887
+          },
+          {
+            "binder_atom": "CG",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CZ",
+            "distance_A": 3.4571645259857178
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CG",
+            "distance_A": 3.5298306941986084
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CB",
+            "distance_A": 3.5570507049560547
+          },
+          {
+            "binder_atom": "CA",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "O",
+            "distance_A": 3.6706759929656982
+          },
+          {
+            "binder_atom": "OD2",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NH1",
+            "distance_A": 3.6722753047943115
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CD",
+            "distance_A": 3.6933374404907227
+          }
+        ],
+        "70": [
+          {
+            "binder_atom": "OG1",
+            "target_native": 205,
+            "target_residue": "LYS",
+            "target_atom": "CE",
+            "distance_A": 3.1784417629241943
+          },
+          {
+            "binder_atom": "CG2",
+            "target_native": 204,
+            "target_residue": "ASP",
+            "target_atom": "OD1",
+            "distance_A": 3.6173815727233887
+          },
+          {
+            "binder_atom": "CG2",
+            "target_native": 209,
+            "target_residue": "LEU",
+            "target_atom": "CD2",
+            "distance_A": 3.951814889907837
+          }
+        ]
+      }
+    },
+    {
+      "seed": 907,
+      "sample": 4,
+      "modeled_target_clashes": [],
+      "parent_mutation_site_contacts_lt4A": {
+        "51": [
+          {
+            "binder_atom": "N",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "O",
+            "distance_A": 2.7383880615234375
+          },
+          {
+            "binder_atom": "OD2",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NE",
+            "distance_A": 2.983588695526123
+          },
+          {
+            "binder_atom": "OD2",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NH2",
+            "distance_A": 3.079442262649536
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CG",
+            "distance_A": 3.1055617332458496
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NE",
+            "distance_A": 3.110809803009033
+          },
+          {
+            "binder_atom": "CG",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NE",
+            "distance_A": 3.2793595790863037
+          },
+          {
+            "binder_atom": "OD2",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CZ",
+            "distance_A": 3.3853931427001953
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CD",
+            "distance_A": 3.5593364238739014
+          },
+          {
+            "binder_atom": "CA",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "O",
+            "distance_A": 3.7394659519195557
+          },
+          {
+            "binder_atom": "N",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "C",
+            "distance_A": 3.8224146366119385
+          },
+          {
+            "binder_atom": "CG",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "NH2",
+            "distance_A": 3.905430555343628
+          },
+          {
+            "binder_atom": "OD1",
+            "target_native": 208,
+            "target_residue": "ARG",
+            "target_atom": "CB",
+            "distance_A": 3.999601125717163
+          }
+        ],
+        "70": [
+          {
+            "binder_atom": "CG2",
+            "target_native": 209,
+            "target_residue": "LEU",
+            "target_atom": "CD1",
+            "distance_A": 3.521611213684082
+          },
+          {
+            "binder_atom": "CB",
+            "target_native": 209,
+            "target_residue": "LEU",
+            "target_atom": "CD1",
+            "distance_A": 3.7761197090148926
+          },
+          {
+            "binder_atom": "OG1",
+            "target_native": 205,
+            "target_residue": "LYS",
+            "target_atom": "CE",
+            "distance_A": 3.8117575645446777
+          },
+          {
+            "binder_atom": "OG1",
+            "target_native": 205,
+            "target_residue": "LYS",
+            "target_atom": "NZ",
+            "distance_A": 3.9402031898498535
+          },
+          {
+            "binder_atom": "CG2",
+            "target_native": 204,
+            "target_residue": "ASP",
+            "target_atom": "OD2",
+            "distance_A": 3.97589373588562
+          }
+        ]
+      }
+    }
+  ],
+  "interpretation": "Distance-only diagnostic; not proof of energetic contribution or mutation causality. Clash distances computed from saved PDB, rounded relative to raw prediction coordinates."
+}

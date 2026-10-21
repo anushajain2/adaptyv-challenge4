@@ -1,0 +1,34 @@
+[
+  {
+    "id": "apical_short_008",
+    "seed": 401,
+    "sample": 4,
+    "file": "reports/broad_validation/held_lead_models/apical_short_008_seed401_sample4.pdb",
+    "sha256": "06fdcde23598180105cb3a3553d7347a2f298ba92b0e5ce09398535b93d758ff",
+    "status": "Held; batch positive-control selection failed"
+  },
+  {
+    "id": "apical_short_008",
+    "seed": 503,
+    "sample": 4,
+    "file": "reports/broad_validation/held_lead_models/apical_short_008_seed503_sample4.pdb",
+    "sha256": "af4c2bd67ebcff10277d9de52996a26f948c5e953a677c3c218cf232b0375767",
+    "status": "Held; batch positive-control selection failed"
+  },
+  {
+    "id": "apical_long_015",
+    "seed": 401,
+    "sample": 4,
+    "file": "reports/broad_validation/held_lead_models/apical_long_015_seed401_sample4.pdb",
+    "sha256": "546a12c2f7d683e1d5ba64c581de33e6fa383cff10950b39a932846f5facbc76",
+    "status": "Held; batch positive-control selection failed"
+  },
+  {
+    "id": "apical_long_015",
+    "seed": 503,
+    "sample": 2,
+    "file": "reports/broad_validation/held_lead_models/apical_long_015_seed503_sample2.pdb",
+    "sha256": "32cf7ed6b87820f5793a3ff426d47eb9b1d9b1c0793e6a18e9de0042ffc9cc53",
+    "status": "Held; batch positive-control selection failed"
+  }
+]

@@ -1,0 +1,42 @@
+Seed set to 809
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Using model artifact: /root/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltz2_conf_final.ckpt
+Using dataset artifact: /root/.cache/huggingface/hub/datasets--boltzgen--inference-data/snapshots/c3d36fd276e9caf098c75d4113c6d5eb320b1a4c/mols.zip
+Initializing FromGeneratedDataModule datasets for /results/mutant-012-6wrw/seed-809
+[Info] Number of files to process (including already processed ones): 5
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 129, in _call_target
+    result = _target_(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/boltzgen/src/boltzgen/task/predict/data_from_generated.py", line 565, in __init__
+    self.init_dataset(
+  File "/opt/boltzgen/src/boltzgen/task/predict/data_from_generated.py", line 713, in init_dataset
+    re.search(rf"{self.cfg.target_id_regex}", p.stem).group(1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/results/mutant-012-6wrw/inputs/control_refold_worker.py", line 107, in <module>
+    main()
+  File "/results/mutant-012-6wrw/inputs/control_refold_worker.py", line 60, in main
+    task = hydra.utils.instantiate(cfg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 251, in instantiate
+    return _instantiate_impl(config, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 299, in _instantiate_impl
+    return instantiate_node(
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 415, in instantiate_node
+    value = instantiate_node(
+            ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 420, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 138, in _call_target
+    raise InstantiationException(_with_full_key(msg, full_key)) from e
+hydra.errors.InstantiationException: Error in call to target 'boltzgen.task.predict.data_from_generated.FromGeneratedDataModule':
+AttributeError("'NoneType' object has no attribute 'group'")
+full_key: data

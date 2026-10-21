@@ -1,0 +1,11 @@
+{
+  "status": "completed_batch_held",
+  "predictions_completed": 100,
+  "candidate_only_repeated_passes": 2,
+  "batch_controls_pass": false,
+  "provisional_parents": 0,
+  "histidine_scan_started": false,
+  "tests_passed": 36,
+  "gross_usage_high_water_usd": 7.66787069,
+  "upstream_issue_or_pr_filed": false
+}
