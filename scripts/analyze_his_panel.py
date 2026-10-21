@@ -78,7 +78,7 @@ def analyze(run,output,inputs):
         'candidate_summaries':summaries,'rows':rows,
         'interpretation':'Repeated structural self-consistency, not experimental validation. Nanobody confidence remains uncalibrated. No affinity, mouse binding or pH switching established.'}
     result['stage']='confirmation' if nseeds>=2 else 'screen';result['input_directory']=str(inputs.relative_to(ROOT))
-    result['mutation_interpretation']=('Independent mutant-sequence structural consistency only; confidence is not an affinity measurement. Earlier pKa evidence used locally rebuilt parent poses.' if any(c.get('mutations') for c in m['cases']) else 'Fresh-seed structural consistency of generated sequences; no mutation engineering or affinity measurement in this experiment.')
+    result['mutation_interpretation']=('Independent mutant-sequence structural consistency only; confidence is not an affinity measurement. Any pKa-direction evidence is evaluated separately with its source structures and limitations.' if any(c.get('mutations') for c in m['cases']) else 'Fresh-seed structural consistency of generated sequences; no mutation engineering or affinity measurement in this experiment.')
     (output/'results.json').write_text(json.dumps(result,indent=2))
     write_csv(output/'candidates.csv',[{'id':s['id'],'arm':s['arm'],'sequence':s['sequence'],
         'all_selected_seeds_candidate_screen':s['all_selected_seeds_candidate_screen'],'batch_controls_pass':controls_pass,

@@ -1,0 +1,167 @@
+{
+  "models": [
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1801,
+      "warning_groups": [],
+      "intra_target_nonbonded_pairs_lt1_8A": []
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1901,
+      "warning_groups": [],
+      "intra_target_nonbonded_pairs_lt1_8A": []
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1801,
+      "warning_groups": [
+        {
+          "crop_position": 150,
+          "native_position": 339,
+          "resname": "ARG",
+          "missing_expected_heavy_atoms": [],
+          "nearest_introduced_His_ring_A": 20.596649169921875
+        }
+      ],
+      "intra_target_nonbonded_pairs_lt1_8A": []
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1901,
+      "warning_groups": [
+        {
+          "crop_position": 180,
+          "native_position": 369,
+          "resname": "GLU",
+          "missing_expected_heavy_atoms": [],
+          "nearest_introduced_His_ring_A": 8.330178260803223
+        },
+        {
+          "crop_position": 181,
+          "native_position": 370,
+          "resname": "SER",
+          "missing_expected_heavy_atoms": [],
+          "nearest_introduced_His_ring_A": 4.736267566680908
+        }
+      ],
+      "intra_target_nonbonded_pairs_lt1_8A": [
+        {
+          "a": "A:180:GLU:C",
+          "b": "A:180:GLU:OE2",
+          "distance_A": 1.084804590698252,
+          "warning_residue_involved": true
+        },
+        {
+          "a": "A:180:GLU:O",
+          "b": "A:180:GLU:OE1",
+          "distance_A": 1.3112917295552526,
+          "warning_residue_involved": true
+        },
+        {
+          "a": "A:180:GLU:O",
+          "b": "A:180:GLU:CD",
+          "distance_A": 1.4407813852212283,
+          "warning_residue_involved": true
+        },
+        {
+          "a": "A:180:GLU:C",
+          "b": "A:180:GLU:CD",
+          "distance_A": 1.4522747673908012,
+          "warning_residue_involved": true
+        },
+        {
+          "a": "A:180:GLU:CA",
+          "b": "A:180:GLU:OE1",
+          "distance_A": 1.5322117999806684,
+          "warning_residue_involved": true
+        },
+        {
+          "a": "A:180:GLU:CA",
+          "b": "A:180:GLU:CD",
+          "distance_A": 1.730427114905451,
+          "warning_residue_involved": true
+        },
+        {
+          "a": "A:180:GLU:O",
+          "b": "A:180:GLU:OE2",
+          "distance_A": 1.7346279139919312,
+          "warning_residue_involved": true
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1801,
+      "warning_groups": [],
+      "intra_target_nonbonded_pairs_lt1_8A": []
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1901,
+      "warning_groups": [
+        {
+          "crop_position": 128,
+          "native_position": 317,
+          "resname": "ASN",
+          "missing_expected_heavy_atoms": [],
+          "nearest_introduced_His_ring_A": 34.170310974121094
+        }
+      ],
+      "intra_target_nonbonded_pairs_lt1_8A": [
+        {
+          "a": "A:127:PHE:C",
+          "b": "A:131:GLN:OE1",
+          "distance_A": 1.574841579334253,
+          "warning_residue_involved": false
+        },
+        {
+          "a": "A:127:PHE:CA",
+          "b": "A:131:GLN:OE1",
+          "distance_A": 1.597377225329069,
+          "warning_residue_involved": false
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1801,
+      "warning_groups": [],
+      "intra_target_nonbonded_pairs_lt1_8A": []
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1901,
+      "warning_groups": [
+        {
+          "crop_position": 150,
+          "native_position": 339,
+          "resname": "ARG",
+          "missing_expected_heavy_atoms": [],
+          "nearest_introduced_His_ring_A": 21.305932998657227
+        }
+      ],
+      "intra_target_nonbonded_pairs_lt1_8A": [
+        {
+          "a": "A:101:ILE:O",
+          "b": "A:150:ARG:NH2",
+          "distance_A": 1.7685219817689584,
+          "warning_residue_involved": true
+        }
+      ]
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1801,
+      "warning_groups": [],
+      "intra_target_nonbonded_pairs_lt1_8A": []
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1901,
+      "warning_groups": [],
+      "intra_target_nonbonded_pairs_lt1_8A": []
+    }
+  ],
+  "interpretation": "All findings are descriptive. Bond exclusions use standard PDB/OpenMM topology. Close nonbonded receptor geometry may disrupt distance-based protonation/bond assignment; this is not proof of each warning cause. No coordinates were changed, no pKa rerun, and no failed score was promoted."
+}

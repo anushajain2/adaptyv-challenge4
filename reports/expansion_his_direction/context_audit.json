@@ -1,0 +1,318 @@
+{
+  "models": [
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1801,
+      "pka_status": "ok",
+      "sites": [
+        {
+          "position": 3,
+          "ring_to_binder_termini_A": {
+            "N": 9.771693229675293,
+            "C_carboxyl": 9.687607765197754
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 211,
+              "resname": "TYR",
+              "ring_min_distance_A": 4.076370716094971,
+              "human_mouse_conserved": false
+            }
+          ],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1901,
+      "pka_status": "ok",
+      "sites": [
+        {
+          "position": 3,
+          "ring_to_binder_termini_A": {
+            "N": 9.712645530700684,
+            "C_carboxyl": 8.775911331176758
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 211,
+              "resname": "TYR",
+              "ring_min_distance_A": 4.564492702484131,
+              "human_mouse_conserved": false
+            }
+          ],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1801,
+      "pka_status": "failed",
+      "sites": [
+        {
+          "position": 57,
+          "ring_to_binder_termini_A": {
+            "N": 24.61807632446289,
+            "C_carboxyl": 9.483967781066895
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 204,
+              "resname": "ASP",
+              "ring_min_distance_A": 3.575423002243042,
+              "human_mouse_conserved": false
+            },
+            {
+              "target_native_position": 206,
+              "resname": "ASN",
+              "ring_min_distance_A": 3.6770215034484863,
+              "human_mouse_conserved": true
+            }
+          ],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        },
+        {
+          "position": 60,
+          "ring_to_binder_termini_A": {
+            "N": 30.84365463256836,
+            "C_carboxyl": 3.6346986293792725
+          },
+          "target_contacts_lt5A": [],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1901,
+      "pka_status": "failed",
+      "sites": [
+        {
+          "position": 57,
+          "ring_to_binder_termini_A": {
+            "N": 22.357961654663086,
+            "C_carboxyl": 7.896090507507324
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 204,
+              "resname": "ASP",
+              "ring_min_distance_A": 3.2974605560302734,
+              "human_mouse_conserved": false
+            },
+            {
+              "target_native_position": 206,
+              "resname": "ASN",
+              "ring_min_distance_A": 4.116351127624512,
+              "human_mouse_conserved": true
+            },
+            {
+              "target_native_position": 207,
+              "resname": "GLY",
+              "ring_min_distance_A": 3.774660110473633,
+              "human_mouse_conserved": true
+            },
+            {
+              "target_native_position": 370,
+              "resname": "SER",
+              "ring_min_distance_A": 4.736267566680908,
+              "human_mouse_conserved": false
+            }
+          ],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        },
+        {
+          "position": 60,
+          "ring_to_binder_termini_A": {
+            "N": 30.90812873840332,
+            "C_carboxyl": 6.805690765380859
+          },
+          "target_contacts_lt5A": [],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1801,
+      "pka_status": "ok",
+      "sites": [
+        {
+          "position": 19,
+          "ring_to_binder_termini_A": {
+            "N": 26.98029136657715,
+            "C_carboxyl": 25.013097763061523
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 374,
+              "resname": "LYS",
+              "ring_min_distance_A": 4.359078884124756,
+              "human_mouse_conserved": true
+            }
+          ],
+          "caution": "No ring atom within 10 A of binder termini; tag compatibility remains untested."
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1901,
+      "pka_status": "failed",
+      "sites": [
+        {
+          "position": 19,
+          "ring_to_binder_termini_A": {
+            "N": 25.758987426757812,
+            "C_carboxyl": 25.040515899658203
+          },
+          "target_contacts_lt5A": [],
+          "caution": "No ring atom within 10 A of binder termini; tag compatibility remains untested."
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1801,
+      "pka_status": "ok",
+      "sites": [
+        {
+          "position": 60,
+          "ring_to_binder_termini_A": {
+            "N": 9.940258026123047,
+            "C_carboxyl": 4.917154312133789
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 209,
+              "resname": "LEU",
+              "ring_min_distance_A": 3.71675443649292,
+              "human_mouse_conserved": true
+            }
+          ],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1901,
+      "pka_status": "failed",
+      "sites": [
+        {
+          "position": 60,
+          "ring_to_binder_termini_A": {
+            "N": 11.853979110717773,
+            "C_carboxyl": 6.166321277618408
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 209,
+              "resname": "LEU",
+              "ring_min_distance_A": 3.7463762760162354,
+              "human_mouse_conserved": true
+            }
+          ],
+          "caution": "Native termini or tag context may affect the calculation; no assay tag modeled."
+        }
+      ]
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1801,
+      "pka_status": "ok",
+      "sites": [
+        {
+          "position": 41,
+          "ring_to_binder_termini_A": {
+            "N": 10.238164901733398,
+            "C_carboxyl": 16.912351608276367
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 212,
+              "resname": "LEU",
+              "ring_min_distance_A": 3.6972100734710693,
+              "human_mouse_conserved": false
+            },
+            {
+              "target_native_position": 213,
+              "resname": "VAL",
+              "ring_min_distance_A": 4.763622760772705,
+              "human_mouse_conserved": true
+            },
+            {
+              "target_native_position": 214,
+              "resname": "GLU",
+              "ring_min_distance_A": 4.800551414489746,
+              "human_mouse_conserved": true
+            },
+            {
+              "target_native_position": 215,
+              "resname": "ASN",
+              "ring_min_distance_A": 3.886073350906372,
+              "human_mouse_conserved": false
+            },
+            {
+              "target_native_position": 344,
+              "resname": "LYS",
+              "ring_min_distance_A": 4.804135322570801,
+              "human_mouse_conserved": true
+            }
+          ],
+          "caution": "No ring atom within 10 A of binder termini; tag compatibility remains untested."
+        }
+      ]
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1901,
+      "pka_status": "ok",
+      "sites": [
+        {
+          "position": 41,
+          "ring_to_binder_termini_A": {
+            "N": 10.6171293258667,
+            "C_carboxyl": 17.58013343811035
+          },
+          "target_contacts_lt5A": [
+            {
+              "target_native_position": 212,
+              "resname": "LEU",
+              "ring_min_distance_A": 3.788306951522827,
+              "human_mouse_conserved": false
+            },
+            {
+              "target_native_position": 213,
+              "resname": "VAL",
+              "ring_min_distance_A": 4.613629341125488,
+              "human_mouse_conserved": true
+            },
+            {
+              "target_native_position": 214,
+              "resname": "GLU",
+              "ring_min_distance_A": 4.764846324920654,
+              "human_mouse_conserved": true
+            },
+            {
+              "target_native_position": 215,
+              "resname": "ASN",
+              "ring_min_distance_A": 4.152078151702881,
+              "human_mouse_conserved": false
+            },
+            {
+              "target_native_position": 344,
+              "resname": "LYS",
+              "ring_min_distance_A": 4.803562641143799,
+              "human_mouse_conserved": true
+            }
+          ],
+          "caution": "No ring atom within 10 A of binder termini; tag compatibility remains untested."
+        }
+      ]
+    }
+  ],
+  "scope": "Descriptive audit, not an extra post-hoc pass/fail rule. No energetic, tag-compatibility or mouse-binding claim."
+}

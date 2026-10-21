@@ -1,0 +1,7 @@
+{
+  "recorded_utc": "2026-10-21T12:11:46.232439+00:00",
+  "scope": "Bookkeeping clarification before any panel outcome inspection and before confirmation launch; screening and direction thresholds unchanged.",
+  "change": "Validate preparations against actual confidence-selected rows, not total cases times seeds, because a failed case can have no target-integrity-eligible sample. Such cases remain raw failures; they do not block scoring of other qualified variants.",
+  "old_sha256": "e0811f3075853477a246bc7093f60033cfa6a75a7c65f62fa0dcba84b255c106",
+  "new_sha256": "291e8fc6714b534d727a35360365cfba44b2924d7586aca04f7877418c1ac6fc"
+}

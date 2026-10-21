@@ -1,27 +1,28 @@
 # TfR1 challenge: computational binder and pH-direction campaign
 
-This project prepares a human TfR1 target, runs 25 miniprotein and 25 nanobody designs on Modal, and screens histidine pairs for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
+This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest result:** the [completed expansion and histidine follow-up](reports/next_round/RESULTS.md)
-produced **four new computational parents** that pass both fresh-seed human-target
-checks. The existing **A41H** variant shows consistent computed pKa lowering in
-two poses, but fails the strict free-pKa window in one pose; it remains an explicitly
-qualified hypothesis. Mouse cross-reactivity is **unknown**: the advisory comparison
-fails its matched AlphaFold-human positive control.
+**Latest result:** the [24-variant histidine follow-up](reports/expansion_his_direction/RESULTS.md)
+is complete. Four new variants pass both selected fresh-seed structural checks,
+but **none clears the strict two-pose pH-direction rule**. A41H remains the leading
+qualified hypothesis: it now shows pKa lowering in four accepted poses across
+two confirmation rounds, with the free-pKa heuristic failing in two poses.
+`short_026 E19H` has one encouraging usable pose; its second calculation is
+excluded by a receptor protonation warning. No experimental binding or switch is established.
 
-The new round generated 200 miniproteins and completed 599 predictions. Sixteen
-sequences pass the initial screen; six diverse candidates received confirmation,
-and four passed. [Review the five retained human leads](reports/next_round/review_bundle/manifest.json),
-including A41H, with their raw/prepared structures and full evidence. No experimental
-binding or pH-switching claim is made. The next recommendation is bounded histidine
-engineering on the new parents before further large-scale generation.
+The round completed 300 predictions and 60 uniform preparations. Four of ten
+direction-model calculations were excluded by receptor protonation warnings;
+expected heavy atoms are present, and some models have abnormal internal receptor
+geometry left unchanged by the fixed-receptor preparation. The next recommendation
+is a uniform receptor-preparation/protonation validation and assay-tag review
+before more generation. Original failures and thresholds remain preserved.
 
-The [historical results report](reports/RESULTS.md) preserves previous negative
-pilots, the broad 200-design screen, and rejection of D51H/T70H after independent
-mutant prediction. These earlier decisions have not been overwritten. The observed
-gross Modal usage high-water mark is approximately **US$9.96 before credits**, within the
-US$30 total; the meter may lag. All cloud apps are verified stopped. No upstream
-issue, PR or challenge submission has been filed.
+The [previous 200-design expansion](reports/next_round/RESULTS.md) supplies four
+computational parent scaffolds. Mouse cross-reactivity remains unknown after an
+inconclusive matched-conformation comparison. The latest recorded gross Modal
+usage is approximately **US$10.45 before credits**, within the **US$30 total**;
+billing may lag. All cloud jobs are stopped. No upstream issue, PR or challenge
+submission has been filed. [Review structures, checks and direction evidence](reports/expansion_his_direction/review_bundle/manifest.json).
 
 **Hotspot correction:** feature-level preflight found that our specifications
 combined `binding` and `not_binding` in one chain entry, but the pinned parser
@@ -45,7 +46,8 @@ and reproducibility records are in the results report.
 | Deliverable | Status |
 |---|---|
 | New apical expansion | 200 designs; 16 initial full passes; four new parents pass both fresh-seed checks |
-| Expanded His panel | 20 variants/comparator; A41H retained as a qualified direction hypothesis, zero strict both-pose direction passes |
+| Latest His follow-up | 24 new variants; four raw structural confirmations; zero strict two-pose direction passes; four receptor-protonation scoring exclusions |
+| Earlier His panel | 20 variants/comparator; A41H retained as a qualified direction hypothesis |
 | Advisory mouse comparison | Inconclusive because AlphaFold-human positive control fails |
 | Target structures, human/mouse conservation map, four hotspot sets | Generated |
 | Modal/BoltzGen pilot implementation | Both protocols completed successfully |
@@ -60,7 +62,7 @@ pilot used 25 designs per protocol; the earlier 20-design comparison had a separ
 **US$5 allowance within that total**, including its failed preflight attempt.
 No outcome is guaranteed within that budget.
 
-Local verification: **52 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **56 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.

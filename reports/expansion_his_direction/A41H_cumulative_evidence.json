@@ -1,0 +1,172 @@
+{
+  "models": [
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1103,
+      "positions": [
+        41
+      ],
+      "status": "ok",
+      "direction_pass": true,
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "free_pkas": [
+        6.405705567404332
+      ],
+      "bound_pkas": [
+        5.500266926414457
+      ],
+      "shifts": [
+        -0.9054386409898747
+      ],
+      "artificial_terminus_distance_A": 24.48650360107422,
+      "his_only_Kd6_over_Kd7_4": 2.476030350792488,
+      "source_sha256": "948e44b8aba1b2de4cb5362cc71470bc7230f4ee51ad65caa777b0e8190996e3",
+      "stage": "his_direction",
+      "source_result_sha256": "367ed25f09314dc726bc1721fee6f4d285d74383bd2e1a92d7fba30ee367e72e"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1201,
+      "positions": [
+        41
+      ],
+      "status": "ok",
+      "direction_pass": false,
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "free_pkas": [
+        7.301856463262677
+      ],
+      "bound_pkas": [
+        6.183445829390992
+      ],
+      "shifts": [
+        -1.1184106338716848
+      ],
+      "artificial_terminus_distance_A": 25.33056640625,
+      "his_only_Kd6_over_Kd7_4": 4.91497537435824,
+      "source_sha256": "83b4f1f294bc61bcc28b8c887f9af34ce05c3387c07e5481fc039e76f09d1d3d",
+      "stage": "his_direction",
+      "source_result_sha256": "367ed25f09314dc726bc1721fee6f4d285d74383bd2e1a92d7fba30ee367e72e"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1801,
+      "positions": [
+        41
+      ],
+      "status": "ok",
+      "direction_pass": false,
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "free_pkas": [
+        7.2354829299770875
+      ],
+      "bound_pkas": [
+        6.131477969877661
+      ],
+      "shifts": [
+        -1.1040049600994264
+      ],
+      "artificial_terminus_distance_A": 24.382755279541016,
+      "his_only_Kd6_over_Kd7_4": 4.837055471815476,
+      "source_sha256": "4131db29078c34eb7bba6b35c68016acf03b898031c91c300b88f25a50410e9e",
+      "stage": "expansion_his_direction",
+      "source_result_sha256": "07da02ad366255817449bc1d3f4a9d438942b8e71e4a7cfdcb92471e17440b04"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1901,
+      "positions": [
+        41
+      ],
+      "status": "ok",
+      "direction_pass": true,
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "free_pkas": [
+        6.3728280766866146
+      ],
+      "bound_pkas": [
+        5.3222573069609895
+      ],
+      "shifts": [
+        -1.050570769725625
+      ],
+      "artificial_terminus_distance_A": 25.058406829833984,
+      "his_only_Kd6_over_Kd7_4": 2.559250657325037,
+      "source_sha256": "a081604f901f8fa49919eb971c43b3572e1a2ba4ad381e54448a32318523f08f",
+      "stage": "expansion_his_direction",
+      "source_result_sha256": "07da02ad366255817449bc1d3f4a9d438942b8e71e4a7cfdcb92471e17440b04"
+    }
+  ],
+  "confirmations": [
+    {
+      "stage": "his_confirmation",
+      "passing_samples": 9,
+      "total_samples": 10,
+      "both_selected_raw_pass": true
+    },
+    {
+      "stage": "expansion_his_confirmation",
+      "passing_samples": 8,
+      "total_samples": 10,
+      "both_selected_raw_pass": true
+    }
+  ],
+  "strict_model_passes": 2,
+  "total_models": 4,
+  "all_four_negative_shifts": true,
+  "sample_pass_total": 17,
+  "sample_total": 20,
+  "limitation": "Same predictor and pKa model; pooled descriptive evidence does not override any per-run gate or establish binding or a switch."
+}

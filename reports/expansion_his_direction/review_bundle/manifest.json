@@ -1,0 +1,293 @@
+{
+  "variants": [
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "parent_id": "expansion_apical_long_092",
+      "sequence": "RVHARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "new_parent_variant": true,
+      "comparison_only": false,
+      "matched_parent_passes_both_seeds": true,
+      "strict_direction_pass": false,
+      "models": [
+        {
+          "seed": 1801,
+          "files": {
+            "raw_complex.pdb": "cf78d369f6cd94d9c017d0d734e153eb8728b6934cd28a58f1b973b226c382b8",
+            "complex.pka.json": "67b654a2117f1ed41e20c07dcc281009ff23d4e28eeb0d27e42a2fd130dc7f81",
+            "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "free_binder.pka.json": "36ee99542e8d57a5672a438723f4e23fe5aa00c7bcf22438b0f72d44f8bf7ae2",
+            "free_binder.pdb": "c3aa2a464c22d1b033e5a37e1c1fe56309d75ec0add83364bc25dea25a952b5b",
+            "complex.pdb": "ce00de8c7e239a4cdd7b02e7e72ae2e3f4ac454085655a87d42977f6ec957d69",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_long_092_R3H_seed1801"
+        },
+        {
+          "seed": 1901,
+          "files": {
+            "raw_complex.pdb": "1dbe511f55dbc4cc9614a21a24a4f5099d539c08f49c3be854e674add4c42bf1",
+            "complex.pka.json": "a3fa0e658a0be2a5dc72d614e9931114d8bc48e3b12cb1857a189228d64f6d16",
+            "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "free_binder.pka.json": "69f0bc8f51b436decb94900f8e37696ef5240a27e65573b8a750a5b3e889267c",
+            "free_binder.pdb": "1ff7e3a741019c0a9c1a180c9e94550ed36bf3747f68f52ae487db621564a4e1",
+            "complex.pdb": "7be4933699a94739ce8a7a45cafa07b7e5a6ff73f6c025f43528dfbfb1c95e1c",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_long_092_R3H_seed1901"
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "parent_id": "expansion_apical_short_018",
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDHLKHK",
+      "new_parent_variant": true,
+      "comparison_only": false,
+      "matched_parent_passes_both_seeds": false,
+      "strict_direction_pass": false,
+      "models": [
+        {
+          "seed": 1801,
+          "files": {
+            "raw_complex.pdb": "343711760d36cbde9653d3e4289ee6b655de839f04166665deaea5657e417052",
+            "complex.pka.json": "9fe55a3d178c5f3f9e4b7649f302d6eb4f5560c030a7269a9b3b6b10089d0623",
+            "complex.propka_warnings.json": "8de656df942c03ea5e6523e3f639d2c5ecbae2387e3581a67c19a2654940a116",
+            "free_binder.pka.json": "61949a2a058ecd921232a37959990ae1a78ec197e982ff688b7311f01d196755",
+            "free_binder.pdb": "3ba0e4b7c1229b760dd871996712b8060044eb35414f391c71e5adff0636b98f",
+            "complex.pdb": "335caf72500abc4cea9f70f3d1ef786cd2049606c73069838be37dbe379474af",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_018_E57H_K60H_seed1801"
+        },
+        {
+          "seed": 1901,
+          "files": {
+            "raw_complex.pdb": "951333ecc80d013ae7fa0e861913e13cc52ff4ea04606c827b6dae882f86fc45",
+            "complex.pka.json": "28bc8371eb775392d15bac91965924a1db051da5c75570d3066d301bd9e9f722",
+            "complex.propka_warnings.json": "8235a0d4cd9eedceebb1a0be5d975990e2ba3e06a744f9d52ea9898928ac77ab",
+            "free_binder.pka.json": "b0ebc93ed5a62803a2579f7c23ac78d92c26768fca73936347da759747bd8fca",
+            "free_binder.pdb": "e1c80d55feb696492938b731e81be6458fde787fe71ddc77e7e821789f326942",
+            "complex.pdb": "8ad0e7c8e6b89ebc1152463d155c60ebc77cd395ae8d02e05e29c62fc5abf364",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_018_E57H_K60H_seed1901"
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "parent_id": "expansion_apical_short_026",
+      "sequence": "GQVALEVEYKGISLEEALHITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "new_parent_variant": true,
+      "comparison_only": false,
+      "matched_parent_passes_both_seeds": true,
+      "strict_direction_pass": false,
+      "models": [
+        {
+          "seed": 1801,
+          "files": {
+            "raw_complex.pdb": "5700ddc9aaf3295860208a77c81d425f3b61d8c586f9eff07bd5150a01d44fad",
+            "complex.pka.json": "82c24f4897219b263b6fa4fe9e006f089cb65997dd6674c8ca5001ab18115a28",
+            "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "free_binder.pka.json": "098174b5d1590e8f850ee57c9412ddab7f9e62df1c7c8ec6e705c5ef3a27e8d4",
+            "free_binder.pdb": "59fe0fbae514efdd5d5e499effc9f64b3de78cc11acb9cb11001626ce01a0959",
+            "complex.pdb": "1403fdd5d8e067ebfd1a8087158e44acd987763d840b3415257104213b10f822",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_026_E19H_seed1801"
+        },
+        {
+          "seed": 1901,
+          "files": {
+            "raw_complex.pdb": "3f1b24ce8413c66611b7e93cd7c13edea9933e22ae51c3c5698b3f51c8700d81",
+            "complex.pka.json": "25afceb4e52cd098230ca5870d4d351719a226bd7b57b83451315df5a23fcc16",
+            "complex.propka_warnings.json": "e03cc00b6bbfed7696068928e193ece199bea46ce7137aecf8d51d71b9d0b745",
+            "free_binder.pka.json": "6471f617e0394e5e0f6bb147cd3fd10267d877ca552fe65c152a9eebcf3da4f5",
+            "free_binder.pdb": "4a51374440076f01625c7b3c0360d5a36d20771a0916a08aed4110779ad8419e",
+            "complex.pdb": "0ab1d76147282c3a338bc304fefc9bd6ef592741ae4e9f39adbd86b5d0b0a247",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_026_E19H_seed1901"
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "parent_id": "expansion_apical_short_026",
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKHEL",
+      "new_parent_variant": true,
+      "comparison_only": false,
+      "matched_parent_passes_both_seeds": true,
+      "strict_direction_pass": false,
+      "models": [
+        {
+          "seed": 1801,
+          "files": {
+            "raw_complex.pdb": "68453a33d7dc821f745c0349f70a44bb2330f1858e069d16766f0c904f713c84",
+            "complex.pka.json": "d0232567209d45e7d1679c4fb2255f2597df7ee7144b7699de40ae7c7c1ef7c5",
+            "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "free_binder.pka.json": "249a0c0b2515dde2d4d3abba412511e7ca2a264613bf0c6d67fdadbc1ae3d01b",
+            "free_binder.pdb": "dc212823c1b927187188607c053f09ef808417eb93021c20702b43111e1a1055",
+            "complex.pdb": "f99752cd0ec94b952d75719fec6ef64d67c31708440459ec4a2733fbcf700e51",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_026_V60H_seed1801"
+        },
+        {
+          "seed": 1901,
+          "files": {
+            "raw_complex.pdb": "76ccb8d532033ebb164457b8aeb421c5e7c89dc3bad3a4bfbccf53615b512986",
+            "complex.pka.json": "ef633f67970fb15e1b41a7e69e00ae0c229e1f63c1c23788636a02e173199bfa",
+            "complex.propka_warnings.json": "84939556822b18e08aa02b4c68a9577a4d19c5a3e34e1db732cc4e5d0120e338",
+            "free_binder.pka.json": "361d8ab3dfdea9bcaa32de46b14ece5af40bf539a25cbbe768d6d8d09ee7d7e3",
+            "free_binder.pdb": "f0f7416dc482b7ea6e0ae5e3cce264678578f6af0344b64fc29bfe3726882a69",
+            "complex.pdb": "d061b6fade39855199b724a1d72a5f6e84a017975f242a24b281613e56012c4c",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_026_V60H_seed1901"
+        }
+      ]
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "parent_id": "apical_short_008",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "new_parent_variant": false,
+      "comparison_only": true,
+      "matched_parent_passes_both_seeds": true,
+      "strict_direction_pass": false,
+      "models": [
+        {
+          "seed": 1801,
+          "files": {
+            "raw_complex.pdb": "9da8d3a6131fbb639606466d86a6ac54f4c5574f578ad991d98bb47d0cb9480b",
+            "complex.pka.json": "01deff137db7e4614ffcc86cc7f40867599c845f69e1cfad920873d1f0b5672b",
+            "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "free_binder.pka.json": "d4ba13f988fd6dfcd91638eac2748e909826a0d53ad7e4331554e8a18d41d7fb",
+            "free_binder.pdb": "2695d9ae19c41af90e2e086519a1aa90dbbcaa76c2f78720a90b923f684d08c6",
+            "complex.pdb": "4131db29078c34eb7bba6b35c68016acf03b898031c91c300b88f25a50410e9e",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/apical_short_008_A41H_seed1801"
+        },
+        {
+          "seed": 1901,
+          "files": {
+            "raw_complex.pdb": "2df0c880d182eaff4d52fcddbf70d51a153c04d142eaa937b3990257db11debe",
+            "complex.pka.json": "8e325e0d10c9582a0eb6d28a5f57750c6179982fb9b432aa95132ed7caab3831",
+            "complex.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "free_binder.pka.json": "585f3183064d4a037cb3200925d5e751ba9b1558135d49ca4e7d5e4e41f21ed5",
+            "free_binder.pdb": "e8b4f9a85aeca8f855fd3d019278a8cee50b9f724040d0b80c7e897de78d3d27",
+            "complex.pdb": "a081604f901f8fa49919eb971c43b3572e1a2ba4ad381e54448a32318523f08f",
+            "free_binder.propka_warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+          },
+          "path": "reports/expansion_his_direction/review_bundle/apical_short_008_A41H_seed1901"
+        }
+      ]
+    }
+  ],
+  "parents": [
+    {
+      "id": "expansion_apical_short_018",
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "both_selected_raw_checks_pass": false,
+      "models": [
+        {
+          "seed": 1801,
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_018_seed1801",
+          "files": {
+            "raw_complex.pdb": "193bf40a9dffa08b24094fb352852ee8340a70407d2d32b99337b329cdc54b7e",
+            "prepared.pdb": "5bd557561fcc80f7cea37a6aabf566f488bd3d72769b01242f3870292cae720e",
+            "preparation.json": "d1c8a14012cb4fc86938999910d9e579665bcc0fab1a763a0e3e7574d72e5490"
+          }
+        },
+        {
+          "seed": 1901,
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_018_seed1901",
+          "files": {
+            "raw_complex.pdb": "c28a395348684a96427168357f8420db1c9604be2b0a341099031f7cb4f613d2",
+            "prepared.pdb": "e524af29db300540471d26ecd475dc4553b32d40af330c6719646c0707bcd16a",
+            "preparation.json": "a5cc1a7dc1429bef52f1af38a7af6b12dd68b55927e2a03ed97d715456cc6712"
+          }
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "both_selected_raw_checks_pass": true,
+      "models": [
+        {
+          "seed": 1801,
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_026_seed1801",
+          "files": {
+            "raw_complex.pdb": "7ee312f59f1019fb4653319e867c1f971038692649d1a945b659be796050ef40",
+            "prepared.pdb": "9528c4dcfb1a6c862d49229c2b45d7d16e86dc2fbc98559d05c97831d94cd2ab",
+            "preparation.json": "439560c9e565057c7dc81ac27375aa98b9a5a45fd5aacd2ed7281b22abb3d5a9"
+          }
+        },
+        {
+          "seed": 1901,
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_short_026_seed1901",
+          "files": {
+            "raw_complex.pdb": "1651d2491fabbe26bb295ae143a1d04a0405845a4ab67457d82177ee14438648",
+            "prepared.pdb": "e42e72e1331d320b9c98b823b7ebde9696d09bf9f49b19d0eb33b49dbdb486b8",
+            "preparation.json": "6dfd3304d6bfc5b6cec4545a3ddd9cb2d70757a1ca7e10f94a0c5050b6c161ce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "both_selected_raw_checks_pass": true,
+      "models": [
+        {
+          "seed": 1801,
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_long_092_seed1801",
+          "files": {
+            "raw_complex.pdb": "47f0b9448984e2d0cac12d6f219bed9918aa9ca15b7f4db6edadd97c1ff8cce0",
+            "prepared.pdb": "2da73b80ce960d9e8b4212e27ae9ac5d768351bca0d40d8bb8ce8952819e4bd5",
+            "preparation.json": "be6598109eeefdffdfd1367fe99ce1d94e164797575d0ef64b152f3aa9570e96"
+          }
+        },
+        {
+          "seed": 1901,
+          "path": "reports/expansion_his_direction/review_bundle/expansion_apical_long_092_seed1901",
+          "files": {
+            "raw_complex.pdb": "4c5c7ffee6c24362667c2c5bad65fa27b3d697ad4a16f8c98420c19cb9a4b2dc",
+            "prepared.pdb": "af0f76327e2aebeb8acae9768d7b1554cc22d5ee232917bcd932a357f078e8b7",
+            "preparation.json": "ef039f873c759f845ac0b99ab19434b1bd4aa4ad21fcf45aaa449022f7cd872c"
+          }
+        }
+      ]
+    },
+    {
+      "id": "apical_short_008",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLAEDRFFSPEELLELVREL",
+      "both_selected_raw_checks_pass": true,
+      "models": [
+        {
+          "seed": 1801,
+          "path": "reports/expansion_his_direction/review_bundle/apical_short_008_seed1801",
+          "files": {
+            "raw_complex.pdb": "967aa6af6bf0d649173491c01d78bd33b398e1ea97b95c83a057069df3480ab0",
+            "prepared.pdb": "5da62df0d47c849fa7bd5bd51ba0345051a659c0bb6e8adc4b70f89de2b647c2",
+            "preparation.json": "42c591e68e4ebd482af0ca557b970ecac514142b419bd0a9daf0065fcd0b418a"
+          }
+        },
+        {
+          "seed": 1901,
+          "path": "reports/expansion_his_direction/review_bundle/apical_short_008_seed1901",
+          "files": {
+            "raw_complex.pdb": "1ca0f2a12a8f645b50776ddde52c8d823e8b011bddde1d86dee3490832ede902",
+            "prepared.pdb": "65fc2d2bf7ac6e31c40509c08e27391b4ec751304ad495026b2374fde001edb2",
+            "preparation.json": "c9a19f8284c5d94d7ce93a10516fa8dc444f119a26539226cad4cc28e223602d"
+          }
+        }
+      ]
+    }
+  ],
+  "experimental_binding_and_switching_unvalidated": true,
+  "all_failed_direction_evidence_preserved": true
+}

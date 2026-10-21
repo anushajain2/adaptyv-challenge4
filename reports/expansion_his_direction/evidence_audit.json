@@ -1,0 +1,65 @@
+{
+  "models": [
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1801,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1901,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1801,
+      "status": "not_scored",
+      "failure_preserved": true
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1901,
+      "status": "not_scored",
+      "failure_preserved": true
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1801,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1901,
+      "status": "not_scored",
+      "failure_preserved": true
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1801,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1901,
+      "status": "not_scored",
+      "failure_preserved": true
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1801,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": false
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1901,
+      "saved_tables_and_atoms_match": true,
+      "strict_rule_recomputed": true
+    }
+  ],
+  "result": "All scored saved models and pKa tables match; no warnings in scored models; strict and preparation failures preserved"
+}

@@ -1,0 +1,215 @@
+{
+  "source_results_sha256": "39463bd01f5d348c4d6bbbe8939213e2798945b998b086b1003aac7fe23a36ac",
+  "protocol": {
+    "version": 1,
+    "method": "Amber14/GBn2; fixed receptor; binder backbone restrained at 1000 kJ/mol/nm^2",
+    "seed": 43,
+    "pH_for_hydrogen_placement": 7.4,
+    "max_iterations": 500,
+    "hard_timeout_seconds": 180,
+    "max_binder_backbone_rms_displacement_A": 0.5,
+    "max_binder_backbone_atom_displacement_A": 1.0,
+    "max_target_atom_displacement_A": 0.01,
+    "policy": "Apply to every selected candidate and control, irrespective of raw outcome. Preserve raw decisions; no alternate sample or repeat relaxation after failure. Prepared evidence is a separate prospective diagnostic, not retrospective qualification."
+  },
+  "local_workers": 4,
+  "plan": [
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1801,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_short_018/2/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_018_seed1801"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1801,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_short_026/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_026_seed1801"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1801,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_long_092/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_long_092_seed1801"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1801,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/2ds25_5_6wrw/1/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/2ds25_5_6wrw_seed1801"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1801,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/scrambled_6wrw/2/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/scrambled_6wrw_seed1801"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1801,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/caplacizumab_6wrw/0/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/caplacizumab_6wrw_seed1801"
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1801,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_long_092_R3H/2/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_long_092_R3H_seed1801"
+    },
+    {
+      "id": "expansion_apical_long_092_E53H",
+      "seed": 1801,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_long_092_E53H/2/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_long_092_E53H_seed1801"
+    },
+    {
+      "id": "expansion_apical_short_018_K3H",
+      "seed": 1801,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_short_018_K3H/1/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_018_K3H_seed1801"
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1801,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_short_018_E57H_K60H/3/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_018_E57H_K60H_seed1801"
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1801,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_short_026_E19H/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_026_E19H_seed1801"
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1801,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_short_026_V60H/0/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_026_V60H_seed1801"
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 1801,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/apical_short_008/0/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/apical_short_008_seed1801"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1801,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/apical_short_008_A41H/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/apical_short_008_A41H_seed1801"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1901,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_018/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_018_seed1901"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1901,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_026/2/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_026_seed1901"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1901,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_long_092/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_long_092_seed1901"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1901,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/2ds25_5_6wrw/1/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/2ds25_5_6wrw_seed1901"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1901,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/scrambled_6wrw/1/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/scrambled_6wrw_seed1901"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1901,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/caplacizumab_6wrw/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/caplacizumab_6wrw_seed1901"
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1901,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_long_092_R3H/4/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_long_092_R3H_seed1901"
+    },
+    {
+      "id": "expansion_apical_long_092_E53H",
+      "seed": 1901,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_long_092_E53H/1/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_long_092_E53H_seed1901"
+    },
+    {
+      "id": "expansion_apical_short_018_K3H",
+      "seed": 1901,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_018_K3H/2/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_018_K3H_seed1901"
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1901,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_018_E57H_K60H/3/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_018_E57H_K60H_seed1901"
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1901,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_026_E19H/3/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_026_E19H_seed1901"
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1901,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_026_V60H/1/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/expansion_apical_short_026_V60H_seed1901"
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 1901,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/apical_short_008/2/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/apical_short_008_seed1901"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1901,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/apical_short_008_A41H/0/model.pdb",
+      "dest": "reports/expansion_his_confirmation/preparation/models/apical_short_008_A41H_seed1901"
+    }
+  ],
+  "rows": []
+}

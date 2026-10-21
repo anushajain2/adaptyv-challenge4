@@ -1,0 +1,16 @@
+[
+  "Missing atoms or failed protonation for ARG 150 A (ARG) -- please check the structure",
+  "Group (ARG) for  1143-  CZ   150-ARG (A) [  10.301   -1.117   15.214] C",
+  "Expected 8 interaction atoms for acids, found:",
+  "              1145- NH2   150-ARG (A) [  10.905   -0.076   15.786] N",
+  "              1144- NH1   150-ARG (A) [   9.574   -1.962   15.910] N",
+  "              1142-  NE   150-ARG (A) [  10.413   -1.309   13.940] N",
+  "                 0- HH2   150-ARG (A) [  10.152    0.597   15.760] H",
+  "                 0-HH11   150-ARG (A) [   9.465   -1.834   16.906] H",
+  "                 0-HH12   150-ARG (A) [   9.124   -2.740   15.449] H",
+  "                 0-  HE   150-ARG (A) [  10.929   -0.640   13.387] H",
+  "Expected 3 interaction atoms for bases, found:",
+  "              1145- NH2   150-ARG (A) [  10.905   -0.076   15.786] N",
+  "              1144- NH1   150-ARG (A) [   9.574   -1.962   15.910] N",
+  "              1142-  NE   150-ARG (A) [  10.413   -1.309   13.940] N"
+]

@@ -2,7 +2,15 @@
 
 The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
 
-## Latest expansion and histidine follow-up — 21 October 2026
+## Latest new-parent His panel — 21 October 2026
+
+**The 24-variant follow-up is complete: four new structural confirmations, but no strict two-pose direction pass.** A41H again gives consistent pKa lowering in two new accepted poses; across both direction rounds it has four negative shifts, while two poses miss the frozen free-pKa window. The new short_026 E19H variant has one encouraging usable pose and one calculation excluded by a receptor protonation warning. It is an incomplete secondary hypothesis, not a newly validated switch.
+
+This round completed 300 predictions and 60 uniform preparations. All selected structural controls pass. Four of ten admitted direction calculations fail receptor protonation checks; all expected warning-residue heavy atoms are present, and some affected receptors have abnormal internal geometry that the fixed-receptor preparation leaves unchanged. Those failures remain excluded rather than repaired selectively or interpreted as negative pH results. The next recommendation is a uniform preparation/protonation validation and assay-tag review before additional generation.
+
+See the [full report](expansion_his_direction/RESULTS.md), [review bundle](expansion_his_direction/review_bundle/manifest.json), and [300-sample/source audit](expansion_his_direction/round_evidence_audit.json). Latest recorded gross usage is approximately **$10.45 before credits**, subject to meter lag, with all cloud apps stopped. Fifty-six tests pass. No upstream issue, PR or challenge submission was filed. Binding, acidic release and mouse cross-reactivity remain experimentally unvalidated.
+
+## Earlier expansion and histidine follow-up — 21 October 2026
 
 **Four new human-target parents pass both fresh-seed structural checks; A41H is retained as a qualified pH-direction hypothesis.** The additional 200-design apical campaign yields 16 initial full passes; four of six prospectively selected diverse candidates pass confirmation, with all selected controls passing. The 20-variant/comparator His panel and fresh-seed follow-up identify A41H as the strongest retained variant: 9/10 raw sample passes, two consistent negative pKa shifts, but one failure of the strict free-pKa 6–7 heuristic. The strict direction-pass count remains zero. No experimental binding or pH switching is established.
 

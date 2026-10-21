@@ -1,0 +1,8 @@
+[
+  "Missing atoms or failed protonation for ASN 128 A (BBN) -- please check the structure",
+  "Group (BBN) for   968-   N   128-ASN (A) [ -12.561   -0.127   28.393] N",
+  "Expected 2 interaction atoms for acids, found:",
+  "               968-   N   128-ASN (A) [ -12.561   -0.127   28.393] N",
+  "Expected 2 interaction atoms for bases, found:",
+  "               968-   N   128-ASN (A) [ -12.561   -0.127   28.393] N"
+]

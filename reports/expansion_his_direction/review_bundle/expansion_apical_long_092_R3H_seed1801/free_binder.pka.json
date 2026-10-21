@@ -1,0 +1,233 @@
+[
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "ARG",
+    "group": "N+",
+    "pka": 8.476441164083448
+  },
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.820539978496662
+  },
+  {
+    "chain": "B",
+    "residue": 3,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 7.042314732685368
+  },
+  {
+    "chain": "B",
+    "residue": 5,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 14.188628730659953
+  },
+  {
+    "chain": "B",
+    "residue": 9,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.3452926861731855
+  },
+  {
+    "chain": "B",
+    "residue": 13,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.9691978530673095
+  },
+  {
+    "chain": "B",
+    "residue": 15,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.580163867419179
+  },
+  {
+    "chain": "B",
+    "residue": 16,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.63285859934257
+  },
+  {
+    "chain": "B",
+    "residue": 17,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.797467298328971
+  },
+  {
+    "chain": "B",
+    "residue": 19,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.655900394107194
+  },
+  {
+    "chain": "B",
+    "residue": 20,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.888820739349211
+  },
+  {
+    "chain": "B",
+    "residue": 23,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.619805665098456
+  },
+  {
+    "chain": "B",
+    "residue": 27,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.519138172055388
+  },
+  {
+    "chain": "B",
+    "residue": 30,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.379538393768875
+  },
+  {
+    "chain": "B",
+    "residue": 31,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.400719349903124
+  },
+  {
+    "chain": "B",
+    "residue": 33,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.1027703223913545
+  },
+  {
+    "chain": "B",
+    "residue": 35,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.638277041413692
+  },
+  {
+    "chain": "B",
+    "residue": 41,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.7837884429550854
+  },
+  {
+    "chain": "B",
+    "residue": 43,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.281930153505859
+  },
+  {
+    "chain": "B",
+    "residue": 44,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.575379171003032
+  },
+  {
+    "chain": "B",
+    "residue": 45,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 2.779875580612726
+  },
+  {
+    "chain": "B",
+    "residue": 47,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 13.916965593158555
+  },
+  {
+    "chain": "B",
+    "residue": 53,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.460381315179001
+  },
+  {
+    "chain": "B",
+    "residue": 55,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.307689240464517
+  },
+  {
+    "chain": "B",
+    "residue": 60,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.81111853577622
+  },
+  {
+    "chain": "B",
+    "residue": 61,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.9949036515917484
+  },
+  {
+    "chain": "B",
+    "residue": 63,
+    "resname": "ARG",
+    "group": "ARG",
+    "pka": 12.462209161468953
+  },
+  {
+    "chain": "B",
+    "residue": 67,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.642773721641911
+  },
+  {
+    "chain": "B",
+    "residue": 71,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.785397663632056
+  },
+  {
+    "chain": "B",
+    "residue": 80,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.636549436825504
+  },
+  {
+    "chain": "B",
+    "residue": 85,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.598619754437596
+  },
+  {
+    "chain": "B",
+    "residue": 88,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.624871097833136
+  },
+  {
+    "chain": "B",
+    "residue": 89,
+    "resname": "LEU",
+    "group": "COO",
+    "pka": 2.780392513136514
+  }
+]

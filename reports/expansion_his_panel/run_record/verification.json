@@ -1,0 +1,7 @@
+{
+  "all_input_hashes_match": true,
+  "analysis_matches_prelaunch_snapshot": true,
+  "archived_source_hashes_match": true,
+  "preflight_case_count_and_masks_pass": true,
+  "worker_statuses_pass": true
+}

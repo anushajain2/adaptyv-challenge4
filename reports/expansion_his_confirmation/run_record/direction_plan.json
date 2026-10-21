@@ -1,0 +1,16 @@
+{
+  "frozen_before_panel_results": true,
+  "eligibility": "Both fresh confirmation seeds pass unchanged raw screen and controls pass. Uniform prepared models must pass displacement guard, full-context geometry, and original pose/contact checks. Never substitute an unselected sample.",
+  "positions": "Only introduced histidines in selected variants; no further mutation scan.",
+  "criteria": {
+    "each_bound_minus_free_pka_max": -0.5,
+    "at_least_one_free_pka_in": [
+      6,
+      7
+    ],
+    "His_only_independent_site_Kd6_over_Kd7_4_min": 2,
+    "min_artificial_target_terminus_distance_A": 10
+  },
+  "scope": "Two independently predicted interfaces, one frozen preparation each. Single-His results remain hypotheses; not measured affinity or pH switching. Prepared free binder uses bound conformation; receptor crop and independent-site approximation limit interpretation.",
+  "matched_parent_policy": "Report parent pass in both fresh seeds separately; variant-only passes are not evidence of improved affinity."
+}

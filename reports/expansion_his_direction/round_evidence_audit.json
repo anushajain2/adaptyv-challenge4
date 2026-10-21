@@ -1,0 +1,30 @@
+{
+  "audited_utc": "2026-10-21T12:45:00.435007+00:00",
+  "phases": [
+    {
+      "phase": "panel",
+      "predictions": 160,
+      "selected_models": 32,
+      "prepared": 32,
+      "preparation_execution_ok": 32,
+      "preparation_movement_pass": 28,
+      "controls_pass": true,
+      "all_sample_and_source_checks_pass": true
+    },
+    {
+      "phase": "confirmation",
+      "predictions": 140,
+      "selected_models": 28,
+      "prepared": 28,
+      "preparation_execution_ok": 28,
+      "preparation_movement_pass": 26,
+      "controls_pass": true,
+      "all_sample_and_source_checks_pass": true
+    }
+  ],
+  "frozen_confirmation_selection_matches": true,
+  "direction_implementation_matches_confirmation_snapshot": true,
+  "strict_direction_new_variant_passes": 0,
+  "comparison_direction_passes": 0,
+  "review_bundle_hashes_match": true
+}
