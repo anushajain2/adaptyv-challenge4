@@ -28,6 +28,40 @@ def sequence_flags(identity, query_coverage, evalue):
             'near_identical_sequence_review_flag':identity>=.9 and query_coverage>=.8 and evalue<=1e-3}
 
 
+def parse_blast(payload, expected_sequences):
+    """Reject incomplete/mismatched output; flags apply to individual HSPs."""
+    rows_by_query=[];seen=set()
+    for item in payload['BlastOutput2']:
+        report=item['report'];search=report['results']['search'];rows=[]
+        name=search['query_title']
+        assert report['program']=='blastp'
+        assert name in expected_sequences and name not in seen
+        assert search['query_len']==len(expected_sequences[name])
+        seen.add(name)
+        for h in search.get('hits',[]):
+            for a in h['hsps']:
+                ident=a['identity']/a['align_len'];qcov=(a['query_to']-a['query_from']+1)/search['query_len']
+                tcov=(a['hit_to']-a['hit_from']+1)/h['len']
+                rows.append({'descriptions':h['description'],'subject_length':h['len'],**a,
+                             'sequence_identity':ident,'query_coverage':qcov,'target_coverage':tcov,
+                             **sequence_flags(ident,qcov,a['evalue'])})
+        rows_by_query.append({'query':name,'status':'complete','query_length':search['query_len'],
+                             'statistics':search.get('stat'),'masking':search.get('query_masking',[]),
+                             'message':search.get('message'),'database':report['search_target'],
+                             'program':report['program'],'version':report['version'],'parameters':report['params'],
+                             'hits':rows})
+    assert seen==set(expected_sequences), 'Missing BLAST query results'
+    return rows_by_query
+
+
+def human_tfr1_retrieved(rows):
+    """Require human TfR1 accession P02786, not merely a similar control hit."""
+    import re
+    return any(h['sequence_identity']>=.99 and h['query_coverage']>=.99 and h['evalue']<=1e-10
+               and any('P02786' in re.split(r'[|.\s]+',str(d.get('accession',''))+' '+str(d.get('id','')))
+                       for d in h['descriptions']) for h in rows)
+
+
 def structural_alignment(x, y, sx, sy):
     assert x.shape==(len(sx),3) and y.shape==(len(sy),3)
     assert np.isfinite(x).all() and np.isfinite(y).all()
@@ -91,22 +125,12 @@ def analyze():
                      'total_count':response['data'].get('total_count',0),'returned_hit_count':len(rows),'hits':rows})
     blast=[]
     bp=OUT/'blast/results.json'
+    source='NCBI_remote'
+    if not bp.exists() and (OUT/'local_swissprot/results.json').exists():
+        bp=OUT/'local_swissprot/results.json';source='local_UniProtKB_SwissProt_canonical'
     if bp.exists():
-        reports=json.loads(bp.read_text())['BlastOutput2']
-        for item in reports:
-            report=item['report'];search=report['results']['search'];rows=[]
-            for h in search.get('hits',[]):
-                for a in h['hsps']:
-                    ident=a['identity']/a['align_len'];qcov=(a['query_to']-a['query_from']+1)/search['query_len']
-                    tcov=(a['hit_to']-a['hit_from']+1)/h['len']
-                    rows.append({'descriptions':h['description'],'subject_length':h['len'],**a,
-                                 'sequence_identity':ident,'query_coverage':qcov,'target_coverage':tcov,
-                                 **sequence_flags(ident,qcov,a['evalue'])})
-            blast.append({'query':search['query_title'],'status':'complete','query_length':search['query_len'],
-                          'statistics':search.get('stat'),'masking':search.get('query_masking',[]),
-                          'message':search.get('message'),'database':report['search_target'],
-                          'program':report['program'],'version':report['version'],'parameters':report['params'],
-                          'hits':rows})
+        expected={r['id']:r['sequence'] for r in plan['sequences'] if r['id'] in plan['blast']['query_ids']}
+        blast=parse_blast(json.loads(bp.read_text()),expected)
     else:blast=[{'status':'pending_or_missing'}]
     internal=[]
     for a,b in itertools.combinations([c for c in plan['structures'] if c['kind']=='candidate'],2):
@@ -118,7 +142,9 @@ def analyze():
     control_pass=expected is not None and expected['local_TM_align']['query_normalized_TM']>=.95 and expected['local_TM_align']['query_coverage']>=.95
     result={'analyzed_utc':now(),'plan_sha256':sha(OUT/'plan.json'),'tmtools_version':tmtools.__version__,
             'foldseek_positive_retrieval_pass':control_pass,'foldseek':foldrows,'rcsb_sequence':rcsb,
-            'swissprot_sequence':blast,'internal_structure_alignments':internal,
+            'swissprot_sequence':blast,'swissprot_sequence_source':source if bp.exists() else None,
+            'swissprot_result_file':str(bp.relative_to(ROOT)) if bp.exists() else None,
+            'internal_structure_alignments':internal,
             'limits':'Database search and TM-align comparisons are descriptive, not proof of de novo provenance, absence of homologs, novelty, binding, or fold-family membership. Local TM-align is restricted to top 10 server-ranked hits per database/query.'}
     save(OUT/'analysis.json',result)
     print('Foldseek retrieval control pass:',control_pass,'BLAST reports:',len(blast))

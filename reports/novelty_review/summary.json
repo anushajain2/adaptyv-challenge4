@@ -1,14 +1,20 @@
 {
-  "status": "STRUCTURE_AND_PDB_SEQUENCE_COMPLETE_SWISSPROT_PENDING_OR_FAILED",
+  "status": "COMPLETE_WITH_DATABASE_LIMITS",
   "as_of": "2026-10-21",
   "candidates": [
     {
       "name": "apical_short_008_A41H",
       "rcsb_sequence_hits": 0,
-      "swissprot_status": "pending",
-      "swissprot_hsps": null,
-      "swissprot_close_sequence_flags": null,
-      "swissprot_query_masking": null,
+      "swissprot_status": "complete",
+      "swissprot_hsps": 15,
+      "swissprot_close_sequence_flags": 0,
+      "swissprot_min_evalue": 1.53895,
+      "swissprot_query_masking": [
+        {
+          "from": 15,
+          "to": 30
+        }
+      ],
       "structural_search": [
         {
           "query": "apical_short_008_A41H_seed2003",
@@ -120,10 +126,20 @@
     {
       "name": "expansion_apical_long_092",
       "rcsb_sequence_hits": 0,
-      "swissprot_status": "pending",
-      "swissprot_hsps": null,
-      "swissprot_close_sequence_flags": null,
-      "swissprot_query_masking": null,
+      "swissprot_status": "complete",
+      "swissprot_hsps": 6,
+      "swissprot_close_sequence_flags": 0,
+      "swissprot_min_evalue": 0.672308,
+      "swissprot_query_masking": [
+        {
+          "from": 12,
+          "to": 28
+        },
+        {
+          "from": 59,
+          "to": 75
+        }
+      ],
       "structural_search": [
         {
           "query": "expansion_apical_long_092_seed1801",
@@ -362,10 +378,16 @@
     {
       "name": "expansion_apical_short_026",
       "rcsb_sequence_hits": 0,
-      "swissprot_status": "pending",
-      "swissprot_hsps": null,
-      "swissprot_close_sequence_flags": null,
-      "swissprot_query_masking": null,
+      "swissprot_status": "complete",
+      "swissprot_hsps": 11,
+      "swissprot_close_sequence_flags": 0,
+      "swissprot_min_evalue": 3.62728,
+      "swissprot_query_masking": [
+        {
+          "from": 46,
+          "to": 61
+        }
+      ],
       "structural_search": [
         {
           "query": "expansion_apical_short_026_seed2003",
@@ -604,10 +626,20 @@
     {
       "name": "expansion_apical_short_015",
       "rcsb_sequence_hits": 0,
-      "swissprot_status": "pending",
-      "swissprot_hsps": null,
-      "swissprot_close_sequence_flags": null,
-      "swissprot_query_masking": null,
+      "swissprot_status": "complete",
+      "swissprot_hsps": 7,
+      "swissprot_close_sequence_flags": 0,
+      "swissprot_min_evalue": 1.09046,
+      "swissprot_query_masking": [
+        {
+          "from": 1,
+          "to": 19
+        },
+        {
+          "from": 42,
+          "to": 57
+        }
+      ],
       "structural_search": [
         {
           "query": "expansion_apical_short_015_seed1409",
@@ -846,10 +878,16 @@
     {
       "name": "expansion_apical_short_018",
       "rcsb_sequence_hits": 0,
-      "swissprot_status": "pending",
-      "swissprot_hsps": null,
-      "swissprot_close_sequence_flags": null,
-      "swissprot_query_masking": null,
+      "swissprot_status": "complete",
+      "swissprot_hsps": 8,
+      "swissprot_close_sequence_flags": 0,
+      "swissprot_min_evalue": 0.259773,
+      "swissprot_query_masking": [
+        {
+          "from": 47,
+          "to": 60
+        }
+      ],
       "structural_search": [
         {
           "query": "expansion_apical_short_018_seed1801",
@@ -1037,10 +1075,16 @@
     {
       "name": "apical_short_008",
       "rcsb_sequence_hits": 0,
-      "swissprot_status": "pending",
-      "swissprot_hsps": null,
-      "swissprot_close_sequence_flags": null,
-      "swissprot_query_masking": null,
+      "swissprot_status": "complete",
+      "swissprot_hsps": 5,
+      "swissprot_close_sequence_flags": 0,
+      "swissprot_min_evalue": 0.65634,
+      "swissprot_query_masking": [
+        {
+          "from": 15,
+          "to": 30
+        }
+      ],
       "structural_search": [
         {
           "query": "apical_short_008_seed2003",
@@ -1192,11 +1236,13 @@
     "foldseek_6WRW_recovered": true,
     "rcsb_6WRW_recovered": true,
     "rcsb_human_crop_recovered": true,
-    "swissprot_human_crop_recovered": null
+    "swissprot_human_crop_recovered": true
   },
   "all_13_structural_queries_complete": true,
-  "swissprot_all_seven_queries_complete": false,
+  "swissprot_all_seven_queries_complete": true,
   "new_modal_compute_usd": 0,
+  "swissprot_sequence_source": "local_UniProtKB_SwissProt_canonical",
+  "swissprot_result_file": "reports/novelty_review/local_swissprot/results.json",
   "submission_sequence_or_rank_changed": false,
   "decision": "Keep A41H as the pH-direction hypothesis and long_092/short_026 as binding candidates. Label short_015 as a known-backbone backup. Do not claim novel folds or evolutionary unrelatedness. Do not remove a candidate solely because a common fold is shared."
 }

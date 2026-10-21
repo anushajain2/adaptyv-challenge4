@@ -2,15 +2,27 @@
 
 **The six sequences have no reported RCSB sequence hits under the recorded settings, but sequence distinctness does not imply a novel fold.** The clearest structural caveat is short_015: both poses closely resemble the known protein AF1782 (2OO2). Retain it as a known-backbone binding backup, without a fold-novelty claim. No sequence or submission rank was changed by this review.
 
-Status: **STRUCTURE_AND_PDB_SEQUENCE_COMPLETE_SWISSPROT_PENDING_OR_FAILED**. Searches cover six distinct sequences from five parent lineages, both selected bare poses per design, and public retrieval controls. This review added **$0 Modal compute**.
+Status: **COMPLETE_WITH_DATABASE_LIMITS**. Searches cover six distinct sequences from five parent lineages, both selected bare poses per design, and public retrieval controls. This review added **$0 Modal compute**.
 
 ## Sequence results
 
 The RCSB sequence service returned HTTP 204/no hits for all six candidates at E-value ≤10 and identity cutoff 0. Both controls worked: the human TfR1 crop was recovered at 100% query identity/coverage, and the designed positive matched 6WRW entity 2 at 100% identity over all 88 residues. Controls validate retrieval in this panel; they do not quantify sensitivity for these short, compositionally biased designs.
 
-Swiss-Prot BLASTp is still pending or incomplete. Its queued job is not counted as a no-hit search. The completed sequence conclusion below is limited to RCSB experimental PDB sequences.
+Swiss-Prot BLASTp completed all seven queries, including retrieval of human TfR1 accession P02786 (pass). Across the six candidates, **0 alignments meet the predeclared close-sequence review rule** (identity ≥50%, query coverage ≥80%, E-value ≤0.001). Flags apply to individual HSPs, not unions of disjoint alignments. This is a review heuristic, not a competition cutoff. The composition-corrected, low-complexity-masked search is not proof that no related sequence exists.
 
-The exact requests, retrieval timestamps and server responses are archived under [rcsb/](rcsb/) and [blast/](blast/). Current RCSB searches exclude computed models. Swiss-Prot is a curated sequence collection, not all known sequences or unpublished designs. Alignment identity, coverage and significance must be read together; short local similarities alone do not establish copied sequence.
+The completed evidence comes from **local BLAST+ 2.17.0 against UniProtKB/Swiss-Prot canonical release 2026_03** (575,748 sequences; 209,017,843 residues). The original NCBI RID remained WAITING after more than an hour; it is still pending and is not described as completed. A [prospective fallback plan](local_swissprot/plan.json) preserved all seven queries and the screening thresholds before the local search. Official archive checksums were verified; commands, SHA-256 hashes, release metadata, logs and raw JSON results are archived in [local_swissprot/](local_swissprot/). The separate isoform supplement is excluded. This local database need not match the remote service's Swiss-Prot snapshot.
+
+| Query | Reported HSPs | Smallest E-value | Close-sequence flags | Reported masked query intervals |
+|---|---:|---:|---:|---|
+| apical_short_008_A41H | 15 | 1.54 | 0 | `[{"from":15,"to":30}]` |
+| expansion_apical_long_092 | 6 | 0.672 | 0 | `[{"from":12,"to":28},{"from":59,"to":75}]` |
+| expansion_apical_short_026 | 11 | 3.63 | 0 | `[{"from":46,"to":61}]` |
+| expansion_apical_short_015 | 7 | 1.09 | 0 | `[{"from":1,"to":19},{"from":42,"to":57}]` |
+| expansion_apical_short_018 | 8 | 0.26 | 0 | `[{"from":47,"to":60}]` |
+| apical_short_008 | 5 | 0.656 | 0 | `[{"from":15,"to":30}]` |
+
+
+The exact requests, retrieval timestamps and server responses are archived under [rcsb/](rcsb/) and [blast/](blast/); any completed local fallback is identified above. Current RCSB searches exclude computed models. Swiss-Prot is a curated sequence collection, not all known sequences or unpublished designs. Alignment identity, coverage and significance must be read together; short local similarities alone do not establish copied sequence. Low-complexity masking reduces sensitivity for these compositionally biased designs; a successful receptor control does not establish sensitivity for every candidate.
 
 ## Structural results
 
@@ -56,6 +68,6 @@ Keep **A41H as the leading pH-direction hypothesis**, and keep **long_092 and sh
 
 If expanding the shortlist, use one bounded apical generation batch to seek additional structurally distinct, well-supported parents, and apply this same sequence/structure audit before adding them. Avoid filling twenty slots with near-identical His variants. The current draft remains a computational submission, not a validated binder panel.
 
-Reproduce interpretation locally with `scripts/analyze_novelty.py`, `scripts/verify_novelty_matches.py`, `scripts/plot_novelty_review.py`, then `scripts/summarize_novelty.py`. Network acquisition commands are in `scripts/novelty_search.py`; submission commands reuse archived tickets and do not silently resubmit jobs.
+Reproduce interpretation locally with `scripts/analyze_novelty.py`, `scripts/verify_novelty_matches.py`, `scripts/plot_novelty_review.py`, then `scripts/summarize_novelty.py`. Network acquisition commands are in `scripts/novelty_search.py`; submission commands reuse archived tickets and do not silently resubmit jobs. The local Swiss-Prot fallback uses `scripts/local_swissprot.py` and the official URLs/checksums in its frozen plan; large downloaded archives and executables stay in ignored `outputs/`.
 
 Method references: [RCSB search API](https://search.rcsb.org/), [Foldseek](https://github.com/steineggerlab/foldseek), [NCBI BLAST URL API](https://blast.ncbi.nlm.nih.gov/doc/blast-help/urlapi.html), [TM-align bindings](https://github.com/jvkersch/tmtools). These sources describe the methods; the candidate conclusions above come from this repository's archived calculations.

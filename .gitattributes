@@ -3,6 +3,7 @@
 *.cif -whitespace
 reports/novelty_review/blast/*.html -whitespace
 reports/novelty_review/blast/search_info.txt -whitespace
+reports/novelty_review/local_swissprot/*.stdout.txt -whitespace
 *.csv whitespace=cr-at-eol
 # Preserve exact upstream source bytes and provenance hashes.
 third_party/ipsae/* -whitespace

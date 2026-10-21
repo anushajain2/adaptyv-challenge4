@@ -25,6 +25,14 @@ def main():
     assert all(summary['controls'][k] for k in ['foldseek_6WRW_recovered','rcsb_6WRW_recovered','rcsb_human_crop_recovered'])
     if summary['swissprot_all_seven_queries_complete']:
         assert summary['controls']['swissprot_human_crop_recovered']
+        if summary.get('swissprot_sequence_source')=='local_UniProtKB_SwissProt_canonical':
+            lp=json.loads((OUT/'local_swissprot/plan.json').read_text())
+            lr=json.loads((OUT/'local_swissprot/run.json').read_text())
+            assert lr['state']=='COMPLETE' and lr['plan_sha256']==sha(OUT/'local_swissprot/plan.json')
+            assert lp['original_plan_sha256']==sha(OUT/'plan.json')
+            assert lr['result_sha256']==sha(OUT/'local_swissprot/results.json')
+            assert lp['query_sha256']==sha(OUT/'local_swissprot/queries.fasta')
+            assert (OUT/'local_swissprot/queries.fasta').read_text()==json.loads((OUT/'blast/request.json').read_text())['QUERY']
     # New annotations must never alter the already-reviewed upload payload.
     commit=json.loads((OUT/'public_provenance_check.json').read_text())['commit']
     for name in ['submission_draft.csv','submission_draft.fasta']:
@@ -35,7 +43,7 @@ def main():
     for r in analysis['foldseek']:
         for h in r['hits']:
             if 'followup_target_file' in h:assert sha(ROOT/h['followup_target_file'])==h['followup_target_sha256']
-    scripts=['novelty_search.py','analyze_novelty.py','verify_novelty_matches.py','plot_novelty_review.py','summarize_novelty.py','audit_novelty_review.py']
+    scripts=['novelty_search.py','local_swissprot.py','analyze_novelty.py','verify_novelty_matches.py','plot_novelty_review.py','summarize_novelty.py','audit_novelty_review.py']
     manifest={'status':summary['status'],'checks':{'query_sequences_and_binder_only_scope':True,
               'all_structure_queries_and_databases_present':True,'PDB_retrieval_controls':True,
               'SwissProt_complete_and_control_pass':summary['controls']['swissprot_human_crop_recovered'],

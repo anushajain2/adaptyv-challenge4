@@ -1,5 +1,5 @@
 {
-  "analyzed_utc": "2026-10-21T14:27:08.494922+00:00",
+  "analyzed_utc": "2026-10-21T15:46:42.089479+00:00",
   "plan_sha256": "b73730c9a13d2f1ccd31842db4d32e311d720f6e26612583b3c2dff95dcbc566",
   "tmtools_version": "0.3.0",
   "foldseek_positive_retrieval_pass": true,
@@ -143499,9 +143499,3323 @@
   ],
   "swissprot_sequence": [
     {
-      "status": "pending_or_missing"
+      "query": "apical_short_008_A41H",
+      "status": "complete",
+      "query_length": 58,
+      "statistics": {
+        "db_num": 575748,
+        "db_len": 209017843,
+        "hsp_len": 31,
+        "eff_space": 5161580685,
+        "kappa": 0.041,
+        "lambda": 0.267,
+        "entropy": 0.14
+      },
+      "masking": [
+        {
+          "from": 15,
+          "to": 30
+        }
+      ],
+      "message": null,
+      "database": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "parameters": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "hits": [
+        {
+          "descriptions": [
+            {
+              "id": "sp|F4IZC5|CAN1_ARATH",
+              "accession": "F4IZC5",
+              "title": "Staphylococcal-like nuclease CAN1 OS=Arabidopsis thaliana OX=3702 GN=CAN1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 323,
+          "num": 1,
+          "bit_score": 29.261,
+          "score": 64,
+          "evalue": 1.53895,
+          "identity": 21,
+          "positive": 30,
+          "query_from": 5,
+          "query_to": 57,
+          "hit_from": 61,
+          "hit_to": 116,
+          "align_len": 56,
+          "gaps": 3,
+          "qseq": "EILEIFKEVDP--elaeeierl-laelteeQKAELEARLHEDRFFSPEELLELVRE",
+          "hseq": "KILEAWKQAKPRPKTPEEASRLVIAALKNHQKADVEGLLSFYGLPSPHNLVEVPTE",
+          "midline": "+ILE +K+  P  +  EE  RL +A L   QKA++E  L      SP  L+E+  E",
+          "sequence_identity": 0.375,
+          "query_coverage": 0.9137931034482759,
+          "target_coverage": 0.17337461300309598,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q2FWG0|TENA_STAA8",
+              "accession": "Q2FWG0",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=tenA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 28.4906,
+          "score": 62,
+          "evalue": 2.42334,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEAIMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P36022|DYHC_YEAST",
+              "accession": "P36022",
+              "title": "Dynein heavy chain, cytoplasmic OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DYN1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 4092,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 3.56901,
+          "identity": 21,
+          "positive": 26,
+          "query_from": 2,
+          "query_to": 56,
+          "hit_from": 2566,
+          "hit_to": 2627,
+          "align_len": 62,
+          "gaps": 7,
+          "qseq": "ALDEILEIFKE----VDPel---aeeierllaelteeQKAELEARLHEDRFFSPEELLELVR",
+          "hseq": "SLSQIYEIYYKAIFKLVPEFRSYTEPFARASVHLYNECKARYSTGLQSHYLFSPRELTRLVR",
+          "midline": "+L +I EI+ +    + PE     E   R    L  E KA     L     FSP EL  LVR",
+          "sequence_identity": 0.3387096774193548,
+          "query_coverage": 0.9482758620689655,
+          "target_coverage": 0.015151515151515152,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q6GEY1|TENA_STAAR",
+              "accession": "Q6GEY1",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=tenA PE=1 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 3.90158,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFESLMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q2YUL0|TENA_STAAB",
+              "accession": "Q2YUL0",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain bovine RF122 / ET3-1) OX=273036 GN=tenA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.5225,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEALMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q7A0C8|TENA_STAAW",
+              "accession": "Q7A0C8",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain MW2) OX=196620 GN=tenA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.74626,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEALMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q6G7L6|TENA_STAAS",
+              "accession": "Q6G7L6",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=tenA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.74626,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEALMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q7A4F3|TENA_STAAN",
+              "accession": "Q7A4F3",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain N315) OX=158879 GN=tenA PE=1 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.74626,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEALMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q99SG3|TENA_STAAM",
+              "accession": "Q99SG3",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=tenA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.74626,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEALMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5HEA5|TENA_STAAC",
+              "accession": "Q5HEA5",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain COL) OX=93062 GN=tenA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.74626,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEALMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q2FF32|TENA_STAA3",
+              "accession": "Q2FF32",
+              "title": "Aminopyrimidine aminohydrolase OS=Staphylococcus aureus (strain USA300) OX=367830 GN=tenA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 229,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.74626,
+          "identity": 17,
+          "positive": 31,
+          "query_from": 3,
+          "query_to": 53,
+          "hit_from": 171,
+          "hit_to": 219,
+          "align_len": 51,
+          "gaps": 2,
+          "qseq": "LDEILEIFKEVDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "MDDIINVFEALMNKLAESMSD--KELEQVKQVFLESCIHERRFFNMAMTLE",
+          "midline": "+D+I+ +F+ +  +LAE +     EL + ++  LE+ +HE RFF+    LE",
+          "sequence_identity": 0.3333333333333333,
+          "query_coverage": 0.8793103448275862,
+          "target_coverage": 0.21397379912663755,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q46GM1|GLO2_PROMT",
+              "accession": "Q46GM1",
+              "title": "Hydroxyacylglutathione hydrolase OS=Prochlorococcus marinus (strain NATL2A) OX=59920 GN=gloB PE=3 SV=2"
+            }
+          ],
+          "subject_length": 251,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 7.19829,
+          "identity": 12,
+          "positive": 22,
+          "query_from": 13,
+          "query_to": 53,
+          "hit_from": 33,
+          "hit_to": 73,
+          "align_len": 41,
+          "gaps": 0,
+          "qseq": "VDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "VDPSISGPVEKWLLEKNLSLKAILQTHHHDDHIGGTQKLIK",
+          "midline": "VDP ++  +E+ L E     KA L+   H+D     ++L++",
+          "sequence_identity": 0.2926829268292683,
+          "query_coverage": 0.7068965517241379,
+          "target_coverage": 0.16334661354581673,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|A2C116|GLO2_PROM1",
+              "accession": "A2C116",
+              "title": "Hydroxyacylglutathione hydrolase OS=Prochlorococcus marinus (strain NATL1A) OX=167555 GN=gloB PE=3 SV=1"
+            }
+          ],
+          "subject_length": 251,
+          "num": 1,
+          "bit_score": 26.9498,
+          "score": 58,
+          "evalue": 8.02953,
+          "identity": 12,
+          "positive": 22,
+          "query_from": 13,
+          "query_to": 53,
+          "hit_from": 33,
+          "hit_to": 73,
+          "align_len": 41,
+          "gaps": 0,
+          "qseq": "VDPelaeeierllaelteeQKAELEARLHEDRFFSPEELLE",
+          "hseq": "VDPSISGPVEKWLLEKNLSLKAILQTHHHDDHIGGTQKLIK",
+          "midline": "VDP ++  +E+ L E     KA L+   H+D     ++L++",
+          "sequence_identity": 0.2926829268292683,
+          "query_coverage": 0.7068965517241379,
+          "target_coverage": 0.16334661354581673,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q58452|Y1052_METJA",
+              "accession": "Q58452",
+              "title": "UPF0045 thiamine-binding protein family member MJ1052 OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1052 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 100,
+          "num": 1,
+          "bit_score": 26.5646,
+          "score": 57,
+          "evalue": 8.83089,
+          "identity": 11,
+          "positive": 19,
+          "query_from": 1,
+          "query_to": 28,
+          "hit_from": 51,
+          "hit_to": 78,
+          "align_len": 28,
+          "gaps": 0,
+          "qseq": "GALDEILEIFKEVDPelaeeierllael",
+          "hseq": "GDLDEILKAFKEAHSTVLNDVDRVVSSL",
+          "midline": "G LDEIL+ FKE    +  +++R+++ L",
+          "sequence_identity": 0.39285714285714285,
+          "query_coverage": 0.4827586206896552,
+          "target_coverage": 0.28,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q55CI8|HELCL_DICDI",
+              "accession": "Q55CI8",
+              "title": "Activating signal cointegrator 1 complex subunit 3-like OS=Dictyostelium discoideum OX=44689 GN=ascc3l PE=3 SV=1"
+            }
+          ],
+          "subject_length": 2237,
+          "num": 1,
+          "bit_score": 26.9498,
+          "score": 58,
+          "evalue": 9.61172,
+          "identity": 19,
+          "positive": 22,
+          "query_from": 1,
+          "query_to": 36,
+          "hit_from": 162,
+          "hit_to": 200,
+          "align_len": 39,
+          "gaps": 3,
+          "qseq": "GALDEILEIFKEVD---PelaeeierllaelteeQKAEL",
+          "hseq": "GALDEILSILKDDTIRAPEKKIEISKLLKGLNDVSFAEL",
+          "midline": "GALDEIL I K+     PE   EI +LL  L +   AEL",
+          "sequence_identity": 0.48717948717948717,
+          "query_coverage": 0.6206896551724138,
+          "target_coverage": 0.01743406347787215,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        }
+      ]
+    },
+    {
+      "query": "expansion_apical_long_092",
+      "status": "complete",
+      "query_length": 89,
+      "statistics": {
+        "db_num": 575748,
+        "db_len": 209017843,
+        "hsp_len": 59,
+        "eff_space": 5251461330,
+        "kappa": 0.041,
+        "lambda": 0.267,
+        "entropy": 0.14
+      },
+      "masking": [
+        {
+          "from": 12,
+          "to": 28
+        },
+        {
+          "from": 59,
+          "to": 75
+        }
+      ],
+      "message": null,
+      "database": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "parameters": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "hits": [
+        {
+          "descriptions": [
+            {
+              "id": "sp|A5EVA6|Y639_DICNV",
+              "accession": "A5EVA6",
+              "title": "UPF0102 protein DNO_0639 OS=Dichelobacter nodosus (strain VCS1703A) OX=246195 GN=DNO_0639 PE=3 SV=1"
+            }
+          ],
+          "subject_length": 126,
+          "num": 1,
+          "bit_score": 31.187,
+          "score": 69,
+          "evalue": 0.672308,
+          "identity": 15,
+          "positive": 25,
+          "query_from": 33,
+          "query_to": 81,
+          "hit_from": 52,
+          "hit_to": 100,
+          "align_len": 49,
+          "gaps": 0,
+          "qseq": "DPRALVGVEIEEDGRAAIVAEGEGLTPeearavaeaaaegaaaaFGLKP",
+          "hseq": "DDRVLVFVEVRLRRAQALVSAAESITPEKLRRCYQSAQDYLQKNYAVPP",
+          "midline": "D R LV VE+      A+V+  E +TPE+ R   ++A +     + + P",
+          "sequence_identity": 0.30612244897959184,
+          "query_coverage": 0.550561797752809,
+          "target_coverage": 0.3888888888888889,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9D8T4|TV23B_MOUSE",
+              "accession": "Q9D8T4",
+              "title": "Golgi apparatus membrane protein TVP23 homolog B OS=Mus musculus OX=10090 GN=Tvp23b PE=1 SV=1"
+            }
+          ],
+          "subject_length": 205,
+          "num": 1,
+          "bit_score": 31.187,
+          "score": 69,
+          "evalue": 0.772974,
+          "identity": 14,
+          "positive": 25,
+          "query_from": 30,
+          "query_to": 68,
+          "hit_from": 80,
+          "hit_to": 122,
+          "align_len": 43,
+          "gaps": 4,
+          "qseq": "RKVDPRALVGV----EIEEDGRAAIVAEGEGLTPeearavaea",
+          "hseq": "KNVTGRLMVGLRWWNHIDEDGKSHWVFESRKSTPQDNKTISEA",
+          "midline": "+ V  R +VG+     I+EDG++  V E    TP++ + ++EA",
+          "sequence_identity": 0.32558139534883723,
+          "query_coverage": 0.43820224719101125,
+          "target_coverage": 0.2097560975609756,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q29S14|TV23B_BOVIN",
+              "accession": "Q29S14",
+              "title": "Golgi apparatus membrane protein TVP23 homolog B OS=Bos taurus OX=9913 GN=TVP23B PE=2 SV=1"
+            }
+          ],
+          "subject_length": 208,
+          "num": 1,
+          "bit_score": 30.8018,
+          "score": 68,
+          "evalue": 1.05166,
+          "identity": 15,
+          "positive": 25,
+          "query_from": 30,
+          "query_to": 68,
+          "hit_from": 80,
+          "hit_to": 122,
+          "align_len": 43,
+          "gaps": 4,
+          "qseq": "RKVDPRALVGV----EIEEDGRAAIVAEGEGLTPeearavaea",
+          "hseq": "KNVTGRLMVGLRWWNHIDEDGKSHWVFESRKASPQEGKTVSEA",
+          "midline": "+ V  R +VG+     I+EDG++  V E    +P+E + V+EA",
+          "sequence_identity": 0.3488372093023256,
+          "query_coverage": 0.43820224719101125,
+          "target_coverage": 0.20673076923076922,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P81324|EPPA_METJA",
+              "accession": "P81324",
+              "title": "Prepilin peptidase EppA OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=eppA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 339,
+          "num": 1,
+          "bit_score": 29.6462,
+          "score": 65,
+          "evalue": 3.31865,
+          "identity": 12,
+          "positive": 21,
+          "query_from": 41,
+          "query_to": 72,
+          "hit_from": 274,
+          "hit_to": 305,
+          "align_len": 32,
+          "gaps": 0,
+          "qseq": "EIEEDGRAAIVAEGEGLTPeearavaeaaaeg",
+          "hseq": "EIKENEKEIILTDGEGLSNEDIRKIKKLYMEG",
+          "midline": "EI+E+ +  I+ +GEGL+ E+ R + +   EG",
+          "sequence_identity": 0.375,
+          "query_coverage": 0.3595505617977528,
+          "target_coverage": 0.0943952802359882,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P48147|PPCE_HUMAN",
+              "accession": "P48147",
+              "title": "Prolyl endopeptidase OS=Homo sapiens OX=9606 GN=PREP PE=1 SV=2"
+            }
+          ],
+          "subject_length": 710,
+          "num": 1,
+          "bit_score": 28.8758,
+          "score": 63,
+          "evalue": 6.22086,
+          "identity": 15,
+          "positive": 24,
+          "query_from": 34,
+          "query_to": 84,
+          "hit_from": 232,
+          "hit_to": 282,
+          "align_len": 51,
+          "gaps": 0,
+          "qseq": "PRALVGVEIEEDGRAAIVAEGEGLTPeearavaeaaaegaaaaFGLKPVSL",
+          "hseq": "PKWMGGAELSDDGRYVLLSIREGCDPVNRLWYCDLQQESSGIAGILKWVKL",
+          "midline": "P+ + G E+ +DGR  +++  EG  P       +   E +  A  LK V L",
+          "sequence_identity": 0.29411764705882354,
+          "query_coverage": 0.5730337078651685,
+          "target_coverage": 0.07183098591549296,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q740E9|NADK_MYCPA",
+              "accession": "Q740E9",
+              "title": "NAD kinase OS=Mycolicibacterium paratuberculosis (strain ATCC BAA-968 / K-10) OX=262316 GN=nadK PE=3 SV=1"
+            }
+          ],
+          "subject_length": 308,
+          "num": 1,
+          "bit_score": 28.4906,
+          "score": 62,
+          "evalue": 7.4528,
+          "identity": 24,
+          "positive": 36,
+          "query_from": 1,
+          "query_to": 69,
+          "hit_from": 135,
+          "hit_to": 207,
+          "align_len": 73,
+          "gaps": 4,
+          "qseq": "RVRARVTLDGTVeseeeaeevaraanegaRKVDPR-ALVGVEIEEDGRAAIVAEGEGL---TPeearavaeaa",
+          "hseq": "RVENRMTLDVVVRHQGTVSDHGWALNEVSLEKGPRLGVLGVVVEIDGRPVSAFGCDGVLVSTPTGSTAYAFSA",
+          "midline": "RV  R+TLD  V  +    +   A NE + +  PR  ++GV +E DGR       +G+   TP  + A A +A",
+          "sequence_identity": 0.3287671232876712,
+          "query_coverage": 0.7752808988764045,
+          "target_coverage": 0.237012987012987,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        }
+      ]
+    },
+    {
+      "query": "expansion_apical_short_026",
+      "status": "complete",
+      "query_length": 62,
+      "statistics": {
+        "db_num": 575748,
+        "db_len": 209017843,
+        "hsp_len": 35,
+        "eff_space": 5099399901,
+        "kappa": 0.041,
+        "lambda": 0.267,
+        "entropy": 0.14
+      },
+      "masking": [
+        {
+          "from": 46,
+          "to": 61
+        }
+      ],
+      "message": null,
+      "database": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "parameters": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "hits": [
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9KW14|RPOB_SHEVI",
+              "accession": "Q9KW14",
+              "title": "DNA-directed RNA polymerase subunit beta OS=Shewanella violacea OX=60217 GN=rpoB PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1343,
+          "num": 1,
+          "bit_score": 28.4906,
+          "score": 62,
+          "evalue": 3.62728,
+          "identity": 12,
+          "positive": 22,
+          "query_from": 14,
+          "query_to": 45,
+          "hit_from": 1146,
+          "hit_to": 1177,
+          "align_len": 32,
+          "gaps": 0,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKI",
+          "hseq": "IKEVYELGDEVLQRVDIDSFTDDEVLRLAKNL",
+          "midline": "++E  E+ +EVL   DI++ +D+E+  LAK +",
+          "sequence_identity": 0.375,
+          "query_coverage": 0.5161290322580645,
+          "target_coverage": 0.023827252419955324,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9XGC9|MSH2_MAIZE",
+              "accession": "Q9XGC9",
+              "title": "DNA mismatch repair protein MSH2 OS=Zea mays OX=4577 GN=MUS1 PE=3 SV=1"
+            }
+          ],
+          "subject_length": 942,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 3.90281,
+          "identity": 16,
+          "positive": 27,
+          "query_from": 14,
+          "query_to": 55,
+          "hit_from": 478,
+          "hit_to": 518,
+          "align_len": 42,
+          "gaps": 1,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKIMkekglegev",
+          "hseq": "LKDELSVVENHINNLHVDTASDLDLS-VDKQLKLEKGSLGHV",
+          "midline": "L++ L + E  +NN  ++TASD +L+ + K++  EKG  G V",
+          "sequence_identity": 0.38095238095238093,
+          "query_coverage": 0.6774193548387096,
+          "target_coverage": 0.0435244161358811,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q64NI3|SYE_BACFR",
+              "accession": "Q64NI3",
+              "title": "Glutamate--tRNA ligase OS=Bacteroides fragilis (strain YCH46) OX=295405 GN=gltX PE=3 SV=1"
+            }
+          ],
+          "subject_length": 505,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 4.40413,
+          "identity": 12,
+          "positive": 18,
+          "query_from": 25,
+          "query_to": 55,
+          "hit_from": 347,
+          "hit_to": 377,
+          "align_len": 31,
+          "gaps": 0,
+          "qseq": "LNNTDINTASDEELTELAKKIMkekglegev",
+          "hseq": "FNHTYIQQKSDKEIAELFVPVLKEHGVEAPF",
+          "midline": " N+T I   SD+E+ EL   ++KE G+E   ",
+          "sequence_identity": 0.3870967741935484,
+          "query_coverage": 0.5,
+          "target_coverage": 0.061386138613861385,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5L883|SYE_BACFN",
+              "accession": "Q5L883",
+              "title": "Glutamate--tRNA ligase OS=Bacteroides fragilis (strain ATCC 25285 / DSM 2151 / CCUG 4856 / JCM 11019 / LMG 10263 / NCTC 9343 / Onslow / VPI 2553 / EN-2) OX=272559 GN=gltX PE=3 SV=1"
+            }
+          ],
+          "subject_length": 505,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 4.40413,
+          "identity": 12,
+          "positive": 18,
+          "query_from": 25,
+          "query_to": 55,
+          "hit_from": 347,
+          "hit_to": 377,
+          "align_len": 31,
+          "gaps": 0,
+          "qseq": "LNNTDINTASDEELTELAKKIMkekglegev",
+          "hseq": "FNHTYIQQKSDKEIAELFVPVLKEHGVEAPF",
+          "midline": " N+T I   SD+E+ EL   ++KE G+E   ",
+          "sequence_identity": 0.3870967741935484,
+          "query_coverage": 0.5,
+          "target_coverage": 0.061386138613861385,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|A7MQQ9|RPOB_CROS8",
+              "accession": "A7MQQ9",
+              "title": "DNA-directed RNA polymerase subunit beta OS=Cronobacter sakazakii (strain ATCC BAA-894) OX=290339 GN=rpoB PE=3 SV=2"
+            }
+          ],
+          "subject_length": 1342,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 7.05184,
+          "identity": 11,
+          "positive": 23,
+          "query_from": 14,
+          "query_to": 47,
+          "hit_from": 1145,
+          "hit_to": 1178,
+          "align_len": 34,
+          "gaps": 0,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKIMk",
+          "hseq": "IQKAYDLGQDVRQKVDLNTFSDDEVLRLAENLRK",
+          "midline": "+++A ++ ++V    D+NT SD+E+  LA+ + K",
+          "sequence_identity": 0.3235294117647059,
+          "query_coverage": 0.5483870967741935,
+          "target_coverage": 0.02533532041728763,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|A8AKT9|RPOB_CITK8",
+              "accession": "A8AKT9",
+              "title": "DNA-directed RNA polymerase subunit beta OS=Citrobacter koseri (strain ATCC BAA-895 / CDC 4225-83 / SGSC4696) OX=290338 GN=rpoB PE=3 SV=2"
+            }
+          ],
+          "subject_length": 1342,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 7.48463,
+          "identity": 12,
+          "positive": 21,
+          "query_from": 14,
+          "query_to": 47,
+          "hit_from": 1145,
+          "hit_to": 1178,
+          "align_len": 34,
+          "gaps": 0,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKIMk",
+          "hseq": "IQRAYDLGADVRQKVDLNTFSDEEVLRLAENLRK",
+          "midline": "++ A ++  +V    D+NT SDEE+  LA+ + K",
+          "sequence_identity": 0.35294117647058826,
+          "query_coverage": 0.5483870967741935,
+          "target_coverage": 0.02533532041728763,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|A6TGP0|RPOB_KLEP7",
+              "accession": "A6TGP0",
+              "title": "DNA-directed RNA polymerase subunit beta OS=Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578) OX=272620 GN=rpoB PE=1 SV=2"
+            }
+          ],
+          "subject_length": 1342,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 7.7109,
+          "identity": 12,
+          "positive": 21,
+          "query_from": 14,
+          "query_to": 47,
+          "hit_from": 1145,
+          "hit_to": 1178,
+          "align_len": 34,
+          "gaps": 0,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKIMk",
+          "hseq": "IQRAYDLGADVRQKVDLNTFSDEEVLRLAENLRK",
+          "midline": "++ A ++  +V    D+NT SDEE+  LA+ + K",
+          "sequence_identity": 0.35294117647058826,
+          "query_coverage": 0.5483870967741935,
+          "target_coverage": 0.02533532041728763,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|B5XYF5|RPOB_KLEV3",
+              "accession": "B5XYF5",
+              "title": "DNA-directed RNA polymerase subunit beta OS=Klebsiella variicola (strain 342) OX=507522 GN=rpoB PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1342,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 7.94403,
+          "identity": 12,
+          "positive": 21,
+          "query_from": 14,
+          "query_to": 47,
+          "hit_from": 1145,
+          "hit_to": 1178,
+          "align_len": 34,
+          "gaps": 0,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKIMk",
+          "hseq": "IQRAYDLGADVRQKVDLNTFSDEEVLRLAENLRK",
+          "midline": "++ A ++  +V    D+NT SDEE+  LA+ + K",
+          "sequence_identity": 0.35294117647058826,
+          "query_coverage": 0.5483870967741935,
+          "target_coverage": 0.02533532041728763,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|G5EDR3|2AB1_CAEEL",
+              "accession": "G5EDR3",
+              "title": "Serine/threonine-protein phosphatase 2A regulatory subunit sur-6 OS=Caenorhabditis elegans OX=6239 GN=sur-6 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 495,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 8.64086,
+          "identity": 14,
+          "positive": 16,
+          "query_from": 18,
+          "query_to": 41,
+          "hit_from": 245,
+          "hit_to": 268,
+          "align_len": 24,
+          "gaps": 0,
+          "qseq": "LEITEEVLNNTDINTASDEELTEL",
+          "hseq": "LEITNESFNIVDIKPANMEELTEV",
+          "midline": "LEIT E  N  DI  A+ EELTE+",
+          "sequence_identity": 0.5833333333333334,
+          "query_coverage": 0.3870967741935484,
+          "target_coverage": 0.048484848484848485,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|B1KMZ0|RPOB_SHEWM",
+              "accession": "B1KMZ0",
+              "title": "DNA-directed RNA polymerase subunit beta OS=Shewanella woodyi (strain ATCC 51908 / MS32) OX=392500 GN=rpoB PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1343,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 9.31199,
+          "identity": 12,
+          "positive": 21,
+          "query_from": 14,
+          "query_to": 45,
+          "hit_from": 1146,
+          "hit_to": 1177,
+          "align_len": 32,
+          "gaps": 0,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKI",
+          "hseq": "IKEVYELGEEVQQRVDIDSFTDDEVVRLAKNL",
+          "midline": "++E  E+ EEV    DI++ +D+E+  LAK +",
+          "sequence_identity": 0.375,
+          "query_coverage": 0.5161290322580645,
+          "target_coverage": 0.023827252419955324,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q2NWR6|RPOB_SODGM",
+              "accession": "Q2NWR6",
+              "title": "DNA-directed RNA polymerase subunit beta OS=Sodalis glossinidius (strain morsitans) OX=343509 GN=rpoB PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1342,
+          "num": 1,
+          "bit_score": 26.9498,
+          "score": 58,
+          "evalue": 9.98225,
+          "identity": 12,
+          "positive": 22,
+          "query_from": 14,
+          "query_to": 47,
+          "hit_from": 1145,
+          "hit_to": 1178,
+          "align_len": 34,
+          "gaps": 0,
+          "qseq": "LEEALEITEEVLNNTDINTASDEELTELAKKIMk",
+          "hseq": "IQKAYNLGDDVRQKVDLNTFSDEEVLRLAENLKK",
+          "midline": "+++A  + ++V    D+NT SDEE+  LA+ + K",
+          "sequence_identity": 0.35294117647058826,
+          "query_coverage": 0.5483870967741935,
+          "target_coverage": 0.02533532041728763,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        }
+      ]
+    },
+    {
+      "query": "expansion_apical_short_015",
+      "status": "complete",
+      "query_length": 61,
+      "statistics": {
+        "db_num": 575748,
+        "db_len": 209017843,
+        "hsp_len": 34,
+        "eff_space": 5114945097,
+        "kappa": 0.041,
+        "lambda": 0.267,
+        "entropy": 0.14
+      },
+      "masking": [
+        {
+          "from": 1,
+          "to": 19
+        },
+        {
+          "from": 42,
+          "to": 57
+        }
+      ],
+      "message": null,
+      "database": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "parameters": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "hits": [
+        {
+          "descriptions": [
+            {
+              "id": "sp|B6YSL7|RS19_THEON",
+              "accession": "B6YSL7",
+              "title": "Small ribosomal subunit protein uS19 OS=Thermococcus onnurineus (strain NA1) OX=523850 GN=rps19 PE=3 SV=1"
+            }
+          ],
+          "subject_length": 133,
+          "num": 1,
+          "bit_score": 29.6462,
+          "score": 65,
+          "evalue": 1.09046,
+          "identity": 21,
+          "positive": 33,
+          "query_from": 1,
+          "query_to": 58,
+          "hit_from": 21,
+          "hit_to": 76,
+          "align_len": 58,
+          "gaps": 2,
+          "qseq": "SeeellerlgalmrrlaaagPLSPEAEKLLEEAYRLAEEGRYeeaielaekalalvee",
+          "hseq": "SLEDFAKLLPARQRRSLKRG-LSPEQKKLLRKI-RLAKKGKYNKPIRTHSRDMVILPE",
+          "midline": "S E+  + L A  RR    G LSPE +KLL +  RLA++G+Y + I    + + ++ E",
+          "sequence_identity": 0.3620689655172414,
+          "query_coverage": 0.9508196721311475,
+          "target_coverage": 0.42105263157894735,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|C5A282|RS19_THEGJ",
+              "accession": "C5A282",
+              "title": "Small ribosomal subunit protein uS19 OS=Thermococcus gammatolerans (strain DSM 15229 / JCM 11827 / EJ3) OX=593117 GN=rps19 PE=3 SV=1"
+            }
+          ],
+          "subject_length": 133,
+          "num": 1,
+          "bit_score": 29.261,
+          "score": 64,
+          "evalue": 1.15929,
+          "identity": 22,
+          "positive": 33,
+          "query_from": 1,
+          "query_to": 58,
+          "hit_from": 21,
+          "hit_to": 76,
+          "align_len": 58,
+          "gaps": 2,
+          "qseq": "SeeellerlgalmrrlaaagPLSPEAEKLLEEAYRLAEEGRYeeaielaekalalvee",
+          "hseq": "SLEEFAKLLPARQRRSLKRG-LSPEQKKLLRKI-RLAKKGKYNKPIRTHSRDMIVLPE",
+          "midline": "S EE  + L A  RR    G LSPE +KLL +  RLA++G+Y + I    + + ++ E",
+          "sequence_identity": 0.3793103448275862,
+          "query_coverage": 0.9508196721311475,
+          "target_coverage": 0.42105263157894735,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|C6A163|RS19_THESM",
+              "accession": "C6A163",
+              "title": "Small ribosomal subunit protein uS19 OS=Thermococcus sibiricus (strain DSM 12597 / MM 739) OX=604354 GN=rps19 PE=3 SV=1"
+            }
+          ],
+          "subject_length": 133,
+          "num": 1,
+          "bit_score": 28.8758,
+          "score": 63,
+          "evalue": 1.79684,
+          "identity": 20,
+          "positive": 35,
+          "query_from": 1,
+          "query_to": 58,
+          "hit_from": 21,
+          "hit_to": 76,
+          "align_len": 58,
+          "gaps": 2,
+          "qseq": "SeeellerlgalmrrlaaagPLSPEAEKLLEEAYRLAEEGRYeeaielaekalalvee",
+          "hseq": "SLEDLSKLLPSRQRRSLKRG-LTPEQKKLLRKI-RLAKKGKYKKPIRTHSRDMVILPE",
+          "midline": "S E+L + L +  RR    G L+PE +KLL +  RLA++G+Y++ I    + + ++ E",
+          "sequence_identity": 0.3448275862068966,
+          "query_coverage": 0.9508196721311475,
+          "target_coverage": 0.42105263157894735,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q89I89|SYA_BRADU",
+              "accession": "Q89I89",
+              "title": "Alanine--tRNA ligase OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110) OX=224911 GN=alaS PE=3 SV=2"
+            }
+          ],
+          "subject_length": 892,
+          "num": 1,
+          "bit_score": 29.261,
+          "score": 64,
+          "evalue": 1.85233,
+          "identity": 24,
+          "positive": 38,
+          "query_from": 1,
+          "query_to": 61,
+          "hit_from": 318,
+          "hit_to": 375,
+          "align_len": 62,
+          "gaps": 5,
+          "qseq": "Seeellerl-galmrrlaaagPLSPEAEKLLEEAYRLAEEGRYeeaielaekalalveeRRA",
+          "hseq": "AKEPLMHRLVWALVREMGQAYPELMRAEKLIEETLRL-EETRFRKTL---TRGLAILDEKSA",
+          "midline": "++E L+ RL  AL+R +  A P    AEKL+EE  RL EE R+ + +    + LA+++E+ A",
+          "sequence_identity": 0.3870967741935484,
+          "query_coverage": 1.0,
+          "target_coverage": 0.06502242152466367,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5JDH3|RS19_THEKO",
+              "accession": "Q5JDH3",
+              "title": "Small ribosomal subunit protein uS19 OS=Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 GN=rps19 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 133,
+          "num": 1,
+          "bit_score": 28.4906,
+          "score": 62,
+          "evalue": 2.9278,
+          "identity": 21,
+          "positive": 33,
+          "query_from": 1,
+          "query_to": 58,
+          "hit_from": 21,
+          "hit_to": 76,
+          "align_len": 58,
+          "gaps": 2,
+          "qseq": "SeeellerlgalmrrlaaagPLSPEAEKLLEEAYRLAEEGRYeeaielaekalalvee",
+          "hseq": "SLEEFAKLLPSRQRRSLKRG-LSPEQKKLLRKI-RLAKKGKYNKPIRTHSRDMIVLPE",
+          "midline": "S EE  + L +  RR    G LSPE +KLL +  RLA++G+Y + I    + + ++ E",
+          "sequence_identity": 0.3620689655172414,
+          "query_coverage": 0.9508196721311475,
+          "target_coverage": 0.42105263157894735,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q46G14|PSB_METBF",
+              "accession": "Q46G14",
+              "title": "Proteasome subunit beta OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 GN=psmB PE=3 SV=1"
+            }
+          ],
+          "subject_length": 211,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 4.51683,
+          "identity": 19,
+          "positive": 32,
+          "query_from": 6,
+          "query_to": 59,
+          "hit_from": 123,
+          "hit_to": 176,
+          "align_len": 56,
+          "gaps": 4,
+          "qseq": "LERLGALM--RRLAAAGPLSPEAEKLLEEAYRLAEEGRYeeaielaekalalveeR",
+          "hseq": "LDALGGSIEETRISATGSGSPMAYGVLEDQYR--EDMTVKEGLDLAIRAIHNATKR",
+          "midline": "L+ LG  +   R++A G  SP A  +LE+ YR  E+   +E ++LA +A+    +R",
+          "sequence_identity": 0.3392857142857143,
+          "query_coverage": 0.8852459016393442,
+          "target_coverage": 0.2559241706161137,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9P992|PSB_METTE",
+              "accession": "Q9P992",
+              "title": "Proteasome subunit beta OS=Methanosarcina thermophila OX=2210 GN=psmB PE=3 SV=1"
+            }
+          ],
+          "subject_length": 210,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 7.48881,
+          "identity": 16,
+          "positive": 26,
+          "query_from": 15,
+          "query_to": 59,
+          "hit_from": 134,
+          "hit_to": 176,
+          "align_len": 45,
+          "gaps": 2,
+          "qseq": "RLAAAGPLSPEAEKLLEEAYRLAEEGRYeeaielaekalalveeR",
+          "hseq": "RISATGSGSPMAYGVLEDQYR--ENMTVKEGLDLAIRAIHNATKR",
+          "midline": "R++A G  SP A  +LE+ YR  E    +E ++LA +A+    +R",
+          "sequence_identity": 0.35555555555555557,
+          "query_coverage": 0.7377049180327869,
+          "target_coverage": 0.20476190476190476,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        }
+      ]
+    },
+    {
+      "query": "expansion_apical_short_018",
+      "status": "complete",
+      "query_length": 61,
+      "statistics": {
+        "db_num": 575748,
+        "db_len": 209017843,
+        "hsp_len": 34,
+        "eff_space": 5114945097,
+        "kappa": 0.041,
+        "lambda": 0.267,
+        "entropy": 0.14
+      },
+      "masking": [
+        {
+          "from": 47,
+          "to": 60
+        }
+      ],
+      "message": null,
+      "database": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "parameters": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "hits": [
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q7S154|MED14_NEUCR",
+              "accession": "Q7S154",
+              "title": "Mediator of RNA polymerase II transcription subunit 14 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=rgr1 PE=3 SV=2"
+            }
+          ],
+          "subject_length": 1274,
+          "num": 1,
+          "bit_score": 31.5722,
+          "score": 70,
+          "evalue": 0.259773,
+          "identity": 20,
+          "positive": 28,
+          "query_from": 14,
+          "query_to": 59,
+          "hit_from": 200,
+          "hit_to": 250,
+          "align_len": 54,
+          "gaps": 11,
+          "qseq": "DLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPE--------VSeeekkkiidelk",
+          "hseq": "DLHWAKV---PGPDLKTALEVLTTGQASWMPELGYIEPPPITWEEKEAFIDNIN",
+          "midline": "DL  AKV     P+L  A+E L TG+A  +PE        ++ EEK+  ID + ",
+          "sequence_identity": 0.37037037037037035,
+          "query_coverage": 0.7540983606557377,
+          "target_coverage": 0.040031397174254316,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|A6L175|DXS_PHOV8",
+              "accession": "A6L175",
+              "title": "1-deoxy-D-xylulose-5-phosphate synthase OS=Phocaeicola vulgatus (strain ATCC 8482 / DSM 1447 / JCM 5826 / CCUG 4940 / NBRC 14291 / NCTC 11154) OX=435590 GN=dxs PE=3 SV=1"
+            }
+          ],
+          "subject_length": 632,
+          "num": 1,
+          "bit_score": 30.4166,
+          "score": 67,
+          "evalue": 0.668599,
+          "identity": 18,
+          "positive": 25,
+          "query_from": 27,
+          "query_to": 58,
+          "hit_from": 8,
+          "hit_to": 42,
+          "align_len": 35,
+          "gaps": 3,
+          "qseq": "NLDEAIE---DLLTGEAEKLPEVSeeekkkiidel",
+          "hseq": "NLLQSIDTPDDLRHLSADKLPEVCKELRQKIIDEL",
+          "midline": "NL ++I+   DL    A+KLPEV +E ++KIIDEL",
+          "sequence_identity": 0.5142857142857142,
+          "query_coverage": 0.5245901639344263,
+          "target_coverage": 0.055379746835443035,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|O30270|Y2401_ARCFU",
+              "accession": "O30270",
+              "title": "Uncharacterized protein AF_2401 OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_2401 PE=4 SV=1"
+            }
+          ],
+          "subject_length": 348,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 3.55157,
+          "identity": 13,
+          "positive": 22,
+          "query_from": 22,
+          "query_to": 57,
+          "hit_from": 287,
+          "hit_to": 322,
+          "align_len": 36,
+          "gaps": 0,
+          "qseq": "KIEAPNLDEAIEDLLTGEAEKLPEVSeeekkkiide",
+          "hseq": "NVEAPKLAAILAPLISYEDEKLPALSFPWERRIIES",
+          "midline": " +EAP L   +  L++ E EKLP +S   +++II+ ",
+          "sequence_identity": 0.3611111111111111,
+          "query_coverage": 0.5901639344262295,
+          "target_coverage": 0.10344827586206896,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q86TM3|DDX53_HUMAN",
+              "accession": "Q86TM3",
+              "title": "Probable ATP-dependent RNA helicase DDX53 OS=Homo sapiens OX=9606 GN=DDX53 PE=1 SV=3"
+            }
+          ],
+          "subject_length": 631,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.0504,
+          "identity": 13,
+          "positive": 23,
+          "query_from": 2,
+          "query_to": 44,
+          "hit_from": 175,
+          "hit_to": 217,
+          "align_len": 43,
+          "gaps": 0,
+          "qseq": "KKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLP",
+          "hseq": "KKNFYIESKATSCMSEMQVINWRKENFNITCDDLKSGEKRLIP",
+          "midline": "KK FY+    T+ +S+ +V+     N +   +DL +GE   +P",
+          "sequence_identity": 0.3023255813953488,
+          "query_coverage": 0.7049180327868853,
+          "target_coverage": 0.06814580031695722,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|B3PNH3|FTSH_META1",
+              "accession": "B3PNH3",
+              "title": "ATP-dependent zinc metalloprotease FtsH OS=Metamycoplasma arthritidis (strain 158L3-1) OX=243272 GN=ftsH PE=3 SV=1"
+            }
+          ],
+          "subject_length": 744,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 5.38476,
+          "identity": 13,
+          "positive": 20,
+          "query_from": 23,
+          "query_to": 54,
+          "hit_from": 452,
+          "hit_to": 483,
+          "align_len": 32,
+          "gaps": 0,
+          "qseq": "IEAPNLDEAIEDLLTGEAEKLPEVSeeekkki",
+          "hseq": "ITLPQLDEAIDRVMAGPAKKSRTISEKENAAV",
+          "midline": "I  P LDEAI+ ++ G A+K   +SE+E   +",
+          "sequence_identity": 0.40625,
+          "query_coverage": 0.5245901639344263,
+          "target_coverage": 0.043010752688172046,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5AW92|MED14_EMENI",
+              "accession": "Q5AW92",
+              "title": "Mediator of RNA polymerase II transcription subunit 14 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=rgr1 PE=3 SV=2"
+            }
+          ],
+          "subject_length": 1103,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 6.95887,
+          "identity": 14,
+          "positive": 23,
+          "query_from": 14,
+          "query_to": 54,
+          "hit_from": 203,
+          "hit_to": 240,
+          "align_len": 41,
+          "gaps": 3,
+          "qseq": "DLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSeeekkki",
+          "hseq": "DLVRAQVAN---PDLNTALEVLLRGEVVSMPDLGYRPPKPL",
+          "midline": "DL +A+V     P+L+ A+E LL GE   +P++     K +",
+          "sequence_identity": 0.34146341463414637,
+          "query_coverage": 0.6721311475409836,
+          "target_coverage": 0.03445149592021759,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5WN60|IFC2_CAEBR",
+              "accession": "Q5WN60",
+              "title": "Intermediate filament protein ifc-2 OS=Caenorhabditis briggsae OX=6238 GN=ifc-2 PE=3 SV=2"
+            }
+          ],
+          "subject_length": 621,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 8.97858,
+          "identity": 20,
+          "positive": 37,
+          "query_from": 2,
+          "query_to": 61,
+          "hit_from": 304,
+          "hit_to": 364,
+          "align_len": 62,
+          "gaps": 3,
+          "qseq": "KKEFYLVKSDTTDLSKAKVVKIEAPN--LDEAIEDLLTGEAEKLPEVSeeekkkiidelkkk",
+          "hseq": "KEELASIRTTVTNV-KSRLAEVEGRNFFLEKLIEDLRNNEESKLYEISLAEKDAQIARLREQ",
+          "midline": "K+E   +++  T++ K+++ ++E  N  L++ IEDL   E  KL E+S  EK   I  L+++",
+          "sequence_identity": 0.3225806451612903,
+          "query_coverage": 0.9836065573770492,
+          "target_coverage": 0.09822866344605476,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q6WHE1|CAPSH_BPKVM",
+              "accession": "Q6WHE1",
+              "title": "Major capsid protein OS=Vibrio phage KVP40 (isolate Vibrio parahaemolyticus/Japan/Matsuzaki/1991) OX=75320 GN=23 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 514,
+          "num": 1,
+          "bit_score": 26.9498,
+          "score": 58,
+          "evalue": 9.56343,
+          "identity": 12,
+          "positive": 20,
+          "query_from": 27,
+          "query_to": 58,
+          "hit_from": 2,
+          "hit_to": 33,
+          "align_len": 32,
+          "gaps": 0,
+          "qseq": "NLDEAIEDLLTGEAEKLPEVSeeekkkiidel",
+          "hseq": "NLTEKWKDLLEAEGADMPEIATATKQKIMSKI",
+          "midline": "NL E  +DLL  E   +PE++   K+KI+ ++",
+          "sequence_identity": 0.375,
+          "query_coverage": 0.5245901639344263,
+          "target_coverage": 0.0622568093385214,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        }
+      ]
+    },
+    {
+      "query": "apical_short_008",
+      "status": "complete",
+      "query_length": 58,
+      "statistics": {
+        "db_num": 575748,
+        "db_len": 209017843,
+        "hsp_len": 31,
+        "eff_space": 5161580685,
+        "kappa": 0.041,
+        "lambda": 0.267,
+        "entropy": 0.14
+      },
+      "masking": [
+        {
+          "from": 15,
+          "to": 30
+        }
+      ],
+      "message": null,
+      "database": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "parameters": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "hits": [
+        {
+          "descriptions": [
+            {
+              "id": "sp|F4IZC5|CAN1_ARATH",
+              "accession": "F4IZC5",
+              "title": "Staphylococcal-like nuclease CAN1 OS=Arabidopsis thaliana OX=3702 GN=CAN1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 323,
+          "num": 1,
+          "bit_score": 30.0314,
+          "score": 66,
+          "evalue": 0.65634,
+          "identity": 20,
+          "positive": 30,
+          "query_from": 5,
+          "query_to": 54,
+          "hit_from": 61,
+          "hit_to": 113,
+          "align_len": 53,
+          "gaps": 3,
+          "qseq": "EILEIFKEVDP--elaeeierl-laelteeQKAELEARLAEDRFFSPEELLEL",
+          "hseq": "KILEAWKQAKPRPKTPEEASRLVIAALKNHQKADVEGLLSFYGLPSPHNLVEV",
+          "midline": "+ILE +K+  P  +  EE  RL +A L   QKA++E  L+     SP  L+E+",
+          "sequence_identity": 0.37735849056603776,
+          "query_coverage": 0.8620689655172413,
+          "target_coverage": 0.16408668730650156,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P36022|DYHC_YEAST",
+              "accession": "P36022",
+              "title": "Dynein heavy chain, cytoplasmic OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DYN1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 4092,
+          "num": 1,
+          "bit_score": 28.1054,
+          "score": 61,
+          "evalue": 3.49881,
+          "identity": 21,
+          "positive": 26,
+          "query_from": 2,
+          "query_to": 56,
+          "hit_from": 2566,
+          "hit_to": 2627,
+          "align_len": 62,
+          "gaps": 7,
+          "qseq": "ALDEILEIFKE----VDPel---aeeierllaelteeQKAELEARLAEDRFFSPEELLELVR",
+          "hseq": "SLSQIYEIYYKAIFKLVPEFRSYTEPFARASVHLYNECKARYSTGLQSHYLFSPRELTRLVR",
+          "midline": "+L +I EI+ +    + PE     E   R    L  E KA     L     FSP EL  LVR",
+          "sequence_identity": 0.3387096774193548,
+          "query_coverage": 0.9482758620689655,
+          "target_coverage": 0.015151515151515152,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q823G6|RECF_CHLCV",
+              "accession": "Q823G6",
+              "title": "DNA replication and repair protein RecF OS=Chlamydia caviae (strain ATCC VR-813 / DSM 19441 / 03DC25 / GPIC) OX=227941 GN=recF PE=3 SV=1"
+            }
+          ],
+          "subject_length": 367,
+          "num": 1,
+          "bit_score": 27.7202,
+          "score": 60,
+          "evalue": 4.43329,
+          "identity": 14,
+          "positive": 19,
+          "query_from": 30,
+          "query_to": 58,
+          "hit_from": 176,
+          "hit_to": 204,
+          "align_len": 29,
+          "gaps": 0,
+          "qseq": "EEQKAELEARLAEDRFFSPEELLELVREL",
+          "hseq": "DEQLATLGAYLTVSRYFCCEQLNQLVQEL",
+          "midline": "+EQ A L A L   R+F  E+L +LV+EL",
+          "sequence_identity": 0.4827586206896552,
+          "query_coverage": 0.5,
+          "target_coverage": 0.07901907356948229,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P13988|TNSA_ECOLX",
+              "accession": "P13988",
+              "title": "Transposon Tn7 transposition protein TnsA OS=Escherichia coli OX=562 GN=tnsA PE=1 SV=1"
+            }
+          ],
+          "subject_length": 273,
+          "num": 1,
+          "bit_score": 27.335,
+          "score": 59,
+          "evalue": 6.29911,
+          "identity": 15,
+          "positive": 21,
+          "query_from": 11,
+          "query_to": 41,
+          "hit_from": 166,
+          "hit_to": 196,
+          "align_len": 31,
+          "gaps": 0,
+          "qseq": "KEVDPelaeeierllaelteeQKAELEARLA",
+          "hseq": "KEINPVVKENIEWLYSVKTEEVSAELLAQLS",
+          "midline": "KE++P + E IE L +  TEE  AEL A+L+",
+          "sequence_identity": 0.4838709677419355,
+          "query_coverage": 0.5344827586206896,
+          "target_coverage": 0.11355311355311355,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q58452|Y1052_METJA",
+              "accession": "Q58452",
+              "title": "UPF0045 thiamine-binding protein family member MJ1052 OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1052 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 100,
+          "num": 1,
+          "bit_score": 26.9498,
+          "score": 58,
+          "evalue": 6.9489,
+          "identity": 11,
+          "positive": 19,
+          "query_from": 1,
+          "query_to": 28,
+          "hit_from": 51,
+          "hit_to": 78,
+          "align_len": 28,
+          "gaps": 0,
+          "qseq": "GALDEILEIFKEVDPelaeeierllael",
+          "hseq": "GDLDEILKAFKEAHSTVLNDVDRVVSSL",
+          "midline": "G LDEIL+ FKE    +  +++R+++ L",
+          "sequence_identity": 0.39285714285714285,
+          "query_coverage": 0.4827586206896552,
+          "target_coverage": 0.28,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        }
+      ]
+    },
+    {
+      "query": "human_tfr1_crop_control",
+      "status": "complete",
+      "query_length": 194,
+      "statistics": {
+        "db_num": 575748,
+        "db_len": 209017843,
+        "hsp_len": 112,
+        "eff_space": 11851793494,
+        "kappa": 0.041,
+        "lambda": 0.267,
+        "entropy": 0.14
+      },
+      "masking": [],
+      "message": null,
+      "database": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "parameters": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "hits": [
+        {
+          "descriptions": [
+            {
+              "id": "sp|P02786|TFR1_HUMAN",
+              "accession": "P02786",
+              "title": "Transferrin receptor protein 1 OS=Homo sapiens OX=9606 GN=TFRC PE=1 SV=2"
+            }
+          ],
+          "subject_length": 760,
+          "num": 1,
+          "bit_score": 403.29,
+          "score": 1035,
+          "evalue": 7.84918e-137,
+          "identity": 194,
+          "positive": 194,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 190,
+          "hit_to": 383,
+          "align_len": 194,
+          "gaps": 0,
+          "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "midline": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "sequence_identity": 1.0,
+          "query_coverage": 1.0,
+          "target_coverage": 0.25526315789473686,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": true
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5RDH6|TFR1_PONAB",
+              "accession": "Q5RDH6",
+              "title": "Transferrin receptor protein 1 OS=Pongo abelii OX=9601 GN=TFRC PE=2 SV=1"
+            }
+          ],
+          "subject_length": 760,
+          "num": 1,
+          "bit_score": 399.823,
+          "score": 1026,
+          "evalue": 1.81901e-135,
+          "identity": 193,
+          "positive": 193,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 190,
+          "hit_to": 383,
+          "align_len": 194,
+          "gaps": 0,
+          "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLDTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "midline": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDL TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "sequence_identity": 0.9948453608247423,
+          "query_coverage": 1.0,
+          "target_coverage": 0.25526315789473686,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": true
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9MYZ3|TFR1_FELCA",
+              "accession": "Q9MYZ3",
+              "title": "Transferrin receptor protein 1 OS=Felis catus OX=9685 GN=TFRC PE=1 SV=1"
+            }
+          ],
+          "subject_length": 769,
+          "num": 1,
+          "bit_score": 338.576,
+          "score": 867,
+          "evalue": 1.14362e-111,
+          "identity": 161,
+          "positive": 176,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 199,
+          "hit_to": 392,
+          "align_len": 194,
+          "gaps": 0,
+          "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "VQVKGSASNSVTIVGTNSGMVYLVESPEGYVAYSKAATVTGRLVHANFGTKKDFENLNSPVNGSLVIVRAGKITFAEKVANAESFNAIGVLIYMDQAKFPITNAEIPFFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRANAEKLFGNMEGDCPSAWETDSSCRLETSRNWNVKLSVNNVLKE",
+          "midline": "+QVK SA NSV IV  N  +VYLVE+P GYVAYSKAATVTG+LVHANFGTKKDFE+L +PVNGS+VIVRAGKITFAEKVANAES NAIGVLIYMDQ KFPI NAE+ FFGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRA AEKLFGNMEGDCPS W+TDS+CR+ TS + NVKL+V+NVLKE",
+          "sequence_identity": 0.8298969072164949,
+          "query_coverage": 1.0,
+          "target_coverage": 0.25227568270481143,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9GLD3|TFR1_CANLF",
+              "accession": "Q9GLD3",
+              "title": "Transferrin receptor protein 1 OS=Canis lupus familiaris OX=9615 GN=TFRC PE=1 SV=1"
+            }
+          ],
+          "subject_length": 770,
+          "num": 1,
+          "bit_score": 322.398,
+          "score": 825,
+          "evalue": 2.15753e-105,
+          "identity": 154,
+          "positive": 171,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 199,
+          "hit_to": 393,
+          "align_len": 195,
+          "gaps": 1,
+          "qseq": "IQVKDS-AQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKSSNAQNTVTIVDMESDLVYLAESPEGYVAYSKATTVTGRLVHVNFGTKKDFENLKSPVNGSLVIARAGKITFAEKVANAQSYNALGVLIYMDQARFPIVNARIPFFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPSIPVQTISRAAAEKLFENMEGDCPSAWEIDPSCRLETSSNKNVNLTVNNVLKE",
+          "midline": "IQVK S AQN+V IVD    LVYL E+P GYVAYSKA TVTG+LVH NFGTKKDFE+L +PVNGS+VI RAGKITFAEKVANA+S NA+GVLIYMDQ +FPIVNA + FFGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLP+IPVQTISRAAAEKLF NMEGDCPS W+ D +CR+ TS +KNV LTV+NVLKE",
+          "sequence_identity": 0.7897435897435897,
+          "query_coverage": 1.0,
+          "target_coverage": 0.2532467532467532,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q2V905|TFR1_HORSE",
+              "accession": "Q2V905",
+              "title": "Transferrin receptor protein 1 OS=Equus caballus OX=9796 GN=TFRC PE=2 SV=1"
+            }
+          ],
+          "subject_length": 767,
+          "num": 1,
+          "bit_score": 316.62,
+          "score": 810,
+          "evalue": 3.15919e-103,
+          "identity": 154,
+          "positive": 171,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 196,
+          "hit_to": 390,
+          "align_len": 195,
+          "gaps": 1,
+          "qseq": "IQVKDS-AQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKGSNAQSSVTVVNGSGDMISLVENPTGYVAYSKATTVTGKLVHANFGTKEDYEALSYPVNGSLVIVRAGEITFAQKVANAESLNAVGVLIYMDQAKFPIVNANLPVFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRAAAEALFANMKGDCPSSWKTDSSCRLEFPGDKNVKLTVNNELKE",
+          "midline": "IQVK S AQ+SV +V+ +G ++ LVENP GYVAYSKA TVTGKLVHANFGTK+D+E L  PVNGS+VIVRAG+ITFA+KVANAESLNA+GVLIYMDQ KFPIVNA L  FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRAAAE LF NM+GDCPS WKTDS+CR+     KNVKLTV+N LKE",
+          "sequence_identity": 0.7897435897435897,
+          "query_coverage": 1.0,
+          "target_coverage": 0.2542372881355932,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q07891|TFR1_CRIGR",
+              "accession": "Q07891",
+              "title": "Transferrin receptor protein 1 OS=Cricetulus griseus OX=10029 GN=TFRC PE=2 SV=1"
+            }
+          ],
+          "subject_length": 757,
+          "num": 1,
+          "bit_score": 313.923,
+          "score": 803,
+          "evalue": 2.92076e-102,
+          "identity": 153,
+          "positive": 170,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 187,
+          "hit_to": 380,
+          "align_len": 195,
+          "gaps": 2,
+          "qseq": "IQVKDSA-QNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKGSAAQNAVTIINVNGD-SDLVENPGGYVAYSKATTVSGKLIHANFGTKKDFEDLKYPVNGSLVIVRAGKITFAEKVANAQSFNAIGVLIYMDQTKFPVVEAELSLFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPSIPVQTISRKAAEKLFQNMETNCPPSWNTDSLCKLESSQGINVNLSVNNVLKE",
+          "midline": "IQVK SA QN+V I++ NG    LVENPGGYVAYSKA TV+GKL+HANFGTKKDFEDL  PVNGS+VIVRAGKITFAEKVANA+S NAIGVLIYMDQTKFP+V AELS FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLP+IPVQTISR AAEKLF NME +CP  W TDS C++ +S+  NV L+V+NVLKE",
+          "sequence_identity": 0.7846153846153846,
+          "query_coverage": 1.0,
+          "target_coverage": 0.2562747688243065,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q8HZV3|TFR1_PIG",
+              "accession": "Q8HZV3",
+              "title": "Transferrin receptor protein 1 OS=Sus scrofa OX=9823 GN=TFRC PE=2 SV=1"
+            }
+          ],
+          "subject_length": 768,
+          "num": 1,
+          "bit_score": 311.997,
+          "score": 798,
+          "evalue": 2.38394e-101,
+          "identity": 153,
+          "positive": 172,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 196,
+          "hit_to": 391,
+          "align_len": 196,
+          "gaps": 2,
+          "qseq": "IQVKDS-AQNSVIIVDKNGR-LVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKGSNAENSVTLVNTDSNSLVYPVESPEGYVAYSKATTVTGKLIFANFGTKKDFEDLKMPVNGSLVIVRAGKITFAEKVANAQSLDAIGVLIYMDRANFPIINADVPVFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRAGAEKLFGNMEQDCPLTWRTDFPCKLVSSPSKNVKLTVNNVLKE",
+          "midline": "IQVK S A+NSV +V+ +   LVY VE+P GYVAYSKA TVTGKL+ ANFGTKKDFEDL  PVNGS+VIVRAGKITFAEKVANA+SL+AIGVLIYMD+  FPI+NA++  FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRA AEKLFGNME DCP  W+TD  C++V+S SKNVKLTV+NVLKE",
+          "sequence_identity": 0.7806122448979592,
+          "query_coverage": 1.0,
+          "target_coverage": 0.2552083333333333,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q62351|TFR1_MOUSE",
+              "accession": "Q62351",
+              "title": "Transferrin receptor protein 1 OS=Mus musculus OX=10090 GN=Tfrc PE=1 SV=1"
+            }
+          ],
+          "subject_length": 763,
+          "num": 1,
+          "bit_score": 298.516,
+          "score": 763,
+          "evalue": 3.52076e-96,
+          "identity": 145,
+          "positive": 164,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 192,
+          "hit_to": 385,
+          "align_len": 195,
+          "gaps": 2,
+          "qseq": "IQVKDS-AQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKSSIGQNMVTIVQSNGNLD-PVESPEGYVAFSKPTEVSGKLVHANFGTKKDFEELSYSVNGSLVIVRAGEITFAEKVANAQSFNAIGVLIYMDKNKFPVVEADLALFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRAAAEKLFGKMEGSCPARWNIDSSCKLELSQNQNVKLIVKNVLKE",
+          "midline": "IQVK S  QN V IV  NG L   VE+P GYVA+SK   V+GKLVHANFGTKKDFE+L   VNGS+VIVRAG+ITFAEKVANA+S NAIGVLIYMD+ KFP+V A+L+ FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRAAAEKLFG MEG CP+ W  DS+C++  S+++NVKL V NVLKE",
+          "sequence_identity": 0.7435897435897436,
+          "query_coverage": 1.0,
+          "target_coverage": 0.254259501965924,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q99376|TFR1_RAT",
+              "accession": "Q99376",
+              "title": "Transferrin receptor protein 1 OS=Rattus norvegicus OX=10116 GN=Tfrc PE=1 SV=2"
+            }
+          ],
+          "subject_length": 761,
+          "num": 1,
+          "bit_score": 295.819,
+          "score": 756,
+          "evalue": 2.68966e-95,
+          "identity": 141,
+          "positive": 166,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 192,
+          "hit_to": 384,
+          "align_len": 194,
+          "gaps": 1,
+          "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "IQVKNSVSQNLVTIN-SGSNIDPVEAPEGYVAFSKAGEVTGKLVHANFGTKKDFEELNYSVNGSLVIVRAGKITFAEKVANAQSFNAIGVLIYMDRNTFPVVEADLQFFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPSIPVQTISRAAAEKLFKNMEGNCPPSWNIDSSCKLELSQNQNVKLTVNNVLKE",
+          "midline": "IQVK+S   +++ ++ +G  +  VE P GYVA+SKA  VTGKLVHANFGTKKDFE+L   VNGS+VIVRAGKITFAEKVANA+S NAIGVLIYMD+  FP+V A+L FFGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLP+IPVQTISRAAAEKLF NMEG+CP  W  DS+C++  S+++NVKLTV+NVLKE",
+          "sequence_identity": 0.7268041237113402,
+          "query_coverage": 1.0,
+          "target_coverage": 0.2536136662286465,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q90997|TFR1_CHICK",
+              "accession": "Q90997",
+              "title": "Transferrin receptor protein 1 OS=Gallus gallus OX=9031 GN=TFRC PE=2 SV=2"
+            }
+          ],
+          "subject_length": 776,
+          "num": 1,
+          "bit_score": 192.586,
+          "score": 488,
+          "evalue": 3.11256e-56,
+          "identity": 107,
+          "positive": 138,
+          "query_from": 1,
+          "query_to": 194,
+          "hit_from": 199,
+          "hit_to": 396,
+          "align_len": 201,
+          "gaps": 10,
+          "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFE---DLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK-TDSTCRMVTSESKN--VKLTVSNVLKE",
+          "hseq": "LQVRGSTKNQVSI-SINGK-EEILETPDAIVAYSESGSVSGKPVYVNYGLKKDFEIIQKVVASLNGTIVIVRAGKITLAEKVANAKEAGAAGVLMYVDSLMYGITDT-LIPFGHAHLGTGDPYTPGFPSFNHTQFPPVESSGLPHIAVQTISSSAAARLFSKMDGDTCSEGWKGAIHSCKVTTKQESQIMVKLDVNNSMKD",
+          "midline": "+QV+ S +N V I   NG+   ++E P   VAYS++ +V+GK V+ N+G KKDFE    +   +NG+IVIVRAGKIT AEKVANA+   A GVL+Y+D   + I +  L  FGHAHLGTGDPYTPGFPSFNHTQFPP  SSGLP+I VQTIS +AA +LF  M+GD C   WK    +C++ T +     VKL V+N +K+",
+          "sequence_identity": 0.5323383084577115,
+          "query_coverage": 1.0,
+          "target_coverage": 0.2551546391752577,
+          "close_sequence_review_flag": true,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|B2GUY2|TFR2_RAT",
+              "accession": "B2GUY2",
+              "title": "Transferrin receptor protein 2 OS=Rattus norvegicus OX=10116 GN=Tfr2 PE=2 SV=1"
+            }
+          ],
+          "subject_length": 798,
+          "num": 1,
+          "bit_score": 154.836,
+          "score": 390,
+          "evalue": 1.65279e-42,
+          "identity": 82,
+          "positive": 112,
+          "query_from": 24,
+          "query_to": 190,
+          "hit_from": 221,
+          "hit_to": 398,
+          "align_len": 180,
+          "gaps": 15,
+          "qseq": "VENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK---TDSTCRMVTSESKNVKLTVSN",
+          "hseq": "LEDPEVYCPYSATGNATGKLVYAHYGRREDLQDLKAKDVELAGSLLLVRAGITSFAQKVAIAQDFGAHGVLIYPDPADFSQDPHKPGLSSDRAVYGHVHLGTGDPYTPGFPSFNQTQFPPVESSGLPNIPAQPISADVADRLLRKLTGPVAPQEWKGRLSDSPYRL--GPGPGLRLVVNN",
+          "midline": "+E+P  Y  YS     TGKLV+A++G ++D +DL      + GS+++VRAG  +FA+KVA A+   A GVLIY D   F      P ++++ + +GH HLGTGDPYTPGFPSFN TQFPP  SSGLPNIP Q IS   A++L   + G   P +WK   +DS  R+       ++L V+N",
+          "sequence_identity": 0.45555555555555555,
+          "query_coverage": 0.8608247422680413,
+          "target_coverage": 0.22305764411027568,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9JKX3|TFR2_MOUSE",
+              "accession": "Q9JKX3",
+              "title": "Transferrin receptor protein 2 OS=Mus musculus OX=10090 GN=Tfr2 PE=1 SV=2"
+            }
+          ],
+          "subject_length": 798,
+          "num": 1,
+          "bit_score": 149.443,
+          "score": 376,
+          "evalue": 1.34041e-40,
+          "identity": 81,
+          "positive": 111,
+          "query_from": 1,
+          "query_to": 169,
+          "hit_from": 195,
+          "hit_to": 376,
+          "align_len": 182,
+          "gaps": 13,
+          "qseq": "IQVKDSAQ-NSVIIVDKNGRLV--YLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK",
+          "hseq": "LQFPDPAHANTLHWVDADGSVQEQLPLEDPEVYCPYSATGNATGKLVYAHYGRSEDLQDLKAKGVELAGSLLLVRVGITSFAQKVAVAQDFGAQGVLIYPDPSDFSQDPHKPGLSSHQAVYGHVHLGTGDPYTPGFPSFNQTQFPPVESSGLPSIPAQPISADIADQLLRKLTGPVAPQEWK",
+          "midline": "+Q  D A  N++  VD +G +     +E+P  Y  YS     TGKLV+A++G  +D +DL      + GS+++VR G  +FA+KVA A+   A GVLIY D + F      P +++  + +GH HLGTGDPYTPGFPSFN TQFPP  SSGLP+IP Q IS   A++L   + G   P +WK",
+          "sequence_identity": 0.44505494505494503,
+          "query_coverage": 0.8711340206185567,
+          "target_coverage": 0.22807017543859648,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9UP52|TFR2_HUMAN",
+              "accession": "Q9UP52",
+              "title": "Transferrin receptor protein 2 OS=Homo sapiens OX=9606 GN=TFR2 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 801,
+          "num": 1,
+          "bit_score": 148.673,
+          "score": 374,
+          "evalue": 2.17957e-40,
+          "identity": 81,
+          "positive": 114,
+          "query_from": 1,
+          "query_to": 169,
+          "hit_from": 200,
+          "hit_to": 381,
+          "align_len": 183,
+          "gaps": 15,
+          "qseq": "IQVKDSAQ-NSVIIVDKNGRL--VYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYT----PVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK",
+          "hseq": "LQFPDPAHPNTLHWVDEAGKVGEQLPLEDPDVYCPYSAIGNVTGELVYAHYGRPEDLQDLRARGVDPV-GRLLLVRVGVISFAQKVTNAQDFGAQGVLIYPEPADFSQDPPKPSLSSQQAVYGHVHLGTGDPYTPGFPSFNQTQFPPVASSGLPSIPAQPISADIASRLLRKLKGPVAPQEWQ",
+          "midline": "+Q  D A  N++  VD+ G++     +E+P  Y  YS    VTG+LV+A++G  +D +DL      PV G +++VR G I+FA+KV NA+   A GVLIY +   F      P ++++ + +GH HLGTGDPYTPGFPSFN TQFPP  SSGLP+IP Q IS   A +L   ++G   P +W+",
+          "sequence_identity": 0.4426229508196721,
+          "query_coverage": 0.8711340206185567,
+          "target_coverage": 0.2272159800249688,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9CZR2|NALD2_MOUSE",
+              "accession": "Q9CZR2",
+              "title": "N-acetylated-alpha-linked acidic dipeptidase 2 OS=Mus musculus OX=10090 GN=Naalad2 PE=1 SV=2"
+            }
+          ],
+          "subject_length": 740,
+          "num": 1,
+          "bit_score": 84.7297,
+          "score": 208,
+          "evalue": 3.96749e-18,
+          "identity": 72,
+          "positive": 104,
+          "query_from": 9,
+          "query_to": 193,
+          "hit_from": 116,
+          "hit_to": 341,
+          "align_len": 226,
+          "gaps": 41,
+          "qseq": "NSVIIVDKNG----RLVYLVENPGGYV----------AYSKAATVTGKLVHANFGTKKDFEDLYTPVN----GSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAE-----LSFFGHAHL--------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WKTDSTCR------MVTSE-SKNVKLTVSNVLK",
+          "hseq": "NYVSIVDEHGVEIFKTSYLEPPPDGYENVTNIIPPYNAFSASGMPEGELVYVNYARTEDFFKLEREMNINCTGKIVIARYGKIFRGNKVKNAMLAGAMGIILYSDPADYFAPDVQPYPKGWNLPGAAAQRGNVLNLNGAGDPLTPGYPAKEYTFRLPVEEAVGIPNIPVHPIGYNDAERLLRNLGGAAPPDKSWKGSLNVSYNIGPGFTGSEYSRNIRMHVNNINK",
+          "midline": "N V IVD++G    +  YL   P GY           A+S +    G+LV+ N+   +DF  L   +N    G IVI R GKI    KV NA    A+G+++Y D   +   + +      +  G A          G GDP TPG+P+  +T + P   + G+PNIPV  I    AE+L  N+ G  P D  WK               SE S+N+++ V+N+ K",
+          "sequence_identity": 0.3185840707964602,
+          "query_coverage": 0.9536082474226805,
+          "target_coverage": 0.3054054054054054,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|O35409|FOLH1_MOUSE",
+              "accession": "O35409",
+              "title": "Glutamate carboxypeptidase 2 OS=Mus musculus OX=10090 GN=Folh1 PE=1 SV=2"
+            }
+          ],
+          "subject_length": 752,
+          "num": 1,
+          "bit_score": 72.4034,
+          "score": 176,
+          "evalue": 7.46351e-14,
+          "identity": 53,
+          "positive": 76,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 163,
+          "hit_to": 322,
+          "align_len": 161,
+          "gaps": 22,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+          "hseq": "YSAFSPQGTPEGDLVYVNYARTEDFFKLEREMKISCSGKIVIARYGKVFRGNMVKNAQLAGAKGMILYSDPADY-FVPAVKSYPDGWNLPGGGVQRGNVLNLNGAGDPLTPGYPANEHAYRHELTNAVGLPSIPVHPIGYDDAQKLLEHMGGPAPPDSSWK",
+          "midline": "Y A+S   T  G LV+ N+   +DF     ++    +G IVI R GK+     V NA+   A G+++Y D   +  V A  S+    +L              G GDP TPG+P+  H  +   + + GLP+IPV  I    A+KL  +M G  P D  WK",
+          "sequence_identity": 0.32919254658385094,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.2127659574468085,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|O77564|FOLH1_PIG",
+              "accession": "O77564",
+              "title": "Glutamate carboxypeptidase 2 OS=Sus scrofa OX=9823 GN=FOLH1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 751,
+          "num": 1,
+          "bit_score": 70.4774,
+          "score": 171,
+          "evalue": 4.27819e-13,
+          "identity": 59,
+          "positive": 87,
+          "query_from": 9,
+          "query_to": 169,
+          "hit_from": 127,
+          "hit_to": 321,
+          "align_len": 196,
+          "gaps": 36,
+          "qseq": "NSVIIVDKNGRLVY---LVENPG-GY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+          "hseq": "NYISIIDEDGNEIFNTSLFEPPPPGYENVSDVVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKILIARYGKIFRGNKVKNAQLAGAKGIILYSDPADY-FAPGVQSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRLQIAEAVGLPRIPVHPIGYSDAQKLLEKMGGSAPPDDSWK",
+          "midline": "N + I+D++G  ++   L E P  GY           A+S      G LV+ N+   +DF     D+    +G I+I R GKI    KV NA+   A G+++Y D   +       S+    +L              G GDP TPG+P+  +  +   + + GLP IPV  I  + A+KL   M G  P D  WK",
+          "sequence_identity": 0.3010204081632653,
+          "query_coverage": 0.8298969072164949,
+          "target_coverage": 0.2596537949400799,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P70627|FOLH1_RAT",
+              "accession": "P70627",
+              "title": "Glutamate carboxypeptidase 2 OS=Rattus norvegicus OX=10116 GN=Folh1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 752,
+          "num": 1,
+          "bit_score": 68.9366,
+          "score": 167,
+          "evalue": 1.30567e-12,
+          "identity": 52,
+          "positive": 76,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 163,
+          "hit_to": 322,
+          "align_len": 161,
+          "gaps": 22,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTPV----NGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+          "hseq": "YSAFSPQGTPEGDLVYVNYARTEDFFKLERVMKINCSGKIVIARYGQVFRGNKVKNAQLAGAKGIILYSDPADY-FVPGVKSYPDGWNLPGGGVQRGNVLNLNGAGDPLTPGYPANEYAYRHEFTEAVGLPSIPVHPIGYDDAQKLLEHMGGSAPPDSSWK",
+          "midline": "Y A+S   T  G LV+ N+   +DF  L   +    +G IVI R G++    KV NA+   A G+++Y D   +  V    S+    +L              G GDP TPG+P+  +  +   + + GLP+IPV  I    A+KL  +M G  P D  WK",
+          "sequence_identity": 0.32298136645962733,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.2127659574468085,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q04609|FOLH1_HUMAN",
+              "accession": "Q04609",
+              "title": "Glutamate carboxypeptidase 2 OS=Homo sapiens OX=9606 GN=FOLH1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 750,
+          "num": 1,
+          "bit_score": 66.6254,
+          "score": 161,
+          "evalue": 8.28096e-12,
+          "identity": 50,
+          "positive": 73,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 161,
+          "hit_to": 320,
+          "align_len": 161,
+          "gaps": 22,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+          "hseq": "FSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADY-FAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR",
+          "midline": "+ A+S      G LV+ N+   +DF     D+    +G IVI R GK+    KV NA+   A GV++Y D   +       S+    +L              G GDP TPG+P+  +  +   + + GLP+IPV  I    A+KL   M G  P D  W+",
+          "sequence_identity": 0.3105590062111801,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.21333333333333335,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q7M758|NALDL_MOUSE",
+              "accession": "Q7M758",
+              "title": "Aminopeptidase NAALADL1 OS=Mus musculus OX=10090 GN=Naaladl1 PE=2 SV=1"
+            }
+          ],
+          "subject_length": 745,
+          "num": 1,
+          "bit_score": 66.2402,
+          "score": 160,
+          "evalue": 9.63041e-12,
+          "identity": 50,
+          "positive": 72,
+          "query_from": 30,
+          "query_to": 175,
+          "hit_from": 155,
+          "hit_to": 319,
+          "align_len": 168,
+          "gaps": 25,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMD-----------------QTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG-DCPSDWKTDSTCR",
+          "hseq": "YAAYAPPGTPKGLLVYANQGSEEDFKELETQGINLEGTIALTRYGGVGRGAKAINAAKHGVVGVLVYTDPGDINDGKSLPNETFPNSWRLPPSGVER---GSYYEYFGDPLTPYLPAHPSSFRLDPHNTSGFPPIPTQPIGFEDARDLLCNLTGTSAPAFWQGALGCE",
+          "midline": "Y AY+   T  G LV+AN G+++DF++L T    + G+I + R G +    K  NA     +GVL+Y D                   + P    E    G  +   GDP TP  P+   + +  P  +SG P IP Q I    A  L  N+ G   P+ W+    C ",
+          "sequence_identity": 0.2976190476190476,
+          "query_coverage": 0.7525773195876289,
+          "target_coverage": 0.2214765100671141,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q7Y228|LAMP1_ARATH",
+              "accession": "Q7Y228",
+              "title": "Probable glutamate carboxypeptidase LAMP1 OS=Arabidopsis thaliana OX=3702 GN=LAMP1 PE=2 SV=1"
+            }
+          ],
+          "subject_length": 681,
+          "num": 1,
+          "bit_score": 65.4698,
+          "score": 158,
+          "evalue": 2.10201e-11,
+          "identity": 47,
+          "positive": 75,
+          "query_from": 33,
+          "query_to": 164,
+          "hit_from": 135,
+          "hit_to": 283,
+          "align_len": 152,
+          "gaps": 23,
+          "qseq": "YSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSR----SSGLPNIPVQTISRAAAEKLFGNMEGDC",
+          "hseq": "YAKSGNVSGPVVYANYGRVEDFVRLKKDMGVNVSGAVVIARYGQIYRGDIVKNAYEAGAVGVVIYTDKRDYGGDEWFPASKWMPPSGVQV---GTVYNGLGDPTTPGWASVDGCERLSDEAVELSGDVPLIPSLPVSAADAEVILKTVVGDV",
+          "midline": "Y+K+  V+G +V+AN+G  +DF    +D+   V+G++VI R G+I   + V NA    A+GV+IY D+  +            P    ++   G  + G GDP TPG+ S +  +         S  +P IP   +S A AE +   + GD ",
+          "sequence_identity": 0.3092105263157895,
+          "query_coverage": 0.6804123711340206,
+          "target_coverage": 0.21879588839941264,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9Y3Q0|NALD2_HUMAN",
+              "accession": "Q9Y3Q0",
+              "title": "N-acetylated-alpha-linked acidic dipeptidase 2 OS=Homo sapiens OX=9606 GN=NAALAD2 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 740,
+          "num": 1,
+          "bit_score": 64.6994,
+          "score": 156,
+          "evalue": 3.24989e-11,
+          "identity": 54,
+          "positive": 70,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 151,
+          "hit_to": 310,
+          "align_len": 160,
+          "gaps": 20,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTPV----NGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNAE---LSFFGHAHL--------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+          "hseq": "YNAFSAQGMPEGDLVYVNYARTEDFFKLEREMGINCTGKIVIARYGKIFRGNKVKNAMLAGAIGIILYSDPADYFAPEVQPYPKGWNLPGTAAQRGNVLNLNGAGDPLTPGYPAKEYTFRLDVEEGVGIPRIPVHPIGYNDAEILLRYLGGIAPPDKSWK",
+          "midline": "Y A+S      G LV+ N+   +DF  L   +     G IVI R GKI    KV NA    AIG+++Y D   +  P V       +  G A          G GDP TPG+P+  +T +       G+P IPV  I    AE L   + G  P D  WK",
+          "sequence_identity": 0.3375,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.21621621621621623,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9UQQ1|NALDL_HUMAN",
+              "accession": "Q9UQQ1",
+              "title": "Aminopeptidase NAALADL1 OS=Homo sapiens OX=9606 GN=NAALADL1 PE=1 SV=2"
+            }
+          ],
+          "subject_length": 740,
+          "num": 1,
+          "bit_score": 61.6178,
+          "score": 148,
+          "evalue": 4.14282e-10,
+          "identity": 49,
+          "positive": 71,
+          "query_from": 30,
+          "query_to": 174,
+          "hit_from": 150,
+          "hit_to": 313,
+          "align_len": 164,
+          "gaps": 19,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYT---PVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFF--------GHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWKTDSTC",
+          "hseq": "YAAYAPSGTPQGLLVYANRGAEEDFKELQTQGIKLEGTIALTRYGGVGRGAKAVNAAKHGVAGVLVYTDPADINDGLSSPDETFPNSWYLPPSGVERGSYYEYFGDPLTPYLPAVPSSFRVDLANVSGFPPIPTQPIGFQDARDLLCNLNGTLAPATWQGALGC",
+          "midline": "Y AY+ + T  G LV+AN G ++DF++L T    + G+I + R G +    K  NA      GVL+Y D          P      S++        G  +   GDP TP  P+   + +   +  SG P IP Q I    A  L  N+ G   P+ W+    C",
+          "sequence_identity": 0.29878048780487804,
+          "query_coverage": 0.7474226804123711,
+          "target_coverage": 0.22162162162162163,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|O54697|NALDL_RAT",
+              "accession": "O54697",
+              "title": "Aminopeptidase NAALADL1 OS=Rattus norvegicus OX=10116 GN=Naaladl1 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 745,
+          "num": 1,
+          "bit_score": 61.2326,
+          "score": 147,
+          "evalue": 6.06221e-10,
+          "identity": 49,
+          "positive": 67,
+          "query_from": 30,
+          "query_to": 175,
+          "hit_from": 155,
+          "hit_to": 319,
+          "align_len": 168,
+          "gaps": 25,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMD-----------------QTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG-DCPSDWKTDSTCR",
+          "hseq": "YAAYAPPGTPKGPLVYANRGSEDDFKKLEAEGINLKGTIALTRYGSVGRGAKAINAARHGVVGVLVYTDPGDINDGKSLPNETFPNSWGLPPSGVER---GSYYEYFGDPLTPYLPAHPVSFRLDPHNISGFPPIPTQPIGFEDAKNLLCNLNGTSAPDSWQGALGCE",
+          "midline": "Y AY+   T  G LV+AN G++ DF+ L      + G+I + R G +    K  NA     +GVL+Y D                     P    E    G  +   GDP TP  P+   + +  P   SG P IP Q I    A+ L  N+ G   P  W+    C ",
+          "sequence_identity": 0.2916666666666667,
+          "query_coverage": 0.7525773195876289,
+          "target_coverage": 0.2214765100671141,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5WN23|GCP2_CAEBR",
+              "accession": "Q5WN23",
+              "title": "Glutamate carboxypeptidase 2 homolog OS=Caenorhabditis briggsae OX=6238 GN=gcp-2.1 PE=3 SV=1"
+            }
+          ],
+          "subject_length": 770,
+          "num": 1,
+          "bit_score": 60.077,
+          "score": 144,
+          "evalue": 1.45901e-09,
+          "identity": 48,
+          "positive": 74,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 169,
+          "hit_to": 331,
+          "align_len": 163,
+          "gaps": 23,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLY---TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPI--VNAELSF------------FGHAHLGTGDPYTPGFPS----FNHTQFPPSRSSG-LPNIPVQTISRAAAEKLFGNMEGDC-PSDWK",
+          "hseq": "WLAYGGNGTVSADVVYINRGNANDFKNLKLMGVDVKGKIALMRYGHGFRGDKVYKAQQAGAIGAILFSDTSDVAQDGVDSEHVYPKTIWMPNEGVQRGSLMHGDGDPLSPFYPSKKELFKGRTIEEAKDDGTLPSIPVLPVSYTTALQLLKRMSGRAVPSDWQ",
+          "midline": "++AY    TV+  +V+ N G   DF++L      V G I ++R G     +KV  A+   AIG +++ D +      V++E  +             G    G GDP +P +PS    F       ++  G LP+IPV  +S   A +L   M G   PSDW+",
+          "sequence_identity": 0.294478527607362,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.21168831168831168,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P47161|VPS70_YEAST",
+              "accession": "P47161",
+              "title": "Vacuolar protein sorting-associated protein 70 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VPS70 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 811,
+          "num": 1,
+          "bit_score": 52.7582,
+          "score": 125,
+          "evalue": 4.37311e-07,
+          "identity": 47,
+          "positive": 64,
+          "query_from": 29,
+          "query_to": 162,
+          "hit_from": 230,
+          "hit_to": 384,
+          "align_len": 156,
+          "gaps": 23,
+          "qseq": "GYVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLG-------------------TGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG",
+          "hseq": "GFHQYSKNGSVTARYVFCNYGSISDYKLLLKKNIDIEDKIHIVRSGKILPGLKVKNAELYGASSVIIYTDPFDDGKVTEENGFL-HYPYGPARNPSYIRRDSVNYFSDTPGDPTTPGYPSKDSDTEHMSPVGRVPRIPSVPMSARDVQPILERLNG",
+          "midline": "G+  YSK  +VT + V  N+G+  D++ L      +   I IVR+GKI    KV NAE   A  V+IY D      V  E  F  H   G                    GDP TPG+PS +      S    +P IP   +S    + +   + G",
+          "sequence_identity": 0.30128205128205127,
+          "query_coverage": 0.6907216494845361,
+          "target_coverage": 0.19112207151664612,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P0DD35|C5AP_STRPQ",
+              "accession": "P0DD35",
+              "title": "C5a peptidase OS=Streptococcus pyogenes serotype M3 (strain SSI-1) OX=193567 GN=scpA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1169,
+          "num": 1,
+          "bit_score": 51.9878,
+          "score": 123,
+          "evalue": 7.92563e-07,
+          "identity": 28,
+          "positive": 37,
+          "query_from": 44,
+          "query_to": 101,
+          "hit_from": 372,
+          "hit_to": 427,
+          "align_len": 59,
+          "gaps": 4,
+          "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+          "hseq": "AYANRGTK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+          "midline": " +AN GTK   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI",
+          "sequence_identity": 0.4745762711864407,
+          "query_coverage": 0.29896907216494845,
+          "target_coverage": 0.04790419161676647,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P0DD34|C5AP_STRP3",
+              "accession": "P0DD34",
+              "title": "C5a peptidase OS=Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315) OX=198466 GN=scpA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1169,
+          "num": 1,
+          "bit_score": 51.9878,
+          "score": 123,
+          "evalue": 7.92563e-07,
+          "identity": 28,
+          "positive": 37,
+          "query_from": 44,
+          "query_to": 101,
+          "hit_from": 372,
+          "hit_to": 427,
+          "align_len": 59,
+          "gaps": 4,
+          "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+          "hseq": "AYANRGTK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+          "midline": " +AN GTK   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI",
+          "sequence_identity": 0.4745762711864407,
+          "query_coverage": 0.29896907216494845,
+          "target_coverage": 0.04790419161676647,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|O43023|YGV9_SCHPO",
+              "accession": "O43023",
+              "title": "Inactive zinc metalloprotease C354.09c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC354.09c PE=3 SV=1"
+            }
+          ],
+          "subject_length": 794,
+          "num": 1,
+          "bit_score": 51.2174,
+          "score": 121,
+          "evalue": 1.4786e-06,
+          "identity": 47,
+          "positive": 67,
+          "query_from": 34,
+          "query_to": 162,
+          "hit_from": 233,
+          "hit_to": 380,
+          "align_len": 149,
+          "gaps": 21,
+          "qseq": "SKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQT--------------KFPIVNAEL--SFFGHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG",
+          "hseq": "SPSGFVNAPLVYANRGRIEDFEWLVNSGIYVESSIVLVRANQSDFALATANAEKYNASAILIFEDTYLTSLDNLNQVYPAGPYPSANSLYRGSVANHYYY-VGDPLTPGWSAHEETNRISPKDANVLPSIVSIPITFNDGIELLKRLQG",
+          "midline": "S +  V   LV+AN G  +DFE L      V  SIV+VRA +  FA   ANAE  NA  +LI+ D                 +P  N+    S   H +   GDP TPG+ +   T +  P  ++ LP+I    I+     +L   ++G",
+          "sequence_identity": 0.31543624161073824,
+          "query_coverage": 0.6649484536082474,
+          "target_coverage": 0.18639798488664988,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q9M1S8|GCP2_ARATH",
+              "accession": "Q9M1S8",
+              "title": "Probable glutamate carboxypeptidase AMP1 OS=Arabidopsis thaliana OX=3702 GN=AMP1 PE=1 SV=3"
+            }
+          ],
+          "subject_length": 705,
+          "num": 1,
+          "bit_score": 51.2174,
+          "score": 121,
+          "evalue": 1.56019e-06,
+          "identity": 42,
+          "positive": 66,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 158,
+          "hit_to": 303,
+          "align_len": 149,
+          "gaps": 12,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDF---EDLYTPVNGSIVIVRAGK-ITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSF----NHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG-DCPSDWK",
+          "hseq": "YHAYSPSGSAQGNVVFVNHGEERDYHALESIGVSVKGCVVLARKGENLGRGAIVKIAEAKGALGVLIYAENDGGGFGGIER---GTVMRGIGDPVSPGWPGVVGGEKLSLDDELVTRRFPKIPSLPLSLRNAEIILASLGGARAPLEWR",
+          "midline": "Y AYS + +  G +V  N G ++D+   E +   V G +V+ R G+ +     V  AE+  A+GVLIY +         E    G    G GDP +PG+P        +      +   P IP   +S   AE +  ++ G   P +W+",
+          "sequence_identity": 0.28187919463087246,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.20709219858156028,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P91406|GCP2_CAEEL",
+              "accession": "P91406",
+              "title": "Glutamate carboxypeptidase 2 homolog OS=Caenorhabditis elegans OX=6239 GN=gcp-2.1 PE=1 SV=2"
+            }
+          ],
+          "subject_length": 770,
+          "num": 1,
+          "bit_score": 50.8322,
+          "score": 120,
+          "evalue": 1.75809e-06,
+          "identity": 41,
+          "positive": 71,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 169,
+          "hit_to": 331,
+          "align_len": 164,
+          "gaps": 25,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLY---TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQT---------------KFPIVNAELSFFGHAHLGTGDPYTPGFPS----FNHTQFPPSRSSG-LPNIPVQTISRAAAEKLFGNMEGD-CPSDWK",
+          "hseq": "WLAYAGNGSASADVVYINHGTANDFKNLKLMGVDIKGKIALMRYGHGFRGDKIHKAQQAGAIGAILFSDTQDVAQDGVESENVYPKKIWMPNEGVQRGSLMH-GDGDALSPYYPSKKELFKGRTIEEAKEDGVLPSIPVLPVSYTTGYEILKRLSGRPAPSDWQ",
+          "midline": "++AY+   + +  +V+ N GT  DF++L      + G I ++R G     +K+  A+   AIG +++ D                 K  + N  +      H G GD  +P +PS    F       ++  G LP+IPV  +S     ++   + G   PSDW+",
+          "sequence_identity": 0.25,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.21168831168831168,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P15926|C5AP_STRPY",
+              "accession": "P15926",
+              "title": "C5a peptidase OS=Streptococcus pyogenes OX=1314 GN=scpA PE=1 SV=1"
+            }
+          ],
+          "subject_length": 1167,
+          "num": 1,
+          "bit_score": 50.447,
+          "score": 119,
+          "evalue": 2.92045e-06,
+          "identity": 28,
+          "positive": 36,
+          "query_from": 44,
+          "query_to": 101,
+          "hit_from": 370,
+          "hit_to": 425,
+          "align_len": 59,
+          "gaps": 4,
+          "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+          "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKVANAKKAGAVGVLIYDNQDKGFPI",
+          "midline": " +AN G K   ED +  V G I ++  G I F +KVANA+   A+GVLIY +Q K FPI",
+          "sequence_identity": 0.4745762711864407,
+          "query_coverage": 0.29896907216494845,
+          "target_coverage": 0.04798628963153385,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q5X9R0|C5AP_STRP6",
+              "accession": "Q5X9R0",
+              "title": "C5a peptidase OS=Streptococcus pyogenes serotype M6 (strain ATCC BAA-946 / MGAS10394) OX=286636 GN=scpA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1184,
+          "num": 1,
+          "bit_score": 50.0618,
+          "score": 118,
+          "evalue": 4.09858e-06,
+          "identity": 27,
+          "positive": 36,
+          "query_from": 44,
+          "query_to": 101,
+          "hit_from": 370,
+          "hit_to": 425,
+          "align_len": 59,
+          "gaps": 4,
+          "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+          "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+          "midline": " +AN G K   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI",
+          "sequence_identity": 0.4576271186440678,
+          "query_coverage": 0.29896907216494845,
+          "target_coverage": 0.0472972972972973,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P58099|C5AP_STRP1",
+              "accession": "P58099",
+              "title": "C5a peptidase OS=Streptococcus pyogenes serotype M1 OX=301447 GN=scpA PE=1 SV=1"
+            }
+          ],
+          "subject_length": 1181,
+          "num": 1,
+          "bit_score": 50.0618,
+          "score": 118,
+          "evalue": 4.25393e-06,
+          "identity": 27,
+          "positive": 36,
+          "query_from": 44,
+          "query_to": 101,
+          "hit_from": 370,
+          "hit_to": 425,
+          "align_len": 59,
+          "gaps": 4,
+          "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+          "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+          "midline": " +AN G K   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI",
+          "sequence_identity": 0.4576271186440678,
+          "query_coverage": 0.29896907216494845,
+          "target_coverage": 0.04741744284504657,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q8NZ80|C5AP_STRP8",
+              "accession": "Q8NZ80",
+              "title": "C5a peptidase OS=Streptococcus pyogenes serotype M18 (strain MGAS8232) OX=186103 GN=scpA PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1150,
+          "num": 1,
+          "bit_score": 50.0618,
+          "score": 118,
+          "evalue": 4.3627e-06,
+          "identity": 27,
+          "positive": 36,
+          "query_from": 44,
+          "query_to": 101,
+          "hit_from": 370,
+          "hit_to": 425,
+          "align_len": 59,
+          "gaps": 4,
+          "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+          "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+          "midline": " +AN G K   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI",
+          "sequence_identity": 0.4576271186440678,
+          "query_coverage": 0.29896907216494845,
+          "target_coverage": 0.04869565217391304,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|D4B1R0|GCP1_ARTBC",
+              "accession": "D4B1R0",
+              "title": "Probable glutamate carboxypeptidase ARB_02390 OS=Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=ARB_02390 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 727,
+          "num": 1,
+          "bit_score": 48.521,
+          "score": 114,
+          "evalue": 1.09259e-05,
+          "identity": 48,
+          "positive": 75,
+          "query_from": 32,
+          "query_to": 194,
+          "hit_from": 151,
+          "hit_to": 340,
+          "align_len": 194,
+          "gaps": 35,
+          "qseq": "AYSKAATVTGKLVHANFGTKKDFEDLY---TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK------------FP---------IVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCP-------SDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+          "hseq": "GYSASGEATAEYVYVGRGQKVDFERLIQLGVDLKGKIAIARYGGPFRGLKVKNAQDQGMIGCIIFTDPADDGNVTVANGLKAYPNGPARNPSAVQRGSVQFLS---MFPGDPTTPGYPSRPDSPR-KDKSPVVPKIPSIPISQLDAQPILAALDGHGTPGKEVNRTRWVGALNATYATGPAPGAKLSMSNVMRD",
+          "midline": " YS +   T + V+   G K DFE L      + G I I R G      KV NA+    IG +I+ D               +P         +    + F     +  GDP TPG+PS   +     +S  +P IP   IS+  A+ +   ++G          + W         T  +   KL++SNV+++",
+          "sequence_identity": 0.24742268041237114,
+          "query_coverage": 0.8402061855670103,
+          "target_coverage": 0.2613480055020633,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q58DX5|NADL2_HUMAN",
+              "accession": "Q58DX5",
+              "title": "Inactive N-acetylated-alpha-linked acidic dipeptidase-like protein 2 OS=Homo sapiens OX=9606 GN=NAALADL2 PE=1 SV=3"
+            }
+          ],
+          "subject_length": 795,
+          "num": 1,
+          "bit_score": 44.669,
+          "score": 104,
+          "evalue": 0.000217599,
+          "identity": 52,
+          "positive": 86,
+          "query_from": 30,
+          "query_to": 192,
+          "hit_from": 263,
+          "hit_to": 433,
+          "align_len": 173,
+          "gaps": 12,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYT--PVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFP-IVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-----CPSDWKTDSTCRMVTSESKNV-KL-TVSNVL",
+          "hseq": "YAAYSAKGTLKAEVIDVSYGMADDLKRIRKIKNVTNQIALLKLGKLPLLYKLSSLEKAGFGGVLLYIDPCDLPKTVNPSHDTFMVSLNPGGDPSTPGYPSVDES-FRQSRSN-LTSLLVQPISAPLVAKLISSPKARTKNEACSSLELPNNEIRVVSMQVQTVTKLKTVTNVV",
+          "midline": "Y AYS   T+  +++  ++G   D + +     V   I +++ GK+    K+++ E     GVL+Y+D    P  VN     F  +    GDP TPG+PS + + F  SRS+ L ++ VQ IS     KL  + +       C S    ++  R+V+ + + V KL TV+NV+",
+          "sequence_identity": 0.30057803468208094,
+          "query_coverage": 0.8402061855670103,
+          "target_coverage": 0.21509433962264152,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P29141|SUBV_BACSU",
+              "accession": "P29141",
+              "title": "Minor extracellular protease Vpr OS=Bacillus subtilis (strain 168) OX=224308 GN=vpr PE=1 SV=1"
+            }
+          ],
+          "subject_length": 806,
+          "num": 1,
+          "bit_score": 41.2022,
+          "score": 95,
+          "evalue": 0.00314918,
+          "identity": 20,
+          "positive": 30,
+          "query_from": 42,
+          "query_to": 93,
+          "hit_from": 383,
+          "hit_to": 432,
+          "align_len": 52,
+          "gaps": 2,
+          "qseq": "KLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIY",
+          "hseq": "ELVEAGIGEAKDFEG--KDLTGKVAVVKRGSIAFVDKADNAKKAGAIGMVVY",
+          "midline": "+LV A  G  KDFE     + G + +V+ G I F +K  NA+   AIG+++Y",
+          "sequence_identity": 0.38461538461538464,
+          "query_coverage": 0.26804123711340205,
+          "target_coverage": 0.062034739454094295,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q06003|GOLI_DROME",
+              "accession": "Q06003",
+              "title": "E3 ubiquitin-protein ligase goliath OS=Drosophila melanogaster OX=7227 GN=gol PE=1 SV=3"
+            }
+          ],
+          "subject_length": 461,
+          "num": 1,
+          "bit_score": 39.6614,
+          "score": 91,
+          "evalue": 0.0115463,
+          "identity": 28,
+          "positive": 38,
+          "query_from": 35,
+          "query_to": 96,
+          "hit_from": 99,
+          "hit_to": 173,
+          "align_len": 77,
+          "gaps": 17,
+          "qseq": "KAATVTGKLVHANFGTKKDFEDLY--TP-VNGS------------IVIVRAGKITFAEKVANAESLNAIGVLIYMDQ",
+          "hseq": "KVLNVTGRLIHIT--ATDNFSDDYACTPYIRGTLGAPIPDKGETWIALVRRGRCTFEEKVKHVYQQNAAGVIIYNDK",
+          "midline": "K   VTG+L+H       +F D Y  TP + G+            I +VR G+ TF EKV +    NA GV+IY D+",
+          "sequence_identity": 0.36363636363636365,
+          "query_coverage": 0.31958762886597936,
+          "target_coverage": 0.16268980477223427,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P25152|BSAP_BACSU",
+              "accession": "P25152",
+              "title": "Aminopeptidase YwaD OS=Bacillus subtilis (strain 168) OX=224308 GN=ywaD PE=1 SV=2"
+            }
+          ],
+          "subject_length": 455,
+          "num": 1,
+          "bit_score": 37.7354,
+          "score": 86,
+          "evalue": 0.0462699,
+          "identity": 25,
+          "positive": 37,
+          "query_from": 18,
+          "query_to": 93,
+          "hit_from": 106,
+          "hit_to": 176,
+          "align_len": 76,
+          "gaps": 5,
+          "qseq": "GRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIY",
+          "hseq": "GRDILLQAASGS--APTEEQGLTAPLYNAGLGYQKDFT---ADAKGKIALISRGDLTYYEKAKNAEAAGAKAVIIY",
+          "midline": "GR + L    G   A ++   +T  L +A  G +KDF        G I ++  G +T+ EK  NAE+  A  V+IY",
+          "sequence_identity": 0.32894736842105265,
+          "query_coverage": 0.3917525773195876,
+          "target_coverage": 0.15604395604395604,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q6Y290|GOLI_RAT",
+              "accession": "Q6Y290",
+              "title": "E3 ubiquitin-protein ligase RNF130 OS=Rattus norvegicus OX=10116 GN=Rnf130 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 419,
+          "num": 1,
+          "bit_score": 32.7278,
+          "score": 73,
+          "evalue": 1.93133,
+          "identity": 19,
+          "positive": 29,
+          "query_from": 65,
+          "query_to": 118,
+          "hit_from": 105,
+          "hit_to": 151,
+          "align_len": 54,
+          "gaps": 7,
+          "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+          "hseq": "IALLQRGNCTFKEKISRAAFHNAVAVVIYNNKSKEEPVTM-------THPGTGD",
+          "midline": "I +++ G  TF EK++ A   NA+ V+IY +++K   V          H GTGD",
+          "sequence_identity": 0.35185185185185186,
+          "query_coverage": 0.27835051546391754,
+          "target_coverage": 0.11217183770883055,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q8VEM1|GOLI_MOUSE",
+              "accession": "Q8VEM1",
+              "title": "E3 ubiquitin-protein ligase RNF130 OS=Mus musculus OX=10090 GN=Rnf130 PE=2 SV=1"
+            }
+          ],
+          "subject_length": 419,
+          "num": 1,
+          "bit_score": 32.7278,
+          "score": 73,
+          "evalue": 2.00299,
+          "identity": 19,
+          "positive": 29,
+          "query_from": 65,
+          "query_to": 118,
+          "hit_from": 105,
+          "hit_to": 151,
+          "align_len": 54,
+          "gaps": 7,
+          "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+          "hseq": "IALLQRGNCTFKEKISRAAFHNAVAVVIYNNKSKEEPVTM-------THPGTGD",
+          "midline": "I +++ G  TF EK++ A   NA+ V+IY +++K   V          H GTGD",
+          "sequence_identity": 0.35185185185185186,
+          "query_coverage": 0.27835051546391754,
+          "target_coverage": 0.11217183770883055,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q86XS8|GOLI_HUMAN",
+              "accession": "Q86XS8",
+              "title": "E3 ubiquitin-protein ligase RNF130 OS=Homo sapiens OX=9606 GN=RNF130 PE=1 SV=1"
+            }
+          ],
+          "subject_length": 419,
+          "num": 1,
+          "bit_score": 32.7278,
+          "score": 73,
+          "evalue": 2.00299,
+          "identity": 19,
+          "positive": 29,
+          "query_from": 65,
+          "query_to": 118,
+          "hit_from": 105,
+          "hit_to": 151,
+          "align_len": 54,
+          "gaps": 7,
+          "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+          "hseq": "IALLQRGNCTFKEKISRAAFHNAVAVVIYNNKSKEEPVTM-------THPGTGD",
+          "midline": "I +++ G  TF EK++ A   NA+ V+IY +++K   V          H GTGD",
+          "sequence_identity": 0.35185185185185186,
+          "query_coverage": 0.27835051546391754,
+          "target_coverage": 0.11217183770883055,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q54ET5|SYLM_DICDI",
+              "accession": "Q54ET5",
+              "title": "Leucine--tRNA ligase, mitochondrial OS=Dictyostelium discoideum OX=44689 GN=mleuS PE=3 SV=1"
+            }
+          ],
+          "subject_length": 940,
+          "num": 1,
+          "bit_score": 32.3426,
+          "score": 72,
+          "evalue": 2.64539,
+          "identity": 27,
+          "positive": 38,
+          "query_from": 71,
+          "query_to": 150,
+          "hit_from": 311,
+          "hit_to": 386,
+          "align_len": 82,
+          "gaps": 8,
+          "qseq": "GKITFAEKVANAESLNAIGVLIYMDQTK--FPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISR",
+          "hseq": "NKMGTQEDVENLKTFNT-GLTFYQPITKKYIPLI---LSNFVHADYGTG--AVMGVPSHNRSDYQVAKQQNLKLLPVLGIER",
+          "midline": " K+   E V N ++ N  G+  Y   TK   P++   LS F HA  GTG     G PS N + +  ++   L  +PV  I R",
+          "sequence_identity": 0.32926829268292684,
+          "query_coverage": 0.41237113402061853,
+          "target_coverage": 0.08085106382978724,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P15293|P2P_LACLC",
+              "accession": "P15293",
+              "title": "PII-type proteinase OS=Lactococcus lactis subsp. cremoris OX=1359 GN=prt PE=3 SV=1"
+            }
+          ],
+          "subject_length": 1902,
+          "num": 1,
+          "bit_score": 32.7278,
+          "score": 73,
+          "evalue": 2.68034,
+          "identity": 19,
+          "positive": 31,
+          "query_from": 50,
+          "query_to": 107,
+          "hit_from": 474,
+          "hit_to": 532,
+          "align_len": 59,
+          "gaps": 1,
+          "qseq": "TKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIY-MDQTKFPIVNAELS",
+          "hseq": "SKGKVADYTADAKGKIAIVKRGELTFADKQKYAQAAGAAGLIIVNNDGTATPVTSMALT",
+          "midline": "+K    D      G I IV+ G++TFA+K   A++  A G++I   D T  P+ +  L+",
+          "sequence_identity": 0.3220338983050847,
+          "query_coverage": 0.29896907216494845,
+          "target_coverage": 0.031019978969505785,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|A0A1D6L709|VP8_MAIZE",
+              "accession": "A0A1D6L709",
+              "title": "Probable glutamate carboxypeptidase VP8 OS=Zea mays OX=4577 GN=VP8 PE=2 SV=1"
+            }
+          ],
+          "subject_length": 713,
+          "num": 1,
+          "bit_score": 31.9574,
+          "score": 71,
+          "evalue": 3.58079,
+          "identity": 38,
+          "positive": 61,
+          "query_from": 30,
+          "query_to": 169,
+          "hit_from": 152,
+          "hit_to": 293,
+          "align_len": 148,
+          "gaps": 14,
+          "qseq": "YVAYSKAATVTGKLVHANFGTKKDF---EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQF----PPSRSSGLPNIPVQTISRAAAEKLFGNMEGDC-PSDWK",
+          "hseq": "YHAYAPSGGAVAEAVFVNLGREEDYVVLERLGVGVRGRVAVARRGGGYRGGVVARAADKGAVAVLIAGNADGG--VERGVVLLG----GPGDPLTPGWAATSGAERLKFDDKAVKQRFPSIPSMPVSAKTAAAIIRSLGGPAIPAEWK",
+          "midline": "Y AY+ +     + V  N G ++D+   E L   V G + + R G       VA A    A+ VLI  +      V   +   G    G GDP TPG+ + +  +       +     P+IP   +S   A  +  ++ G   P++WK",
+          "sequence_identity": 0.25675675675675674,
+          "query_coverage": 0.7216494845360825,
+          "target_coverage": 0.19915848527349228,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q852M4|PLAT3_ORYSJ",
+              "accession": "Q852M4",
+              "title": "Probable glutamate carboxypeptidase PLA3 OS=Oryza sativa subsp. japonica OX=39947 GN=PLA3 PE=1 SV=2"
+            }
+          ],
+          "subject_length": 749,
+          "num": 1,
+          "bit_score": 31.5722,
+          "score": 70,
+          "evalue": 5.76676,
+          "identity": 19,
+          "positive": 30,
+          "query_from": 115,
+          "query_to": 170,
+          "hit_from": 267,
+          "hit_to": 327,
+          "align_len": 64,
+          "gaps": 11,
+          "qseq": "GTGDPYTPGFPS--------FNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKT",
+          "hseq": "GPGDPLTPGWAATAGAERLDFDHEDV-KRRFPAIPSMPVSGKTASAIIRTLGGPA--LPADWQT",
+          "midline": "G GDP TPG+ +        F+H      R   +P++PV   + +A  +  G      P+DW+T",
+          "sequence_identity": 0.296875,
+          "query_coverage": 0.28865979381443296,
+          "target_coverage": 0.0814419225634179,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|B2GF74|PURL_LIMF3",
+              "accession": "B2GF74",
+              "title": "Phosphoribosylformylglycinamidine synthase subunit PurL OS=Limosilactobacillus fermentum (strain NBRC 3956 / LMG 18251) OX=334390 GN=purL PE=3 SV=1"
+            }
+          ],
+          "subject_length": 741,
+          "num": 1,
+          "bit_score": 31.187,
+          "score": 69,
+          "evalue": 6.02514,
+          "identity": 25,
+          "positive": 38,
+          "query_from": 1,
+          "query_to": 69,
+          "hit_from": 450,
+          "hit_to": 529,
+          "align_len": 80,
+          "gaps": 11,
+          "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAAT---VTGKLVHA-----NFGTKKD---FEDLYTPVNGSIVIVR",
+          "hseq": "LRVRGTKKGLAMTTDGNGRFVYLNPEVGGKMALAEAAANIVATGALPLAITDCLNYGDPNDPEIFWELHQSVSGMAEACR",
+          "midline": "++V+ + +   +  D NGR VYL    GG +A ++AA     TG L  A     N+G   D   F +L+  V+G     R",
+          "sequence_identity": 0.3125,
+          "query_coverage": 0.3556701030927835,
+          "target_coverage": 0.10796221322537113,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|Q6NRX0|RN149_XENLA",
+              "accession": "Q6NRX0",
+              "title": "E3 ubiquitin-protein ligase RNF149 OS=Xenopus laevis OX=8355 GN=rnf149 PE=2 SV=1"
+            }
+          ],
+          "subject_length": 397,
+          "num": 1,
+          "bit_score": 31.187,
+          "score": 69,
+          "evalue": 6.56102,
+          "identity": 22,
+          "positive": 29,
+          "query_from": 65,
+          "query_to": 118,
+          "hit_from": 105,
+          "hit_to": 152,
+          "align_len": 54,
+          "gaps": 6,
+          "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+          "hseq": "IALVARGGCTFKEKVFNAANRGASAVVIYNEAKSG---NATVSM---SHLGTGN",
+          "midline": "I +V  G  TF EKV NA +  A  V+IY +       NA +S    +HLGTG+",
+          "sequence_identity": 0.4074074074074074,
+          "query_coverage": 0.27835051546391754,
+          "target_coverage": 0.12090680100755667,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|P21242|PSA7_YEAST",
+              "accession": "P21242",
+              "title": "Probable proteasome subunit alpha type-7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PRE10 PE=1 SV=2"
+            }
+          ],
+          "subject_length": 288,
+          "num": 1,
+          "bit_score": 30.8018,
+          "score": 68,
+          "evalue": 7.16982,
+          "identity": 14,
+          "positive": 18,
+          "query_from": 14,
+          "query_to": 42,
+          "hit_from": 141,
+          "hit_to": 169,
+          "align_len": 29,
+          "gaps": 0,
+          "qseq": "VDKNGRLVYLVENPGGYVAYSKAATVTGK",
+          "hseq": "VDKNGAHLYMLEPSGSYWGYKGAATGKGR",
+          "midline": "VDKNG  +Y++E  G Y  Y  AAT  G+",
+          "sequence_identity": 0.4827586206896552,
+          "query_coverage": 0.14948453608247422,
+          "target_coverage": 0.10069444444444445,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        },
+        {
+          "descriptions": [
+            {
+              "id": "sp|A6VQ01|RLMM_ACTSZ",
+              "accession": "A6VQ01",
+              "title": "Ribosomal RNA large subunit methyltransferase M OS=Actinobacillus succinogenes (strain ATCC 55618 / DSM 22257 / CCUG 43843 / 130Z) OX=339671 GN=rlmM PE=3 SV=1"
+            }
+          ],
+          "subject_length": 364,
+          "num": 1,
+          "bit_score": 30.8018,
+          "score": 68,
+          "evalue": 8.7272,
+          "identity": 20,
+          "positive": 30,
+          "query_from": 101,
+          "query_to": 168,
+          "hit_from": 158,
+          "hit_to": 231,
+          "align_len": 74,
+          "gaps": 6,
+          "qseq": "IVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSG------LPNIPVQTISRAAAEKLFGNMEGDCPSDW",
+          "hseq": "FVRSDACYAGYSYNRNHSPYFMGIPRLKFPTEAPSRSTLKLEEAILTFIPREEESKRLNENMIGVDLGACPGGW",
+          "midline": " V ++  + G+++     PY  G P        PSRS+       L  IP +  S+   E + G   G CP  W",
+          "sequence_identity": 0.2702702702702703,
+          "query_coverage": 0.35051546391752575,
+          "target_coverage": 0.2032967032967033,
+          "close_sequence_review_flag": false,
+          "near_identical_sequence_review_flag": false
+        }
+      ]
     }
   ],
+  "swissprot_sequence_source": "local_UniProtKB_SwissProt_canonical",
+  "swissprot_result_file": "reports/novelty_review/local_swissprot/results.json",
   "internal_structure_alignments": [
     {
       "a": "apical_short_008_A41H_seed2003",

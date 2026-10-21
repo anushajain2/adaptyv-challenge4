@@ -6722,8 +6722,8 @@
   "novelty_scope": "Database review is linked below when available. Five parent lineages are not five established fold classes; no exhaustive similarity search or global novelty proof. All share one BoltzGen apical campaign.",
   "database_similarity_review": {
     "source": "reports/novelty_review/summary.json",
-    "sha256": "e4677afc5cb27b2fb6c5f52a22ad852187e77b4672ad0ad8cd4a0d25e1e72a0e",
-    "status": "STRUCTURE_AND_PDB_SEQUENCE_COMPLETE_SWISSPROT_PENDING_OR_FAILED"
+    "sha256": "eeb73888ea8efe208321b070c64c02d6a701d1602478b84b7daee07db6380560",
+    "status": "COMPLETE_WITH_DATABASE_LIMITS"
   },
   "software": {
     "python": "3.12.13",

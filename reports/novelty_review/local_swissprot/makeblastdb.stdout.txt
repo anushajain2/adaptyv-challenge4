@@ -1,0 +1,11 @@
+
+
+Building a new DB, current time: 10/21/2026 21:15:34
+New DB name:   /Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot
+New DB title:  UniProtKB Swiss-Prot canonical 2026_03
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 575748 sequences in 4.11027 seconds.
+
+

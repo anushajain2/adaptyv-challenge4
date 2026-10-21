@@ -11,7 +11,7 @@
     "reports/expansion_his_direction/RESULTS.md": "7f7a3cc5cc0414515c1f55ca26cc84cbbf2427de7ce0231102aba8060167471f",
     "reports/tag_comparison/billing_after.json": "776b89164d79a82248a64d5e4f2549c874195e30cb64cdbd36d706ca5df4dc64",
     "scripts/build_submission_draft.py": "73c1792e6e22794990dd67293eecc3b9cc500f2e0ae852b82ed9088c0bfc40b6",
-    "reports/novelty_review/summary.json": "e4677afc5cb27b2fb6c5f52a22ad852187e77b4672ad0ad8cd4a0d25e1e72a0e"
+    "reports/novelty_review/summary.json": "eeb73888ea8efe208321b070c64c02d6a701d1602478b84b7daee07db6380560"
   },
   "models": [
     {
@@ -140,9 +140,9 @@
     }
   ],
   "outputs": {
-    "audit.json": "4a0d0e639991d4c21fd5b2c41934250b8508550319caef2bff8536a4038c54b1",
-    "README.md": "4913fb5d2bc2cb0d3e1d9ffb3080f7e16e4239241c17be1a8bb044758dae3bfd",
-    "METHODS.md": "014ff9d455843e031929ebee8de4d65f7baf4c42f084a5bb22b9769c2e5218e7",
+    "audit.json": "308be9675230e42e502e894271341e17c4e9da81fe28490fe6af946a700d0145",
+    "README.md": "965bafd30974e361f3b123dbe521ee8f0a5e1900d7af4eecda0ffaa8c82ec57c",
+    "METHODS.md": "148f22417629485423279f7bec29227e82595230a1a349f8be218d6aac4855e4",
     "submission_draft.csv": "e65a5f5c4006d817e51150fb6e99fff850d37dcc2fd29fd0ad9485796de7bf7f",
     "submission_draft.fasta": "c74fd43c80818b88ba4655875e8020f8254005d3f7e763ac62df2ba9afe97bc7"
   }

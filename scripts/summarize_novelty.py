@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 from novelty_search import ROOT, OUT, save, sha, now
+from analyze_novelty import human_tfr1_retrieved
 
 
 def main():
@@ -25,13 +26,14 @@ def main():
                           'swissprot_status':'complete' if b else 'pending',
                           'swissprot_hsps':len(b['hits']) if b else None,
                           'swissprot_close_sequence_flags':sum(h['close_sequence_review_flag'] for h in b['hits']) if b else None,
+                          'swissprot_min_evalue':min((h['evalue'] for h in b['hits']),default=None) if b else None,
                           'swissprot_query_masking':b.get('masking') if b else None,
                           'structural_search':structural,
                           'original_pdb_verification':[r for r in verification['rows'] if r['candidate']==name]})
     expected=set(plan['blast']['query_ids'])
     complete=expected==set(blast)
     bcontrol=blast.get('human_tfr1_crop_control')
-    bpass=bool(bcontrol and any(h['sequence_identity']>=.99 and h['query_coverage']>=.99 and h['evalue']<=1e-10 for h in bcontrol['hits']))
+    bpass=bool(bcontrol and human_tfr1_retrieved(bcontrol['hits']))
     status='COMPLETE_WITH_DATABASE_LIMITS' if complete and bpass else 'STRUCTURE_AND_PDB_SEQUENCE_COMPLETE_SWISSPROT_PENDING_OR_FAILED'
     result={'status':status,'as_of':'2026-10-21','candidates':summaries,
             'controls':{'foldseek_6WRW_recovered':data['foldseek_positive_retrieval_pass'],
@@ -40,12 +42,22 @@ def main():
                         'swissprot_human_crop_recovered':bpass if complete else None},
             'all_13_structural_queries_complete':len(data['foldseek'])==26 and all(r['status']=='complete' for r in data['foldseek']),
             'swissprot_all_seven_queries_complete':complete,'new_modal_compute_usd':0,
+            'swissprot_sequence_source':data.get('swissprot_sequence_source'),
+            'swissprot_result_file':data.get('swissprot_result_file'),
             'submission_sequence_or_rank_changed':False,
             'decision':'Keep A41H as the pH-direction hypothesis and long_092/short_026 as binding candidates. Label short_015 as a known-backbone backup. Do not claim novel folds or evolutionary unrelatedness. Do not remove a candidate solely because a common fold is shared.'}
     save(OUT/'summary.json',result)
     if complete:
         flagged=sum(r['swissprot_close_sequence_flags'] for r in summaries)
-        btext=f"Swiss-Prot BLASTp completed all seven queries, including the human receptor retrieval control ({'pass' if bpass else 'FAIL'}). Across the six candidates, **{flagged} alignments meet the predeclared close-sequence review rule** (identity ≥50%, query coverage ≥80%, E-value ≤0.001). This is a review heuristic, not a competition cutoff. The composition-corrected, low-complexity-masked search is not proof that no related sequence exists."
+        btext=f"Swiss-Prot BLASTp completed all seven queries, including retrieval of human TfR1 accession P02786 ({'pass' if bpass else 'FAIL'}). Across the six candidates, **{flagged} alignments meet the predeclared close-sequence review rule** (identity ≥50%, query coverage ≥80%, E-value ≤0.001). Flags apply to individual HSPs, not unions of disjoint alignments. This is a review heuristic, not a competition cutoff. The composition-corrected, low-complexity-masked search is not proof that no related sequence exists."
+        if data.get('swissprot_sequence_source')=='local_UniProtKB_SwissProt_canonical':
+            lp=json.loads((OUT/'local_swissprot/plan.json').read_text())
+            lr=json.loads((OUT/'local_swissprot/run.json').read_text())
+            btext+=f"\n\nThe completed evidence comes from **local BLAST+ 2.17.0 against UniProtKB/Swiss-Prot canonical release {lp['release']}** ({lr['database_sequences']:,} sequences; {lr['database_residues']:,} residues). The original NCBI RID remained WAITING after more than an hour; it is still pending and is not described as completed. A [prospective fallback plan](local_swissprot/plan.json) preserved all seven queries and the screening thresholds before the local search. Official archive checksums were verified; commands, SHA-256 hashes, release metadata, logs and raw JSON results are archived in [local_swissprot/](local_swissprot/). The separate isoform supplement is excluded. This local database need not match the remote service's Swiss-Prot snapshot."
+        btext+='\n\n| Query | Reported HSPs | Smallest E-value | Close-sequence flags | Reported masked query intervals |\n|---|---:|---:|---:|---|\n'
+        for s in summaries:
+            e=s['swissprot_min_evalue'];es='—' if e is None else f'{e:.3g}'
+            btext+=f"| {s['name']} | {s['swissprot_hsps']} | {es} | {s['swissprot_close_sequence_flags']} | `{json.dumps(s['swissprot_query_masking'],separators=(',',':'))}` |\n"
     else:
         btext='Swiss-Prot BLASTp is still pending or incomplete. Its queued job is not counted as a no-hit search. The completed sequence conclusion below is limited to RCSB experimental PDB sequences.'
     table=[]
@@ -65,7 +77,7 @@ The RCSB sequence service returned HTTP 204/no hits for all six candidates at E-
 
 {btext}
 
-The exact requests, retrieval timestamps and server responses are archived under [rcsb/](rcsb/) and [blast/](blast/). Current RCSB searches exclude computed models. Swiss-Prot is a curated sequence collection, not all known sequences or unpublished designs. Alignment identity, coverage and significance must be read together; short local similarities alone do not establish copied sequence.
+The exact requests, retrieval timestamps and server responses are archived under [rcsb/](rcsb/) and [blast/](blast/); any completed local fallback is identified above. Current RCSB searches exclude computed models. Swiss-Prot is a curated sequence collection, not all known sequences or unpublished designs. Alignment identity, coverage and significance must be read together; short local similarities alone do not establish copied sequence. Low-complexity masking reduces sensitivity for these compositionally biased designs; a successful receptor control does not establish sensitivity for every candidate.
 
 ## Structural results
 
@@ -106,7 +118,7 @@ Keep **A41H as the leading pH-direction hypothesis**, and keep **long_092 and sh
 
 If expanding the shortlist, use one bounded apical generation batch to seek additional structurally distinct, well-supported parents, and apply this same sequence/structure audit before adding them. Avoid filling twenty slots with near-identical His variants. The current draft remains a computational submission, not a validated binder panel.
 
-Reproduce interpretation locally with `scripts/analyze_novelty.py`, `scripts/verify_novelty_matches.py`, `scripts/plot_novelty_review.py`, then `scripts/summarize_novelty.py`. Network acquisition commands are in `scripts/novelty_search.py`; submission commands reuse archived tickets and do not silently resubmit jobs.
+Reproduce interpretation locally with `scripts/analyze_novelty.py`, `scripts/verify_novelty_matches.py`, `scripts/plot_novelty_review.py`, then `scripts/summarize_novelty.py`. Network acquisition commands are in `scripts/novelty_search.py`; submission commands reuse archived tickets and do not silently resubmit jobs. The local Swiss-Prot fallback uses `scripts/local_swissprot.py` and the official URLs/checksums in its frozen plan; large downloaded archives and executables stay in ignored `outputs/`.
 
 Method references: [RCSB search API](https://search.rcsb.org/), [Foldseek](https://github.com/steineggerlab/foldseek), [NCBI BLAST URL API](https://blast.ncbi.nlm.nih.gov/doc/blast-help/urlapi.html), [TM-align bindings](https://github.com/jvkersch/tmtools). These sources describe the methods; the candidate conclusions above come from this repository's archived calculations.
 '''

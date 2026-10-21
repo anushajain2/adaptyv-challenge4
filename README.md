@@ -8,9 +8,13 @@ with both sequence retrieval controls passing. All 13 Foldseek queries completed
 the known binder is recovered. **short_015 shares a known backbone arrangement with
 AF1782/2OO2**: all 61 residues align in both poses at 1.450/1.467 Å TM-align RMSD.
 It remains a known-backbone backup, not a novel-fold claim. Other hits include
-partial matches to larger proteins. The supplemental Swiss-Prot BLASTp job's
-completion status is recorded in the review. Database limits prevent a global
-novelty verdict; sequences and ranks remain unchanged. No Modal compute was added.
+partial matches to larger proteins. **Local Swiss-Prot BLASTp is complete:** all
+seven queries ran against 575,748 canonical sequences (release 2026_03), the human
+P02786 control was recovered exactly, and no candidate meets the close-sequence
+review threshold. Weak local matches and masking limits are reported. The original
+NCBI job remains pending; the completed evidence is the separately archived local
+fallback. Database limits prevent a global novelty verdict; sequences and ranks
+remain unchanged. No Modal compute was added.
 
 The [ranked submission draft](reports/submission_draft/README.md)
 contains **six bare sequences across five parent lineages**, with sequence-liability
@@ -72,7 +76,7 @@ and reproducibility records are in the results report.
 
 | Deliverable | Status |
 |---|---|
-| Database similarity review | RCSB and 13 Foldseek queries complete with retrieval controls; short_015 known-backbone match verified; supplemental BLAST status in report |
+| Database similarity review | RCSB, 13 Foldseek queries and local Swiss-Prot BLASTp complete with retrieval controls; no close-sequence flags; short_015 known-backbone match verified |
 | Ranked submission draft | Six sequences, five parent lineages; bare CSV/FASTA, sequence audit, methods and 12 selected models; not submitted |
 | Matched bare/tagged comparison | 140 predictions; raw controls pass; neither tagged variant clears both selected core screens |
 | Tagged-round preparation/direction | 28 models, 56 successful pKa calculations; 23 movement passes; zero qualified two-pose direction passes |
