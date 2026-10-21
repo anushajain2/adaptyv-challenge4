@@ -1,0 +1,63 @@
+{
+  "candidate": "diversity_short_055",
+  "rows": [
+    {
+      "seed": 2309,
+      "stage": "raw",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_short_055_seed2309/raw.pdb",
+      "source_sha256": "3596998f461487bb59f62e14f22c38e436e469a6ed2648542b4273097a7634e9",
+      "C31_C42_SG_distance_A": 2.0026309490203857,
+      "OpenMM_inferred_SG_SG_bonds": [
+        [
+          "42",
+          "31"
+        ]
+      ]
+    },
+    {
+      "seed": 2309,
+      "stage": "prepared",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_short_055_seed2309/prepared.pdb",
+      "source_sha256": "68f1c5ee7386a58282be73c00459eb8d36b3a7da12e0573c146f2f3cb136a053",
+      "C31_C42_SG_distance_A": 2.0390563011169434,
+      "OpenMM_inferred_SG_SG_bonds": [
+        [
+          "42",
+          "31"
+        ]
+      ]
+    },
+    {
+      "seed": 2411,
+      "stage": "raw",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_short_055_seed2411/raw.pdb",
+      "source_sha256": "0badcecb0f1244c58192a7b60b39effe775d1f240955dfc5fb58d0b186f2c73c",
+      "C31_C42_SG_distance_A": 1.8697081804275513,
+      "OpenMM_inferred_SG_SG_bonds": [
+        [
+          "42",
+          "31"
+        ]
+      ]
+    },
+    {
+      "seed": 2411,
+      "stage": "prepared",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_short_055_seed2411/prepared.pdb",
+      "source_sha256": "cb303139726eccf4e1e69012d8ddfd27d20375aabe94fc5d0d7b862d4808320d",
+      "C31_C42_SG_distance_A": 2.035634994506836,
+      "OpenMM_inferred_SG_SG_bonds": [
+        [
+          "42",
+          "31"
+        ]
+      ]
+    }
+  ],
+  "interpretation": "Both raw poses are consistent with a C31-C42 disulfide. OpenMM infers this bond from coordinates, and prepared models preserve it. This is an oxidized-state modeling assumption, not experimental confirmation of disulfide formation or expression.",
+  "platform_documentation": {
+    "source": "https://docs.adaptyvbio.com/wiki/technologies/cell-free-protein-expression",
+    "checked_date": "2026-10-21",
+    "finding": "Adaptyv documents a cell-free system with DsbC and oxidized/reduced glutathione supporting disulfide-containing proteins. This supports platform feasibility, not correct formation of this particular modeled bond."
+  }
+}

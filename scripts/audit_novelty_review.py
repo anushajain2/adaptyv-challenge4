@@ -33,12 +33,13 @@ def main():
             assert lr['result_sha256']==sha(OUT/'local_swissprot/results.json')
             assert lp['query_sha256']==sha(OUT/'local_swissprot/queries.fasta')
             assert (OUT/'local_swissprot/queries.fasta').read_text()==json.loads((OUT/'blast/request.json').read_text())['QUERY']
-    # New annotations must never alter the already-reviewed upload payload.
+    # Preserve this historical review's payload when later rounds extend the draft.
     commit=json.loads((OUT/'public_provenance_check.json').read_text())['commit']
     for name in ['submission_draft.csv','submission_draft.fasta']:
         rel='reports/submission_draft/'+name
         prior=subprocess.check_output(['git','show',f'{commit}:{rel}'],cwd=ROOT)
-        assert prior==(ROOT/rel).read_bytes()
+        archived=OUT/('reviewed_'+name)
+        assert prior==(archived.read_bytes() if archived.exists() else (ROOT/rel).read_bytes())
     analysis=json.loads((OUT/'analysis.json').read_text())
     for r in analysis['foldseek']:
         for h in r['hits']:
@@ -47,7 +48,7 @@ def main():
     manifest={'status':summary['status'],'checks':{'query_sequences_and_binder_only_scope':True,
               'all_structure_queries_and_databases_present':True,'PDB_retrieval_controls':True,
               'SwissProt_complete_and_control_pass':summary['controls']['swissprot_human_crop_recovered'],
-              'submission_CSV_and_FASTA_unchanged':True,'archived_pre_review_audit_hash':True,
+              'reviewed_submission_CSV_and_FASTA_unchanged':True,'archived_pre_review_audit_hash':True,
               'followup_coordinate_hashes':True},
               'files':{str(p.relative_to(ROOT)):sha(p) for p in sorted(OUT.rglob('*')) if p.is_file() and p.name!='manifest.json'},
               'scripts':{f'scripts/{name}':sha(ROOT/'scripts'/name) for name in scripts}}

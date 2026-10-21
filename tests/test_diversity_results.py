@@ -36,3 +36,32 @@ def test_uniform_preparation_and_bundle_keep_controls_and_failed_candidates():
     diversity=json.loads((out/'confirmed_diversity.json').read_text())
     assert len(diversity['comparisons_to_current_draft'])==48
     assert len(diversity['between_new_parents'])==4 and diversity['all_reciprocal_TM_below_0_8']
+
+
+def test_added_parent_review_and_payload_provenance():
+    out=ROOT/'reports/diversity_novelty'
+    summary=json.loads((out/'summary.json').read_text())
+    assert summary['status']=='COMPLETE_WITH_DATABASE_LIMITS'
+    assert all(summary['controls'].values())
+    assert set(summary['reviewed_candidate_ids'])=={'diversity_short_055','diversity_long_037'}
+    assert all(c['swissprot_close_flags']==0 for c in summary['candidates'])
+    manifest=json.loads((out/'manifest.json').read_text())
+    for group in ['files','scripts']:
+        for path,digest in manifest[group].items():assert sha(ROOT/path)==digest
+    update=json.loads((ROOT/'reports/diversity_confirmation/submission_update.json').read_text())
+    assert update['original_six_sequences_unchanged'] and update['candidate_count']==8
+    for path,digest in update['files'].items():assert sha(ROOT/path)==digest
+
+
+def test_disulfide_assumption_matches_archived_coordinates():
+    from prepare_controls import read_structure
+    audit=json.loads((ROOT/'reports/diversity_confirmation/disulfide_audit.json').read_text())
+    assert len(audit['rows'])==4
+    for row in audit['rows']:
+        path=ROOT/row['source']
+        assert sha(path)==row['source_sha256']
+        chain=read_structure(path)[0]['B']
+        distance=float(chain[31]['SG']-chain[42]['SG'])
+        assert abs(distance-row['C31_C42_SG_distance_A'])<1e-5
+        assert {frozenset(b) for b in row['OpenMM_inferred_SG_SG_bonds']}=={frozenset(['31','42'])}
+    assert 'not experimental confirmation' in audit['interpretation']

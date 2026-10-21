@@ -5,7 +5,7 @@
     "all_structure_queries_and_databases_present": true,
     "PDB_retrieval_controls": true,
     "SwissProt_complete_and_control_pass": true,
-    "submission_CSV_and_FASTA_unchanged": true,
+    "reviewed_submission_CSV_and_FASTA_unchanged": true,
     "archived_pre_review_audit_hash": true,
     "followup_coordinate_hashes": true
   },
@@ -320,6 +320,8 @@
     "reports/novelty_review/rcsb/human_tfr1_crop_control/response.json": "9b6df2e9ca703a45d3d17784a8a003222b2643e77dcc40f6b468a03f56fb5a39",
     "reports/novelty_review/rcsb/published_2ds25_5_control/request.json": "0d722fa112ae89573d5d177d85e87ab2f2f55744f435a570d05c871e3dad06e5",
     "reports/novelty_review/rcsb/published_2ds25_5_control/response.json": "bf8b4caf2765dc9ec4558f0ff06df622659d6e01fd5dd399932ab33590701a3d",
+    "reports/novelty_review/reviewed_submission_draft.csv": "e65a5f5c4006d817e51150fb6e99fff850d37dcc2fd29fd0ad9485796de7bf7f",
+    "reports/novelty_review/reviewed_submission_draft.fasta": "c74fd43c80818b88ba4655875e8020f8254005d3f7e763ac62df2ba9afe97bc7",
     "reports/novelty_review/short015_known_fold.pdf": "2754f4b4ae6314265174ffc72cc138c99de5a1e3f67138a23ba5ac52dfbbf265",
     "reports/novelty_review/short015_known_fold.png": "853d954249b429da5e847d1cd68807a0eb0cfabb5b8eb0e829e468bb0fb6ef64",
     "reports/novelty_review/summary.json": "eeb73888ea8efe208321b070c64c02d6a701d1602478b84b7daee07db6380560"
@@ -331,6 +333,6 @@
     "scripts/verify_novelty_matches.py": "bd1cc34b4aff8fae8b52bd18a164660797150c1f0046378650a40a4ab0e444d4",
     "scripts/plot_novelty_review.py": "60db5aeea3b51d3714ced43f9e60cdf4810bf906a8b2d495c23c8624ef2033fd",
     "scripts/summarize_novelty.py": "4610c786d3a0a7eb78c5f2ef5319162dd8986d2ea520d25d4be3867d33e0c553",
-    "scripts/audit_novelty_review.py": "f46f435217e716fe9fb6174a32589f8000bd848a8b10dcabca149108cfe727f0"
+    "scripts/audit_novelty_review.py": "4db2de1ee8a835a466424d997ff17e98249f391521f031c8048112bbb2749ecb"
   }
 }

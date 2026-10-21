@@ -1,0 +1,37 @@
+{
+  "checked_utc": "2026-10-21T16:55:15.148338+00:00",
+  "commit": "14b0dc7dcd666d73d74e2da48c611a496eea39d1",
+  "all_anonymous_bytes_match": true,
+  "files": [
+    {
+      "path": "reports/diversity_novelty/queries/diversity_short_055_seed2309.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/14b0dc7dcd666d73d74e2da48c611a496eea39d1/reports/diversity_novelty/queries/diversity_short_055_seed2309.pdb",
+      "sha256": "96df596079a8b8492ff8110f8107a735960e5d318b0dcad4051eab4b978e52cb"
+    },
+    {
+      "path": "reports/diversity_novelty/queries/diversity_short_055_seed2411.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/14b0dc7dcd666d73d74e2da48c611a496eea39d1/reports/diversity_novelty/queries/diversity_short_055_seed2411.pdb",
+      "sha256": "fad4ef5969b497262d131b528d55c1febc19af63c36f8ee2afc25713b1059cc3"
+    },
+    {
+      "path": "reports/diversity_novelty/queries/diversity_long_037_seed2309.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/14b0dc7dcd666d73d74e2da48c611a496eea39d1/reports/diversity_novelty/queries/diversity_long_037_seed2309.pdb",
+      "sha256": "e17ab40e9891324af6b84351df9650b1a8f6bdf7990aa834e62f26d70e9ab548"
+    },
+    {
+      "path": "reports/diversity_novelty/queries/diversity_long_037_seed2411.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/14b0dc7dcd666d73d74e2da48c611a496eea39d1/reports/diversity_novelty/queries/diversity_long_037_seed2411.pdb",
+      "sha256": "2ebd3e842426f62970d5c7591a7eea098db60ae494493f890c8c364bf7857c0b"
+    },
+    {
+      "path": "reports/diversity_novelty/queries/published_2ds25_5_control.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/14b0dc7dcd666d73d74e2da48c611a496eea39d1/reports/diversity_novelty/queries/published_2ds25_5_control.pdb",
+      "sha256": "32f7e2a7e467979983ec10bae461cce1cfafe744e6c45df870748ae8074afbb2"
+    },
+    {
+      "path": "reports/diversity_novelty/local_swissprot/queries.fasta",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/14b0dc7dcd666d73d74e2da48c611a496eea39d1/reports/diversity_novelty/local_swissprot/queries.fasta",
+      "sha256": "91ee01b6cea0490c9ca3f55daa5a33f7b1a0cce355906c5bc0c1619fe032743e"
+    }
+  ]
+}

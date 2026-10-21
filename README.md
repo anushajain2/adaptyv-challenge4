@@ -2,7 +2,18 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest review:** the [database similarity audit](reports/novelty_review/RESULTS.md)
+**Latest round:** the [bounded diversity screen](reports/diversity_generation/RESULTS.md)
+generated 100 designs (99 unique), with five full initial passes and two parents
+retained after [two-seed confirmation](reports/diversity_confirmation/RESULTS.md).
+**diversity_long_037** passes 8/10 samples and **diversity_short_055** passes 9/10;
+both selected poses of each also pass preparation guards. All selected controls
+pass. The [new database review](reports/diversity_novelty/RESULTS.md) is complete,
+with no close-sequence flags and only weak/partial followed-up structural matches.
+Short_055 assumes a C31–C42 disulfide; long_037 carries an NTS sequon. Neither has
+histidine or established pH release. The round used about **$1.48**; recorded gross
+spend is about **$12.24/$30**, with all cloud apps stopped.
+
+**Original-six review:** the [database similarity audit](reports/novelty_review/RESULTS.md)
 finds no reported RCSB sequence hits for the six designs under the recorded settings,
 with both sequence retrieval controls passing. All 13 Foldseek queries completed;
 the known binder is recovered. **short_015 shares a known backbone arrangement with
@@ -17,15 +28,15 @@ fallback. Database limits prevent a global novelty verdict; sequences and ranks
 remain unchanged. No Modal compute was added.
 
 The [ranked submission draft](reports/submission_draft/README.md)
-contains **six bare sequences across five parent lineages**, with sequence-liability
-and diversity audits, methods, source hashes and 12 selected structures. The user
-confirmed Track 2 or 3; six is within the 20-design maximum. A41H ranks first as a
+contains **eight bare sequences across seven parent lineages**, with sequence-liability
+and diversity audits, methods, source hashes and 16 selected structures. The user
+confirmed Track 2 or 3; eight is within the 20-design maximum. A41H ranks first as a
 pH-direction hypothesis; its parent is explicitly a related comparator. E19H stays
 in reserve. Mixed geometry, preparation exclusions and unresolved tag compatibility
 remain visible. This is a review draft, not a submitted application. No new cloud
 compute was used. [Draft CSV](reports/submission_draft/submission_draft.csv).
 
-**Latest experiment:** the [matched bare/tagged comparison](reports/tag_comparison/RESULTS.md)
+**Earlier construct experiment:** the [matched bare/tagged comparison](reports/tag_comparison/RESULTS.md)
 completed **140 predictions** using the documented 64-residue platform-default
 suffix. All 12 selected raw control checks pass using binder-core PAE. Both bare
 variants pass the two-seed core screen; neither tagged variant does. Tagged A41H
@@ -40,8 +51,9 @@ One new bare A41H model gives a −0.608 pKa shift and a 2.12 His-only ratio pro
 the other is excluded by movement. E19H has one usable shift but fails the free-pKa
 heuristic. No experimental binding or pH switch is established.
 
-Next: retain the disclosed similarity caveats and seek additional structurally
-distinct apical parents in a bounded generation round if expanding the shortlist.
+Next: use the eight-sequence draft as the baseline. If pursuing another experiment,
+prioritize a small anchor-preserving His panel on long_037; no further generation
+or mutation run follows automatically.
 Tag
 compatibility and mouse cross-reactivity remain unresolved. The
 [earlier preparation review](reports/receptor_preparation_v2/RESULTS.md) and
@@ -77,7 +89,7 @@ and reproducibility records are in the results report.
 | Deliverable | Status |
 |---|---|
 | Database similarity review | RCSB, 13 Foldseek queries and local Swiss-Prot BLASTp complete with retrieval controls; no close-sequence flags; short_015 known-backbone match verified |
-| Ranked submission draft | Six sequences, five parent lineages; bare CSV/FASTA, sequence audit, methods and 12 selected models; not submitted |
+| Ranked submission draft | Eight sequences, seven parent lineages; bare CSV/FASTA, sequence audit, methods and 16 selected models; not submitted |
 | Matched bare/tagged comparison | 140 predictions; raw controls pass; neither tagged variant clears both selected core screens |
 | Tagged-round preparation/direction | 28 models, 56 successful pKa calculations; 23 movement passes; zero qualified two-pose direction passes |
 | Uniform receptor preparation v2 | 28 models, 56 warning-free pKa calculations; 25 movement passes; complete prepared control-panel gate fails |

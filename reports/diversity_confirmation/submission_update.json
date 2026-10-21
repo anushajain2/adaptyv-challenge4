@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-21T17:10:02.741297+00:00",
+  "added_ids": [
+    "diversity_long_037",
+    "diversity_short_055"
+  ],
+  "original_six_sequences_unchanged": true,
+  "candidate_count": 8,
+  "parent_lineage_count": 7,
+  "files": {
+    "reports/novelty_review/reviewed_submission_draft.csv": "e65a5f5c4006d817e51150fb6e99fff850d37dcc2fd29fd0ad9485796de7bf7f",
+    "reports/novelty_review/reviewed_submission_draft.fasta": "c74fd43c80818b88ba4655875e8020f8254005d3f7e763ac62df2ba9afe97bc7",
+    "reports/submission_draft/submission_draft.csv": "0778d1112a917506bff18f629b18179825619cb6f535c034775a42c0cbfad08a",
+    "reports/submission_draft/submission_draft.fasta": "e1be1f4be0cc4dacd239c034bce37b8ae5296b765ac7512dad4351e6def9cdd0",
+    "reports/diversity_confirmation/summary.json": "d9b17e9ccd6757c9f362906e0850ca1e07dba8b3a58d286054b8e340aff5e9b7",
+    "reports/diversity_novelty/summary.json": "34f0ca8025345e80aa7c4f175376b533fa695440122f31a89f88a57585505800"
+  },
+  "challenge_submitted": false
+}

@@ -17,11 +17,12 @@ def test_draft_sequences_are_bare_unique_provenanced_and_within_track_limit():
     rows = list(csv.DictReader((OUT/'submission_draft.csv').open()))
     sources = json.loads((ROOT/'reports/expansion_his_confirmation/results.json').read_text())
     sources2 = json.loads((ROOT/'reports/expansion_validation/results.json').read_text())
-    seqs = {c['id']: c['sequence'] for d in (sources, sources2) for c in d['candidate_summaries']}
+    sources3 = json.loads((ROOT/'reports/diversity_confirmation/results.json').read_text())
+    seqs = {c['id']: c['sequence'] for d in (sources, sources2, sources3) for c in d['candidate_summaries']}
     controls = {c['core_sequence'] for c in json.loads((ROOT/'data/tag_comparison/manifest.json').read_text())['cases'] if c['kind']!='novel_design'}
     validate_submission(rows, seqs, controls)
     assert [r['name'] for r in rows] == [c['name'] for c in audit['candidates']]
-    assert len(rows)==6 and audit['parent_lineage_count']==5
+    assert len(rows)==8 and audit['parent_lineage_count']==7
     assert audit['independent_fold_class_count'] is None
     assert 'E19H' not in ''.join(r['name'] for r in rows)
 

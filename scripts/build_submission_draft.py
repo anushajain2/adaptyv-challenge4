@@ -25,7 +25,7 @@ from prepare_controls import ROOT, read_structure, sequence
 from prepare_assay_tag_review import SUFFIX
 
 OUT = ROOT / 'reports/submission_draft'
-ROUNDS = ['his_confirmation', 'expansion_validation', 'expansion_his_confirmation', 'tag_comparison']
+ROUNDS = ['his_confirmation', 'expansion_validation', 'expansion_his_confirmation', 'tag_comparison', 'diversity_confirmation']
 SHORTLIST = [
     ('apical_short_008_A41H', 'apical_short_008', 'pH-direction hypothesis',
      'Leading repeated bare-model pKa-lowering hypothesis. Latest bare core screen passes both selected seeds; tagged core fails one. No qualified two-pose direction pass.'),
@@ -33,6 +33,10 @@ SHORTLIST = [
      'Both selected models pass in two fresh confirmation rounds (9/10 then 8/10 samples). Different parent lineage; pH release and tag compatibility unestablished.'),
     ('expansion_apical_short_026', 'expansion_apical_short_026', 'binding hypothesis',
      'Repeated bare structural retention (8/10, 9/10, then 9/10). Tagged core passes both selected seeds, but tag independence remains unresolved.'),
+    ('diversity_long_037', 'diversity_long_037', 'additional binding hypothesis',
+     'Both selected fresh confirmation poses pass (8/10 samples), as do preparation guards. Distinct from the earlier draft under the frozen comparison. NTS sequon and mildly positive GRAVY are review flags; no His, pH-release or tag validation.'),
+    ('diversity_short_055', 'diversity_short_055', 'disulfide-containing diversity hypothesis',
+     'Both selected fresh confirmation poses pass (9/10 samples), with lower interface confidence than the leading parents. Models and preparation assume a C31-C42 disulfide; formation is unmeasured. No His, pH-release or tag validation.'),
     ('expansion_apical_short_015', 'expansion_apical_short_015', 'diversity backup',
      'Both selected confirmation models pass (6/10 samples); less repeated evidence than the leading parents. Known-backbone similarity to AF1782/2OO2; no fold-novelty claim. No tag or pH validation.'),
     ('expansion_apical_short_018', 'expansion_apical_short_018', 'mixed-geometry diversity backup',
@@ -41,6 +45,9 @@ SHORTLIST = [
      'Same lineage as A41H; provides a mechanistic comparator rather than another independent scaffold. Latest bare panel fails one selected core clash check (6/10).'),
 ]
 RESERVE = {
+    'diversity_short_004': 'Eight of ten samples pass, but one frozen selected confirmation pose fails clash clearance; no substitution with a passing alternative.',
+    'diversity_short_023': 'Eight of ten samples pass, but one frozen selected confirmation pose fails clash clearance; no substitution with a passing alternative.',
+    'diversity_short_041': 'One selected confirmation pose fails clash clearance; only three of ten samples pass.',
     'expansion_apical_short_026_E19H': 'Secondary pH hypothesis: tagged interface pose fails in both seeds; latest bare direction has one excluded pose and one strict heuristic failure. Same lineage as rank 3.',
     'expansion_apical_long_092_R3H': 'Opposite pKa-shift signs across poses; no consistent acidic-release direction.',
     'expansion_apical_long_092_E53H': 'Fresh selected interface-pose failure.',
@@ -140,6 +147,16 @@ def main():
     direction = json.loads((ROOT/'reports/tag_comparison/direction.json').read_text())
     novelty_path = ROOT/'reports/novelty_review/summary.json'
     novelty = json.loads(novelty_path.read_text()) if novelty_path.exists() else None
+    new_novelty_path=ROOT/'reports/diversity_novelty/summary.json'
+    new_novelty=json.loads(new_novelty_path.read_text())
+    assert new_novelty['status']=='COMPLETE_WITH_DATABASE_LIMITS'
+    assert set(new_novelty['reviewed_candidate_ids'])=={'diversity_long_037','diversity_short_055'}
+    assert {c['id'] for c in new_novelty['candidates']}==set(new_novelty['reviewed_candidate_ids'])
+    assert all(c['swissprot_close_flags']==0 for c in new_novelty['candidates'])
+    new_confirmation=json.loads((ROOT/'reports/diversity_confirmation/summary.json').read_text())
+    new_parents=[c for c in new_confirmation['candidates'] if c['id'] in new_novelty['reviewed_candidate_ids']]
+    assert {c['id'] for c in new_parents}==set(new_novelty['reviewed_candidate_ids'])
+    assert all(c['two_seed_raw_screen_pass'] and c['two_pose_preparation_pass'] for c in new_parents)
     seqs, evidence, latest_bare = {}, {}, {}
     for r in ROUNDS:
         report = sources[f'reports/{r}/results.json']
@@ -219,8 +236,10 @@ def main():
         'additional_explicit_exclusion': {'name': 'apical_long_015_D51H_T70H', 'reason': 'Independent prediction lost interface; historical fixed-geometry pKa results do not qualify it.', 'source': 'reports/mutant_validation/RESULTS.md'},
         'pairwise_diversity': comparisons, 'local_control_identity_comparison': known,
         'diversity_method': 'Global alignment: match 2, mismatch -1, gap open -4, gap extension -0.5; matches divided by longer full sequence. RMSD is binder-fitted on sequence-aligned CA pairs, not receptor-frame interface RMSD, and is not a structure-search or fold-novelty test. First selected model in latest bare round is used, including failures.',
-        'novelty_scope': 'Database review is linked below when available. Five parent lineages are not five established fold classes; no exhaustive similarity search or global novelty proof. All share one BoltzGen apical campaign.',
-        'database_similarity_review': {'source':'reports/novelty_review/summary.json', 'sha256':digest(novelty_path), 'status':novelty['status']} if novelty else None,
+        'novelty_scope': 'The original six and two additional sequences have separate linked database reviews. Parent lineages are not established fold classes; no exhaustive similarity search or global novelty proof. All share one BoltzGen apical campaign.',
+        'database_similarity_review': {'source':'reports/novelty_review/summary.json', 'sha256':digest(novelty_path), 'status':novelty['status'], 'candidate_names':[c['name'] for c in novelty['candidates']]} if novelty else None,
+        'additional_database_similarity_review': {'source':'reports/diversity_novelty/summary.json','sha256':digest(new_novelty_path),'status':new_novelty['status'],'candidate_names':new_novelty['reviewed_candidate_ids']},
+        'additional_disulfide_review': {'source':'reports/diversity_confirmation/disulfide_audit.json','sha256':digest(ROOT/'reports/diversity_confirmation/disulfide_audit.json')},
         'software': {'python': platform.python_version(), 'biopython': Bio.__version__},
         'rules_source': 'https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/tfr1',
         'sequence_descriptor_source': 'https://biopython.org/docs/latest/api/Bio.SeqUtils.ProtParam.html',
@@ -232,6 +251,8 @@ def main():
                                    'reports/tag_comparison/billing_after.json',
                                    'scripts/build_submission_draft.py']
     if novelty: dependencies.append('reports/novelty_review/summary.json')
+    dependencies+=['reports/diversity_novelty/summary.json','reports/diversity_confirmation/summary.json',
+                   'reports/diversity_confirmation/disulfide_audit.json','reports/diversity_confirmation/confirmed_diversity.json']
     manifest = {'status': 'DRAFT_NOT_SUBMITTED', 'inputs': {p: digest(ROOT/p) for p in dependencies},
                 'models': model_index, 'outputs': {p.name: digest(p) for p in OUT.iterdir() if p.is_file() and p.name!='manifest.json'}}
     (OUT/'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')

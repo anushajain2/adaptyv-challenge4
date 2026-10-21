@@ -1,6 +1,6 @@
 # Bounded apical diversity round
 
-Status: **generation and initial screening complete** (`diversity-023-6wrw`); the preplanned two-seed confirmation is running (`diversity-confirm-024-6wrw`). No new candidate has been admitted to the submission.
+Status: **generation and initial screening complete** (`diversity-023-6wrw`); the preplanned [two-seed confirmation](../diversity_confirmation/RESULTS.md) and [database review](../diversity_novelty/RESULTS.md) are also complete. Two additional computational parents have entered the eight-sequence draft; nothing has been submitted externally.
 
 All 100 designs and 103 one-sample refolds completed successfully. The batch contains **99 unique sequences**, none exactly matching the 495 earlier designs. All intended hotspot labels were verified in every generated feature file, and all cloud inputs and analysis-source hashes match the launch snapshot.
 
@@ -21,7 +21,7 @@ All five full-screen passes also meet the frozen diversity checks against the cu
 | diversity_short_041 | 0.574 | 7.63 | 0.474 |
 | diversity_short_055 | 0.507 | 8.22 | 0.359 |
 
-The [diversity audit](diversity_audit.json) records every comparison and the exact chosen order. These remain one-sample candidates pending confirmation; a 5/100 computational pass rate is not a measured binding hit rate. The gross meter after generation is approximately **$12.02 total**, and no Modal app remained active before confirmation was launched.
+The [diversity audit](diversity_audit.json) records every comparison and the exact chosen order. These were one-sample candidates at this screening stage; subsequent confirmation retained two, as reported above. A 5/100 computational pass rate is not a measured binding hit rate. The gross meter after generation is approximately **$12.02 total**, and no Modal app remained active before confirmation was launched.
 
 
 The prospective [plan](plan.json) specifies 100 additional apical miniproteins: 60 of length 55–72 and 40 of length 80–110. Both arms retain the audited 6WRW receptor crop, native hotspots 208/210/211, corrected positive/negative hotspot encoding and pinned BoltzGen commit. Generation and inverse-folding seeds are fresh. Refolding uses seed 2203, one sample per design, target-only templates and empty MSA. The published 2DS25.5 positive and two presumed negatives are included.
