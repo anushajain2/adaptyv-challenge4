@@ -1,0 +1,233 @@
+[
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "GLU",
+    "group": "N+",
+    "pka": 7.84072431806768
+  },
+  {
+    "chain": "B",
+    "residue": 1,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.55839190857252
+  },
+  {
+    "chain": "B",
+    "residue": 2,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.661637395098857
+  },
+  {
+    "chain": "B",
+    "residue": 3,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.388678710706374
+  },
+  {
+    "chain": "B",
+    "residue": 4,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.507867466347353
+  },
+  {
+    "chain": "B",
+    "residue": 6,
+    "resname": "TYR",
+    "group": "TYR",
+    "pka": 10.44874714512235
+  },
+  {
+    "chain": "B",
+    "residue": 9,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.60761523736437
+  },
+  {
+    "chain": "B",
+    "residue": 11,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.6400133226486284
+  },
+  {
+    "chain": "B",
+    "residue": 14,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.4959296871551335
+  },
+  {
+    "chain": "B",
+    "residue": 17,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.416407446103571
+  },
+  {
+    "chain": "B",
+    "residue": 19,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.711443655734334
+  },
+  {
+    "chain": "B",
+    "residue": 22,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.849332347562685
+  },
+  {
+    "chain": "B",
+    "residue": 24,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.562472530379448
+  },
+  {
+    "chain": "B",
+    "residue": 29,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.919678016588256
+  },
+  {
+    "chain": "B",
+    "residue": 30,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.81599421450342
+  },
+  {
+    "chain": "B",
+    "residue": 33,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 5.00654267906974
+  },
+  {
+    "chain": "B",
+    "residue": 34,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 4.294119465727441
+  },
+  {
+    "chain": "B",
+    "residue": 39,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 2.605002010898538
+  },
+  {
+    "chain": "B",
+    "residue": 41,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.318199011249161
+  },
+  {
+    "chain": "B",
+    "residue": 42,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.554984873890021
+  },
+  {
+    "chain": "B",
+    "residue": 45,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.4667613453504744
+  },
+  {
+    "chain": "B",
+    "residue": 48,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.2702996000718825
+  },
+  {
+    "chain": "B",
+    "residue": 49,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 4.6190937458548245
+  },
+  {
+    "chain": "B",
+    "residue": 50,
+    "resname": "GLU",
+    "group": "COO",
+    "pka": 3.6526552954016576
+  },
+  {
+    "chain": "B",
+    "residue": 51,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.776886448469865
+  },
+  {
+    "chain": "B",
+    "residue": 52,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.573540866374053
+  },
+  {
+    "chain": "B",
+    "residue": 53,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 11.59369902509863
+  },
+  {
+    "chain": "B",
+    "residue": 56,
+    "resname": "ASP",
+    "group": "COO",
+    "pka": 3.8471087124725023
+  },
+  {
+    "chain": "B",
+    "residue": 57,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.3183942370966095
+  },
+  {
+    "chain": "B",
+    "residue": 59,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.573232010164357
+  },
+  {
+    "chain": "B",
+    "residue": 60,
+    "resname": "HIS",
+    "group": "HIS",
+    "pka": 6.457616691812728
+  },
+  {
+    "chain": "B",
+    "residue": 61,
+    "resname": "LYS",
+    "group": "LYS",
+    "pka": 10.470718314542053
+  },
+  {
+    "chain": "B",
+    "residue": 61,
+    "resname": "LYS",
+    "group": "COO",
+    "pka": 3.3709524906020767
+  }
+]

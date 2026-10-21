@@ -1,0 +1,2474 @@
+{
+  "source_preparation_sha256": "2b4899f9269f63adbd88e255260a68e5bfd95d93d9dec124289c3007ed809cbc",
+  "source_v1_direction_sha256": "07da02ad366255817449bc1d3f4a9d438942b8e71e4a7cfdcb92471e17440b04",
+  "controls_prepared_pass": false,
+  "rows": [
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1801,
+      "sample": 1,
+      "kind": "positive",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.14119572743906142,
+            "max_A": 0.7090913653373718
+          },
+          "sidechain": {
+            "rms_A": 0.4997215445390839,
+            "max_A": 2.1595449447631836
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.13890362193928005,
+            "max_A": 0.4370824098587036
+          },
+          "sidechain": {
+            "rms_A": 0.5759261648645575,
+            "max_A": 2.4684956073760986
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 35
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 84
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/2ds25_5_6wrw_seed1801/prepared.pdb",
+      "prepared_sha256": "842e01fcddd46c3522db022c8cc46b8dafb4e74d0fe44fa0d62711800c366b5e",
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.4686203225060764,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.3360734506819645,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.0149512533010576,
+        "binder_CA_fold_rmsd_A": 0.48227742211669844,
+        "native_contacts": 56,
+        "recovered_contacts": 53,
+        "native_contact_recall": 0.9464285714285714
+      },
+      "prepared_screen": {
+        "checks": {
+          "original_confidence": true,
+          "fold": true,
+          "interface": true,
+          "recall": true
+        },
+        "pass": true
+      },
+      "tag_context": {
+        "binder_length": 88,
+        "terminal_carboxyl_to_target_A": 4.6455278396606445,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 1901,
+      "sample": 1,
+      "kind": "positive",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.15380503858898617,
+            "max_A": 0.5544993281364441
+          },
+          "sidechain": {
+            "rms_A": 0.48498746920592606,
+            "max_A": 2.5976059436798096
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.17022195658295736,
+            "max_A": 0.903447687625885
+          },
+          "sidechain": {
+            "rms_A": 0.5850474706928348,
+            "max_A": 2.5920233726501465
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 35
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 84
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/2ds25_5_6wrw_seed1901/prepared.pdb",
+      "prepared_sha256": "0fca98e059799937ec2a4d1ad9e716e0c79eef23f6d9d44d1521b5eedf8f3d67",
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.45666798902295164,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.6244950099677138,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.24515473812,
+        "binder_CA_fold_rmsd_A": 0.5716738845960041,
+        "native_contacts": 56,
+        "recovered_contacts": 54,
+        "native_contact_recall": 0.9642857142857143
+      },
+      "prepared_screen": {
+        "checks": {
+          "original_confidence": true,
+          "fold": true,
+          "interface": true,
+          "recall": true
+        },
+        "pass": true
+      },
+      "tag_context": {
+        "binder_length": 88,
+        "terminal_carboxyl_to_target_A": 4.813105583190918,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 1801,
+      "sample": 0,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": false,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.15616427326514304,
+            "max_A": 0.4815008044242859
+          },
+          "sidechain": {
+            "rms_A": 0.43526189511431773,
+            "max_A": 1.8700765371322632
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.18184004311245638,
+            "max_A": 1.0217655897140503
+          },
+          "sidechain": {
+            "rms_A": 0.5365211195907038,
+            "max_A": 3.3620760440826416
+          }
+        },
+        "pass": false
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 28
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 77
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/apical_short_008_seed1801/prepared.pdb",
+      "prepared_sha256": "7d3ed1d66b54c59bb0aff5c25edf01305cd5a5da16b583aa26fb9ec2f770cb9f",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.5483374440616482,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.7515091209377724,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.6699439551760964,
+        "binder_CA_fold_rmsd_A": 0.8579944149952644,
+        "native_contacts": 29,
+        "recovered_contacts": 20,
+        "native_contact_recall": 0.6896551724137931
+      },
+      "tag_context": {
+        "binder_length": 58,
+        "terminal_carboxyl_to_target_A": 16.187334060668945,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 1901,
+      "sample": 2,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.15163091111785126,
+            "max_A": 0.5426611304283142
+          },
+          "sidechain": {
+            "rms_A": 0.4453337653221958,
+            "max_A": 2.4227113723754883
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.15493471030951525,
+            "max_A": 0.8180140852928162
+          },
+          "sidechain": {
+            "rms_A": 0.4235521876859578,
+            "max_A": 1.6415417194366455
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 28
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 77
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/apical_short_008_seed1901/prepared.pdb",
+      "prepared_sha256": "f500b1292b0883523626510676faabc2a9b3cded77dac8115825e9df5ebf6d31",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.4373298911016799,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.8706046235702455,
+        "binder_interface_CA_rmsd_after_target_fit_A": 0.7440707065624147,
+        "binder_CA_fold_rmsd_A": 0.4759683646379313,
+        "native_contacts": 29,
+        "recovered_contacts": 26,
+        "native_contact_recall": 0.896551724137931
+      },
+      "tag_context": {
+        "binder_length": 58,
+        "terminal_carboxyl_to_target_A": 17.432044982910156,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1801,
+      "sample": 4,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.17249615446969077,
+            "max_A": 0.4880220293998718
+          },
+          "sidechain": {
+            "rms_A": 0.5120252554714594,
+            "max_A": 2.3306801319122314
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1847377442567806,
+            "max_A": 0.6047800183296204
+          },
+          "sidechain": {
+            "rms_A": 0.7485102381810685,
+            "max_A": 2.306751012802124
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 29
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 78
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/apical_short_008_A41H_seed1801/prepared.pdb",
+      "prepared_sha256": "038b6feaf6c6d56b74330bafb3ba48050d66cb7cf9fea9a5ad90818f3c1b0f59",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.3723395567320145,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.0428212220103998,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.1606307226901533,
+        "binder_CA_fold_rmsd_A": 0.6182969591701256,
+        "native_contacts": 29,
+        "recovered_contacts": 23,
+        "native_contact_recall": 0.7931034482758621
+      },
+      "tag_context": {
+        "binder_length": 58,
+        "terminal_carboxyl_to_target_A": 17.91739273071289,
+        "introduced_histidines": [
+          {
+            "position": 41,
+            "ring_to_C_carboxyl_A": 16.87517547607422,
+            "ring_to_N_terminus_A": 10.331103324890137
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "ok",
+        "original_v1_shifts": [
+          -1.1040049600994264
+        ],
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          7.235451885661711
+        ],
+        "bound_pkas": [
+          6.199448942645797
+        ],
+        "shifts": [
+          -1.0360029430159141
+        ],
+        "his_only_Kd6_over_Kd7_4": 4.445606537153863,
+        "artificial_terminus_distance_A": 24.454097747802734,
+        "checks": {
+          "all_shifts_le_minus_0_5": true,
+          "any_free_pka_6_to_7": false,
+          "his_only_ratio_ge_2": true,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 1901,
+      "sample": 0,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.15198589076683547,
+            "max_A": 0.5496872663497925
+          },
+          "sidechain": {
+            "rms_A": 0.4675109674670938,
+            "max_A": 2.0145201683044434
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1589119312390486,
+            "max_A": 0.5555738210678101
+          },
+          "sidechain": {
+            "rms_A": 0.5659645464700723,
+            "max_A": 3.1374614238739014
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 29
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 78
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/apical_short_008_A41H_seed1901/prepared.pdb",
+      "prepared_sha256": "bdfffdc8c36c5f723e54a9a904f6fd7db30871052e10fbb81b704722fd153ede",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.5910712210262511,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.1867219421263697,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.2929533232001316,
+        "binder_CA_fold_rmsd_A": 0.6226861179466238,
+        "native_contacts": 29,
+        "recovered_contacts": 25,
+        "native_contact_recall": 0.8620689655172413
+      },
+      "tag_context": {
+        "binder_length": 58,
+        "terminal_carboxyl_to_target_A": 18.08574104309082,
+        "introduced_histidines": [
+          {
+            "position": 41,
+            "ring_to_C_carboxyl_A": 17.702983856201172,
+            "ring_to_N_terminus_A": 10.52322006225586
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": true,
+        "original_v1_status": "ok",
+        "original_v1_shifts": [
+          -1.050570769725625
+        ],
+        "original_v1_direction_pass": true,
+        "free_pkas": [
+          6.378967146504627
+        ],
+        "bound_pkas": [
+          5.416090973799225
+        ],
+        "shifts": [
+          -0.9628761727054025
+        ],
+        "his_only_Kd6_over_Kd7_4": 2.482911277552167,
+        "artificial_terminus_distance_A": 25.064224243164062,
+        "checks": {
+          "all_shifts_le_minus_0_5": true,
+          "any_free_pka_6_to_7": true,
+          "his_only_ratio_ge_2": true,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1801,
+      "sample": 0,
+      "kind": "negative_hypothesis",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.14286949438401905,
+            "max_A": 0.410000205039978
+          },
+          "sidechain": {
+            "rms_A": 0.45538997210575927,
+            "max_A": 2.019465923309326
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.15668165930932082,
+            "max_A": 0.4625304341316223
+          },
+          "sidechain": {
+            "rms_A": 0.4683840518245629,
+            "max_A": 1.7987085580825806
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 34
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 83
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/caplacizumab_6wrw_seed1801/prepared.pdb",
+      "prepared_sha256": "72a9c09382731f1b47fd6d2da5c863fa2dea477c782286a776d0c6a19db3e49a",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original presumed-negative confidence check retained; minimization cannot recompute prediction confidence or prove nonbinding."
+      },
+      "tag_context": {
+        "binder_length": 128,
+        "terminal_carboxyl_to_target_A": 40.567630767822266,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 1901,
+      "sample": 4,
+      "kind": "negative_hypothesis",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.15527951031255494,
+            "max_A": 0.7227046489715576
+          },
+          "sidechain": {
+            "rms_A": 0.4452419329085671,
+            "max_A": 2.5405426025390625
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1568886827199486,
+            "max_A": 0.6450991630554199
+          },
+          "sidechain": {
+            "rms_A": 0.44572308783955705,
+            "max_A": 1.7358022928237915
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 34
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 83
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/caplacizumab_6wrw_seed1901/prepared.pdb",
+      "prepared_sha256": "fc4fbff62fccdd4ac6bc89654add996fff29e0c5cd4ab1a65dd85641010a37f3",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original presumed-negative confidence check retained; minimization cannot recompute prediction confidence or prove nonbinding."
+      },
+      "tag_context": {
+        "binder_length": 128,
+        "terminal_carboxyl_to_target_A": 38.57297897338867,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1801,
+      "sample": 4,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.15014535073820479,
+            "max_A": 0.5379816293716431
+          },
+          "sidechain": {
+            "rms_A": 0.44956493714547807,
+            "max_A": 1.6015186309814453
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1422289068639899,
+            "max_A": 0.45563259720802307
+          },
+          "sidechain": {
+            "rms_A": 0.5013754202123258,
+            "max_A": 1.8795067071914673
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_long_092_seed1801/prepared.pdb",
+      "prepared_sha256": "bbabe71da00e1ce67cecb0a946cab01de9c23224fbced3e910eae150b2e4545b",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.353704447026553,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.476651862831487,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.9156998447593585,
+        "binder_CA_fold_rmsd_A": 0.6343157480203905,
+        "native_contacts": 46,
+        "recovered_contacts": 26,
+        "native_contact_recall": 0.5652173913043478
+      },
+      "tag_context": {
+        "binder_length": 89,
+        "terminal_carboxyl_to_target_A": 11.289188385009766,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "seed": 1901,
+      "sample": 4,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.14939636492052197,
+            "max_A": 0.4796360433101654
+          },
+          "sidechain": {
+            "rms_A": 0.45112471865513465,
+            "max_A": 1.8915504217147827
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.16491195225601787,
+            "max_A": 0.5338444709777832
+          },
+          "sidechain": {
+            "rms_A": 0.5719777856143323,
+            "max_A": 1.922464370727539
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_long_092_seed1901/prepared.pdb",
+      "prepared_sha256": "f629e507f50d14a02c7df46bab37f3c81711a531172eacf4c3a7433ebb64f071",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.38830439466068983,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.967459287224927,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.6229424557810732,
+        "binder_CA_fold_rmsd_A": 0.6222832285511397,
+        "native_contacts": 46,
+        "recovered_contacts": 27,
+        "native_contact_recall": 0.5869565217391305
+      },
+      "tag_context": {
+        "binder_length": 89,
+        "terminal_carboxyl_to_target_A": 11.19915771484375,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_long_092_E53H",
+      "seed": 1801,
+      "sample": 2,
+      "kind": "novel_design",
+      "raw_pass": false,
+      "preparation_status": "ok",
+      "prepared_eligible": false,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.18226111044186477,
+            "max_A": 0.653014600276947
+          },
+          "sidechain": {
+            "rms_A": 0.5709703569151496,
+            "max_A": 2.423802375793457
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.19219457518425398,
+            "max_A": 0.7873407006263733
+          },
+          "sidechain": {
+            "rms_A": 0.6799770633917206,
+            "max_A": 3.143404960632324
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_long_092_E53H_seed1801/prepared.pdb",
+      "prepared_sha256": "82f3770f072a4966f69410ccef00f91af719a3be1fd06b132f5bcb85466b6f2e",
+      "prepared_screen": {
+        "pass": false,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": false,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": [
+          "interface_pose"
+        ]
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.5256269485850624,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.745092350656919,
+        "binder_interface_CA_rmsd_after_target_fit_A": 2.09124688765009,
+        "binder_CA_fold_rmsd_A": 0.6560753979220884,
+        "native_contacts": 46,
+        "recovered_contacts": 29,
+        "native_contact_recall": 0.6304347826086957
+      },
+      "tag_context": {
+        "binder_length": 89,
+        "terminal_carboxyl_to_target_A": 11.17898941040039,
+        "introduced_histidines": [
+          {
+            "position": 53,
+            "ring_to_C_carboxyl_A": 10.028738975524902,
+            "ring_to_N_terminus_A": 9.220931053161621
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_long_092_E53H",
+      "seed": 1901,
+      "sample": 1,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.151338223353038,
+            "max_A": 0.5081436634063721
+          },
+          "sidechain": {
+            "rms_A": 0.4551050052730917,
+            "max_A": 1.97163724899292
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.13630920267409807,
+            "max_A": 0.48593929409980774
+          },
+          "sidechain": {
+            "rms_A": 0.4363734934359681,
+            "max_A": 1.463935375213623
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_long_092_E53H_seed1901/prepared.pdb",
+      "prepared_sha256": "0cb09fdd19dbf5f4114dbfecd3a729ee1a1b8f68c34f84ce6e78d389771b0706",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.560345913210345,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.4837429866859786,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.7450310677434249,
+        "binder_CA_fold_rmsd_A": 0.8397549489184667,
+        "native_contacts": 46,
+        "recovered_contacts": 25,
+        "native_contact_recall": 0.5434782608695652
+      },
+      "tag_context": {
+        "binder_length": 89,
+        "terminal_carboxyl_to_target_A": 13.392796516418457,
+        "introduced_histidines": [
+          {
+            "position": 53,
+            "ring_to_C_carboxyl_A": 11.136425018310547,
+            "ring_to_N_terminus_A": 10.065937042236328
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1801,
+      "sample": 2,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.1632240323875567,
+            "max_A": 0.5595079660415649
+          },
+          "sidechain": {
+            "rms_A": 0.46719330127198266,
+            "max_A": 2.0746514797210693
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.15334354260899263,
+            "max_A": 0.579741895198822
+          },
+          "sidechain": {
+            "rms_A": 0.4981388144519737,
+            "max_A": 1.8628674745559692
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_long_092_R3H_seed1801/prepared.pdb",
+      "prepared_sha256": "332f587b2ff63d4b832761fa9fc0efaea8e167ab20f7de12720d662dc794d289",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 1.5355445914802583,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.0608068882261996,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.4335866360004266,
+        "binder_CA_fold_rmsd_A": 0.8321532835934526,
+        "native_contacts": 46,
+        "recovered_contacts": 27,
+        "native_contact_recall": 0.5869565217391305
+      },
+      "tag_context": {
+        "binder_length": 89,
+        "terminal_carboxyl_to_target_A": 11.738037109375,
+        "introduced_histidines": [
+          {
+            "position": 3,
+            "ring_to_C_carboxyl_A": 9.696805000305176,
+            "ring_to_N_terminus_A": 9.777146339416504
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "ok",
+        "original_v1_shifts": [
+          0.25883450937869856
+        ],
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          7.066292989031336
+        ],
+        "bound_pkas": [
+          7.327123058674881
+        ],
+        "shifts": [
+          0.2608300696435455
+        ],
+        "his_only_Kd6_over_Kd7_4": 0.7171401643088015,
+        "artificial_terminus_distance_A": 40.54988098144531,
+        "checks": {
+          "all_shifts_le_minus_0_5": false,
+          "any_free_pka_6_to_7": false,
+          "his_only_ratio_ge_2": false,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "seed": 1901,
+      "sample": 4,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.1535013698927605,
+            "max_A": 0.6121643781661987
+          },
+          "sidechain": {
+            "rms_A": 0.4916515981826885,
+            "max_A": 2.5003890991210938
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.15902932047070892,
+            "max_A": 0.6006938815116882
+          },
+          "sidechain": {
+            "rms_A": 0.5545310191578532,
+            "max_A": 2.111945867538452
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_long_092_R3H_seed1901/prepared.pdb",
+      "prepared_sha256": "50f6a36ada4e375186b68beeed641a50c40547adc509ddc81e3ae05f52efb586",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.5500777073281967,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.5192827756968426,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.263514234354001,
+        "binder_CA_fold_rmsd_A": 0.6410425239061404,
+        "native_contacts": 46,
+        "recovered_contacts": 28,
+        "native_contact_recall": 0.6086956521739131
+      },
+      "tag_context": {
+        "binder_length": 89,
+        "terminal_carboxyl_to_target_A": 10.367769241333008,
+        "introduced_histidines": [
+          {
+            "position": 3,
+            "ring_to_C_carboxyl_A": 8.788336753845215,
+            "ring_to_N_terminus_A": 9.711490631103516
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "ok",
+        "original_v1_shifts": [
+          -0.6429158111484883
+        ],
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          6.370409891769786
+        ],
+        "bound_pkas": [
+          5.802350027706525
+        ],
+        "shifts": [
+          -0.5680598640632608
+        ],
+        "his_only_Kd6_over_Kd7_4": 1.919895575767441,
+        "artificial_terminus_distance_A": 40.85851287841797,
+        "checks": {
+          "all_shifts_le_minus_0_5": true,
+          "any_free_pka_6_to_7": true,
+          "his_only_ratio_ge_2": false,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1801,
+      "sample": 2,
+      "kind": "novel_design",
+      "raw_pass": false,
+      "preparation_status": "ok",
+      "prepared_eligible": false,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.1486728338998701,
+            "max_A": 0.4990036189556122
+          },
+          "sidechain": {
+            "rms_A": 0.4299440115485972,
+            "max_A": 1.9800398349761963
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.14427917973821813,
+            "max_A": 0.5363450646400452
+          },
+          "sidechain": {
+            "rms_A": 0.5024556028420664,
+            "max_A": 2.486967086791992
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_018_seed1801/prepared.pdb",
+      "prepared_sha256": "e8ee6fba4e8c17e7a7c608886db075aaa7e2cc4bf3e3fa802aade5615038f8a6",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.4654454775065933,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.0473007863340795,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.184263412092198,
+        "binder_CA_fold_rmsd_A": 0.6903069642772628,
+        "native_contacts": 34,
+        "recovered_contacts": 31,
+        "native_contact_recall": 0.9117647058823529
+      },
+      "tag_context": {
+        "binder_length": 61,
+        "terminal_carboxyl_to_target_A": 3.7431318759918213,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "seed": 1901,
+      "sample": 4,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.1394829290038509,
+            "max_A": 0.5284488201141357
+          },
+          "sidechain": {
+            "rms_A": 0.46397509256498043,
+            "max_A": 2.1094493865966797
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.14507330682677685,
+            "max_A": 0.4026036262512207
+          },
+          "sidechain": {
+            "rms_A": 0.5454304517027964,
+            "max_A": 2.2918124198913574
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_018_seed1901/prepared.pdb",
+      "prepared_sha256": "36ca75a1515e234d93614e6cba704857ecdf2619d4f4629ed8c7b4f1dc4b31dd",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.9051874943630008,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.2478644069613891,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.58294698211834,
+        "binder_CA_fold_rmsd_A": 0.6994786868819213,
+        "native_contacts": 34,
+        "recovered_contacts": 28,
+        "native_contact_recall": 0.8235294117647058
+      },
+      "tag_context": {
+        "binder_length": 61,
+        "terminal_carboxyl_to_target_A": 3.5465991497039795,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1801,
+      "sample": 3,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.16009840317559115,
+            "max_A": 0.5384243130683899
+          },
+          "sidechain": {
+            "rms_A": 0.43951460554858635,
+            "max_A": 1.6786797046661377
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.17421681675175085,
+            "max_A": 0.4803672134876251
+          },
+          "sidechain": {
+            "rms_A": 0.5885332701878343,
+            "max_A": 2.2846829891204834
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_018_E57H_K60H_seed1801/prepared.pdb",
+      "prepared_sha256": "132d74a64a926aad88930c35e157be7342a1f659117e8e29d6937fb9640594b4",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 1.591817133373292,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.8104277550152827,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.3047061784845908,
+        "binder_CA_fold_rmsd_A": 0.47867089707685484,
+        "native_contacts": 34,
+        "recovered_contacts": 31,
+        "native_contact_recall": 0.9117647058823529
+      },
+      "tag_context": {
+        "binder_length": 61,
+        "terminal_carboxyl_to_target_A": 3.5214240550994873,
+        "introduced_histidines": [
+          {
+            "position": 57,
+            "ring_to_C_carboxyl_A": 9.4967622756958,
+            "ring_to_N_terminus_A": 24.53090476989746
+          },
+          {
+            "position": 60,
+            "ring_to_C_carboxyl_A": 3.5167667865753174,
+            "ring_to_N_terminus_A": 30.915985107421875
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "failed",
+        "original_v1_shifts": null,
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          6.3183942370966095,
+          6.457616691812728
+        ],
+        "bound_pkas": [
+          6.082001109490115,
+          6.5969140866864535
+        ],
+        "shifts": [
+          -0.23639312760649478,
+          0.13929739487372572
+        ],
+        "his_only_Kd6_over_Kd7_4": 1.0959743240844104,
+        "artificial_terminus_distance_A": 39.02656936645508,
+        "checks": {
+          "all_shifts_le_minus_0_5": false,
+          "any_free_pka_6_to_7": true,
+          "his_only_ratio_ge_2": false,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "seed": 1901,
+      "sample": 3,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.1524240661365276,
+            "max_A": 0.8433347344398499
+          },
+          "sidechain": {
+            "rms_A": 0.5725143153166165,
+            "max_A": 4.1494598388671875
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1799071489764037,
+            "max_A": 0.8372445702552795
+          },
+          "sidechain": {
+            "rms_A": 0.6527299417617938,
+            "max_A": 2.6672799587249756
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_018_E57H_K60H_seed1901/prepared.pdb",
+      "prepared_sha256": "5ba3f75acbd469f971c989292f856c336038cafe60c02c8e900785cbf3ee1191",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.776836077785094,
+        "binder_CA_pose_rmsd_after_target_fit_A": 0.9582570634395112,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.1281337339555564,
+        "binder_CA_fold_rmsd_A": 0.8132384172539188,
+        "native_contacts": 34,
+        "recovered_contacts": 27,
+        "native_contact_recall": 0.7941176470588235
+      },
+      "tag_context": {
+        "binder_length": 61,
+        "terminal_carboxyl_to_target_A": 3.8134195804595947,
+        "introduced_histidines": [
+          {
+            "position": 57,
+            "ring_to_C_carboxyl_A": 8.430688858032227,
+            "ring_to_N_terminus_A": 22.3962345123291
+          },
+          {
+            "position": 60,
+            "ring_to_C_carboxyl_A": 6.693511962890625,
+            "ring_to_N_terminus_A": 30.786890029907227
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "failed",
+        "original_v1_shifts": null,
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          6.351462153026159,
+          7.19905895532619
+        ],
+        "bound_pkas": [
+          6.958789357887993,
+          7.168511157914277
+        ],
+        "shifts": [
+          0.6073272048618348,
+          -0.030547797411912825
+        ],
+        "his_only_Kd6_over_Kd7_4": 0.41822727231080226,
+        "artificial_terminus_distance_A": 39.256839752197266,
+        "checks": {
+          "all_shifts_le_minus_0_5": false,
+          "any_free_pka_6_to_7": true,
+          "his_only_ratio_ge_2": false,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "expansion_apical_short_018_K3H",
+      "seed": 1801,
+      "sample": 1,
+      "kind": "novel_design",
+      "raw_pass": false,
+      "preparation_status": "ok",
+      "prepared_eligible": false,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.18236087466859957,
+            "max_A": 0.767591655254364
+          },
+          "sidechain": {
+            "rms_A": 0.5069585267202132,
+            "max_A": 2.1467435359954834
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1703920945858639,
+            "max_A": 0.4350174069404602
+          },
+          "sidechain": {
+            "rms_A": 0.625011594429852,
+            "max_A": 2.6069343090057373
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_018_K3H_seed1801/prepared.pdb",
+      "prepared_sha256": "e2db2fdf28a71b81b23dfa76b9f5e4fe1597887141e2ac0b3f07490034a92bc3",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.7569973515090422,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.517836042882938,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.6934532205949056,
+        "binder_CA_fold_rmsd_A": 0.7623039699713704,
+        "native_contacts": 34,
+        "recovered_contacts": 28,
+        "native_contact_recall": 0.8235294117647058
+      },
+      "tag_context": {
+        "binder_length": 61,
+        "terminal_carboxyl_to_target_A": 4.4157586097717285,
+        "introduced_histidines": [
+          {
+            "position": 3,
+            "ring_to_C_carboxyl_A": 25.544086456298828,
+            "ring_to_N_terminus_A": 6.5829176902771
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_short_018_K3H",
+      "seed": 1901,
+      "sample": 2,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.1578981259856346,
+            "max_A": 0.4447226822376251
+          },
+          "sidechain": {
+            "rms_A": 0.4467821702128883,
+            "max_A": 1.660447359085083
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.16494934928699637,
+            "max_A": 0.45999473333358765
+          },
+          "sidechain": {
+            "rms_A": 0.5254833436897753,
+            "max_A": 2.386592149734497
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 33
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 82
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_018_K3H_seed1901/prepared.pdb",
+      "prepared_sha256": "a31722cc57e42d339e276c14f82ffd476edd20760ffff73b65a13f6ad7bcc6f5",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.6710455585259916,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.1019293353739215,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.3186893646394184,
+        "binder_CA_fold_rmsd_A": 0.6348284025258625,
+        "native_contacts": 34,
+        "recovered_contacts": 30,
+        "native_contact_recall": 0.8823529411764706
+      },
+      "tag_context": {
+        "binder_length": 61,
+        "terminal_carboxyl_to_target_A": 2.6015172004699707,
+        "introduced_histidines": [
+          {
+            "position": 3,
+            "ring_to_C_carboxyl_A": 24.70714569091797,
+            "ring_to_N_terminus_A": 6.570398807525635
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1801,
+      "sample": 4,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.145979831023217,
+            "max_A": 0.7397186160087585
+          },
+          "sidechain": {
+            "rms_A": 0.4250484075387734,
+            "max_A": 1.940931797027588
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.15063991217563927,
+            "max_A": 0.6298370957374573
+          },
+          "sidechain": {
+            "rms_A": 0.4813372969724489,
+            "max_A": 1.745875597000122
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 27
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 76
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_026_seed1801/prepared.pdb",
+      "prepared_sha256": "6f781138efbae01f9cc2f7391d13fe5c320409162e348e44901b218fd7c1d90e",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.45649261132087343,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.7185637642162148,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.3134619677356818,
+        "binder_CA_fold_rmsd_A": 1.1045272721176813,
+        "native_contacts": 20,
+        "recovered_contacts": 16,
+        "native_contact_recall": 0.8
+      },
+      "tag_context": {
+        "binder_length": 62,
+        "terminal_carboxyl_to_target_A": 4.615187644958496,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "seed": 1901,
+      "sample": 2,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.14536744667235407,
+            "max_A": 0.5873215794563293
+          },
+          "sidechain": {
+            "rms_A": 0.4282635087687785,
+            "max_A": 1.6355360746383667
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1424220098454252,
+            "max_A": 0.40454983711242676
+          },
+          "sidechain": {
+            "rms_A": 0.49959819112785747,
+            "max_A": 1.8335462808609009
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 27
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 76
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_026_seed1901/prepared.pdb",
+      "prepared_sha256": "f127bb8866f34f6145a1a93d60bc31e27b6d46b21fc9e18efde9407999f4ba7e",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.39866883368885264,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.0871610750495324,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.5785550975392817,
+        "binder_CA_fold_rmsd_A": 0.6967519583655565,
+        "native_contacts": 20,
+        "recovered_contacts": 16,
+        "native_contact_recall": 0.8
+      },
+      "tag_context": {
+        "binder_length": 62,
+        "terminal_carboxyl_to_target_A": 7.7770538330078125,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1801,
+      "sample": 4,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.1695061255014637,
+            "max_A": 0.8587208390235901
+          },
+          "sidechain": {
+            "rms_A": 0.48571701601722517,
+            "max_A": 1.97360098361969
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.16678112167336787,
+            "max_A": 0.6448225378990173
+          },
+          "sidechain": {
+            "rms_A": 0.671488174771743,
+            "max_A": 2.648885726928711
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 27
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 76
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_026_E19H_seed1801/prepared.pdb",
+      "prepared_sha256": "2f06be62d922ec247f225a9041d7e1921820696a6c4a4a430b23c8b64488404d",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.4047091855093201,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.1682114777301496,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.430266858248875,
+        "binder_CA_fold_rmsd_A": 0.6952322500178231,
+        "native_contacts": 20,
+        "recovered_contacts": 16,
+        "native_contact_recall": 0.8
+      },
+      "tag_context": {
+        "binder_length": 62,
+        "terminal_carboxyl_to_target_A": 7.444812297821045,
+        "introduced_histidines": [
+          {
+            "position": 19,
+            "ring_to_C_carboxyl_A": 24.870983123779297,
+            "ring_to_N_terminus_A": 26.82958984375
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "ok",
+        "original_v1_shifts": [
+          -0.8540643348874841
+        ],
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          7.218894230633912
+        ],
+        "bound_pkas": [
+          6.182705448972863
+        ],
+        "shifts": [
+          -1.0361887816610489
+        ],
+        "his_only_Kd6_over_Kd7_4": 4.447974753860005,
+        "artificial_terminus_distance_A": 23.60483169555664,
+        "checks": {
+          "all_shifts_le_minus_0_5": true,
+          "any_free_pka_6_to_7": false,
+          "his_only_ratio_ge_2": true,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "seed": 1901,
+      "sample": 3,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.17016326666516382,
+            "max_A": 0.8590492606163025
+          },
+          "sidechain": {
+            "rms_A": 0.48989128060055337,
+            "max_A": 2.9316766262054443
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.15371260136493808,
+            "max_A": 0.4867074489593506
+          },
+          "sidechain": {
+            "rms_A": 0.5833442750009419,
+            "max_A": 2.2048592567443848
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 27
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 76
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_026_E19H_seed1901/prepared.pdb",
+      "prepared_sha256": "77601336eff23398b331ef900f68d4d027333c0644e1447ca8d07ba09bc30d38",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 1.0511449375305295,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.5351666266849486,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.9773697701435864,
+        "binder_CA_fold_rmsd_A": 0.8623741318527612,
+        "native_contacts": 20,
+        "recovered_contacts": 17,
+        "native_contact_recall": 0.85
+      },
+      "tag_context": {
+        "binder_length": 62,
+        "terminal_carboxyl_to_target_A": 7.319500923156738,
+        "introduced_histidines": [
+          {
+            "position": 19,
+            "ring_to_C_carboxyl_A": 24.989336013793945,
+            "ring_to_N_terminus_A": 25.683460235595703
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "failed",
+        "original_v1_shifts": null,
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          6.4302106242410195
+        ],
+        "bound_pkas": [
+          6.094857785655926
+        ],
+        "shifts": [
+          -0.33535283858509324
+        ],
+        "his_only_Kd6_over_Kd7_4": 1.55985311761244,
+        "artificial_terminus_distance_A": 20.034870147705078,
+        "checks": {
+          "all_shifts_le_minus_0_5": false,
+          "any_free_pka_6_to_7": true,
+          "his_only_ratio_ge_2": false,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1801,
+      "sample": 0,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.16576372593498936,
+            "max_A": 0.7387615442276001
+          },
+          "sidechain": {
+            "rms_A": 0.4649572094191905,
+            "max_A": 1.9405995607376099
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.17545384459017158,
+            "max_A": 0.5756712555885315
+          },
+          "sidechain": {
+            "rms_A": 0.597964372963627,
+            "max_A": 2.5235745906829834
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 28
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 77
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_026_V60H_seed1801/prepared.pdb",
+      "prepared_sha256": "8f508c3acda8bb56824b6037f14a57463423b62cd43a921124c4dc9613d66958",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.7001653033328792,
+        "binder_CA_pose_rmsd_after_target_fit_A": 1.4856760654267518,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.0781791200649518,
+        "binder_CA_fold_rmsd_A": 0.5856876023952502,
+        "native_contacts": 20,
+        "recovered_contacts": 17,
+        "native_contact_recall": 0.85
+      },
+      "tag_context": {
+        "binder_length": 62,
+        "terminal_carboxyl_to_target_A": 6.321578502655029,
+        "introduced_histidines": [
+          {
+            "position": 60,
+            "ring_to_C_carboxyl_A": 4.9485249519348145,
+            "ring_to_N_terminus_A": 10.022913932800293
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "ok",
+        "original_v1_shifts": [
+          -0.08409576747155789
+        ],
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          6.683714227079539
+        ],
+        "bound_pkas": [
+          6.577702801641713
+        ],
+        "shifts": [
+          -0.10601142543782593
+        ],
+        "his_only_Kd6_over_Kd7_4": 1.176105878499668,
+        "artificial_terminus_distance_A": 37.73889923095703,
+        "checks": {
+          "all_shifts_le_minus_0_5": false,
+          "any_free_pka_6_to_7": true,
+          "his_only_ratio_ge_2": false,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "seed": 1901,
+      "sample": 1,
+      "kind": "novel_design",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": true,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.14798624185870182,
+            "max_A": 0.5929596424102783
+          },
+          "sidechain": {
+            "rms_A": 0.4568900450181897,
+            "max_A": 2.1144306659698486
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.1457312024661788,
+            "max_A": 0.4893922209739685
+          },
+          "sidechain": {
+            "rms_A": 0.6276308340444712,
+            "max_A": 3.3774912357330322
+          }
+        },
+        "pass": true
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 28
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 77
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/expansion_apical_short_026_V60H_seed1901/prepared.pdb",
+      "prepared_sha256": "c3269fdba4e0743ee0dd8c265ceac8e1d52838c1399b8761f9bcafb71e99d4d7",
+      "prepared_screen": {
+        "pass": true,
+        "checks": {
+          "interface_confidence": true,
+          "binder_fold": true,
+          "interface_pose": true,
+          "design_contact_recall": true,
+          "hotspot_contacts": true,
+          "intended_region": true,
+          "context_fit": true,
+          "clash_clearance": true
+        },
+        "failed": []
+      },
+      "prepared_pose": {
+        "target_CA_rmsd_to_reference_A": 0.6684475495929472,
+        "binder_CA_pose_rmsd_after_target_fit_A": 2.190275659839268,
+        "binder_interface_CA_rmsd_after_target_fit_A": 1.6995547473327237,
+        "binder_CA_fold_rmsd_A": 0.7237796348925762,
+        "native_contacts": 20,
+        "recovered_contacts": 17,
+        "native_contact_recall": 0.85
+      },
+      "tag_context": {
+        "binder_length": 62,
+        "terminal_carboxyl_to_target_A": 7.436615943908691,
+        "introduced_histidines": [
+          {
+            "position": 60,
+            "ring_to_C_carboxyl_A": 6.22580623626709,
+            "ring_to_N_terminus_A": 11.92354679107666
+          }
+        ],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      },
+      "direction": {
+        "status": "ok",
+        "direction_pass": false,
+        "original_v1_status": "failed",
+        "original_v1_shifts": null,
+        "original_v1_direction_pass": false,
+        "free_pkas": [
+          7.235715397620297
+        ],
+        "bound_pkas": [
+          7.103754412013075
+        ],
+        "shifts": [
+          -0.13196098560722191
+        ],
+        "his_only_Kd6_over_Kd7_4": 1.1875588443616503,
+        "artificial_terminus_distance_A": 37.30586624145508,
+        "checks": {
+          "all_shifts_le_minus_0_5": false,
+          "any_free_pka_6_to_7": false,
+          "his_only_ratio_ge_2": false,
+          "target_terminus_ge_10A": true
+        }
+      }
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1801,
+      "sample": 2,
+      "kind": "negative_hypothesis",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": false,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.17618344730178337,
+            "max_A": 0.8300422430038452
+          },
+          "sidechain": {
+            "rms_A": 0.5146569265685114,
+            "max_A": 2.6395602226257324
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.22037413725689983,
+            "max_A": 1.2909873723983765
+          },
+          "sidechain": {
+            "rms_A": 0.7314604126803237,
+            "max_A": 2.8002803325653076
+          }
+        },
+        "pass": false
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 46
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 95
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/scrambled_6wrw_seed1801/prepared.pdb",
+      "prepared_sha256": "98785ae9ffc5cac3a1bfeabc107ef71cb093f737127d03986c478fba6b17859f",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original presumed-negative confidence check retained; minimization cannot recompute prediction confidence or prove nonbinding."
+      },
+      "tag_context": {
+        "binder_length": 93,
+        "terminal_carboxyl_to_target_A": 4.9892168045043945,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 1901,
+      "sample": 1,
+      "kind": "negative_hypothesis",
+      "raw_pass": true,
+      "preparation_status": "ok",
+      "prepared_eligible": false,
+      "displacement": {
+        "A": {
+          "backbone": {
+            "rms_A": 0.17454714820638015,
+            "max_A": 0.8103830814361572
+          },
+          "sidechain": {
+            "rms_A": 0.5200757912382877,
+            "max_A": 2.7075204849243164
+          }
+        },
+        "B": {
+          "backbone": {
+            "rms_A": 0.24545279222803387,
+            "max_A": 1.0770704746246338
+          },
+          "sidechain": {
+            "rms_A": 0.7423103614933317,
+            "max_A": 2.4377548694610596
+          }
+        },
+        "pass": false
+      },
+      "internal_geometry": {
+        "nonbonded_pairs_lt1_8A": [],
+        "pass": true
+      },
+      "propka": {
+        "free": {
+          "status": "ok",
+          "titratable_groups": 46
+        },
+        "bound": {
+          "status": "ok",
+          "titratable_groups": 95
+        }
+      },
+      "prepared_source": "reports/receptor_preparation_v2/models/scrambled_6wrw_seed1901/prepared.pdb",
+      "prepared_sha256": "664dcb41da273ce9c0a300215969c757ca4ee2dcdeb9d9bffd4cdd216538bf68",
+      "prepared_screen": {
+        "pass": true,
+        "note": "Original presumed-negative confidence check retained; minimization cannot recompute prediction confidence or prove nonbinding."
+      },
+      "tag_context": {
+        "binder_length": 93,
+        "terminal_carboxyl_to_target_A": 5.052173137664795,
+        "introduced_histidines": [],
+        "interpretation": "Untagged coordinates only. Distance does not establish tag accessibility or binding compatibility."
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "parent_id": "expansion_apical_long_092",
+      "raw_both_seeds_pass": true,
+      "prepared_both_seeds_pass": true,
+      "matched_parent_prepared_both_seeds_pass": true,
+      "direction_pass_both_seeds": false
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "parent_id": "expansion_apical_short_018",
+      "raw_both_seeds_pass": true,
+      "prepared_both_seeds_pass": true,
+      "matched_parent_prepared_both_seeds_pass": false,
+      "direction_pass_both_seeds": false
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "parent_id": "expansion_apical_short_026",
+      "raw_both_seeds_pass": true,
+      "prepared_both_seeds_pass": true,
+      "matched_parent_prepared_both_seeds_pass": true,
+      "direction_pass_both_seeds": false
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "parent_id": "expansion_apical_short_026",
+      "raw_both_seeds_pass": true,
+      "prepared_both_seeds_pass": true,
+      "matched_parent_prepared_both_seeds_pass": true,
+      "direction_pass_both_seeds": false
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "parent_id": "apical_short_008",
+      "raw_both_seeds_pass": true,
+      "prepared_both_seeds_pass": true,
+      "matched_parent_prepared_both_seeds_pass": false,
+      "direction_pass_both_seeds": false
+    }
+  ],
+  "interpretation": "Post-hoc uniform sensitivity analysis. Repaired diagnostic outcomes do not overwrite original outcomes or constitute independent replications. No experimental affinity, tag compatibility, mouse cross-reactivity or pH switch established."
+}

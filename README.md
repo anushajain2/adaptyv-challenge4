@@ -2,20 +2,25 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest result:** the [24-variant histidine follow-up](reports/expansion_his_direction/RESULTS.md)
-is complete. Four new variants pass both selected fresh-seed structural checks,
-but **none clears the strict two-pose pH-direction rule**. A41H remains the leading
-qualified hypothesis: it now shows pKa lowering in four accepted poses across
-two confirmation rounds, with the free-pKa heuristic failing in two poses.
-`short_026 E19H` has one encouraging usable pose; its second calculation is
-excluded by a receptor protonation warning. No experimental binding or switch is established.
+**Latest result:** the [uniform receptor-preparation and assay-tag review](reports/receptor_preparation_v2/RESULTS.md)
+is complete. A separate preparation of all 28 selected models removes the severe
+internal overlaps and yields 56 warning-free free/bound PROPKA calculations.
+Three models fail backbone-movement guards, including both scrambled controls;
+the full prepared control-panel gate therefore remains failed. Original raw and
+fixed-receptor outcomes are preserved.
 
-The round completed 300 predictions and 60 uniform preparations. Four of ten
-direction-model calculations were excluded by receptor protonation warnings;
-expected heavy atoms are present, and some models have abnormal internal receptor
-geometry left unchanged by the fixed-receptor preparation. The next recommendation
-is a uniform receptor-preparation/protonation validation and assay-tag review
-before more generation. Original failures and thresholds remain preserved.
+**A41H remains the leading pH-direction hypothesis; no strict two-pose hit is established.**
+Its revised shifts are −1.036 and −0.963. E19H's previously excluded second pose is
+now usable but gives a weaker −0.335 shift. Re-preparation is sensitivity analysis,
+not independent replication. No experimental binding or pH switch is established.
+
+The exact documented platform-default suffix is available: 64 residues including
+linkers, split-GFP11 and Twin-Strep. [Tagged modeling inputs](data/assay_tag_review/manifest.json)
+are prepared, with challenge-specific applicability explicitly an assumption.
+The recommended next experiment is a matched bare/tagged check on A41H and its
+parent, with E19H/parent as a secondary pair and controls, before more generation.
+No tagged predictions have been run. The [previous 24-variant follow-up](reports/expansion_his_direction/RESULTS.md)
+retains all its original results and exclusions.
 
 The [previous 200-design expansion](reports/next_round/RESULTS.md) supplies four
 computational parent scaffolds. Mouse cross-reactivity remains unknown after an
@@ -45,6 +50,8 @@ and reproducibility records are in the results report.
 
 | Deliverable | Status |
 |---|---|
+| Uniform receptor preparation v2 | 28 models, 56 warning-free pKa calculations; 25 movement passes; complete prepared control-panel gate fails |
+| Assay-tag review | Exact public default suffix found; 14 modeling inputs prepared; tag compatibility untested |
 | New apical expansion | 200 designs; 16 initial full passes; four new parents pass both fresh-seed checks |
 | Latest His follow-up | 24 new variants; four raw structural confirmations; zero strict two-pose direction passes; four receptor-protonation scoring exclusions |
 | Earlier His panel | 20 variants/comparator; A41H retained as a qualified direction hypothesis |
@@ -62,7 +69,7 @@ pilot used 25 designs per protocol; the earlier 20-design comparison had a separ
 **US$5 allowance within that total**, including its failed preflight attempt.
 No outcome is guaranteed within that budget.
 
-Local verification: **56 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **60 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.

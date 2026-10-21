@@ -1,0 +1,125 @@
+{
+  "id": "expansion_apical_short_018_E57H_K60H",
+  "seed": 1901,
+  "sample": 3,
+  "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_018_E57H_K60H/3/model.pdb",
+  "dest": "reports/receptor_preparation_v2/models/expansion_apical_short_018_E57H_K60H_seed1901",
+  "status": "ok",
+  "source_sha256": "951333ecc80d013ae7fa0e861913e13cc52ff4ea04606c827b6dae882f86fc45",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1524240661365276,
+        "max_A": 0.8433347344398499
+      },
+      "sidechain": {
+        "rms_A": 0.5725143153166165,
+        "max_A": 4.1494598388671875
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1799071489764037,
+        "max_A": 0.8372445702552795
+      },
+      "sidechain": {
+        "rms_A": 0.6527299417617938,
+        "max_A": 2.6672799587249756
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:180:GLU:CA",
+        "b": "A:180:GLU:CD",
+        "distance_A": 1.730427114905451
+      },
+      {
+        "a": "A:180:GLU:CA",
+        "b": "A:180:GLU:OE1",
+        "distance_A": 1.5322117999806684
+      },
+      {
+        "a": "A:180:GLU:C",
+        "b": "A:180:GLU:CD",
+        "distance_A": 1.4522747673908012
+      },
+      {
+        "a": "A:180:GLU:C",
+        "b": "A:180:GLU:OE2",
+        "distance_A": 1.084804590698252
+      },
+      {
+        "a": "A:180:GLU:O",
+        "b": "A:180:GLU:CD",
+        "distance_A": 1.4407813852212283
+      },
+      {
+        "a": "A:180:GLU:O",
+        "b": "A:180:GLU:OE1",
+        "distance_A": 1.3112917295552526
+      },
+      {
+        "a": "A:180:GLU:O",
+        "b": "A:180:GLU:OE2",
+        "distance_A": 1.7346279139919312
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.1088521269900682,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      199,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      294,
+      340,
+      343,
+      344,
+      346,
+      347,
+      348,
+      349,
+      350,
+      364,
+      368,
+      369,
+      371,
+      374
+    ]
+  },
+  "prepared_sha256": "5ba3f75acbd469f971c989292f856c336038cafe60c02c8e900785cbf3ee1191",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 33
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 82
+    }
+  }
+}

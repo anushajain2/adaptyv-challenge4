@@ -1,0 +1,179 @@
+{
+  "source_url": "https://docs.adaptyvbio.com/wiki/technologies/construct-tag-design",
+  "retrieved_utc": "2026-10-21T13:06:14.949461+00:00",
+  "source_sha256": "144c641caf1d937dd15d7478c17599486b25766d67dfeee7d7b8ef9861df554c",
+  "suffix": "GGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+  "suffix_length": 64,
+  "suffix_histidine_positions_1based": [
+    11,
+    15,
+    39,
+    59
+  ],
+  "evidence_status": "Exact publicly documented platform-default suffix; challenge page confirms C-terminal Twin-Strep capture but does not independently specify this full suffix.",
+  "challenge_url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/tfr1",
+  "facts": [
+    "Default C-terminal suffix includes flexible linkers, split-GFP11 and Twin-Strep.",
+    "The standard documentation says purification tags are not cleaved.",
+    "Designs should be submitted as bare sequences; these tagged strings are modeling inputs only."
+  ],
+  "prediction_status": "Not run; these files are review inputs, not submission sequences or evidence of tag compatibility.",
+  "next_test": "Paired bare and tagged predictions with matched parents and controls, fixed seeds and unchanged binder-core metrics; inspect tag-receptor contacts separately. Do not count tag contacts as designed binding.",
+  "source_manifest_sha256": "a70480d6d5ee24c40b2e3a9e2d514cc3de3bd3f1bedfc490fd7a9bee01facb3a",
+  "cases": [
+    {
+      "id": "expansion_apical_short_018",
+      "kind": "novel_design",
+      "parent_id": null,
+      "bare_sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "tagged_sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKKGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 61,
+      "tagged_length": 125,
+      "suffix_start_1based": 62,
+      "suffix_end_1based": 125
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "kind": "novel_design",
+      "parent_id": null,
+      "bare_sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "tagged_sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 62,
+      "tagged_length": 126,
+      "suffix_start_1based": 63,
+      "suffix_end_1based": 126
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "kind": "novel_design",
+      "parent_id": null,
+      "bare_sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "tagged_sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 89,
+      "tagged_length": 153,
+      "suffix_start_1based": 90,
+      "suffix_end_1based": 153
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "kind": "positive",
+      "parent_id": null,
+      "bare_sequence": "DEEEIQKAIEELLRKGVSEEEAAIIIVQRFNVAVVVVVQDERQGKHISEYIRRYIPEADVILFANLVVIKVETHELSTRVWEAAQKAY",
+      "tagged_sequence": "DEEEIQKAIEELLRKGVSEEEAAIIIVQRFNVAVVVVVQDERQGKHISEYIRRYIPEADVILFANLVVIKVETHELSTRVWEAAQKAYGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 88,
+      "tagged_length": 152,
+      "suffix_start_1based": 89,
+      "suffix_end_1based": 152
+    },
+    {
+      "id": "scrambled_6wrw",
+      "kind": "negative_hypothesis",
+      "parent_id": null,
+      "bare_sequence": "EEERVFENEVVEVDQYEHDEAKFEDLREEEDDSRESNRVAVVALEVAIAIVRVEESVAIVKAAVLAKRAQRVVAFEDYRDIFEKLVRRPLVRK",
+      "tagged_sequence": "EEERVFENEVVEVDQYEHDEAKFEDLREEEDDSRESNRVAVVALEVAIAIVRVEESVAIVKAAVLAKRAQRVVAFEDYRDIFEKLVRRPLVRKGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 93,
+      "tagged_length": 157,
+      "suffix_start_1based": 94,
+      "suffix_end_1based": 157
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "kind": "negative_hypothesis",
+      "parent_id": null,
+      "bare_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSYNPMGWFRQAPGKGRELVAAISRTGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAAGVRAEDGRVRTLPSEYTFWGQGTQVTVSS",
+      "tagged_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSYNPMGWFRQAPGKGRELVAAISRTGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAAGVRAEDGRVRTLPSEYTFWGQGTQVTVSSGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 128,
+      "tagged_length": 192,
+      "suffix_start_1based": 129,
+      "suffix_end_1based": 192
+    },
+    {
+      "id": "expansion_apical_long_092_R3H",
+      "kind": "novel_design",
+      "parent_id": "expansion_apical_long_092",
+      "bare_sequence": "RVHARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "tagged_sequence": "RVHARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 89,
+      "tagged_length": 153,
+      "suffix_start_1based": 90,
+      "suffix_end_1based": 153
+    },
+    {
+      "id": "expansion_apical_long_092_E53H",
+      "kind": "novel_design",
+      "parent_id": "expansion_apical_long_092",
+      "bare_sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAHGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "tagged_sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAHGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 89,
+      "tagged_length": 153,
+      "suffix_start_1based": 90,
+      "suffix_end_1based": 153
+    },
+    {
+      "id": "expansion_apical_short_018_K3H",
+      "kind": "novel_design",
+      "parent_id": "expansion_apical_short_018",
+      "bare_sequence": "EKHEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "tagged_sequence": "EKHEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKKGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 61,
+      "tagged_length": 125,
+      "suffix_start_1based": 62,
+      "suffix_end_1based": 125
+    },
+    {
+      "id": "expansion_apical_short_018_E57H_K60H",
+      "kind": "novel_design",
+      "parent_id": "expansion_apical_short_018",
+      "bare_sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDHLKHK",
+      "tagged_sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDHLKHKGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 61,
+      "tagged_length": 125,
+      "suffix_start_1based": 62,
+      "suffix_end_1based": 125
+    },
+    {
+      "id": "expansion_apical_short_026_E19H",
+      "kind": "novel_design",
+      "parent_id": "expansion_apical_short_026",
+      "bare_sequence": "GQVALEVEYKGISLEEALHITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "tagged_sequence": "GQVALEVEYKGISLEEALHITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 62,
+      "tagged_length": 126,
+      "suffix_start_1based": 63,
+      "suffix_end_1based": 126
+    },
+    {
+      "id": "expansion_apical_short_026_V60H",
+      "kind": "novel_design",
+      "parent_id": "expansion_apical_short_026",
+      "bare_sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKHEL",
+      "tagged_sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKHELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 62,
+      "tagged_length": 126,
+      "suffix_start_1based": 63,
+      "suffix_end_1based": 126
+    },
+    {
+      "id": "apical_short_008",
+      "kind": "novel_design",
+      "parent_id": null,
+      "bare_sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLAEDRFFSPEELLELVREL",
+      "tagged_sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLAEDRFFSPEELLELVRELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 58,
+      "tagged_length": 122,
+      "suffix_start_1based": 59,
+      "suffix_end_1based": 122
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "kind": "novel_design",
+      "parent_id": "apical_short_008",
+      "bare_sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "tagged_sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVRELGGGSGGGSRDHMVLHEYVNAAGITGGGSGGGSGGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK",
+      "bare_length": 58,
+      "tagged_length": 122,
+      "suffix_start_1based": 59,
+      "suffix_end_1based": 122
+    }
+  ]
+}

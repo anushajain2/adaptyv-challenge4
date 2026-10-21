@@ -1,0 +1,83 @@
+{
+  "id": "expansion_apical_long_092_E53H",
+  "seed": 1801,
+  "sample": 2,
+  "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_long_092_E53H/2/model.pdb",
+  "dest": "reports/receptor_preparation_v2/models/expansion_apical_long_092_E53H_seed1801",
+  "status": "ok",
+  "source_sha256": "4f6d47efd08efb3fa5ce094f7261a0199c4a3dd17671a74223f7fadd6ade4fec",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.18226111044186477,
+        "max_A": 0.653014600276947
+      },
+      "sidechain": {
+        "rms_A": 0.5709703569151496,
+        "max_A": 2.423802375793457
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.19219457518425398,
+        "max_A": 0.7873407006263733
+      },
+      "sidechain": {
+        "rms_A": 0.6799770633917206,
+        "max_A": 3.143404960632324
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9626579604432552,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      294,
+      343,
+      344,
+      347,
+      348,
+      362,
+      374
+    ]
+  },
+  "prepared_sha256": "82f3770f072a4966f69410ccef00f91af719a3be1fd06b132f5bcb85466b6f2e",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 33
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 82
+    }
+  }
+}

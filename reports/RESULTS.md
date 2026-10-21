@@ -2,7 +2,15 @@
 
 The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
 
-## Latest new-parent His panel — 21 October 2026
+## Latest uniform receptor preparation and tag review — 21 October 2026
+
+**A41H remains the best direction hypothesis; no strict two-pose hit.** The revised, uniform preparation of all 28 selected models removes the 14 severe intrachain nonbonded overlaps and gives 56 warning-free free/bound PROPKA calculations. Three models exceed backbone-movement limits, including both scrambled controls, so full prepared-panel validation fails. Raw and fixed-receptor decisions remain unchanged.
+
+All four previously excluded direction calculations are now usable as a separate sensitivity analysis. A41H gives shifts −1.036 and −0.963; E19H gives −1.036 and −0.335, weakening its second-pose evidence. No variant meets every unchanged direction heuristic in both poses. Adaptyv's published default 64-residue suffix includes split-GFP11, linkers and Twin-Strep; exact tagged modeling inputs are prepared, with challenge-specific applicability an explicit assumption. No tagged prediction has run.
+
+The next recommendation is a matched bare/tagged comparison of A41H and its parent, with E19H/parent as a secondary pair and controls. See the [full report](receptor_preparation_v2/RESULTS.md), [per-model evidence](receptor_preparation_v2/analysis.json) and [audit](receptor_preparation_v2/evidence_audit.json). This round adds $0 Modal compute; latest recorded gross spend remains approximately $10.45 of $30. Sixty tests pass. No upstream issue, PR or challenge submission was filed.
+
+## Earlier new-parent His panel — 21 October 2026
 
 **The 24-variant follow-up is complete: four new structural confirmations, but no strict two-pose direction pass.** A41H again gives consistent pKa lowering in two new accepted poses; across both direction rounds it has four negative shifts, while two poses miss the frozen free-pKa window. The new short_026 E19H variant has one encouraging usable pose and one calculation excluded by a receptor protonation warning. It is an incomplete secondary hypothesis, not a newly validated switch.
 
