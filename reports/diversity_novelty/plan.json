@@ -1,0 +1,164 @@
+{
+  "prepared_utc": "2026-10-21T16:52:05.410821+00:00",
+  "structures": [
+    {
+      "id": "diversity_short_055_seed2309",
+      "candidate": "diversity_short_055",
+      "kind": "candidate",
+      "sequence": "MKIIKVTVTLPESGETATYGFAESEKTGIVCEYDEKTGKYKCYEVDTKTGELKFLGETKDPSKA",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_short_055_seed2309/raw.pdb",
+      "source_sha256": "3596998f461487bb59f62e14f22c38e436e469a6ed2648542b4273097a7634e9",
+      "original_screen_pass": true,
+      "query_file": "reports/diversity_novelty/queries/diversity_short_055_seed2309.pdb",
+      "query_sha256": "96df596079a8b8492ff8110f8107a735960e5d318b0dcad4051eab4b978e52cb"
+    },
+    {
+      "id": "diversity_short_055_seed2411",
+      "candidate": "diversity_short_055",
+      "kind": "candidate",
+      "sequence": "MKIIKVTVTLPESGETATYGFAESEKTGIVCEYDEKTGKYKCYEVDTKTGELKFLGETKDPSKA",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_short_055_seed2411/raw.pdb",
+      "source_sha256": "0badcecb0f1244c58192a7b60b39effe775d1f240955dfc5fb58d0b186f2c73c",
+      "original_screen_pass": true,
+      "query_file": "reports/diversity_novelty/queries/diversity_short_055_seed2411.pdb",
+      "query_sha256": "fad4ef5969b497262d131b528d55c1febc19af63c36f8ee2afc25713b1059cc3"
+    },
+    {
+      "id": "diversity_long_037_seed2309",
+      "candidate": "diversity_long_037",
+      "kind": "candidate",
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTSSSTVE",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_long_037_seed2309/raw.pdb",
+      "source_sha256": "a2a041a93146e08104c49b38b2d8cccb09b831cfe3f42adab839415c8fc70cf3",
+      "original_screen_pass": true,
+      "query_file": "reports/diversity_novelty/queries/diversity_long_037_seed2309.pdb",
+      "query_sha256": "e17ab40e9891324af6b84351df9650b1a8f6bdf7990aa834e62f26d70e9ab548"
+    },
+    {
+      "id": "diversity_long_037_seed2411",
+      "candidate": "diversity_long_037",
+      "kind": "candidate",
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTSSSTVE",
+      "source": "reports/diversity_confirmation/review_bundle/diversity_long_037_seed2411/raw.pdb",
+      "source_sha256": "a318fec062ee1f248e3278dd07cba3923d9b041dd6184067c0b2b9e1fa4b27b3",
+      "original_screen_pass": true,
+      "query_file": "reports/diversity_novelty/queries/diversity_long_037_seed2411.pdb",
+      "query_sha256": "2ebd3e842426f62970d5c7591a7eea098db60ae494493f890c8c364bf7857c0b"
+    },
+    {
+      "id": "published_2ds25_5_control",
+      "candidate": null,
+      "kind": "retrieval_control",
+      "sequence": "DEEEIQKAIEELLRKGVSEEEAAIIIVQRFNVAVVVVVQDERQGKHISEYIRRYIPEADVILFANLVVIKVETHELSTRVWEAAQKAY",
+      "source": "data/tag_comparison/2ds25_5_6wrw_bare.pdb",
+      "source_sha256": "b7871d1883f4d96b1398f1f869fda3e1a1544f89aaab6933a06975dced8ac169",
+      "query_file": "reports/diversity_novelty/queries/published_2ds25_5_control.pdb",
+      "query_sha256": "32f7e2a7e467979983ec10bae461cce1cfafe744e6c45df870748ae8074afbb2"
+    }
+  ],
+  "sequences": [
+    {
+      "id": "diversity_short_055",
+      "kind": "candidate",
+      "sequence": "MKIIKVTVTLPESGETATYGFAESEKTGIVCEYDEKTGKYKCYEVDTKTGELKFLGETKDPSKA"
+    },
+    {
+      "id": "diversity_long_037",
+      "kind": "candidate",
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTSSSTVE"
+    },
+    {
+      "id": "human_tfr1_crop_control",
+      "sequence": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+      "kind": "retrieval_control"
+    },
+    {
+      "id": "published_2ds25_5_control",
+      "sequence": "DEEEIQKAIEELLRKGVSEEEAAIIIVQRFNVAVVVVVQDERQGKHISEYIRRYIPEADVILFANLVVIKVETHELSTRVWEAAQKAY",
+      "kind": "retrieval_control"
+    }
+  ],
+  "foldseek": {
+    "mode": "3diaa",
+    "databases": [
+      {
+        "name": "AlphaFold/Swiss-Prot",
+        "version": "v6",
+        "description": "",
+        "path": "afdb-swissprot",
+        "default": true,
+        "order": 1,
+        "taxonomy": true,
+        "complex": false,
+        "motif": false,
+        "rna": false,
+        "full_header": true,
+        "index": "--mask 0 --mask-n-repeat 6 -s 9.5 --index-exclude 1",
+        "search": "--tmscore-threshold 0.3 --max-seqs 1000 -e 10 -s 9.5 --prefilter-mode 1",
+        "multimer": "",
+        "interface": false,
+        "status": "COMPLETE"
+      },
+      {
+        "name": "PDB100",
+        "version": "20240101",
+        "description": "",
+        "path": "pdb100",
+        "default": true,
+        "order": 3,
+        "taxonomy": true,
+        "complex": true,
+        "motif": false,
+        "rna": false,
+        "full_header": true,
+        "index": "--mask 0 --mask-n-repeat 6 -s 9.5 --index-exclude 1",
+        "search": "--tmscore-threshold 0.3 --max-seqs 1000 -e 10 -s 9.5 --prefilter-mode 1",
+        "multimer": "--tmscore-threshold 0.3 --max-seqs 1000 -e 10 -s 9.5 --prefilter-mode 1 --cluster-search 1",
+        "interface": false,
+        "status": "COMPLETE"
+      }
+    ],
+    "iterativesearch": false,
+    "scope": "Both selected bare poses per draft candidate; receptor and tags removed. Positive retrieval control is the published 2DS25.5 binder."
+  },
+  "rcsb": {
+    "sequence_type": "protein",
+    "identity_cutoff": 0,
+    "evalue_cutoff": 10,
+    "return_type": "polymer_entity",
+    "result_content_type": [
+      "experimental"
+    ],
+    "max_results": 100
+  },
+  "blast": {
+    "PROGRAM": "blastp",
+    "DATABASE": "swissprot",
+    "EXPECT": 10,
+    "FILTER": "mL",
+    "COMPOSITION_BASED_STATISTICS": 2,
+    "MATRIX": "BLOSUM62",
+    "WORD_SIZE": 3,
+    "HITLIST_SIZE": 100,
+    "query_ids": [
+      "diversity_short_055",
+      "diversity_long_037",
+      "human_tfr1_crop_control"
+    ]
+  },
+  "interpretation": {
+    "close_sequence_review_flag": "Identity >=50%, query coverage >=80%, E-value <=1e-3; report subject coverage separately. A review heuristic, not a competition rule.",
+    "near_identical_sequence_review_flag": "Identity >=90%, query coverage >=80%, E-value <=1e-3.",
+    "structural_followup": "Inspect the first 10 ranked hits per query/database; obtain structure-aware alignments and query/target-normalized TM scores where available. Common folds do not imply copied sequence or binding function.",
+    "limits": "No hit is not proof of novelty. PDB100 server version is 20240101; Swiss-Prot is curated and incomplete, and AlphaFold models are predictions. Search failures must remain missing evidence.",
+    "selection": "Review all raw two-seed passing parents. Preparation caveats remain visible. Shared folds are descriptive; no automatic submission admission."
+  },
+  "public_apis": [
+    "https://search.foldseek.com/api",
+    "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+    "https://search.rcsb.org/rcsbsearch/v2/query"
+  ],
+  "new_modal_compute_usd": 0,
+  "parent_review_plan_sha256": "b73730c9a13d2f1ccd31842db4d32e311d720f6e26612583b3c2dff95dcbc566",
+  "confirmation_summary_sha256": "d9b17e9ccd6757c9f362906e0850ca1e07dba8b3a58d286054b8e340aff5e9b7"
+}

@@ -1,0 +1,32 @@
+{
+  "initial_energy_kJ_mol": 59187.25802697648,
+  "final_energy_kJ_mol": -38957.70518225661,
+  "last_reported_iteration": 209,
+  "rms_force_components_kJ_mol_nm": 5.312500055505482,
+  "protocol": {
+    "version": "receptor-preparation-v2",
+    "interpretation": "Uniform post-hoc sensitivity analysis, specified before revised outcomes; never replaces raw or v1 decisions.",
+    "method": "Amber14/GBn2, 12 A cutoff, both backbones restrained; all side chains and hydrogens mobile",
+    "restraint_expression": "k*((x-x0)^2+(y-y0)^2+(z-z0)^2)",
+    "backbone_k_kJ_mol_nm2": 1000.0,
+    "seed": 43,
+    "hydrogen_placement_pH": 7.4,
+    "max_iterations": 500,
+    "minimization_timeout_seconds": 120,
+    "hard_timeout_seconds": 180,
+    "backbone_rms_limit_A": 0.5,
+    "backbone_max_limit_A": 1.0,
+    "internal_nonbonded_distance_cutoff_A": 1.8,
+    "internal_nonbonded_pairs_allowed": 0,
+    "protonation": "Strip explicit H; PROPKA assigns H consistently to free and bound forms of the same prepared conformation. Any incomplete/protonation-failed group invalidates that calculation.",
+    "cohort": "Every confidence-selected confirmation candidate and control, including failures, in this diversity round.",
+    "policy": "One preparation per source; no selective retries; source sequence and original atom identities preserved; raw screen failures cannot be rescued. Original pose/contact/context gates and pKa heuristics unchanged.",
+    "limitations": [
+      "Fixed conformation free/bound pKa comparison",
+      "No unbound ensemble or full proton linkage",
+      "No assay tag modeled",
+      "No experimental binding claim",
+      "Finite minimization is not proof of convergence or global stereochemical validity"
+    ]
+  }
+}

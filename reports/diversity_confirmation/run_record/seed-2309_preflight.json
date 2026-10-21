@@ -1,0 +1,418 @@
+[
+  {
+    "id": "2ds25_5_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 88,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        282,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        282,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        282,
+        3
+      ],
+      "template_cb": [
+        1,
+        282,
+        3
+      ],
+      "template_ca": [
+        1,
+        282,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        282
+      ],
+      "template_mask_frame": [
+        1,
+        282
+      ],
+      "template_mask": [
+        1,
+        282
+      ],
+      "query_to_template": [
+        1,
+        282
+      ]
+    }
+  },
+  {
+    "id": "caplacizumab_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 128,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        322,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        322,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        322,
+        3
+      ],
+      "template_cb": [
+        1,
+        322,
+        3
+      ],
+      "template_ca": [
+        1,
+        322,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        322
+      ],
+      "template_mask_frame": [
+        1,
+        322
+      ],
+      "template_mask": [
+        1,
+        322
+      ],
+      "query_to_template": [
+        1,
+        322
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_037",
+    "target_tokens": 194,
+    "binder_tokens": 95,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        289,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        289,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        289,
+        3
+      ],
+      "template_cb": [
+        1,
+        289,
+        3
+      ],
+      "template_ca": [
+        1,
+        289,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        289
+      ],
+      "template_mask_frame": [
+        1,
+        289
+      ],
+      "template_mask": [
+        1,
+        289
+      ],
+      "query_to_template": [
+        1,
+        289
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_004",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        261,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        261,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        261,
+        3
+      ],
+      "template_cb": [
+        1,
+        261,
+        3
+      ],
+      "template_ca": [
+        1,
+        261,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        261
+      ],
+      "template_mask_frame": [
+        1,
+        261
+      ],
+      "template_mask": [
+        1,
+        261
+      ],
+      "query_to_template": [
+        1,
+        261
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_023",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_041",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_055",
+    "target_tokens": 194,
+    "binder_tokens": 64,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        258,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        258,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        258,
+        3
+      ],
+      "template_cb": [
+        1,
+        258,
+        3
+      ],
+      "template_ca": [
+        1,
+        258,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        258
+      ],
+      "template_mask_frame": [
+        1,
+        258
+      ],
+      "template_mask": [
+        1,
+        258
+      ],
+      "query_to_template": [
+        1,
+        258
+      ]
+    }
+  },
+  {
+    "id": "scrambled_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 93,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        287,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        287,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        287,
+        3
+      ],
+      "template_cb": [
+        1,
+        287,
+        3
+      ],
+      "template_ca": [
+        1,
+        287,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        287
+      ],
+      "template_mask_frame": [
+        1,
+        287
+      ],
+      "template_mask": [
+        1,
+        287
+      ],
+      "query_to_template": [
+        1,
+        287
+      ]
+    }
+  }
+]

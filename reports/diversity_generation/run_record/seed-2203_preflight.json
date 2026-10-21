@@ -1,0 +1,5358 @@
+[
+  {
+    "id": "2ds25_5_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 88,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        282,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        282,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        282,
+        3
+      ],
+      "template_cb": [
+        1,
+        282,
+        3
+      ],
+      "template_ca": [
+        1,
+        282,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        282
+      ],
+      "template_mask_frame": [
+        1,
+        282
+      ],
+      "template_mask": [
+        1,
+        282
+      ],
+      "query_to_template": [
+        1,
+        282
+      ]
+    }
+  },
+  {
+    "id": "caplacizumab_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 128,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        322,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        322,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        322,
+        3
+      ],
+      "template_cb": [
+        1,
+        322,
+        3
+      ],
+      "template_ca": [
+        1,
+        322,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        322
+      ],
+      "template_mask_frame": [
+        1,
+        322
+      ],
+      "template_mask": [
+        1,
+        322
+      ],
+      "query_to_template": [
+        1,
+        322
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_000",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_001",
+    "target_tokens": 194,
+    "binder_tokens": 104,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        298,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        298,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        298,
+        3
+      ],
+      "template_cb": [
+        1,
+        298,
+        3
+      ],
+      "template_ca": [
+        1,
+        298,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        298
+      ],
+      "template_mask_frame": [
+        1,
+        298
+      ],
+      "template_mask": [
+        1,
+        298
+      ],
+      "query_to_template": [
+        1,
+        298
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_002",
+    "target_tokens": 194,
+    "binder_tokens": 89,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        283,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        283,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        283,
+        3
+      ],
+      "template_cb": [
+        1,
+        283,
+        3
+      ],
+      "template_ca": [
+        1,
+        283,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        283
+      ],
+      "template_mask_frame": [
+        1,
+        283
+      ],
+      "template_mask": [
+        1,
+        283
+      ],
+      "query_to_template": [
+        1,
+        283
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_003",
+    "target_tokens": 194,
+    "binder_tokens": 96,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        290,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        290,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        290,
+        3
+      ],
+      "template_cb": [
+        1,
+        290,
+        3
+      ],
+      "template_ca": [
+        1,
+        290,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        290
+      ],
+      "template_mask_frame": [
+        1,
+        290
+      ],
+      "template_mask": [
+        1,
+        290
+      ],
+      "query_to_template": [
+        1,
+        290
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_004",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_005",
+    "target_tokens": 194,
+    "binder_tokens": 81,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        275,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        275,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        275,
+        3
+      ],
+      "template_cb": [
+        1,
+        275,
+        3
+      ],
+      "template_ca": [
+        1,
+        275,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        275
+      ],
+      "template_mask_frame": [
+        1,
+        275
+      ],
+      "template_mask": [
+        1,
+        275
+      ],
+      "query_to_template": [
+        1,
+        275
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_006",
+    "target_tokens": 194,
+    "binder_tokens": 92,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        286,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        286,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        286,
+        3
+      ],
+      "template_cb": [
+        1,
+        286,
+        3
+      ],
+      "template_ca": [
+        1,
+        286,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        286
+      ],
+      "template_mask_frame": [
+        1,
+        286
+      ],
+      "template_mask": [
+        1,
+        286
+      ],
+      "query_to_template": [
+        1,
+        286
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_007",
+    "target_tokens": 194,
+    "binder_tokens": 95,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        289,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        289,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        289,
+        3
+      ],
+      "template_cb": [
+        1,
+        289,
+        3
+      ],
+      "template_ca": [
+        1,
+        289,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        289
+      ],
+      "template_mask_frame": [
+        1,
+        289
+      ],
+      "template_mask": [
+        1,
+        289
+      ],
+      "query_to_template": [
+        1,
+        289
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_008",
+    "target_tokens": 194,
+    "binder_tokens": 87,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        281,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        281,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        281,
+        3
+      ],
+      "template_cb": [
+        1,
+        281,
+        3
+      ],
+      "template_ca": [
+        1,
+        281,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        281
+      ],
+      "template_mask_frame": [
+        1,
+        281
+      ],
+      "template_mask": [
+        1,
+        281
+      ],
+      "query_to_template": [
+        1,
+        281
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_009",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_010",
+    "target_tokens": 194,
+    "binder_tokens": 90,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        284,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        284,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        284,
+        3
+      ],
+      "template_cb": [
+        1,
+        284,
+        3
+      ],
+      "template_ca": [
+        1,
+        284,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        284
+      ],
+      "template_mask_frame": [
+        1,
+        284
+      ],
+      "template_mask": [
+        1,
+        284
+      ],
+      "query_to_template": [
+        1,
+        284
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_011",
+    "target_tokens": 194,
+    "binder_tokens": 94,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        288,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        288,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        288,
+        3
+      ],
+      "template_cb": [
+        1,
+        288,
+        3
+      ],
+      "template_ca": [
+        1,
+        288,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        288
+      ],
+      "template_mask_frame": [
+        1,
+        288
+      ],
+      "template_mask": [
+        1,
+        288
+      ],
+      "query_to_template": [
+        1,
+        288
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_012",
+    "target_tokens": 194,
+    "binder_tokens": 102,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        296,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        296,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        296,
+        3
+      ],
+      "template_cb": [
+        1,
+        296,
+        3
+      ],
+      "template_ca": [
+        1,
+        296,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        296
+      ],
+      "template_mask_frame": [
+        1,
+        296
+      ],
+      "template_mask": [
+        1,
+        296
+      ],
+      "query_to_template": [
+        1,
+        296
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_013",
+    "target_tokens": 194,
+    "binder_tokens": 110,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        304,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        304,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        304,
+        3
+      ],
+      "template_cb": [
+        1,
+        304,
+        3
+      ],
+      "template_ca": [
+        1,
+        304,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        304
+      ],
+      "template_mask_frame": [
+        1,
+        304
+      ],
+      "template_mask": [
+        1,
+        304
+      ],
+      "query_to_template": [
+        1,
+        304
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_014",
+    "target_tokens": 194,
+    "binder_tokens": 91,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        285,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        285,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        285,
+        3
+      ],
+      "template_cb": [
+        1,
+        285,
+        3
+      ],
+      "template_ca": [
+        1,
+        285,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        285
+      ],
+      "template_mask_frame": [
+        1,
+        285
+      ],
+      "template_mask": [
+        1,
+        285
+      ],
+      "query_to_template": [
+        1,
+        285
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_015",
+    "target_tokens": 194,
+    "binder_tokens": 103,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        297,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        297,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        297,
+        3
+      ],
+      "template_cb": [
+        1,
+        297,
+        3
+      ],
+      "template_ca": [
+        1,
+        297,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        297
+      ],
+      "template_mask_frame": [
+        1,
+        297
+      ],
+      "template_mask": [
+        1,
+        297
+      ],
+      "query_to_template": [
+        1,
+        297
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_016",
+    "target_tokens": 194,
+    "binder_tokens": 93,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        287,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        287,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        287,
+        3
+      ],
+      "template_cb": [
+        1,
+        287,
+        3
+      ],
+      "template_ca": [
+        1,
+        287,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        287
+      ],
+      "template_mask_frame": [
+        1,
+        287
+      ],
+      "template_mask": [
+        1,
+        287
+      ],
+      "query_to_template": [
+        1,
+        287
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_017",
+    "target_tokens": 194,
+    "binder_tokens": 81,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        275,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        275,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        275,
+        3
+      ],
+      "template_cb": [
+        1,
+        275,
+        3
+      ],
+      "template_ca": [
+        1,
+        275,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        275
+      ],
+      "template_mask_frame": [
+        1,
+        275
+      ],
+      "template_mask": [
+        1,
+        275
+      ],
+      "query_to_template": [
+        1,
+        275
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_018",
+    "target_tokens": 194,
+    "binder_tokens": 100,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        294,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        294,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        294,
+        3
+      ],
+      "template_cb": [
+        1,
+        294,
+        3
+      ],
+      "template_ca": [
+        1,
+        294,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        294
+      ],
+      "template_mask_frame": [
+        1,
+        294
+      ],
+      "template_mask": [
+        1,
+        294
+      ],
+      "query_to_template": [
+        1,
+        294
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_019",
+    "target_tokens": 194,
+    "binder_tokens": 94,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        288,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        288,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        288,
+        3
+      ],
+      "template_cb": [
+        1,
+        288,
+        3
+      ],
+      "template_ca": [
+        1,
+        288,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        288
+      ],
+      "template_mask_frame": [
+        1,
+        288
+      ],
+      "template_mask": [
+        1,
+        288
+      ],
+      "query_to_template": [
+        1,
+        288
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_020",
+    "target_tokens": 194,
+    "binder_tokens": 108,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        302,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        302,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        302,
+        3
+      ],
+      "template_cb": [
+        1,
+        302,
+        3
+      ],
+      "template_ca": [
+        1,
+        302,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        302
+      ],
+      "template_mask_frame": [
+        1,
+        302
+      ],
+      "template_mask": [
+        1,
+        302
+      ],
+      "query_to_template": [
+        1,
+        302
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_021",
+    "target_tokens": 194,
+    "binder_tokens": 95,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        289,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        289,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        289,
+        3
+      ],
+      "template_cb": [
+        1,
+        289,
+        3
+      ],
+      "template_ca": [
+        1,
+        289,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        289
+      ],
+      "template_mask_frame": [
+        1,
+        289
+      ],
+      "template_mask": [
+        1,
+        289
+      ],
+      "query_to_template": [
+        1,
+        289
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_022",
+    "target_tokens": 194,
+    "binder_tokens": 81,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        275,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        275,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        275,
+        3
+      ],
+      "template_cb": [
+        1,
+        275,
+        3
+      ],
+      "template_ca": [
+        1,
+        275,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        275
+      ],
+      "template_mask_frame": [
+        1,
+        275
+      ],
+      "template_mask": [
+        1,
+        275
+      ],
+      "query_to_template": [
+        1,
+        275
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_023",
+    "target_tokens": 194,
+    "binder_tokens": 108,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        302,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        302,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        302,
+        3
+      ],
+      "template_cb": [
+        1,
+        302,
+        3
+      ],
+      "template_ca": [
+        1,
+        302,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        302
+      ],
+      "template_mask_frame": [
+        1,
+        302
+      ],
+      "template_mask": [
+        1,
+        302
+      ],
+      "query_to_template": [
+        1,
+        302
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_024",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_025",
+    "target_tokens": 194,
+    "binder_tokens": 101,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        295,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        295,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        295,
+        3
+      ],
+      "template_cb": [
+        1,
+        295,
+        3
+      ],
+      "template_ca": [
+        1,
+        295,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        295
+      ],
+      "template_mask_frame": [
+        1,
+        295
+      ],
+      "template_mask": [
+        1,
+        295
+      ],
+      "query_to_template": [
+        1,
+        295
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_026",
+    "target_tokens": 194,
+    "binder_tokens": 83,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        277,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        277,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        277,
+        3
+      ],
+      "template_cb": [
+        1,
+        277,
+        3
+      ],
+      "template_ca": [
+        1,
+        277,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        277
+      ],
+      "template_mask_frame": [
+        1,
+        277
+      ],
+      "template_mask": [
+        1,
+        277
+      ],
+      "query_to_template": [
+        1,
+        277
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_027",
+    "target_tokens": 194,
+    "binder_tokens": 106,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        300,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        300,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        300,
+        3
+      ],
+      "template_cb": [
+        1,
+        300,
+        3
+      ],
+      "template_ca": [
+        1,
+        300,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        300
+      ],
+      "template_mask_frame": [
+        1,
+        300
+      ],
+      "template_mask": [
+        1,
+        300
+      ],
+      "query_to_template": [
+        1,
+        300
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_028",
+    "target_tokens": 194,
+    "binder_tokens": 94,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        288,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        288,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        288,
+        3
+      ],
+      "template_cb": [
+        1,
+        288,
+        3
+      ],
+      "template_ca": [
+        1,
+        288,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        288
+      ],
+      "template_mask_frame": [
+        1,
+        288
+      ],
+      "template_mask": [
+        1,
+        288
+      ],
+      "query_to_template": [
+        1,
+        288
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_029",
+    "target_tokens": 194,
+    "binder_tokens": 87,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        281,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        281,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        281,
+        3
+      ],
+      "template_cb": [
+        1,
+        281,
+        3
+      ],
+      "template_ca": [
+        1,
+        281,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        281
+      ],
+      "template_mask_frame": [
+        1,
+        281
+      ],
+      "template_mask": [
+        1,
+        281
+      ],
+      "query_to_template": [
+        1,
+        281
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_030",
+    "target_tokens": 194,
+    "binder_tokens": 88,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        282,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        282,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        282,
+        3
+      ],
+      "template_cb": [
+        1,
+        282,
+        3
+      ],
+      "template_ca": [
+        1,
+        282,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        282
+      ],
+      "template_mask_frame": [
+        1,
+        282
+      ],
+      "template_mask": [
+        1,
+        282
+      ],
+      "query_to_template": [
+        1,
+        282
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_031",
+    "target_tokens": 194,
+    "binder_tokens": 105,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        299,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        299,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        299,
+        3
+      ],
+      "template_cb": [
+        1,
+        299,
+        3
+      ],
+      "template_ca": [
+        1,
+        299,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        299
+      ],
+      "template_mask_frame": [
+        1,
+        299
+      ],
+      "template_mask": [
+        1,
+        299
+      ],
+      "query_to_template": [
+        1,
+        299
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_032",
+    "target_tokens": 194,
+    "binder_tokens": 90,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        284,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        284,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        284,
+        3
+      ],
+      "template_cb": [
+        1,
+        284,
+        3
+      ],
+      "template_ca": [
+        1,
+        284,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        284
+      ],
+      "template_mask_frame": [
+        1,
+        284
+      ],
+      "template_mask": [
+        1,
+        284
+      ],
+      "query_to_template": [
+        1,
+        284
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_033",
+    "target_tokens": 194,
+    "binder_tokens": 99,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        293,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        293,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        293,
+        3
+      ],
+      "template_cb": [
+        1,
+        293,
+        3
+      ],
+      "template_ca": [
+        1,
+        293,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        293
+      ],
+      "template_mask_frame": [
+        1,
+        293
+      ],
+      "template_mask": [
+        1,
+        293
+      ],
+      "query_to_template": [
+        1,
+        293
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_034",
+    "target_tokens": 194,
+    "binder_tokens": 94,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        288,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        288,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        288,
+        3
+      ],
+      "template_cb": [
+        1,
+        288,
+        3
+      ],
+      "template_ca": [
+        1,
+        288,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        288
+      ],
+      "template_mask_frame": [
+        1,
+        288
+      ],
+      "template_mask": [
+        1,
+        288
+      ],
+      "query_to_template": [
+        1,
+        288
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_035",
+    "target_tokens": 194,
+    "binder_tokens": 107,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        301,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        301,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        301,
+        3
+      ],
+      "template_cb": [
+        1,
+        301,
+        3
+      ],
+      "template_ca": [
+        1,
+        301,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        301
+      ],
+      "template_mask_frame": [
+        1,
+        301
+      ],
+      "template_mask": [
+        1,
+        301
+      ],
+      "query_to_template": [
+        1,
+        301
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_036",
+    "target_tokens": 194,
+    "binder_tokens": 94,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        288,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        288,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        288,
+        3
+      ],
+      "template_cb": [
+        1,
+        288,
+        3
+      ],
+      "template_ca": [
+        1,
+        288,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        288
+      ],
+      "template_mask_frame": [
+        1,
+        288
+      ],
+      "template_mask": [
+        1,
+        288
+      ],
+      "query_to_template": [
+        1,
+        288
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_037",
+    "target_tokens": 194,
+    "binder_tokens": 95,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        289,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        289,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        289,
+        3
+      ],
+      "template_cb": [
+        1,
+        289,
+        3
+      ],
+      "template_ca": [
+        1,
+        289,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        289
+      ],
+      "template_mask_frame": [
+        1,
+        289
+      ],
+      "template_mask": [
+        1,
+        289
+      ],
+      "query_to_template": [
+        1,
+        289
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_038",
+    "target_tokens": 194,
+    "binder_tokens": 87,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        281,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        281,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        281,
+        3
+      ],
+      "template_cb": [
+        1,
+        281,
+        3
+      ],
+      "template_ca": [
+        1,
+        281,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        281
+      ],
+      "template_mask_frame": [
+        1,
+        281
+      ],
+      "template_mask": [
+        1,
+        281
+      ],
+      "query_to_template": [
+        1,
+        281
+      ]
+    }
+  },
+  {
+    "id": "diversity_long_039",
+    "target_tokens": 194,
+    "binder_tokens": 84,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        278,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        278,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        278,
+        3
+      ],
+      "template_cb": [
+        1,
+        278,
+        3
+      ],
+      "template_ca": [
+        1,
+        278,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        278
+      ],
+      "template_mask_frame": [
+        1,
+        278
+      ],
+      "template_mask": [
+        1,
+        278
+      ],
+      "query_to_template": [
+        1,
+        278
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_000",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_001",
+    "target_tokens": 194,
+    "binder_tokens": 55,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        249,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        249,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        249,
+        3
+      ],
+      "template_cb": [
+        1,
+        249,
+        3
+      ],
+      "template_ca": [
+        1,
+        249,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        249
+      ],
+      "template_mask_frame": [
+        1,
+        249
+      ],
+      "template_mask": [
+        1,
+        249
+      ],
+      "query_to_template": [
+        1,
+        249
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_002",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_003",
+    "target_tokens": 194,
+    "binder_tokens": 57,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        251,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        251,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        251,
+        3
+      ],
+      "template_cb": [
+        1,
+        251,
+        3
+      ],
+      "template_ca": [
+        1,
+        251,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        251
+      ],
+      "template_mask_frame": [
+        1,
+        251
+      ],
+      "template_mask": [
+        1,
+        251
+      ],
+      "query_to_template": [
+        1,
+        251
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_004",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        261,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        261,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        261,
+        3
+      ],
+      "template_cb": [
+        1,
+        261,
+        3
+      ],
+      "template_ca": [
+        1,
+        261,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        261
+      ],
+      "template_mask_frame": [
+        1,
+        261
+      ],
+      "template_mask": [
+        1,
+        261
+      ],
+      "query_to_template": [
+        1,
+        261
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_005",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        261,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        261,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        261,
+        3
+      ],
+      "template_cb": [
+        1,
+        261,
+        3
+      ],
+      "template_ca": [
+        1,
+        261,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        261
+      ],
+      "template_mask_frame": [
+        1,
+        261
+      ],
+      "template_mask": [
+        1,
+        261
+      ],
+      "query_to_template": [
+        1,
+        261
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_006",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_007",
+    "target_tokens": 194,
+    "binder_tokens": 69,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        263,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        263,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        263,
+        3
+      ],
+      "template_cb": [
+        1,
+        263,
+        3
+      ],
+      "template_ca": [
+        1,
+        263,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        263
+      ],
+      "template_mask_frame": [
+        1,
+        263
+      ],
+      "template_mask": [
+        1,
+        263
+      ],
+      "query_to_template": [
+        1,
+        263
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_008",
+    "target_tokens": 194,
+    "binder_tokens": 57,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        251,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        251,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        251,
+        3
+      ],
+      "template_cb": [
+        1,
+        251,
+        3
+      ],
+      "template_ca": [
+        1,
+        251,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        251
+      ],
+      "template_mask_frame": [
+        1,
+        251
+      ],
+      "template_mask": [
+        1,
+        251
+      ],
+      "query_to_template": [
+        1,
+        251
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_009",
+    "target_tokens": 194,
+    "binder_tokens": 64,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        258,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        258,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        258,
+        3
+      ],
+      "template_cb": [
+        1,
+        258,
+        3
+      ],
+      "template_ca": [
+        1,
+        258,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        258
+      ],
+      "template_mask_frame": [
+        1,
+        258
+      ],
+      "template_mask": [
+        1,
+        258
+      ],
+      "query_to_template": [
+        1,
+        258
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_010",
+    "target_tokens": 194,
+    "binder_tokens": 72,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        266,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        266,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        266,
+        3
+      ],
+      "template_cb": [
+        1,
+        266,
+        3
+      ],
+      "template_ca": [
+        1,
+        266,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        266
+      ],
+      "template_mask_frame": [
+        1,
+        266
+      ],
+      "template_mask": [
+        1,
+        266
+      ],
+      "query_to_template": [
+        1,
+        266
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_011",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        261,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        261,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        261,
+        3
+      ],
+      "template_cb": [
+        1,
+        261,
+        3
+      ],
+      "template_ca": [
+        1,
+        261,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        261
+      ],
+      "template_mask_frame": [
+        1,
+        261
+      ],
+      "template_mask": [
+        1,
+        261
+      ],
+      "query_to_template": [
+        1,
+        261
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_012",
+    "target_tokens": 194,
+    "binder_tokens": 69,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        263,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        263,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        263,
+        3
+      ],
+      "template_cb": [
+        1,
+        263,
+        3
+      ],
+      "template_ca": [
+        1,
+        263,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        263
+      ],
+      "template_mask_frame": [
+        1,
+        263
+      ],
+      "template_mask": [
+        1,
+        263
+      ],
+      "query_to_template": [
+        1,
+        263
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_013",
+    "target_tokens": 194,
+    "binder_tokens": 55,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        249,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        249,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        249,
+        3
+      ],
+      "template_cb": [
+        1,
+        249,
+        3
+      ],
+      "template_ca": [
+        1,
+        249,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        249
+      ],
+      "template_mask_frame": [
+        1,
+        249
+      ],
+      "template_mask": [
+        1,
+        249
+      ],
+      "query_to_template": [
+        1,
+        249
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_014",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_015",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_016",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_017",
+    "target_tokens": 194,
+    "binder_tokens": 66,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        260,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        260,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        260,
+        3
+      ],
+      "template_cb": [
+        1,
+        260,
+        3
+      ],
+      "template_ca": [
+        1,
+        260,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        260
+      ],
+      "template_mask_frame": [
+        1,
+        260
+      ],
+      "template_mask": [
+        1,
+        260
+      ],
+      "query_to_template": [
+        1,
+        260
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_018",
+    "target_tokens": 194,
+    "binder_tokens": 66,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        260,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        260,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        260,
+        3
+      ],
+      "template_cb": [
+        1,
+        260,
+        3
+      ],
+      "template_ca": [
+        1,
+        260,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        260
+      ],
+      "template_mask_frame": [
+        1,
+        260
+      ],
+      "template_mask": [
+        1,
+        260
+      ],
+      "query_to_template": [
+        1,
+        260
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_019",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        261,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        261,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        261,
+        3
+      ],
+      "template_cb": [
+        1,
+        261,
+        3
+      ],
+      "template_ca": [
+        1,
+        261,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        261
+      ],
+      "template_mask_frame": [
+        1,
+        261
+      ],
+      "template_mask": [
+        1,
+        261
+      ],
+      "query_to_template": [
+        1,
+        261
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_020",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        261,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        261,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        261,
+        3
+      ],
+      "template_cb": [
+        1,
+        261,
+        3
+      ],
+      "template_ca": [
+        1,
+        261,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        261
+      ],
+      "template_mask_frame": [
+        1,
+        261
+      ],
+      "template_mask": [
+        1,
+        261
+      ],
+      "query_to_template": [
+        1,
+        261
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_021",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_022",
+    "target_tokens": 194,
+    "binder_tokens": 68,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        262,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        262,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        262,
+        3
+      ],
+      "template_cb": [
+        1,
+        262,
+        3
+      ],
+      "template_ca": [
+        1,
+        262,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        262
+      ],
+      "template_mask_frame": [
+        1,
+        262
+      ],
+      "template_mask": [
+        1,
+        262
+      ],
+      "query_to_template": [
+        1,
+        262
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_023",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_024",
+    "target_tokens": 194,
+    "binder_tokens": 72,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        266,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        266,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        266,
+        3
+      ],
+      "template_cb": [
+        1,
+        266,
+        3
+      ],
+      "template_ca": [
+        1,
+        266,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        266
+      ],
+      "template_mask_frame": [
+        1,
+        266
+      ],
+      "template_mask": [
+        1,
+        266
+      ],
+      "query_to_template": [
+        1,
+        266
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_025",
+    "target_tokens": 194,
+    "binder_tokens": 60,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        254,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        254,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        254,
+        3
+      ],
+      "template_cb": [
+        1,
+        254,
+        3
+      ],
+      "template_ca": [
+        1,
+        254,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        254
+      ],
+      "template_mask_frame": [
+        1,
+        254
+      ],
+      "template_mask": [
+        1,
+        254
+      ],
+      "query_to_template": [
+        1,
+        254
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_026",
+    "target_tokens": 194,
+    "binder_tokens": 72,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        266,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        266,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        266,
+        3
+      ],
+      "template_cb": [
+        1,
+        266,
+        3
+      ],
+      "template_ca": [
+        1,
+        266,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        266
+      ],
+      "template_mask_frame": [
+        1,
+        266
+      ],
+      "template_mask": [
+        1,
+        266
+      ],
+      "query_to_template": [
+        1,
+        266
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_027",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_028",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_029",
+    "target_tokens": 194,
+    "binder_tokens": 58,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        252,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        252,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        252,
+        3
+      ],
+      "template_cb": [
+        1,
+        252,
+        3
+      ],
+      "template_ca": [
+        1,
+        252,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        252
+      ],
+      "template_mask_frame": [
+        1,
+        252
+      ],
+      "template_mask": [
+        1,
+        252
+      ],
+      "query_to_template": [
+        1,
+        252
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_030",
+    "target_tokens": 194,
+    "binder_tokens": 64,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        258,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        258,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        258,
+        3
+      ],
+      "template_cb": [
+        1,
+        258,
+        3
+      ],
+      "template_ca": [
+        1,
+        258,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        258
+      ],
+      "template_mask_frame": [
+        1,
+        258
+      ],
+      "template_mask": [
+        1,
+        258
+      ],
+      "query_to_template": [
+        1,
+        258
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_031",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_032",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_033",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_034",
+    "target_tokens": 194,
+    "binder_tokens": 68,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        262,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        262,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        262,
+        3
+      ],
+      "template_cb": [
+        1,
+        262,
+        3
+      ],
+      "template_ca": [
+        1,
+        262,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        262
+      ],
+      "template_mask_frame": [
+        1,
+        262
+      ],
+      "template_mask": [
+        1,
+        262
+      ],
+      "query_to_template": [
+        1,
+        262
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_035",
+    "target_tokens": 194,
+    "binder_tokens": 65,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        259,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        259,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        259,
+        3
+      ],
+      "template_cb": [
+        1,
+        259,
+        3
+      ],
+      "template_ca": [
+        1,
+        259,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        259
+      ],
+      "template_mask_frame": [
+        1,
+        259
+      ],
+      "template_mask": [
+        1,
+        259
+      ],
+      "query_to_template": [
+        1,
+        259
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_036",
+    "target_tokens": 194,
+    "binder_tokens": 66,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        260,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        260,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        260,
+        3
+      ],
+      "template_cb": [
+        1,
+        260,
+        3
+      ],
+      "template_ca": [
+        1,
+        260,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        260
+      ],
+      "template_mask_frame": [
+        1,
+        260
+      ],
+      "template_mask": [
+        1,
+        260
+      ],
+      "query_to_template": [
+        1,
+        260
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_037",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_038",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_039",
+    "target_tokens": 194,
+    "binder_tokens": 71,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        265,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        265,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        265,
+        3
+      ],
+      "template_cb": [
+        1,
+        265,
+        3
+      ],
+      "template_ca": [
+        1,
+        265,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        265
+      ],
+      "template_mask_frame": [
+        1,
+        265
+      ],
+      "template_mask": [
+        1,
+        265
+      ],
+      "query_to_template": [
+        1,
+        265
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_040",
+    "target_tokens": 194,
+    "binder_tokens": 64,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        258,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        258,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        258,
+        3
+      ],
+      "template_cb": [
+        1,
+        258,
+        3
+      ],
+      "template_ca": [
+        1,
+        258,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        258
+      ],
+      "template_mask_frame": [
+        1,
+        258
+      ],
+      "template_mask": [
+        1,
+        258
+      ],
+      "query_to_template": [
+        1,
+        258
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_041",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_042",
+    "target_tokens": 194,
+    "binder_tokens": 62,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        256,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        256,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        256,
+        3
+      ],
+      "template_cb": [
+        1,
+        256,
+        3
+      ],
+      "template_ca": [
+        1,
+        256,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        256
+      ],
+      "template_mask_frame": [
+        1,
+        256
+      ],
+      "template_mask": [
+        1,
+        256
+      ],
+      "query_to_template": [
+        1,
+        256
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_043",
+    "target_tokens": 194,
+    "binder_tokens": 61,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        255,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        255,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        255,
+        3
+      ],
+      "template_cb": [
+        1,
+        255,
+        3
+      ],
+      "template_ca": [
+        1,
+        255,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        255
+      ],
+      "template_mask_frame": [
+        1,
+        255
+      ],
+      "template_mask": [
+        1,
+        255
+      ],
+      "query_to_template": [
+        1,
+        255
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_044",
+    "target_tokens": 194,
+    "binder_tokens": 71,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        265,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        265,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        265,
+        3
+      ],
+      "template_cb": [
+        1,
+        265,
+        3
+      ],
+      "template_ca": [
+        1,
+        265,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        265
+      ],
+      "template_mask_frame": [
+        1,
+        265
+      ],
+      "template_mask": [
+        1,
+        265
+      ],
+      "query_to_template": [
+        1,
+        265
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_045",
+    "target_tokens": 194,
+    "binder_tokens": 66,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        260,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        260,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        260,
+        3
+      ],
+      "template_cb": [
+        1,
+        260,
+        3
+      ],
+      "template_ca": [
+        1,
+        260,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        260
+      ],
+      "template_mask_frame": [
+        1,
+        260
+      ],
+      "template_mask": [
+        1,
+        260
+      ],
+      "query_to_template": [
+        1,
+        260
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_046",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_047",
+    "target_tokens": 194,
+    "binder_tokens": 56,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        250,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        250,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        250,
+        3
+      ],
+      "template_cb": [
+        1,
+        250,
+        3
+      ],
+      "template_ca": [
+        1,
+        250,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        250
+      ],
+      "template_mask_frame": [
+        1,
+        250
+      ],
+      "template_mask": [
+        1,
+        250
+      ],
+      "query_to_template": [
+        1,
+        250
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_048",
+    "target_tokens": 194,
+    "binder_tokens": 55,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        249,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        249,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        249,
+        3
+      ],
+      "template_cb": [
+        1,
+        249,
+        3
+      ],
+      "template_ca": [
+        1,
+        249,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        249
+      ],
+      "template_mask_frame": [
+        1,
+        249
+      ],
+      "template_mask": [
+        1,
+        249
+      ],
+      "query_to_template": [
+        1,
+        249
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_049",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_050",
+    "target_tokens": 194,
+    "binder_tokens": 67,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        261,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        261,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        261,
+        3
+      ],
+      "template_cb": [
+        1,
+        261,
+        3
+      ],
+      "template_ca": [
+        1,
+        261,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        261
+      ],
+      "template_mask_frame": [
+        1,
+        261
+      ],
+      "template_mask": [
+        1,
+        261
+      ],
+      "query_to_template": [
+        1,
+        261
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_051",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_052",
+    "target_tokens": 194,
+    "binder_tokens": 59,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        253,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        253,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        253,
+        3
+      ],
+      "template_cb": [
+        1,
+        253,
+        3
+      ],
+      "template_ca": [
+        1,
+        253,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        253
+      ],
+      "template_mask_frame": [
+        1,
+        253
+      ],
+      "template_mask": [
+        1,
+        253
+      ],
+      "query_to_template": [
+        1,
+        253
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_053",
+    "target_tokens": 194,
+    "binder_tokens": 64,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        258,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        258,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        258,
+        3
+      ],
+      "template_cb": [
+        1,
+        258,
+        3
+      ],
+      "template_ca": [
+        1,
+        258,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        258
+      ],
+      "template_mask_frame": [
+        1,
+        258
+      ],
+      "template_mask": [
+        1,
+        258
+      ],
+      "query_to_template": [
+        1,
+        258
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_054",
+    "target_tokens": 194,
+    "binder_tokens": 68,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        262,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        262,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        262,
+        3
+      ],
+      "template_cb": [
+        1,
+        262,
+        3
+      ],
+      "template_ca": [
+        1,
+        262,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        262
+      ],
+      "template_mask_frame": [
+        1,
+        262
+      ],
+      "template_mask": [
+        1,
+        262
+      ],
+      "query_to_template": [
+        1,
+        262
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_055",
+    "target_tokens": 194,
+    "binder_tokens": 64,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        258,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        258,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        258,
+        3
+      ],
+      "template_cb": [
+        1,
+        258,
+        3
+      ],
+      "template_ca": [
+        1,
+        258,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        258
+      ],
+      "template_mask_frame": [
+        1,
+        258
+      ],
+      "template_mask": [
+        1,
+        258
+      ],
+      "query_to_template": [
+        1,
+        258
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_056",
+    "target_tokens": 194,
+    "binder_tokens": 71,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        265,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        265,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        265,
+        3
+      ],
+      "template_cb": [
+        1,
+        265,
+        3
+      ],
+      "template_ca": [
+        1,
+        265,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        265
+      ],
+      "template_mask_frame": [
+        1,
+        265
+      ],
+      "template_mask": [
+        1,
+        265
+      ],
+      "query_to_template": [
+        1,
+        265
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_057",
+    "target_tokens": 194,
+    "binder_tokens": 63,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        257,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        257,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        257,
+        3
+      ],
+      "template_cb": [
+        1,
+        257,
+        3
+      ],
+      "template_ca": [
+        1,
+        257,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        257
+      ],
+      "template_mask_frame": [
+        1,
+        257
+      ],
+      "template_mask": [
+        1,
+        257
+      ],
+      "query_to_template": [
+        1,
+        257
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_058",
+    "target_tokens": 194,
+    "binder_tokens": 70,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        264,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        264,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        264,
+        3
+      ],
+      "template_cb": [
+        1,
+        264,
+        3
+      ],
+      "template_ca": [
+        1,
+        264,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        264
+      ],
+      "template_mask_frame": [
+        1,
+        264
+      ],
+      "template_mask": [
+        1,
+        264
+      ],
+      "query_to_template": [
+        1,
+        264
+      ]
+    }
+  },
+  {
+    "id": "diversity_short_059",
+    "target_tokens": 194,
+    "binder_tokens": 55,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        249,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        249,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        249,
+        3
+      ],
+      "template_cb": [
+        1,
+        249,
+        3
+      ],
+      "template_ca": [
+        1,
+        249,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        249
+      ],
+      "template_mask_frame": [
+        1,
+        249
+      ],
+      "template_mask": [
+        1,
+        249
+      ],
+      "query_to_template": [
+        1,
+        249
+      ]
+    }
+  },
+  {
+    "id": "scrambled_6wrw",
+    "target_tokens": 194,
+    "binder_tokens": 93,
+    "design_mask_verified": true,
+    "binder_template_excluded": true,
+    "msa_depth": 1,
+    "template_features": {
+      "template_restype": [
+        1,
+        287,
+        33
+      ],
+      "template_frame_rot": [
+        1,
+        287,
+        3,
+        3
+      ],
+      "template_frame_t": [
+        1,
+        287,
+        3
+      ],
+      "template_cb": [
+        1,
+        287,
+        3
+      ],
+      "template_ca": [
+        1,
+        287,
+        3
+      ],
+      "template_mask_cb": [
+        1,
+        287
+      ],
+      "template_mask_frame": [
+        1,
+        287
+      ],
+      "template_mask": [
+        1,
+        287
+      ],
+      "query_to_template": [
+        1,
+        287
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "id": "caplacizumab_6wrw",
+  "arm": "control",
+  "kind": "negative_hypothesis",
+  "seed": 2411,
+  "sample": 4,
+  "upstream_confidence_selected": true,
+  "confidence_selected": true,
+  "target_CA_rmsd_to_input_A": 0.8758078150469251,
+  "metrics": {
+    "iptm": 0.12709490954875946,
+    "ptm": 0.464876651763916,
+    "design_to_target_iptm": 0.12709490954875946,
+    "interaction_pae": 26.572845458984375,
+    "min_design_to_target_pae": 20.598461151123047,
+    "design_ptm": 0.7684745788574219
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.0,
+      "B_A": 0.0
+    },
+    "ipsae_min": 0.0,
+    "ipsae_max": 0.0,
+    "contact_residue_pairs": 30,
+    "contact_pae_A_to_B_A": 23.610877990722656,
+    "contact_pae_B_to_A_A": 23.79665756225586,
+    "contact_pae_both_directions_A": 23.703767776489258,
+    "binder_mean_plddt": 0.7334234714508057
+  },
+  "raw_scoring_output": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/caplacizumab_6wrw/4",
+  "control_pass": true,
+  "target_integrity_pass": true
+}

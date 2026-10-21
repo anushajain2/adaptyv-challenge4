@@ -1,0 +1,30 @@
+{
+  "prepared_utc": "2026-10-21T16:52:05.768517+00:00",
+  "reason": "Same local database, executable and parameters as the completed initial review; new confirmed candidates.",
+  "original_plan_sha256": "45272c33fe9b0f2ea8131f1ba31e51d2aea2c05285e806a1782e8e29c90c2a73",
+  "query_sha256": "91ee01b6cea0490c9ca3f55daa5a33f7b1a0cce355906c5bc0c1619fe032743e",
+  "database_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz",
+  "metadata_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/RELEASE.metalink",
+  "release": "2026_03",
+  "database_expected_bytes": 93801562,
+  "database_expected_md5": "bc9d398533e6df582b563c6c03093bd0",
+  "binary_url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.17.0/ncbi-blast-2.17.0+-aarch64-macosx.tar.gz",
+  "binary_md5_url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.17.0/ncbi-blast-2.17.0+-aarch64-macosx.tar.gz.md5",
+  "binary_expected_md5": "8dc685eb284713db76de41a4dabf96ad",
+  "parameters": {
+    "task": "blastp",
+    "evalue": 10,
+    "seg": "yes",
+    "soft_masking": "true",
+    "comp_based_stats": 2,
+    "matrix": "BLOSUM62",
+    "word_size": 3,
+    "max_target_seqs": 100,
+    "num_threads": 4,
+    "outfmt": 15
+  },
+  "scope": "Official UniProtKB/Swiss-Prot canonical FASTA, excluding the separate isoform supplement. This is a new explicitly versioned local search, not the completed result of the NCBI RID and not necessarily an identical database snapshot.",
+  "interpretation": "Retain frozen identity/coverage/E-value heuristics per HSP. Human P02786 must be retrieved at >=99% identity and >=99% query coverage with E<=1e-10. Report masking and short-sequence limitations. No absence-of-homology or novel-fold claim.",
+  "new_modal_compute_usd": 0,
+  "prior_run_sha256": "8ebba20de897321c8fd87c3144e4c529116bbcbb48ef327cb84c55f248c6a91e"
+}

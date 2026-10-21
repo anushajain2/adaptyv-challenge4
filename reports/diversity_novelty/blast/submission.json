@@ -1,0 +1,4 @@
+{
+  "state": "LOCAL_BLAST_ONLY",
+  "reason": "Use verified local Swiss-Prot canonical release 2026_03; do not submit another remote RID."
+}

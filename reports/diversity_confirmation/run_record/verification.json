@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-10-21T16:48:30.856371+00:00",
+  "all_inputs_and_sources_match_launch": true,
+  "all_cloud_stages_successful": true,
+  "target_only_templates_and_empty_MSA": true,
+  "files": {
+    "reports/diversity_confirmation/run_record/requirements-cloud.txt": "2e1093b186741c24472fc3993a1b46ff33c020deaac2888fa22bdab3b2fb82e3",
+    "reports/diversity_confirmation/run_record/audit_control_samples.py": "7e7c486fa9ba5bf777870fbdea033b92a4a350c930c9ef212c68a4a22ee250e7",
+    "reports/diversity_confirmation/run_record/analyze_generation_comparison.py": "66a676b13a2cb5fc2e37347e0b1e1256d6c55c393aac4183c807cc42b012abf9",
+    "reports/diversity_confirmation/run_record/apps_after.json": "b664fa9579d23175a1498868264598f4e7132762b9d0f5c3251fdb2897d1be8e",
+    "reports/diversity_confirmation/run_record/analyze_diversity_round.py": "548f7ec5b5d47eaf81f65c921a06d4f08ee1f648d6534928e0ff08e643b5d495",
+    "reports/diversity_confirmation/run_record/receptor_preparation_v2.py": "5d8eab755707222a52a9057a42c086e5cd9fb6f8b3500dd4df7f90c6f6fec2b6",
+    "reports/diversity_confirmation/run_record/analyze_apical_expansion.py": "58ecadaacbebce1e1035083c684499aec2eb0d3d626b51fec70947916a276063",
+    "reports/diversity_confirmation/run_record/analyze_his_panel.py": "8ec3091b1e28dcccc610463242f3edb850cfb51c795a548892eb9e8ea0d28836",
+    "reports/diversity_confirmation/run_record/seed-2411_preflight.json": "4d0c3ce4be8f4f17bef678ebcdb05d9b09a93871d5a63e014e801dfe4e610862",
+    "reports/diversity_confirmation/run_record/control_refold_worker.py": "75111f5cc31d1488378c13568f06c9e6f004abf3ac122d6f4686b7d7818f82d2",
+    "reports/diversity_confirmation/run_record/target_integrity_selection.py": "86e72aa1e86727385269cbf4d5b8ad0518311a653f3d6262af53ca8b483e05ce",
+    "reports/diversity_confirmation/run_record/apps_before.json": "c3e895ae161bb29f5dad6f6e6226884613faf6bddab146f78f4e0931587ce834",
+    "reports/diversity_confirmation/run_record/billing_before.json": "9d36e990aae4a7c6c11a602b2fb85bfffe07f4ec4b8158ed3190c6ec06b7c78c",
+    "reports/diversity_confirmation/run_record/modal_diversity_confirmation.py": "1563d62517f7e2b60f2d48a85e4cf43d1adef13954c7fd64cf40bda3872fef5c",
+    "reports/diversity_confirmation/run_record/prepare_diversity_round.py": "991f89e466c54d07822463d95ec36ce55285e8951a3a6a4dca710cc0700c15b1",
+    "reports/diversity_confirmation/run_record/run_status.json": "a096b9ad125ead5e4ff17583706b18bfd1a4314f9f01deb705524bbcf94d8823",
+    "reports/diversity_confirmation/run_record/billing_after.json": "e384603578e30ac6a8a1cc9d5d272aaaf866b860d7372030ddc5b6eea76f6a6d",
+    "reports/diversity_confirmation/run_record/score_matched_controls.py": "3d3034692b3eca2303449981a13cb86afb9f841be5171496c0807eb2adbfbc1a",
+    "reports/diversity_confirmation/run_record/launch_ledger.json": "ca08b6edec3cf37336e54dcc94d8e27b0a4e7acc5d2e31140934e676e20f5ea6",
+    "reports/diversity_confirmation/run_record/input_hashes.json": "8b58b64214b9a25922d76b87d590adaf248f308e549d1270d6759e340b8ca3b5",
+    "reports/diversity_confirmation/run_record/launch_diversity_round.py": "93fac5ec4f4892d2a98d498f252ce263765f64e453a7f5f52e0154e29069e33c",
+    "reports/diversity_confirmation/run_record/seed-2309_preflight.json": "4d0c3ce4be8f4f17bef678ebcdb05d9b09a93871d5a63e014e801dfe4e610862"
+  }
+}

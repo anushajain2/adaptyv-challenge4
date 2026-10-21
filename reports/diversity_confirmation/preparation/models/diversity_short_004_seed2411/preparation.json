@@ -1,0 +1,88 @@
+{
+  "id": "diversity_short_004",
+  "seed": 2411,
+  "sample": 1,
+  "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/diversity_short_004/1/model.pdb",
+  "dest": "reports/diversity_confirmation/preparation/models/diversity_short_004_seed2411",
+  "status": "ok",
+  "source_sha256": "dc0773b9a39d46057d84f3451d345d25256dfd45b49893edbabf00072d5eb468",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1672990822025675,
+        "max_A": 0.6612927913665771
+      },
+      "sidechain": {
+        "rms_A": 0.56300267657837,
+        "max_A": 2.9407172203063965
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1652862710564209,
+        "max_A": 0.5403703451156616
+      },
+      "sidechain": {
+        "rms_A": 0.7727388510964288,
+        "max_A": 3.6657450199127197
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:41:ASP:OD1",
+        "b": "B:44:LEU:CD1",
+        "distance_A": 1.5371421534783323
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.882002868437085,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      196,
+      197,
+      199,
+      201,
+      203,
+      204,
+      205,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      227,
+      344,
+      348,
+      374,
+      376,
+      378
+    ]
+  },
+  "prepared_sha256": "9ed81198c5e74d79004b6aeeddba2b8b82f96531329fedf1d15eb836f780834d",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 25
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 74
+    }
+  }
+}

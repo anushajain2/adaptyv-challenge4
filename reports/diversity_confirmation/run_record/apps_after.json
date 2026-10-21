@@ -1,0 +1,18 @@
+[
+  {
+    "app_id": "ap-Y5XuaGwQyXWCtMZoIy00bM",
+    "description": "tfr1-diversity-confirmation",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 22:12:34+05:30",
+    "stopped_at": "2026-10-21 22:17:24+05:30"
+  },
+  {
+    "app_id": "ap-wJQJAV2j84iu5v1WGlRCJr",
+    "description": "tfr1-diversity-generation",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-21 21:34:57+05:30",
+    "stopped_at": "2026-10-21 22:10:06+05:30"
+  }
+]

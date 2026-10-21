@@ -1,0 +1,79 @@
+{
+  "id": "caplacizumab_6wrw",
+  "seed": 2411,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/caplacizumab_6wrw/4/model.pdb",
+  "dest": "reports/diversity_confirmation/preparation/models/caplacizumab_6wrw_seed2411",
+  "status": "ok",
+  "source_sha256": "5dc318bfa21d63dc320f7f60026c9c6a2a34f44f78dc933c77f36597a819345b",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.14862330213056665,
+        "max_A": 0.6399612426757812
+      },
+      "sidechain": {
+        "rms_A": 0.4441460042603943,
+        "max_A": 2.0302226543426514
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.17020081115791216,
+        "max_A": 0.8027212619781494
+      },
+      "sidechain": {
+        "rms_A": 0.5223693836436004,
+        "max_A": 2.594012975692749
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:1:GLU:N",
+        "b": "B:28:THR:OG1",
+        "distance_A": 1.7806686946200867
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.223577425827703,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 5,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 20,
+    "native_target_contacts_lt5A": [
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      273,
+      274,
+      275
+    ]
+  },
+  "prepared_sha256": "90e253ca8446621d426b814ef77bf58a34215e5c754654edfeee7c0934fa7fb5",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 34
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 83
+    }
+  }
+}

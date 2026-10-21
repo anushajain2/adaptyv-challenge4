@@ -1,0 +1,230 @@
+{
+  "source_results_sha256": "12d238dee76a87b7ddef9051211c3a9271693330900378945c615233b61bfc11",
+  "preparation_results_sha256": "33a66e59b702f621e743a311a13780408b68ef879d005c2e7e0977a2c2616b21",
+  "models": [
+    {
+      "id": "diversity_short_004",
+      "seed": 2309,
+      "sample": 0,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/diversity_short_004/0/model.pdb",
+      "source_sha256": "125c254a4c559038cd9d4cb0a20f8fbdca32fa2ac11b1f96916abc47dd57caea",
+      "files": {
+        "preparation.json": "1210c04328e21244784c25bac5f6b00519c867f73eff1d4f410f746417981f04",
+        "prepared.pdb": "81faa6db8bb14d114c98c67c94de5487b423341ebada5a9a5da5489f1689de99",
+        "raw_checks.json": "c8ab5a4e7c2b4d86a33259e7a59bb6defeae37a26ae5eee21223b54ea7e7d550",
+        "raw.pdb": "125c254a4c559038cd9d4cb0a20f8fbdca32fa2ac11b1f96916abc47dd57caea"
+      }
+    },
+    {
+      "id": "diversity_short_023",
+      "seed": 2309,
+      "sample": 1,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/diversity_short_023/1/model.pdb",
+      "source_sha256": "1d66b630fec53c6225a4eb7924db9a59c7cda07e6c503145db61fc948cc92982",
+      "files": {
+        "preparation.json": "1fab657c68d41f4a9d852217923174463fd9a6ddf25f0fa69cd81db0c735b2b8",
+        "prepared.pdb": "b554ee029f2ffe13546be2b49faab4fb4cb5cf960867458923e9bae157cd2d5f",
+        "raw_checks.json": "92d22b806c443a067919ec80cbe210e0b12f739b9d44e085f83e85370d4f17ad",
+        "raw.pdb": "1d66b630fec53c6225a4eb7924db9a59c7cda07e6c503145db61fc948cc92982"
+      }
+    },
+    {
+      "id": "diversity_short_041",
+      "seed": 2309,
+      "sample": 2,
+      "raw_pass": false,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/diversity_short_041/2/model.pdb",
+      "source_sha256": "c231bdb331cb042a63656b7f81457c7995cfa76b38c39c1f0f31f6f8a540a0b7",
+      "files": {
+        "preparation.json": "ff46b8a9e37dcd0ad5d9616d129dfd50563ae111883b7088a38d8fc8c523bb21",
+        "prepared.pdb": "2f52bc4a9b2e610a22f9b116ec9bcf6afdac3e3005500074c303b51a8288dae7",
+        "raw_checks.json": "adef4b4b7ef74c7c9b78d6b5680bde1c5abbd320fd451f462549271e9514bcad",
+        "raw.pdb": "c231bdb331cb042a63656b7f81457c7995cfa76b38c39c1f0f31f6f8a540a0b7"
+      }
+    },
+    {
+      "id": "diversity_short_055",
+      "seed": 2309,
+      "sample": 2,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/diversity_short_055/2/model.pdb",
+      "source_sha256": "3596998f461487bb59f62e14f22c38e436e469a6ed2648542b4273097a7634e9",
+      "files": {
+        "preparation.json": "d8433911394742038e4cf9b1ee8a375986dc418f86da20ba77620f4da857c713",
+        "prepared.pdb": "68f1c5ee7386a58282be73c00459eb8d36b3a7da12e0573c146f2f3cb136a053",
+        "raw_checks.json": "acb6130533b5a57c08953466657348010e02729f10e0b0ca6d26dc2bc9b9e149",
+        "raw.pdb": "3596998f461487bb59f62e14f22c38e436e469a6ed2648542b4273097a7634e9"
+      }
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 2309,
+      "sample": 2,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/diversity_long_037/2/model.pdb",
+      "source_sha256": "a2a041a93146e08104c49b38b2d8cccb09b831cfe3f42adab839415c8fc70cf3",
+      "files": {
+        "preparation.json": "1cee0df03286547f0f7a4a7fa92bba2afda3e09231853695709c216a03d8ff18",
+        "prepared.pdb": "9d91855e8a9ff8fe3a8d2b0cfb60961f8b30c97588fb3480dad4bac0aba0ae79",
+        "raw_checks.json": "100859afe3247f0e9964ddcf490c08d2d3acafdf7d53fb99d7708a82f1e1789f",
+        "raw.pdb": "a2a041a93146e08104c49b38b2d8cccb09b831cfe3f42adab839415c8fc70cf3"
+      }
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2309,
+      "sample": 3,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/2ds25_5_6wrw/3/model.pdb",
+      "source_sha256": "b1bdcd0574cbe6639cccb62a3256e1b6edad8930e459d9944068000cd31e971c",
+      "files": {
+        "preparation.json": "dbec935b572dfce6ac3470114f6b99c3b64cc784b82181fa8aef589d09d03395",
+        "prepared.pdb": "52405fa36128d953ecea62171477fe3cc0b363e0357782651c7fc8261133d688",
+        "raw_checks.json": "f090de2a2cc0b771d9b79db492b0d62053a6a0ce76f99ae35dfcb0c0b2fe9745",
+        "raw.pdb": "b1bdcd0574cbe6639cccb62a3256e1b6edad8930e459d9944068000cd31e971c"
+      }
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2309,
+      "sample": 0,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/scrambled_6wrw/0/model.pdb",
+      "source_sha256": "45b57ed580322c581e67934bee5c85a4b34825173984c2662001b2dbfd3ea04c",
+      "files": {
+        "preparation.json": "62c0b44f8b64168a71b09aef38aba029150f3010929a9193f129ad202ee9cd58",
+        "prepared.pdb": "5ffa5a0872ef3ef85f7d7e2ba3945c63ff6ca7ca8bc2e365dc89f48a3315ce14",
+        "raw_checks.json": "7d6ffdf9ffaf987f998e78a7329ee0964d9f3ed29b988f3734ef8b0b71e3bedf",
+        "raw.pdb": "45b57ed580322c581e67934bee5c85a4b34825173984c2662001b2dbfd3ea04c"
+      }
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2309,
+      "sample": 3,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/caplacizumab_6wrw/3/model.pdb",
+      "source_sha256": "5e25fc466accd03ec80d05e1ba33329982aff2a6bfce38a77d1db2096784e3cf",
+      "files": {
+        "preparation.json": "43d886ee49aec40acbb9579ccc0e7ed8e718a3336c3adfce1a96612c4c66848b",
+        "prepared.pdb": "b9ea220e0e40516590073028f9e51495c08518fb4e8f6826f078e6083bef0f29",
+        "raw_checks.json": "6bb91508ca1813c2cd4465930642a1fe289d5f750dbbbcba77dde00c64b53eea",
+        "raw.pdb": "5e25fc466accd03ec80d05e1ba33329982aff2a6bfce38a77d1db2096784e3cf"
+      }
+    },
+    {
+      "id": "diversity_short_004",
+      "seed": 2411,
+      "sample": 1,
+      "raw_pass": false,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/diversity_short_004/1/model.pdb",
+      "source_sha256": "dc0773b9a39d46057d84f3451d345d25256dfd45b49893edbabf00072d5eb468",
+      "files": {
+        "preparation.json": "1b8cdb17c9ba7d728f25e5e49be0c8387cd7c8277c20025cf6412d909cc354a3",
+        "prepared.pdb": "9ed81198c5e74d79004b6aeeddba2b8b82f96531329fedf1d15eb836f780834d",
+        "raw_checks.json": "0df5cf5c6987550a5fa4f1484927df304b490f49402d15a337c7361ea6413a49",
+        "raw.pdb": "dc0773b9a39d46057d84f3451d345d25256dfd45b49893edbabf00072d5eb468"
+      }
+    },
+    {
+      "id": "diversity_short_023",
+      "seed": 2411,
+      "sample": 0,
+      "raw_pass": false,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/diversity_short_023/0/model.pdb",
+      "source_sha256": "5d38316bccd257de434ee06c670ff3be0c85575f121172152df5a3702e1ccdba",
+      "files": {
+        "preparation.json": "ccb77a6bd23c24dafc7c166df03d0e7073351bbc9ecd873e4081e5e05e35ed86",
+        "prepared.pdb": "e382be5085086f8280d5ebe4bf2dc42ba689e390ac27dc81dbee6d921665177e",
+        "raw_checks.json": "bc4584cca0e13a8119cf1930b16b81d26d72b14b4537377138c08e000360afe0",
+        "raw.pdb": "5d38316bccd257de434ee06c670ff3be0c85575f121172152df5a3702e1ccdba"
+      }
+    },
+    {
+      "id": "diversity_short_041",
+      "seed": 2411,
+      "sample": 0,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/diversity_short_041/0/model.pdb",
+      "source_sha256": "f1f5d503ccd3eacafda0d17179772d4c328ca02b86b731870d138523fd0d22cc",
+      "files": {
+        "preparation.json": "0bc95e3b1728903bf2c44032ad84a47d2a4cb8affc35387aa7ba51a2a02e7c99",
+        "prepared.pdb": "85de4082bc1fda155fa8f2850debc5f600f50b688835100e2b44696979e60ede",
+        "raw_checks.json": "010ec329e4cf57b636efe070248d9612b3e387a41ffe407972369a22c765b8c1",
+        "raw.pdb": "f1f5d503ccd3eacafda0d17179772d4c328ca02b86b731870d138523fd0d22cc"
+      }
+    },
+    {
+      "id": "diversity_short_055",
+      "seed": 2411,
+      "sample": 2,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/diversity_short_055/2/model.pdb",
+      "source_sha256": "0badcecb0f1244c58192a7b60b39effe775d1f240955dfc5fb58d0b186f2c73c",
+      "files": {
+        "preparation.json": "b3908a050ad2248c03efc91a94a5a17dd90e58b1e650c62817b76260f17a5b7a",
+        "prepared.pdb": "cb303139726eccf4e1e69012d8ddfd27d20375aabe94fc5d0d7b862d4808320d",
+        "raw_checks.json": "79e1524a486e327d0dd43398a3e0f2470374a1d9cd7b7695f3c0eab10592699d",
+        "raw.pdb": "0badcecb0f1244c58192a7b60b39effe775d1f240955dfc5fb58d0b186f2c73c"
+      }
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 2411,
+      "sample": 2,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/diversity_long_037/2/model.pdb",
+      "source_sha256": "a318fec062ee1f248e3278dd07cba3923d9b041dd6184067c0b2b9e1fa4b27b3",
+      "files": {
+        "preparation.json": "97ee6530839a142f0177ce265280ce5f469eaffb100381d6d0e92a3519d01f4f",
+        "prepared.pdb": "aef83c4a75a3ba118f4073f0c74092cb88841b1c480681203a8f59143ff9bb43",
+        "raw_checks.json": "c9353d0e5853cf86c858a4140aeae523a429c6d6997da956bc048cd56c175277",
+        "raw.pdb": "a318fec062ee1f248e3278dd07cba3923d9b041dd6184067c0b2b9e1fa4b27b3"
+      }
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2411,
+      "sample": 1,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/2ds25_5_6wrw/1/model.pdb",
+      "source_sha256": "fc15e78cb0f095f3e310a48fead0aec1a91d5e291eea146c306d08b9b83208dd",
+      "files": {
+        "preparation.json": "5ea3cae8d9f1b7a6f5694fdcaa147de6ae77803fad58e5b4b29111129beff28d",
+        "prepared.pdb": "a17ccc07c3eec3e3a8d1583c1ad98525ed82da2c54cb49d41a6757f235956c37",
+        "raw_checks.json": "a565241c4475da85790f8ad2cadb5164a9e13cbb8e55ffa2b5cbf06a4967e2b9",
+        "raw.pdb": "fc15e78cb0f095f3e310a48fead0aec1a91d5e291eea146c306d08b9b83208dd"
+      }
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2411,
+      "sample": 1,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/scrambled_6wrw/1/model.pdb",
+      "source_sha256": "056b5e61a28af2b6a3689503539a120400ac73007c71a269b95cf0752112bb55",
+      "files": {
+        "preparation.json": "4f6772ef0bd221853643640fcecb0d3e8a27dfbffba7da8bb319afa50834b7e9",
+        "prepared.pdb": "7b023d8b87490b54cdd8d809ee597f4f37d4b37a57208e4750f2c21973298f1a",
+        "raw_checks.json": "2460a7a381aae7707093db57f74bfcd37a8f2e6bc43c21280dd387ed95d37698",
+        "raw.pdb": "056b5e61a28af2b6a3689503539a120400ac73007c71a269b95cf0752112bb55"
+      }
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2411,
+      "sample": 4,
+      "raw_pass": true,
+      "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2411/caplacizumab_6wrw/4/model.pdb",
+      "source_sha256": "5dc318bfa21d63dc320f7f60026c9c6a2a34f44f78dc933c77f36597a819345b",
+      "files": {
+        "preparation.json": "7a8313569fb230156a4bdd953ae7d7c848c289bbb327077a526bcb1b74b2faae",
+        "prepared.pdb": "90e253ca8446621d426b814ef77bf58a34215e5c754654edfeee7c0934fa7fb5",
+        "raw_checks.json": "0055c9e4450d47d0722644f78d5d12e4d6ad047593805287a53106173278100b",
+        "raw.pdb": "5dc318bfa21d63dc320f7f60026c9c6a2a34f44f78dc933c77f36597a819345b"
+      }
+    }
+  ]
+}

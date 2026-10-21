@@ -1,0 +1,206 @@
+{
+  "id": "scrambled_6wrw",
+  "seed": 2309,
+  "sample": 0,
+  "source": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/scrambled_6wrw/0/model.pdb",
+  "dest": "reports/diversity_confirmation/preparation/models/scrambled_6wrw_seed2309",
+  "status": "ok",
+  "source_sha256": "45b57ed580322c581e67934bee5c85a4b34825173984c2662001b2dbfd3ea04c",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.19491738000067219,
+        "max_A": 1.313849925994873
+      },
+      "sidechain": {
+        "rms_A": 0.5809103252193578,
+        "max_A": 2.0943245887756348
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.2816529611370603,
+        "max_A": 1.4016306400299072
+      },
+      "sidechain": {
+        "rms_A": 0.8837827248861726,
+        "max_A": 2.992542266845703
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:84:SER:O",
+        "b": "A:85:LEU:N",
+        "distance_A": 1.5085363767572875
+      },
+      {
+        "a": "B:31:ASP:O",
+        "b": "B:32:ASP:CG",
+        "distance_A": 1.7602414607092993
+      },
+      {
+        "a": "B:31:ASP:O",
+        "b": "B:32:ASP:OD1",
+        "distance_A": 1.7162325017316293
+      },
+      {
+        "a": "B:35:GLU:CA",
+        "b": "B:35:GLU:CG",
+        "distance_A": 1.7336233731696191
+      },
+      {
+        "a": "B:35:GLU:CA",
+        "b": "B:36:SER:N",
+        "distance_A": 1.4755402400476918
+      },
+      {
+        "a": "B:35:GLU:C",
+        "b": "B:35:GLU:CB",
+        "distance_A": 1.7448332298532159
+      },
+      {
+        "a": "B:35:GLU:C",
+        "b": "B:35:GLU:CG",
+        "distance_A": 1.5470193922507893
+      },
+      {
+        "a": "B:35:GLU:C",
+        "b": "B:35:GLU:CD",
+        "distance_A": 1.3536587457701414
+      },
+      {
+        "a": "B:35:GLU:C",
+        "b": "B:35:GLU:OE2",
+        "distance_A": 1.615880564893333
+      },
+      {
+        "a": "B:35:GLU:O",
+        "b": "B:35:GLU:CD",
+        "distance_A": 1.155083546761875
+      },
+      {
+        "a": "B:35:GLU:O",
+        "b": "B:35:GLU:OE1",
+        "distance_A": 1.67130039191044
+      },
+      {
+        "a": "B:35:GLU:O",
+        "b": "B:35:GLU:OE2",
+        "distance_A": 0.5977725319885486
+      },
+      {
+        "a": "B:35:GLU:O",
+        "b": "B:36:SER:N",
+        "distance_A": 1.5994680365671596
+      },
+      {
+        "a": "B:35:GLU:CB",
+        "b": "B:36:SER:N",
+        "distance_A": 1.6403002773882585
+      },
+      {
+        "a": "B:35:GLU:CG",
+        "b": "B:35:GLU:OE1",
+        "distance_A": 1.6584733944203025
+      },
+      {
+        "a": "B:35:GLU:CG",
+        "b": "B:36:SER:N",
+        "distance_A": 1.7172003377591094
+      },
+      {
+        "a": "B:35:GLU:OE1",
+        "b": "B:35:GLU:OE2",
+        "distance_A": 1.6754536699055542
+      },
+      {
+        "a": "B:36:SER:CA",
+        "b": "B:36:SER:OG",
+        "distance_A": 1.7092627065492334
+      },
+      {
+        "a": "B:36:SER:C",
+        "b": "B:36:SER:OG",
+        "distance_A": 1.60748685842218
+      },
+      {
+        "a": "B:36:SER:O",
+        "b": "B:36:SER:OG",
+        "distance_A": 1.200471157504422
+      },
+      {
+        "a": "B:83:GLU:OE2",
+        "b": "B:89:PRO:O",
+        "distance_A": 1.0050880558438644
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.8821518076602327,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 789,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      190,
+      219,
+      221,
+      222,
+      237,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      283,
+      287,
+      288,
+      289,
+      290,
+      291,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      302,
+      304,
+      305,
+      306,
+      307,
+      308,
+      314,
+      315,
+      316,
+      317,
+      356,
+      357,
+      358,
+      382,
+      383
+    ]
+  },
+  "prepared_sha256": "5ffa5a0872ef3ef85f7d7e2ba3945c63ff6ca7ca8bc2e365dc89f48a3315ce14",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 46
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 95
+    }
+  }
+}

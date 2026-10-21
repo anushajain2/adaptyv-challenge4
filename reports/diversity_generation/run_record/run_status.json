@@ -1,0 +1,42 @@
+{
+  "run_id": "diversity-023-6wrw",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "stage": "preflight",
+      "returncode": 0,
+      "elapsed_total_seconds": 25.728250823
+    },
+    {
+      "stage": "diversity_short-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 804.858116353
+    },
+    {
+      "stage": "diversity_short-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 846.197251018
+    },
+    {
+      "stage": "diversity_long-design",
+      "returncode": 0,
+      "elapsed_total_seconds": 1330.4528247389999
+    },
+    {
+      "stage": "diversity_long-inverse_folding",
+      "returncode": 0,
+      "elapsed_total_seconds": 1365.776745355
+    },
+    {
+      "stage": "assemble",
+      "returncode": 0,
+      "elapsed_total_seconds": 1402.2792352529998
+    },
+    {
+      "stage": "seed-2203",
+      "returncode": 0,
+      "elapsed_total_seconds": 2027.887778887
+    }
+  ],
+  "elapsed_seconds": 2027.887797505
+}

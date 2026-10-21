@@ -1,0 +1,1954 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "diversity_short_055",
+          "query_len": 64,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P10731|AMD_BOVIN",
+                  "accession": "P10731",
+                  "title": "Peptidyl-glycine alpha-amidating monooxygenase OS=Bos taurus OX=9913 GN=PAM PE=1 SV=2"
+                }
+              ],
+              "len": 972,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 2.92868,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 28,
+                  "query_to": 62,
+                  "hit_from": 696,
+                  "hit_to": 726,
+                  "align_len": 35,
+                  "gaps": 4,
+                  "qseq": "GIVCEYDEKTGKYKCYEVDTKTGELKFLGETKDPS",
+                  "hseq": "GQLCVADRENGRIQCFKTDTK----EFVREIKHPS",
+                  "midline": "G +C  D + G+ +C++ DTK    +F+ E K PS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P96111|PYRB_THEMA",
+                  "accession": "P96111",
+                  "title": "Protein PyrBI OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pyrBI PE=3 SV=2"
+                }
+              ],
+              "len": 527,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.14399,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 8,
+                  "query_to": 33,
+                  "hit_from": 489,
+                  "hit_to": 514,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "VTLPESGETATYGFAESEKTGIVCEY",
+                  "hseq": "ITNPAHGENASPSFVRNEKGQFICEY",
+                  "midline": "+T P  GE A+  F  +EK   +CEY"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q557K2|Y3435_DICDI",
+                  "accession": "Q557K2",
+                  "title": "TNF receptor-associated factor family protein DDB_G0273435/DDB_G0273505 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0273435 PE=3 SV=1"
+                }
+              ],
+              "len": 409,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 3.29783,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 23,
+                  "query_to": 54,
+                  "hit_from": 121,
+                  "hit_to": 152,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "ESEKTGIVCEYDEKTGKYKCYEVDTKTGELKF",
+                  "hseq": "ECKFTFVSCEYNEKCGKYRMNEIENHQDQCNY",
+                  "midline": "E + T + CEY+EK GKY+  E++    +  +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P11869|TPT_SPIOL",
+                  "accession": "P11869",
+                  "title": "Triose phosphate/phosphate translocator, chloroplastic OS=Spinacia oleracea OX=3562 PE=1 SV=1"
+                }
+              ],
+              "len": 404,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 5.40919,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 4,
+                  "query_to": 53,
+                  "hit_from": 34,
+                  "hit_to": 90,
+                  "align_len": 57,
+                  "gaps": 7,
+                  "qseq": "IKVTVTLPESGETATYG-------FAESEKTGIVCEYDEKTGKYKCYEVDTKTGELK",
+                  "hseq": "VKTPVGLVKDGGSLTWGRQLRPVLLLEPVQTGPVCSRREKTAVQPCRAASGSSGEAK",
+                  "midline": "+K  V L + G + T+G         E  +TG VC   EKT    C      +GE K"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q4WD47|FSQF_ASPFU",
+                  "accession": "Q4WD47",
+                  "title": "Nonribosomal peptide synthetase-like enzyme fsqF OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) OX=330879 GN=fsqF PE=2 SV=1"
+                }
+              ],
+              "len": 1480,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 6.08286,
+                  "identity": 13,
+                  "positive": 16,
+                  "query_from": 36,
+                  "query_to": 63,
+                  "hit_from": 499,
+                  "hit_to": 526,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "KTGKYKCYEVDTKTGELKFLGETKDPSK",
+                  "hseq": "RTGDLLRYSVDTLDGRLEFVGRTDDQVK",
+                  "midline": "+TG    Y VDT  G L+F+G T D  K"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q5R5X9|SMYD4_PONAB",
+                  "accession": "Q5R5X9",
+                  "title": "Protein-lysine N-methyltransferase SMYD4 OS=Pongo abelii OX=9601 GN=SMYD4 PE=2 SV=2"
+                }
+              ],
+              "len": 804,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 6.70391,
+                  "identity": 15,
+                  "positive": 19,
+                  "query_from": 2,
+                  "query_to": 32,
+                  "hit_from": 373,
+                  "hit_to": 406,
+                  "align_len": 34,
+                  "gaps": 3,
+                  "qseq": "KIIKVTVTLPESG---ETATYGFAESEKTGIVCE",
+                  "hseq": "KISNKDICLPESNNQVKTLNYGLGESEKSGNIIE",
+                  "midline": "KI    + LPES    +T  YG  ESEK+G + E"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q8IYR2|SMYD4_HUMAN",
+                  "accession": "Q8IYR2",
+                  "title": "Protein-lysine N-methyltransferase SMYD4 OS=Homo sapiens OX=9606 GN=SMYD4 PE=1 SV=3"
+                }
+              ],
+              "len": 804,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 8.84993,
+                  "identity": 15,
+                  "positive": 18,
+                  "query_from": 2,
+                  "query_to": 32,
+                  "hit_from": 373,
+                  "hit_to": 406,
+                  "align_len": 34,
+                  "gaps": 3,
+                  "qseq": "KIIKVTVTLPESG---ETATYGFAESEKTGIVCE",
+                  "hseq": "KISNKDICLPESNNQVKTLNYGLGESEKNGNIVE",
+                  "midline": "KI    + LPES    +T  YG  ESEK G + E"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 575748,
+            "db_len": 209017843,
+            "hsp_len": 36,
+            "eff_space": 5272145620,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+,
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2",
+          "query_title": "diversity_long_037",
+          "query_len": 95,
+          "query_masking": [
+            {
+              "from": 42,
+              "to": 54
+            },
+            {
+              "from": 55,
+              "to": 73
+            }
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q0CJP9|AGUA_ASPTN",
+                  "accession": "Q0CJP9",
+                  "title": "Probable alpha-glucuronidase A OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=aguA PE=3 SV=1"
+                }
+              ],
+              "len": 841,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 3.20843,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 13,
+                  "query_to": 39,
+                  "hit_from": 244,
+                  "hit_to": 269,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "PYKGGKAGVALNTSNPDAKGGLGVSAP",
+                  "hseq": "PY-GIRIGIALNFASPDTLGGLGTYDP",
+                  "midline": "PY G + G+ALN ++PD  GGLG   P"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q2UFP4|AGUA_ASPOR",
+                  "accession": "Q2UFP4",
+                  "title": "Probable alpha-glucuronidase A OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=aguA PE=3 SV=1"
+                }
+              ],
+              "len": 835,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 8.2398,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 13,
+                  "query_to": 39,
+                  "hit_from": 242,
+                  "hit_to": 267,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "PYKGGKAGVALNTSNPDAKGGLGVSAP",
+                  "hseq": "PY-GIQIGISLNFASPDTLGGLGTYDP",
+                  "midline": "PY G + G++LN ++PD  GGLG   P"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|B8NGU1|AGUA_ASPFN",
+                  "accession": "B8NGU1",
+                  "title": "Probable alpha-glucuronidase A OS=Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / IAM 13836 / NRRL 3357 / JCM 12722 / SRRC 167) OX=332952 GN=aguA PE=3 SV=1"
+                }
+              ],
+              "len": 839,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 8.24178,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 13,
+                  "query_to": 39,
+                  "hit_from": 242,
+                  "hit_to": 267,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "PYKGGKAGVALNTSNPDAKGGLGVSAP",
+                  "hseq": "PY-GIQIGISLNFASPDTLGGLGTYDP",
+                  "midline": "PY G + G++LN ++PD  GGLG   P"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|O80517|BCB2_ARATH",
+                  "accession": "O80517",
+                  "title": "Uclacyanin-2 OS=Arabidopsis thaliana OX=3702 GN=At2g44790 PE=2 SV=1"
+                }
+              ],
+              "len": 202,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 9.19792,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 61,
+                  "query_to": 95,
+                  "hit_from": 30,
+                  "hit_to": 68,
+                  "align_len": 39,
+                  "gaps": 4,
+                  "qseq": "VTVTVEEVVGKSK----TAPELKVGDVIEIKVTSSSTVE",
+                  "hseq": "VTYTIEWTTGVDYSGWATGKTFRVGDILEFKYGSSHTVD",
+                  "midline": "VT T+E   G       T    +VGD++E K  SS TV+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 575748,
+            "db_len": 209017843,
+            "hsp_len": 65,
+            "eff_space": 5147826690,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+,
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "/Users/anusha/Documents/code/adaptyv-challenge4/outputs/local_swissprot/swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "L;m;",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_3",
+          "query_title": "human_tfr1_crop_control",
+          "query_len": 194,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P02786|TFR1_HUMAN",
+                  "accession": "P02786",
+                  "title": "Transferrin receptor protein 1 OS=Homo sapiens OX=9606 GN=TFRC PE=1 SV=2"
+                }
+              ],
+              "len": 760,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 403.29,
+                  "score": 1035,
+                  "evalue": 7.84918e-137,
+                  "identity": 194,
+                  "positive": 194,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 190,
+                  "hit_to": 383,
+                  "align_len": 194,
+                  "gaps": 0,
+                  "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "midline": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q5RDH6|TFR1_PONAB",
+                  "accession": "Q5RDH6",
+                  "title": "Transferrin receptor protein 1 OS=Pongo abelii OX=9601 GN=TFRC PE=2 SV=1"
+                }
+              ],
+              "len": 760,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 399.823,
+                  "score": 1026,
+                  "evalue": 1.81901e-135,
+                  "identity": 193,
+                  "positive": 193,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 190,
+                  "hit_to": 383,
+                  "align_len": 194,
+                  "gaps": 0,
+                  "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLDTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "midline": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDL TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q9MYZ3|TFR1_FELCA",
+                  "accession": "Q9MYZ3",
+                  "title": "Transferrin receptor protein 1 OS=Felis catus OX=9685 GN=TFRC PE=1 SV=1"
+                }
+              ],
+              "len": 769,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 338.576,
+                  "score": 867,
+                  "evalue": 1.14362e-111,
+                  "identity": 161,
+                  "positive": 176,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 199,
+                  "hit_to": 392,
+                  "align_len": 194,
+                  "gaps": 0,
+                  "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "VQVKGSASNSVTIVGTNSGMVYLVESPEGYVAYSKAATVTGRLVHANFGTKKDFENLNSPVNGSLVIVRAGKITFAEKVANAESFNAIGVLIYMDQAKFPITNAEIPFFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRANAEKLFGNMEGDCPSAWETDSSCRLETSRNWNVKLSVNNVLKE",
+                  "midline": "+QVK SA NSV IV  N  +VYLVE+P GYVAYSKAATVTG+LVHANFGTKKDFE+L +PVNGS+VIVRAGKITFAEKVANAES NAIGVLIYMDQ KFPI NAE+ FFGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRA AEKLFGNMEGDCPS W+TDS+CR+ TS + NVKL+V+NVLKE"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q9GLD3|TFR1_CANLF",
+                  "accession": "Q9GLD3",
+                  "title": "Transferrin receptor protein 1 OS=Canis lupus familiaris OX=9615 GN=TFRC PE=1 SV=1"
+                }
+              ],
+              "len": 770,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 322.398,
+                  "score": 825,
+                  "evalue": 2.15753e-105,
+                  "identity": 154,
+                  "positive": 171,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 199,
+                  "hit_to": 393,
+                  "align_len": 195,
+                  "gaps": 1,
+                  "qseq": "IQVKDS-AQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKSSNAQNTVTIVDMESDLVYLAESPEGYVAYSKATTVTGRLVHVNFGTKKDFENLKSPVNGSLVIARAGKITFAEKVANAQSYNALGVLIYMDQARFPIVNARIPFFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPSIPVQTISRAAAEKLFENMEGDCPSAWEIDPSCRLETSSNKNVNLTVNNVLKE",
+                  "midline": "IQVK S AQN+V IVD    LVYL E+P GYVAYSKA TVTG+LVH NFGTKKDFE+L +PVNGS+VI RAGKITFAEKVANA+S NA+GVLIYMDQ +FPIVNA + FFGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLP+IPVQTISRAAAEKLF NMEGDCPS W+ D +CR+ TS +KNV LTV+NVLKE"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q2V905|TFR1_HORSE",
+                  "accession": "Q2V905",
+                  "title": "Transferrin receptor protein 1 OS=Equus caballus OX=9796 GN=TFRC PE=2 SV=1"
+                }
+              ],
+              "len": 767,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 316.62,
+                  "score": 810,
+                  "evalue": 3.15919e-103,
+                  "identity": 154,
+                  "positive": 171,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 196,
+                  "hit_to": 390,
+                  "align_len": 195,
+                  "gaps": 1,
+                  "qseq": "IQVKDS-AQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKGSNAQSSVTVVNGSGDMISLVENPTGYVAYSKATTVTGKLVHANFGTKEDYEALSYPVNGSLVIVRAGEITFAQKVANAESLNAVGVLIYMDQAKFPIVNANLPVFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRAAAEALFANMKGDCPSSWKTDSSCRLEFPGDKNVKLTVNNELKE",
+                  "midline": "IQVK S AQ+SV +V+ +G ++ LVENP GYVAYSKA TVTGKLVHANFGTK+D+E L  PVNGS+VIVRAG+ITFA+KVANAESLNA+GVLIYMDQ KFPIVNA L  FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRAAAE LF NM+GDCPS WKTDS+CR+     KNVKLTV+N LKE"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q07891|TFR1_CRIGR",
+                  "accession": "Q07891",
+                  "title": "Transferrin receptor protein 1 OS=Cricetulus griseus OX=10029 GN=TFRC PE=2 SV=1"
+                }
+              ],
+              "len": 757,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 313.923,
+                  "score": 803,
+                  "evalue": 2.92076e-102,
+                  "identity": 153,
+                  "positive": 170,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 187,
+                  "hit_to": 380,
+                  "align_len": 195,
+                  "gaps": 2,
+                  "qseq": "IQVKDSA-QNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKGSAAQNAVTIINVNGD-SDLVENPGGYVAYSKATTVSGKLIHANFGTKKDFEDLKYPVNGSLVIVRAGKITFAEKVANAQSFNAIGVLIYMDQTKFPVVEAELSLFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPSIPVQTISRKAAEKLFQNMETNCPPSWNTDSLCKLESSQGINVNLSVNNVLKE",
+                  "midline": "IQVK SA QN+V I++ NG    LVENPGGYVAYSKA TV+GKL+HANFGTKKDFEDL  PVNGS+VIVRAGKITFAEKVANA+S NAIGVLIYMDQTKFP+V AELS FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLP+IPVQTISR AAEKLF NME +CP  W TDS C++ +S+  NV L+V+NVLKE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q8HZV3|TFR1_PIG",
+                  "accession": "Q8HZV3",
+                  "title": "Transferrin receptor protein 1 OS=Sus scrofa OX=9823 GN=TFRC PE=2 SV=1"
+                }
+              ],
+              "len": 768,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 311.997,
+                  "score": 798,
+                  "evalue": 2.38394e-101,
+                  "identity": 153,
+                  "positive": 172,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 196,
+                  "hit_to": 391,
+                  "align_len": 196,
+                  "gaps": 2,
+                  "qseq": "IQVKDS-AQNSVIIVDKNGR-LVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKGSNAENSVTLVNTDSNSLVYPVESPEGYVAYSKATTVTGKLIFANFGTKKDFEDLKMPVNGSLVIVRAGKITFAEKVANAQSLDAIGVLIYMDRANFPIINADVPVFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRAGAEKLFGNMEQDCPLTWRTDFPCKLVSSPSKNVKLTVNNVLKE",
+                  "midline": "IQVK S A+NSV +V+ +   LVY VE+P GYVAYSKA TVTGKL+ ANFGTKKDFEDL  PVNGS+VIVRAGKITFAEKVANA+SL+AIGVLIYMD+  FPI+NA++  FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRA AEKLFGNME DCP  W+TD  C++V+S SKNVKLTV+NVLKE"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|Q62351|TFR1_MOUSE",
+                  "accession": "Q62351",
+                  "title": "Transferrin receptor protein 1 OS=Mus musculus OX=10090 GN=Tfrc PE=1 SV=1"
+                }
+              ],
+              "len": 763,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 298.516,
+                  "score": 763,
+                  "evalue": 3.52076e-96,
+                  "identity": 145,
+                  "positive": 164,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 192,
+                  "hit_to": 385,
+                  "align_len": 195,
+                  "gaps": 2,
+                  "qseq": "IQVKDS-AQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKSSIGQNMVTIVQSNGNLD-PVESPEGYVAFSKPTEVSGKLVHANFGTKKDFEELSYSVNGSLVIVRAGEITFAEKVANAQSFNAIGVLIYMDKNKFPVVEADLALFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPNIPVQTISRAAAEKLFGKMEGSCPARWNIDSSCKLELSQNQNVKLIVKNVLKE",
+                  "midline": "IQVK S  QN V IV  NG L   VE+P GYVA+SK   V+GKLVHANFGTKKDFE+L   VNGS+VIVRAG+ITFAEKVANA+S NAIGVLIYMD+ KFP+V A+L+ FGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLPNIPVQTISRAAAEKLFG MEG CP+ W  DS+C++  S+++NVKL V NVLKE"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|Q99376|TFR1_RAT",
+                  "accession": "Q99376",
+                  "title": "Transferrin receptor protein 1 OS=Rattus norvegicus OX=10116 GN=Tfrc PE=1 SV=2"
+                }
+              ],
+              "len": 761,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 295.819,
+                  "score": 756,
+                  "evalue": 2.68966e-95,
+                  "identity": 141,
+                  "positive": 166,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 192,
+                  "hit_to": 384,
+                  "align_len": 194,
+                  "gaps": 1,
+                  "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "IQVKNSVSQNLVTIN-SGSNIDPVEAPEGYVAFSKAGEVTGKLVHANFGTKKDFEELNYSVNGSLVIVRAGKITFAEKVANAQSFNAIGVLIYMDRNTFPVVEADLQFFGHAHLGTGDPYTPGFPSFNHTQFPPSQSSGLPSIPVQTISRAAAEKLFKNMEGNCPPSWNIDSSCKLELSQNQNVKLTVNNVLKE",
+                  "midline": "IQVK+S   +++ ++ +G  +  VE P GYVA+SKA  VTGKLVHANFGTKKDFE+L   VNGS+VIVRAGKITFAEKVANA+S NAIGVLIYMD+  FP+V A+L FFGHAHLGTGDPYTPGFPSFNHTQFPPS+SSGLP+IPVQTISRAAAEKLF NMEG+CP  W  DS+C++  S+++NVKLTV+NVLKE"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|Q90997|TFR1_CHICK",
+                  "accession": "Q90997",
+                  "title": "Transferrin receptor protein 1 OS=Gallus gallus OX=9031 GN=TFRC PE=2 SV=2"
+                }
+              ],
+              "len": 776,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 192.586,
+                  "score": 488,
+                  "evalue": 3.11256e-56,
+                  "identity": 107,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 199,
+                  "hit_to": 396,
+                  "align_len": 201,
+                  "gaps": 10,
+                  "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFE---DLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK-TDSTCRMVTSESKN--VKLTVSNVLKE",
+                  "hseq": "LQVRGSTKNQVSI-SINGK-EEILETPDAIVAYSESGSVSGKPVYVNYGLKKDFEIIQKVVASLNGTIVIVRAGKITLAEKVANAKEAGAAGVLMYVDSLMYGITDT-LIPFGHAHLGTGDPYTPGFPSFNHTQFPPVESSGLPHIAVQTISSSAAARLFSKMDGDTCSEGWKGAIHSCKVTTKQESQIMVKLDVNNSMKD",
+                  "midline": "+QV+ S +N V I   NG+   ++E P   VAYS++ +V+GK V+ N+G KKDFE    +   +NG+IVIVRAGKIT AEKVANA+   A GVL+Y+D   + I +  L  FGHAHLGTGDPYTPGFPSFNHTQFPP  SSGLP+I VQTIS +AA +LF  M+GD C   WK    +C++ T +     VKL V+N +K+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|B2GUY2|TFR2_RAT",
+                  "accession": "B2GUY2",
+                  "title": "Transferrin receptor protein 2 OS=Rattus norvegicus OX=10116 GN=Tfr2 PE=2 SV=1"
+                }
+              ],
+              "len": 798,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 154.836,
+                  "score": 390,
+                  "evalue": 1.65279e-42,
+                  "identity": 82,
+                  "positive": 112,
+                  "query_from": 24,
+                  "query_to": 190,
+                  "hit_from": 221,
+                  "hit_to": 398,
+                  "align_len": 180,
+                  "gaps": 15,
+                  "qseq": "VENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK---TDSTCRMVTSESKNVKLTVSN",
+                  "hseq": "LEDPEVYCPYSATGNATGKLVYAHYGRREDLQDLKAKDVELAGSLLLVRAGITSFAQKVAIAQDFGAHGVLIYPDPADFSQDPHKPGLSSDRAVYGHVHLGTGDPYTPGFPSFNQTQFPPVESSGLPNIPAQPISADVADRLLRKLTGPVAPQEWKGRLSDSPYRL--GPGPGLRLVVNN",
+                  "midline": "+E+P  Y  YS     TGKLV+A++G ++D +DL      + GS+++VRAG  +FA+KVA A+   A GVLIY D   F      P ++++ + +GH HLGTGDPYTPGFPSFN TQFPP  SSGLPNIP Q IS   A++L   + G   P +WK   +DS  R+       ++L V+N"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "sp|Q9JKX3|TFR2_MOUSE",
+                  "accession": "Q9JKX3",
+                  "title": "Transferrin receptor protein 2 OS=Mus musculus OX=10090 GN=Tfr2 PE=1 SV=2"
+                }
+              ],
+              "len": 798,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.443,
+                  "score": 376,
+                  "evalue": 1.34041e-40,
+                  "identity": 81,
+                  "positive": 111,
+                  "query_from": 1,
+                  "query_to": 169,
+                  "hit_from": 195,
+                  "hit_to": 376,
+                  "align_len": 182,
+                  "gaps": 13,
+                  "qseq": "IQVKDSAQ-NSVIIVDKNGRLV--YLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK",
+                  "hseq": "LQFPDPAHANTLHWVDADGSVQEQLPLEDPEVYCPYSATGNATGKLVYAHYGRSEDLQDLKAKGVELAGSLLLVRVGITSFAQKVAVAQDFGAQGVLIYPDPSDFSQDPHKPGLSSHQAVYGHVHLGTGDPYTPGFPSFNQTQFPPVESSGLPSIPAQPISADIADQLLRKLTGPVAPQEWK",
+                  "midline": "+Q  D A  N++  VD +G +     +E+P  Y  YS     TGKLV+A++G  +D +DL      + GS+++VR G  +FA+KVA A+   A GVLIY D + F      P +++  + +GH HLGTGDPYTPGFPSFN TQFPP  SSGLP+IP Q IS   A++L   + G   P +WK"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "sp|Q9UP52|TFR2_HUMAN",
+                  "accession": "Q9UP52",
+                  "title": "Transferrin receptor protein 2 OS=Homo sapiens OX=9606 GN=TFR2 PE=1 SV=1"
+                }
+              ],
+              "len": 801,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.673,
+                  "score": 374,
+                  "evalue": 2.17957e-40,
+                  "identity": 81,
+                  "positive": 114,
+                  "query_from": 1,
+                  "query_to": 169,
+                  "hit_from": 200,
+                  "hit_to": 381,
+                  "align_len": 183,
+                  "gaps": 15,
+                  "qseq": "IQVKDSAQ-NSVIIVDKNGRL--VYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYT----PVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWK",
+                  "hseq": "LQFPDPAHPNTLHWVDEAGKVGEQLPLEDPDVYCPYSAIGNVTGELVYAHYGRPEDLQDLRARGVDPV-GRLLLVRVGVISFAQKVTNAQDFGAQGVLIYPEPADFSQDPPKPSLSSQQAVYGHVHLGTGDPYTPGFPSFNQTQFPPVASSGLPSIPAQPISADIASRLLRKLKGPVAPQEWQ",
+                  "midline": "+Q  D A  N++  VD+ G++     +E+P  Y  YS    VTG+LV+A++G  +D +DL      PV G +++VR G I+FA+KV NA+   A GVLIY +   F      P ++++ + +GH HLGTGDPYTPGFPSFN TQFPP  SSGLP+IP Q IS   A +L   ++G   P +W+"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "sp|Q9CZR2|NALD2_MOUSE",
+                  "accession": "Q9CZR2",
+                  "title": "N-acetylated-alpha-linked acidic dipeptidase 2 OS=Mus musculus OX=10090 GN=Naalad2 PE=1 SV=2"
+                }
+              ],
+              "len": 740,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.7297,
+                  "score": 208,
+                  "evalue": 3.96749e-18,
+                  "identity": 72,
+                  "positive": 104,
+                  "query_from": 9,
+                  "query_to": 193,
+                  "hit_from": 116,
+                  "hit_to": 341,
+                  "align_len": 226,
+                  "gaps": 41,
+                  "qseq": "NSVIIVDKNG----RLVYLVENPGGYV----------AYSKAATVTGKLVHANFGTKKDFEDLYTPVN----GSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAE-----LSFFGHAHL--------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WKTDSTCR------MVTSE-SKNVKLTVSNVLK",
+                  "hseq": "NYVSIVDEHGVEIFKTSYLEPPPDGYENVTNIIPPYNAFSASGMPEGELVYVNYARTEDFFKLEREMNINCTGKIVIARYGKIFRGNKVKNAMLAGAMGIILYSDPADYFAPDVQPYPKGWNLPGAAAQRGNVLNLNGAGDPLTPGYPAKEYTFRLPVEEAVGIPNIPVHPIGYNDAERLLRNLGGAAPPDKSWKGSLNVSYNIGPGFTGSEYSRNIRMHVNNINK",
+                  "midline": "N V IVD++G    +  YL   P GY           A+S +    G+LV+ N+   +DF  L   +N    G IVI R GKI    KV NA    A+G+++Y D   +   + +      +  G A          G GDP TPG+P+  +T + P   + G+PNIPV  I    AE+L  N+ G  P D  WK               SE S+N+++ V+N+ K"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "sp|O35409|FOLH1_MOUSE",
+                  "accession": "O35409",
+                  "title": "Glutamate carboxypeptidase 2 OS=Mus musculus OX=10090 GN=Folh1 PE=1 SV=2"
+                }
+              ],
+              "len": 752,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 7.46351e-14,
+                  "identity": 53,
+                  "positive": 76,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 163,
+                  "hit_to": 322,
+                  "align_len": 161,
+                  "gaps": 22,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                  "hseq": "YSAFSPQGTPEGDLVYVNYARTEDFFKLEREMKISCSGKIVIARYGKVFRGNMVKNAQLAGAKGMILYSDPADY-FVPAVKSYPDGWNLPGGGVQRGNVLNLNGAGDPLTPGYPANEHAYRHELTNAVGLPSIPVHPIGYDDAQKLLEHMGGPAPPDSSWK",
+                  "midline": "Y A+S   T  G LV+ N+   +DF     ++    +G IVI R GK+     V NA+   A G+++Y D   +  V A  S+    +L              G GDP TPG+P+  H  +   + + GLP+IPV  I    A+KL  +M G  P D  WK"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "sp|O77564|FOLH1_PIG",
+                  "accession": "O77564",
+                  "title": "Glutamate carboxypeptidase 2 OS=Sus scrofa OX=9823 GN=FOLH1 PE=1 SV=1"
+                }
+              ],
+              "len": 751,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 4.27819e-13,
+                  "identity": 59,
+                  "positive": 87,
+                  "query_from": 9,
+                  "query_to": 169,
+                  "hit_from": 127,
+                  "hit_to": 321,
+                  "align_len": 196,
+                  "gaps": 36,
+                  "qseq": "NSVIIVDKNGRLVY---LVENPG-GY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                  "hseq": "NYISIIDEDGNEIFNTSLFEPPPPGYENVSDVVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKILIARYGKIFRGNKVKNAQLAGAKGIILYSDPADY-FAPGVQSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRLQIAEAVGLPRIPVHPIGYSDAQKLLEKMGGSAPPDDSWK",
+                  "midline": "N + I+D++G  ++   L E P  GY           A+S      G LV+ N+   +DF     D+    +G I+I R GKI    KV NA+   A G+++Y D   +       S+    +L              G GDP TPG+P+  +  +   + + GLP IPV  I  + A+KL   M G  P D  WK"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "sp|P70627|FOLH1_RAT",
+                  "accession": "P70627",
+                  "title": "Glutamate carboxypeptidase 2 OS=Rattus norvegicus OX=10116 GN=Folh1 PE=1 SV=1"
+                }
+              ],
+              "len": 752,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 1.30567e-12,
+                  "identity": 52,
+                  "positive": 76,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 163,
+                  "hit_to": 322,
+                  "align_len": 161,
+                  "gaps": 22,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTPV----NGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                  "hseq": "YSAFSPQGTPEGDLVYVNYARTEDFFKLERVMKINCSGKIVIARYGQVFRGNKVKNAQLAGAKGIILYSDPADY-FVPGVKSYPDGWNLPGGGVQRGNVLNLNGAGDPLTPGYPANEYAYRHEFTEAVGLPSIPVHPIGYDDAQKLLEHMGGSAPPDSSWK",
+                  "midline": "Y A+S   T  G LV+ N+   +DF  L   +    +G IVI R G++    KV NA+   A G+++Y D   +  V    S+    +L              G GDP TPG+P+  +  +   + + GLP+IPV  I    A+KL  +M G  P D  WK"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "sp|Q04609|FOLH1_HUMAN",
+                  "accession": "Q04609",
+                  "title": "Glutamate carboxypeptidase 2 OS=Homo sapiens OX=9606 GN=FOLH1 PE=1 SV=1"
+                }
+              ],
+              "len": 750,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 8.28096e-12,
+                  "identity": 50,
+                  "positive": 73,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 161,
+                  "hit_to": 320,
+                  "align_len": 161,
+                  "gaps": 22,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHL--------------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                  "hseq": "FSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADY-FAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR",
+                  "midline": "+ A+S      G LV+ N+   +DF     D+    +G IVI R GK+    KV NA+   A GV++Y D   +       S+    +L              G GDP TPG+P+  +  +   + + GLP+IPV  I    A+KL   M G  P D  W+"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "sp|Q7M758|NALDL_MOUSE",
+                  "accession": "Q7M758",
+                  "title": "Aminopeptidase NAALADL1 OS=Mus musculus OX=10090 GN=Naaladl1 PE=2 SV=1"
+                }
+              ],
+              "len": 745,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 9.63041e-12,
+                  "identity": 50,
+                  "positive": 72,
+                  "query_from": 30,
+                  "query_to": 175,
+                  "hit_from": 155,
+                  "hit_to": 319,
+                  "align_len": 168,
+                  "gaps": 25,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMD-----------------QTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG-DCPSDWKTDSTCR",
+                  "hseq": "YAAYAPPGTPKGLLVYANQGSEEDFKELETQGINLEGTIALTRYGGVGRGAKAINAAKHGVVGVLVYTDPGDINDGKSLPNETFPNSWRLPPSGVER---GSYYEYFGDPLTPYLPAHPSSFRLDPHNTSGFPPIPTQPIGFEDARDLLCNLTGTSAPAFWQGALGCE",
+                  "midline": "Y AY+   T  G LV+AN G+++DF++L T    + G+I + R G +    K  NA     +GVL+Y D                   + P    E    G  +   GDP TP  P+   + +  P  +SG P IP Q I    A  L  N+ G   P+ W+    C "
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "sp|Q7Y228|LAMP1_ARATH",
+                  "accession": "Q7Y228",
+                  "title": "Probable glutamate carboxypeptidase LAMP1 OS=Arabidopsis thaliana OX=3702 GN=LAMP1 PE=2 SV=1"
+                }
+              ],
+              "len": 681,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 2.10201e-11,
+                  "identity": 47,
+                  "positive": 75,
+                  "query_from": 33,
+                  "query_to": 164,
+                  "hit_from": 135,
+                  "hit_to": 283,
+                  "align_len": 152,
+                  "gaps": 23,
+                  "qseq": "YSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------------PIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSR----SSGLPNIPVQTISRAAAEKLFGNMEGDC",
+                  "hseq": "YAKSGNVSGPVVYANYGRVEDFVRLKKDMGVNVSGAVVIARYGQIYRGDIVKNAYEAGAVGVVIYTDKRDYGGDEWFPASKWMPPSGVQV---GTVYNGLGDPTTPGWASVDGCERLSDEAVELSGDVPLIPSLPVSAADAEVILKTVVGDV",
+                  "midline": "Y+K+  V+G +V+AN+G  +DF    +D+   V+G++VI R G+I   + V NA    A+GV+IY D+  +            P    ++   G  + G GDP TPG+ S +  +         S  +P IP   +S A AE +   + GD "
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "sp|Q9Y3Q0|NALD2_HUMAN",
+                  "accession": "Q9Y3Q0",
+                  "title": "N-acetylated-alpha-linked acidic dipeptidase 2 OS=Homo sapiens OX=9606 GN=NAALAD2 PE=1 SV=1"
+                }
+              ],
+              "len": 740,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 3.24989e-11,
+                  "identity": 54,
+                  "positive": 70,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 151,
+                  "hit_to": 310,
+                  "align_len": 160,
+                  "gaps": 20,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTPV----NGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNAE---LSFFGHAHL--------GTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                  "hseq": "YNAFSAQGMPEGDLVYVNYARTEDFFKLEREMGINCTGKIVIARYGKIFRGNKVKNAMLAGAIGIILYSDPADYFAPEVQPYPKGWNLPGTAAQRGNVLNLNGAGDPLTPGYPAKEYTFRLDVEEGVGIPRIPVHPIGYNDAEILLRYLGGIAPPDKSWK",
+                  "midline": "Y A+S      G LV+ N+   +DF  L   +     G IVI R GKI    KV NA    AIG+++Y D   +  P V       +  G A          G GDP TPG+P+  +T +       G+P IPV  I    AE L   + G  P D  WK"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "sp|Q9UQQ1|NALDL_HUMAN",
+                  "accession": "Q9UQQ1",
+                  "title": "Aminopeptidase NAALADL1 OS=Homo sapiens OX=9606 GN=NAALADL1 PE=1 SV=2"
+                }
+              ],
+              "len": 740,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 61.6178,
+                  "score": 148,
+                  "evalue": 4.14282e-10,
+                  "identity": 49,
+                  "positive": 71,
+                  "query_from": 30,
+                  "query_to": 174,
+                  "hit_from": 150,
+                  "hit_to": 313,
+                  "align_len": 164,
+                  "gaps": 19,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYT---PVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF------PIVNAELSFF--------GHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-CPSDWKTDSTC",
+                  "hseq": "YAAYAPSGTPQGLLVYANRGAEEDFKELQTQGIKLEGTIALTRYGGVGRGAKAVNAAKHGVAGVLVYTDPADINDGLSSPDETFPNSWYLPPSGVERGSYYEYFGDPLTPYLPAVPSSFRVDLANVSGFPPIPTQPIGFQDARDLLCNLNGTLAPATWQGALGC",
+                  "midline": "Y AY+ + T  G LV+AN G ++DF++L T    + G+I + R G +    K  NA      GVL+Y D          P      S++        G  +   GDP TP  P+   + +   +  SG P IP Q I    A  L  N+ G   P+ W+    C"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "sp|O54697|NALDL_RAT",
+                  "accession": "O54697",
+                  "title": "Aminopeptidase NAALADL1 OS=Rattus norvegicus OX=10116 GN=Naaladl1 PE=1 SV=1"
+                }
+              ],
+              "len": 745,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 61.2326,
+                  "score": 147,
+                  "evalue": 6.06221e-10,
+                  "identity": 49,
+                  "positive": 67,
+                  "query_from": 30,
+                  "query_to": 175,
+                  "hit_from": 155,
+                  "hit_to": 319,
+                  "align_len": 168,
+                  "gaps": 25,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMD-----------------QTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG-DCPSDWKTDSTCR",
+                  "hseq": "YAAYAPPGTPKGPLVYANRGSEDDFKKLEAEGINLKGTIALTRYGSVGRGAKAINAARHGVVGVLVYTDPGDINDGKSLPNETFPNSWGLPPSGVER---GSYYEYFGDPLTPYLPAHPVSFRLDPHNISGFPPIPTQPIGFEDAKNLLCNLNGTSAPDSWQGALGCE",
+                  "midline": "Y AY+   T  G LV+AN G++ DF+ L      + G+I + R G +    K  NA     +GVL+Y D                     P    E    G  +   GDP TP  P+   + +  P   SG P IP Q I    A+ L  N+ G   P  W+    C "
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "sp|Q5WN23|GCP2_CAEBR",
+                  "accession": "Q5WN23",
+                  "title": "Glutamate carboxypeptidase 2 homolog OS=Caenorhabditis briggsae OX=6238 GN=gcp-2.1 PE=3 SV=1"
+                }
+              ],
+              "len": 770,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 1.45901e-09,
+                  "identity": 48,
+                  "positive": 74,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 169,
+                  "hit_to": 331,
+                  "align_len": 163,
+                  "gaps": 23,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLY---TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPI--VNAELSF------------FGHAHLGTGDPYTPGFPS----FNHTQFPPSRSSG-LPNIPVQTISRAAAEKLFGNMEGDC-PSDWK",
+                  "hseq": "WLAYGGNGTVSADVVYINRGNANDFKNLKLMGVDVKGKIALMRYGHGFRGDKVYKAQQAGAIGAILFSDTSDVAQDGVDSEHVYPKTIWMPNEGVQRGSLMHGDGDPLSPFYPSKKELFKGRTIEEAKDDGTLPSIPVLPVSYTTALQLLKRMSGRAVPSDWQ",
+                  "midline": "++AY    TV+  +V+ N G   DF++L      V G I ++R G     +KV  A+   AIG +++ D +      V++E  +             G    G GDP +P +PS    F       ++  G LP+IPV  +S   A +L   M G   PSDW+"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "sp|P47161|VPS70_YEAST",
+                  "accession": "P47161",
+                  "title": "Vacuolar protein sorting-associated protein 70 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VPS70 PE=1 SV=1"
+                }
+              ],
+              "len": 811,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 4.37311e-07,
+                  "identity": 47,
+                  "positive": 64,
+                  "query_from": 29,
+                  "query_to": 162,
+                  "hit_from": 230,
+                  "hit_to": 384,
+                  "align_len": 156,
+                  "gaps": 23,
+                  "qseq": "GYVAYSKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLG-------------------TGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG",
+                  "hseq": "GFHQYSKNGSVTARYVFCNYGSISDYKLLLKKNIDIEDKIHIVRSGKILPGLKVKNAELYGASSVIIYTDPFDDGKVTEENGFL-HYPYGPARNPSYIRRDSVNYFSDTPGDPTTPGYPSKDSDTEHMSPVGRVPRIPSVPMSARDVQPILERLNG",
+                  "midline": "G+  YSK  +VT + V  N+G+  D++ L      +   I IVR+GKI    KV NAE   A  V+IY D      V  E  F  H   G                    GDP TPG+PS +      S    +P IP   +S    + +   + G"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "sp|P0DD35|C5AP_STRPQ",
+                  "accession": "P0DD35",
+                  "title": "C5a peptidase OS=Streptococcus pyogenes serotype M3 (strain SSI-1) OX=193567 GN=scpA PE=3 SV=1"
+                }
+              ],
+              "len": 1169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.9878,
+                  "score": 123,
+                  "evalue": 7.92563e-07,
+                  "identity": 28,
+                  "positive": 37,
+                  "query_from": 44,
+                  "query_to": 101,
+                  "hit_from": 372,
+                  "hit_to": 427,
+                  "align_len": 59,
+                  "gaps": 4,
+                  "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+                  "hseq": "AYANRGTK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+                  "midline": " +AN GTK   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "sp|P0DD34|C5AP_STRP3",
+                  "accession": "P0DD34",
+                  "title": "C5a peptidase OS=Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315) OX=198466 GN=scpA PE=3 SV=1"
+                }
+              ],
+              "len": 1169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.9878,
+                  "score": 123,
+                  "evalue": 7.92563e-07,
+                  "identity": 28,
+                  "positive": 37,
+                  "query_from": 44,
+                  "query_to": 101,
+                  "hit_from": 372,
+                  "hit_to": 427,
+                  "align_len": 59,
+                  "gaps": 4,
+                  "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+                  "hseq": "AYANRGTK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+                  "midline": " +AN GTK   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "sp|O43023|YGV9_SCHPO",
+                  "accession": "O43023",
+                  "title": "Inactive zinc metalloprotease C354.09c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC354.09c PE=3 SV=1"
+                }
+              ],
+              "len": 794,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.2174,
+                  "score": 121,
+                  "evalue": 1.4786e-06,
+                  "identity": 47,
+                  "positive": 67,
+                  "query_from": 34,
+                  "query_to": 162,
+                  "hit_from": 233,
+                  "hit_to": 380,
+                  "align_len": 149,
+                  "gaps": 21,
+                  "qseq": "SKAATVTGKLVHANFGTKKDFEDLYTP---VNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQT--------------KFPIVNAEL--SFFGHAHLGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG",
+                  "hseq": "SPSGFVNAPLVYANRGRIEDFEWLVNSGIYVESSIVLVRANQSDFALATANAEKYNASAILIFEDTYLTSLDNLNQVYPAGPYPSANSLYRGSVANHYYY-VGDPLTPGWSAHEETNRISPKDANVLPSIVSIPITFNDGIELLKRLQG",
+                  "midline": "S +  V   LV+AN G  +DFE L      V  SIV+VRA +  FA   ANAE  NA  +LI+ D                 +P  N+    S   H +   GDP TPG+ +   T +  P  ++ LP+I    I+     +L   ++G"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "sp|Q9M1S8|GCP2_ARATH",
+                  "accession": "Q9M1S8",
+                  "title": "Probable glutamate carboxypeptidase AMP1 OS=Arabidopsis thaliana OX=3702 GN=AMP1 PE=1 SV=3"
+                }
+              ],
+              "len": 705,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.2174,
+                  "score": 121,
+                  "evalue": 1.56019e-06,
+                  "identity": 42,
+                  "positive": 66,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 158,
+                  "hit_to": 303,
+                  "align_len": 149,
+                  "gaps": 12,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDF---EDLYTPVNGSIVIVRAGK-ITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSF----NHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEG-DCPSDWK",
+                  "hseq": "YHAYSPSGSAQGNVVFVNHGEERDYHALESIGVSVKGCVVLARKGENLGRGAIVKIAEAKGALGVLIYAENDGGGFGGIER---GTVMRGIGDPVSPGWPGVVGGEKLSLDDELVTRRFPKIPSLPLSLRNAEIILASLGGARAPLEWR",
+                  "midline": "Y AYS + +  G +V  N G ++D+   E +   V G +V+ R G+ +     V  AE+  A+GVLIY +         E    G    G GDP +PG+P        +      +   P IP   +S   AE +  ++ G   P +W+"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "sp|P91406|GCP2_CAEEL",
+                  "accession": "P91406",
+                  "title": "Glutamate carboxypeptidase 2 homolog OS=Caenorhabditis elegans OX=6239 GN=gcp-2.1 PE=1 SV=2"
+                }
+              ],
+              "len": 770,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8322,
+                  "score": 120,
+                  "evalue": 1.75809e-06,
+                  "identity": 41,
+                  "positive": 71,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 169,
+                  "hit_to": 331,
+                  "align_len": 164,
+                  "gaps": 25,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLY---TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQT---------------KFPIVNAELSFFGHAHLGTGDPYTPGFPS----FNHTQFPPSRSSG-LPNIPVQTISRAAAEKLFGNMEGD-CPSDWK",
+                  "hseq": "WLAYAGNGSASADVVYINHGTANDFKNLKLMGVDIKGKIALMRYGHGFRGDKIHKAQQAGAIGAILFSDTQDVAQDGVESENVYPKKIWMPNEGVQRGSLMH-GDGDALSPYYPSKKELFKGRTIEEAKEDGVLPSIPVLPVSYTTGYEILKRLSGRPAPSDWQ",
+                  "midline": "++AY+   + +  +V+ N GT  DF++L      + G I ++R G     +K+  A+   AIG +++ D                 K  + N  +      H G GD  +P +PS    F       ++  G LP+IPV  +S     ++   + G   PSDW+"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "sp|P15926|C5AP_STRPY",
+                  "accession": "P15926",
+                  "title": "C5a peptidase OS=Streptococcus pyogenes OX=1314 GN=scpA PE=1 SV=1"
+                }
+              ],
+              "len": 1167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 2.92045e-06,
+                  "identity": 28,
+                  "positive": 36,
+                  "query_from": 44,
+                  "query_to": 101,
+                  "hit_from": 370,
+                  "hit_to": 425,
+                  "align_len": 59,
+                  "gaps": 4,
+                  "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+                  "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKVANAKKAGAVGVLIYDNQDKGFPI",
+                  "midline": " +AN G K   ED +  V G I ++  G I F +KVANA+   A+GVLIY +Q K FPI"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "sp|Q5X9R0|C5AP_STRP6",
+                  "accession": "Q5X9R0",
+                  "title": "C5a peptidase OS=Streptococcus pyogenes serotype M6 (strain ATCC BAA-946 / MGAS10394) OX=286636 GN=scpA PE=3 SV=1"
+                }
+              ],
+              "len": 1184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 4.09858e-06,
+                  "identity": 27,
+                  "positive": 36,
+                  "query_from": 44,
+                  "query_to": 101,
+                  "hit_from": 370,
+                  "hit_to": 425,
+                  "align_len": 59,
+                  "gaps": 4,
+                  "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+                  "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+                  "midline": " +AN G K   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "sp|P58099|C5AP_STRP1",
+                  "accession": "P58099",
+                  "title": "C5a peptidase OS=Streptococcus pyogenes serotype M1 OX=301447 GN=scpA PE=1 SV=1"
+                }
+              ],
+              "len": 1181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 4.25393e-06,
+                  "identity": 27,
+                  "positive": 36,
+                  "query_from": 44,
+                  "query_to": 101,
+                  "hit_from": 370,
+                  "hit_to": 425,
+                  "align_len": 59,
+                  "gaps": 4,
+                  "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+                  "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+                  "midline": " +AN G K   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "sp|Q8NZ80|C5AP_STRP8",
+                  "accession": "Q8NZ80",
+                  "title": "C5a peptidase OS=Streptococcus pyogenes serotype M18 (strain MGAS8232) OX=186103 GN=scpA PE=3 SV=1"
+                }
+              ],
+              "len": 1150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 4.3627e-06,
+                  "identity": 27,
+                  "positive": 36,
+                  "query_from": 44,
+                  "query_to": 101,
+                  "hit_from": 370,
+                  "hit_to": 425,
+                  "align_len": 59,
+                  "gaps": 4,
+                  "qseq": "VHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK-FPI",
+                  "hseq": "AYANRGMK---EDDFKDVKGKIALIERGDIDFKDKIANAKKAGAVGVLIYDNQDKGFPI",
+                  "midline": " +AN G K   ED +  V G I ++  G I F +K+ANA+   A+GVLIY +Q K FPI"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "sp|D4B1R0|GCP1_ARTBC",
+                  "accession": "D4B1R0",
+                  "title": "Probable glutamate carboxypeptidase ARB_02390 OS=Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=ARB_02390 PE=1 SV=1"
+                }
+              ],
+              "len": 727,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 1.09259e-05,
+                  "identity": 48,
+                  "positive": 75,
+                  "query_from": 32,
+                  "query_to": 194,
+                  "hit_from": 151,
+                  "hit_to": 340,
+                  "align_len": 194,
+                  "gaps": 35,
+                  "qseq": "AYSKAATVTGKLVHANFGTKKDFEDLY---TPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTK------------FP---------IVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCP-------SDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                  "hseq": "GYSASGEATAEYVYVGRGQKVDFERLIQLGVDLKGKIAIARYGGPFRGLKVKNAQDQGMIGCIIFTDPADDGNVTVANGLKAYPNGPARNPSAVQRGSVQFLS---MFPGDPTTPGYPSRPDSPR-KDKSPVVPKIPSIPISQLDAQPILAALDGHGTPGKEVNRTRWVGALNATYATGPAPGAKLSMSNVMRD",
+                  "midline": " YS +   T + V+   G K DFE L      + G I I R G      KV NA+    IG +I+ D               +P         +    + F     +  GDP TPG+PS   +     +S  +P IP   IS+  A+ +   ++G          + W         T  +   KL++SNV+++"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "sp|Q58DX5|NADL2_HUMAN",
+                  "accession": "Q58DX5",
+                  "title": "Inactive N-acetylated-alpha-linked acidic dipeptidase-like protein 2 OS=Homo sapiens OX=9606 GN=NAALADL2 PE=1 SV=3"
+                }
+              ],
+              "len": 795,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.000217599,
+                  "identity": 52,
+                  "positive": 86,
+                  "query_from": 30,
+                  "query_to": 192,
+                  "hit_from": 263,
+                  "hit_to": 433,
+                  "align_len": 173,
+                  "gaps": 12,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDFEDLYT--PVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFP-IVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGD-----CPSDWKTDSTCRMVTSESKNV-KL-TVSNVL",
+                  "hseq": "YAAYSAKGTLKAEVIDVSYGMADDLKRIRKIKNVTNQIALLKLGKLPLLYKLSSLEKAGFGGVLLYIDPCDLPKTVNPSHDTFMVSLNPGGDPSTPGYPSVDES-FRQSRSN-LTSLLVQPISAPLVAKLISSPKARTKNEACSSLELPNNEIRVVSMQVQTVTKLKTVTNVV",
+                  "midline": "Y AYS   T+  +++  ++G   D + +     V   I +++ GK+    K+++ E     GVL+Y+D    P  VN     F  +    GDP TPG+PS + + F  SRS+ L ++ VQ IS     KL  + +       C S    ++  R+V+ + + V KL TV+NV+"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "sp|P29141|SUBV_BACSU",
+                  "accession": "P29141",
+                  "title": "Minor extracellular protease Vpr OS=Bacillus subtilis (strain 168) OX=224308 GN=vpr PE=1 SV=1"
+                }
+              ],
+              "len": 806,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.2022,
+                  "score": 95,
+                  "evalue": 0.00314918,
+                  "identity": 20,
+                  "positive": 30,
+                  "query_from": 42,
+                  "query_to": 93,
+                  "hit_from": 383,
+                  "hit_to": 432,
+                  "align_len": 52,
+                  "gaps": 2,
+                  "qseq": "KLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIY",
+                  "hseq": "ELVEAGIGEAKDFEG--KDLTGKVAVVKRGSIAFVDKADNAKKAGAIGMVVY",
+                  "midline": "+LV A  G  KDFE     + G + +V+ G I F +K  NA+   AIG+++Y"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "sp|Q06003|GOLI_DROME",
+                  "accession": "Q06003",
+                  "title": "E3 ubiquitin-protein ligase goliath OS=Drosophila melanogaster OX=7227 GN=gol PE=1 SV=3"
+                }
+              ],
+              "len": 461,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 39.6614,
+                  "score": 91,
+                  "evalue": 0.0115463,
+                  "identity": 28,
+                  "positive": 38,
+                  "query_from": 35,
+                  "query_to": 96,
+                  "hit_from": 99,
+                  "hit_to": 173,
+                  "align_len": 77,
+                  "gaps": 17,
+                  "qseq": "KAATVTGKLVHANFGTKKDFEDLY--TP-VNGS------------IVIVRAGKITFAEKVANAESLNAIGVLIYMDQ",
+                  "hseq": "KVLNVTGRLIHIT--ATDNFSDDYACTPYIRGTLGAPIPDKGETWIALVRRGRCTFEEKVKHVYQQNAAGVIIYNDK",
+                  "midline": "K   VTG+L+H       +F D Y  TP + G+            I +VR G+ TF EKV +    NA GV+IY D+"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "sp|P25152|BSAP_BACSU",
+                  "accession": "P25152",
+                  "title": "Aminopeptidase YwaD OS=Bacillus subtilis (strain 168) OX=224308 GN=ywaD PE=1 SV=2"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 37.7354,
+                  "score": 86,
+                  "evalue": 0.0462699,
+                  "identity": 25,
+                  "positive": 37,
+                  "query_from": 18,
+                  "query_to": 93,
+                  "hit_from": 106,
+                  "hit_to": 176,
+                  "align_len": 76,
+                  "gaps": 5,
+                  "qseq": "GRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIY",
+                  "hseq": "GRDILLQAASGS--APTEEQGLTAPLYNAGLGYQKDFT---ADAKGKIALISRGDLTYYEKAKNAEAAGAKAVIIY",
+                  "midline": "GR + L    G   A ++   +T  L +A  G +KDF        G I ++  G +T+ EK  NAE+  A  V+IY"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "sp|Q6Y290|GOLI_RAT",
+                  "accession": "Q6Y290",
+                  "title": "E3 ubiquitin-protein ligase RNF130 OS=Rattus norvegicus OX=10116 GN=Rnf130 PE=1 SV=1"
+                }
+              ],
+              "len": 419,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 1.93133,
+                  "identity": 19,
+                  "positive": 29,
+                  "query_from": 65,
+                  "query_to": 118,
+                  "hit_from": 105,
+                  "hit_to": 151,
+                  "align_len": 54,
+                  "gaps": 7,
+                  "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+                  "hseq": "IALLQRGNCTFKEKISRAAFHNAVAVVIYNNKSKEEPVTM-------THPGTGD",
+                  "midline": "I +++ G  TF EK++ A   NA+ V+IY +++K   V          H GTGD"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "sp|Q8VEM1|GOLI_MOUSE",
+                  "accession": "Q8VEM1",
+                  "title": "E3 ubiquitin-protein ligase RNF130 OS=Mus musculus OX=10090 GN=Rnf130 PE=2 SV=1"
+                }
+              ],
+              "len": 419,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 2.00299,
+                  "identity": 19,
+                  "positive": 29,
+                  "query_from": 65,
+                  "query_to": 118,
+                  "hit_from": 105,
+                  "hit_to": 151,
+                  "align_len": 54,
+                  "gaps": 7,
+                  "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+                  "hseq": "IALLQRGNCTFKEKISRAAFHNAVAVVIYNNKSKEEPVTM-------THPGTGD",
+                  "midline": "I +++ G  TF EK++ A   NA+ V+IY +++K   V          H GTGD"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "sp|Q86XS8|GOLI_HUMAN",
+                  "accession": "Q86XS8",
+                  "title": "E3 ubiquitin-protein ligase RNF130 OS=Homo sapiens OX=9606 GN=RNF130 PE=1 SV=1"
+                }
+              ],
+              "len": 419,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 2.00299,
+                  "identity": 19,
+                  "positive": 29,
+                  "query_from": 65,
+                  "query_to": 118,
+                  "hit_from": 105,
+                  "hit_to": 151,
+                  "align_len": 54,
+                  "gaps": 7,
+                  "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+                  "hseq": "IALLQRGNCTFKEKISRAAFHNAVAVVIYNNKSKEEPVTM-------THPGTGD",
+                  "midline": "I +++ G  TF EK++ A   NA+ V+IY +++K   V          H GTGD"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "sp|Q54ET5|SYLM_DICDI",
+                  "accession": "Q54ET5",
+                  "title": "Leucine--tRNA ligase, mitochondrial OS=Dictyostelium discoideum OX=44689 GN=mleuS PE=3 SV=1"
+                }
+              ],
+              "len": 940,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 2.64539,
+                  "identity": 27,
+                  "positive": 38,
+                  "query_from": 71,
+                  "query_to": 150,
+                  "hit_from": 311,
+                  "hit_to": 386,
+                  "align_len": 82,
+                  "gaps": 8,
+                  "qseq": "GKITFAEKVANAESLNAIGVLIYMDQTK--FPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISR",
+                  "hseq": "NKMGTQEDVENLKTFNT-GLTFYQPITKKYIPLI---LSNFVHADYGTG--AVMGVPSHNRSDYQVAKQQNLKLLPVLGIER",
+                  "midline": " K+   E V N ++ N  G+  Y   TK   P++   LS F HA  GTG     G PS N + +  ++   L  +PV  I R"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "sp|P15293|P2P_LACLC",
+                  "accession": "P15293",
+                  "title": "PII-type proteinase OS=Lactococcus lactis subsp. cremoris OX=1359 GN=prt PE=3 SV=1"
+                }
+              ],
+              "len": 1902,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 32.7278,
+                  "score": 73,
+                  "evalue": 2.68034,
+                  "identity": 19,
+                  "positive": 31,
+                  "query_from": 50,
+                  "query_to": 107,
+                  "hit_from": 474,
+                  "hit_to": 532,
+                  "align_len": 59,
+                  "gaps": 1,
+                  "qseq": "TKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIY-MDQTKFPIVNAELS",
+                  "hseq": "SKGKVADYTADAKGKIAIVKRGELTFADKQKYAQAAGAAGLIIVNNDGTATPVTSMALT",
+                  "midline": "+K    D      G I IV+ G++TFA+K   A++  A G++I   D T  P+ +  L+"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "sp|A0A1D6L709|VP8_MAIZE",
+                  "accession": "A0A1D6L709",
+                  "title": "Probable glutamate carboxypeptidase VP8 OS=Zea mays OX=4577 GN=VP8 PE=2 SV=1"
+                }
+              ],
+              "len": 713,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.9574,
+                  "score": 71,
+                  "evalue": 3.58079,
+                  "identity": 38,
+                  "positive": 61,
+                  "query_from": 30,
+                  "query_to": 169,
+                  "hit_from": 152,
+                  "hit_to": 293,
+                  "align_len": 148,
+                  "gaps": 14,
+                  "qseq": "YVAYSKAATVTGKLVHANFGTKKDF---EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQF----PPSRSSGLPNIPVQTISRAAAEKLFGNMEGDC-PSDWK",
+                  "hseq": "YHAYAPSGGAVAEAVFVNLGREEDYVVLERLGVGVRGRVAVARRGGGYRGGVVARAADKGAVAVLIAGNADGG--VERGVVLLG----GPGDPLTPGWAATSGAERLKFDDKAVKQRFPSIPSMPVSAKTAAAIIRSLGGPAIPAEWK",
+                  "midline": "Y AY+ +     + V  N G ++D+   E L   V G + + R G       VA A    A+ VLI  +      V   +   G    G GDP TPG+ + +  +       +     P+IP   +S   A  +  ++ G   P++WK"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "sp|Q852M4|PLAT3_ORYSJ",
+                  "accession": "Q852M4",
+                  "title": "Probable glutamate carboxypeptidase PLA3 OS=Oryza sativa subsp. japonica OX=39947 GN=PLA3 PE=1 SV=2"
+                }
+              ],
+              "len": 749,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 5.76676,
+                  "identity": 19,
+                  "positive": 30,
+                  "query_from": 115,
+                  "query_to": 170,
+                  "hit_from": 267,
+                  "hit_to": 327,
+                  "align_len": 64,
+                  "gaps": 11,
+                  "qseq": "GTGDPYTPGFPS--------FNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKT",
+                  "hseq": "GPGDPLTPGWAATAGAERLDFDHEDV-KRRFPAIPSMPVSGKTASAIIRTLGGPA--LPADWQT",
+                  "midline": "G GDP TPG+ +        F+H      R   +P++PV   + +A  +  G      P+DW+T"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "sp|B2GF74|PURL_LIMF3",
+                  "accession": "B2GF74",
+                  "title": "Phosphoribosylformylglycinamidine synthase subunit PurL OS=Limosilactobacillus fermentum (strain NBRC 3956 / LMG 18251) OX=334390 GN=purL PE=3 SV=1"
+                }
+              ],
+              "len": 741,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 6.02514,
+                  "identity": 25,
+                  "positive": 38,
+                  "query_from": 1,
+                  "query_to": 69,
+                  "hit_from": 450,
+                  "hit_to": 529,
+                  "align_len": 80,
+                  "gaps": 11,
+                  "qseq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAAT---VTGKLVHA-----NFGTKKD---FEDLYTPVNGSIVIVR",
+                  "hseq": "LRVRGTKKGLAMTTDGNGRFVYLNPEVGGKMALAEAAANIVATGALPLAITDCLNYGDPNDPEIFWELHQSVSGMAEACR",
+                  "midline": "++V+ + +   +  D NGR VYL    GG +A ++AA     TG L  A     N+G   D   F +L+  V+G     R"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "sp|Q6NRX0|RN149_XENLA",
+                  "accession": "Q6NRX0",
+                  "title": "E3 ubiquitin-protein ligase RNF149 OS=Xenopus laevis OX=8355 GN=rnf149 PE=2 SV=1"
+                }
+              ],
+              "len": 397,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 6.56102,
+                  "identity": 22,
+                  "positive": 29,
+                  "query_from": 65,
+                  "query_to": 118,
+                  "hit_from": 105,
+                  "hit_to": 152,
+                  "align_len": 54,
+                  "gaps": 6,
+                  "qseq": "IVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGD",
+                  "hseq": "IALVARGGCTFKEKVFNAANRGASAVVIYNEAKSG---NATVSM---SHLGTGN",
+                  "midline": "I +V  G  TF EKV NA +  A  V+IY +       NA +S    +HLGTG+"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "sp|P21242|PSA7_YEAST",
+                  "accession": "P21242",
+                  "title": "Probable proteasome subunit alpha type-7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PRE10 PE=1 SV=2"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 7.16982,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 14,
+                  "query_to": 42,
+                  "hit_from": 141,
+                  "hit_to": 169,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "VDKNGRLVYLVENPGGYVAYSKAATVTGK",
+                  "hseq": "VDKNGAHLYMLEPSGSYWGYKGAATGKGR",
+                  "midline": "VDKNG  +Y++E  G Y  Y  AAT  G+"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "sp|A6VQ01|RLMM_ACTSZ",
+                  "accession": "A6VQ01",
+                  "title": "Ribosomal RNA large subunit methyltransferase M OS=Actinobacillus succinogenes (strain ATCC 55618 / DSM 22257 / CCUG 43843 / 130Z) OX=339671 GN=rlmM PE=3 SV=1"
+                }
+              ],
+              "len": 364,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 8.7272,
+                  "identity": 20,
+                  "positive": 30,
+                  "query_from": 101,
+                  "query_to": 168,
+                  "hit_from": 158,
+                  "hit_to": 231,
+                  "align_len": 74,
+                  "gaps": 6,
+                  "qseq": "IVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSG------LPNIPVQTISRAAAEKLFGNMEGDCPSDW",
+                  "hseq": "FVRSDACYAGYSYNRNHSPYFMGIPRLKFPTEAPSRSTLKLEEAILTFIPREEESKRLNENMIGVDLGACPGGW",
+                  "midline": " V ++  + G+++     PY  G P        PSRS+       L  IP +  S+   E + G   G CP  W"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 575748,
+            "db_len": 209017843,
+            "hsp_len": 112,
+            "eff_space": 11851793494,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

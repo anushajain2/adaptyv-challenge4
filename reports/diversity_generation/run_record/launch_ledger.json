@@ -57,5 +57,6 @@
     "score_matched_controls.py": "3d3034692b3eca2303449981a13cb86afb9f841be5171496c0807eb2adbfbc1a",
     "apical_expansion_worker.py": "a3049aaddb1a8a0be128ec627476814c776babff840b13c229d8e6eb0cfaca5b",
     "launch_diversity_round.py": "93fac5ec4f4892d2a98d498f252ce263765f64e453a7f5f52e0154e29069e33c"
-  }
+  },
+  "client_exit_code": 0
 }

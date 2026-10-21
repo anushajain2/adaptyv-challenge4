@@ -1,0 +1,34 @@
+{
+  "id": "scrambled_6wrw",
+  "arm": "control",
+  "kind": "negative_hypothesis",
+  "seed": 2309,
+  "sample": 0,
+  "upstream_confidence_selected": true,
+  "confidence_selected": true,
+  "target_CA_rmsd_to_input_A": 0.5208843861560314,
+  "metrics": {
+    "iptm": 0.1261795163154602,
+    "ptm": 0.4763629734516144,
+    "design_to_target_iptm": 0.1261795163154602,
+    "interaction_pae": 25.92879867553711,
+    "min_design_to_target_pae": 19.93064308166504,
+    "design_ptm": 0.2335941195487976
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.0,
+      "B_A": 0.0
+    },
+    "ipsae_min": 0.0,
+    "ipsae_max": 0.0,
+    "contact_residue_pairs": 78,
+    "contact_pae_A_to_B_A": 23.20323371887207,
+    "contact_pae_B_to_A_A": 24.154300689697266,
+    "contact_pae_both_directions_A": 23.678767204284668,
+    "binder_mean_plddt": 0.33312931656837463
+  },
+  "raw_scoring_output": "outputs/his_panel_scoring/diversity-confirm-024-6wrw/seed-2309/scrambled_6wrw/0",
+  "control_pass": true,
+  "target_integrity_pass": true
+}
