@@ -2,7 +2,16 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest result:** the [matched bare/tagged comparison](reports/tag_comparison/RESULTS.md)
+**Latest deliverable:** a [ranked submission draft](reports/submission_draft/README.md)
+contains **six bare sequences across five parent lineages**, with sequence-liability
+and diversity audits, methods, source hashes and 12 selected structures. The user
+confirmed Track 2 or 3; six is within the 20-design maximum. A41H ranks first as a
+pH-direction hypothesis; its parent is explicitly a related comparator. E19H stays
+in reserve. Mixed geometry, preparation exclusions and unresolved tag compatibility
+remain visible. This is a review draft, not a submitted application. No new cloud
+compute was used. [Draft CSV](reports/submission_draft/submission_draft.csv).
+
+**Latest experiment:** the [matched bare/tagged comparison](reports/tag_comparison/RESULTS.md)
 completed **140 predictions** using the documented 64-residue platform-default
 suffix. All 12 selected raw control checks pass using binder-core PAE. Both bare
 variants pass the two-seed core screen; neither tagged variant does. Tagged A41H
@@ -17,9 +26,9 @@ One new bare A41H model gives a −0.608 pKa shift and a 2.12 His-only ratio pro
 the other is excluded by movement. E19H has one usable shift but fails the free-pKa
 heuristic. No experimental binding or pH switch is established.
 
-Next: prepare a ranked submission draft and audit sequence liabilities and diversity,
-keeping A41H as the primary hypothesis and preserving every exclusion. Further
-generation, if pursued, should add different apical scaffold families. Tag
+Next: review the draft and perform database-level sequence/structure novelty
+screening before expanding it. Further generation, if pursued, should add different
+apical scaffold families. Tag
 compatibility and mouse cross-reactivity remain unresolved. The
 [earlier preparation review](reports/receptor_preparation_v2/RESULTS.md) and
 [24-variant follow-up](reports/expansion_his_direction/RESULTS.md) retain their
@@ -53,6 +62,7 @@ and reproducibility records are in the results report.
 
 | Deliverable | Status |
 |---|---|
+| Ranked submission draft | Six sequences, five parent lineages; bare CSV/FASTA, sequence audit, methods and 12 selected models; not submitted |
 | Matched bare/tagged comparison | 140 predictions; raw controls pass; neither tagged variant clears both selected core screens |
 | Tagged-round preparation/direction | 28 models, 56 successful pKa calculations; 23 movement passes; zero qualified two-pose direction passes |
 | Uniform receptor preparation v2 | 28 models, 56 warning-free pKa calculations; 25 movement passes; complete prepared control-panel gate fails |
@@ -74,7 +84,7 @@ pilot used 25 designs per protocol; the earlier 20-design comparison had a separ
 **US$5 allowance within that total**, including its failed preflight attempt.
 No outcome is guaranteed within that budget.
 
-Local verification: **64 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **70 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.

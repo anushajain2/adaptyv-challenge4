@@ -2,7 +2,15 @@
 
 The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
 
-## Latest matched bare/tagged comparison — 21 October 2026
+## Latest ranked submission draft — 21 October 2026
+
+The [draft package](submission_draft/README.md) contains **six bare sequences from five parent lineages**, within the user-confirmed Tracks 2/3 limit. A41H is the leading pH-direction hypothesis, followed by long_092, short_026, short_015, short_018 and the short_008 matched parent. E19H and other weaker variants remain outside the draft CSV. No binding, mouse, pH-switch or tag-compatibility property is represented as experimentally established.
+
+The sequence audit finds no cysteines in the six cores, an NNT sequon in short_026 and an AAAA run in long_092. These are descriptive review flags, not a validated developability score. Different parent lineages have 22.5–33.9% aligned sequence identity; A41H and its parent are 98.3% identical. Five lineages are not five proven fold classes, and exhaustive known-protein novelty screening remains outstanding. Both selected bare models per design are archived, including the short_018 and short_008 failures; the latest direction exclusions are preserved.
+
+The [CSV](submission_draft/submission_draft.csv), [audit](submission_draft/audit.json), [methods](submission_draft/METHODS.md) and [hash manifest](submission_draft/manifest.json) are ready for review. Next: database-level sequence/structure novelty review before expanding the shortlist. This round adds $0 Modal compute; latest recorded gross spend remains $10.75348933 of $30. Seventy local tests pass. No challenge submission or upstream issue/PR was made.
+
+## Earlier matched bare/tagged comparison — 21 October 2026
 
 **A41H remains the leading hypothesis, with tag compatibility unresolved.** The 140-prediction comparison tests A41H, E19H, their parents and controls with and without the documented 64-residue platform-default suffix. All 12 selected raw control checks pass on binder-core PAE. Both bare variants pass both selected core screens. Tagged A41H fails one selected clash check (1.909 Å Glu5–Thr376); tagged E19H fails both interface-pose checks (2.185/2.403 Å). Low-confidence suffix contacts also occur on presumed negatives, preventing a simple real-binding interpretation.
 

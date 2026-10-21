@@ -1,0 +1,148 @@
+{
+  "status": "DRAFT_NOT_SUBMITTED",
+  "inputs": {
+    "reports/his_confirmation/results.json": "7b37b43a687fe1ebe73b1b57e9281a1dff0c667459f3cdaca67de2ab688e85c1",
+    "reports/expansion_validation/results.json": "1bd0af5a15df16b25ac40ab291929b056eb55abbf1dbaf7ae98d4a45458c9e67",
+    "reports/expansion_his_confirmation/results.json": "39463bd01f5d348c4d6bbbe8939213e2798945b998b086b1003aac7fe23a36ac",
+    "reports/tag_comparison/results.json": "347fb0b68e6bcab8f366e033009fe2ef9cf5a0f994fa5742534177b44a6694fb",
+    "data/tag_comparison/manifest.json": "b9459b77bb5bb44ad6574214400de718ec7c4c6b8560113090c42915ee931f9f",
+    "reports/tag_comparison/direction.json": "593c6feb8afd4ac65f3b75930385ff69a572c61c64336fa969e760bbf7ae6684",
+    "reports/receptor_preparation_v2/RESULTS.md": "0445ad14b6f430dc1b094868a4b7a601f4ede174d220e17f7953c723ecac91a7",
+    "reports/expansion_his_direction/RESULTS.md": "7f7a3cc5cc0414515c1f55ca26cc84cbbf2427de7ce0231102aba8060167471f",
+    "reports/tag_comparison/billing_after.json": "776b89164d79a82248a64d5e4f2549c874195e30cb64cdbd36d706ca5df4dc64",
+    "scripts/build_submission_draft.py": "e99a10757bc34a1c34ff7aca9c6ab868f931661cf860aae97937f150911338a4"
+  },
+  "models": [
+    {
+      "name": "apical_short_008_A41H",
+      "seed": 2003,
+      "sample": 3,
+      "source": "outputs/tag_comparison_scoring/seed-2003/apical_short_008_A41H_bare/3/model.pdb",
+      "path": "reports/submission_draft/models/apical_short_008_A41H_seed2003_sample3.pdb",
+      "sha256": "f57e696544a70f3298347d4c982bf888f2c2b836eb149e8dbb3515db2a2103dd",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "apical_short_008_A41H",
+      "seed": 2011,
+      "sample": 1,
+      "source": "outputs/tag_comparison_scoring/seed-2011/apical_short_008_A41H_bare/1/model.pdb",
+      "path": "reports/submission_draft/models/apical_short_008_A41H_seed2011_sample1.pdb",
+      "sha256": "7e082bb5b0970a9afce661cf5202ad40dd38bc6465386c7dee40d402a3fbaf7b",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "expansion_apical_long_092",
+      "seed": 1801,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_long_092/4/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_long_092_seed1801_sample4.pdb",
+      "sha256": "47f0b9448984e2d0cac12d6f219bed9918aa9ca15b7f4db6edadd97c1ff8cce0",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "expansion_apical_long_092",
+      "seed": 1901,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_long_092/4/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_long_092_seed1901_sample4.pdb",
+      "sha256": "4c5c7ffee6c24362667c2c5bad65fa27b3d697ad4a16f8c98420c19cb9a4b2dc",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "expansion_apical_short_026",
+      "seed": 2003,
+      "sample": 4,
+      "source": "outputs/tag_comparison_scoring/seed-2003/expansion_apical_short_026_bare/4/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_short_026_seed2003_sample4.pdb",
+      "sha256": "646b3dca8f402bfe08510b82f97aa45b1c10e4852e638cb442d9f0909266f049",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "expansion_apical_short_026",
+      "seed": 2011,
+      "sample": 4,
+      "source": "outputs/tag_comparison_scoring/seed-2011/expansion_apical_short_026_bare/4/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_short_026_seed2011_sample4.pdb",
+      "sha256": "af74c3346b0a5472d2cbfe9c7d01f7dc0812c84410c464705359de1e1ff3f52d",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "expansion_apical_short_015",
+      "seed": 1409,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1409/expansion_apical_short_015/0/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_short_015_seed1409_sample0.pdb",
+      "sha256": "c84f45ad7786a05bd81ff31641d6657ee0a25831daa063ecc96a779830d2d164",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "expansion_apical_short_015",
+      "seed": 1511,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/apical-validation-018-6wrw/seed-1511/expansion_apical_short_015/1/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_short_015_seed1511_sample1.pdb",
+      "sha256": "03535f609ad87bcc660385c9707472c5e1ecec2150e7f5100278c4e373dce22a",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "expansion_apical_short_018",
+      "seed": 1801,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1801/expansion_apical_short_018/2/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_short_018_seed1801_sample2.pdb",
+      "sha256": "193bf40a9dffa08b24094fb352852ee8340a70407d2d32b99337b329cdc54b7e",
+      "selected_screen_pass": false,
+      "selected_screen_failures": [
+        "clash_clearance"
+      ]
+    },
+    {
+      "name": "expansion_apical_short_018",
+      "seed": 1901,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/his-expansion-confirm-021-6wrw/seed-1901/expansion_apical_short_018/4/model.pdb",
+      "path": "reports/submission_draft/models/expansion_apical_short_018_seed1901_sample4.pdb",
+      "sha256": "c28a395348684a96427168357f8420db1c9604be2b0a341099031f7cb4f613d2",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "apical_short_008",
+      "seed": 2003,
+      "sample": 4,
+      "source": "outputs/tag_comparison_scoring/seed-2003/apical_short_008_bare/4/model.pdb",
+      "path": "reports/submission_draft/models/apical_short_008_seed2003_sample4.pdb",
+      "sha256": "30603eb046a6c9955c6bf90ddc2230071eed2a5a28c969ee6f2d4f327c6143b5",
+      "selected_screen_pass": true,
+      "selected_screen_failures": []
+    },
+    {
+      "name": "apical_short_008",
+      "seed": 2011,
+      "sample": 2,
+      "source": "outputs/tag_comparison_scoring/seed-2011/apical_short_008_bare/2/model.pdb",
+      "path": "reports/submission_draft/models/apical_short_008_seed2011_sample2.pdb",
+      "sha256": "dbe4c02b18849e84c874590bf5e50d4f274a5b14c378a087e9956344b6feee9a",
+      "selected_screen_pass": false,
+      "selected_screen_failures": [
+        "clash_clearance"
+      ]
+    }
+  ],
+  "outputs": {
+    "audit.json": "83b7695016d5fde307c01ef78263e0268a13e2dd02c1a1540d4ddd5346d7171b",
+    "README.md": "07a8ceecc76ad484ae728147b79df897b06f5363db6fbd1d99cd685d1d1ec0fb",
+    "METHODS.md": "d6dcbd1cef19463abe881b60771b205502dbc4e6ed4fad8d5e55b05c5d4043a7",
+    "submission_draft.csv": "e65a5f5c4006d817e51150fb6e99fff850d37dcc2fd29fd0ad9485796de7bf7f",
+    "submission_draft.fasta": "c74fd43c80818b88ba4655875e8020f8254005d3f7e763ac62df2ba9afe97bc7"
+  }
+}
