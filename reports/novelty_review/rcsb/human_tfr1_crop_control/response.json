@@ -1,0 +1,3420 @@
+{
+  "retrieved_utc": "2026-10-21T14:24:06.908701+00:00",
+  "http_status": 200,
+  "response_headers": {
+    "vary": "origin,access-control-request-method,access-control-request-headers,accept-encoding",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "date": "Wed, 21 Oct 2026 14:24:05 GMT",
+    "strict-transport-security": "max-age=16000000; includeSubDomains; preload;",
+    "alt-svc": "h3=\":443\";ma=60;",
+    "connection": "close"
+  },
+  "data": {
+    "query_id": "d819c30c-2102-40a3-aaa1-19f2ab40f845",
+    "result_type": "polymer_entity",
+    "total_count": 128,
+    "result_set": [
+      {
+        "identifier": "11QC_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 69,
+                    "subject_end": 262,
+                    "query_length": 194,
+                    "subject_length": 639,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "11RN_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 69,
+                    "subject_end": 262,
+                    "query_length": 194,
+                    "subject_length": 637,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "1CX8_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 69,
+                    "subject_end": 262,
+                    "query_length": 194,
+                    "subject_length": 639,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "1DE4_3",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 70,
+                    "subject_end": 263,
+                    "query_length": 194,
+                    "subject_length": 640,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "1SUV_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 69,
+                    "subject_end": 262,
+                    "query_length": 194,
+                    "subject_length": 639,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2NSU_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 69,
+                    "subject_end": 262,
+                    "query_length": 194,
+                    "subject_length": 639,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3KAS_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 70,
+                    "subject_end": 263,
+                    "query_length": 194,
+                    "subject_length": 640,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3S9L_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 84,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 654,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3S9M_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 84,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 654,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3S9N_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 84,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 654,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6D03_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 89,
+                    "subject_end": 282,
+                    "query_length": 194,
+                    "subject_length": 659,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6D04_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 89,
+                    "subject_end": 282,
+                    "query_length": 194,
+                    "subject_length": 659,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6D05_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 89,
+                    "subject_end": 282,
+                    "query_length": 194,
+                    "subject_length": 659,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6GSR_2",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 70,
+                    "subject_end": 263,
+                    "query_length": 194,
+                    "subject_length": 640,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6H5I_2",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 70,
+                    "subject_end": 263,
+                    "query_length": 194,
+                    "subject_length": 640,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6OKD_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 72,
+                    "subject_end": 265,
+                    "query_length": 194,
+                    "subject_length": 670,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6WRV_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 70,
+                    "subject_end": 263,
+                    "query_length": 194,
+                    "subject_length": 639,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6WRW_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 70,
+                    "subject_end": 263,
+                    "query_length": 194,
+                    "subject_length": 640,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6WRX_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 70,
+                    "subject_end": 263,
+                    "query_length": 194,
+                    "subject_length": 640,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "7ZQS_2",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 190,
+                    "subject_end": 383,
+                    "query_length": 194,
+                    "subject_length": 760,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "9GH7_1",
+        "score": 1.0,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 398.0,
+                "norm_score": 1.0,
+                "match_context": [
+                  {
+                    "sequence_identity": 1.0,
+                    "evalue": 5.312e-126,
+                    "bitscore": 398,
+                    "alignment_length": 194,
+                    "mismatches": 0,
+                    "gaps_opened": 0,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 108,
+                    "subject_end": 301,
+                    "query_length": 194,
+                    "subject_length": 678,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6Y76_1",
+        "score": 0.6676136363636364,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 281.0,
+                "norm_score": 0.6676136363636364,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.813,
+                    "evalue": 1.872e-85,
+                    "bitscore": 281,
+                    "alignment_length": 182,
+                    "mismatches": 7,
+                    "gaps_opened": 1,
+                    "query_beg": 8,
+                    "query_end": 189,
+                    "subject_beg": 2,
+                    "subject_end": 156,
+                    "query_length": 194,
+                    "subject_length": 168,
+                    "query_aligned_seq": "QNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVS",
+                    "subject_aligned_seq": "QNSVIIVDKNGRLVYLVENPGGSVANSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFTG---------------------------KGKSGIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVS"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "8P0Z_1",
+        "score": 0.6505681818181818,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 275.0,
+                "norm_score": 0.6505681818181818,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.8009999999999999,
+                    "evalue": 1.547e-83,
+                    "bitscore": 275,
+                    "alignment_length": 181,
+                    "mismatches": 9,
+                    "gaps_opened": 1,
+                    "query_beg": 8,
+                    "query_end": 188,
+                    "subject_beg": 2,
+                    "subject_end": 155,
+                    "query_length": 194,
+                    "subject_length": 168,
+                    "query_aligned_seq": "QNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTV",
+                    "subject_aligned_seq": "QNSVIIVDKNGRLEYLVENPGGSVANSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFTG---------------------------KGKSGIPVQTISREAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTV"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6S9J_2",
+        "score": 0.4943181818181818,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 220.0,
+                "norm_score": 0.4943181818181818,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.623,
+                    "evalue": 2.265e-64,
+                    "bitscore": 220,
+                    "alignment_length": 194,
+                    "mismatches": 46,
+                    "gaps_opened": 2,
+                    "query_beg": 1,
+                    "query_end": 194,
+                    "subject_beg": 2,
+                    "subject_end": 168,
+                    "query_length": 194,
+                    "subject_length": 178,
+                    "query_aligned_seq": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+                    "subject_aligned_seq": "IQVKCSAPNSVTITNASGGL-YLVEYPEGYVAYSKATEVTGKLVHANFGTKKDFEDLDYAVNGSIVIVRAGKITIAEKVANAQSFNAIGVLIYKDRTKYPISRADEPLQGH--------------------------SGLPSIPVQTISREAAEKLFQNMERDCPRSWNTDSSCKLELLQNRNVKLTVNNCLKE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6W3H_2",
+        "score": 0.46875,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 211.0,
+                "norm_score": 0.46875,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.963,
+                    "evalue": 4.355e-61,
+                    "bitscore": 211,
+                    "alignment_length": 109,
+                    "mismatches": 4,
+                    "gaps_opened": 0,
+                    "query_beg": 5,
+                    "query_end": 113,
+                    "subject_beg": 56,
+                    "subject_end": 164,
+                    "query_length": 194,
+                    "subject_length": 166,
+                    "query_aligned_seq": "DSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAH",
+                    "subject_aligned_seq": "DSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSASHHHH"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "1Z8L_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 71,
+                    "subject_end": 265,
+                    "query_length": 194,
+                    "subject_length": 695,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2C6C_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2C6G_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2C6P_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2CIJ_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2JBJ_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2JBK_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2OOT_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2OR4_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2PVV_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2PVW_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2XEF_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2XEG_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2XEI_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "2XEJ_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3BHX_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3BI0_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3BI1_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3BXM_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3D7D_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3D7F_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3D7G_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3D7H_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3IWW_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3RBU_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3SJE_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3SJF_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3SJG_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "3SJX_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "45YB_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4JYW_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4JZ0_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4LQG_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4MCP_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 133,
+                    "subject_end": 327,
+                    "query_length": 194,
+                    "subject_length": 757,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4MCQ_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 133,
+                    "subject_end": 327,
+                    "query_length": 194,
+                    "subject_length": 757,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4MCR_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 133,
+                    "subject_end": 327,
+                    "query_length": 194,
+                    "subject_length": 757,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4MCS_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 133,
+                    "subject_end": 327,
+                    "query_length": 194,
+                    "subject_length": 757,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4NGM_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4NGN_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4NGP_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4NGQ_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4NGR_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4NGS_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4NGT_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4OC0_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4OC1_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4OC2_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4OC3_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4OC4_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4OC5_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 85,
+                    "subject_end": 279,
+                    "query_length": 194,
+                    "subject_length": 709,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4OME_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P44_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P45_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P4B_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P4D_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P4E_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P4F_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P4I_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4P4J_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4W9Y_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "4X3R_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "5D29_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 71,
+                    "subject_end": 265,
+                    "query_length": 194,
+                    "subject_length": 695,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "5ELY_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 72,
+                    "subject_end": 266,
+                    "query_length": 194,
+                    "subject_length": 696,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "5F09_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 115,
+                    "subject_end": 309,
+                    "query_length": 194,
+                    "subject_length": 739,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "5O5R_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "5O5T_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "5O5U_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "5OF0_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6ETY_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6EZ9_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6F5L_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6FE5_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6H7Y_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6H7Z_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "identifier": "6HKJ_1",
+        "score": 0.06534090909090909,
+        "services": [
+          {
+            "service_type": "sequence",
+            "nodes": [
+              {
+                "node_id": 25898,
+                "original_score": 69.0,
+                "norm_score": 0.06534090909090909,
+                "match_context": [
+                  {
+                    "sequence_identity": 0.307,
+                    "evalue": 2.095e-12,
+                    "bitscore": 69,
+                    "alignment_length": 195,
+                    "mismatches": 101,
+                    "gaps_opened": 9,
+                    "query_beg": 9,
+                    "query_end": 169,
+                    "subject_beg": 83,
+                    "subject_end": 277,
+                    "query_length": 194,
+                    "subject_length": 707,
+                    "query_aligned_seq": "NSVIIVDKNGRLVY---LVE-NPGGY----------VAYSKAATVTGKLVHANFGTKKDF----EDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKF--PIVNA-----ELSFFGHAH------LGTGDPYTPGFPSFNHT-QFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSD--WK",
+                    "subject_aligned_seq": "NYISIINEDGNEIFNTSLFEPPPPGYENVSDIVPPFSAFSPQGMPEGDLVYVNYARTEDFFKLERDMKINCSGKIVIARYGKVFRGNKVKNAQLAGAKGVILYSDPADYFAPGVKSYPDGWNLPGGGVQRGNILNLNGAGDPLTPGYPANEYAYRRGIAEAVGLPSIPVHPIGYYDAQKLLEKMGGSAPPDSSWR"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

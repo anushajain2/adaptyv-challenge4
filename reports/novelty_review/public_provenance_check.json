@@ -1,0 +1,106 @@
+{
+  "repository": "https://github.com/anushajain2/adaptyv-challenge4",
+  "private": false,
+  "unauthenticated_repository_http_status": 200,
+  "commit": "5a4efb5421b53f816dec59871178c537457eda72",
+  "files": [
+    {
+      "path": "reports/submission_draft/submission_draft.csv",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/submission_draft.csv",
+      "unauthenticated_http_status": 200,
+      "sha256": "e65a5f5c4006d817e51150fb6e99fff850d37dcc2fd29fd0ad9485796de7bf7f",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/apical_short_008_A41H_seed2003_sample3.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/apical_short_008_A41H_seed2003_sample3.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "f57e696544a70f3298347d4c982bf888f2c2b836eb149e8dbb3515db2a2103dd",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/apical_short_008_A41H_seed2011_sample1.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/apical_short_008_A41H_seed2011_sample1.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "7e082bb5b0970a9afce661cf5202ad40dd38bc6465386c7dee40d402a3fbaf7b",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_long_092_seed1801_sample4.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_long_092_seed1801_sample4.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "47f0b9448984e2d0cac12d6f219bed9918aa9ca15b7f4db6edadd97c1ff8cce0",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_long_092_seed1901_sample4.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_long_092_seed1901_sample4.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "4c5c7ffee6c24362667c2c5bad65fa27b3d697ad4a16f8c98420c19cb9a4b2dc",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_short_026_seed2003_sample4.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_short_026_seed2003_sample4.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "646b3dca8f402bfe08510b82f97aa45b1c10e4852e638cb442d9f0909266f049",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_short_026_seed2011_sample4.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_short_026_seed2011_sample4.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "af74c3346b0a5472d2cbfe9c7d01f7dc0812c84410c464705359de1e1ff3f52d",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_short_015_seed1409_sample0.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_short_015_seed1409_sample0.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "c84f45ad7786a05bd81ff31641d6657ee0a25831daa063ecc96a779830d2d164",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_short_015_seed1511_sample1.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_short_015_seed1511_sample1.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "03535f609ad87bcc660385c9707472c5e1ecec2150e7f5100278c4e373dce22a",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_short_018_seed1801_sample2.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_short_018_seed1801_sample2.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "193bf40a9dffa08b24094fb352852ee8340a70407d2d32b99337b329cdc54b7e",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/expansion_apical_short_018_seed1901_sample4.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/expansion_apical_short_018_seed1901_sample4.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "c28a395348684a96427168357f8420db1c9604be2b0a341099031f7cb4f613d2",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/apical_short_008_seed2003_sample4.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/apical_short_008_seed2003_sample4.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "30603eb046a6c9955c6bf90ddc2230071eed2a5a28c969ee6f2d4f327c6143b5",
+      "matches_local": true
+    },
+    {
+      "path": "reports/submission_draft/models/apical_short_008_seed2011_sample2.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/reports/submission_draft/models/apical_short_008_seed2011_sample2.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "dbe4c02b18849e84c874590bf5e50d4f274a5b14c378a087e9956344b6feee9a",
+      "matches_local": true
+    },
+    {
+      "path": "data/tag_comparison/2ds25_5_6wrw_bare.pdb",
+      "url": "https://raw.githubusercontent.com/anushajain2/adaptyv-challenge4/5a4efb5421b53f816dec59871178c537457eda72/data/tag_comparison/2ds25_5_6wrw_bare.pdb",
+      "unauthenticated_http_status": 200,
+      "sha256": "b7871d1883f4d96b1398f1f869fda3e1a1544f89aaab6933a06975dced8ac169",
+      "matches_local": true
+    }
+  ]
+}

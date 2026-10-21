@@ -34,7 +34,7 @@ SHORTLIST = [
     ('expansion_apical_short_026', 'expansion_apical_short_026', 'binding hypothesis',
      'Repeated bare structural retention (8/10, 9/10, then 9/10). Tagged core passes both selected seeds, but tag independence remains unresolved.'),
     ('expansion_apical_short_015', 'expansion_apical_short_015', 'diversity backup',
-     'Both selected confirmation models pass (6/10 samples); less repeated evidence than the leading parents. No tag or pH validation.'),
+     'Both selected confirmation models pass (6/10 samples); less repeated evidence than the leading parents. Known-backbone similarity to AF1782/2OO2; no fold-novelty claim. No tag or pH validation.'),
     ('expansion_apical_short_018', 'expansion_apical_short_018', 'mixed-geometry diversity backup',
      'Initial fresh confirmation passes both selected seeds (8/10); later confirmation fails one selected clash check (6/10). Retained as an explicitly weaker lineage.'),
     ('apical_short_008', 'apical_short_008', 'matched-parent comparator',
@@ -138,6 +138,8 @@ def main():
     sources = {f'reports/{r}/results.json': json.loads((ROOT/f'reports/{r}/results.json').read_text()) for r in ROUNDS}
     tag_manifest = json.loads((ROOT/'data/tag_comparison/manifest.json').read_text())
     direction = json.loads((ROOT/'reports/tag_comparison/direction.json').read_text())
+    novelty_path = ROOT/'reports/novelty_review/summary.json'
+    novelty = json.loads(novelty_path.read_text()) if novelty_path.exists() else None
     seqs, evidence, latest_bare = {}, {}, {}
     for r in ROUNDS:
         report = sources[f'reports/{r}/results.json']
@@ -217,7 +219,8 @@ def main():
         'additional_explicit_exclusion': {'name': 'apical_long_015_D51H_T70H', 'reason': 'Independent prediction lost interface; historical fixed-geometry pKa results do not qualify it.', 'source': 'reports/mutant_validation/RESULTS.md'},
         'pairwise_diversity': comparisons, 'local_control_identity_comparison': known,
         'diversity_method': 'Global alignment: match 2, mismatch -1, gap open -4, gap extension -0.5; matches divided by longer full sequence. RMSD is binder-fitted on sequence-aligned CA pairs, not receptor-frame interface RMSD, and is not a structure-search or fold-novelty test. First selected model in latest bare round is used, including failures.',
-        'novelty_scope': 'Only internal sequences and three local controls compared. No exhaustive PDB/sequence-database search; five parent lineages are not five established fold classes. All share one BoltzGen apical campaign.',
+        'novelty_scope': 'Database review is linked below when available. Five parent lineages are not five established fold classes; no exhaustive similarity search or global novelty proof. All share one BoltzGen apical campaign.',
+        'database_similarity_review': {'source':'reports/novelty_review/summary.json', 'sha256':digest(novelty_path), 'status':novelty['status']} if novelty else None,
         'software': {'python': platform.python_version(), 'biopython': Bio.__version__},
         'rules_source': 'https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/tfr1',
         'sequence_descriptor_source': 'https://biopython.org/docs/latest/api/Bio.SeqUtils.ProtParam.html',
@@ -228,6 +231,7 @@ def main():
                                    'reports/receptor_preparation_v2/RESULTS.md', 'reports/expansion_his_direction/RESULTS.md',
                                    'reports/tag_comparison/billing_after.json',
                                    'scripts/build_submission_draft.py']
+    if novelty: dependencies.append('reports/novelty_review/summary.json')
     manifest = {'status': 'DRAFT_NOT_SUBMITTED', 'inputs': {p: digest(ROOT/p) for p in dependencies},
                 'models': model_index, 'outputs': {p.name: digest(p) for p in OUT.iterdir() if p.is_file() and p.name!='manifest.json'}}
     (OUT/'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')

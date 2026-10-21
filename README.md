@@ -2,7 +2,17 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest deliverable:** a [ranked submission draft](reports/submission_draft/README.md)
+**Latest review:** the [database similarity audit](reports/novelty_review/RESULTS.md)
+finds no reported RCSB sequence hits for the six designs under the recorded settings,
+with both sequence retrieval controls passing. All 13 Foldseek queries completed;
+the known binder is recovered. **short_015 shares a known backbone arrangement with
+AF1782/2OO2**: all 61 residues align in both poses at 1.450/1.467 Å TM-align RMSD.
+It remains a known-backbone backup, not a novel-fold claim. Other hits include
+partial matches to larger proteins. The supplemental Swiss-Prot BLASTp job's
+completion status is recorded in the review. Database limits prevent a global
+novelty verdict; sequences and ranks remain unchanged. No Modal compute was added.
+
+The [ranked submission draft](reports/submission_draft/README.md)
 contains **six bare sequences across five parent lineages**, with sequence-liability
 and diversity audits, methods, source hashes and 12 selected structures. The user
 confirmed Track 2 or 3; six is within the 20-design maximum. A41H ranks first as a
@@ -26,9 +36,9 @@ One new bare A41H model gives a −0.608 pKa shift and a 2.12 His-only ratio pro
 the other is excluded by movement. E19H has one usable shift but fails the free-pKa
 heuristic. No experimental binding or pH switch is established.
 
-Next: review the draft and perform database-level sequence/structure novelty
-screening before expanding it. Further generation, if pursued, should add different
-apical scaffold families. Tag
+Next: retain the disclosed similarity caveats and seek additional structurally
+distinct apical parents in a bounded generation round if expanding the shortlist.
+Tag
 compatibility and mouse cross-reactivity remain unresolved. The
 [earlier preparation review](reports/receptor_preparation_v2/RESULTS.md) and
 [24-variant follow-up](reports/expansion_his_direction/RESULTS.md) retain their
@@ -62,6 +72,7 @@ and reproducibility records are in the results report.
 
 | Deliverable | Status |
 |---|---|
+| Database similarity review | RCSB and 13 Foldseek queries complete with retrieval controls; short_015 known-backbone match verified; supplemental BLAST status in report |
 | Ranked submission draft | Six sequences, five parent lineages; bare CSV/FASTA, sequence audit, methods and 12 selected models; not submitted |
 | Matched bare/tagged comparison | 140 predictions; raw controls pass; neither tagged variant clears both selected core screens |
 | Tagged-round preparation/direction | 28 models, 56 successful pKa calculations; 23 movement passes; zero qualified two-pose direction passes |
@@ -84,7 +95,7 @@ pilot used 25 designs per protocol; the earlier 20-design comparison had a separ
 **US$5 allowance within that total**, including its failed preflight attempt.
 No outcome is guaranteed within that budget.
 
-Local verification: **70 tests passed**. A published 6WRV reference pair was rebuilt,
+Local verification: **75 tests passed**. A published 6WRV reference pair was rebuilt,
 relaxed and processed by PROPKA in free/bound forms without incomplete-group
 warnings. It did not pass the provisional candidate thresholds and is not a
 new pilot design. See `reports/day1_3_status.json`.

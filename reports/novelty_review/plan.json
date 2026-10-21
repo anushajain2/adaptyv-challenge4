@@ -1,0 +1,275 @@
+{
+  "prepared_utc": "2026-10-21T14:22:38.914823+00:00",
+  "draft_audit_sha256": "83b7695016d5fde307c01ef78263e0268a13e2dd02c1a1540d4ddd5346d7171b",
+  "structures": [
+    {
+      "id": "apical_short_008_A41H_seed2003",
+      "candidate": "apical_short_008_A41H",
+      "kind": "candidate",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "source": "reports/submission_draft/models/apical_short_008_A41H_seed2003_sample3.pdb",
+      "source_sha256": "f57e696544a70f3298347d4c982bf888f2c2b836eb149e8dbb3515db2a2103dd",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/apical_short_008_A41H_seed2003.pdb",
+      "query_sha256": "222f7272dfcbbb94268d3ddeea0977a3196124a0c64b93f3b8a72cbbaa5c740f"
+    },
+    {
+      "id": "apical_short_008_A41H_seed2011",
+      "candidate": "apical_short_008_A41H",
+      "kind": "candidate",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "source": "reports/submission_draft/models/apical_short_008_A41H_seed2011_sample1.pdb",
+      "source_sha256": "7e082bb5b0970a9afce661cf5202ad40dd38bc6465386c7dee40d402a3fbaf7b",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/apical_short_008_A41H_seed2011.pdb",
+      "query_sha256": "dc88287269ac7d33bf7d0a1ddb5dc1e99eb61019a35932febfcff00f5bd48ea0"
+    },
+    {
+      "id": "expansion_apical_long_092_seed1801",
+      "candidate": "expansion_apical_long_092",
+      "kind": "candidate",
+      "sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "source": "reports/submission_draft/models/expansion_apical_long_092_seed1801_sample4.pdb",
+      "source_sha256": "47f0b9448984e2d0cac12d6f219bed9918aa9ca15b7f4db6edadd97c1ff8cce0",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/expansion_apical_long_092_seed1801.pdb",
+      "query_sha256": "66ff5b00424eb860a80bbc5a0e0b8bf4cf8408d38cea3d886df3ebdd5f9cf9c8"
+    },
+    {
+      "id": "expansion_apical_long_092_seed1901",
+      "candidate": "expansion_apical_long_092",
+      "kind": "candidate",
+      "sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "source": "reports/submission_draft/models/expansion_apical_long_092_seed1901_sample4.pdb",
+      "source_sha256": "4c5c7ffee6c24362667c2c5bad65fa27b3d697ad4a16f8c98420c19cb9a4b2dc",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/expansion_apical_long_092_seed1901.pdb",
+      "query_sha256": "b44e85c8189195809dd274952204e09d5a80ffc663b53fe52fee3d20609f3be2"
+    },
+    {
+      "id": "expansion_apical_short_026_seed2003",
+      "candidate": "expansion_apical_short_026",
+      "kind": "candidate",
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "source": "reports/submission_draft/models/expansion_apical_short_026_seed2003_sample4.pdb",
+      "source_sha256": "646b3dca8f402bfe08510b82f97aa45b1c10e4852e638cb442d9f0909266f049",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/expansion_apical_short_026_seed2003.pdb",
+      "query_sha256": "6253d64adb357d2cb9b4a5fbbf8db1cdcdbaacd319dcf7aa5e914b57a790910c"
+    },
+    {
+      "id": "expansion_apical_short_026_seed2011",
+      "candidate": "expansion_apical_short_026",
+      "kind": "candidate",
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "source": "reports/submission_draft/models/expansion_apical_short_026_seed2011_sample4.pdb",
+      "source_sha256": "af74c3346b0a5472d2cbfe9c7d01f7dc0812c84410c464705359de1e1ff3f52d",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/expansion_apical_short_026_seed2011.pdb",
+      "query_sha256": "591231e77629c63ad7f2bc91e091aec0b316e6fc7ebb38547f28b69d9100383c"
+    },
+    {
+      "id": "expansion_apical_short_015_seed1409",
+      "candidate": "expansion_apical_short_015",
+      "kind": "candidate",
+      "sequence": "SEEELLERLGALMRRLAAAGPLSPEAEKLLEEAYRLAEEGRYEEAIELAEKALALVEERRA",
+      "source": "reports/submission_draft/models/expansion_apical_short_015_seed1409_sample0.pdb",
+      "source_sha256": "c84f45ad7786a05bd81ff31641d6657ee0a25831daa063ecc96a779830d2d164",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/expansion_apical_short_015_seed1409.pdb",
+      "query_sha256": "ad4525049af4bac19a38502c684740e7ac910469ac764cc475df38cda521b9dc"
+    },
+    {
+      "id": "expansion_apical_short_015_seed1511",
+      "candidate": "expansion_apical_short_015",
+      "kind": "candidate",
+      "sequence": "SEEELLERLGALMRRLAAAGPLSPEAEKLLEEAYRLAEEGRYEEAIELAEKALALVEERRA",
+      "source": "reports/submission_draft/models/expansion_apical_short_015_seed1511_sample1.pdb",
+      "source_sha256": "03535f609ad87bcc660385c9707472c5e1ecec2150e7f5100278c4e373dce22a",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/expansion_apical_short_015_seed1511.pdb",
+      "query_sha256": "28b7e21e6c5c97ee5138ba680e9f73a01bfbe682e4872a42df23b55927e6963e"
+    },
+    {
+      "id": "expansion_apical_short_018_seed1801",
+      "candidate": "expansion_apical_short_018",
+      "kind": "candidate",
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "source": "reports/submission_draft/models/expansion_apical_short_018_seed1801_sample2.pdb",
+      "source_sha256": "193bf40a9dffa08b24094fb352852ee8340a70407d2d32b99337b329cdc54b7e",
+      "original_screen_pass": false,
+      "query_file": "reports/novelty_review/queries/expansion_apical_short_018_seed1801.pdb",
+      "query_sha256": "377c1a6aec725259a8e5eb91e8b6c5d756095d0fd7c7375de14411a710cfd7ef"
+    },
+    {
+      "id": "expansion_apical_short_018_seed1901",
+      "candidate": "expansion_apical_short_018",
+      "kind": "candidate",
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "source": "reports/submission_draft/models/expansion_apical_short_018_seed1901_sample4.pdb",
+      "source_sha256": "c28a395348684a96427168357f8420db1c9604be2b0a341099031f7cb4f613d2",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/expansion_apical_short_018_seed1901.pdb",
+      "query_sha256": "4e1ae4a4f75bc3a2e1d12543f5e2b4782dae0fe70dd5412200de70e1f482ed29"
+    },
+    {
+      "id": "apical_short_008_seed2003",
+      "candidate": "apical_short_008",
+      "kind": "candidate",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLAEDRFFSPEELLELVREL",
+      "source": "reports/submission_draft/models/apical_short_008_seed2003_sample4.pdb",
+      "source_sha256": "30603eb046a6c9955c6bf90ddc2230071eed2a5a28c969ee6f2d4f327c6143b5",
+      "original_screen_pass": true,
+      "query_file": "reports/novelty_review/queries/apical_short_008_seed2003.pdb",
+      "query_sha256": "c78c05d16a9c2e5c0e37f9f2619c3609c6a4f174b5795209350511566f055701"
+    },
+    {
+      "id": "apical_short_008_seed2011",
+      "candidate": "apical_short_008",
+      "kind": "candidate",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLAEDRFFSPEELLELVREL",
+      "source": "reports/submission_draft/models/apical_short_008_seed2011_sample2.pdb",
+      "source_sha256": "dbe4c02b18849e84c874590bf5e50d4f274a5b14c378a087e9956344b6feee9a",
+      "original_screen_pass": false,
+      "query_file": "reports/novelty_review/queries/apical_short_008_seed2011.pdb",
+      "query_sha256": "3d71c468aba054b32f336d98db365acdb6dc9cbfe2ba5f5238c4e8a60ba05214"
+    },
+    {
+      "id": "published_2ds25_5_control",
+      "candidate": null,
+      "kind": "retrieval_control",
+      "sequence": "DEEEIQKAIEELLRKGVSEEEAAIIIVQRFNVAVVVVVQDERQGKHISEYIRRYIPEADVILFANLVVIKVETHELSTRVWEAAQKAY",
+      "source": "data/tag_comparison/2ds25_5_6wrw_bare.pdb",
+      "source_sha256": "b7871d1883f4d96b1398f1f869fda3e1a1544f89aaab6933a06975dced8ac169",
+      "query_file": "reports/novelty_review/queries/published_2ds25_5_control.pdb",
+      "query_sha256": "32f7e2a7e467979983ec10bae461cce1cfafe744e6c45df870748ae8074afbb2"
+    }
+  ],
+  "sequences": [
+    {
+      "id": "apical_short_008_A41H",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "kind": "candidate"
+    },
+    {
+      "id": "expansion_apical_long_092",
+      "sequence": "RVRARVTLDGTVESEEEAEEVARAANEGARKVDPRALVGVEIEEDGRAAIVAEGEGLTPEEARAVAEAAAEGAAAAFGLKPVSLEVVEL",
+      "kind": "candidate"
+    },
+    {
+      "id": "expansion_apical_short_026",
+      "sequence": "GQVALEVEYKGISLEEALEITEEVLNNTDINTASDEELTELAKKIMKEKGLEGEVKLKKVEL",
+      "kind": "candidate"
+    },
+    {
+      "id": "expansion_apical_short_015",
+      "sequence": "SEEELLERLGALMRRLAAAGPLSPEAEKLLEEAYRLAEEGRYEEAIELAEKALALVEERRA",
+      "kind": "candidate"
+    },
+    {
+      "id": "expansion_apical_short_018",
+      "sequence": "EKKEFYLVKSDTTDLSKAKVVKIEAPNLDEAIEDLLTGEAEKLPEVSEEEKKKIIDELKKK",
+      "kind": "candidate"
+    },
+    {
+      "id": "apical_short_008",
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLAEDRFFSPEELLELVREL",
+      "kind": "candidate"
+    },
+    {
+      "id": "human_tfr1_crop_control",
+      "sequence": "IQVKDSAQNSVIIVDKNGRLVYLVENPGGYVAYSKAATVTGKLVHANFGTKKDFEDLYTPVNGSIVIVRAGKITFAEKVANAESLNAIGVLIYMDQTKFPIVNAELSFFGHAHLGTGDPYTPGFPSFNHTQFPPSRSSGLPNIPVQTISRAAAEKLFGNMEGDCPSDWKTDSTCRMVTSESKNVKLTVSNVLKE",
+      "kind": "retrieval_control"
+    },
+    {
+      "id": "published_2ds25_5_control",
+      "sequence": "DEEEIQKAIEELLRKGVSEEEAAIIIVQRFNVAVVVVVQDERQGKHISEYIRRYIPEADVILFANLVVIKVETHELSTRVWEAAQKAY",
+      "kind": "retrieval_control"
+    }
+  ],
+  "foldseek": {
+    "mode": "3diaa",
+    "databases": [
+      {
+        "name": "AlphaFold/Swiss-Prot",
+        "version": "v6",
+        "description": "",
+        "path": "afdb-swissprot",
+        "default": true,
+        "order": 1,
+        "taxonomy": true,
+        "complex": false,
+        "motif": false,
+        "rna": false,
+        "full_header": true,
+        "index": "--mask 0 --mask-n-repeat 6 -s 9.5 --index-exclude 1",
+        "search": "--tmscore-threshold 0.3 --max-seqs 1000 -e 10 -s 9.5 --prefilter-mode 1",
+        "multimer": "",
+        "interface": false,
+        "status": "COMPLETE"
+      },
+      {
+        "name": "PDB100",
+        "version": "20240101",
+        "description": "",
+        "path": "pdb100",
+        "default": true,
+        "order": 3,
+        "taxonomy": true,
+        "complex": true,
+        "motif": false,
+        "rna": false,
+        "full_header": true,
+        "index": "--mask 0 --mask-n-repeat 6 -s 9.5 --index-exclude 1",
+        "search": "--tmscore-threshold 0.3 --max-seqs 1000 -e 10 -s 9.5 --prefilter-mode 1",
+        "multimer": "--tmscore-threshold 0.3 --max-seqs 1000 -e 10 -s 9.5 --prefilter-mode 1 --cluster-search 1",
+        "interface": false,
+        "status": "COMPLETE"
+      }
+    ],
+    "iterativesearch": false,
+    "scope": "Both selected bare poses per draft candidate; receptor and tags removed. Positive retrieval control is the published 2DS25.5 binder."
+  },
+  "rcsb": {
+    "sequence_type": "protein",
+    "identity_cutoff": 0,
+    "evalue_cutoff": 10,
+    "return_type": "polymer_entity",
+    "result_content_type": [
+      "experimental"
+    ],
+    "max_results": 100
+  },
+  "blast": {
+    "PROGRAM": "blastp",
+    "DATABASE": "swissprot",
+    "EXPECT": 10,
+    "FILTER": "mL",
+    "COMPOSITION_BASED_STATISTICS": 2,
+    "MATRIX": "BLOSUM62",
+    "WORD_SIZE": 3,
+    "HITLIST_SIZE": 100,
+    "query_ids": [
+      "apical_short_008_A41H",
+      "expansion_apical_long_092",
+      "expansion_apical_short_026",
+      "expansion_apical_short_015",
+      "expansion_apical_short_018",
+      "apical_short_008",
+      "human_tfr1_crop_control"
+    ]
+  },
+  "interpretation": {
+    "close_sequence_review_flag": "Identity >=50%, query coverage >=80%, E-value <=1e-3; report subject coverage separately. A review heuristic, not a competition rule.",
+    "near_identical_sequence_review_flag": "Identity >=90%, query coverage >=80%, E-value <=1e-3.",
+    "structural_followup": "Inspect the first 10 ranked hits per query/database; obtain structure-aware alignments and query/target-normalized TM scores where available. Common folds do not imply copied sequence or binding function.",
+    "limits": "No hit is not proof of novelty. PDB100 server version is 20240101; Swiss-Prot is curated and incomplete, and AlphaFold models are predictions. Search failures must remain missing evidence.",
+    "selection": "No candidate is removed solely for a shared fold. Preserve original submission sequences and rank pending interpretation."
+  },
+  "public_apis": [
+    "https://search.foldseek.com/api",
+    "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+    "https://search.rcsb.org/rcsbsearch/v2/query"
+  ],
+  "new_modal_compute_usd": 0
+}

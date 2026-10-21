@@ -1,0 +1,50 @@
+[
+  {
+    "path": "reports/novelty_review/independent_pdb/2OO2.cif",
+    "sha256": "ffe2be2b8e358cbe1e1e7b7a5cdf08d4c82caf026bfd4deb02885d4b7e3e5bd3",
+    "url": "https://files.rcsb.org/download/2OO2.cif",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "path": "reports/novelty_review/independent_pdb/2OO2.entry.json",
+    "sha256": "7a198b554b3f4ce4bb30aafc20d9ad70a7ef5c67ad86ba2793717c0ca6ddb9c5",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/2OO2",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "path": "reports/novelty_review/independent_pdb/3SSQ.cif",
+    "sha256": "5e36c4588f3b7fbe773c66179d09e28a006ed453c1e8b88de5e79e9df3b2be0b",
+    "url": "https://files.rcsb.org/download/3SSQ.cif",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "path": "reports/novelty_review/independent_pdb/3SSQ.entry.json",
+    "sha256": "d80136140ac90034a5d4d7c861493fab84bcad89191327dcf9fd7a0032f6a8f1",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/3SSQ",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "path": "reports/novelty_review/independent_pdb/8A53.cif",
+    "sha256": "575f420c4e66408cdb0233520864f86430be0c32a56f859aa189311d03af8648",
+    "url": "https://files.rcsb.org/download/8A53.cif",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "path": "reports/novelty_review/independent_pdb/8A53.entry.json",
+    "sha256": "dac132c31305bafd108b95e9bf8d09b2980f59c000fa07903212f6b118fd2976",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/8A53",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "path": "reports/novelty_review/independent_pdb/6OWG.cif.gz",
+    "sha256": "df24d6057f4a8ae89cf66e9dcf5f481d374b676f538f9b41a9a5d7b3b6453c40",
+    "url": "https://files.rcsb.org/download/6OWG.cif",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "path": "reports/novelty_review/independent_pdb/6OWG.entry.json",
+    "sha256": "cc269acb56a7c372b22bd38f429a56271db44d37977eefd575db8625563a80d1",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/6OWG",
+    "retrieved_date": "2026-10-21"
+  }
+]

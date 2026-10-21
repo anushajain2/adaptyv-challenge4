@@ -1,0 +1,13 @@
+{
+  "retrieved_utc": "2026-10-21T14:23:57.838444+00:00",
+  "http_status": 204,
+  "response_headers": {
+    "vary": "Origin",
+    "content-type": "application/json",
+    "date": "Wed, 21 Oct 2026 14:23:56 GMT",
+    "strict-transport-security": "max-age=16000000; includeSubDomains; preload;",
+    "alt-svc": "h3=\":443\";ma=60;",
+    "connection": "close"
+  },
+  "data": {}
+}

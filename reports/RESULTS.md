@@ -2,7 +2,15 @@
 
 The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
 
-## Latest ranked submission draft — 21 October 2026
+## Latest database similarity review — 21 October 2026
+
+The [database review](novelty_review/RESULTS.md) searches all six draft sequences against experimental PDB sequences and both selected bare poses per design against Foldseek's PDB100 and AlphaFold/Swiss-Prot collections. RCSB returns no candidate sequence hits at the recorded settings, while both sequence controls work. All 13 Foldseek queries finish; the published 2DS25.5 control retrieves 6WRW at approximately 0.993 TM score and full coverage. The supplemental Swiss-Prot BLASTp job's explicit status is in the report, and pending results are not treated as no hits.
+
+**Short_015 has a known-backbone match to AF1782 (2OO2)** in both poses. Independent original-coordinate checks align all 61 design residues to 61/76 modeled known residues, with TM scores 0.858 normalized by the query, 0.709–0.710 by the target, and RMSDs 1.450/1.467 Å. Global identity is 27.6% relative to the longer modeled sequence. Long_092 shows moderate CcmK2 similarity; short_026 matches a region of a much larger metacaspase. None of these observations establishes copied sequence, a shared binding interface or a new fold.
+
+The draft now discloses these similarities. Its six sequences and rank order are unchanged, with short_015 retained as a known-backbone binding backup. The structural database's advertised PDB snapshot is 20240101; only the first ten hits per query/database receive local TM-align. This is a limited similarity review, not a global novelty proof. Seventy-five tests pass; this round adds $0 Modal compute. No upstream issue, PR or challenge submission was made.
+
+## Earlier ranked submission draft — 21 October 2026
 
 The [draft package](submission_draft/README.md) contains **six bare sequences from five parent lineages**, within the user-confirmed Tracks 2/3 limit. A41H is the leading pH-direction hypothesis, followed by long_092, short_026, short_015, short_018 and the short_008 matched parent. E19H and other weaker variants remain outside the draft CSV. No binding, mouse, pH-switch or tag-compatibility property is represented as experimentally established.
 

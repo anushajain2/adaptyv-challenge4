@@ -1,6 +1,8 @@
 # Preserve scientific coordinate formatting and CSV writer line endings.
 *.pdb -whitespace
 *.cif -whitespace
+reports/novelty_review/blast/*.html -whitespace
+reports/novelty_review/blast/search_info.txt -whitespace
 *.csv whitespace=cr-at-eol
 # Preserve exact upstream source bytes and provenance hashes.
 third_party/ipsae/* -whitespace

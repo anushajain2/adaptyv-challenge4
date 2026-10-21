@@ -11,7 +11,7 @@ The user confirmed Track 2 or 3. The [official requirements](https://proteinbase
 | 1 | apical_short_008_A41H | 58 | Best repeated bare pKa-direction hypothesis; latest tagged core fails one selected clash check; no qualified two-pose switch |
 | 2 | expansion_apical_long_092 | 89 | Repeated bare structural retention; pH release and tag compatibility unestablished |
 | 3 | expansion_apical_short_026 | 62 | Repeated bare retention and both tagged core poses retained; tag independence unresolved |
-| 4 | expansion_apical_short_015 | 61 | Additional parent lineage; less replication and no tag evaluation |
+| 4 | expansion_apical_short_015 | 61 | Known-backbone backup (AF1782/2OO2 similarity); less replication and no tag evaluation |
 | 5 | expansion_apical_short_018 | 61 | Additional lineage with mixed geometry: later selected clash failure retained |
 | 6 | apical_short_008 | 58 | A41H's matched parent, not another independent lineage; latest bare selected clash failure |
 
@@ -30,7 +30,9 @@ The six cores have no cysteines or tryptophans. All have negative mean hydropath
 
 The complete positions, composition, pI, charge, hydropathy and provenance are in [audit.json](audit.json). [Biopython ProtParam](https://biopython.org/docs/latest/api/Bio.SeqUtils.ProtParam.html) supplies the sequence descriptors; the pI calculation uses a 0–14 search interval to avoid clipping an acidic sequence at the default lower bound. Charges and pIs here are sequence estimates, separate from structure-dependent PROPKA and the pH-release mechanism. There is no calibrated developability score or claim of acceptable expression, immunogenicity, aggregation or shelf stability.
 
-Across different parent lineages, global aligned sequence identity is **22.5–33.9%**. A41H and its parent are **98.3% identical** and count as one lineage. Sequence-aligned backbone comparisons and angle compositions are included as descriptive checks only: the alignment has partial coverage, is not a fold-search algorithm, and does not establish five different fold classes. All candidates come from the same BoltzGen apical campaign. Comparison against the three local controls is not an exhaustive novelty search against known proteins.
+Across different parent lineages, global aligned sequence identity is **22.5–33.9%**. A41H and its parent are **98.3% identical** and count as one lineage. The original sequence-aligned backbone comparisons and angle compositions are descriptive only and do not establish five different fold classes. All candidates come from the same BoltzGen apical campaign.
+
+The subsequent [database similarity review](../novelty_review/RESULTS.md) adds current RCSB sequence searches, Foldseek searches against PDB100 and AlphaFold/Swiss-Prot, local TM-align, and an archived Swiss-Prot BLASTp job whose completion status is stated in that report. The key caveat is **short_015's close backbone match to AF1782 (2OO2)** in both poses: all 61 design residues align, with TM-align RMSDs 1.450/1.467 Å and 27.6% global sequence identity. It remains a known-backbone binding backup, not a novel-fold claim. Other candidates also have partial or moderate structural matches. Database versions, short-sequence sensitivity and incomplete known-protein coverage prevent a global novelty verdict. Sequences and rank order are unchanged.
 
 ## Evidence and exclusions
 
@@ -42,7 +44,7 @@ E19H stays in reserve: its two selected tagged poses fail interface retention, a
 
 ## Recommended next decision
 
-Use this package as the current submission baseline. Before increasing the list, perform a dedicated database-level sequence/structure novelty review on the five lineages, then consider a bounded generation round aimed at genuinely different apical scaffolds if more diversity is needed. Additional near-identical His variants or repeated low-confidence full-tag docking should not be used merely to fill twenty slots. Any new candidates should meet predeclared, control-checked structural rules and carry equally explicit limitations.
+Use this package as the current submission baseline, with the database review's limitations attached. A bounded apical generation round can seek additional structurally distinct parents if more diversity is needed; fold novelty alone is not the objective. Additional near-identical His variants or repeated low-confidence full-tag docking should not be used merely to fill twenty slots. Any new candidates should meet predeclared, control-checked structural rules and carry equally explicit limitations.
 
 Do not claim mouse binding, affinity, pH switching or assay-tag compatibility. Those remain experimental questions. The exact 64-residue public platform suffix was modeled as an assumption about the challenge construct, not independently confirmed by its challenge page. The [methods draft](METHODS.md) states the computational scope and AI assistance.
 

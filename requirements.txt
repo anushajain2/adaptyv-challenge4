@@ -8,3 +8,4 @@ openmm>=8.2
 pdbfixer>=1.11
 pytest>=8
 matplotlib>=3.9
+tmtools==0.3.0

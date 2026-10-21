@@ -2159,7 +2159,7 @@
       "name": "expansion_apical_short_015",
       "family": "expansion_apical_short_015",
       "role": "diversity backup",
-      "ranking_rationale": "Both selected confirmation models pass (6/10 samples); less repeated evidence than the leading parents. No tag or pH validation.",
+      "ranking_rationale": "Both selected confirmation models pass (6/10 samples); less repeated evidence than the leading parents. Known-backbone similarity to AF1782/2OO2; no fold-novelty claim. No tag or pH validation.",
       "sequence": "SEEELLERLGALMRRLAAAGPLSPEAEKLLEEAYRLAEEGRYEEAIELAEKALALVEERRA",
       "sequence_sha256": "bc2c778d688446d5c844553b803542d61edcbe5675194a5aec5e913ee48fd3ed",
       "sequence_audit": {
@@ -6719,7 +6719,12 @@
     }
   ],
   "diversity_method": "Global alignment: match 2, mismatch -1, gap open -4, gap extension -0.5; matches divided by longer full sequence. RMSD is binder-fitted on sequence-aligned CA pairs, not receptor-frame interface RMSD, and is not a structure-search or fold-novelty test. First selected model in latest bare round is used, including failures.",
-  "novelty_scope": "Only internal sequences and three local controls compared. No exhaustive PDB/sequence-database search; five parent lineages are not five established fold classes. All share one BoltzGen apical campaign.",
+  "novelty_scope": "Database review is linked below when available. Five parent lineages are not five established fold classes; no exhaustive similarity search or global novelty proof. All share one BoltzGen apical campaign.",
+  "database_similarity_review": {
+    "source": "reports/novelty_review/summary.json",
+    "sha256": "e4677afc5cb27b2fb6c5f52a22ad852187e77b4672ad0ad8cd4a0d25e1e72a0e",
+    "status": "STRUCTURE_AND_PDB_SEQUENCE_COMPLETE_SWISSPROT_PENDING_OR_FAILED"
+  },
   "software": {
     "python": "3.12.13",
     "biopython": "1.88"
