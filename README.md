@@ -2,6 +2,13 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
+**Fresh reserve confirmation (26 October):** the user authorized a
+[bare/tag comparison](reports/reserve_tag/README.md) of A41H/A34K/A38R, matched
+parents, an H41A ablation and controls. The frozen 140-prediction panel has a $2
+gross cap. Original qualification rules remain explicit alongside continuous
+sensitivity readouts. Submission remains on hold and no automatic promotion is
+authorized by this experiment.
+
 **Campaign reopened at the user's request (25 October):** submission remains on
 hold. A [local ProteinMPNN redesign comparison](reports/local_redesign/README.md)
 keeps A41H or S90H and likely binding anchors fixed while changing nearby residues.
