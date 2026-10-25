@@ -2,17 +2,24 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Final experiment (25 October):** the [12-variant His panel](reports/final_his_panel/RESULTS.md)
+**Campaign reopened at the user's request (25 October):** submission remains on
+hold. A [local ProteinMPNN redesign comparison](reports/local_redesign/README.md)
+keeps A41H or S90H and likely binding anchors fixed while changing nearby residues.
+The eight-design release remains an immutable fallback. This round is limited to
+$6 within the original $30 gross cap; no upstream bug report or PR is authorized.
+
+**Previous stopping-point experiment (25 October):** the [12-variant His panel](reports/final_his_panel/RESULTS.md)
 completed 160 predictions. Four variants pass both selected raw structural checks,
 but **none qualifies as a two-pose pH-direction hypothesis**. All 32 selected
 models were prepared uniformly; a positive-control movement failure is disclosed.
 The conditional tag job was skipped. Long_037 passes both fresh selected raw poses
 again (7/10 samples, following 8/10 previously). The **eight-sequence, seven-lineage
 shortlist is unchanged**, with updated evidence and all twelve variants excluded.
-This is the planned end of computational experiments. Review the [frozen package](reports/submission_release_2026-10-25/README.md)
-before uploading; no challenge submission has been made. The final panel added
+This was the previous stopping point, superseded by the local redesign comparison.
+The [frozen package](reports/submission_release_2026-10-25/README.md) is retained;
+no challenge submission has been made. The final His panel added
 about **$0.48** gross; conservative cumulative accounting is about **$12.72/$30**
-(the latest account meter is $12.57). All cloud jobs are stopped.
+(the account meter after that round was $12.57). All jobs from that round stopped.
 
 **Earlier diversity round:** the [bounded diversity screen](reports/diversity_generation/RESULTS.md)
 generated 100 designs (99 unique), with five full initial passes and two parents

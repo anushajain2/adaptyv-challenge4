@@ -1,0 +1,2 @@
+# Optional local ProteinMPNN execution; install alongside requirements.txt.
+torch==2.5.1

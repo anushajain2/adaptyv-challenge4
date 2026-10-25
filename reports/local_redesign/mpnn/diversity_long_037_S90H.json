@@ -1,0 +1,1471 @@
+{
+  "id": "diversity_long_037_S90H",
+  "samples": [
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2503,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "SIRLAQGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKPGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLAIGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLAVGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": false,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "eligible": true,
+      "source_seed": 2609,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    }
+  ],
+  "scored_sequences": [
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 1.0743072479963303,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.1428101062774658,
+            1.1454237699508667,
+            1.1825993061065674,
+            1.083593726158142
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            1.0174658298492432,
+            1.0257624387741089,
+            1.0757700204849243,
+            0.9210327863693237
+          ]
+        }
+      ],
+      "mutations": [
+        "T6E",
+        "V57E"
+      ]
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "ensemble_nll": 1.3926931098103523,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.8886830806732178,
+            1.88797128200531,
+            1.862576961517334,
+            1.8767683506011963
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.9331402778625488,
+            0.9170064926147461,
+            0.9191321134567261,
+            0.8562663197517395
+          ]
+        }
+      ],
+      "mutations": [
+        "T6E",
+        "V88I"
+      ]
+    },
+    {
+      "sequence": "SIRLAEGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 1.0282713994383812,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.2771141529083252,
+            1.277091383934021,
+            1.2771220207214355,
+            1.2502262592315674
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.7957513928413391,
+            0.8133103847503662,
+            0.7942751049995422,
+            0.7412804961204529
+          ]
+        }
+      ],
+      "mutations": [
+        "T6E"
+      ]
+    },
+    {
+      "sequence": "SIRLAIGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 1.4569750130176544,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.7723219394683838,
+            1.7867320775985718,
+            1.7767150402069092,
+            1.7793679237365723
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            1.102246880531311,
+            1.135850191116333,
+            1.1411532163619995,
+            1.1614128351211548
+          ]
+        }
+      ],
+      "mutations": [
+        "T6I"
+      ]
+    },
+    {
+      "sequence": "SIRLAQGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "ensemble_nll": 1.691176399588585,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            2.165607452392578,
+            2.1948559284210205,
+            2.1475744247436523,
+            2.1782898902893066
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            1.2512614727020264,
+            1.2338676452636719,
+            1.1935213804244995,
+            1.1644330024719238
+          ]
+        }
+      ],
+      "mutations": [
+        "T6Q",
+        "V88I"
+      ]
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 0.796958576887846,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            0.4764918088912964,
+            0.44534027576446533,
+            0.4516555070877075,
+            0.4354484975337982
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            1.1352248191833496,
+            1.1419470310211182,
+            1.1246223449707031,
+            1.1649383306503296
+          ]
+        }
+      ],
+      "mutations": [
+        "T6S",
+        "V57E"
+      ]
+    },
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 0.756938748061657,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            0.6242582201957703,
+            0.5872352123260498,
+            0.543846845626831,
+            0.5987721681594849
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.9274946451187134,
+            0.938685417175293,
+            0.8458390235900879,
+            0.9893784523010254
+          ]
+        }
+      ],
+      "mutations": [
+        "T6S"
+      ],
+      "id": "diversity_long_037_S90H_mpnn01"
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 0.8462727442383766,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            0.7848982810974121,
+            0.808509349822998,
+            0.8215598464012146,
+            0.7524784207344055
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.8915760517120361,
+            0.881216287612915,
+            0.9098356366157532,
+            0.9201080799102783
+          ]
+        }
+      ],
+      "mutations": [
+        "V57E"
+      ],
+      "id": "diversity_long_037_S90H_mpnn02"
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKPGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 1.2908780202269554,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.6117613315582275,
+            1.656602382659912,
+            1.6387999057769775,
+            1.590096354484558
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.9459471106529236,
+            0.9552251696586609,
+            0.9561940431594849,
+            0.9723978638648987
+          ]
+        }
+      ],
+      "mutations": [
+        "V57P"
+      ]
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "ensemble_nll": 1.1592270657420158,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.5250134468078613,
+            1.5260359048843384,
+            1.485721230506897,
+            1.5286588668823242
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.8168114423751831,
+            0.7759048342704773,
+            0.7557780146598816,
+            0.8598927855491638
+          ]
+        }
+      ],
+      "mutations": [
+        "V88I"
+      ],
+      "id": "diversity_long_037_S90H_mpnn03"
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 0.800699457526207,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            0.9261152148246765,
+            0.943832278251648,
+            0.9046675562858582,
+            0.9057196378707886
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.6875293254852295,
+            0.6806674599647522,
+            0.6211248636245728,
+            0.7359393239021301
+          ]
+        }
+      ],
+      "mutations": []
+    },
+    {
+      "sequence": "SIRLAVGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 1.3136122673749924,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.5392743349075317,
+            1.5694690942764282,
+            1.581491231918335,
+            1.540418028831482
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            1.0718106031417847,
+            1.060605764389038,
+            1.0563136339187622,
+            1.0895154476165771
+          ]
+        }
+      ],
+      "mutations": [
+        "T6V"
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "sequence": "SIRLASGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 0.756938748061657,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            0.6242582201957703,
+            0.5872352123260498,
+            0.543846845626831,
+            0.5987721681594849
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.9274946451187134,
+            0.938685417175293,
+            0.8458390235900879,
+            0.9893784523010254
+          ]
+        }
+      ],
+      "mutations": [
+        "T6S"
+      ],
+      "id": "diversity_long_037_S90H_mpnn01"
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKEGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+      "ensemble_nll": 0.8462727442383766,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            0.7848982810974121,
+            0.808509349822998,
+            0.8215598464012146,
+            0.7524784207344055
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.8915760517120361,
+            0.881216287612915,
+            0.9098356366157532,
+            0.9201080799102783
+          ]
+        }
+      ],
+      "mutations": [
+        "V57E"
+      ],
+      "id": "diversity_long_037_S90H_mpnn02"
+    },
+    {
+      "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKITHSSTVE",
+      "ensemble_nll": 1.1592270657420158,
+      "scores": [
+        {
+          "source_seed": 2503,
+          "nll_by_decoding_seed": [
+            1.5250134468078613,
+            1.5260359048843384,
+            1.485721230506897,
+            1.5286588668823242
+          ]
+        },
+        {
+          "source_seed": 2609,
+          "nll_by_decoding_seed": [
+            0.8168114423751831,
+            0.7759048342704773,
+            0.7557780146598816,
+            0.8598927855491638
+          ]
+        }
+      ],
+      "mutations": [
+        "V88I"
+      ],
+      "id": "diversity_long_037_S90H_mpnn03"
+    }
+  ],
+  "baseline": {
+    "sequence": "SIRLATGEVVAGPYKGGKAGVALNTSNPDAKGGLGVSAPNGGAALAVADPSAADAKVGEIVTVTVEEVVGKSKTAPELKVGDVIEIKVTHSSTVE",
+    "ensemble_nll": 0.800699457526207,
+    "scores": [
+      {
+        "source_seed": 2503,
+        "nll_by_decoding_seed": [
+          0.9261152148246765,
+          0.943832278251648,
+          0.9046675562858582,
+          0.9057196378707886
+        ]
+      },
+      {
+        "source_seed": 2609,
+        "nll_by_decoding_seed": [
+          0.6875293254852295,
+          0.6806674599647522,
+          0.6211248636245728,
+          0.7359393239021301
+        ]
+      }
+    ],
+    "mutations": []
+  }
+}

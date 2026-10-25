@@ -1,0 +1,4733 @@
+{
+  "source_sha256": "42c9039e7dc3bc0d22685203b5898865b195dbddbd8a5991becdd95b1c937579",
+  "rows": [
+    {
+      "id": "diversity_long_037",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037/4/model.pdb",
+      "raw_sha256": "937ea29378f215ca46bf1ea026236f0f0938c521f338cc34c935fe673e383fce",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_seed2503/prepared.pdb",
+      "prepared_sha256": "b8b64c47febbae546bde8d086d29a233b8eeda82bb809710d14fc3a0e8a3a404",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15932783718549545,
+          "CA_max_A": 0.35844147205352783,
+          "interface_backbone_max_A": 0.41953766345977783
+        },
+        "B": {
+          "backbone_rms_A": 0.17567502547551794,
+          "CA_max_A": 0.7413892149925232,
+          "interface_backbone_max_A": 0.7458276152610779
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 33,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.7458276152610779,
+          "atom_distance_to_other_chain_A": 4.403323650360107,
+          "residue_distance_to_other_chain_A": 3.0978100299835205,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.7413892149925232,
+          "atom_distance_to_other_chain_A": 7.284976005554199,
+          "residue_distance_to_other_chain_A": 5.801620960235596,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.587313711643219,
+          "atom_distance_to_other_chain_A": 5.017139434814453,
+          "residue_distance_to_other_chain_A": 4.816399574279785,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.4492044448852539,
+          "atom_distance_to_other_chain_A": 7.032966613769531,
+          "residue_distance_to_other_chain_A": 5.801620960235596,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 101,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.44656577706336975,
+          "atom_distance_to_other_chain_A": 6.18005895614624,
+          "residue_distance_to_other_chain_A": 6.18005895614624,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 127,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.43827393651008606,
+          "atom_distance_to_other_chain_A": 34.50189208984375,
+          "residue_distance_to_other_chain_A": 34.291751861572266,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.43711423873901367,
+          "atom_distance_to_other_chain_A": 4.816399574279785,
+          "residue_distance_to_other_chain_A": 4.816399574279785,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 2,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.42883801460266113,
+          "atom_distance_to_other_chain_A": 6.2326741218566895,
+          "residue_distance_to_other_chain_A": 3.461148262023926,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 19,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.41953766345977783,
+          "atom_distance_to_other_chain_A": 3.190788507461548,
+          "residue_distance_to_other_chain_A": 2.539135456085205,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 78,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.4087199568748474,
+          "atom_distance_to_other_chain_A": 12.27440357208252,
+          "residue_distance_to_other_chain_A": 9.300999641418457,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 96,
+          "residue": "GLN",
+          "atom": "O",
+          "displacement_A": 0.4076016843318939,
+          "atom_distance_to_other_chain_A": 10.513727188110352,
+          "residue_distance_to_other_chain_A": 6.550924301147461,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 170,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.4067097008228302,
+          "atom_distance_to_other_chain_A": 9.927852630615234,
+          "residue_distance_to_other_chain_A": 9.927852630615234,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/2ds25_5_6wrw/4/model.pdb",
+      "raw_sha256": "ce7756ef083a8645a48d7a4d8545f4667d892e1cd69966131822df8c3f38ecdd",
+      "prepared": "reports/final_his_panel/preparation/models/2ds25_5_6wrw_seed2503/prepared.pdb",
+      "prepared_sha256": "b8f5fbf7586cedd0a73e14bd2807bea1f01814dcd4bf0f1a077cae89660db88f",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16448246953462872,
+          "CA_max_A": 0.38412320613861084,
+          "interface_backbone_max_A": 0.459975004196167
+        },
+        "B": {
+          "backbone_rms_A": 0.1643890147412354,
+          "CA_max_A": 0.3120047450065613,
+          "interface_backbone_max_A": 0.5495634078979492
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.5738409161567688,
+          "atom_distance_to_other_chain_A": 21.735654830932617,
+          "residue_distance_to_other_chain_A": 19.32870101928711,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 34,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.5495634078979492,
+          "atom_distance_to_other_chain_A": 4.892641544342041,
+          "residue_distance_to_other_chain_A": 3.286837577819824,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.509332001209259,
+          "atom_distance_to_other_chain_A": 19.32870101928711,
+          "residue_distance_to_other_chain_A": 19.32870101928711,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 11,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.5067645907402039,
+          "atom_distance_to_other_chain_A": 16.467437744140625,
+          "residue_distance_to_other_chain_A": 15.397655487060547,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 2,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.4924182891845703,
+          "atom_distance_to_other_chain_A": 16.356510162353516,
+          "residue_distance_to_other_chain_A": 13.176436424255371,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 18,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4823053777217865,
+          "atom_distance_to_other_chain_A": 8.570889472961426,
+          "residue_distance_to_other_chain_A": 7.676156044006348,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 23,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.459975004196167,
+          "atom_distance_to_other_chain_A": 4.442221641540527,
+          "residue_distance_to_other_chain_A": 3.132404327392578,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 8,
+          "residue": "GLN",
+          "atom": "O",
+          "displacement_A": 0.45518943667411804,
+          "atom_distance_to_other_chain_A": 3.5017430782318115,
+          "residue_distance_to_other_chain_A": 3.5017430782318115,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 119,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.43547260761260986,
+          "atom_distance_to_other_chain_A": 26.384557723999023,
+          "residue_distance_to_other_chain_A": 23.177156448364258,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 33,
+          "residue": "TYR",
+          "atom": "O",
+          "displacement_A": 0.41534778475761414,
+          "atom_distance_to_other_chain_A": 17.687158584594727,
+          "residue_distance_to_other_chain_A": 17.035547256469727,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.39595627784729004,
+          "atom_distance_to_other_chain_A": 26.927637100219727,
+          "residue_distance_to_other_chain_A": 26.927637100219727,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 170,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.3954300284385681,
+          "atom_distance_to_other_chain_A": 17.564685821533203,
+          "residue_distance_to_other_chain_A": 17.1080322265625,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/scrambled_6wrw/0/model.pdb",
+      "raw_sha256": "7a9cbeeabbd1fa83a0f5358b56d2b2ca996040cc9d4464739a171ff653bfb61d",
+      "prepared": "reports/final_his_panel/preparation/models/scrambled_6wrw_seed2503/prepared.pdb",
+      "prepared_sha256": "03b8c6c8a9b66179693bc356300f693d0f2e0b844a6aeb51f5f05b6933333085",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.1863664261583652,
+          "CA_max_A": 0.5513209104537964,
+          "interface_backbone_max_A": 0.8290007710456848
+        },
+        "B": {
+          "backbone_rms_A": 0.24487833512379908,
+          "CA_max_A": 0.7278584241867065,
+          "interface_backbone_max_A": 0.8369137644767761
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 56,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.8369137644767761,
+          "atom_distance_to_other_chain_A": 5.818350315093994,
+          "residue_distance_to_other_chain_A": 4.48978328704834,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 107,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.8290007710456848,
+          "atom_distance_to_other_chain_A": 2.431450843811035,
+          "residue_distance_to_other_chain_A": 2.431450843811035,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 74,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.748568594455719,
+          "atom_distance_to_other_chain_A": 16.073162078857422,
+          "residue_distance_to_other_chain_A": 13.4659423828125,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 75,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.7383826971054077,
+          "atom_distance_to_other_chain_A": 13.825971603393555,
+          "residue_distance_to_other_chain_A": 13.825971603393555,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 93,
+          "residue": "LYS",
+          "atom": "CA",
+          "displacement_A": 0.7278584241867065,
+          "atom_distance_to_other_chain_A": 17.01211166381836,
+          "residue_distance_to_other_chain_A": 13.872834205627441,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 180,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.7251078486442566,
+          "atom_distance_to_other_chain_A": 31.61446189880371,
+          "residue_distance_to_other_chain_A": 31.310781478881836,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 93,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.6676234602928162,
+          "atom_distance_to_other_chain_A": 18.666704177856445,
+          "residue_distance_to_other_chain_A": 13.872834205627441,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 48,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.6595973968505859,
+          "atom_distance_to_other_chain_A": 12.34316349029541,
+          "residue_distance_to_other_chain_A": 8.203046798706055,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 194,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.6578465700149536,
+          "atom_distance_to_other_chain_A": 7.295674800872803,
+          "residue_distance_to_other_chain_A": 6.478545188903809,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 85,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.6410033702850342,
+          "atom_distance_to_other_chain_A": 7.379317283630371,
+          "residue_distance_to_other_chain_A": 7.379317283630371,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 129,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.6323816180229187,
+          "atom_distance_to_other_chain_A": 6.405323028564453,
+          "residue_distance_to_other_chain_A": 2.157818078994751,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 93,
+          "residue": "LYS",
+          "atom": "C",
+          "displacement_A": 0.6082648038864136,
+          "atom_distance_to_other_chain_A": 18.408565521240234,
+          "residue_distance_to_other_chain_A": 13.872834205627441,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/caplacizumab_6wrw/0/model.pdb",
+      "raw_sha256": "a0061ef970a949c00678a6926422fc43ccff41ed88730023fb10b0c80bea9c4e",
+      "prepared": "reports/final_his_panel/preparation/models/caplacizumab_6wrw_seed2503/prepared.pdb",
+      "prepared_sha256": "c26fb3c4e64b7284971f728ea60c4a08ec9a2f4bf5798d490ebfcc04860e73fd",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15542403177776115,
+          "CA_max_A": 0.4576244354248047,
+          "interface_backbone_max_A": 0.32703056931495667
+        },
+        "B": {
+          "backbone_rms_A": 0.15048283964209783,
+          "CA_max_A": 0.314797967672348,
+          "interface_backbone_max_A": 0.4309176206588745
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 127,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.57613205909729,
+          "atom_distance_to_other_chain_A": 45.88334274291992,
+          "residue_distance_to_other_chain_A": 44.95439147949219,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 20,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.4717743694782257,
+          "atom_distance_to_other_chain_A": 16.191736221313477,
+          "residue_distance_to_other_chain_A": 15.869897842407227,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 105,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.4699411690235138,
+          "atom_distance_to_other_chain_A": 9.02855110168457,
+          "residue_distance_to_other_chain_A": 6.766990661621094,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 19,
+          "residue": "ARG",
+          "atom": "CA",
+          "displacement_A": 0.4576244354248047,
+          "atom_distance_to_other_chain_A": 15.056562423706055,
+          "residue_distance_to_other_chain_A": 13.241127014160156,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 126,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4531603157520294,
+          "atom_distance_to_other_chain_A": 44.19695281982422,
+          "residue_distance_to_other_chain_A": 41.511348724365234,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 107,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.44854217767715454,
+          "atom_distance_to_other_chain_A": 28.680557250976562,
+          "residue_distance_to_other_chain_A": 27.75812530517578,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 101,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.4426628649234772,
+          "atom_distance_to_other_chain_A": 21.838281631469727,
+          "residue_distance_to_other_chain_A": 21.756608963012695,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "GLU",
+          "atom": "N",
+          "displacement_A": 0.4309176206588745,
+          "atom_distance_to_other_chain_A": 6.651801109313965,
+          "residue_distance_to_other_chain_A": 3.4724183082580566,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 97,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.4262183904647827,
+          "atom_distance_to_other_chain_A": 16.75591278076172,
+          "residue_distance_to_other_chain_A": 12.423871994018555,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 15,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.4192889332771301,
+          "atom_distance_to_other_chain_A": 14.020000457763672,
+          "residue_distance_to_other_chain_A": 11.299180030822754,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 102,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.40998297929763794,
+          "atom_distance_to_other_chain_A": 6.530108451843262,
+          "residue_distance_to_other_chain_A": 5.171925067901611,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 107,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.40740644931793213,
+          "atom_distance_to_other_chain_A": 27.75812530517578,
+          "residue_distance_to_other_chain_A": 27.75812530517578,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_S37H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S37H/2/model.pdb",
+      "raw_sha256": "8e401fbdfdc9b03799d3fd28f08ec1db66bf24fed607ef175bcee41843fea5f4",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_S37H_seed2503/prepared.pdb",
+      "prepared_sha256": "f7f65f7ad9d00221af3bd71f8723552c32a740d46bfb964a953828b8ebbb3400",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15839268551488192,
+          "CA_max_A": 0.5252078175544739,
+          "interface_backbone_max_A": 0.4460159242153168
+        },
+        "B": {
+          "backbone_rms_A": 0.16519038653908438,
+          "CA_max_A": 0.30602768063545227,
+          "interface_backbone_max_A": 0.6206850409507751
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.6206850409507751,
+          "atom_distance_to_other_chain_A": 3.5896639823913574,
+          "residue_distance_to_other_chain_A": 3.5896639823913574,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.5551604628562927,
+          "atom_distance_to_other_chain_A": 4.260290145874023,
+          "residue_distance_to_other_chain_A": 4.260290145874023,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 126,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.5252078175544739,
+          "atom_distance_to_other_chain_A": 33.20278549194336,
+          "residue_distance_to_other_chain_A": 31.603946685791016,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 178,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.48120900988578796,
+          "atom_distance_to_other_chain_A": 11.423771858215332,
+          "residue_distance_to_other_chain_A": 9.24952507019043,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 129,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.4796479046344757,
+          "atom_distance_to_other_chain_A": 38.99510192871094,
+          "residue_distance_to_other_chain_A": 38.065250396728516,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 135,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.45928698778152466,
+          "atom_distance_to_other_chain_A": 26.897796630859375,
+          "residue_distance_to_other_chain_A": 26.897796630859375,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 3,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.451642781496048,
+          "atom_distance_to_other_chain_A": 5.804391384124756,
+          "residue_distance_to_other_chain_A": 5.804391384124756,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 172,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4460159242153168,
+          "atom_distance_to_other_chain_A": 2.893962860107422,
+          "residue_distance_to_other_chain_A": 2.893962860107422,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 127,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.42303889989852905,
+          "atom_distance_to_other_chain_A": 35.32807540893555,
+          "residue_distance_to_other_chain_A": 35.238216400146484,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 182,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.408324658870697,
+          "atom_distance_to_other_chain_A": 9.480616569519043,
+          "residue_distance_to_other_chain_A": 2.4629125595092773,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 39,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.404159814119339,
+          "atom_distance_to_other_chain_A": 5.478320598602295,
+          "residue_distance_to_other_chain_A": 5.329434871673584,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 130,
+          "residue": "THR",
+          "atom": "CA",
+          "displacement_A": 0.4024845063686371,
+          "atom_distance_to_other_chain_A": 36.498626708984375,
+          "residue_distance_to_other_chain_A": 34.4014892578125,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_T6H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T6H/4/model.pdb",
+      "raw_sha256": "78bfdec249ae8f56cfa99be195e85f53b6725de01949cd736116897b8750c150",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_seed2503/prepared.pdb",
+      "prepared_sha256": "d3ad68f6687d159eeba2162d3b249d35b2e96a1ac0d8278e1bb4a85a800fa0f2",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.1704476978214428,
+          "CA_max_A": 0.4463634192943573,
+          "interface_backbone_max_A": 0.6129444241523743
+        },
+        "B": {
+          "backbone_rms_A": 0.2144140126505313,
+          "CA_max_A": 0.43311601877212524,
+          "interface_backbone_max_A": 0.9144230484962463
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 37,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.9144230484962463,
+          "atom_distance_to_other_chain_A": 6.476857662200928,
+          "residue_distance_to_other_chain_A": 3.2017862796783447,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 162,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.704219400882721,
+          "atom_distance_to_other_chain_A": 6.820049285888672,
+          "residue_distance_to_other_chain_A": 6.820049285888672,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 130,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.666299045085907,
+          "atom_distance_to_other_chain_A": 34.46503448486328,
+          "residue_distance_to_other_chain_A": 33.71192169189453,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 39,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.6590062379837036,
+          "atom_distance_to_other_chain_A": 4.1505584716796875,
+          "residue_distance_to_other_chain_A": 4.1505584716796875,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 17,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.6129444241523743,
+          "atom_distance_to_other_chain_A": 3.8301877975463867,
+          "residue_distance_to_other_chain_A": 3.8301877975463867,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 126,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.5950239896774292,
+          "atom_distance_to_other_chain_A": 33.405517578125,
+          "residue_distance_to_other_chain_A": 31.28092384338379,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 19,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.567108154296875,
+          "atom_distance_to_other_chain_A": 1.8907769918441772,
+          "residue_distance_to_other_chain_A": 1.8907769918441772,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 36,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.5479888319969177,
+          "atom_distance_to_other_chain_A": 4.830727577209473,
+          "residue_distance_to_other_chain_A": 4.275475025177002,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 31,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.5460737943649292,
+          "atom_distance_to_other_chain_A": 1.8907769918441772,
+          "residue_distance_to_other_chain_A": 1.8907769918441772,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 40,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.5062536001205444,
+          "atom_distance_to_other_chain_A": 1.8453819751739502,
+          "residue_distance_to_other_chain_A": 1.8453819751739502,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 69,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.5013430118560791,
+          "atom_distance_to_other_chain_A": 1.5453213453292847,
+          "residue_distance_to_other_chain_A": 1.5453213453292847,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 50,
+          "residue": "PRO",
+          "atom": "N",
+          "displacement_A": 0.48791301250457764,
+          "atom_distance_to_other_chain_A": 8.327442169189453,
+          "residue_distance_to_other_chain_A": 6.839231967926025,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_N40H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_N40H/2/model.pdb",
+      "raw_sha256": "b6bb40aeb2cd44bdcbe8a9dfdace50fe12124feb537ccce9637c3939c85c1551",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_N40H_seed2503/prepared.pdb",
+      "prepared_sha256": "4631be97c7f74c9ee85e7eb02c23947621962b61c1eca6df2da00a8b566f3916",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.14118455820848883,
+          "CA_max_A": 0.34318023920059204,
+          "interface_backbone_max_A": 0.32410678267478943
+        },
+        "B": {
+          "backbone_rms_A": 0.13633644982942253,
+          "CA_max_A": 0.42920202016830444,
+          "interface_backbone_max_A": 0.46892407536506653
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 129,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.5788714289665222,
+          "atom_distance_to_other_chain_A": 34.60226821899414,
+          "residue_distance_to_other_chain_A": 34.60226821899414,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 131,
+          "residue": "GLN",
+          "atom": "O",
+          "displacement_A": 0.5772640705108643,
+          "atom_distance_to_other_chain_A": 28.2346248626709,
+          "residue_distance_to_other_chain_A": 27.742433547973633,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 132,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.5567731857299805,
+          "atom_distance_to_other_chain_A": 29.22642707824707,
+          "residue_distance_to_other_chain_A": 25.501859664916992,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.46892407536506653,
+          "atom_distance_to_other_chain_A": 5.655571937561035,
+          "residue_distance_to_other_chain_A": 5.655571937561035,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 74,
+          "residue": "THR",
+          "atom": "CA",
+          "displacement_A": 0.42920202016830444,
+          "atom_distance_to_other_chain_A": 5.325005531311035,
+          "residue_distance_to_other_chain_A": 3.930375099182129,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 33,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4144804775714874,
+          "atom_distance_to_other_chain_A": 4.445003032684326,
+          "residue_distance_to_other_chain_A": 3.357210159301758,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 130,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.41352367401123047,
+          "atom_distance_to_other_chain_A": 31.502756118774414,
+          "residue_distance_to_other_chain_A": 31.502756118774414,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 5,
+          "residue": "ASP",
+          "atom": "N",
+          "displacement_A": 0.4001877009868622,
+          "atom_distance_to_other_chain_A": 11.438880920410156,
+          "residue_distance_to_other_chain_A": 9.455574989318848,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 128,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.39101940393447876,
+          "atom_distance_to_other_chain_A": 33.652557373046875,
+          "residue_distance_to_other_chain_A": 33.533042907714844,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 132,
+          "residue": "PHE",
+          "atom": "N",
+          "displacement_A": 0.3818095326423645,
+          "atom_distance_to_other_chain_A": 28.742233276367188,
+          "residue_distance_to_other_chain_A": 25.501859664916992,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 162,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.3607618510723114,
+          "atom_distance_to_other_chain_A": 8.71982192993164,
+          "residue_distance_to_other_chain_A": 8.71982192993164,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 194,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.35853391885757446,
+          "atom_distance_to_other_chain_A": 24.150678634643555,
+          "residue_distance_to_other_chain_A": 22.82059669494629,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_A22H",
+      "seed": 2503,
+      "historical_movement_pass": false,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H/1/model.pdb",
+      "raw_sha256": "91abf71e2aad0dd43d065f07eb0d2317e1cd4ac8f5d08bb1f5135adb82091988",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_seed2503/prepared.pdb",
+      "prepared_sha256": "37bb06bbd4afc9adc5f6b49155c9914f62a171da846c3c7713f921b216f78f0f",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.17651651207821495,
+          "CA_max_A": 0.42722296714782715,
+          "interface_backbone_max_A": 0.39251264929771423
+        },
+        "B": {
+          "backbone_rms_A": 0.18357020023364232,
+          "CA_max_A": 0.7077984809875488,
+          "interface_backbone_max_A": 0.4619660973548889
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 181,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 1.1222385168075562,
+          "atom_distance_to_other_chain_A": 6.347053527832031,
+          "residue_distance_to_other_chain_A": 6.309648513793945,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 11,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.885902464389801,
+          "atom_distance_to_other_chain_A": 17.365501403808594,
+          "residue_distance_to_other_chain_A": 16.51076316833496,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 170,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.716247022151947,
+          "atom_distance_to_other_chain_A": 13.826830863952637,
+          "residue_distance_to_other_chain_A": 13.737195014953613,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.713788628578186,
+          "atom_distance_to_other_chain_A": 22.478933334350586,
+          "residue_distance_to_other_chain_A": 20.028236389160156,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.7077984809875488,
+          "atom_distance_to_other_chain_A": 7.102657318115234,
+          "residue_distance_to_other_chain_A": 6.034210205078125,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.6181414723396301,
+          "atom_distance_to_other_chain_A": 28.348857879638672,
+          "residue_distance_to_other_chain_A": 28.297883987426758,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 110,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.6002568006515503,
+          "atom_distance_to_other_chain_A": 19.864221572875977,
+          "residue_distance_to_other_chain_A": 19.393781661987305,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 107,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.5932318568229675,
+          "atom_distance_to_other_chain_A": 15.38065242767334,
+          "residue_distance_to_other_chain_A": 12.778860092163086,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.5553139448165894,
+          "atom_distance_to_other_chain_A": 6.034210205078125,
+          "residue_distance_to_other_chain_A": 6.034210205078125,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 11,
+          "residue": "ALA",
+          "atom": "CA",
+          "displacement_A": 0.5547449588775635,
+          "atom_distance_to_other_chain_A": 17.41586685180664,
+          "residue_distance_to_other_chain_A": 16.51076316833496,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 67,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.48171570897102356,
+          "atom_distance_to_other_chain_A": 16.934288024902344,
+          "residue_distance_to_other_chain_A": 14.00805950164795,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 20,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4619660973548889,
+          "atom_distance_to_other_chain_A": 5.837499141693115,
+          "residue_distance_to_other_chain_A": 5.837499141693115,
+          "interface_residue_6A": true
+        }
+      ],
+      "all_backbone_over_1A": [
+        {
+          "chain": "A",
+          "position": 181,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 1.1222385168075562,
+          "atom_distance_to_other_chain_A": 6.347053527832031,
+          "residue_distance_to_other_chain_A": 6.309648513793945,
+          "interface_residue_6A": false
+        }
+      ],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_V47H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_V47H/4/model.pdb",
+      "raw_sha256": "f2581fe379a666255e19e4942e267e700d6aaa9f7820b27df980e1e91e5d149d",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_V47H_seed2503/prepared.pdb",
+      "prepared_sha256": "c51dc523865e62a05a4dc703af49d4caf72104b314625a554aeb77e5f747110b",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16020205161925435,
+          "CA_max_A": 0.3437879681587219,
+          "interface_backbone_max_A": 0.4599847197532654
+        },
+        "B": {
+          "backbone_rms_A": 0.2143583602715835,
+          "CA_max_A": 0.6344430446624756,
+          "interface_backbone_max_A": 0.8245290517807007
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.8245290517807007,
+          "atom_distance_to_other_chain_A": 4.190959930419922,
+          "residue_distance_to_other_chain_A": 3.246436595916748,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.6344430446624756,
+          "atom_distance_to_other_chain_A": 3.246436595916748,
+          "residue_distance_to_other_chain_A": 3.246436595916748,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 181,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.5449812412261963,
+          "atom_distance_to_other_chain_A": 6.6826629638671875,
+          "residue_distance_to_other_chain_A": 6.51920223236084,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 31,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.5192233324050903,
+          "atom_distance_to_other_chain_A": 3.1020562648773193,
+          "residue_distance_to_other_chain_A": 2.667785406112671,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.49845293164253235,
+          "atom_distance_to_other_chain_A": 2.9738612174987793,
+          "residue_distance_to_other_chain_A": 2.9738612174987793,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 18,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.48198315501213074,
+          "atom_distance_to_other_chain_A": 4.876646041870117,
+          "residue_distance_to_other_chain_A": 4.280501842498779,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.46495673060417175,
+          "atom_distance_to_other_chain_A": 7.496182441711426,
+          "residue_distance_to_other_chain_A": 6.27436637878418,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 92,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4635927677154541,
+          "atom_distance_to_other_chain_A": 6.51198148727417,
+          "residue_distance_to_other_chain_A": 3.6171133518218994,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 21,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.4599847197532654,
+          "atom_distance_to_other_chain_A": 2.838693618774414,
+          "residue_distance_to_other_chain_A": 2.838693618774414,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 183,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.45340701937675476,
+          "atom_distance_to_other_chain_A": 7.543050289154053,
+          "residue_distance_to_other_chain_A": 7.497629642486572,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "C",
+          "displacement_A": 0.44529297947883606,
+          "atom_distance_to_other_chain_A": 3.7358202934265137,
+          "residue_distance_to_other_chain_A": 3.246436595916748,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 51,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.4433746635913849,
+          "atom_distance_to_other_chain_A": 14.6343994140625,
+          "residue_distance_to_other_chain_A": 13.429039001464844,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S90H/2/model.pdb",
+      "raw_sha256": "e226d7ddc0badc468b6fa4c10611189bd329cb1c86bd3a2e1b802885ec64afc2",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_S90H_seed2503/prepared.pdb",
+      "prepared_sha256": "521a3c16206ebfb10393efd4b40b88ff82a1e242b32e10d4cbd5acf413ae2b7d",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16572493345001577,
+          "CA_max_A": 0.36970531940460205,
+          "interface_backbone_max_A": 0.5920343995094299
+        },
+        "B": {
+          "backbone_rms_A": 0.17118261222843828,
+          "CA_max_A": 0.3160669207572937,
+          "interface_backbone_max_A": 0.44562774896621704
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 70,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.6168209910392761,
+          "atom_distance_to_other_chain_A": 17.061767578125,
+          "residue_distance_to_other_chain_A": 16.011899948120117,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 19,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.5920343995094299,
+          "atom_distance_to_other_chain_A": 2.6562089920043945,
+          "residue_distance_to_other_chain_A": 2.6562089920043945,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.47673434019088745,
+          "atom_distance_to_other_chain_A": 21.825803756713867,
+          "residue_distance_to_other_chain_A": 18.60236167907715,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 179,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4698221683502197,
+          "atom_distance_to_other_chain_A": 11.655322074890137,
+          "residue_distance_to_other_chain_A": 8.447254180908203,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.44562774896621704,
+          "atom_distance_to_other_chain_A": 2.873847723007202,
+          "residue_distance_to_other_chain_A": 2.873847723007202,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4421049952507019,
+          "atom_distance_to_other_chain_A": 27.407499313354492,
+          "residue_distance_to_other_chain_A": 27.407499313354492,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 20,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.44147586822509766,
+          "atom_distance_to_other_chain_A": 6.407002925872803,
+          "residue_distance_to_other_chain_A": 3.640178680419922,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 78,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.43714001774787903,
+          "atom_distance_to_other_chain_A": 11.831184387207031,
+          "residue_distance_to_other_chain_A": 9.109506607055664,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 20,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.425152063369751,
+          "atom_distance_to_other_chain_A": 4.4042181968688965,
+          "residue_distance_to_other_chain_A": 4.282468318939209,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.42263534665107727,
+          "atom_distance_to_other_chain_A": 18.60236167907715,
+          "residue_distance_to_other_chain_A": 18.60236167907715,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 183,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.41461408138275146,
+          "atom_distance_to_other_chain_A": 8.913935661315918,
+          "residue_distance_to_other_chain_A": 8.913935661315918,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 127,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.40381404757499695,
+          "atom_distance_to_other_chain_A": 33.93544006347656,
+          "residue_distance_to_other_chain_A": 33.73350143432617,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_N27H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_N27H/3/model.pdb",
+      "raw_sha256": "8417431436890edd9c918d105d2780e8eb4313e0bd8a7b047ffbad5b44daf021",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_N27H_seed2503/prepared.pdb",
+      "prepared_sha256": "12e2966b742281566029105981419f9ce979cd670bfbaa2db5b43e259b50961a",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.1448852071569054,
+          "CA_max_A": 0.38814547657966614,
+          "interface_backbone_max_A": 0.46480220556259155
+        },
+        "B": {
+          "backbone_rms_A": 0.15404950753945032,
+          "CA_max_A": 0.267768919467926,
+          "interface_backbone_max_A": 0.5925209522247314
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 5,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.5925209522247314,
+          "atom_distance_to_other_chain_A": 4.180318832397461,
+          "residue_distance_to_other_chain_A": 4.180318832397461,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 33,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.5834869742393494,
+          "atom_distance_to_other_chain_A": 4.261030197143555,
+          "residue_distance_to_other_chain_A": 3.0146889686584473,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.5269771814346313,
+          "atom_distance_to_other_chain_A": 3.624070882797241,
+          "residue_distance_to_other_chain_A": 3.624070882797241,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.47865334153175354,
+          "atom_distance_to_other_chain_A": 7.098665237426758,
+          "residue_distance_to_other_chain_A": 7.098665237426758,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 7,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.4670775234699249,
+          "atom_distance_to_other_chain_A": 7.318495273590088,
+          "residue_distance_to_other_chain_A": 6.22498893737793,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 19,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.46480220556259155,
+          "atom_distance_to_other_chain_A": 3.131697416305542,
+          "residue_distance_to_other_chain_A": 3.131697416305542,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.4454626739025116,
+          "atom_distance_to_other_chain_A": 23.537351608276367,
+          "residue_distance_to_other_chain_A": 20.757640838623047,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4188494384288788,
+          "atom_distance_to_other_chain_A": 7.3088555335998535,
+          "residue_distance_to_other_chain_A": 7.098665237426758,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 70,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.4112391769886017,
+          "atom_distance_to_other_chain_A": 17.581321716308594,
+          "residue_distance_to_other_chain_A": 16.93531608581543,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 72,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.404283344745636,
+          "atom_distance_to_other_chain_A": 5.90515661239624,
+          "residue_distance_to_other_chain_A": 3.20182728767395,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 9,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.3987243175506592,
+          "atom_distance_to_other_chain_A": 9.092713356018066,
+          "residue_distance_to_other_chain_A": 7.223367214202881,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 117,
+          "residue": "GLY",
+          "atom": "N",
+          "displacement_A": 0.39141955971717834,
+          "atom_distance_to_other_chain_A": 29.9931583404541,
+          "residue_distance_to_other_chain_A": 27.96637725830078,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_T74H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T74H/1/model.pdb",
+      "raw_sha256": "fb5e0d55e03886d4557d1a25968d405365594c88b068b024c809ffb9acf9c1c6",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_T74H_seed2503/prepared.pdb",
+      "prepared_sha256": "93352e10f46f542cf83d07a43c255ab773efa4c18a5a23d64640013e09d034ef",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15351453270586524,
+          "CA_max_A": 0.3340199291706085,
+          "interface_backbone_max_A": 0.46814635396003723
+        },
+        "B": {
+          "backbone_rms_A": 0.1528236191413575,
+          "CA_max_A": 0.3147464990615845,
+          "interface_backbone_max_A": 0.4343416392803192
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.5125912427902222,
+          "atom_distance_to_other_chain_A": 23.726165771484375,
+          "residue_distance_to_other_chain_A": 21.13225555419922,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 21,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.46814635396003723,
+          "atom_distance_to_other_chain_A": 2.920137643814087,
+          "residue_distance_to_other_chain_A": 2.920137643814087,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 33,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4343416392803192,
+          "atom_distance_to_other_chain_A": 4.125568389892578,
+          "residue_distance_to_other_chain_A": 2.920137643814087,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 130,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.4308263659477234,
+          "atom_distance_to_other_chain_A": 36.72856521606445,
+          "residue_distance_to_other_chain_A": 35.44619369506836,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 19,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.4204152524471283,
+          "atom_distance_to_other_chain_A": 5.612475395202637,
+          "residue_distance_to_other_chain_A": 5.4120707511901855,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 100,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.4102999269962311,
+          "atom_distance_to_other_chain_A": 10.576132774353027,
+          "residue_distance_to_other_chain_A": 10.137235641479492,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 179,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4086045026779175,
+          "atom_distance_to_other_chain_A": 11.610520362854004,
+          "residue_distance_to_other_chain_A": 7.958471298217773,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4039265811443329,
+          "atom_distance_to_other_chain_A": 28.40263557434082,
+          "residue_distance_to_other_chain_A": 28.40263557434082,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 34,
+          "residue": "LEU",
+          "atom": "N",
+          "displacement_A": 0.38079535961151123,
+          "atom_distance_to_other_chain_A": 3.9068429470062256,
+          "residue_distance_to_other_chain_A": 3.9068429470062256,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 189,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.3807750642299652,
+          "atom_distance_to_other_chain_A": 10.881794929504395,
+          "residue_distance_to_other_chain_A": 6.75256872177124,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 17,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.3666894733905792,
+          "atom_distance_to_other_chain_A": 4.656031608581543,
+          "residue_distance_to_other_chain_A": 4.656031608581543,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 70,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.36079487204551697,
+          "atom_distance_to_other_chain_A": 17.733686447143555,
+          "residue_distance_to_other_chain_A": 16.92652702331543,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_A43H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A43H/3/model.pdb",
+      "raw_sha256": "925c2292053336ebbf70b1ac69548dc7fc524f0dc18bae6efae161a4cd2870e6",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_A43H_seed2503/prepared.pdb",
+      "prepared_sha256": "0eee1604ee45312d3fc05ca2a243bf1493405cda427d7c55bbd20c86229b4227",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15035815309366687,
+          "CA_max_A": 0.4251406788825989,
+          "interface_backbone_max_A": 0.3294246792793274
+        },
+        "B": {
+          "backbone_rms_A": 0.15439451461333,
+          "CA_max_A": 0.42933082580566406,
+          "interface_backbone_max_A": 0.42933082580566406
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.7179056406021118,
+          "atom_distance_to_other_chain_A": 24.331897735595703,
+          "residue_distance_to_other_chain_A": 21.702844619750977,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 46,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.6690716743469238,
+          "atom_distance_to_other_chain_A": 19.3756046295166,
+          "residue_distance_to_other_chain_A": 17.462160110473633,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 128,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.5044540166854858,
+          "atom_distance_to_other_chain_A": 36.238731384277344,
+          "residue_distance_to_other_chain_A": 34.92145919799805,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 123,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.502867579460144,
+          "atom_distance_to_other_chain_A": 38.38675308227539,
+          "residue_distance_to_other_chain_A": 34.965179443359375,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 162,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.44328880310058594,
+          "atom_distance_to_other_chain_A": 8.183457374572754,
+          "residue_distance_to_other_chain_A": 8.183457374572754,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.42933082580566406,
+          "atom_distance_to_other_chain_A": 5.2569780349731445,
+          "residue_distance_to_other_chain_A": 5.174708366394043,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 123,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.4251406788825989,
+          "atom_distance_to_other_chain_A": 36.289825439453125,
+          "residue_distance_to_other_chain_A": 34.965179443359375,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 33,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4083639085292816,
+          "atom_distance_to_other_chain_A": 4.204807281494141,
+          "residue_distance_to_other_chain_A": 3.290024995803833,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 166,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.3964792490005493,
+          "atom_distance_to_other_chain_A": 13.683112144470215,
+          "residue_distance_to_other_chain_A": 11.64030933380127,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 112,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.39171022176742554,
+          "atom_distance_to_other_chain_A": 23.106779098510742,
+          "residue_distance_to_other_chain_A": 20.667482376098633,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 108,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.3761303722858429,
+          "atom_distance_to_other_chain_A": 15.475730895996094,
+          "residue_distance_to_other_chain_A": 13.353124618530273,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.37340110540390015,
+          "atom_distance_to_other_chain_A": 29.604915618896484,
+          "residue_distance_to_other_chain_A": 29.376237869262695,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_S72H",
+      "seed": 2503,
+      "historical_movement_pass": false,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S72H/0/model.pdb",
+      "raw_sha256": "088c8ac8fb79de503a5e904176bc9f3b28b937f53b67d046c3d6d4206e8292a8",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_S72H_seed2503/prepared.pdb",
+      "prepared_sha256": "186550ba10a77aeff22fa858719dbe01abc20c1a6bd08e4f86c52145195e5eb3",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15811870247813897,
+          "CA_max_A": 0.4197450876235962,
+          "interface_backbone_max_A": 0.4260115623474121
+        },
+        "B": {
+          "backbone_rms_A": 0.18351510696373785,
+          "CA_max_A": 0.5378785133361816,
+          "interface_backbone_max_A": 1.2077094316482544
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 94,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 1.2077094316482544,
+          "atom_distance_to_other_chain_A": 4.796684741973877,
+          "residue_distance_to_other_chain_A": 2.9201018810272217,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 142,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.7337478995323181,
+          "atom_distance_to_other_chain_A": 15.67009162902832,
+          "residue_distance_to_other_chain_A": 15.67009162902832,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 122,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.5958898067474365,
+          "atom_distance_to_other_chain_A": 32.739112854003906,
+          "residue_distance_to_other_chain_A": 30.75330924987793,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 26,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.5378785133361816,
+          "atom_distance_to_other_chain_A": 7.150581359863281,
+          "residue_distance_to_other_chain_A": 5.801745891571045,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.523883044719696,
+          "atom_distance_to_other_chain_A": 5.208830833435059,
+          "residue_distance_to_other_chain_A": 5.185823440551758,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 131,
+          "residue": "GLN",
+          "atom": "N",
+          "displacement_A": 0.5078812837600708,
+          "atom_distance_to_other_chain_A": 36.37667465209961,
+          "residue_distance_to_other_chain_A": 34.27618408203125,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 26,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.4769964814186096,
+          "atom_distance_to_other_chain_A": 6.965763092041016,
+          "residue_distance_to_other_chain_A": 5.801745891571045,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 135,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4687180519104004,
+          "atom_distance_to_other_chain_A": 27.85796546936035,
+          "residue_distance_to_other_chain_A": 27.673500061035156,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 25,
+          "residue": "THR",
+          "atom": "CA",
+          "displacement_A": 0.4654317796230316,
+          "atom_distance_to_other_chain_A": 7.631109714508057,
+          "residue_distance_to_other_chain_A": 6.313221454620361,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 25,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.46404752135276794,
+          "atom_distance_to_other_chain_A": 8.296687126159668,
+          "residue_distance_to_other_chain_A": 6.313221454620361,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 76,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.4594050645828247,
+          "atom_distance_to_other_chain_A": 10.066543579101562,
+          "residue_distance_to_other_chain_A": 8.987577438354492,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 25,
+          "residue": "THR",
+          "atom": "C",
+          "displacement_A": 0.44187942147254944,
+          "atom_distance_to_other_chain_A": 7.568910598754883,
+          "residue_distance_to_other_chain_A": 6.313221454620361,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [
+        {
+          "chain": "B",
+          "position": 94,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 1.2077094316482544,
+          "atom_distance_to_other_chain_A": 4.796684741973877,
+          "residue_distance_to_other_chain_A": 2.9201018810272217,
+          "interface_residue_6A": true
+        }
+      ],
+      "interface_sensitivity_pass": false
+    },
+    {
+      "id": "diversity_long_037_T6H_S37H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T6H_S37H/4/model.pdb",
+      "raw_sha256": "3a92d7ec3c50fa25199e8c2de91bd12fcfc9e2f11cbc7e80a44ee117062f9be5",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_S37H_seed2503/prepared.pdb",
+      "prepared_sha256": "00c75afbc27ea712fe90230c61dcaf0acfd423d5cf7f9d60503ddbb16e44d9af",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15807263328202137,
+          "CA_max_A": 0.49911239743232727,
+          "interface_backbone_max_A": 0.601372241973877
+        },
+        "B": {
+          "backbone_rms_A": 0.1913125655087879,
+          "CA_max_A": 0.559611439704895,
+          "interface_backbone_max_A": 0.7669637799263
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.7669637799263,
+          "atom_distance_to_other_chain_A": 3.9119577407836914,
+          "residue_distance_to_other_chain_A": 3.9119577407836914,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 19,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.601372241973877,
+          "atom_distance_to_other_chain_A": 2.2574007511138916,
+          "residue_distance_to_other_chain_A": 2.2574007511138916,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 21,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.5980687737464905,
+          "atom_distance_to_other_chain_A": 2.4556045532226562,
+          "residue_distance_to_other_chain_A": 2.4556045532226562,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 71,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.5911730527877808,
+          "atom_distance_to_other_chain_A": 2.557316303253174,
+          "residue_distance_to_other_chain_A": 2.557316303253174,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 50,
+          "residue": "PRO",
+          "atom": "CA",
+          "displacement_A": 0.559611439704895,
+          "atom_distance_to_other_chain_A": 7.403815746307373,
+          "residue_distance_to_other_chain_A": 6.698864936828613,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 27,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.4993354380130768,
+          "atom_distance_to_other_chain_A": 5.032649993896484,
+          "residue_distance_to_other_chain_A": 3.222903251647949,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 110,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.49911239743232727,
+          "atom_distance_to_other_chain_A": 19.066364288330078,
+          "residue_distance_to_other_chain_A": 17.92566680908203,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.4961431622505188,
+          "atom_distance_to_other_chain_A": 6.479422569274902,
+          "residue_distance_to_other_chain_A": 5.81467342376709,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 114,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.49113261699676514,
+          "atom_distance_to_other_chain_A": 28.36323356628418,
+          "residue_distance_to_other_chain_A": 25.72650718688965,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 49,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.4531191885471344,
+          "atom_distance_to_other_chain_A": 8.094514846801758,
+          "residue_distance_to_other_chain_A": 8.094514846801758,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 130,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.4268958270549774,
+          "atom_distance_to_other_chain_A": 34.428916931152344,
+          "residue_distance_to_other_chain_A": 34.428916931152344,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.40685299038887024,
+          "atom_distance_to_other_chain_A": 28.65545082092285,
+          "residue_distance_to_other_chain_A": 28.65545082092285,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_A22H_S37H",
+      "seed": 2503,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H_S37H/1/model.pdb",
+      "raw_sha256": "920ee6509c1c0adff69cb48c040507623292f3fd08bfc4b69cf5b6b3dd5ee1d7",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_S37H_seed2503/prepared.pdb",
+      "prepared_sha256": "49e621e41d1efb4683b88c5e32041d9afdcf5f3d384cba4b62c468f67f6a04fd",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.1673740427001147,
+          "CA_max_A": 0.34503039717674255,
+          "interface_backbone_max_A": 0.36770373582839966
+        },
+        "B": {
+          "backbone_rms_A": 0.20423372453390204,
+          "CA_max_A": 0.5192129611968994,
+          "interface_backbone_max_A": 0.7105380296707153
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.7105380296707153,
+          "atom_distance_to_other_chain_A": 4.456851482391357,
+          "residue_distance_to_other_chain_A": 4.456851482391357,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 120,
+          "residue": "TYR",
+          "atom": "O",
+          "displacement_A": 0.6896794438362122,
+          "atom_distance_to_other_chain_A": 27.52720069885254,
+          "residue_distance_to_other_chain_A": 20.616971969604492,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.6522130966186523,
+          "atom_distance_to_other_chain_A": 5.05412483215332,
+          "residue_distance_to_other_chain_A": 4.456851482391357,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 170,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.6432332396507263,
+          "atom_distance_to_other_chain_A": 12.300883293151855,
+          "residue_distance_to_other_chain_A": 11.867657661437988,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 6,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.6080693006515503,
+          "atom_distance_to_other_chain_A": 10.239269256591797,
+          "residue_distance_to_other_chain_A": 5.647819995880127,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 126,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.5942750573158264,
+          "atom_distance_to_other_chain_A": 35.152523040771484,
+          "residue_distance_to_other_chain_A": 35.152523040771484,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 190,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.5544125437736511,
+          "atom_distance_to_other_chain_A": 13.31277847290039,
+          "residue_distance_to_other_chain_A": 12.088968276977539,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "CA",
+          "displacement_A": 0.5192129611968994,
+          "atom_distance_to_other_chain_A": 6.446043968200684,
+          "residue_distance_to_other_chain_A": 4.456851482391357,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 169,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.5076864361763,
+          "atom_distance_to_other_chain_A": 15.78498649597168,
+          "residue_distance_to_other_chain_A": 15.003111839294434,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 4,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.46742457151412964,
+          "atom_distance_to_other_chain_A": 14.881877899169922,
+          "residue_distance_to_other_chain_A": 12.038877487182617,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 189,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.46458303928375244,
+          "atom_distance_to_other_chain_A": 11.254385948181152,
+          "residue_distance_to_other_chain_A": 8.288037300109863,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 49,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.4564794898033142,
+          "atom_distance_to_other_chain_A": 9.261445999145508,
+          "residue_distance_to_other_chain_A": 8.48388957977295,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037/4/model.pdb",
+      "raw_sha256": "eaae2ee4f187a4eb9c2a161493d1fc75f9ee5f771f3075ecd18532a82af39a8f",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_seed2609/prepared.pdb",
+      "prepared_sha256": "9f65e592f287a47b09cb3242791edadb18f8643b6e6eedee00385a1c2964a666",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16590291726766723,
+          "CA_max_A": 0.3468502163887024,
+          "interface_backbone_max_A": 0.4905066192150116
+        },
+        "B": {
+          "backbone_rms_A": 0.17716479389977188,
+          "CA_max_A": 0.5073418021202087,
+          "interface_backbone_max_A": 0.5073418021202087
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 194,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.6604609489440918,
+          "atom_distance_to_other_chain_A": 25.72574806213379,
+          "residue_distance_to_other_chain_A": 22.9141845703125,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 168,
+          "residue": "TRP",
+          "atom": "O",
+          "displacement_A": 0.5872339606285095,
+          "atom_distance_to_other_chain_A": 13.809341430664062,
+          "residue_distance_to_other_chain_A": 12.77424144744873,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.5209577083587646,
+          "atom_distance_to_other_chain_A": 8.187288284301758,
+          "residue_distance_to_other_chain_A": 6.7567596435546875,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 74,
+          "residue": "THR",
+          "atom": "CA",
+          "displacement_A": 0.5073418021202087,
+          "atom_distance_to_other_chain_A": 5.187729835510254,
+          "residue_distance_to_other_chain_A": 3.7213549613952637,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 19,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.4905066192150116,
+          "atom_distance_to_other_chain_A": 3.284858465194702,
+          "residue_distance_to_other_chain_A": 3.055034875869751,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 28,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.4765741527080536,
+          "atom_distance_to_other_chain_A": 7.565319538116455,
+          "residue_distance_to_other_chain_A": 7.320329189300537,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 61,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.4638359248638153,
+          "atom_distance_to_other_chain_A": 13.500386238098145,
+          "residue_distance_to_other_chain_A": 11.595097541809082,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 73,
+          "residue": "LYS",
+          "atom": "N",
+          "displacement_A": 0.4503435790538788,
+          "atom_distance_to_other_chain_A": 3.146718978881836,
+          "residue_distance_to_other_chain_A": 3.146718978881836,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 70,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4362453818321228,
+          "atom_distance_to_other_chain_A": 5.860973358154297,
+          "residue_distance_to_other_chain_A": 4.423770904541016,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 118,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.42983493208885193,
+          "atom_distance_to_other_chain_A": 29.18285369873047,
+          "residue_distance_to_other_chain_A": 27.12000846862793,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 43,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.42815133929252625,
+          "atom_distance_to_other_chain_A": 13.45764446258545,
+          "residue_distance_to_other_chain_A": 11.056437492370605,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 167,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.42205482721328735,
+          "atom_distance_to_other_chain_A": 15.284191131591797,
+          "residue_distance_to_other_chain_A": 13.015761375427246,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2609,
+      "historical_movement_pass": false,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/2ds25_5_6wrw/0/model.pdb",
+      "raw_sha256": "16d4537d8725392d1f04fd5e5b9805705ff90d7307a6338fa21c7f61fa5c7979",
+      "prepared": "reports/final_his_panel/preparation/models/2ds25_5_6wrw_seed2609/prepared.pdb",
+      "prepared_sha256": "7d6d4b1176e3ebbb59c4bf0e8cd0842494a726b0f2a0cb5081df93e28c1bfa55",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15241256262284525,
+          "CA_max_A": 0.31429141759872437,
+          "interface_backbone_max_A": 0.3713906705379486
+        },
+        "B": {
+          "backbone_rms_A": 0.13035822696983385,
+          "CA_max_A": 0.3364945948123932,
+          "interface_backbone_max_A": 0.34097012877464294
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 189,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 1.0173554420471191,
+          "atom_distance_to_other_chain_A": 12.016416549682617,
+          "residue_distance_to_other_chain_A": 9.226117134094238,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 162,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.6496195793151855,
+          "atom_distance_to_other_chain_A": 13.976927757263184,
+          "residue_distance_to_other_chain_A": 13.918505668640137,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 100,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.5534706711769104,
+          "atom_distance_to_other_chain_A": 15.846898078918457,
+          "residue_distance_to_other_chain_A": 15.100192070007324,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 112,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.5052634477615356,
+          "atom_distance_to_other_chain_A": 22.447023391723633,
+          "residue_distance_to_other_chain_A": 20.34938621520996,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.46293678879737854,
+          "atom_distance_to_other_chain_A": 24.69896697998047,
+          "residue_distance_to_other_chain_A": 22.170486450195312,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 72,
+          "residue": "GLU",
+          "atom": "N",
+          "displacement_A": 0.4457177221775055,
+          "atom_distance_to_other_chain_A": 8.364356994628906,
+          "residue_distance_to_other_chain_A": 6.434066295623779,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 171,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.41618600487709045,
+          "atom_distance_to_other_chain_A": 13.762053489685059,
+          "residue_distance_to_other_chain_A": 10.789857864379883,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.3852926790714264,
+          "atom_distance_to_other_chain_A": 29.4859676361084,
+          "residue_distance_to_other_chain_A": 29.077909469604492,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 48,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.38374266028404236,
+          "atom_distance_to_other_chain_A": 22.132326126098633,
+          "residue_distance_to_other_chain_A": 20.40813636779785,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 23,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.3713906705379486,
+          "atom_distance_to_other_chain_A": 4.187056064605713,
+          "residue_distance_to_other_chain_A": 2.81850004196167,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 70,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.3604118525981903,
+          "atom_distance_to_other_chain_A": 19.186012268066406,
+          "residue_distance_to_other_chain_A": 17.43506622314453,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 125,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.35774561762809753,
+          "atom_distance_to_other_chain_A": 36.91815185546875,
+          "residue_distance_to_other_chain_A": 36.69147491455078,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [
+        {
+          "chain": "A",
+          "position": 189,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 1.0173554420471191,
+          "atom_distance_to_other_chain_A": 12.016416549682617,
+          "residue_distance_to_other_chain_A": 9.226117134094238,
+          "interface_residue_6A": false
+        }
+      ],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/caplacizumab_6wrw/1/model.pdb",
+      "raw_sha256": "950db65631742b33def2403bb9a6966960947afebfd282646d502e3310f1d784",
+      "prepared": "reports/final_his_panel/preparation/models/caplacizumab_6wrw_seed2609/prepared.pdb",
+      "prepared_sha256": "623d172ee042dfaaf9a2f400735b22d50f273d8bad5a96fcbe6f15c13f1f4634",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16904108100724222,
+          "CA_max_A": 0.8290910124778748,
+          "interface_backbone_max_A": 0.400866836309433
+        },
+        "B": {
+          "backbone_rms_A": 0.17310763175404298,
+          "CA_max_A": 0.4416116178035736,
+          "interface_backbone_max_A": 0.4416116178035736
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 18,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.8290910124778748,
+          "atom_distance_to_other_chain_A": 13.249874114990234,
+          "residue_distance_to_other_chain_A": 12.737521171569824,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 17,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.7249863743782043,
+          "atom_distance_to_other_chain_A": 16.45223045349121,
+          "residue_distance_to_other_chain_A": 13.3464937210083,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 15,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.5906895399093628,
+          "atom_distance_to_other_chain_A": 12.09752082824707,
+          "residue_distance_to_other_chain_A": 11.895469665527344,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 127,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.47969850897789,
+          "atom_distance_to_other_chain_A": 29.667020797729492,
+          "residue_distance_to_other_chain_A": 29.009918212890625,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 176,
+          "residue": "MET",
+          "atom": "O",
+          "displacement_A": 0.47225967049598694,
+          "atom_distance_to_other_chain_A": 15.093541145324707,
+          "residue_distance_to_other_chain_A": 15.093541145324707,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 102,
+          "residue": "ARG",
+          "atom": "O",
+          "displacement_A": 0.4592537581920624,
+          "atom_distance_to_other_chain_A": 6.490554332733154,
+          "residue_distance_to_other_chain_A": 6.490554332733154,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 162,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.44604673981666565,
+          "atom_distance_to_other_chain_A": 20.86473274230957,
+          "residue_distance_to_other_chain_A": 20.079303741455078,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 16,
+          "residue": "LYS",
+          "atom": "CA",
+          "displacement_A": 0.4418797194957733,
+          "atom_distance_to_other_chain_A": 10.990995407104492,
+          "residue_distance_to_other_chain_A": 6.188418388366699,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 30,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.4416116178035736,
+          "atom_distance_to_other_chain_A": 4.534739017486572,
+          "residue_distance_to_other_chain_A": 2.6694960594177246,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 116,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.4273187518119812,
+          "atom_distance_to_other_chain_A": 15.136496543884277,
+          "residue_distance_to_other_chain_A": 11.617520332336426,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 134,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.4242168068885803,
+          "atom_distance_to_other_chain_A": 19.79987144470215,
+          "residue_distance_to_other_chain_A": 19.40557098388672,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 120,
+          "residue": "GLN",
+          "atom": "O",
+          "displacement_A": 0.4199370741844177,
+          "atom_distance_to_other_chain_A": 22.34540557861328,
+          "residue_distance_to_other_chain_A": 17.99349021911621,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2609,
+      "historical_movement_pass": false,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/scrambled_6wrw/0/model.pdb",
+      "raw_sha256": "5c17b6e2812fdcc360f52040ec37ea04b7cade7e9458da05944351b7e6808f75",
+      "prepared": "reports/final_his_panel/preparation/models/scrambled_6wrw_seed2609/prepared.pdb",
+      "prepared_sha256": "a455006c9b7318ddd248d29b03fd4fe2be269b90389ce1993b9285e49f900d41",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.19700355874196288,
+          "CA_max_A": 0.40513870120048523,
+          "interface_backbone_max_A": 1.1000992059707642
+        },
+        "B": {
+          "backbone_rms_A": 0.3368230665104391,
+          "CA_max_A": 0.7661573886871338,
+          "interface_backbone_max_A": 0.9564506411552429
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 100,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 1.1000992059707642,
+          "atom_distance_to_other_chain_A": 2.907273769378662,
+          "residue_distance_to_other_chain_A": 2.907273769378662,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 10,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.9564506411552429,
+          "atom_distance_to_other_chain_A": 4.038537502288818,
+          "residue_distance_to_other_chain_A": 2.6892380714416504,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 56,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.9530466198921204,
+          "atom_distance_to_other_chain_A": 5.089545726776123,
+          "residue_distance_to_other_chain_A": 2.6194252967834473,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 40,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.9427651762962341,
+          "atom_distance_to_other_chain_A": 8.085640907287598,
+          "residue_distance_to_other_chain_A": 8.085640907287598,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 20,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.9092254638671875,
+          "atom_distance_to_other_chain_A": 17.258806228637695,
+          "residue_distance_to_other_chain_A": 17.097848892211914,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 43,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.8841214179992676,
+          "atom_distance_to_other_chain_A": 9.893096923828125,
+          "residue_distance_to_other_chain_A": 7.840366840362549,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.8337203860282898,
+          "atom_distance_to_other_chain_A": 8.884903907775879,
+          "residue_distance_to_other_chain_A": 8.055235862731934,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 64,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.7731401324272156,
+          "atom_distance_to_other_chain_A": 9.778158187866211,
+          "residue_distance_to_other_chain_A": 5.856326103210449,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 16,
+          "residue": "TYR",
+          "atom": "CA",
+          "displacement_A": 0.7661573886871338,
+          "atom_distance_to_other_chain_A": 16.27730941772461,
+          "residue_distance_to_other_chain_A": 14.4900541305542,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 17,
+          "residue": "GLU",
+          "atom": "N",
+          "displacement_A": 0.7607607841491699,
+          "atom_distance_to_other_chain_A": 17.43576431274414,
+          "residue_distance_to_other_chain_A": 17.43576431274414,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 12,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.7491867542266846,
+          "atom_distance_to_other_chain_A": 8.963031768798828,
+          "residue_distance_to_other_chain_A": 3.2753593921661377,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 70,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.7447634339332581,
+          "atom_distance_to_other_chain_A": 7.123342037200928,
+          "residue_distance_to_other_chain_A": 5.634881496429443,
+          "interface_residue_6A": true
+        }
+      ],
+      "all_backbone_over_1A": [
+        {
+          "chain": "A",
+          "position": 100,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 1.1000992059707642,
+          "atom_distance_to_other_chain_A": 2.907273769378662,
+          "residue_distance_to_other_chain_A": 2.907273769378662,
+          "interface_residue_6A": true
+        }
+      ],
+      "interface_sensitivity_pass": false
+    },
+    {
+      "id": "diversity_long_037_T6H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H/4/model.pdb",
+      "raw_sha256": "fe715bb2eb982a82ed7b6b84e96aa6a8bdfbe3c5a35a5f7b4843af21c212096f",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_seed2609/prepared.pdb",
+      "prepared_sha256": "4d55e95290ea4c411680b57f925bc916bccd0256c280a6ec3c4a2230f1e1f20c",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.14818247088565842,
+          "CA_max_A": 0.29773464798927307,
+          "interface_backbone_max_A": 0.4019027352333069
+        },
+        "B": {
+          "backbone_rms_A": 0.1917302907525507,
+          "CA_max_A": 0.40362548828125,
+          "interface_backbone_max_A": 0.4827895164489746
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 53,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.780299186706543,
+          "atom_distance_to_other_chain_A": 11.24718189239502,
+          "residue_distance_to_other_chain_A": 10.156742095947266,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 112,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.5497899651527405,
+          "atom_distance_to_other_chain_A": 22.63426399230957,
+          "residue_distance_to_other_chain_A": 20.568410873413086,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 77,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.5211841464042664,
+          "atom_distance_to_other_chain_A": 12.40236759185791,
+          "residue_distance_to_other_chain_A": 11.156702041625977,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 21,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.4827895164489746,
+          "atom_distance_to_other_chain_A": 4.841604709625244,
+          "residue_distance_to_other_chain_A": 4.541343688964844,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 120,
+          "residue": "TYR",
+          "atom": "O",
+          "displacement_A": 0.4609413743019104,
+          "atom_distance_to_other_chain_A": 29.175683975219727,
+          "residue_distance_to_other_chain_A": 21.078447341918945,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 134,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.4590819180011749,
+          "atom_distance_to_other_chain_A": 30.936304092407227,
+          "residue_distance_to_other_chain_A": 28.55780792236328,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 42,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.4362170696258545,
+          "atom_distance_to_other_chain_A": 15.548432350158691,
+          "residue_distance_to_other_chain_A": 13.903236389160156,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 53,
+          "residue": "ALA",
+          "atom": "C",
+          "displacement_A": 0.42146036028862,
+          "atom_distance_to_other_chain_A": 11.492297172546387,
+          "residue_distance_to_other_chain_A": 10.156742095947266,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 54,
+          "residue": "ASP",
+          "atom": "CA",
+          "displacement_A": 0.40362548828125,
+          "atom_distance_to_other_chain_A": 13.005743026733398,
+          "residue_distance_to_other_chain_A": 12.376616477966309,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 12,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.4019027352333069,
+          "atom_distance_to_other_chain_A": 7.475809574127197,
+          "residue_distance_to_other_chain_A": 3.743199586868286,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 72,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.3959045708179474,
+          "atom_distance_to_other_chain_A": 5.690134525299072,
+          "residue_distance_to_other_chain_A": 3.040592908859253,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 13,
+          "residue": "PRO",
+          "atom": "CA",
+          "displacement_A": 0.3956693708896637,
+          "atom_distance_to_other_chain_A": 15.1219482421875,
+          "residue_distance_to_other_chain_A": 13.560614585876465,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_S37H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S37H/4/model.pdb",
+      "raw_sha256": "cd35cffad3534dfbffc01208b44d3ef73771b8639ac82b9e2404d5225a48f9c9",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_S37H_seed2609/prepared.pdb",
+      "prepared_sha256": "60628ac2154f26996e4bc0a54829dec72c37947159d570a28dd46fee5ee1c542",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15567878399928464,
+          "CA_max_A": 0.3448851406574249,
+          "interface_backbone_max_A": 0.35857951641082764
+        },
+        "B": {
+          "backbone_rms_A": 0.16677198473377358,
+          "CA_max_A": 0.3507179319858551,
+          "interface_backbone_max_A": 0.5041713118553162
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.5397794246673584,
+          "atom_distance_to_other_chain_A": 22.778945922851562,
+          "residue_distance_to_other_chain_A": 20.405855178833008,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 4,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.5368484258651733,
+          "atom_distance_to_other_chain_A": 14.112499237060547,
+          "residue_distance_to_other_chain_A": 11.199660301208496,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.5041713118553162,
+          "atom_distance_to_other_chain_A": 5.34352445602417,
+          "residue_distance_to_other_chain_A": 3.1355743408203125,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 66,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.4986829161643982,
+          "atom_distance_to_other_chain_A": 8.912432670593262,
+          "residue_distance_to_other_chain_A": 7.391469955444336,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.49604088068008423,
+          "atom_distance_to_other_chain_A": 8.256414413452148,
+          "residue_distance_to_other_chain_A": 6.578879356384277,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 37,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.48620685935020447,
+          "atom_distance_to_other_chain_A": 7.975100040435791,
+          "residue_distance_to_other_chain_A": 2.133866786956787,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4828621745109558,
+          "atom_distance_to_other_chain_A": 7.710668563842773,
+          "residue_distance_to_other_chain_A": 6.792612075805664,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 193,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.43976420164108276,
+          "atom_distance_to_other_chain_A": 22.158859252929688,
+          "residue_distance_to_other_chain_A": 19.165613174438477,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 111,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.4353504776954651,
+          "atom_distance_to_other_chain_A": 23.096378326416016,
+          "residue_distance_to_other_chain_A": 22.021991729736328,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 28,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.42627444863319397,
+          "atom_distance_to_other_chain_A": 14.610422134399414,
+          "residue_distance_to_other_chain_A": 12.474116325378418,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "N",
+          "displacement_A": 0.4200069010257721,
+          "atom_distance_to_other_chain_A": 5.666049957275391,
+          "residue_distance_to_other_chain_A": 3.1355743408203125,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 45,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.40375852584838867,
+          "atom_distance_to_other_chain_A": 6.424681186676025,
+          "residue_distance_to_other_chain_A": 2.8223326206207275,
+          "interface_residue_6A": true
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_A22H",
+      "seed": 2609,
+      "historical_movement_pass": false,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A22H/2/model.pdb",
+      "raw_sha256": "c30d6fd1e473dc2a9f2f196a93b53fe27d46cb05fb5a7bab6979d4464b29b079",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_seed2609/prepared.pdb",
+      "prepared_sha256": "dd00497024aedbfbdd8bc3024fd9c97593b065e2ad0eaca8fe3fa4276779b5e5",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16075132491018515,
+          "CA_max_A": 0.35627099871635437,
+          "interface_backbone_max_A": 1.1984195709228516
+        },
+        "B": {
+          "backbone_rms_A": 0.17314722588000842,
+          "CA_max_A": 0.5039212703704834,
+          "interface_backbone_max_A": 0.5552958846092224
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 21,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 1.1984195709228516,
+          "atom_distance_to_other_chain_A": 1.210808277130127,
+          "residue_distance_to_other_chain_A": 1.210808277130127,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 34,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.5552958846092224,
+          "atom_distance_to_other_chain_A": 5.784624099731445,
+          "residue_distance_to_other_chain_A": 5.2640380859375,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 158,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.548296332359314,
+          "atom_distance_to_other_chain_A": 2.2119154930114746,
+          "residue_distance_to_other_chain_A": 2.2119154930114746,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 194,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.5355823040008545,
+          "atom_distance_to_other_chain_A": 23.47393035888672,
+          "residue_distance_to_other_chain_A": 23.3447322845459,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 20,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.510123610496521,
+          "atom_distance_to_other_chain_A": 5.7032551765441895,
+          "residue_distance_to_other_chain_A": 5.683567523956299,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 42,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.5039212703704834,
+          "atom_distance_to_other_chain_A": 6.078347206115723,
+          "residue_distance_to_other_chain_A": 5.1765947341918945,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 21,
+          "residue": "VAL",
+          "atom": "C",
+          "displacement_A": 0.5015227794647217,
+          "atom_distance_to_other_chain_A": 2.322603464126587,
+          "residue_distance_to_other_chain_A": 1.210808277130127,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.49504992365837097,
+          "atom_distance_to_other_chain_A": 6.619507789611816,
+          "residue_distance_to_other_chain_A": 6.619507789611816,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.4850535988807678,
+          "atom_distance_to_other_chain_A": 23.413249969482422,
+          "residue_distance_to_other_chain_A": 21.371068954467773,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.475454717874527,
+          "atom_distance_to_other_chain_A": 29.596817016601562,
+          "residue_distance_to_other_chain_A": 29.596817016601562,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 20,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.4675349295139313,
+          "atom_distance_to_other_chain_A": 5.3096771240234375,
+          "residue_distance_to_other_chain_A": 3.0535271167755127,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 71,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.45776623487472534,
+          "atom_distance_to_other_chain_A": 2.2119154930114746,
+          "residue_distance_to_other_chain_A": 2.2119154930114746,
+          "interface_residue_6A": true
+        }
+      ],
+      "all_backbone_over_1A": [
+        {
+          "chain": "A",
+          "position": 21,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 1.1984195709228516,
+          "atom_distance_to_other_chain_A": 1.210808277130127,
+          "residue_distance_to_other_chain_A": 1.210808277130127,
+          "interface_residue_6A": true
+        }
+      ],
+      "interface_sensitivity_pass": false
+    },
+    {
+      "id": "diversity_long_037_N40H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_N40H/0/model.pdb",
+      "raw_sha256": "73c33eb36c56202b9d7444fd928e78bb50eb5ee8fd82b6d7b80fb5491137229f",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_N40H_seed2609/prepared.pdb",
+      "prepared_sha256": "e6470f5d1277e1469dda6e94a7cbb71c6844d4e5d04c6acc505e6b5f0f23f01c",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.14400953024592847,
+          "CA_max_A": 0.3335840106010437,
+          "interface_backbone_max_A": 0.42043083906173706
+        },
+        "B": {
+          "backbone_rms_A": 0.1669645241161391,
+          "CA_max_A": 0.2984444797039032,
+          "interface_backbone_max_A": 0.5523061752319336
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.5903845429420471,
+          "atom_distance_to_other_chain_A": 23.780092239379883,
+          "residue_distance_to_other_chain_A": 21.331478118896484,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 162,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.5525768995285034,
+          "atom_distance_to_other_chain_A": 7.939789772033691,
+          "residue_distance_to_other_chain_A": 7.939789772033691,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.5523061752319336,
+          "atom_distance_to_other_chain_A": 4.666602611541748,
+          "residue_distance_to_other_chain_A": 3.5936222076416016,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 78,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.5030102133750916,
+          "atom_distance_to_other_chain_A": 12.38934326171875,
+          "residue_distance_to_other_chain_A": 9.522490501403809,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 135,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4802967607975006,
+          "atom_distance_to_other_chain_A": 24.536706924438477,
+          "residue_distance_to_other_chain_A": 24.536706924438477,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 69,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.43315014243125916,
+          "atom_distance_to_other_chain_A": 4.34599494934082,
+          "residue_distance_to_other_chain_A": 3.5471482276916504,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 179,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4266721308231354,
+          "atom_distance_to_other_chain_A": 12.145500183105469,
+          "residue_distance_to_other_chain_A": 8.66845703125,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4220616817474365,
+          "atom_distance_to_other_chain_A": 7.091538906097412,
+          "residue_distance_to_other_chain_A": 6.71251916885376,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 17,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.42043083906173706,
+          "atom_distance_to_other_chain_A": 4.685150146484375,
+          "residue_distance_to_other_chain_A": 4.685150146484375,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.41015639901161194,
+          "atom_distance_to_other_chain_A": 3.6275267601013184,
+          "residue_distance_to_other_chain_A": 2.831481695175171,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 178,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.4053110182285309,
+          "atom_distance_to_other_chain_A": 12.822593688964844,
+          "residue_distance_to_other_chain_A": 10.526958465576172,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 176,
+          "residue": "MET",
+          "atom": "O",
+          "displacement_A": 0.3943864405155182,
+          "atom_distance_to_other_chain_A": 13.333951950073242,
+          "residue_distance_to_other_chain_A": 10.085244178771973,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S90H/0/model.pdb",
+      "raw_sha256": "6a52eb2add5cebeb17f7179f2f27483f738b472a9bae12079360b1fa3fa497b4",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_S90H_seed2609/prepared.pdb",
+      "prepared_sha256": "e0f99a9546e5bafb53f7898866b3620e9bb6a5807a2101c7a9d7c0a2c76dbc8a",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.14807971789973484,
+          "CA_max_A": 0.41550523042678833,
+          "interface_backbone_max_A": 0.3263275921344757
+        },
+        "B": {
+          "backbone_rms_A": 0.16999986287055402,
+          "CA_max_A": 0.556202232837677,
+          "interface_backbone_max_A": 0.4541301727294922
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.9993958473205566,
+          "atom_distance_to_other_chain_A": 8.433966636657715,
+          "residue_distance_to_other_chain_A": 7.038351058959961,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.6324604749679565,
+          "atom_distance_to_other_chain_A": 7.038351058959961,
+          "residue_distance_to_other_chain_A": 7.038351058959961,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 135,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.6105930805206299,
+          "atom_distance_to_other_chain_A": 29.63909149169922,
+          "residue_distance_to_other_chain_A": 29.63909149169922,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.556202232837677,
+          "atom_distance_to_other_chain_A": 8.403178215026855,
+          "residue_distance_to_other_chain_A": 7.038351058959961,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 4,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.5252002477645874,
+          "atom_distance_to_other_chain_A": 12.616470336914062,
+          "residue_distance_to_other_chain_A": 8.840388298034668,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 142,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.49602070450782776,
+          "atom_distance_to_other_chain_A": 16.88376235961914,
+          "residue_distance_to_other_chain_A": 16.88376235961914,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 94,
+          "residue": "MET",
+          "atom": "O",
+          "displacement_A": 0.4736890196800232,
+          "atom_distance_to_other_chain_A": 10.185221672058105,
+          "residue_distance_to_other_chain_A": 10.185221672058105,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 39,
+          "residue": "PRO",
+          "atom": "CA",
+          "displacement_A": 0.4541301727294922,
+          "atom_distance_to_other_chain_A": 3.3552863597869873,
+          "residue_distance_to_other_chain_A": 2.7423202991485596,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.44191163778305054,
+          "atom_distance_to_other_chain_A": 23.44515037536621,
+          "residue_distance_to_other_chain_A": 20.717693328857422,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 126,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4292651414871216,
+          "atom_distance_to_other_chain_A": 34.62550354003906,
+          "residue_distance_to_other_chain_A": 33.2730598449707,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 71,
+          "residue": "GLY",
+          "atom": "CA",
+          "displacement_A": 0.41550523042678833,
+          "atom_distance_to_other_chain_A": 20.246875762939453,
+          "residue_distance_to_other_chain_A": 19.66253089904785,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 39,
+          "residue": "PRO",
+          "atom": "N",
+          "displacement_A": 0.40732553601264954,
+          "atom_distance_to_other_chain_A": 3.7002041339874268,
+          "residue_distance_to_other_chain_A": 2.7423202991485596,
+          "interface_residue_6A": true
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_V47H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_V47H/3/model.pdb",
+      "raw_sha256": "29e1cbf337bc65b6a6e7ac813bb503f680179c9fd864c1d477083ab479d26e55",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_V47H_seed2609/prepared.pdb",
+      "prepared_sha256": "031bb187b76cacd0ed6920cce12eac6a0f5bd1ecf0c2e1696a9d669c0a869798",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.1548512678453654,
+          "CA_max_A": 0.3381606638431549,
+          "interface_backbone_max_A": 0.4227691888809204
+        },
+        "B": {
+          "backbone_rms_A": 0.1924013429587413,
+          "CA_max_A": 0.44430941343307495,
+          "interface_backbone_max_A": 0.680617094039917
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 74,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.680617094039917,
+          "atom_distance_to_other_chain_A": 5.423119068145752,
+          "residue_distance_to_other_chain_A": 2.465965747833252,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 67,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.6327438354492188,
+          "atom_distance_to_other_chain_A": 7.527753829956055,
+          "residue_distance_to_other_chain_A": 6.384615421295166,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.6058957576751709,
+          "atom_distance_to_other_chain_A": 5.37010383605957,
+          "residue_distance_to_other_chain_A": 5.284760475158691,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.5929657816886902,
+          "atom_distance_to_other_chain_A": 3.367358446121216,
+          "residue_distance_to_other_chain_A": 2.608427047729492,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.5777968764305115,
+          "atom_distance_to_other_chain_A": 2.608427047729492,
+          "residue_distance_to_other_chain_A": 2.608427047729492,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.5637193322181702,
+          "atom_distance_to_other_chain_A": 6.8655548095703125,
+          "residue_distance_to_other_chain_A": 6.622437000274658,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 32,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4786381721496582,
+          "atom_distance_to_other_chain_A": 4.3488240242004395,
+          "residue_distance_to_other_chain_A": 3.585702896118164,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 43,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.4763074815273285,
+          "atom_distance_to_other_chain_A": 5.262917995452881,
+          "residue_distance_to_other_chain_A": 3.2310380935668945,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 114,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.45446521043777466,
+          "atom_distance_to_other_chain_A": 27.95726776123047,
+          "residue_distance_to_other_chain_A": 25.771385192871094,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 24,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.4471402168273926,
+          "atom_distance_to_other_chain_A": 6.476908206939697,
+          "residue_distance_to_other_chain_A": 3.419279098510742,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 45,
+          "residue": "LEU",
+          "atom": "CA",
+          "displacement_A": 0.44430941343307495,
+          "atom_distance_to_other_chain_A": 3.6441123485565186,
+          "residue_distance_to_other_chain_A": 2.483938694000244,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 169,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.4364962875843048,
+          "atom_distance_to_other_chain_A": 13.801788330078125,
+          "residue_distance_to_other_chain_A": 13.780196189880371,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_T74H",
+      "seed": 2609,
+      "historical_movement_pass": false,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T74H/3/model.pdb",
+      "raw_sha256": "ba20f132790e6b0edf0b8ac7e007877bed521309dd6311f592a8105d9cee6fcb",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_T74H_seed2609/prepared.pdb",
+      "prepared_sha256": "3389fb91de64da5447cb38f680c6374d294bc071725f1782a2ace153cb571dd4",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.1570620685623286,
+          "CA_max_A": 0.539060652256012,
+          "interface_backbone_max_A": 0.6833842992782593
+        },
+        "B": {
+          "backbone_rms_A": 0.165709659836489,
+          "CA_max_A": 0.4752349555492401,
+          "interface_backbone_max_A": 0.7649736404418945
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 16,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 1.0921413898468018,
+          "atom_distance_to_other_chain_A": 8.924866676330566,
+          "residue_distance_to_other_chain_A": 8.321930885314941,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 94,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.7649736404418945,
+          "atom_distance_to_other_chain_A": 5.306304931640625,
+          "residue_distance_to_other_chain_A": 4.018418788909912,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 17,
+          "residue": "ASN",
+          "atom": "N",
+          "displacement_A": 0.6833842992782593,
+          "atom_distance_to_other_chain_A": 7.1855549812316895,
+          "residue_distance_to_other_chain_A": 3.9178764820098877,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 102,
+          "residue": "VAL",
+          "atom": "O",
+          "displacement_A": 0.5607215166091919,
+          "atom_distance_to_other_chain_A": 3.235976219177246,
+          "residue_distance_to_other_chain_A": 3.235976219177246,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 16,
+          "residue": "LYS",
+          "atom": "CA",
+          "displacement_A": 0.539060652256012,
+          "atom_distance_to_other_chain_A": 9.040661811828613,
+          "residue_distance_to_other_chain_A": 8.321930885314941,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 17,
+          "residue": "ASN",
+          "atom": "CA",
+          "displacement_A": 0.5224051475524902,
+          "atom_distance_to_other_chain_A": 6.217606067657471,
+          "residue_distance_to_other_chain_A": 3.9178764820098877,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 16,
+          "residue": "LYS",
+          "atom": "C",
+          "displacement_A": 0.4779355823993683,
+          "atom_distance_to_other_chain_A": 8.321930885314941,
+          "residue_distance_to_other_chain_A": 8.321930885314941,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "CA",
+          "displacement_A": 0.4752349555492401,
+          "atom_distance_to_other_chain_A": 8.822892189025879,
+          "residue_distance_to_other_chain_A": 7.038376331329346,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 16,
+          "residue": "LYS",
+          "atom": "N",
+          "displacement_A": 0.4516826868057251,
+          "atom_distance_to_other_chain_A": 9.02363109588623,
+          "residue_distance_to_other_chain_A": 8.321930885314941,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 58,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4463149607181549,
+          "atom_distance_to_other_chain_A": 16.29454231262207,
+          "residue_distance_to_other_chain_A": 13.078144073486328,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.4314175248146057,
+          "atom_distance_to_other_chain_A": 4.692507743835449,
+          "residue_distance_to_other_chain_A": 4.431316375732422,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 5,
+          "residue": "ASP",
+          "atom": "O",
+          "displacement_A": 0.4204069972038269,
+          "atom_distance_to_other_chain_A": 9.668668746948242,
+          "residue_distance_to_other_chain_A": 9.668668746948242,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [
+        {
+          "chain": "A",
+          "position": 16,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 1.0921413898468018,
+          "atom_distance_to_other_chain_A": 8.924866676330566,
+          "residue_distance_to_other_chain_A": 8.321930885314941,
+          "interface_residue_6A": false
+        }
+      ],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_N27H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_N27H/1/model.pdb",
+      "raw_sha256": "d38c2403239382a5228652aa7fca8e2cde90d5675abc0d85d48afdbcc4b7589b",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_N27H_seed2609/prepared.pdb",
+      "prepared_sha256": "f3282aab53da40af87a4285afdae841bb5ed4680c54a9c62049ff4d63a1a5ade",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16458166344074826,
+          "CA_max_A": 0.44724228978157043,
+          "interface_backbone_max_A": 0.5049488544464111
+        },
+        "B": {
+          "backbone_rms_A": 0.18032870167134096,
+          "CA_max_A": 0.3693574368953705,
+          "interface_backbone_max_A": 0.6480313539505005
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.6480313539505005,
+          "atom_distance_to_other_chain_A": 3.937258243560791,
+          "residue_distance_to_other_chain_A": 3.937258243560791,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 74,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.531588077545166,
+          "atom_distance_to_other_chain_A": 5.299113750457764,
+          "residue_distance_to_other_chain_A": 3.190844774246216,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 4,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.5145329833030701,
+          "atom_distance_to_other_chain_A": 5.642779350280762,
+          "residue_distance_to_other_chain_A": 3.8879306316375732,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 20,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.5049488544464111,
+          "atom_distance_to_other_chain_A": 6.731283187866211,
+          "residue_distance_to_other_chain_A": 3.199983835220337,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.4926918148994446,
+          "atom_distance_to_other_chain_A": 4.908546447753906,
+          "residue_distance_to_other_chain_A": 3.937258243560791,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 42,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.47850602865219116,
+          "atom_distance_to_other_chain_A": 4.442145824432373,
+          "residue_distance_to_other_chain_A": 2.732654571533203,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 182,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.4776127338409424,
+          "atom_distance_to_other_chain_A": 10.51830005645752,
+          "residue_distance_to_other_chain_A": 4.398082733154297,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 194,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.47157084941864014,
+          "atom_distance_to_other_chain_A": 24.593305587768555,
+          "residue_distance_to_other_chain_A": 20.740331649780273,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 179,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4602304697036743,
+          "atom_distance_to_other_chain_A": 10.421466827392578,
+          "residue_distance_to_other_chain_A": 8.16787338256836,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 31,
+          "residue": "LYS",
+          "atom": "N",
+          "displacement_A": 0.4531324505805969,
+          "atom_distance_to_other_chain_A": 3.7749128341674805,
+          "residue_distance_to_other_chain_A": 3.199983835220337,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 136,
+          "residue": "ARG",
+          "atom": "CA",
+          "displacement_A": 0.44724228978157043,
+          "atom_distance_to_other_chain_A": 26.731164932250977,
+          "residue_distance_to_other_chain_A": 20.585786819458008,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 111,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.4387192130088806,
+          "atom_distance_to_other_chain_A": 20.608118057250977,
+          "residue_distance_to_other_chain_A": 18.99893569946289,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_A43H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A43H/4/model.pdb",
+      "raw_sha256": "adda1ea1809b98118a754e51f7a885f42d32e49aeaaf9b9305e55f1f08835883",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_A43H_seed2609/prepared.pdb",
+      "prepared_sha256": "13f5b075a518a51d0ca7f4e459f455d9ba443c9fe0da58045c77aef1a0ffd79b",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16311265659444837,
+          "CA_max_A": 0.3741423487663269,
+          "interface_backbone_max_A": 0.41240042448043823
+        },
+        "B": {
+          "backbone_rms_A": 0.16585667149693367,
+          "CA_max_A": 0.35620182752609253,
+          "interface_backbone_max_A": 0.4966662526130676
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 193,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.5956588983535767,
+          "atom_distance_to_other_chain_A": 21.973112106323242,
+          "residue_distance_to_other_chain_A": 17.28986930847168,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 114,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.5012593269348145,
+          "atom_distance_to_other_chain_A": 28.28766632080078,
+          "residue_distance_to_other_chain_A": 25.563810348510742,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4966662526130676,
+          "atom_distance_to_other_chain_A": 7.397742748260498,
+          "residue_distance_to_other_chain_A": 5.976245880126953,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.49461692571640015,
+          "atom_distance_to_other_chain_A": 1.9628655910491943,
+          "residue_distance_to_other_chain_A": 1.9628655910491943,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.4877919554710388,
+          "atom_distance_to_other_chain_A": 2.5045316219329834,
+          "residue_distance_to_other_chain_A": 1.9628655910491943,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 33,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.46503397822380066,
+          "atom_distance_to_other_chain_A": 4.55399751663208,
+          "residue_distance_to_other_chain_A": 3.3784103393554688,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 6,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.4603336453437805,
+          "atom_distance_to_other_chain_A": 8.212891578674316,
+          "residue_distance_to_other_chain_A": 3.625164747238159,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 42,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.4579268991947174,
+          "atom_distance_to_other_chain_A": 5.897504806518555,
+          "residue_distance_to_other_chain_A": 5.312661647796631,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 194,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.4251597821712494,
+          "atom_distance_to_other_chain_A": 25.618947982788086,
+          "residue_distance_to_other_chain_A": 22.567646026611328,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.4199026823043823,
+          "atom_distance_to_other_chain_A": 23.60174560546875,
+          "residue_distance_to_other_chain_A": 20.64620018005371,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.4175899028778076,
+          "atom_distance_to_other_chain_A": 20.64620018005371,
+          "residue_distance_to_other_chain_A": 20.64620018005371,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 65,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.4138188660144806,
+          "atom_distance_to_other_chain_A": 16.72112464904785,
+          "residue_distance_to_other_chain_A": 11.216605186462402,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_S72H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S72H/3/model.pdb",
+      "raw_sha256": "567355370f7bce58b9a0a407fd41cdc299691906604cbe24babc52d8e2c53ea9",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_S72H_seed2609/prepared.pdb",
+      "prepared_sha256": "aa1391c46a4636b4e149d0b66926848a00ee97b1e11a955154bac072f33674ef",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.15534243049744467,
+          "CA_max_A": 0.32907700538635254,
+          "interface_backbone_max_A": 0.4662416875362396
+        },
+        "B": {
+          "backbone_rms_A": 0.17922439150675723,
+          "CA_max_A": 0.361554890871048,
+          "interface_backbone_max_A": 0.5201634764671326
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 101,
+          "residue": "ILE",
+          "atom": "O",
+          "displacement_A": 0.561232328414917,
+          "atom_distance_to_other_chain_A": 6.04376745223999,
+          "residue_distance_to_other_chain_A": 6.04376745223999,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 45,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.5201634764671326,
+          "atom_distance_to_other_chain_A": 5.927043437957764,
+          "residue_distance_to_other_chain_A": 3.1325185298919678,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 72,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.5022169351577759,
+          "atom_distance_to_other_chain_A": 6.5274505615234375,
+          "residue_distance_to_other_chain_A": 2.863699436187744,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 1,
+          "residue": "ILE",
+          "atom": "N",
+          "displacement_A": 0.4919077754020691,
+          "atom_distance_to_other_chain_A": 22.33538818359375,
+          "residue_distance_to_other_chain_A": 19.472179412841797,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 41,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.46949324011802673,
+          "atom_distance_to_other_chain_A": 12.834062576293945,
+          "residue_distance_to_other_chain_A": 11.145129203796387,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 7,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.4662416875362396,
+          "atom_distance_to_other_chain_A": 5.681840896606445,
+          "residue_distance_to_other_chain_A": 4.007019519805908,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 78,
+          "residue": "LEU",
+          "atom": "O",
+          "displacement_A": 0.45425575971603394,
+          "atom_distance_to_other_chain_A": 11.880364418029785,
+          "residue_distance_to_other_chain_A": 9.076726913452148,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.42110079526901245,
+          "atom_distance_to_other_chain_A": 2.2698252201080322,
+          "residue_distance_to_other_chain_A": 2.2698252201080322,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 91,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.4201256334781647,
+          "atom_distance_to_other_chain_A": 5.067051410675049,
+          "residue_distance_to_other_chain_A": 5.067051410675049,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 18,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.41138237714767456,
+          "atom_distance_to_other_chain_A": 3.0792248249053955,
+          "residue_distance_to_other_chain_A": 3.0792248249053955,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.39990267157554626,
+          "atom_distance_to_other_chain_A": 3.173372507095337,
+          "residue_distance_to_other_chain_A": 2.2698252201080322,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 129,
+          "residue": "HIS",
+          "atom": "O",
+          "displacement_A": 0.38355812430381775,
+          "atom_distance_to_other_chain_A": 37.421810150146484,
+          "residue_distance_to_other_chain_A": 36.966651916503906,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    },
+    {
+      "id": "diversity_long_037_T6H_S37H",
+      "seed": 2609,
+      "historical_movement_pass": false,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H_S37H/4/model.pdb",
+      "raw_sha256": "1b154f28804ea021205a53148faca9d6e0ec9e8e2f74f7e58a0ab18012a4697f",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_S37H_seed2609/prepared.pdb",
+      "prepared_sha256": "21444231a61189fe590888110a74cba12c3fadea8ffcbb87425adbcb3d53dc96",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.17243612528968402,
+          "CA_max_A": 0.3517046868801117,
+          "interface_backbone_max_A": 0.42792344093322754
+        },
+        "B": {
+          "backbone_rms_A": 0.2525735886030383,
+          "CA_max_A": 0.9769883155822754,
+          "interface_backbone_max_A": 1.0655558109283447
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "B",
+          "position": 40,
+          "residue": "ASN",
+          "atom": "N",
+          "displacement_A": 1.0655558109283447,
+          "atom_distance_to_other_chain_A": 6.026113986968994,
+          "residue_distance_to_other_chain_A": 4.156981945037842,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 43,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 1.0099564790725708,
+          "atom_distance_to_other_chain_A": 3.3626549243927,
+          "residue_distance_to_other_chain_A": 3.3626549243927,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 40,
+          "residue": "ASN",
+          "atom": "C",
+          "displacement_A": 0.9815506935119629,
+          "atom_distance_to_other_chain_A": 4.786470890045166,
+          "residue_distance_to_other_chain_A": 4.156981945037842,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 40,
+          "residue": "ASN",
+          "atom": "CA",
+          "displacement_A": 0.9769883155822754,
+          "atom_distance_to_other_chain_A": 7.139606475830078,
+          "residue_distance_to_other_chain_A": 4.156981945037842,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 39,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.9190266728401184,
+          "atom_distance_to_other_chain_A": 4.583433151245117,
+          "residue_distance_to_other_chain_A": 4.583433151245117,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 40,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.7406406402587891,
+          "atom_distance_to_other_chain_A": 4.156981945037842,
+          "residue_distance_to_other_chain_A": 4.156981945037842,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 67,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.7250130772590637,
+          "atom_distance_to_other_chain_A": 7.392651557922363,
+          "residue_distance_to_other_chain_A": 4.373376369476318,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 71,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.6940292716026306,
+          "atom_distance_to_other_chain_A": 2.3620388507843018,
+          "residue_distance_to_other_chain_A": 2.3620388507843018,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 39,
+          "residue": "PRO",
+          "atom": "CA",
+          "displacement_A": 0.6720201969146729,
+          "atom_distance_to_other_chain_A": 5.784732341766357,
+          "residue_distance_to_other_chain_A": 4.583433151245117,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 115,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.6545563340187073,
+          "atom_distance_to_other_chain_A": 28.503032684326172,
+          "residue_distance_to_other_chain_A": 28.37323570251465,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 39,
+          "residue": "PRO",
+          "atom": "N",
+          "displacement_A": 0.6501190066337585,
+          "atom_distance_to_other_chain_A": 6.63593053817749,
+          "residue_distance_to_other_chain_A": 4.583433151245117,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 81,
+          "residue": "GLY",
+          "atom": "O",
+          "displacement_A": 0.5620977878570557,
+          "atom_distance_to_other_chain_A": 16.833389282226562,
+          "residue_distance_to_other_chain_A": 14.010802268981934,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [
+        {
+          "chain": "B",
+          "position": 40,
+          "residue": "ASN",
+          "atom": "N",
+          "displacement_A": 1.0655558109283447,
+          "atom_distance_to_other_chain_A": 6.026113986968994,
+          "residue_distance_to_other_chain_A": 4.156981945037842,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 43,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 1.0099564790725708,
+          "atom_distance_to_other_chain_A": 3.3626549243927,
+          "residue_distance_to_other_chain_A": 3.3626549243927,
+          "interface_residue_6A": true
+        }
+      ],
+      "interface_sensitivity_pass": false
+    },
+    {
+      "id": "diversity_long_037_A22H_S37H",
+      "seed": 2609,
+      "historical_movement_pass": true,
+      "raw": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A22H_S37H/4/model.pdb",
+      "raw_sha256": "63c75567515db655c7c32fa1df3dd22dc3e945a80def032432394a7d75c461fa",
+      "prepared": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_S37H_seed2609/prepared.pdb",
+      "prepared_sha256": "7f2a94f7e9a4d64212b77bda4b3b5ef18d9b293e3d3e1d5fc8ff8aa6a0d413b5",
+      "chains": {
+        "A": {
+          "backbone_rms_A": 0.16249018617804087,
+          "CA_max_A": 0.38491153717041016,
+          "interface_backbone_max_A": 0.353827565908432
+        },
+        "B": {
+          "backbone_rms_A": 0.17814698564858023,
+          "CA_max_A": 0.41656002402305603,
+          "interface_backbone_max_A": 0.48829007148742676
+        }
+      },
+      "largest_movements": [
+        {
+          "chain": "A",
+          "position": 134,
+          "residue": "PRO",
+          "atom": "O",
+          "displacement_A": 0.8348851799964905,
+          "atom_distance_to_other_chain_A": 30.083580017089844,
+          "residue_distance_to_other_chain_A": 28.343706130981445,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "C",
+          "displacement_A": 0.48829007148742676,
+          "atom_distance_to_other_chain_A": 6.591839790344238,
+          "residue_distance_to_other_chain_A": 4.851408958435059,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "A",
+          "position": 189,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.48124200105667114,
+          "atom_distance_to_other_chain_A": 9.773921966552734,
+          "residue_distance_to_other_chain_A": 7.006747245788574,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 46,
+          "residue": "ALA",
+          "atom": "O",
+          "displacement_A": 0.4629347324371338,
+          "atom_distance_to_other_chain_A": 4.54348087310791,
+          "residue_distance_to_other_chain_A": 4.54348087310791,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "N",
+          "displacement_A": 0.45314329862594604,
+          "atom_distance_to_other_chain_A": 7.796056747436523,
+          "residue_distance_to_other_chain_A": 6.7462334632873535,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 127,
+          "residue": "PHE",
+          "atom": "O",
+          "displacement_A": 0.44745969772338867,
+          "atom_distance_to_other_chain_A": 35.02056884765625,
+          "residue_distance_to_other_chain_A": 34.99056625366211,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "A",
+          "position": 142,
+          "residue": "ASN",
+          "atom": "O",
+          "displacement_A": 0.4409697949886322,
+          "atom_distance_to_other_chain_A": 16.929712295532227,
+          "residue_distance_to_other_chain_A": 16.929712295532227,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 1,
+          "residue": "SER",
+          "atom": "O",
+          "displacement_A": 0.4267951548099518,
+          "atom_distance_to_other_chain_A": 6.7462334632873535,
+          "residue_distance_to_other_chain_A": 6.7462334632873535,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 95,
+          "residue": "GLU",
+          "atom": "O",
+          "displacement_A": 0.4241478145122528,
+          "atom_distance_to_other_chain_A": 6.7573771476745605,
+          "residue_distance_to_other_chain_A": 4.851408958435059,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 31,
+          "residue": "LYS",
+          "atom": "O",
+          "displacement_A": 0.4234725534915924,
+          "atom_distance_to_other_chain_A": 3.4396791458129883,
+          "residue_distance_to_other_chain_A": 2.578470230102539,
+          "interface_residue_6A": true
+        },
+        {
+          "chain": "B",
+          "position": 48,
+          "residue": "ALA",
+          "atom": "CA",
+          "displacement_A": 0.41656002402305603,
+          "atom_distance_to_other_chain_A": 7.718019485473633,
+          "residue_distance_to_other_chain_A": 6.451388359069824,
+          "interface_residue_6A": false
+        },
+        {
+          "chain": "B",
+          "position": 89,
+          "residue": "THR",
+          "atom": "O",
+          "displacement_A": 0.41577082872390747,
+          "atom_distance_to_other_chain_A": 12.834095001220703,
+          "residue_distance_to_other_chain_A": 11.69583797454834,
+          "interface_residue_6A": false
+        }
+      ],
+      "all_backbone_over_1A": [],
+      "interface_sensitivity_pass": true
+    }
+  ],
+  "interpretation": "Retrospective diagnosis, not a rescue of historical failures. A global maximum includes remote carbonyl oxygens. The separate interface sensitivity criterion is exploratory and not experimentally calibrated."
+}

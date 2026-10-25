@@ -1,0 +1,1755 @@
+{
+  "id": "apical_short_008_A41H",
+  "samples": [
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKQELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKRELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKLELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEARLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELELRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKLELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEDRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKLELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEARLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2003,
+      "sampling_seed": 3109,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKRELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKRELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.2,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 0
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKRELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "eligible": false,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 1
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKQELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 2
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKSELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEQRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 3
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 4
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 5
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "eligible": false,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKQELERRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 6
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEQRLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "eligible": true,
+      "source_seed": 2011,
+      "sampling_seed": 3203,
+      "temperature": 0.4,
+      "batch": 7
+    }
+  ],
+  "scored_sequences": [
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.0071455240249634,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.959807813167572,
+            1.1338720321655273,
+            1.0408214330673218,
+            1.1126513481140137
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            0.8343081474304199,
+            0.9971155524253845,
+            0.9602482318878174,
+            1.0183396339416504
+          ]
+        }
+      ],
+      "mutations": []
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEERLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.8961903303861618,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.9390100836753845,
+            1.0280119180679321,
+            1.0016268491744995,
+            1.042594075202942
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            0.7584863901138306,
+            0.7818651795387268,
+            0.8025612831115723,
+            0.8153668642044067
+          ]
+        }
+      ],
+      "mutations": [
+        "A38E"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.8284246921539307,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.88640958070755,
+            0.9111620187759399,
+            0.8331245183944702,
+            0.8839881420135498
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            0.805065929889679,
+            0.7952043414115906,
+            0.7289485931396484,
+            0.7834944128990173
+          ]
+        }
+      ],
+      "mutations": [
+        "A38K"
+      ],
+      "id": "apical_short_008_A41H_mpnn01"
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEQRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.1308296620845795,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.2502738237380981,
+            1.322340488433838,
+            1.2478351593017578,
+            1.3161686658859253
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            0.9380854964256287,
+            1.0000841617584229,
+            0.9522907137870789,
+            1.0195587873458862
+          ]
+        }
+      ],
+      "mutations": [
+        "A38Q"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELERRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.9158645644783974,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.9953303337097168,
+            1.1356204748153687,
+            1.0440531969070435,
+            1.1406288146972656
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            0.6636467576026917,
+            0.7875224351882935,
+            0.769623875617981,
+            0.7904906272888184
+          ]
+        }
+      ],
+      "mutations": [
+        "A38R"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEARLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.1259635388851166,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.9851272106170654,
+            1.089271068572998,
+            1.0807448625564575,
+            1.0383529663085938
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.1438168287277222,
+            1.226637840270996,
+            1.2363581657409668,
+            1.2073993682861328
+          ]
+        }
+      ],
+      "mutations": [
+        "A34E"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEDRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.4309163093566895,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.3858636617660522,
+            1.4136019945144653,
+            1.4587628841400146,
+            1.3721667528152466
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.4720357656478882,
+            1.4424071311950684,
+            1.4804251194000244,
+            1.4220671653747559
+          ]
+        }
+      ],
+      "mutations": [
+        "A34E",
+        "A38D"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.9572142735123634,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.8842182755470276,
+            0.8974800705909729,
+            0.9647406339645386,
+            0.890170156955719
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.0395959615707397,
+            0.9649645090103149,
+            1.049368143081665,
+            0.9671764373779297
+          ]
+        }
+      ],
+      "mutations": [
+        "A34E",
+        "A38E"
+      ],
+      "id": "apical_short_008_A41H_mpnn02"
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEKRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.9117300286889076,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.8821572661399841,
+            0.8225837349891663,
+            0.8287422060966492,
+            0.7775587439537048
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.10146963596344,
+            0.9797461032867432,
+            0.9752320051193237,
+            0.9263505339622498
+          ]
+        }
+      ],
+      "mutations": [
+        "A34E",
+        "A38K"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELERRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.9654189497232437,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.9427781105041504,
+            0.997991681098938,
+            0.9825690984725952,
+            0.9688974022865295
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            0.947364866733551,
+            0.9657728672027588,
+            0.9951463937759399,
+            0.9228311777114868
+          ]
+        }
+      ],
+      "mutations": [
+        "A34E",
+        "A38R"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEERLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.9664889723062515,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.9423550963401794,
+            0.8796921968460083,
+            0.9326516389846802,
+            0.9272646307945251
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.0921183824539185,
+            0.9699020981788635,
+            1.013132929801941,
+            0.9747948050498962
+          ]
+        }
+      ],
+      "mutations": [
+        "A34K",
+        "A38E"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEKRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.9202762469649315,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.8577272295951843,
+            0.7726489305496216,
+            0.7832003831863403,
+            0.7748736143112183
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.1546884775161743,
+            1.0189710855484009,
+            1.0064430236816406,
+            0.9936572313308716
+          ]
+        }
+      ],
+      "mutations": [
+        "A34K",
+        "A38K"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELELRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.3519558161497116,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.3688881397247314,
+            1.303343415260315,
+            1.3398103713989258,
+            1.3456546068191528
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.4375373125076294,
+            1.3335754871368408,
+            1.3611745834350586,
+            1.325662612915039
+          ]
+        }
+      ],
+      "mutations": [
+        "A34K",
+        "A38L"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELEQRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.2434893399477005,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.29751718044281,
+            1.2419122457504272,
+            1.2476767301559448,
+            1.261107087135315
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.274990200996399,
+            1.2243543863296509,
+            1.1903038024902344,
+            1.2100530862808228
+          ]
+        }
+      ],
+      "mutations": [
+        "A34K",
+        "A38Q"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELERRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.0759676843881607,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.0704666376113892,
+            1.0727733373641968,
+            1.0759166479110718,
+            1.1151982545852661
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.0774669647216797,
+            1.0690425634384155,
+            1.083740472793579,
+            1.0431365966796875
+          ]
+        }
+      ],
+      "mutations": [
+        "A34K",
+        "A38R"
+      ],
+      "id": "apical_short_008_A41H_mpnn03"
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKLELEKRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.1310527622699738,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.0449817180633545,
+            0.9798029065132141,
+            0.9792808890342712,
+            0.9828749895095825
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.3490065336227417,
+            1.2401920557022095,
+            1.2465721368789673,
+            1.2257108688354492
+          ]
+        }
+      ],
+      "mutations": [
+        "A34L",
+        "A38K"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKLELERRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.1847077459096909,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.0917375087738037,
+            1.1369402408599854,
+            1.1107003688812256,
+            1.1427732706069946
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.2235561609268188,
+            1.2450344562530518,
+            1.285354733467102,
+            1.241565227508545
+          ]
+        }
+      ],
+      "mutations": [
+        "A34L",
+        "A38R"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKQELEKRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.066045805811882,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.0444080829620361,
+            1.0254186391830444,
+            0.9735186100006104,
+            1.005069375038147
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.189469814300537,
+            1.1236298084259033,
+            1.0715323686599731,
+            1.0953197479248047
+          ]
+        }
+      ],
+      "mutations": [
+        "A34Q",
+        "A38K"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKQELERRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.1597246378660202,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.15949547290802,
+            1.2478476762771606,
+            1.182289958000183,
+            1.2556278705596924
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.0637043714523315,
+            1.133076548576355,
+            1.1164427995681763,
+            1.1193124055862427
+          ]
+        }
+      ],
+      "mutations": [
+        "A34Q",
+        "A38R"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKRELEERLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.0421656742691994,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.062366247177124,
+            1.0661488771438599,
+            1.0829201936721802,
+            1.0940828323364258
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.0227062702178955,
+            0.9587275385856628,
+            1.0443428754806519,
+            1.006030559539795
+          ]
+        }
+      ],
+      "mutations": [
+        "A34R",
+        "A38E"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKRELEKRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.0574388206005096,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.0738712549209595,
+            1.0327849388122559,
+            1.018027901649475,
+            1.032283902168274
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.1338666677474976,
+            1.041511058807373,
+            1.0702433586120605,
+            1.0569214820861816
+          ]
+        }
+      ],
+      "mutations": [
+        "A34R",
+        "A38K"
+      ]
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKSELEERLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.3515895456075668,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.4332661628723145,
+            1.454967737197876,
+            1.476969599723816,
+            1.46599543094635
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.264893889427185,
+            1.2315545082092285,
+            1.2510815858840942,
+            1.2339874505996704
+          ]
+        }
+      ],
+      "mutations": [
+        "A34S",
+        "A38E"
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEKRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.8284246921539307,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.88640958070755,
+            0.9111620187759399,
+            0.8331245183944702,
+            0.8839881420135498
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            0.805065929889679,
+            0.7952043414115906,
+            0.7289485931396484,
+            0.7834944128990173
+          ]
+        }
+      ],
+      "mutations": [
+        "A38K"
+      ],
+      "id": "apical_short_008_A41H_mpnn01"
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKEELEERLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 0.9572142735123634,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            0.8842182755470276,
+            0.8974800705909729,
+            0.9647406339645386,
+            0.890170156955719
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.0395959615707397,
+            0.9649645090103149,
+            1.049368143081665,
+            0.9671764373779297
+          ]
+        }
+      ],
+      "mutations": [
+        "A34E",
+        "A38E"
+      ],
+      "id": "apical_short_008_A41H_mpnn02"
+    },
+    {
+      "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKKELERRLHEDRFFSPEELLELVREL",
+      "ensemble_nll": 1.0759676843881607,
+      "scores": [
+        {
+          "source_seed": 2003,
+          "nll_by_decoding_seed": [
+            1.0704666376113892,
+            1.0727733373641968,
+            1.0759166479110718,
+            1.1151982545852661
+          ]
+        },
+        {
+          "source_seed": 2011,
+          "nll_by_decoding_seed": [
+            1.0774669647216797,
+            1.0690425634384155,
+            1.083740472793579,
+            1.0431365966796875
+          ]
+        }
+      ],
+      "mutations": [
+        "A34K",
+        "A38R"
+      ],
+      "id": "apical_short_008_A41H_mpnn03"
+    }
+  ],
+  "baseline": {
+    "sequence": "GALDEILEIFKEVDPELAEEIERLLAELTEEQKAELEARLHEDRFFSPEELLELVREL",
+    "ensemble_nll": 1.0071455240249634,
+    "scores": [
+      {
+        "source_seed": 2003,
+        "nll_by_decoding_seed": [
+          0.959807813167572,
+          1.1338720321655273,
+          1.0408214330673218,
+          1.1126513481140137
+        ]
+      },
+      {
+        "source_seed": 2011,
+        "nll_by_decoding_seed": [
+          0.8343081474304199,
+          0.9971155524253845,
+          0.9602482318878174,
+          1.0183396339416504
+        ]
+      }
+    ],
+    "mutations": []
+  }
+}
