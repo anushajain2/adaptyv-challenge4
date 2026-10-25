@@ -2,12 +2,17 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Fresh reserve confirmation (26 October):** the user authorized a
-[bare/tag comparison](reports/reserve_tag/README.md) of A41H/A34K/A38R, matched
-parents, an H41A ablation and controls. The frozen 140-prediction panel has a $2
-gross cap. Original qualification rules remain explicit alongside continuous
-sensitivity readouts. Submission remains on hold and no automatic promotion is
-authorized by this experiment.
+**Fresh reserve confirmation completed (26 October):** the
+[140-prediction bare/tag comparison](reports/reserve_tag/RESULTS.md) strengthens
+the A41H/A34K/A38R reserve: 9/10 bare and 10/10 tagged poses pass the core screen,
+and all four selected reserve models pass strict structural preparation. Fresh
+bare pKa shifts of −1.121/−0.961 repeat the earlier signal. All raw controls and
+prepared positives pass. However, free-pKa heuristics, uncertain tag placement and
+negative-control preparation failures prevent full qualification. No design was
+promoted; the frozen eight-sequence fallback and submission hold remain unchanged.
+Observed gross increase: **$0.43**; conservative total: **$13.47/$30**. All cloud
+apps are stopped. Further work should test free-state/His41 conformation sensitivity
+before considering more generation; no additional job has been launched.
 
 **Campaign reopened at the user's request (25 October):** submission remains on
 hold. A [local ProteinMPNN redesign comparison](reports/local_redesign/README.md)
@@ -85,7 +90,7 @@ One new bare A41H model gives a −0.608 pKa shift and a 2.12 His-only ratio pro
 the other is excluded by movement. E19H has one usable shift but fails the free-pKa
 heuristic. No experimental binding or pH switch is established.
 
-Next: review the frozen eight-sequence package and upload it through the official challenge page. The final His round is complete; no further generation or mutation runs are planned. Tag compatibility and mouse cross-reactivity remain unresolved. The
+Current next step: complete the fresh reserve comparison described above and review its evidence before considering any shortlist change. Submission remains on hold at the user's request. Tag compatibility and mouse cross-reactivity remain unresolved. The
 [earlier preparation review](reports/receptor_preparation_v2/RESULTS.md) and
 [24-variant follow-up](reports/expansion_his_direction/RESULTS.md) retain their
 original decisions.

@@ -1,0 +1,138 @@
+{
+  "id": "apical_short_008_A41H_tagged",
+  "seed": 3607,
+  "sample": 1,
+  "core_length": 58,
+  "source": "outputs/reserve_tag_scoring/seed-3607/apical_short_008_A41H_tagged/1/model.pdb",
+  "dest": "reports/reserve_tag/preparation/models/apical_short_008_A41H_tagged_seed3607",
+  "status": "ok",
+  "source_sha256": "b10bcf1fc3e18810260c29794ac96ae0678b4334547938f17c5f6ac1385ca49a",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.18295584612220844,
+        "max_A": 0.861906111240387
+      },
+      "sidechain": {
+        "rms_A": 0.5165612927660933,
+        "max_A": 2.357870101928711
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.21340738818097987,
+        "max_A": 1.0160342454910278
+      },
+      "sidechain": {
+        "rms_A": 0.8831287120932779,
+        "max_A": 5.0488667488098145
+      }
+    },
+    "pass": false
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.18295584612220844,
+        "max_A": 0.861906111240387
+      },
+      "sidechain": {
+        "rms_A": 0.5165612927660933,
+        "max_A": 2.357870101928711
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.2862069071355917,
+        "max_A": 1.237694263458252
+      },
+      "sidechain": {
+        "rms_A": 0.9161487600484356,
+        "max_A": 5.0488667488098145
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:14:ASP:OD2",
+        "b": "B:115:TRP:CD2",
+        "distance_A": 1.7814266754486434
+      },
+      {
+        "a": "B:14:ASP:OD2",
+        "b": "B:115:TRP:CE3",
+        "distance_A": 1.5923080732069415
+      },
+      {
+        "a": "B:14:ASP:OD2",
+        "b": "B:115:TRP:CZ3",
+        "distance_A": 1.5107739738293096
+      },
+      {
+        "a": "B:14:ASP:OD2",
+        "b": "B:115:TRP:CH2",
+        "distance_A": 1.5727339253669084
+      },
+      {
+        "a": "B:95:TRP:O",
+        "b": "B:114:ALA:O",
+        "distance_A": 1.7317901143036936
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.0998728818853012,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      196,
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      227,
+      344,
+      348,
+      350,
+      368,
+      370,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "b7f14bdaa0d312631d2f8a7d5f110d29999b3a53dba64953aabebfa83c54d41a",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 41
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 90
+    }
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "id": "2ds25_5_6wrw_tagged",
+  "base_id": "2ds25_5_6wrw",
+  "condition": "tagged",
+  "kind": "positive",
+  "arm": "control",
+  "seed": 3607,
+  "sample": 0,
+  "confidence_selected": true,
+  "upstream_confidence_selected": true,
+  "metrics": {
+    "iptm": 0.4880513548851013,
+    "ptm": 0.5324257612228394,
+    "design_to_target_iptm": 0.4880513548851013,
+    "interaction_pae": 19.536779403686523,
+    "min_design_to_target_pae": 4.316788673400879,
+    "design_ptm": 0.5019716620445251
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.144189,
+      "B_A": 0.185296
+    },
+    "ipsae_min": 0.144189,
+    "ipsae_max": 0.185296,
+    "contact_residue_pairs": 62,
+    "contact_pae_A_to_B_A": 6.951181411743164,
+    "contact_pae_B_to_A_A": 6.835565090179443,
+    "contact_pae_both_directions_A": 6.893373250961304,
+    "binder_core_mean_plddt": 0.6240257024765015
+  },
+  "core_length": 88,
+  "core_mean_cross_PAE_A": 14.271364212036133,
+  "target_CA_rmsd_to_input_A": 0.572411850331713,
+  "raw_scoring_output": "outputs/reserve_tag_scoring/seed-3607/2ds25_5_6wrw_tagged/0",
+  "geometry": {
+    "target_fit_rmsd_A": 0.84981226020407,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      294,
+      340,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.572411850331713,
+    "binder_CA_pose_rmsd_after_target_fit_A": 1.4701009294184542,
+    "binder_interface_CA_rmsd_after_target_fit_A": 1.1516564303407906,
+    "binder_CA_fold_rmsd_A": 0.5406963933867934,
+    "native_contacts": 56,
+    "recovered_contacts": 52,
+    "native_contact_recall": 0.9285714285714286
+  },
+  "control_pass": true,
+  "tag": {
+    "target_contact_residue_pairs": [
+      [
+        23,
+        125
+      ],
+      [
+        24,
+        125
+      ],
+      [
+        25,
+        125
+      ],
+      [
+        25,
+        127
+      ],
+      [
+        70,
+        145
+      ],
+      [
+        70,
+        151
+      ],
+      [
+        71,
+        151
+      ],
+      [
+        71,
+        152
+      ],
+      [
+        72,
+        151
+      ],
+      [
+        72,
+        152
+      ],
+      [
+        73,
+        151
+      ],
+      [
+        74,
+        151
+      ],
+      [
+        74,
+        152
+      ],
+      [
+        75,
+        145
+      ],
+      [
+        75,
+        151
+      ],
+      [
+        76,
+        151
+      ],
+      [
+        94,
+        145
+      ],
+      [
+        98,
+        151
+      ],
+      [
+        98,
+        152
+      ],
+      [
+        99,
+        145
+      ],
+      [
+        99,
+        150
+      ],
+      [
+        99,
+        151
+      ],
+      [
+        100,
+        136
+      ],
+      [
+        100,
+        137
+      ],
+      [
+        101,
+        136
+      ],
+      [
+        102,
+        130
+      ],
+      [
+        102,
+        131
+      ],
+      [
+        102,
+        133
+      ],
+      [
+        102,
+        134
+      ],
+      [
+        102,
+        135
+      ],
+      [
+        102,
+        136
+      ],
+      [
+        103,
+        126
+      ],
+      [
+        103,
+        127
+      ],
+      [
+        103,
+        128
+      ],
+      [
+        103,
+        129
+      ],
+      [
+        103,
+        130
+      ],
+      [
+        104,
+        116
+      ],
+      [
+        104,
+        130
+      ],
+      [
+        105,
+        123
+      ],
+      [
+        105,
+        124
+      ],
+      [
+        105,
+        125
+      ],
+      [
+        105,
+        126
+      ],
+      [
+        105,
+        127
+      ],
+      [
+        105,
+        130
+      ],
+      [
+        106,
+        127
+      ],
+      [
+        106,
+        128
+      ],
+      [
+        106,
+        139
+      ],
+      [
+        106,
+        140
+      ],
+      [
+        106,
+        144
+      ],
+      [
+        106,
+        145
+      ],
+      [
+        107,
+        127
+      ],
+      [
+        107,
+        144
+      ],
+      [
+        107,
+        145
+      ],
+      [
+        108,
+        145
+      ],
+      [
+        109,
+        144
+      ],
+      [
+        109,
+        145
+      ],
+      [
+        109,
+        146
+      ],
+      [
+        110,
+        146
+      ],
+      [
+        111,
+        148
+      ],
+      [
+        150,
+        116
+      ],
+      [
+        154,
+        114
+      ],
+      [
+        154,
+        115
+      ],
+      [
+        154,
+        116
+      ],
+      [
+        155,
+        125
+      ]
+    ],
+    "target_contact_pair_count": 64,
+    "geometry": {
+      "target_fit_rmsd_A": 0.84981226020407,
+      "mapped_target_residues": 194,
+      "modeled_target_clash_pairs_lt2A": 1,
+      "omitted_same_subunit_clash_pairs_lt2A": 113,
+      "partner_subunit_clash_pairs_lt2A": 0,
+      "observed_glycans_clash_pairs_lt2A": 0,
+      "native_target_contacts_lt5A": [
+        212,
+        213,
+        214,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        283,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        339,
+        343,
+        344
+      ]
+    },
+    "mean_plddt": 0.34015682339668274,
+    "pass": false
+  },
+  "target_integrity_pass": true
+}

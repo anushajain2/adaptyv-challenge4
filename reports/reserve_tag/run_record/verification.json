@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-25T19:06:59.091550+00:00",
+  "all_inputs_and_sources_match_launch": true,
+  "all_cloud_stages_successful": true,
+  "target_only_templates_and_empty_MSA": true,
+  "input_manifest_sha256": "0aa0592fdde36ad496e4e69161b59249f7ef48920c1b2ba2716f52925915ad3f"
+}

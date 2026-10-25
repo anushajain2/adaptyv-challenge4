@@ -1,0 +1,460 @@
+{
+  "id": "apical_short_008_A41H_mpnn03_tagged",
+  "base_id": "apical_short_008_A41H_mpnn03",
+  "condition": "tagged",
+  "kind": "novel_design",
+  "arm": "apical_short",
+  "seed": 3607,
+  "sample": 0,
+  "confidence_selected": true,
+  "upstream_confidence_selected": false,
+  "metrics": {
+    "iptm": 0.48613184690475464,
+    "ptm": 0.5012742280960083,
+    "design_to_target_iptm": 0.48613184690475464,
+    "interaction_pae": 20.7752742767334,
+    "min_design_to_target_pae": 2.791476011276245,
+    "design_ptm": 0.4344812333583832
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.150831,
+      "B_A": 0.258326
+    },
+    "ipsae_min": 0.150831,
+    "ipsae_max": 0.258326,
+    "contact_residue_pairs": 50,
+    "contact_pae_A_to_B_A": 5.203948497772217,
+    "contact_pae_B_to_A_A": 5.215501308441162,
+    "contact_pae_both_directions_A": 5.2097249031066895,
+    "binder_core_mean_plddt": 0.646394670009613
+  },
+  "core_length": 58,
+  "core_mean_cross_PAE_A": 12.94249153137207,
+  "target_CA_rmsd_to_input_A": 0.49146784844556246,
+  "raw_scoring_output": "outputs/reserve_tag_scoring/seed-3607/apical_short_008_A41H_mpnn03_tagged/0",
+  "geometry": {
+    "target_fit_rmsd_A": 0.8290835400747737,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.49146784844556246,
+    "binder_CA_pose_rmsd_after_target_fit_A": 1.6075998308249493,
+    "binder_interface_CA_rmsd_after_target_fit_A": 1.5285037606010796,
+    "binder_CA_fold_rmsd_A": 0.7432957240551717,
+    "native_contacts": 29,
+    "recovered_contacts": 21,
+    "native_contact_recall": 0.7241379310344828
+  },
+  "contacts": {
+    "pairs": 50,
+    "target_native_positions": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ],
+    "hotspots_contacted_crop": [
+      19,
+      21,
+      22
+    ],
+    "fraction_pairs_in_reference_region": 0.92,
+    "fraction_pairs_at_conserved_target_positions": 0.34,
+    "backbone_NO_contacts_lt3_5A": [
+      {
+        "target_native": 210,
+        "target_atom": "N",
+        "binder_position": 46,
+        "binder_atom": "O",
+        "distance_A": 2.9629437923431396
+      },
+      {
+        "target_native": 210,
+        "target_atom": "O",
+        "binder_position": 46,
+        "binder_atom": "N",
+        "distance_A": 2.638943910598755
+      }
+    ],
+    "backbone_contact_note": "Distance-only observations, not hydrogen-bond or beta-sheet assignments"
+  },
+  "screen": {
+    "pass": true,
+    "checks": {
+      "binder_fold": true,
+      "interface_pose": true,
+      "design_contact_recall": true,
+      "hotspot_contacts": true,
+      "intended_region": true,
+      "context_fit": true,
+      "clash_clearance": true,
+      "core_cross_PAE": true,
+      "core_contact_PAE": true
+    },
+    "failed": []
+  },
+  "tag": {
+    "target_contact_residue_pairs": [
+      [
+        15,
+        82
+      ],
+      [
+        15,
+        87
+      ],
+      [
+        15,
+        88
+      ],
+      [
+        15,
+        89
+      ],
+      [
+        16,
+        82
+      ],
+      [
+        19,
+        75
+      ],
+      [
+        20,
+        75
+      ],
+      [
+        20,
+        78
+      ],
+      [
+        20,
+        79
+      ],
+      [
+        20,
+        82
+      ],
+      [
+        20,
+        87
+      ],
+      [
+        22,
+        86
+      ],
+      [
+        42,
+        94
+      ],
+      [
+        42,
+        95
+      ],
+      [
+        44,
+        95
+      ],
+      [
+        56,
+        99
+      ],
+      [
+        57,
+        99
+      ],
+      [
+        58,
+        97
+      ],
+      [
+        58,
+        99
+      ],
+      [
+        58,
+        100
+      ],
+      [
+        59,
+        95
+      ],
+      [
+        59,
+        97
+      ],
+      [
+        59,
+        100
+      ],
+      [
+        60,
+        95
+      ],
+      [
+        61,
+        95
+      ],
+      [
+        62,
+        95
+      ],
+      [
+        64,
+        95
+      ],
+      [
+        158,
+        86
+      ],
+      [
+        159,
+        86
+      ],
+      [
+        159,
+        88
+      ],
+      [
+        161,
+        90
+      ],
+      [
+        161,
+        91
+      ],
+      [
+        161,
+        92
+      ],
+      [
+        161,
+        93
+      ],
+      [
+        161,
+        100
+      ],
+      [
+        161,
+        107
+      ],
+      [
+        161,
+        108
+      ],
+      [
+        162,
+        100
+      ],
+      [
+        162,
+        101
+      ],
+      [
+        163,
+        99
+      ],
+      [
+        163,
+        100
+      ],
+      [
+        163,
+        102
+      ],
+      [
+        163,
+        103
+      ],
+      [
+        176,
+        100
+      ],
+      [
+        177,
+        93
+      ],
+      [
+        177,
+        94
+      ],
+      [
+        177,
+        95
+      ],
+      [
+        177,
+        100
+      ],
+      [
+        178,
+        92
+      ],
+      [
+        178,
+        93
+      ],
+      [
+        178,
+        94
+      ],
+      [
+        179,
+        89
+      ],
+      [
+        179,
+        90
+      ],
+      [
+        179,
+        92
+      ],
+      [
+        179,
+        93
+      ],
+      [
+        179,
+        94
+      ],
+      [
+        180,
+        89
+      ],
+      [
+        180,
+        90
+      ],
+      [
+        180,
+        92
+      ],
+      [
+        180,
+        93
+      ],
+      [
+        180,
+        94
+      ],
+      [
+        180,
+        96
+      ],
+      [
+        181,
+        88
+      ],
+      [
+        181,
+        89
+      ],
+      [
+        181,
+        90
+      ],
+      [
+        182,
+        86
+      ],
+      [
+        182,
+        88
+      ],
+      [
+        182,
+        89
+      ]
+    ],
+    "target_contact_pair_count": 68,
+    "geometry": {
+      "target_fit_rmsd_A": 0.8290835400747737,
+      "mapped_target_residues": 194,
+      "modeled_target_clash_pairs_lt2A": 1,
+      "omitted_same_subunit_clash_pairs_lt2A": 0,
+      "partner_subunit_clash_pairs_lt2A": 0,
+      "observed_glycans_clash_pairs_lt2A": 0,
+      "native_target_contacts_lt5A": [
+        204,
+        205,
+        208,
+        209,
+        211,
+        231,
+        233,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        253,
+        347,
+        348,
+        350,
+        351,
+        352,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371
+      ]
+    },
+    "mean_plddt": 0.36214831471443176,
+    "pass": false
+  },
+  "target_integrity_pass": true
+}

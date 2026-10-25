@@ -1,5 +1,10 @@
 # Fresh confirmation and tag sensitivity of the MPNN reserve
 
+**Completed:** see [results and interpretation](RESULTS.md). All 140 predictions
+and 28 uniform preparations completed. The reserve's bare pKa direction replicated,
+but no candidate meets the complete legacy qualification rule. The frozen release
+is unchanged; no submission was made.
+
 The user authorized this follow-up on 26 October 2026. It is a new experiment on
 an unqualified reserve, not the automatic follow-up skipped by the previous round.
 Nothing is being submitted and the frozen eight-design fallback remains unchanged.
@@ -48,3 +53,9 @@ Reproduction entry points are `prepare_reserve_tag.py`, `launch_reserve_tag.py`,
 `analyze_reserve_tag_direction.py`. Completed directories are never overwritten.
 The run record archives frozen inputs and code. The original parent/reference
 coordinates are copied into the input `references` directory and hashed.
+
+Metadata clarification: the reused preparation implementation contains the legacy
+limitation string `No assay tag modeled`. That string is inaccurate for this
+tagged cohort; the complete suffix is retained in both free and bound chemistry.
+The cohort and movement-scope fields describe the actual calculation. The pinned
+implementation and launch snapshot are preserved unchanged for reproducibility.

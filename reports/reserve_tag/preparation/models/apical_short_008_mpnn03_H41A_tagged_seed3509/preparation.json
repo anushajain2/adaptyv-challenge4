@@ -1,0 +1,127 @@
+{
+  "id": "apical_short_008_mpnn03_H41A_tagged",
+  "seed": 3509,
+  "sample": 0,
+  "core_length": 58,
+  "source": "outputs/reserve_tag_scoring/seed-3509/apical_short_008_mpnn03_H41A_tagged/0/model.pdb",
+  "dest": "reports/reserve_tag/preparation/models/apical_short_008_mpnn03_H41A_tagged_seed3509",
+  "status": "ok",
+  "source_sha256": "73ebeb449b127e496ab76a9665a2944a238c44ce92d3c3100a70105e99ba9ce7",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15042566238233399,
+        "max_A": 0.6022239327430725
+      },
+      "sidechain": {
+        "rms_A": 0.5048426072636398,
+        "max_A": 2.530198097229004
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.17071407934275015,
+        "max_A": 0.5274786949157715
+      },
+      "sidechain": {
+        "rms_A": 0.5967620055247693,
+        "max_A": 2.0003836154937744
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15042566238233399,
+        "max_A": 0.6022239327430725
+      },
+      "sidechain": {
+        "rms_A": 0.5048426072636398,
+        "max_A": 2.530198097229004
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.2719984332261014,
+        "max_A": 1.0034514665603638
+      },
+      "sidechain": {
+        "rms_A": 0.7094187105385141,
+        "max_A": 2.96429181098938
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:95:TRP:CB",
+        "b": "B:99:GLN:NE2",
+        "distance_A": 1.2277011036893304
+      },
+      {
+        "a": "B:95:TRP:CH2",
+        "b": "B:104:GLY:O",
+        "distance_A": 1.7119386671256638
+      },
+      {
+        "a": "B:96:SER:O",
+        "b": "B:116:SER:OG",
+        "distance_A": 1.2005098916710388
+      },
+      {
+        "a": "B:106:SER:OG",
+        "b": "B:112:GLY:O",
+        "distance_A": 1.2900019379830359
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.8550342575591521,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      196,
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "0017b01c7da2771bf143b5a418abcd020fd47f06399c1cd3f7e2c2324f158345",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 42
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 91
+    }
+  }
+}

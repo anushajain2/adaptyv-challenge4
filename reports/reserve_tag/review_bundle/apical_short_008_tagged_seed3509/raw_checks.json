@@ -1,0 +1,200 @@
+{
+  "id": "apical_short_008_tagged",
+  "base_id": "apical_short_008",
+  "condition": "tagged",
+  "kind": "novel_design",
+  "arm": "apical_short",
+  "seed": 3509,
+  "sample": 4,
+  "confidence_selected": true,
+  "upstream_confidence_selected": true,
+  "metrics": {
+    "iptm": 0.5117924213409424,
+    "ptm": 0.49884921312332153,
+    "design_to_target_iptm": 0.5117924213409424,
+    "interaction_pae": 20.61544418334961,
+    "min_design_to_target_pae": 3.0015273094177246,
+    "design_ptm": 0.452456533908844
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.152992,
+      "B_A": 0.288956
+    },
+    "ipsae_min": 0.152992,
+    "ipsae_max": 0.288956,
+    "contact_residue_pairs": 47,
+    "contact_pae_A_to_B_A": 5.338526248931885,
+    "contact_pae_B_to_A_A": 4.9936089515686035,
+    "contact_pae_both_directions_A": 5.166067600250244,
+    "binder_core_mean_plddt": 0.6476737260818481
+  },
+  "core_length": 58,
+  "core_mean_cross_PAE_A": 12.593372344970703,
+  "target_CA_rmsd_to_input_A": 0.6951446136710941,
+  "raw_scoring_output": "outputs/reserve_tag_scoring/seed-3509/apical_short_008_tagged/4",
+  "geometry": {
+    "target_fit_rmsd_A": 1.0077493921731075,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.6951446136710941,
+    "binder_CA_pose_rmsd_after_target_fit_A": 1.5644576334394407,
+    "binder_interface_CA_rmsd_after_target_fit_A": 1.0625886452962092,
+    "binder_CA_fold_rmsd_A": 0.9434871262173242,
+    "native_contacts": 29,
+    "recovered_contacts": 22,
+    "native_contact_recall": 0.7586206896551724
+  },
+  "contacts": {
+    "pairs": 47,
+    "target_native_positions": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ],
+    "hotspots_contacted_crop": [
+      19,
+      21,
+      22
+    ],
+    "fraction_pairs_in_reference_region": 0.9574468085106383,
+    "fraction_pairs_at_conserved_target_positions": 0.3404255319148936,
+    "backbone_NO_contacts_lt3_5A": [
+      {
+        "target_native": 210,
+        "target_atom": "N",
+        "binder_position": 46,
+        "binder_atom": "O",
+        "distance_A": 2.9992475509643555
+      },
+      {
+        "target_native": 210,
+        "target_atom": "O",
+        "binder_position": 46,
+        "binder_atom": "N",
+        "distance_A": 2.6175038814544678
+      }
+    ],
+    "backbone_contact_note": "Distance-only observations, not hydrogen-bond or beta-sheet assignments"
+  },
+  "screen": {
+    "pass": true,
+    "checks": {
+      "binder_fold": true,
+      "interface_pose": true,
+      "design_contact_recall": true,
+      "hotspot_contacts": true,
+      "intended_region": true,
+      "context_fit": true,
+      "clash_clearance": true,
+      "core_cross_PAE": true,
+      "core_contact_PAE": true
+    },
+    "failed": []
+  },
+  "tag": {
+    "target_contact_residue_pairs": [
+      [
+        16,
+        86
+      ],
+      [
+        16,
+        87
+      ],
+      [
+        16,
+        88
+      ],
+      [
+        19,
+        86
+      ],
+      [
+        19,
+        89
+      ],
+      [
+        19,
+        90
+      ],
+      [
+        20,
+        84
+      ],
+      [
+        20,
+        85
+      ],
+      [
+        20,
+        86
+      ],
+      [
+        20,
+        87
+      ]
+    ],
+    "target_contact_pair_count": 10,
+    "geometry": {
+      "target_fit_rmsd_A": 1.0077493921731075,
+      "mapped_target_residues": 194,
+      "modeled_target_clash_pairs_lt2A": 0,
+      "omitted_same_subunit_clash_pairs_lt2A": 0,
+      "partner_subunit_clash_pairs_lt2A": 0,
+      "observed_glycans_clash_pairs_lt2A": 0,
+      "native_target_contacts_lt5A": [
+        205,
+        208,
+        209
+      ]
+    },
+    "mean_plddt": 0.3610084354877472,
+    "pass": false
+  },
+  "target_integrity_pass": true
+}

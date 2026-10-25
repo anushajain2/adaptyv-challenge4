@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-25T19:14:54.972439+00:00",
+  "predictions": 140,
+  "selected_models": 28,
+  "full_confidence_arrays": 28,
+  "pka_records_recomputed": 8,
+  "full_suffix_chemistry_verified": true,
+  "frozen_release_and_submission_csv_unchanged": true,
+  "bundle_manifest_sha256": "6843782afb9fc35b862c07d0df4abc2951b0523eeadab2b33bd4fe5f8c007a10"
+}

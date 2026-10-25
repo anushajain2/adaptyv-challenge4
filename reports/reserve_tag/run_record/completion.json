@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-10-25T19:17:15.608170+00:00",
+  "status": "COMPLETED_NOT_SUBMITTED",
+  "plan_commit": "c448fa28f9963723ecb331dd42bb97e262f11e63",
+  "predictions": 140,
+  "prepared_models": 28,
+  "successful_propka_calculations": 56,
+  "tests": "96 passed",
+  "decision": "Retain unqualified reserve; no automatic promotion, further cloud run or submission.",
+  "source_sha256": {
+    "package_reserve_tag.py": "98decb0f2b39b5574d1fcd7631b859fed9c92bdd4e5bfbfcad3b4d2282156f3a",
+    "audit_reserve_tag_run.py": "cd48b9842bac07331a544f2a0ca6294545d9ed844ab075f1d3d13dac10473abe"
+  },
+  "evidence_audit_sha256": "5551a0961450ff05122f98a7fdfed98758f3596de435a4dbf641d475da6671b0",
+  "results_report_sha256": "8c58b199a76ea8f6e40e67eb41541efa3a9675a512febe7fc3273d0ecacb71a2",
+  "tests_sha256": "75b2668026faa72734b465814ad9a3a566a3f60e1481ea569c8b18994c82766b"
+}

@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-10-25T19:12:31.686270+00:00",
+  "before_gross_usd": 12.66349031,
+  "after_snapshots_gross_usd": {
+    "billing_immediately_after.json": 13.09349051,
+    "billing_after.json": 13.00349051
+  },
+  "observed_increment_usd": 0.4300002000000003,
+  "prior_conservative_total_usd": 13.042347500000002,
+  "conservative_current_total_usd": 13.472347700000002,
+  "remaining_conservative_usd": 16.5276523,
+  "experiment_cap_usd": 2,
+  "project_cap_usd": 30,
+  "all_apps_stopped": true,
+  "note": "Gross includes credits. Use max(metered_cost,sum(resource breakdown)), and the higher post-run snapshot. The later meter is lower; this unexplained discrepancy is not treated as a refund. Carry prior conservative total plus nonnegative observed increase. The launch also retained a $1 meter-lag margin; no further jobs authorized by this experiment."
+}

@@ -1,0 +1,187 @@
+{
+  "id": "scrambled_6wrw_tagged",
+  "seed": 3607,
+  "sample": 1,
+  "core_length": 93,
+  "source": "outputs/reserve_tag_scoring/seed-3607/scrambled_6wrw_tagged/1/model.pdb",
+  "dest": "reports/reserve_tag/preparation/models/scrambled_6wrw_tagged_seed3607",
+  "status": "ok",
+  "source_sha256": "49c646ba1172225db1c425f57862bdac38babf382f76ceba7643fe23b265a694",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.20567054010101657,
+        "max_A": 0.934755802154541
+      },
+      "sidechain": {
+        "rms_A": 0.6130015042095801,
+        "max_A": 2.95403790473938
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.30411477270810594,
+        "max_A": 1.4340022802352905
+      },
+      "sidechain": {
+        "rms_A": 0.9300756523172137,
+        "max_A": 3.7251667976379395
+      }
+    },
+    "pass": false
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.20567054010101657,
+        "max_A": 0.934755802154541
+      },
+      "sidechain": {
+        "rms_A": 0.6130015042095801,
+        "max_A": 2.95403790473938
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.34264618136770725,
+        "max_A": 1.4340022802352905
+      },
+      "sidechain": {
+        "rms_A": 0.925865124435695,
+        "max_A": 3.7251667976379395
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:29:GLU:O",
+        "b": "B:54:GLU:OE1",
+        "distance_A": 1.3991904802420552
+      },
+      {
+        "a": "B:30:GLU:OE1",
+        "b": "B:55:GLU:O",
+        "distance_A": 1.2872152112214943
+      },
+      {
+        "a": "B:85:LEU:O",
+        "b": "B:103:ASP:OD1",
+        "distance_A": 1.5693935134312236
+      },
+      {
+        "a": "B:96:GLY:O",
+        "b": "B:118:GLY:CA",
+        "distance_A": 1.6735020167301862
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.3428149846273743,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 1255,
+    "partner_subunit_clash_pairs_lt2A": 36,
+    "observed_glycans_clash_pairs_lt2A": 14,
+    "native_target_contacts_lt5A": [
+      190,
+      191,
+      192,
+      194,
+      196,
+      219,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      239,
+      240,
+      241,
+      243,
+      244,
+      246,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      270,
+      273,
+      274,
+      275,
+      277,
+      283,
+      287,
+      288,
+      289,
+      290,
+      291,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      321,
+      325,
+      329,
+      330,
+      331,
+      372,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383
+    ]
+  },
+  "prepared_sha256": "51c47df0afa82ac7b66868fff467c101d97f345205f0ddf35470afe0d7310579",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 58
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 107
+    }
+  }
+}

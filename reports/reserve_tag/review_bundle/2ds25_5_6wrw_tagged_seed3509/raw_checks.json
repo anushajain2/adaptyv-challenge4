@@ -1,0 +1,148 @@
+{
+  "id": "2ds25_5_6wrw_tagged",
+  "base_id": "2ds25_5_6wrw",
+  "condition": "tagged",
+  "kind": "positive",
+  "arm": "control",
+  "seed": 3509,
+  "sample": 2,
+  "confidence_selected": true,
+  "upstream_confidence_selected": false,
+  "metrics": {
+    "iptm": 0.4925154447555542,
+    "ptm": 0.5101282000541687,
+    "design_to_target_iptm": 0.4925154447555542,
+    "interaction_pae": 19.741676330566406,
+    "min_design_to_target_pae": 4.365281105041504,
+    "design_ptm": 0.49997785687446594
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.162615,
+      "B_A": 0.200505
+    },
+    "ipsae_min": 0.162615,
+    "ipsae_max": 0.200505,
+    "contact_residue_pairs": 65,
+    "contact_pae_A_to_B_A": 6.951878547668457,
+    "contact_pae_B_to_A_A": 6.468968868255615,
+    "contact_pae_both_directions_A": 6.710423707962036,
+    "binder_core_mean_plddt": 0.6514062285423279
+  },
+  "core_length": 88,
+  "core_mean_cross_PAE_A": 14.068674087524414,
+  "target_CA_rmsd_to_input_A": 1.9573577239878097,
+  "raw_scoring_output": "outputs/reserve_tag_scoring/seed-3509/2ds25_5_6wrw_tagged/2",
+  "geometry": {
+    "target_fit_rmsd_A": 2.0352949217246574,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      294,
+      338,
+      340,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 1.9573577239878097,
+    "binder_CA_pose_rmsd_after_target_fit_A": 1.9955961600848977,
+    "binder_interface_CA_rmsd_after_target_fit_A": 1.5766152492393077,
+    "binder_CA_fold_rmsd_A": 0.4753370748547932,
+    "native_contacts": 56,
+    "recovered_contacts": 54,
+    "native_contact_recall": 0.9642857142857143
+  },
+  "control_pass": true,
+  "tag": {
+    "target_contact_residue_pairs": [
+      [
+        15,
+        98
+      ],
+      [
+        16,
+        98
+      ],
+      [
+        16,
+        99
+      ],
+      [
+        16,
+        100
+      ],
+      [
+        161,
+        95
+      ],
+      [
+        161,
+        96
+      ],
+      [
+        161,
+        97
+      ],
+      [
+        179,
+        98
+      ],
+      [
+        180,
+        97
+      ],
+      [
+        181,
+        98
+      ],
+      [
+        182,
+        98
+      ]
+    ],
+    "target_contact_pair_count": 11,
+    "geometry": {
+      "target_fit_rmsd_A": 2.0352949217246574,
+      "mapped_target_residues": 194,
+      "modeled_target_clash_pairs_lt2A": 0,
+      "omitted_same_subunit_clash_pairs_lt2A": 0,
+      "partner_subunit_clash_pairs_lt2A": 0,
+      "observed_glycans_clash_pairs_lt2A": 0,
+      "native_target_contacts_lt5A": [
+        204,
+        205,
+        350,
+        368,
+        369,
+        370,
+        371
+      ]
+    },
+    "mean_plddt": 0.3636215925216675,
+    "pass": false
+  },
+  "target_integrity_pass": true
+}

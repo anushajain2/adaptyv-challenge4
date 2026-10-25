@@ -1,0 +1,152 @@
+{
+  "id": "apical_short_008_tagged",
+  "seed": 3607,
+  "sample": 2,
+  "core_length": 58,
+  "source": "outputs/reserve_tag_scoring/seed-3607/apical_short_008_tagged/2/model.pdb",
+  "dest": "reports/reserve_tag/preparation/models/apical_short_008_tagged_seed3607",
+  "status": "ok",
+  "source_sha256": "5bdeacbd4be49ab1f7692349e628b0e69fa910c3c294ec826fa48f6528c51b80",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.16426349864325515,
+        "max_A": 0.6885150671005249
+      },
+      "sidechain": {
+        "rms_A": 0.4904057546606243,
+        "max_A": 3.2142837047576904
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.15431983278811914,
+        "max_A": 0.8530515432357788
+      },
+      "sidechain": {
+        "rms_A": 0.5919292934264595,
+        "max_A": 2.0706379413604736
+      }
+    },
+    "pass": true
+  },
+  "full_displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.16426349864325515,
+        "max_A": 0.6885150671005249
+      },
+      "sidechain": {
+        "rms_A": 0.4904057546606243,
+        "max_A": 3.2142837047576904
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.2103823193426545,
+        "max_A": 0.8530515432357788
+      },
+      "sidechain": {
+        "rms_A": 0.637519436063555,
+        "max_A": 2.0706379413604736
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.1586854318265758,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 171,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      190,
+      191,
+      193,
+      196,
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      214,
+      215,
+      217,
+      218,
+      219,
+      222,
+      223,
+      224,
+      225,
+      227,
+      259,
+      260,
+      262,
+      263,
+      264,
+      281,
+      283,
+      288,
+      290,
+      292,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      302,
+      306,
+      307,
+      308,
+      309,
+      315,
+      321,
+      322,
+      323,
+      324,
+      325,
+      329,
+      330,
+      344,
+      348,
+      371,
+      374,
+      376,
+      379,
+      380,
+      381,
+      382,
+      383
+    ]
+  },
+  "prepared_sha256": "9b24f97d8cd339f8f12c59d803eb29e39d818cada99b75bbfc01b84ea4f4efb3",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 40
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 89
+    }
+  }
+}
