@@ -9,7 +9,7 @@ models were prepared uniformly; a positive-control movement failure is disclosed
 The conditional tag job was skipped. Long_037 passes both fresh selected raw poses
 again (7/10 samples, following 8/10 previously). The **eight-sequence, seven-lineage
 shortlist is unchanged**, with updated evidence and all twelve variants excluded.
-This is the planned end of computational experiments. Review the frozen package
+This is the planned end of computational experiments. Review the [frozen package](reports/submission_release_2026-10-25/README.md)
 before uploading; no challenge submission has been made. The final panel added
 about **$0.48** gross; conservative cumulative accounting is about **$12.72/$30**
 (the latest account meter is $12.57). All cloud jobs are stopped.

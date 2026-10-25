@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_FOR_REVIEW_NOT_SUBMITTED",
+  "created_utc": "2026-10-25T18:03:20.555926+00:00",
+  "source_commit": "8cda1bad59ee6d15af46071b1545e69d7a628a3d",
+  "source_draft_manifest_sha256": "ff2ab0f90973ea04ef61f3b0518a8380f9d5dc49dc046f1322e0655cb4575612",
+  "candidate_count": 8,
+  "parent_lineages": 7,
+  "files": {
+    "FINAL_EXPERIMENT.md": "975687ee9414da3c9ccf861014339617fc153df0f447e7e091673188142bbaf9",
+    "METHODS.md": "c1383b2a6b30ca7f9e5e7d5b91ad6736e0dadfca1255cfd821bc1be2b018c4ff",
+    "README.md": "1704e08089384c16953435bfe180ce1ebad8ed2d61341eb3e040a6e4b8fd6bb5",
+    "REVIEW.md": "0107deee4fcf4af040070b7a31d225215933df349a2a565c72b420300db6374f",
+    "audit.json": "17a126a59d215f2148b4a8dac4846ee1a99ff53724a1abe4fb4625eabfcfc713",
+    "models/apical_short_008_A41H_seed2003_sample3.pdb": "f57e696544a70f3298347d4c982bf888f2c2b836eb149e8dbb3515db2a2103dd",
+    "models/apical_short_008_A41H_seed2011_sample1.pdb": "7e082bb5b0970a9afce661cf5202ad40dd38bc6465386c7dee40d402a3fbaf7b",
+    "models/apical_short_008_seed2003_sample4.pdb": "30603eb046a6c9955c6bf90ddc2230071eed2a5a28c969ee6f2d4f327c6143b5",
+    "models/apical_short_008_seed2011_sample2.pdb": "dbe4c02b18849e84c874590bf5e50d4f274a5b14c378a087e9956344b6feee9a",
+    "models/diversity_long_037_seed2503_sample4.pdb": "937ea29378f215ca46bf1ea026236f0f0938c521f338cc34c935fe673e383fce",
+    "models/diversity_long_037_seed2609_sample4.pdb": "eaae2ee4f187a4eb9c2a161493d1fc75f9ee5f771f3075ecd18532a82af39a8f",
+    "models/diversity_short_055_seed2309_sample2.pdb": "3596998f461487bb59f62e14f22c38e436e469a6ed2648542b4273097a7634e9",
+    "models/diversity_short_055_seed2411_sample2.pdb": "0badcecb0f1244c58192a7b60b39effe775d1f240955dfc5fb58d0b186f2c73c",
+    "models/expansion_apical_long_092_seed1801_sample4.pdb": "47f0b9448984e2d0cac12d6f219bed9918aa9ca15b7f4db6edadd97c1ff8cce0",
+    "models/expansion_apical_long_092_seed1901_sample4.pdb": "4c5c7ffee6c24362667c2c5bad65fa27b3d697ad4a16f8c98420c19cb9a4b2dc",
+    "models/expansion_apical_short_015_seed1409_sample0.pdb": "c84f45ad7786a05bd81ff31641d6657ee0a25831daa063ecc96a779830d2d164",
+    "models/expansion_apical_short_015_seed1511_sample1.pdb": "03535f609ad87bcc660385c9707472c5e1ecec2150e7f5100278c4e373dce22a",
+    "models/expansion_apical_short_018_seed1801_sample2.pdb": "193bf40a9dffa08b24094fb352852ee8340a70407d2d32b99337b329cdc54b7e",
+    "models/expansion_apical_short_018_seed1901_sample4.pdb": "c28a395348684a96427168357f8420db1c9604be2b0a341099031f7cb4f613d2",
+    "models/expansion_apical_short_026_seed2003_sample4.pdb": "646b3dca8f402bfe08510b82f97aa45b1c10e4852e638cb442d9f0909266f049",
+    "models/expansion_apical_short_026_seed2011_sample4.pdb": "af74c3346b0a5472d2cbfe9c7d01f7dc0812c84410c464705359de1e1ff3f52d",
+    "submission_draft.csv": "0778d1112a917506bff18f629b18179825619cb6f535c034775a42c0cbfad08a",
+    "submission_draft.fasta": "e1be1f4be0cc4dacd239c034bce37b8ae5296b765ac7512dad4351e6def9cdd0"
+  }
+}
