@@ -1,0 +1,3389 @@
+{
+  "sources": {
+    "reports/diversity_confirmation/review_bundle/diversity_long_037_seed2309/raw.pdb": "a2a041a93146e08104c49b38b2d8cccb09b831cfe3f42adab839415c8fc70cf3",
+    "reports/diversity_confirmation/review_bundle/diversity_long_037_seed2411/raw.pdb": "a318fec062ee1f248e3278dd07cba3923d9b041dd6184067c0b2b9e1fa4b27b3"
+  },
+  "site_audit": [
+    {
+      "position": 1,
+      "models": [
+        {
+          "position": 1,
+          "residue": "S",
+          "free_sasa_A2": 39.176803929990626,
+          "buried_sasa_A2": 1.2076282160399145,
+          "min_target_distance_A": 5.5361714363098145,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 1,
+          "residue": "S",
+          "free_sasa_A2": 49.088880610443624,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.6269659996032715,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 2,
+      "models": [
+        {
+          "position": 2,
+          "residue": "I",
+          "free_sasa_A2": 66.4195518821954,
+          "buried_sasa_A2": 62.796667234075656,
+          "min_target_distance_A": 3.809453010559082,
+          "contact_atom_pairs_lt5A": 21,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 2,
+          "residue": "I",
+          "free_sasa_A2": 54.34326972179623,
+          "buried_sasa_A2": 49.51275685763657,
+          "min_target_distance_A": 3.690340518951416,
+          "contact_atom_pairs_lt5A": 15,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 3,
+      "models": [
+        {
+          "position": 3,
+          "residue": "R",
+          "free_sasa_A2": 67.73525088551882,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.768373966217041,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 3,
+          "residue": "R",
+          "free_sasa_A2": 85.91690420890438,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.7273054122924805,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "preserve five residues at each terminus",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 4,
+      "models": [
+        {
+          "position": 4,
+          "residue": "L",
+          "free_sasa_A2": 43.47461577743699,
+          "buried_sasa_A2": 42.26698756139707,
+          "min_target_distance_A": 3.642129421234131,
+          "contact_atom_pairs_lt5A": 21,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 4,
+          "residue": "L",
+          "free_sasa_A2": 60.24524161001862,
+          "buried_sasa_A2": 59.1737825859559,
+          "min_target_distance_A": 3.7102577686309814,
+          "contact_atom_pairs_lt5A": 24,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus",
+        "anchor proxy"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 5,
+      "models": [
+        {
+          "position": 5,
+          "residue": "A",
+          "free_sasa_A2": 6.701092528330714,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.106861591339111,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 5,
+          "residue": "A",
+          "free_sasa_A2": 3.350546264165357,
+          "buried_sasa_A2": 1.0714590240627202,
+          "min_target_distance_A": 4.464498043060303,
+          "contact_atom_pairs_lt5A": 2,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 6,
+      "models": [
+        {
+          "position": 6,
+          "residue": "T",
+          "free_sasa_A2": 52.96368329026943,
+          "buried_sasa_A2": 27.60349075343119,
+          "min_target_distance_A": 2.643369674682617,
+          "contact_atom_pairs_lt5A": 10,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 6,
+          "residue": "T",
+          "free_sasa_A2": 55.24277053037206,
+          "buried_sasa_A2": 32.86040570527729,
+          "min_target_distance_A": 3.6342954635620117,
+          "contact_atom_pairs_lt5A": 10,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 7,
+      "models": [
+        {
+          "position": 7,
+          "residue": "G",
+          "free_sasa_A2": 1.0714590240627204,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.498248100280762,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 7,
+          "residue": "G",
+          "free_sasa_A2": 4.69434367218247,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.659927845001221,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 8,
+      "models": [
+        {
+          "position": 8,
+          "residue": "E",
+          "free_sasa_A2": 108.93399641373045,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.8564653396606445,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 8,
+          "residue": "E",
+          "free_sasa_A2": 96.58537586937689,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.797638416290283,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 9,
+      "models": [
+        {
+          "position": 9,
+          "residue": "V",
+          "free_sasa_A2": 5.357295120313602,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.568070888519287,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 9,
+          "residue": "V",
+          "free_sasa_A2": 8.571672192501763,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.255599021911621,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 10,
+      "models": [
+        {
+          "position": 10,
+          "residue": "V",
+          "free_sasa_A2": 58.20270373036068,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.120491027832031,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 10,
+          "residue": "V",
+          "free_sasa_A2": 57.26741389827515,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.707070350646973,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 11,
+      "models": [
+        {
+          "position": 11,
+          "residue": "A",
+          "free_sasa_A2": 27.775448968918077,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.612689971923828,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 11,
+          "residue": "A",
+          "free_sasa_A2": 36.22884648119749,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.386064529418945,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 12,
+      "models": [
+        {
+          "position": 12,
+          "residue": "G",
+          "free_sasa_A2": 39.492559124417625,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.515974044799805,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 12,
+          "residue": "G",
+          "free_sasa_A2": 33.81866686284586,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.331896781921387,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 13,
+      "models": [
+        {
+          "position": 13,
+          "residue": "P",
+          "free_sasa_A2": 44.37411658601282,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.210442543029785,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 13,
+          "residue": "P",
+          "free_sasa_A2": 61.03070260526914,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.396801948547363,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 14,
+      "models": [
+        {
+          "position": 14,
+          "residue": "Y",
+          "free_sasa_A2": 1.2076282160399163,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.505030632019043,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 14,
+          "residue": "Y",
+          "free_sasa_A2": 0.0,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.236271381378174,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 15,
+      "models": [
+        {
+          "position": 15,
+          "residue": "K",
+          "free_sasa_A2": 135.23473152557102,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.970768928527832,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 15,
+          "residue": "K",
+          "free_sasa_A2": 129.15233168806765,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.495338439941406,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 16,
+      "models": [
+        {
+          "position": 16,
+          "residue": "G",
+          "free_sasa_A2": 55.497214402571615,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.233347415924072,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 16,
+          "residue": "G",
+          "free_sasa_A2": 50.00375009028081,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.101774215698242,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 17,
+      "models": [
+        {
+          "position": 17,
+          "residue": "G",
+          "free_sasa_A2": 3.4867154561425533,
+          "buried_sasa_A2": 1.2076282160399163,
+          "min_target_distance_A": 4.326393127441406,
+          "contact_atom_pairs_lt5A": 2,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 17,
+          "residue": "G",
+          "free_sasa_A2": 3.622884648119749,
+          "buried_sasa_A2": 3.622884648119749,
+          "min_target_distance_A": 4.4855637550354,
+          "contact_atom_pairs_lt5A": 2,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 18,
+      "models": [
+        {
+          "position": 18,
+          "residue": "K",
+          "free_sasa_A2": 145.61662710418307,
+          "buried_sasa_A2": 38.781114052085684,
+          "min_target_distance_A": 3.0047085285186768,
+          "contact_atom_pairs_lt5A": 25,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 18,
+          "residue": "K",
+          "free_sasa_A2": 118.20542695389281,
+          "buried_sasa_A2": 52.79181303937685,
+          "min_target_distance_A": 3.302105665206909,
+          "contact_atom_pairs_lt5A": 19,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 4,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "anchor proxy"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 19,
+      "models": [
+        {
+          "position": 19,
+          "residue": "A",
+          "free_sasa_A2": 2.4152564320798326,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.297868728637695,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 19,
+          "residue": "A",
+          "free_sasa_A2": 2.4152564320798326,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.40029764175415,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 20,
+      "models": [
+        {
+          "position": 20,
+          "residue": "G",
+          "free_sasa_A2": 10.346106555102349,
+          "buried_sasa_A2": 10.346106555102349,
+          "min_target_distance_A": 4.033988952636719,
+          "contact_atom_pairs_lt5A": 7,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 20,
+          "residue": "G",
+          "free_sasa_A2": 22.286219523524316,
+          "buried_sasa_A2": 19.985002904769793,
+          "min_target_distance_A": 3.507219076156616,
+          "contact_atom_pairs_lt5A": 13,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 21,
+      "models": [
+        {
+          "position": 21,
+          "residue": "V",
+          "free_sasa_A2": 2.4152564320798326,
+          "buried_sasa_A2": 1.2076282160399163,
+          "min_target_distance_A": 4.881170272827148,
+          "contact_atom_pairs_lt5A": 1,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 21,
+          "residue": "V",
+          "free_sasa_A2": 3.372675642817244,
+          "buried_sasa_A2": 3.372675642817244,
+          "min_target_distance_A": 4.233290672302246,
+          "contact_atom_pairs_lt5A": 6,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 22,
+      "models": [
+        {
+          "position": 22,
+          "residue": "A",
+          "free_sasa_A2": 34.74887988120318,
+          "buried_sasa_A2": 34.74887988120318,
+          "min_target_distance_A": 3.550764322280884,
+          "contact_atom_pairs_lt5A": 24,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 22,
+          "residue": "A",
+          "free_sasa_A2": 32.333623449123344,
+          "buried_sasa_A2": 32.333623449123344,
+          "min_target_distance_A": 3.375227451324463,
+          "contact_atom_pairs_lt5A": 20,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 23,
+      "models": [
+        {
+          "position": 23,
+          "residue": "L",
+          "free_sasa_A2": 30.190705400997906,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 3.728440523147583,
+          "contact_atom_pairs_lt5A": 4,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 23,
+          "residue": "L",
+          "free_sasa_A2": 21.73730788871849,
+          "buried_sasa_A2": 1.2076282160399145,
+          "min_target_distance_A": 3.8456339836120605,
+          "contact_atom_pairs_lt5A": 4,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 24,
+      "models": [
+        {
+          "position": 24,
+          "residue": "N",
+          "free_sasa_A2": 66.73696583754351,
+          "buried_sasa_A2": 40.62362044430425,
+          "min_target_distance_A": 2.6748976707458496,
+          "contact_atom_pairs_lt5A": 23,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        },
+        {
+          "position": 24,
+          "residue": "N",
+          "free_sasa_A2": 62.33531806971069,
+          "buried_sasa_A2": 47.08807564759597,
+          "min_target_distance_A": 2.1475813388824463,
+          "contact_atom_pairs_lt5A": 21,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        }
+      ],
+      "excluded_reasons": [
+        "anchor proxy"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 25,
+      "models": [
+        {
+          "position": 25,
+          "residue": "T",
+          "free_sasa_A2": 78.67869986777472,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.4406418800354,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 25,
+          "residue": "T",
+          "free_sasa_A2": 56.19595487421243,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.243215084075928,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 26,
+      "models": [
+        {
+          "position": 26,
+          "residue": "S",
+          "free_sasa_A2": 83.1007051560028,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.536909580230713,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 26,
+          "residue": "S",
+          "free_sasa_A2": 73.32140474746112,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.524942398071289,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 27,
+      "models": [
+        {
+          "position": 27,
+          "residue": "N",
+          "free_sasa_A2": 64.16680375490047,
+          "buried_sasa_A2": 31.714063678723605,
+          "min_target_distance_A": 2.9938721656799316,
+          "contact_atom_pairs_lt5A": 22,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": -3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 27,
+          "residue": "N",
+          "free_sasa_A2": 71.1147123684678,
+          "buried_sasa_A2": 26.24612166515056,
+          "min_target_distance_A": 4.072535991668701,
+          "contact_atom_pairs_lt5A": 7,
+          "nearby_basic_atoms": 2,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 6,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -3
+    },
+    {
+      "position": 28,
+      "models": [
+        {
+          "position": 28,
+          "residue": "P",
+          "free_sasa_A2": 127.54639978903501,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.65644645690918,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 28,
+          "residue": "P",
+          "free_sasa_A2": 114.39865860457313,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.032882690429688,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 29,
+      "models": [
+        {
+          "position": 29,
+          "residue": "D",
+          "free_sasa_A2": 130.63551527893924,
+          "buried_sasa_A2": 28.420505905294362,
+          "min_target_distance_A": 3.5118730068206787,
+          "contact_atom_pairs_lt5A": 17,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": 2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 29,
+          "residue": "D",
+          "free_sasa_A2": 136.26514878320722,
+          "buried_sasa_A2": 13.538354248638626,
+          "min_target_distance_A": 4.643286228179932,
+          "contact_atom_pairs_lt5A": 1,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine"
+      ],
+      "worst_pose_heuristic": 2
+    },
+    {
+      "position": 30,
+      "models": [
+        {
+          "position": 30,
+          "residue": "A",
+          "free_sasa_A2": 22.51853401707198,
+          "buried_sasa_A2": 9.661025728319334,
+          "min_target_distance_A": 2.9799587726593018,
+          "contact_atom_pairs_lt5A": 17,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 30,
+          "residue": "A",
+          "free_sasa_A2": 24.270839001020676,
+          "buried_sasa_A2": 15.699166808518912,
+          "min_target_distance_A": 3.3089957237243652,
+          "contact_atom_pairs_lt5A": 8,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 31,
+      "models": [
+        {
+          "position": 31,
+          "residue": "K",
+          "free_sasa_A2": 107.32227141784459,
+          "buried_sasa_A2": 28.899636484078655,
+          "min_target_distance_A": 3.295173168182373,
+          "contact_atom_pairs_lt5A": 15,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 31,
+          "residue": "K",
+          "free_sasa_A2": 130.99994002675567,
+          "buried_sasa_A2": 30.38383795096999,
+          "min_target_distance_A": 3.43332839012146,
+          "contact_atom_pairs_lt5A": 16,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 32,
+      "models": [
+        {
+          "position": 32,
+          "residue": "G",
+          "free_sasa_A2": 2.142918048125441,
+          "buried_sasa_A2": 2.142918048125441,
+          "min_target_distance_A": 4.430563449859619,
+          "contact_atom_pairs_lt5A": 4,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 32,
+          "residue": "G",
+          "free_sasa_A2": 8.980179768433352,
+          "buried_sasa_A2": 8.980179768433352,
+          "min_target_distance_A": 3.8488593101501465,
+          "contact_atom_pairs_lt5A": 7,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 33,
+      "models": [
+        {
+          "position": 33,
+          "residue": "G",
+          "free_sasa_A2": 28.7107388010036,
+          "buried_sasa_A2": 28.7107388010036,
+          "min_target_distance_A": 3.175344228744507,
+          "contact_atom_pairs_lt5A": 22,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 33,
+          "residue": "G",
+          "free_sasa_A2": 19.071842451336153,
+          "buried_sasa_A2": 19.071842451336153,
+          "min_target_distance_A": 3.521852493286133,
+          "contact_atom_pairs_lt5A": 19,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 34,
+      "models": [
+        {
+          "position": 34,
+          "residue": "L",
+          "free_sasa_A2": 3.4867154561425533,
+          "buried_sasa_A2": 3.4867154561425533,
+          "min_target_distance_A": 3.861851453781128,
+          "contact_atom_pairs_lt5A": 8,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 34,
+          "residue": "L",
+          "free_sasa_A2": 5.901971888222386,
+          "buried_sasa_A2": 3.4867154561425533,
+          "min_target_distance_A": 3.9368700981140137,
+          "contact_atom_pairs_lt5A": 6,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 35,
+      "models": [
+        {
+          "position": 35,
+          "residue": "G",
+          "free_sasa_A2": 25.25038759040997,
+          "buried_sasa_A2": 23.10746954228453,
+          "min_target_distance_A": 3.6331539154052734,
+          "contact_atom_pairs_lt5A": 13,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": 2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 35,
+          "residue": "G",
+          "free_sasa_A2": 31.01619028665516,
+          "buried_sasa_A2": 31.01619028665516,
+          "min_target_distance_A": 3.197498083114624,
+          "contact_atom_pairs_lt5A": 15,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": 2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine"
+      ],
+      "worst_pose_heuristic": 2
+    },
+    {
+      "position": 36,
+      "models": [
+        {
+          "position": 36,
+          "residue": "V",
+          "free_sasa_A2": 6.701092528330714,
+          "buried_sasa_A2": 6.701092528330714,
+          "min_target_distance_A": 3.683734178543091,
+          "contact_atom_pairs_lt5A": 12,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 36,
+          "residue": "V",
+          "free_sasa_A2": 6.83726172030791,
+          "buried_sasa_A2": 4.422005288228077,
+          "min_target_distance_A": 3.4685420989990234,
+          "contact_atom_pairs_lt5A": 14,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 3
+    },
+    {
+      "position": 37,
+      "models": [
+        {
+          "position": 37,
+          "residue": "S",
+          "free_sasa_A2": 40.34272436196148,
+          "buried_sasa_A2": 40.34272436196148,
+          "min_target_distance_A": 2.742889881134033,
+          "contact_atom_pairs_lt5A": 26,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 37,
+          "residue": "S",
+          "free_sasa_A2": 37.12834728977332,
+          "buried_sasa_A2": 33.91397021758516,
+          "min_target_distance_A": 2.90439772605896,
+          "contact_atom_pairs_lt5A": 23,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 38,
+      "models": [
+        {
+          "position": 38,
+          "residue": "A",
+          "free_sasa_A2": 20.375615968946533,
+          "buried_sasa_A2": 10.714590240627203,
+          "min_target_distance_A": 4.337488174438477,
+          "contact_atom_pairs_lt5A": 5,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 38,
+          "residue": "A",
+          "free_sasa_A2": 16.752731320826786,
+          "buried_sasa_A2": 10.714590240627205,
+          "min_target_distance_A": 3.2795608043670654,
+          "contact_atom_pairs_lt5A": 9,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 39,
+      "models": [
+        {
+          "position": 39,
+          "residue": "P",
+          "free_sasa_A2": 86.07853286774626,
+          "buried_sasa_A2": 33.62373732187592,
+          "min_target_distance_A": 3.4303488731384277,
+          "contact_atom_pairs_lt5A": 15,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 39,
+          "residue": "P",
+          "free_sasa_A2": 73.20313006723876,
+          "buried_sasa_A2": 38.45425018603558,
+          "min_target_distance_A": 3.7887721061706543,
+          "contact_atom_pairs_lt5A": 15,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 40,
+      "models": [
+        {
+          "position": 40,
+          "residue": "N",
+          "free_sasa_A2": 157.45700078903886,
+          "buried_sasa_A2": 45.68212497052022,
+          "min_target_distance_A": 3.43294095993042,
+          "contact_atom_pairs_lt5A": 21,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": 2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 40,
+          "residue": "N",
+          "free_sasa_A2": 134.24915107828684,
+          "buried_sasa_A2": 17.069328462084968,
+          "min_target_distance_A": 4.570065975189209,
+          "contact_atom_pairs_lt5A": 5,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 41,
+      "models": [
+        {
+          "position": 41,
+          "residue": "G",
+          "free_sasa_A2": 39.35554798560927,
+          "buried_sasa_A2": 27.43332952894215,
+          "min_target_distance_A": 3.2775704860687256,
+          "contact_atom_pairs_lt5A": 11,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": 1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 41,
+          "residue": "G",
+          "free_sasa_A2": 38.781114052085684,
+          "buried_sasa_A2": 24.67595365688639,
+          "min_target_distance_A": 4.240065574645996,
+          "contact_atom_pairs_lt5A": 6,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": 2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine"
+      ],
+      "worst_pose_heuristic": 1
+    },
+    {
+      "position": 42,
+      "models": [
+        {
+          "position": 42,
+          "residue": "G",
+          "free_sasa_A2": 15.402148072677925,
+          "buried_sasa_A2": 14.308559669963318,
+          "min_target_distance_A": 3.049520254135132,
+          "contact_atom_pairs_lt5A": 6,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 42,
+          "residue": "G",
+          "free_sasa_A2": 15.313630558070376,
+          "buried_sasa_A2": 14.220042155355769,
+          "min_target_distance_A": 3.6067254543304443,
+          "contact_atom_pairs_lt5A": 5,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 43,
+      "models": [
+        {
+          "position": 43,
+          "residue": "A",
+          "free_sasa_A2": 39.579392745362846,
+          "buried_sasa_A2": 39.579392745362846,
+          "min_target_distance_A": 3.3800649642944336,
+          "contact_atom_pairs_lt5A": 16,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": -3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 43,
+          "residue": "A",
+          "free_sasa_A2": 36.228846481197486,
+          "buried_sasa_A2": 36.228846481197486,
+          "min_target_distance_A": 3.5260815620422363,
+          "contact_atom_pairs_lt5A": 14,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": -3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -3
+    },
+    {
+      "position": 44,
+      "models": [
+        {
+          "position": 44,
+          "residue": "A",
+          "free_sasa_A2": 2.142918048125441,
+          "buried_sasa_A2": 1.0714590240627204,
+          "min_target_distance_A": 4.785697937011719,
+          "contact_atom_pairs_lt5A": 3,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 44,
+          "residue": "A",
+          "free_sasa_A2": 1.2076282160399163,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 4.617740154266357,
+          "contact_atom_pairs_lt5A": 3,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 45,
+      "models": [
+        {
+          "position": 45,
+          "residue": "L",
+          "free_sasa_A2": 95.4026290671534,
+          "buried_sasa_A2": 94.19500085111348,
+          "min_target_distance_A": 2.5265491008758545,
+          "contact_atom_pairs_lt5A": 41,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": -3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        },
+        {
+          "position": 45,
+          "residue": "L",
+          "free_sasa_A2": 94.19500085111348,
+          "buried_sasa_A2": 94.19500085111348,
+          "min_target_distance_A": 2.8429064750671387,
+          "contact_atom_pairs_lt5A": 44,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        }
+      ],
+      "excluded_reasons": [
+        "anchor proxy",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -3
+    },
+    {
+      "position": 46,
+      "models": [
+        {
+          "position": 46,
+          "residue": "A",
+          "free_sasa_A2": 4.307965474902768,
+          "buried_sasa_A2": 3.214377072188161,
+          "min_target_distance_A": 3.456275701522827,
+          "contact_atom_pairs_lt5A": 11,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 46,
+          "residue": "A",
+          "free_sasa_A2": 6.587052715005405,
+          "buried_sasa_A2": 6.587052715005405,
+          "min_target_distance_A": 3.091329336166382,
+          "contact_atom_pairs_lt5A": 13,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 47,
+      "models": [
+        {
+          "position": 47,
+          "residue": "V",
+          "free_sasa_A2": 32.60596183307774,
+          "buried_sasa_A2": 25.360192536838245,
+          "min_target_distance_A": 3.4358203411102295,
+          "contact_atom_pairs_lt5A": 12,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 47,
+          "residue": "V",
+          "free_sasa_A2": 42.26698756139707,
+          "buried_sasa_A2": 26.567820752878163,
+          "min_target_distance_A": 3.1521222591400146,
+          "contact_atom_pairs_lt5A": 18,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 48,
+      "models": [
+        {
+          "position": 48,
+          "residue": "A",
+          "free_sasa_A2": 0.0,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.411047458648682,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 48,
+          "residue": "A",
+          "free_sasa_A2": 0.0,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.858840465545654,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 49,
+      "models": [
+        {
+          "position": 49,
+          "residue": "D",
+          "free_sasa_A2": 75.60472685446078,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.857695579528809,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 49,
+          "residue": "D",
+          "free_sasa_A2": 47.961212210622875,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.4970703125,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 50,
+      "models": [
+        {
+          "position": 50,
+          "residue": "P",
+          "free_sasa_A2": 32.60596183307774,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.629696369171143,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 50,
+          "residue": "P",
+          "free_sasa_A2": 44.6822439934769,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.16335678100586,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 51,
+      "models": [
+        {
+          "position": 51,
+          "residue": "S",
+          "free_sasa_A2": 65.04420031756564,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.644548416137695,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 51,
+          "residue": "S",
+          "free_sasa_A2": 63.840806968422754,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.404367446899414,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 52,
+      "models": [
+        {
+          "position": 52,
+          "residue": "A",
+          "free_sasa_A2": 9.524856536342135,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 9.645252227783203,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 52,
+          "residue": "A",
+          "free_sasa_A2": 9.432946101668712,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.031867980957031,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 53,
+      "models": [
+        {
+          "position": 53,
+          "residue": "A",
+          "free_sasa_A2": 0.0,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.834203243255615,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 53,
+          "residue": "A",
+          "free_sasa_A2": 1.0714590240627204,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.800928115844727,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 54,
+      "models": [
+        {
+          "position": 54,
+          "residue": "D",
+          "free_sasa_A2": 72.64055878757513,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.972529411315918,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 54,
+          "residue": "D",
+          "free_sasa_A2": 68.35472269132426,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.751045227050781,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 55,
+      "models": [
+        {
+          "position": 55,
+          "residue": "A",
+          "free_sasa_A2": 9.432946101668712,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.665580749511719,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 55,
+          "residue": "A",
+          "free_sasa_A2": 9.138478339062434,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.328697204589844,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 56,
+      "models": [
+        {
+          "position": 56,
+          "residue": "K",
+          "free_sasa_A2": 112.6719638839365,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.335558891296387,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 56,
+          "residue": "K",
+          "free_sasa_A2": 137.77768741583398,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.811290740966797,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 57,
+      "models": [
+        {
+          "position": 57,
+          "residue": "V",
+          "free_sasa_A2": 92.20519146255339,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.85564661026001,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 57,
+          "residue": "V",
+          "free_sasa_A2": 90.58482080368483,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.97614860534668,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 58,
+      "models": [
+        {
+          "position": 58,
+          "residue": "G",
+          "free_sasa_A2": 54.42575537850888,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.053672790527344,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 58,
+          "residue": "G",
+          "free_sasa_A2": 57.64013245069705,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.066849708557129,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 59,
+      "models": [
+        {
+          "position": 59,
+          "residue": "E",
+          "free_sasa_A2": 75.46432279558655,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.300638198852539,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 59,
+          "residue": "E",
+          "free_sasa_A2": 76.51788730789443,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.503937721252441,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 60,
+      "models": [
+        {
+          "position": 60,
+          "residue": "I",
+          "free_sasa_A2": 100.17606547598264,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 14.475624084472656,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 60,
+          "residue": "I",
+          "free_sasa_A2": 99.1267358305718,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 14.208450317382812,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 61,
+      "models": [
+        {
+          "position": 61,
+          "residue": "V",
+          "free_sasa_A2": 19.32205145663866,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.71133041381836,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 61,
+          "residue": "V",
+          "free_sasa_A2": 10.868653944359247,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.250039100646973,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 62,
+      "models": [
+        {
+          "position": 62,
+          "residue": "T",
+          "free_sasa_A2": 85.85892297488972,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 14.24869441986084,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 62,
+          "residue": "T",
+          "free_sasa_A2": 76.9187670968631,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.982605934143066,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 63,
+      "models": [
+        {
+          "position": 63,
+          "residue": "V",
+          "free_sasa_A2": 3.622884648119749,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.077484130859375,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 63,
+          "residue": "V",
+          "free_sasa_A2": 0.0,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.039722442626953,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 64,
+      "models": [
+        {
+          "position": 64,
+          "residue": "T",
+          "free_sasa_A2": 60.37198602403505,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.415642738342285,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 64,
+          "residue": "T",
+          "free_sasa_A2": 44.64645496996721,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.121177673339844,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 65,
+      "models": [
+        {
+          "position": 65,
+          "residue": "V",
+          "free_sasa_A2": 2.142918048125441,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 9.547977447509766,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 65,
+          "residue": "V",
+          "free_sasa_A2": 4.285836096250882,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 9.53100872039795,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 66,
+      "models": [
+        {
+          "position": 66,
+          "residue": "E",
+          "free_sasa_A2": 79.06931293195146,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.0635404586792,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 66,
+          "residue": "E",
+          "free_sasa_A2": 62.99742757101066,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.921612739562988,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 67,
+      "models": [
+        {
+          "position": 67,
+          "residue": "E",
+          "free_sasa_A2": 91.51831364477252,
+          "buried_sasa_A2": 3.214377072188171,
+          "min_target_distance_A": 5.49932336807251,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 67,
+          "residue": "E",
+          "free_sasa_A2": 99.01852681321157,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.649843215942383,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 68,
+      "models": [
+        {
+          "position": 68,
+          "residue": "V",
+          "free_sasa_A2": 46.15278581551044,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.8252058029174805,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 68,
+          "residue": "V",
+          "free_sasa_A2": 56.74486650901826,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.755825996398926,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 69,
+      "models": [
+        {
+          "position": 69,
+          "residue": "V",
+          "free_sasa_A2": 91.57199718003706,
+          "buried_sasa_A2": 50.293982985990056,
+          "min_target_distance_A": 3.3806278705596924,
+          "contact_atom_pairs_lt5A": 21,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": 1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 69,
+          "residue": "V",
+          "free_sasa_A2": 91.43582798805986,
+          "buried_sasa_A2": 45.32730092985319,
+          "min_target_distance_A": 3.560526132583618,
+          "contact_atom_pairs_lt5A": 20,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        }
+      ],
+      "excluded_reasons": [
+        "anchor proxy"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 70,
+      "models": [
+        {
+          "position": 70,
+          "residue": "G",
+          "free_sasa_A2": 22.944936104758412,
+          "buried_sasa_A2": 18.114423240598747,
+          "min_target_distance_A": 3.673259735107422,
+          "contact_atom_pairs_lt5A": 15,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 70,
+          "residue": "G",
+          "free_sasa_A2": 28.983077184957992,
+          "buried_sasa_A2": 19.32205145663866,
+          "min_target_distance_A": 3.3686673641204834,
+          "contact_atom_pairs_lt5A": 19,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 71,
+      "models": [
+        {
+          "position": 71,
+          "residue": "K",
+          "free_sasa_A2": 116.19519721308438,
+          "buried_sasa_A2": 26.414598995977286,
+          "min_target_distance_A": 3.2912938594818115,
+          "contact_atom_pairs_lt5A": 14,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 71,
+          "residue": "K",
+          "free_sasa_A2": 104.79891906574004,
+          "buried_sasa_A2": 16.56891045147995,
+          "min_target_distance_A": 3.73498272895813,
+          "contact_atom_pairs_lt5A": 12,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine"
+      ],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 72,
+      "models": [
+        {
+          "position": 72,
+          "residue": "S",
+          "free_sasa_A2": 42.6797300042257,
+          "buried_sasa_A2": 33.69955023579235,
+          "min_target_distance_A": 3.6765811443328857,
+          "contact_atom_pairs_lt5A": 21,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 72,
+          "residue": "S",
+          "free_sasa_A2": 47.8871962877043,
+          "buried_sasa_A2": 39.978475543333666,
+          "min_target_distance_A": 2.986859083175659,
+          "contact_atom_pairs_lt5A": 24,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 3,
+          "heuristic": -3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -3
+    },
+    {
+      "position": 73,
+      "models": [
+        {
+          "position": 73,
+          "residue": "K",
+          "free_sasa_A2": 209.7706382937981,
+          "buried_sasa_A2": 62.99835748243612,
+          "min_target_distance_A": 2.077836275100708,
+          "contact_atom_pairs_lt5A": 22,
+          "nearby_basic_atoms": 3,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": 7,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": true
+        },
+        {
+          "position": 73,
+          "residue": "K",
+          "free_sasa_A2": 192.68596629319302,
+          "buried_sasa_A2": 46.18518191895427,
+          "min_target_distance_A": 3.601642370223999,
+          "contact_atom_pairs_lt5A": 18,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": 1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "anchor proxy"
+      ],
+      "worst_pose_heuristic": 1
+    },
+    {
+      "position": 74,
+      "models": [
+        {
+          "position": 74,
+          "residue": "T",
+          "free_sasa_A2": 102.46278050304818,
+          "buried_sasa_A2": 30.994060908003263,
+          "min_target_distance_A": 3.7752737998962402,
+          "contact_atom_pairs_lt5A": 7,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 74,
+          "residue": "T",
+          "free_sasa_A2": 90.12781960355244,
+          "buried_sasa_A2": 16.089779872695658,
+          "min_target_distance_A": 4.115984916687012,
+          "contact_atom_pairs_lt5A": 6,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 75,
+      "models": [
+        {
+          "position": 75,
+          "residue": "A",
+          "free_sasa_A2": 21.42918048125441,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.020102024078369,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 75,
+          "residue": "A",
+          "free_sasa_A2": 20.357721457191687,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.406476974487305,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 76,
+      "models": [
+        {
+          "position": 76,
+          "residue": "P",
+          "free_sasa_A2": 41.05935934535715,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 7.86914587020874,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 76,
+          "residue": "P",
+          "free_sasa_A2": 39.85173112931724,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.450489044189453,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 77,
+      "models": [
+        {
+          "position": 77,
+          "residue": "E",
+          "free_sasa_A2": 128.06459921405934,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.882301330566406,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 77,
+          "residue": "E",
+          "free_sasa_A2": 112.11098853334089,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.586838722229004,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 78,
+      "models": [
+        {
+          "position": 78,
+          "residue": "L",
+          "free_sasa_A2": 10.714590240627205,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 9.782886505126953,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 78,
+          "residue": "L",
+          "free_sasa_A2": 5.629633504267994,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 9.675888061523438,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 79,
+      "models": [
+        {
+          "position": 79,
+          "residue": "K",
+          "free_sasa_A2": 120.11942342853646,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.88038444519043,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 79,
+          "residue": "K",
+          "free_sasa_A2": 126.72776357536259,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.010233879089355,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 80,
+      "models": [
+        {
+          "position": 80,
+          "residue": "V",
+          "free_sasa_A2": 115.15012756731181,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.885647773742676,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 80,
+          "residue": "V",
+          "free_sasa_A2": 90.28611817418152,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 11.093669891357422,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 81,
+      "models": [
+        {
+          "position": 81,
+          "residue": "G",
+          "free_sasa_A2": 41.29590870580185,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.756032943725586,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 81,
+          "residue": "G",
+          "free_sasa_A2": 44.41837534331659,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.58127498626709,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 82,
+      "models": [
+        {
+          "position": 82,
+          "residue": "D",
+          "free_sasa_A2": 30.273191057710562,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.211248397827148,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 82,
+          "residue": "D",
+          "free_sasa_A2": 24.52528287322022,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.278684616088867,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 83,
+      "models": [
+        {
+          "position": 83,
+          "residue": "V",
+          "free_sasa_A2": 70.27559297069398,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 14.970531463623047,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 83,
+          "residue": "V",
+          "free_sasa_A2": 64.3514917038197,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 14.90631103515625,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 84,
+      "models": [
+        {
+          "position": 84,
+          "residue": "I",
+          "free_sasa_A2": 0.0,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.246374130249023,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 84,
+          "residue": "I",
+          "free_sasa_A2": 1.2076282160399163,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.634307861328125,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 85,
+      "models": [
+        {
+          "position": 85,
+          "residue": "E",
+          "free_sasa_A2": 71.26097235604833,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 12.159428596496582,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 85,
+          "residue": "E",
+          "free_sasa_A2": 71.66947993197991,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 13.093671798706055,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 86,
+      "models": [
+        {
+          "position": 86,
+          "residue": "I",
+          "free_sasa_A2": 2.4152564320798326,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.852986335754395,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 86,
+          "residue": "I",
+          "free_sasa_A2": 1.2076282160399163,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 8.82197380065918,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 87,
+      "models": [
+        {
+          "position": 87,
+          "residue": "K",
+          "free_sasa_A2": 99.01954468923134,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.696617126464844,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 87,
+          "residue": "K",
+          "free_sasa_A2": 109.1367296708519,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 10.789817810058594,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 88,
+      "models": [
+        {
+          "position": 88,
+          "residue": "V",
+          "free_sasa_A2": 4.422005288228077,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 9.345088005065918,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 88,
+          "residue": "V",
+          "free_sasa_A2": 8.571672192501763,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 9.042503356933594,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 89,
+      "models": [
+        {
+          "position": 89,
+          "residue": "T",
+          "free_sasa_A2": 78.9510382517291,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.71162748336792,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 89,
+          "residue": "T",
+          "free_sasa_A2": 89.29290993993443,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.515463352203369,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 90,
+      "models": [
+        {
+          "position": 90,
+          "residue": "S",
+          "free_sasa_A2": 47.179986082269394,
+          "buried_sasa_A2": 24.779726745419765,
+          "min_target_distance_A": 2.9389336109161377,
+          "contact_atom_pairs_lt5A": 6,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 90,
+          "residue": "S",
+          "free_sasa_A2": 55.343150698839565,
+          "buried_sasa_A2": 30.817867825619345,
+          "min_target_distance_A": 3.0811901092529297,
+          "contact_atom_pairs_lt5A": 7,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 1,
+          "heuristic": -1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [],
+      "worst_pose_heuristic": -1
+    },
+    {
+      "position": 91,
+      "models": [
+        {
+          "position": 91,
+          "residue": "S",
+          "free_sasa_A2": 51.21561317321777,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.522434711456299,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 91,
+          "residue": "S",
+          "free_sasa_A2": 60.29617311011863,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 5.615025043487549,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 92,
+      "models": [
+        {
+          "position": 92,
+          "residue": "S",
+          "free_sasa_A2": 46.671098337870305,
+          "buried_sasa_A2": 34.730985369448334,
+          "min_target_distance_A": 3.211611747741699,
+          "contact_atom_pairs_lt5A": 13,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 92,
+          "residue": "S",
+          "free_sasa_A2": 49.749306218081266,
+          "buried_sasa_A2": 20.239446776969338,
+          "min_target_distance_A": 4.197256088256836,
+          "contact_atom_pairs_lt5A": 7,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 93,
+      "models": [
+        {
+          "position": 93,
+          "residue": "T",
+          "free_sasa_A2": 73.70439002467495,
+          "buried_sasa_A2": 2.142918048125452,
+          "min_target_distance_A": 5.465853691101074,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 93,
+          "residue": "T",
+          "free_sasa_A2": 93.49530533530597,
+          "buried_sasa_A2": 0.0,
+          "min_target_distance_A": 6.674892902374268,
+          "contact_atom_pairs_lt5A": 0,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 0,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": 0
+    },
+    {
+      "position": 94,
+      "models": [
+        {
+          "position": 94,
+          "residue": "V",
+          "free_sasa_A2": 75.94440841853753,
+          "buried_sasa_A2": 69.90626733833795,
+          "min_target_distance_A": 3.1769726276397705,
+          "contact_atom_pairs_lt5A": 16,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": 1,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 94,
+          "residue": "V",
+          "free_sasa_A2": 66.4195518821954,
+          "buried_sasa_A2": 54.34326972179625,
+          "min_target_distance_A": 3.858398199081421,
+          "contact_atom_pairs_lt5A": 10,
+          "nearby_basic_atoms": 0,
+          "nearby_oxygen_atoms": 2,
+          "heuristic": -2,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve five residues at each terminus",
+        "not peripheral in both poses"
+      ],
+      "worst_pose_heuristic": -2
+    },
+    {
+      "position": 95,
+      "models": [
+        {
+          "position": 95,
+          "residue": "E",
+          "free_sasa_A2": 180.00447515763568,
+          "buried_sasa_A2": 19.83093920103775,
+          "min_target_distance_A": 4.009438514709473,
+          "contact_atom_pairs_lt5A": 3,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        },
+        {
+          "position": 95,
+          "residue": "E",
+          "free_sasa_A2": 178.71764110761347,
+          "buried_sasa_A2": 21.583244184986455,
+          "min_target_distance_A": 4.070944309234619,
+          "contact_atom_pairs_lt5A": 9,
+          "nearby_basic_atoms": 1,
+          "nearby_oxygen_atoms": 0,
+          "heuristic": 3,
+          "salt_contact": false,
+          "high_contact_anchor_proxy": false
+        }
+      ],
+      "excluded_reasons": [
+        "preserve charged, glycine, proline, cysteine and existing histidine",
+        "preserve five residues at each terminus"
+      ],
+      "worst_pose_heuristic": 3
+    }
+  ],
+  "chosen_sites": [
+    6,
+    37,
+    22,
+    40,
+    47,
+    90,
+    74,
+    27,
+    43,
+    72
+  ],
+  "chosen_pairs": [
+    {
+      "positions": [
+        6,
+        37
+      ],
+      "CA_distances_A": [
+        11.77924919128418,
+        11.804238319396973
+      ],
+      "score": 0
+    },
+    {
+      "positions": [
+        22,
+        37
+      ],
+      "CA_distances_A": [
+        14.684507369995117,
+        14.933300971984863
+      ],
+      "score": -1
+    }
+  ]
+}
