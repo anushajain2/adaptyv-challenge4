@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-25T18:34:01.621709+00:00",
+  "predictions": 130,
+  "selected_models": 26,
+  "full_confidence_files": 26,
+  "pka_records_recomputed": 16,
+  "fixed_positions_and_target_preserved": true,
+  "frozen_release_and_submission_csv_unchanged": true,
+  "bundle_manifest_sha256": "07504658a8d22256cc2058a349187216474fcaeb715d9c763677790043e6e5e2",
+  "followup_ids": []
+}

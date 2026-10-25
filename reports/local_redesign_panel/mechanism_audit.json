@@ -1,0 +1,1240 @@
+{
+  "source_direction_sha256": "ad3fc5e4c213c50d54bbc485e56fa5edba7b4eb5b728d0735f9863ac93b90b90",
+  "rows": [
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 2909,
+      "strict_eligible": false,
+      "free": {
+        "pka": 7.201235560347704,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.18164739670178165,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.7995100808371544,
+          "coulomb": 0.0833728762123313
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.7995100808371544
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.0833728762123313
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_seed2909/free_binder.pdb",
+        "source_sha256": "d2619a24df8e39a4ff3dfe5f66c00354694554a4b51a19e4482bdc7a1ca748ce",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.310602932483006,
+        "model_pka": 6.5,
+        "buried_fraction": 0.5178571428571429,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.1176115932144215,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.7995100808371544,
+          "coulomb": 0.12870444486027363
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.7995100808371544
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.16889690628797882
+            },
+            {
+              "group": "GLU  25 A",
+              "value_pka_units": 0.10084282824056172
+            },
+            {
+              "group": "GLU 105 A",
+              "value_pka_units": 0.07162938205970272
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.125129140847988
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_seed2909/prepared.pdb",
+        "source_sha256": "82e5bccb5f3526e1d01c5faf1f918050d0799bf98f9137e3e0e33fb6fa37d5af",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.9359641965126398,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": 0.04533156864794233
+      }
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 3001,
+      "strict_eligible": false,
+      "free": {
+        "pka": 7.389363380822157,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.20803296164366505,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.810044399926069,
+          "coulomb": 0.2873519425397535
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.810044399926069
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.2873519425397535
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_seed3001/free_binder.pdb",
+        "source_sha256": "0325088d7bcc09bb88d6fd4ddb0c5c6a50e953d811ddb42bd29a5f42efe3e81d",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.562316681105663,
+        "model_pka": 6.5,
+        "buried_fraction": 0.525,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.231505523547665,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.810044399926069,
+          "coulomb": 0.48377780472725823
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.810044399926069
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.27895042986317653
+            },
+            {
+              "group": "GLU  25 A",
+              "value_pka_units": 0.1676355091369648
+            },
+            {
+              "group": "GLU 105 A",
+              "value_pka_units": 0.09271742688640822
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.5023752985670618
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_seed3001/prepared.pdb",
+        "source_sha256": "17a904ec26dc88ded5a0ffae5b567451beb849731597c705bc999f60305f2a55",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -1.023472561904,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": 0.19642586218750474
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn01",
+      "seed": 2909,
+      "strict_eligible": false,
+      "free": {
+        "pka": 7.215004619819159,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.2043962651106711,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.8095993727163068,
+          "coulomb": 0.10980151221352341
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.8095993727163068
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS  38 B",
+              "value_pka_units": -0.05123324263360351
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.14758914151674338
+            },
+            {
+              "group": "ASP  43 B",
+              "value_pka_units": 0.013445613330383547
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn01_seed2909/free_binder.pdb",
+        "source_sha256": "d228a4e2b1616fdab70c3fd23d09d9d3eeadea1561d9d01dae074b3a82503996",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 5.644817111388888,
+        "model_pka": 6.5,
+        "buried_fraction": 0.6178571428571429,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.4874592716470547,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.8095993727163068,
+          "coulomb": -0.17732298968036406
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.8095993727163068
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.3934302084715219
+            },
+            {
+              "group": "LYS  38 B",
+              "value_pka_units": -0.05932409589003456
+            },
+            {
+              "group": "GLU  25 A",
+              "value_pka_units": 0.20567443033610014
+            },
+            {
+              "group": "GLU 105 A",
+              "value_pka_units": 0.05057944158160346
+            },
+            {
+              "group": "ASP  43 B",
+              "value_pka_units": 0.019177442763488792
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn01_seed2909/prepared.pdb",
+        "source_sha256": "ddb11ec62b6c2c788832d03d8bb76cbc4e9e3aaee2fda6f7f9d4f7108d9691fc",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -1.2830630065363837,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": -0.2871245018938875
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn01",
+      "seed": 3001,
+      "strict_eligible": true,
+      "free": {
+        "pka": 7.201845453579346,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.22320421834286527,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.8176938978916354,
+          "coulomb": 0.10735577403057718
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.8176938978916354
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "N+    1 B",
+              "value_pka_units": -0.0019044748676431682
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.10037559559741363
+            },
+            {
+              "group": "ASP  43 B",
+              "value_pka_units": 0.008884653300806724
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn01_seed3001/free_binder.pdb",
+        "source_sha256": "5ce31c25d5fd07bee8fa9b9ebdfc14b014c1822effd897a9522bb7ec1402d866",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.5614305352304685,
+        "model_pka": 6.5,
+        "buried_fraction": 0.3392857142857143,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.7644277028929107,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.8176938978916354,
+          "coulomb": 0.008164340231743603
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.8176938978916354
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.12726279726012066
+            },
+            {
+              "group": "N+    1 B",
+              "value_pka_units": -0.002552594586998173
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.1273527805937165
+            },
+            {
+              "group": "ASP  43 B",
+              "value_pka_units": 0.010626951485145943
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn01_seed3001/prepared.pdb",
+        "source_sha256": "4101b06811775d3046255965ad5841bec64147ba339abef7f4cb580749b7d0f9",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.5412234845500454,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": -0.09919143379883358
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn02",
+      "seed": 2909,
+      "strict_eligible": false,
+      "free": {
+        "pka": 6.436957289410674,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.19746539475227035,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": 0.13442268416294378
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.07833431091818242
+            },
+            {
+              "group": "GLU  38 B",
+              "value_pka_units": 0.05608837324476137
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn02_seed2909/free_binder.pdb",
+        "source_sha256": "ba238ecd763bcffcb9976d76c57b46dabf0a37bb7b0e052438ef745139efcbea",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 5.06778511390293,
+        "model_pka": 6.5,
+        "buried_fraction": 0.5678571428571428,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.39110810867425,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.04110677742281934
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.25993986512516853
+            },
+            {
+              "group": "GLU 105 A",
+              "value_pka_units": 0.010369620397233874
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.142744646293861
+            },
+            {
+              "group": "GLU  38 B",
+              "value_pka_units": 0.06571882101125433
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn02_seed2909/prepared.pdb",
+        "source_sha256": "0dd838ba70f5dd9839e0a1597b1ad7081b831932dbb68b90c40254b8337975a6",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -1.1936427139219796,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0,
+        "coulomb": -0.17552946158576313
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn02",
+      "seed": 3001,
+      "strict_eligible": true,
+      "free": {
+        "pka": 7.402874775447353,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.22424954948808246,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.8270155091307861,
+          "coulomb": 0.30010881580464943
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.8270155091307861
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.16117004711854224
+            },
+            {
+              "group": "GLU  38 B",
+              "value_pka_units": 0.13893876868610716
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn02_seed3001/free_binder.pdb",
+        "source_sha256": "486c1fbdbded98bfc3e14d1391ecfa765c1c81042939dd27b44d57a2ae77d5b6",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.224490664867738,
+        "model_pka": 6.5,
+        "buried_fraction": 0.6035714285714285,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.4883431140524774,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.8270155091307861,
+          "coulomb": 0.3858182697894293
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.8270155091307861
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.22579574480290412
+            },
+            {
+              "group": "GLU  25 A",
+              "value_pka_units": 0.142510726569571
+            },
+            {
+              "group": "GLU 105 A",
+              "value_pka_units": 0.03738427441384472
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.25640689314313536
+            },
+            {
+              "group": "GLU  38 B",
+              "value_pka_units": 0.17531212046578232
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn02_seed3001/prepared.pdb",
+        "source_sha256": "ddbf5066e2e83097cdb4a16a2ff910d0b33046bda995519a10f9bbaf9cb8dbdb",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -1.264093564564395,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": 0.08570945398477986
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn03",
+      "seed": 2909,
+      "strict_eligible": true,
+      "free": {
+        "pka": 7.206860922557147,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.18579060186607832,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.836639887739188,
+          "coulomb": 0.05601163668403771
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.836639887739188
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "ARG  38 B",
+              "value_pka_units": -0.007492702038401059
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.06350433872243877
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn03_seed2909/free_binder.pdb",
+        "source_sha256": "24973ba4c028e1d014705020e16e809b155db7fcec6109b3560ba0a72db603d0",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.165349927125186,
+        "model_pka": 6.5,
+        "buried_fraction": 0.5571428571428572,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.2003330532250116,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.836639887739188,
+          "coulomb": 0.02904309261101027
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.836639887739188
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.24280656375112838
+            },
+            {
+              "group": "ARG  38 B",
+              "value_pka_units": -0.008129645224518462
+            },
+            {
+              "group": "GLU  25 A",
+              "value_pka_units": 0.12092538273512946
+            },
+            {
+              "group": "GLU 105 A",
+              "value_pka_units": 0.05465045555738981
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.10440346329413785
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn03_seed2909/prepared.pdb",
+        "source_sha256": "d54da9544e6c1941cd56bb82521a65e272883aec776050bdf413da52ef2e5a4b",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -1.0145424513589334,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": -0.026968544073027442
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn03",
+      "seed": 3001,
+      "strict_eligible": true,
+      "free": {
+        "pka": 7.116567097642724,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.19438692156694945,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.825940353632429,
+          "coulomb": -0.014986334422755432
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.825940353632429
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "ARG  38 B",
+              "value_pka_units": -0.09011410234702318
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.07512776792426774
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn03_seed3001/free_binder.pdb",
+        "source_sha256": "938d4fca0ddf6f87433fe6ce1137ebe5b2b47fbac0b76706ca3a40966fbfba6d",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.071004044304485,
+        "model_pka": 6.5,
+        "buried_fraction": 0.5607142857142857,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.2397334775352438,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.825940353632429,
+          "coulomb": -0.015202831792699822
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.825940353632429
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS 155 A",
+              "value_pka_units": -0.23061555739912235
+            },
+            {
+              "group": "ARG  38 B",
+              "value_pka_units": -0.10667490514325903
+            },
+            {
+              "group": "GLU  25 A",
+              "value_pka_units": 0.14903137973871106
+            },
+            {
+              "group": "GLU 105 A",
+              "value_pka_units": 0.05649438077695508
+            },
+            {
+              "group": "GLU  37 B",
+              "value_pka_units": 0.11656187023401542
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn03_seed3001/prepared.pdb",
+        "source_sha256": "504794f1ad9fd70e7f0ecd10fc1b24c32ede197ae1558b02affccc5b091cec47",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -1.0453465559682944,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": -0.00021649736994439062
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 2909,
+      "strict_eligible": true,
+      "free": {
+        "pka": 6.267168908184198,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.19831409239886608,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.034516999416935576
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS  18 B",
+              "value_pka_units": -0.034516999416935576
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_seed2909/free_binder.pdb",
+        "source_sha256": "19c8d4adc50aaf6c7756bb4a531418d73c1462f1ca62bc8550f3c47c2d13128f",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 5.92360994164291,
+        "model_pka": 6.5,
+        "buried_fraction": 0.16785714285714284,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.43811820095137244,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.13827185740571774
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS   4 A",
+              "value_pka_units": -0.09519171883826508
+            },
+            {
+              "group": "LYS  18 B",
+              "value_pka_units": -0.04308013856745267
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_seed2909/prepared.pdb",
+        "source_sha256": "7598e5c4a7cf07e3c822523b5c03db1794682a2617d9530d3112696907d56509",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.23980410855250636,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0,
+        "coulomb": -0.10375485798878216
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 3001,
+      "strict_eligible": true,
+      "free": {
+        "pka": 6.204256188574947,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.2740981485859914,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.021645662839061885
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "ARG   3 B",
+              "value_pka_units": -0.021645662839061885
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_seed3001/free_binder.pdb",
+        "source_sha256": "c665917d40f7fde9d4f7ccc8498212d6458ba1476d630b038ebb7afc72985efc",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 5.580124537905734,
+        "model_pka": 6.5,
+        "buried_fraction": 0.29642857142857143,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.8220128353728482,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.09786262672141811
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS   4 A",
+              "value_pka_units": -0.07271413877562008
+            },
+            {
+              "group": "ARG   3 B",
+              "value_pka_units": -0.025148487945798034
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_seed3001/prepared.pdb",
+        "source_sha256": "a0ce9284c46bb1fa1f7bf219bf5b495d9a712e569711f522a024e93180aa8537",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.5479146867868567,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0,
+        "coulomb": -0.07621696388235623
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn01",
+      "seed": 2909,
+      "strict_eligible": false,
+      "free": {
+        "pka": 6.110823048790807,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.252427818919302,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.13674913228989063
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS  18 B",
+              "value_pka_units": -0.13674913228989063
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn01_seed2909/free_binder.pdb",
+        "source_sha256": "a1d68ebdcd972e19ceab015a8a5db256971a5022c83f0f6075f88b7bccb9ccdf",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 5.615465025194109,
+        "model_pka": 6.5,
+        "buried_fraction": 0.3464285714285714,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.706045040129558,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.17848993467633317
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS   4 A",
+              "value_pka_units": -6.0893564141503316e-05
+            },
+            {
+              "group": "LYS  18 B",
+              "value_pka_units": -0.17842904111219168
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn01_seed2909/prepared.pdb",
+        "source_sha256": "a84897bdc4fdb04f827611bc11f1d750bc9789f66f9f5b26954685f13a808036",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.45361722121025605,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0,
+        "coulomb": -0.04174080238644254
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn01",
+      "seed": 3001,
+      "strict_eligible": false,
+      "free": {
+        "pka": 6.284841223733113,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.21515877626688676,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": 0
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": []
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn01_seed3001/free_binder.pdb",
+        "source_sha256": "8273ad70b1e0f277d98e15a835b091de3259bd8d398a2cd9b765df14ea5ab996",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.255676362451268,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.24432363754873174,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": 0
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": []
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn01_seed3001/prepared.pdb",
+        "source_sha256": "a5da46aa10c8aa30e78d06a2dc554e9ae3dbff43c7cc00e71d6a6bab0d33f1e3",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.029164861281844978,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0,
+        "coulomb": 0
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn02",
+      "seed": 2909,
+      "strict_eligible": false,
+      "free": {
+        "pka": 7.028464438995928,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.33102336684636474,
+          "local": 0.0,
+          "sidechain": 0.6136427641191767,
+          "backbone": 0,
+          "coulomb": 0.2458450417231166
+        },
+        "determinants": {
+          "sidechain": [
+            {
+              "group": "GLU  57 B",
+              "value_pka_units": 0.6136427641191767
+            }
+          ],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "ARG   3 B",
+              "value_pka_units": -0.007868178816566257
+            },
+            {
+              "group": "GLU  57 B",
+              "value_pka_units": 0.25371322053968287
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn02_seed2909/free_binder.pdb",
+        "source_sha256": "f5cb5692adaf42cd259929650ab74ddeff5c178f3cfaf54b9f849eded56cead1",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.287715805876679,
+        "model_pka": 6.5,
+        "buried_fraction": 0.3107142857142857,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.0312462611086786,
+          "local": 0.0,
+          "sidechain": 0.6136427641191767,
+          "backbone": 0,
+          "coulomb": 0.20531930286618136
+        },
+        "determinants": {
+          "sidechain": [
+            {
+              "group": "GLU  57 B",
+              "value_pka_units": 0.6136427641191767
+            }
+          ],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS   4 A",
+              "value_pka_units": -0.05906673939542885
+            },
+            {
+              "group": "ARG   3 B",
+              "value_pka_units": -0.00917237603388416
+            },
+            {
+              "group": "GLU  57 B",
+              "value_pka_units": 0.2735584182954944
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn02_seed2909/prepared.pdb",
+        "source_sha256": "492806dcdce7d27cd1dd464ef1e96f8a3cc92f8e40a794ee466ad01791ca0491",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.7002228942623139,
+        "local": 0.0,
+        "sidechain": 0.0,
+        "backbone": 0,
+        "coulomb": -0.04052573885693525
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn02",
+      "seed": 3001,
+      "strict_eligible": false,
+      "free": {
+        "pka": 6.506751152263728,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.2350475064561915,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": 0.24179865871992004
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "GLU  57 B",
+              "value_pka_units": 0.24179865871992004
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn02_seed3001/free_binder.pdb",
+        "source_sha256": "4ba78376cf74bf9fd00151f06d942cd17161b25a567c27ba1d03941ee1bc6a55",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 6.050106589981701,
+        "model_pka": 6.5,
+        "buried_fraction": 0.18928571428571428,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.6653450322960339,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": 0.2154516222777355
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS   4 A",
+              "value_pka_units": -0.02634703644218454
+            },
+            {
+              "group": "GLU  57 B",
+              "value_pka_units": 0.24179865871992004
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn02_seed3001/prepared.pdb",
+        "source_sha256": "825dede5b80ad163bcf4299a18bd8c9b4982fecfc83b8f5f8f315b61a7247598",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.43029752583984243,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0,
+        "coulomb": -0.02634703644218453
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn03",
+      "seed": 2909,
+      "strict_eligible": true,
+      "free": {
+        "pka": 6.253976932656532,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.2460230673434681,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": 0
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": []
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn03_seed2909/free_binder.pdb",
+        "source_sha256": "46c17aa3f9f96dd711a9ef62acbfa974dd1cca1337e60833f3fd22511dbcdecb",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 5.662862336483054,
+        "model_pka": 6.5,
+        "buried_fraction": 0.26785714285714285,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.7745057726637394,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0,
+          "coulomb": -0.06263189085320564
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [],
+          "coulomb": [
+            {
+              "group": "LYS   4 A",
+              "value_pka_units": -0.06263189085320564
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn03_seed2909/prepared.pdb",
+        "source_sha256": "6197bf7027e7b9d744ef0c6ba0ac85edee5564966bbb040acead200688d8318b",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -0.5284827053202713,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0,
+        "coulomb": -0.06263189085320564
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn03",
+      "seed": 3001,
+      "strict_eligible": true,
+      "free": {
+        "pka": 6.214847064755176,
+        "model_pka": 6.5,
+        "buried_fraction": 0.0,
+        "contributions_pka_units": {
+          "volume_desolvation": -0.33524308813322223,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.05009015288839758,
+          "coulomb": 0
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "HIS  90 B",
+              "value_pka_units": 0.05009015288839758
+            }
+          ],
+          "coulomb": []
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn03_seed3001/free_binder.pdb",
+        "source_sha256": "061f90f69a775fd5c1db2ec208ce5ab03be417b67dafb47e476f0a68912016e9",
+        "warnings": []
+      },
+      "bound": {
+        "pka": 5.1696433866233935,
+        "model_pka": 6.5,
+        "buried_fraction": 0.4928571428571429,
+        "contributions_pka_units": {
+          "volume_desolvation": -1.3549989444129935,
+          "local": 0.0,
+          "sidechain": 0,
+          "backbone": 0.05009015288839758,
+          "coulomb": -0.02544782185201108
+        },
+        "determinants": {
+          "sidechain": [],
+          "backbone": [
+            {
+              "group": "HIS  90 B",
+              "value_pka_units": 0.05009015288839758
+            }
+          ],
+          "coulomb": [
+            {
+              "group": "LYS   4 A",
+              "value_pka_units": -0.02544782185201108
+            }
+          ]
+        },
+        "source": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn03_seed3001/prepared.pdb",
+        "source_sha256": "d5736efc45dbc3f0713ad2fa973cb9e29d98de017be1b6e54ec51111ff6d2456",
+        "warnings": []
+      },
+      "bound_minus_free_contributions_pka_units": {
+        "volume_desolvation": -1.0197558562797713,
+        "local": 0.0,
+        "sidechain": 0,
+        "backbone": 0.0,
+        "coulomb": -0.02544782185201108
+      }
+    }
+  ],
+  "interpretation": "Post-result descriptive decomposition of the same PROPKA model, not independent validation or a new selection rule. Terms are pKa offsets, not physical binding energies. Cropped target and one fixed conformation per model remain limitations."
+}

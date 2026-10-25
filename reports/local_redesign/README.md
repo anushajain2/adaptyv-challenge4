@@ -4,6 +4,11 @@ Submission remains on hold. The user approved a change from substitution-only
 panels to local sequence redesign, with at most $6 new gross Modal spending inside
 the existing $30 cap. The frozen eight-sequence release is preserved as a fallback.
 
+The [completed results](../local_redesign_panel/RESULTS.md) identify one promising
+but unqualified A41H/A34K/A38R reserve. No sequence was promoted and no conditional
+tag job was launched. The detailed results distinguish the frozen selection
+outcome from the scientific interest of a near-threshold candidate.
+
 This experiment asks whether changing the surroundings of A41H in
 `apical_short_008` or S90H in `diversity_long_037` can preserve the modeled interface
 and improve the release-direction hypothesis. It does not establish binding,

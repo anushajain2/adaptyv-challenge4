@@ -7,6 +7,14 @@ hold. A [local ProteinMPNN redesign comparison](reports/local_redesign/README.md
 keeps A41H or S90H and likely binding anchors fixed while changing nearby residues.
 The eight-design release remains an immutable fallback. This round is limited to
 $6 within the original $30 gross cap; no upstream bug report or PR is authorized.
+The [completed comparison](reports/local_redesign_panel/RESULTS.md) evaluated six
+redesigns in 130 predictions. Three pass both selected raw structural checks.
+**A41H with A34K/A38R is a promising reserve:** both prepared poses pass and its
+predicted pKa shift is about −1.04 in both. It does not meet the full preset rule
+(free pKas 7.12–7.21, plus baseline/control preparation limitations), so no design
+was promoted and the conditional tag job was skipped. The observed gross increase
+is about **$0.32**, with conservative cumulative accounting **$13.04/$30**. All
+cloud apps are stopped; submission remains on hold.
 
 **Previous stopping-point experiment (25 October):** the [12-variant His panel](reports/final_his_panel/RESULTS.md)
 completed 160 predictions. Four variants pass both selected raw structural checks,

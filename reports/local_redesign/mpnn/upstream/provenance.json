@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/dauparas/ProteinMPNN",
+  "commit": "8907e6671bfbfc92303b5f79c4b5e6ce47cdef57",
+  "files": {
+    "LICENSE": "82009d25ce585631f452b2b24589bdb29c559ccfefa2f200ef312ed5b501a586",
+    "protein_mpnn_utils.py": "74c8f9b7553422a7a0bbd705874844ee103c8926c2c96f154a87e0b824071e1b",
+    "protein_mpnn_run.py": "61f2c519a7f73fa12da9eb90da97b97ec2f8d5f31d42605639c7600cbd321cbe"
+  }
+}

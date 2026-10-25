@@ -1,0 +1,34 @@
+{
+  "id": "scrambled_6wrw",
+  "arm": "control",
+  "kind": "negative_hypothesis",
+  "seed": 3001,
+  "sample": 1,
+  "upstream_confidence_selected": true,
+  "confidence_selected": true,
+  "target_CA_rmsd_to_input_A": 1.0871998095683333,
+  "metrics": {
+    "iptm": 0.12883010506629944,
+    "ptm": 0.4842567443847656,
+    "design_to_target_iptm": 0.12883010506629944,
+    "interaction_pae": 25.924135208129883,
+    "min_design_to_target_pae": 19.09111976623535,
+    "design_ptm": 0.22435885667800903
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.0,
+      "B_A": 0.0
+    },
+    "ipsae_min": 0.0,
+    "ipsae_max": 0.0,
+    "contact_residue_pairs": 95,
+    "contact_pae_A_to_B_A": 22.643945693969727,
+    "contact_pae_B_to_A_A": 24.042184829711914,
+    "contact_pae_both_directions_A": 23.34306526184082,
+    "binder_mean_plddt": 0.340920090675354
+  },
+  "raw_scoring_output": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/scrambled_6wrw/1",
+  "control_pass": true,
+  "target_integrity_pass": true
+}

@@ -1,0 +1,91 @@
+{
+  "id": "diversity_long_037_S90H_mpnn03",
+  "seed": 2909,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn03/4/model.pdb",
+  "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn03_seed2909",
+  "status": "ok",
+  "source_sha256": "aad6e1d586cfd7e3ea72b4a360af3545c446c592d22ff08e7deaa21a07b743b2",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15767328240574568,
+        "max_A": 0.5129231810569763
+      },
+      "sidechain": {
+        "rms_A": 0.4754130837135564,
+        "max_A": 1.9592475891113281
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.18119326098342106,
+        "max_A": 0.9741788506507874
+      },
+      "sidechain": {
+        "rms_A": 0.5025696440866708,
+        "max_A": 2.047149181365967
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.0083477694710352,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      195,
+      197,
+      199,
+      201,
+      202,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      227,
+      291,
+      292,
+      293,
+      294,
+      340,
+      343,
+      344,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "6197bf7027e7b9d744ef0c6ba0ac85edee5564966bbb040acead200688d8318b",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "diversity_long_037_S90H_mpnn01",
+  "seed": 3001,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H_mpnn01/4/model.pdb",
+  "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn01_seed3001",
+  "status": "ok",
+  "source_sha256": "f764e33f8519ca7940ed6e77fbee518d3c9941ecee2d38f4891903f1a642d885",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15443509206163486,
+        "max_A": 0.7838437557220459
+      },
+      "sidechain": {
+        "rms_A": 0.44780803504636546,
+        "max_A": 1.7573683261871338
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.19362016029384868,
+        "max_A": 0.7177019119262695
+      },
+      "sidechain": {
+        "rms_A": 0.5633867217749402,
+        "max_A": 1.7543187141418457
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.2055162090810259,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      204,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      285,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      360,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "a5da46aa10c8aa30e78d06a2dc554e9ae3dbff43c7cc00e71d6a6bab0d33f1e3",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "diversity_long_037",
+  "seed": 2909,
+  "sample": 1,
+  "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037/1/model.pdb",
+  "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_seed2909",
+  "status": "ok",
+  "source_sha256": "0cfb1f394943ea21f415e5ecdf42287ed14398ff3b759b91ebfde1409359ee1c",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15069086467962886,
+        "max_A": 0.5911505222320557
+      },
+      "sidechain": {
+        "rms_A": 0.4603595492078665,
+        "max_A": 2.23203444480896
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1685342378274982,
+        "max_A": 1.1314805746078491
+      },
+      "sidechain": {
+        "rms_A": 0.4323073988267935,
+        "max_A": 1.7605682611465454
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.8565236826272562,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      291,
+      292,
+      293,
+      294,
+      339,
+      340,
+      343,
+      344,
+      347,
+      348,
+      352,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "c04f753c2f50cd8a570a0eabd8c64d708fc03d5006064dcd9d9ef89712833751",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 23
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 72
+    }
+  }
+}

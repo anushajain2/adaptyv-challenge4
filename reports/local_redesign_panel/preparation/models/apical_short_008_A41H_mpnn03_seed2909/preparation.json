@@ -1,0 +1,90 @@
+{
+  "id": "apical_short_008_A41H_mpnn03",
+  "seed": 2909,
+  "sample": 2,
+  "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H_mpnn03/2/model.pdb",
+  "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn03_seed2909",
+  "status": "ok",
+  "source_sha256": "588c777323f6913253d15377ae0a7d7fe4813606bdf8f4de740a26a91b45f7dc",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.17864343985403125,
+        "max_A": 0.7986294627189636
+      },
+      "sidechain": {
+        "rms_A": 0.49549973817432563,
+        "max_A": 2.2412075996398926
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.18023007285925435,
+        "max_A": 0.47064751386642456
+      },
+      "sidechain": {
+        "rms_A": 0.514584287782294,
+        "max_A": 1.7434864044189453
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:4:LYS:NZ",
+        "b": "A:27:PRO:O",
+        "distance_A": 1.7149895043410617
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.8317122803068444,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      196,
+      197,
+      199,
+      201,
+      202,
+      203,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      227,
+      344,
+      348,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "d54da9544e6c1941cd56bb82521a65e272883aec776050bdf413da52ef2e5a4b",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 31
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 80
+    }
+  }
+}

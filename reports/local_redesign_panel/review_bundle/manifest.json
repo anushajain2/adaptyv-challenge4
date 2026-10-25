@@ -1,0 +1,373 @@
+{
+  "raw_sha256": "0fa9f57dc5236807f012fed01289bc399f7a41279f2fb7c48b9021e979ac7714",
+  "preparation_sha256": "e2a4689e70a1a9b607d5ef4a8632c16ba7946be53abf0430af470a8cebeb71c3",
+  "direction_sha256": "ad3fc5e4c213c50d54bbc485e56fa5edba7b4eb5b728d0735f9863ac93b90b90",
+  "models": [
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2909,
+      "sample": 0,
+      "files": {
+        "prepared.pdb": "ac8bda17eb485a0a8eaec09cf6a992f4ba42dbdd085c234a3edd30f76631c68e",
+        "raw_checks.json": "a1cb4957626b69371fbed127df3487ca0391f4a1d1f01e8861c4aa01c3d410dc",
+        "raw.pdb": "ee12010bda29025e830bba255d99795d25307bbf6c7028b60970e6024af0c01f"
+      }
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2909,
+      "sample": 3,
+      "files": {
+        "prepared.pdb": "7dd086d29eb433a1468e0275d52133c0939a47d399487a91041a72086e16220c",
+        "raw_checks.json": "535f62d3035224ef44a893f0a92356f49b015a3159f1871c333990b813069686",
+        "raw.pdb": "fa6134a283fd7a208536342a51efcc9732b281e397f706714354c17ae0fba6db"
+      }
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2909,
+      "sample": 1,
+      "files": {
+        "prepared.pdb": "1bc48c78994491321875da59646fafb74b1e46b5947294da87ad703d9e158ec5",
+        "raw_checks.json": "70c9f0db0fd472b4289e3cc065daef6b143bb5c777064239a61c2213f6983eee",
+        "raw.pdb": "653a3467c7dd8c564adcc089cfa60d4a8067160a3a47491b79abc2529e3c5b95"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 2909,
+      "sample": 0,
+      "files": {
+        "prepared.pdb": "82e5bccb5f3526e1d01c5faf1f918050d0799bf98f9137e3e0e33fb6fa37d5af",
+        "raw_checks.json": "adb1a600662823edac9385e07fa56bcd4e555e7c737ae2fc2d5e030e13530fb6",
+        "raw.pdb": "72ce21af64edd4b9fe6eb0dcd2f18d5d569eca584e51c6daafa554128647c0fd"
+      }
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 2909,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "d603aebe81432fe6e62f72577470bd10864f72d9a26d14ae93cef3190b6887db",
+        "raw_checks.json": "9055d76b12279410f7614e7d37739951c046b828c050dd402297a9f0bc3e8558",
+        "raw.pdb": "515b74c2ab800f4a29d286e44ced2d9a29a57199d1a96a1bbac47058f78aa9da"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn01",
+      "seed": 2909,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "ddb11ec62b6c2c788832d03d8bb76cbc4e9e3aaee2fda6f7f9d4f7108d9691fc",
+        "raw_checks.json": "3e39940af3d2e72a0899bb9fcb9164237ff8c7c51d04251f69dcd732fd708062",
+        "raw.pdb": "5d51f3807f8052511141f1cd68dc27f4f861d562c7277fcd615fafb2478ed5af"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn02",
+      "seed": 2909,
+      "sample": 0,
+      "files": {
+        "prepared.pdb": "0dd838ba70f5dd9839e0a1597b1ad7081b831932dbb68b90c40254b8337975a6",
+        "raw_checks.json": "fb5193835e30f274993a0d6154bf786c61291e3624bf0830522fedae444199d5",
+        "raw.pdb": "0b957679e52b8f64c0b1e122825ab5506faf2fca7c33582286abfc49117f5e63"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn03",
+      "seed": 2909,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "d54da9544e6c1941cd56bb82521a65e272883aec776050bdf413da52ef2e5a4b",
+        "raw_checks.json": "4b1a0a53fe8c026a3eeff120f8188a723ddba0647c290b8206f1f83671516482",
+        "raw.pdb": "588c777323f6913253d15377ae0a7d7fe4813606bdf8f4de740a26a91b45f7dc"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 2909,
+      "sample": 4,
+      "files": {
+        "prepared.pdb": "7598e5c4a7cf07e3c822523b5c03db1794682a2617d9530d3112696907d56509",
+        "raw_checks.json": "6b88217a76ac52a2a78c1945dcb292ec92625463a5b5f659032851f5468b563e",
+        "raw.pdb": "a06b356793ac592a4907224e59fdbdafd4cc54f1741f6f361779b48fd4f6c716"
+      }
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 2909,
+      "sample": 1,
+      "files": {
+        "prepared.pdb": "c04f753c2f50cd8a570a0eabd8c64d708fc03d5006064dcd9d9ef89712833751",
+        "raw_checks.json": "7bda3e1e25c47fe64808d896fd8a8a088ed741959d2f849d85f03aa3bab581e9",
+        "raw.pdb": "0cfb1f394943ea21f415e5ecdf42287ed14398ff3b759b91ebfde1409359ee1c"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn01",
+      "seed": 2909,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "a84897bdc4fdb04f827611bc11f1d750bc9789f66f9f5b26954685f13a808036",
+        "raw_checks.json": "b7a4e61b2da19244b4f9d191995aa8588fe7692011d960447db07bd1ff97cab0",
+        "raw.pdb": "72f2f9586c2350553d1ff699beb0b66e04736a791d88918ccb283061764cc36a"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn02",
+      "seed": 2909,
+      "sample": 4,
+      "files": {
+        "prepared.pdb": "492806dcdce7d27cd1dd464ef1e96f8a3cc92f8e40a794ee466ad01791ca0491",
+        "raw_checks.json": "7c876993f1ff3b26d8b56fbc5f71114c80f14c806b94ff2603457d7bcf313aad",
+        "raw.pdb": "8e85e737a1b728d66adc93273b0d6641e98c0782bbee5bcc8c3c14a6665411e7"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn03",
+      "seed": 2909,
+      "sample": 4,
+      "files": {
+        "prepared.pdb": "6197bf7027e7b9d744ef0c6ba0ac85edee5564966bbb040acead200688d8318b",
+        "raw_checks.json": "1e8be8ce080546b875383ef3e0e9c5befc9d8b9d610fdc2c65ebdb34013c59d0",
+        "raw.pdb": "aad6e1d586cfd7e3ea72b4a360af3545c446c592d22ff08e7deaa21a07b743b2"
+      }
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 3001,
+      "sample": 1,
+      "files": {
+        "prepared.pdb": "30f01cd03374a7165935f1ba1a94ceb881784690f31bfc84f1dcf4537b47bf20",
+        "raw_checks.json": "35d70899d6c733d232b81b50eb0769b5d90b17a389c30bd99d0cca84d08c056d",
+        "raw.pdb": "9c4b11737da3b32726789f8fdea5cf83771027ebb74d2fd107b523366cc0da76"
+      }
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 3001,
+      "sample": 1,
+      "files": {
+        "prepared.pdb": "f0d6a643c4938ee15dfae9a99eb35b55323084408deb33fc1a2d9885f54f68f3",
+        "raw_checks.json": "e3750c9f162676f7686c7d2a6d1c6dbf6e3b285d80befdf74a11665a990abb7a",
+        "raw.pdb": "1f16b27301bb0b16ecf0d676277a3d2817496dbcd656ebd0eab8b531767655d3"
+      }
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 3001,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "e351dea5aaf3a4ac489a6f133f8ec30c30f0bc1598cb072fe3c9b5042891f1a5",
+        "raw_checks.json": "374b90b756002b449607abbfda24ba69372fd315283934b9409741ccac8800ab",
+        "raw.pdb": "bbe0aba95712fae280442029616280e0276d9a16d914073a4ec8d5a1dc2a5605"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 3001,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "17a904ec26dc88ded5a0ffae5b567451beb849731597c705bc999f60305f2a55",
+        "raw_checks.json": "eb1274e8daeb364d508691f14437e8d673ebd6026c994988233b127edc0c58cf",
+        "raw.pdb": "5a9b627909d61d54b5319cf5207898723c83b20aa3d1e1991e24cf23305b70cf"
+      }
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 3001,
+      "sample": 1,
+      "files": {
+        "prepared.pdb": "7e924a84f649f9fe6b902b7bc12fd8862f4a25f12fddf0632549f823f70978aa",
+        "raw_checks.json": "3c8ac63d584d6ce89cd03ff2dee247968f3eeef9bac61255e7e6c4a81112ce95",
+        "raw.pdb": "5d2ceb3ff9ee04207a811f7db1ff2ae8628ab82ff96cba26e95f029866944a05"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn01",
+      "seed": 3001,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "4101b06811775d3046255965ad5841bec64147ba339abef7f4cb580749b7d0f9",
+        "raw_checks.json": "1c835b15f11aa2beb21b3eacdaa660bd892cde75f27dc4e9722b50e9a65cc199",
+        "raw.pdb": "af43f4f0728ff619beda65cf2348a0566be1225deb9438360e1305f72b08fd35"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn02",
+      "seed": 3001,
+      "sample": 0,
+      "files": {
+        "prepared.pdb": "ddbf5066e2e83097cdb4a16a2ff910d0b33046bda995519a10f9bbaf9cb8dbdb",
+        "raw_checks.json": "d520460aeaa76cd2b6cdfeb0fcdc64ac4bf4c7d5bf72cad78db1592e393509bf",
+        "raw.pdb": "737b39dc38d4e1d78b298872c6ad0692f2d2c08b97cc5833044f5011e50a58de"
+      }
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn03",
+      "seed": 3001,
+      "sample": 0,
+      "files": {
+        "prepared.pdb": "504794f1ad9fd70e7f0ecd10fc1b24c32ede197ae1558b02affccc5b091cec47",
+        "raw_checks.json": "2bbe4dbbbcc7326b5083d1292381c75af140b319a363d467b9585928853831c4",
+        "raw.pdb": "e943b350726fc0fb363a06d103c329eced92d7ce952b180b339966df44c7b468"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 3001,
+      "sample": 2,
+      "files": {
+        "prepared.pdb": "a0ce9284c46bb1fa1f7bf219bf5b495d9a712e569711f522a024e93180aa8537",
+        "raw_checks.json": "b71a3f35748959fb53590a0221f742fb9f5a5e8d30a23dba23b7be90139a69bb",
+        "raw.pdb": "8729cbe455b8643af4fc74305c97158a01947fa3bf27678debe2217b0c2937fe"
+      }
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 3001,
+      "sample": 3,
+      "files": {
+        "prepared.pdb": "a5675195335af75dda498fcd6b7825d8bd4672c6757a74744436ae91f4aa0ffb",
+        "raw_checks.json": "3022e8c3f54126fa59832a74440dfa8a704335a6fbacaccee5cdf0d230d01d42",
+        "raw.pdb": "8fae7c14b143466fb6d89894b993c3bcf7064e2a68c80baf1646d9ac2b1b6f0f"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn01",
+      "seed": 3001,
+      "sample": 4,
+      "files": {
+        "prepared.pdb": "a5da46aa10c8aa30e78d06a2dc554e9ae3dbff43c7cc00e71d6a6bab0d33f1e3",
+        "raw_checks.json": "db971e947cecb159ef0f8ecbc9b51861efff37d6c742de6493d00ccf6adff23b",
+        "raw.pdb": "f764e33f8519ca7940ed6e77fbee518d3c9941ecee2d38f4891903f1a642d885"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn02",
+      "seed": 3001,
+      "sample": 3,
+      "files": {
+        "prepared.pdb": "825dede5b80ad163bcf4299a18bd8c9b4982fecfc83b8f5f8f315b61a7247598",
+        "raw_checks.json": "1e4cac0118c7a1d3f75bb80a8715b22a19398659692ac2e193a56babbff59fb3",
+        "raw.pdb": "cea47b53226647e26d7bc860d939ae538fcf5d024792ae7dad8648dafd76b4fd"
+      }
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn03",
+      "seed": 3001,
+      "sample": 0,
+      "files": {
+        "prepared.pdb": "d5736efc45dbc3f0713ad2fa973cb9e29d98de017be1b6e54ec51111ff6d2456",
+        "raw_checks.json": "08dba6257a1bacd722447ac6d0ef225ef6fa5bff3cc12658bf249f2f4f9e88c9",
+        "raw.pdb": "4192c2ff1aff5d7e7fb9b41357e496007a130217e427b6f9228b65db643c0989"
+      }
+    }
+  ],
+  "all_sample_confidence": [
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/2ds25_5_6wrw_seed2909.npz",
+      "sha256": "9e84e3d88bd208c87e51db20809fce17ef3cf3c4cc7832dde215d44f0797af7d"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/2ds25_5_6wrw_seed3001.npz",
+      "sha256": "d3047d53da55df79102e5ddf30f8b1b26bea36d51a776da23f8d732071a4bcc0"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/scrambled_6wrw_seed2909.npz",
+      "sha256": "54400c4f0ea41c74700b3fe33360a1695b4326b79833ebdf4eeb0a46f2bdcb11"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/scrambled_6wrw_seed3001.npz",
+      "sha256": "b0a06e9840347e0b31f7c0f094e4e76cd839c2f441d9b798bff236a7e09ca52e"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/caplacizumab_6wrw_seed2909.npz",
+      "sha256": "46bea6b42fd71702e73bf0eb96eafdca5b375857b47f541ccccdc5ac4cbeebab"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/caplacizumab_6wrw_seed3001.npz",
+      "sha256": "862871cb94e3acf9e5104383d1c7dd52044481fd2e63fed95ab0b8a012710a61"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_seed2909.npz",
+      "sha256": "1d62a899898e89df6a10ddf59bb08c2a60acbf5b099445517e0c22819cc466e9"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_seed3001.npz",
+      "sha256": "e4e60f044e8edc871ae9729bb2d6259d5f9c89cd210ddc2c0d38353559481567"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_seed2909.npz",
+      "sha256": "5c7edd9a0c34a081531117ca4eefe72e5c434177534426965ff199b7b18db7f7"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_seed3001.npz",
+      "sha256": "299790283312fecdca3607ccf55a6244e4417aa159369521f5b41df7cb12b121"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_mpnn01_seed2909.npz",
+      "sha256": "40e3023307e2855085bc16b2bad3ab2c9ef05b538e117ad686e28f262d16bd07"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_mpnn01_seed3001.npz",
+      "sha256": "9911e8d2ad3323213070b0d87aa148c85211fe607029e63214fff5192d2cf384"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_mpnn02_seed2909.npz",
+      "sha256": "bc87e7d21f0ed1f1075fdd1982ca708c8762d50d26b7a1f71eae1890ab2926fe"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_mpnn02_seed3001.npz",
+      "sha256": "0cc40d79b542aa89a333c3bbc2d909c57011d05752381a51e75eb1e213f58934"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_mpnn03_seed2909.npz",
+      "sha256": "4b74e15161eb63bf10c29a942b214b729dfc9a29a9e4bf5c3039efbd555eb48b"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/apical_short_008_A41H_mpnn03_seed3001.npz",
+      "sha256": "99e608cc7fd7b14ae1f92a87bec72e86a80579f7a5b008209deb793b34f7713d"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_seed2909.npz",
+      "sha256": "1344b5721ee3a9e543191fce660373f080c7a70d88360343cd466bd5f0aa0d0c"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_seed3001.npz",
+      "sha256": "b8b6429ae8b8b24c40b58ab5bcbc8ff0e02af6197f0abb09c7323c4dac988d04"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_seed2909.npz",
+      "sha256": "1f43d8249d7107967fd05807943f627147636842d9bd7d05ece6c6847aeafc66"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_seed3001.npz",
+      "sha256": "6f04af50684c93e5f1626520ec379b601b76b7a14559e7dde72b99592440de8e"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_mpnn01_seed2909.npz",
+      "sha256": "d17b44da4347acd26e73119d1cb67c7e895e27be847fa4d955fe3fcff56c2f24"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_mpnn01_seed3001.npz",
+      "sha256": "0693040bfc84df77c3058e1eed77783daf507acd21fe58da2288c1cb13c1313a"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_mpnn02_seed2909.npz",
+      "sha256": "036467c87f6a92ca996cee3278c0c015abcf5e0564176ec6aed1616ae04f824b"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_mpnn02_seed3001.npz",
+      "sha256": "880a3982f2cf88c2a8b540e9c298d9b4b0adecf616448ed88eab04ae76392b2b"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_mpnn03_seed2909.npz",
+      "sha256": "42e24ef8210aa8b7dec03917d67b589dc55ad631976e7f4aa832ec0d3ef3b937"
+    },
+    {
+      "path": "reports/local_redesign_panel/review_bundle/all_sample_confidence/diversity_long_037_S90H_mpnn03_seed3001.npz",
+      "sha256": "0c0615ad5912e4717e85697add0e04f348978ad9d284458677dbc617a343ed29"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "diversity_long_037_S90H_mpnn02",
+  "seed": 2909,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn02/4/model.pdb",
+  "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn02_seed2909",
+  "status": "ok",
+  "source_sha256": "8e85e737a1b728d66adc93273b0d6641e98c0782bbee5bcc8c3c14a6665411e7",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15667223104344172,
+        "max_A": 0.8868388533592224
+      },
+      "sidechain": {
+        "rms_A": 0.5107710440187633,
+        "max_A": 4.287298679351807
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.17368776716234038,
+        "max_A": 1.1191210746765137
+      },
+      "sidechain": {
+        "rms_A": 0.4785546720320293,
+        "max_A": 1.5497394800186157
+      }
+    },
+    "pass": false
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.1085374162153696,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      195,
+      197,
+      199,
+      201,
+      202,
+      203,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      291,
+      292,
+      293,
+      294,
+      339,
+      340,
+      343,
+      344,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "492806dcdce7d27cd1dd464ef1e96f8a3cc92f8e40a794ee466ad01791ca0491",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 25
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 74
+    }
+  }
+}

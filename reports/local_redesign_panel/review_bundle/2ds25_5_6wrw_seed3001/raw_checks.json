@@ -1,0 +1,43 @@
+{
+  "id": "2ds25_5_6wrw",
+  "arm": "control",
+  "kind": "positive",
+  "seed": 3001,
+  "sample": 1,
+  "upstream_confidence_selected": false,
+  "confidence_selected": true,
+  "target_CA_rmsd_to_input_A": 0.6010130094285174,
+  "metrics": {
+    "iptm": 0.6374820470809937,
+    "ptm": 0.6199918985366821,
+    "design_to_target_iptm": 0.6374820470809937,
+    "interaction_pae": 13.343984603881836,
+    "min_design_to_target_pae": 3.310661792755127,
+    "design_ptm": 0.7930406332015991
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.210796,
+      "B_A": 0.267994
+    },
+    "ipsae_min": 0.210796,
+    "ipsae_max": 0.267994,
+    "contact_residue_pairs": 63,
+    "contact_pae_A_to_B_A": 6.0415358543396,
+    "contact_pae_B_to_A_A": 5.50172233581543,
+    "contact_pae_both_directions_A": 5.771629095077515,
+    "binder_mean_plddt": 0.7291306853294373
+  },
+  "raw_scoring_output": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/2ds25_5_6wrw/1",
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.6010130094285174,
+    "binder_CA_pose_rmsd_after_target_fit_A": 1.2626559998157223,
+    "binder_interface_CA_rmsd_after_target_fit_A": 0.8809649038687329,
+    "binder_CA_fold_rmsd_A": 0.5342096540944032,
+    "native_contacts": 56,
+    "recovered_contacts": 55,
+    "native_contact_recall": 0.9821428571428571
+  },
+  "control_pass": true,
+  "target_integrity_pass": true
+}

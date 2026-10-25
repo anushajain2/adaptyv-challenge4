@@ -62,5 +62,6 @@
     "score_matched_controls.py": "3d3034692b3eca2303449981a13cb86afb9f841be5171496c0807eb2adbfbc1a",
     "build_local_redesign_panel.py": "f875a3a18267f4df2ec424382ad35ca9636ac46abb12ba43bc19be41f3ae3bd7",
     "launch_local_redesign.py": "a8e08cf8e8ce0be38700e2266fc18fd8ffb0e1d60e1b1af2b0f659eed4ff9d10"
-  }
+  },
+  "client_exit_code": 0
 }

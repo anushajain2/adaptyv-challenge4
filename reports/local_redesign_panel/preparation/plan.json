@@ -1,0 +1,242 @@
+{
+  "protocol": {
+    "version": "receptor-preparation-v2",
+    "interpretation": "Uniform post-hoc sensitivity analysis, specified before revised outcomes; never replaces raw or v1 decisions.",
+    "method": "Amber14/GBn2, 12 A cutoff, both backbones restrained; all side chains and hydrogens mobile",
+    "restraint_expression": "k*((x-x0)^2+(y-y0)^2+(z-z0)^2)",
+    "backbone_k_kJ_mol_nm2": 1000.0,
+    "seed": 43,
+    "hydrogen_placement_pH": 7.4,
+    "max_iterations": 500,
+    "minimization_timeout_seconds": 120,
+    "hard_timeout_seconds": 180,
+    "backbone_rms_limit_A": 0.5,
+    "backbone_max_limit_A": 1.0,
+    "internal_nonbonded_distance_cutoff_A": 1.8,
+    "internal_nonbonded_pairs_allowed": 0,
+    "protonation": "Strip explicit H; PROPKA assigns H consistently to free and bound forms of the same prepared conformation. Any incomplete/protonation-failed group invalidates that calculation.",
+    "cohort": "Every confidence-selected local redesign candidate, baseline and control, including failures.",
+    "policy": "One preparation per source; no selective retries; source sequence and original atom identities preserved; raw screen failures cannot be rescued. Original pose/contact/context gates and pKa heuristics unchanged.",
+    "limitations": [
+      "Fixed conformation free/bound pKa comparison",
+      "No unbound ensemble or full proton linkage",
+      "No assay tag modeled",
+      "No experimental binding claim",
+      "Finite minimization is not proof of convergence or global stereochemical validity"
+    ]
+  },
+  "source_results_sha256": "0fa9f57dc5236807f012fed01289bc399f7a41279f2fb7c48b9021e979ac7714",
+  "source_hashes": {
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/2ds25_5_6wrw/0/model.pdb": "ee12010bda29025e830bba255d99795d25307bbf6c7028b60970e6024af0c01f",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/scrambled_6wrw/3/model.pdb": "fa6134a283fd7a208536342a51efcc9732b281e397f706714354c17ae0fba6db",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/caplacizumab_6wrw/1/model.pdb": "653a3467c7dd8c564adcc089cfa60d4a8067160a3a47491b79abc2529e3c5b95",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H/0/model.pdb": "72ce21af64edd4b9fe6eb0dcd2f18d5d569eca584e51c6daafa554128647c0fd",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008/2/model.pdb": "515b74c2ab800f4a29d286e44ced2d9a29a57199d1a96a1bbac47058f78aa9da",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H_mpnn01/2/model.pdb": "5d51f3807f8052511141f1cd68dc27f4f861d562c7277fcd615fafb2478ed5af",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H_mpnn02/0/model.pdb": "0b957679e52b8f64c0b1e122825ab5506faf2fca7c33582286abfc49117f5e63",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H_mpnn03/2/model.pdb": "588c777323f6913253d15377ae0a7d7fe4813606bdf8f4de740a26a91b45f7dc",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H/4/model.pdb": "a06b356793ac592a4907224e59fdbdafd4cc54f1741f6f361779b48fd4f6c716",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037/1/model.pdb": "0cfb1f394943ea21f415e5ecdf42287ed14398ff3b759b91ebfde1409359ee1c",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn01/2/model.pdb": "72f2f9586c2350553d1ff699beb0b66e04736a791d88918ccb283061764cc36a",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn02/4/model.pdb": "8e85e737a1b728d66adc93273b0d6641e98c0782bbee5bcc8c3c14a6665411e7",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn03/4/model.pdb": "aad6e1d586cfd7e3ea72b4a360af3545c446c592d22ff08e7deaa21a07b743b2",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/2ds25_5_6wrw/1/model.pdb": "9c4b11737da3b32726789f8fdea5cf83771027ebb74d2fd107b523366cc0da76",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/scrambled_6wrw/1/model.pdb": "1f16b27301bb0b16ecf0d676277a3d2817496dbcd656ebd0eab8b531767655d3",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/caplacizumab_6wrw/2/model.pdb": "bbe0aba95712fae280442029616280e0276d9a16d914073a4ec8d5a1dc2a5605",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H/2/model.pdb": "5a9b627909d61d54b5319cf5207898723c83b20aa3d1e1991e24cf23305b70cf",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008/1/model.pdb": "5d2ceb3ff9ee04207a811f7db1ff2ae8628ab82ff96cba26e95f029866944a05",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H_mpnn01/2/model.pdb": "af43f4f0728ff619beda65cf2348a0566be1225deb9438360e1305f72b08fd35",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H_mpnn02/0/model.pdb": "737b39dc38d4e1d78b298872c6ad0692f2d2c08b97cc5833044f5011e50a58de",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H_mpnn03/0/model.pdb": "e943b350726fc0fb363a06d103c329eced92d7ce952b180b339966df44c7b468",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H/2/model.pdb": "8729cbe455b8643af4fc74305c97158a01947fa3bf27678debe2217b0c2937fe",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037/3/model.pdb": "8fae7c14b143466fb6d89894b993c3bcf7064e2a68c80baf1646d9ac2b1b6f0f",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H_mpnn01/4/model.pdb": "f764e33f8519ca7940ed6e77fbee518d3c9941ecee2d38f4891903f1a642d885",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H_mpnn02/3/model.pdb": "cea47b53226647e26d7bc860d939ae538fcf5d024792ae7dad8648dafd76b4fd",
+    "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H_mpnn03/0/model.pdb": "4192c2ff1aff5d7e7fb9b41357e496007a130217e427b6f9228b65db643c0989"
+  },
+  "plan": [
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2909,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/2ds25_5_6wrw/0/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/2ds25_5_6wrw_seed2909"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2909,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/scrambled_6wrw/3/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/scrambled_6wrw_seed2909"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2909,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/caplacizumab_6wrw/1/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/caplacizumab_6wrw_seed2909"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 2909,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H/0/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_seed2909"
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 2909,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_seed2909"
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn01",
+      "seed": 2909,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H_mpnn01/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn01_seed2909"
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn02",
+      "seed": 2909,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H_mpnn02/0/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn02_seed2909"
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn03",
+      "seed": 2909,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/apical_short_008_A41H_mpnn03/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn03_seed2909"
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 2909,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H/4/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_seed2909"
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 2909,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037/1/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_seed2909"
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn01",
+      "seed": 2909,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn01/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn01_seed2909"
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn02",
+      "seed": 2909,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn02/4/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn02_seed2909"
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn03",
+      "seed": 2909,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-2909/diversity_long_037_S90H_mpnn03/4/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn03_seed2909"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 3001,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/2ds25_5_6wrw/1/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/2ds25_5_6wrw_seed3001"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 3001,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/scrambled_6wrw/1/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/scrambled_6wrw_seed3001"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 3001,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/caplacizumab_6wrw/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/caplacizumab_6wrw_seed3001"
+    },
+    {
+      "id": "apical_short_008_A41H",
+      "seed": 3001,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_seed3001"
+    },
+    {
+      "id": "apical_short_008",
+      "seed": 3001,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008/1/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_seed3001"
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn01",
+      "seed": 3001,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H_mpnn01/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn01_seed3001"
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn02",
+      "seed": 3001,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H_mpnn02/0/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn02_seed3001"
+    },
+    {
+      "id": "apical_short_008_A41H_mpnn03",
+      "seed": 3001,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/apical_short_008_A41H_mpnn03/0/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/apical_short_008_A41H_mpnn03_seed3001"
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 3001,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H/2/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_seed3001"
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 3001,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037/3/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_seed3001"
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn01",
+      "seed": 3001,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H_mpnn01/4/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn01_seed3001"
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn02",
+      "seed": 3001,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H_mpnn02/3/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn02_seed3001"
+    },
+    {
+      "id": "diversity_long_037_S90H_mpnn03",
+      "seed": 3001,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/local-redesign-027-6wrw/seed-3001/diversity_long_037_S90H_mpnn03/0/model.pdb",
+      "dest": "reports/local_redesign_panel/preparation/models/diversity_long_037_S90H_mpnn03_seed3001"
+    }
+  ],
+  "rows": []
+}
