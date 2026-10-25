@@ -1,0 +1,12 @@
+{
+  "before_gross_usd": 12.08348993,
+  "after_gross_usd": 12.568380880000001,
+  "observed_panel_increment_usd": 0.4848909500000005,
+  "historical_prior_high_water_usd": 12.23518765,
+  "conservative_current_total_usd": 12.7200786,
+  "panel_reservation_usd": 1.5,
+  "conditional_tag_reservation_usd": 1.5,
+  "round_cap_usd": 3,
+  "project_cap_usd": 30,
+  "note": "The October 25 pre-run meter is lower than the historical October 21 snapshot. Preserve both; report a matched before/after increment and conservative prior-high-water-plus-increment total. Meter may lag; unused historical reservations reconciled only after all apps stopped."
+}

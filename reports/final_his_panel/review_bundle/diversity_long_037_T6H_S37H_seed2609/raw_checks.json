@@ -1,0 +1,179 @@
+{
+  "id": "diversity_long_037_T6H_S37H",
+  "arm": "diversity_long",
+  "kind": "novel_design",
+  "seed": 2609,
+  "sample": 4,
+  "upstream_confidence_selected": true,
+  "confidence_selected": true,
+  "target_CA_rmsd_to_input_A": 0.6128922313809205,
+  "metrics": {
+    "iptm": 0.29188814759254456,
+    "ptm": 0.5545336008071899,
+    "design_to_target_iptm": 0.29188814759254456,
+    "interaction_pae": 21.510604858398438,
+    "min_design_to_target_pae": 13.225553512573242,
+    "design_ptm": 0.6162715554237366
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.0,
+      "B_A": 0.0
+    },
+    "ipsae_min": 0.0,
+    "ipsae_max": 0.0,
+    "contact_residue_pairs": 88,
+    "contact_pae_A_to_B_A": 16.645898818969727,
+    "contact_pae_B_to_A_A": 17.373807907104492,
+    "contact_pae_both_directions_A": 17.00985336303711,
+    "binder_mean_plddt": 0.5202136635780334
+  },
+  "raw_scoring_output": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H_S37H/4",
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.6128922313809205,
+    "binder_CA_pose_rmsd_after_target_fit_A": 2.8093592763788067,
+    "binder_interface_CA_rmsd_after_target_fit_A": 2.6103690728802333,
+    "binder_CA_fold_rmsd_A": 1.580702882635994,
+    "native_contacts": 75,
+    "recovered_contacts": 40,
+    "native_contact_recall": 0.5333333333333333
+  },
+  "geometry": {
+    "target_fit_rmsd_A": 1.0516689499348508,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      196,
+      197,
+      199,
+      201,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      227,
+      294,
+      338,
+      340,
+      341,
+      343,
+      344,
+      346,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "contacts": {
+    "pairs": 88,
+    "target_native_positions": [
+      196,
+      197,
+      199,
+      201,
+      204,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      227,
+      294,
+      338,
+      340,
+      341,
+      343,
+      344,
+      346,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ],
+    "hotspots_contacted_crop": [
+      19,
+      21,
+      22
+    ],
+    "fraction_pairs_in_reference_region": 0.7272727272727273,
+    "fraction_pairs_at_conserved_target_positions": 0.42045454545454547,
+    "backbone_NO_contacts_lt3_5A": [
+      {
+        "target_native": 208,
+        "target_atom": "O",
+        "binder_position": 31,
+        "binder_atom": "N",
+        "distance_A": 2.520933151245117
+      },
+      {
+        "target_native": 210,
+        "target_atom": "N",
+        "binder_position": 31,
+        "binder_atom": "O",
+        "distance_A": 3.3976998329162598
+      },
+      {
+        "target_native": 210,
+        "target_atom": "O",
+        "binder_position": 33,
+        "binder_atom": "N",
+        "distance_A": 2.6720173358917236
+      },
+      {
+        "target_native": 347,
+        "target_atom": "N",
+        "binder_position": 71,
+        "binder_atom": "O",
+        "distance_A": 3.335861921310425
+      },
+      {
+        "target_native": 347,
+        "target_atom": "O",
+        "binder_position": 71,
+        "binder_atom": "N",
+        "distance_A": 3.2951598167419434
+      }
+    ],
+    "backbone_contact_note": "Distance-only observations, not hydrogen-bond or beta-sheet assignments"
+  },
+  "screen": {
+    "pass": false,
+    "checks": {
+      "interface_confidence": false,
+      "binder_fold": true,
+      "interface_pose": false,
+      "design_contact_recall": true,
+      "hotspot_contacts": true,
+      "intended_region": true,
+      "context_fit": true,
+      "clash_clearance": true
+    },
+    "failed": [
+      "interface_confidence",
+      "interface_pose"
+    ]
+  },
+  "target_integrity_pass": true
+}

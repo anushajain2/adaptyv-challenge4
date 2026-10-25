@@ -2,7 +2,19 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Latest round:** the [bounded diversity screen](reports/diversity_generation/RESULTS.md)
+**Final experiment (25 October):** the [12-variant His panel](reports/final_his_panel/RESULTS.md)
+completed 160 predictions. Four variants pass both selected raw structural checks,
+but **none qualifies as a two-pose pH-direction hypothesis**. All 32 selected
+models were prepared uniformly; a positive-control movement failure is disclosed.
+The conditional tag job was skipped. Long_037 passes both fresh selected raw poses
+again (7/10 samples, following 8/10 previously). The **eight-sequence, seven-lineage
+shortlist is unchanged**, with updated evidence and all twelve variants excluded.
+This is the planned end of computational experiments. Review the frozen package
+before uploading; no challenge submission has been made. The final panel added
+about **$0.48** gross; conservative cumulative accounting is about **$12.72/$30**
+(the latest account meter is $12.57). All cloud jobs are stopped.
+
+**Earlier diversity round:** the [bounded diversity screen](reports/diversity_generation/RESULTS.md)
 generated 100 designs (99 unique), with five full initial passes and two parents
 retained after [two-seed confirmation](reports/diversity_confirmation/RESULTS.md).
 **diversity_long_037** passes 8/10 samples and **diversity_short_055** passes 9/10;
@@ -23,7 +35,7 @@ partial matches to larger proteins. **Local Swiss-Prot BLASTp is complete:** all
 seven queries ran against 575,748 canonical sequences (release 2026_03), the human
 P02786 control was recovered exactly, and no candidate meets the close-sequence
 review threshold. Weak local matches and masking limits are reported. The original
-NCBI job remains pending; the completed evidence is the separately archived local
+NCBI job was left pending at that review; the completed evidence is the separately archived local
 fallback. Database limits prevent a global novelty verdict; sequences and ranks
 remain unchanged. No Modal compute was added.
 
@@ -51,19 +63,15 @@ One new bare A41H model gives a −0.608 pKa shift and a 2.12 His-only ratio pro
 the other is excluded by movement. E19H has one usable shift but fails the free-pKa
 heuristic. No experimental binding or pH switch is established.
 
-Next: use the eight-sequence draft as the baseline. If pursuing another experiment,
-prioritize a small anchor-preserving His panel on long_037; no further generation
-or mutation run follows automatically.
-Tag
-compatibility and mouse cross-reactivity remain unresolved. The
+Next: review the frozen eight-sequence package and upload it through the official challenge page. The final His round is complete; no further generation or mutation runs are planned. Tag compatibility and mouse cross-reactivity remain unresolved. The
 [earlier preparation review](reports/receptor_preparation_v2/RESULTS.md) and
 [24-variant follow-up](reports/expansion_his_direction/RESULTS.md) retain their
 original decisions.
 
 The [previous 200-design expansion](reports/next_round/RESULTS.md) supplies four
 computational parent scaffolds. Mouse cross-reactivity remains unknown after an
-inconclusive matched-conformation comparison. The latest recorded gross Modal
-usage is approximately **US$10.75 before credits**, within the **US$30 total**;
+inconclusive matched-conformation comparison. At that earlier stage, recorded gross Modal
+usage was approximately **US$10.75 before credits**, within the **US$30 total**;
 billing may lag. All cloud jobs are stopped. No upstream issue, PR or challenge
 submission has been filed. [Review selected structures and full confidence arrays](reports/tag_comparison/review_bundle/manifest.json).
 
@@ -88,7 +96,8 @@ and reproducibility records are in the results report.
 
 | Deliverable | Status |
 |---|---|
-| Database similarity review | RCSB, 13 Foldseek queries and local Swiss-Prot BLASTp complete with retrieval controls; no close-sequence flags; short_015 known-backbone match verified |
+| Final His experiment | 12 variants, 160 predictions, four raw structural passes, zero qualified two-pose pH hypotheses; conditional tag job skipped |
+| Database similarity review | Original-six and added-two reviews complete with retrieval controls; no close-sequence flags; short_015 known-backbone match verified |
 | Ranked submission draft | Eight sequences, seven parent lineages; bare CSV/FASTA, sequence audit, methods and 16 selected models; not submitted |
 | Matched bare/tagged comparison | 140 predictions; raw controls pass; neither tagged variant clears both selected core screens |
 | Tagged-round preparation/direction | 28 models, 56 successful pKa calculations; 23 movement passes; zero qualified two-pose direction passes |

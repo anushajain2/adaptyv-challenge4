@@ -1,0 +1,93 @@
+{
+  "id": "diversity_long_037_S90H",
+  "seed": 2503,
+  "sample": 2,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S90H/2/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S90H_seed2503",
+  "status": "ok",
+  "source_sha256": "e226d7ddc0badc468b6fa4c10611189bd329cb1c86bd3a2e1b802885ec64afc2",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.16572493345001577,
+        "max_A": 0.6168209910392761
+      },
+      "sidechain": {
+        "rms_A": 0.48857025559192496,
+        "max_A": 1.8955382108688354
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.17118261222843828,
+        "max_A": 0.44562774896621704
+      },
+      "sidechain": {
+        "rms_A": 0.4735747786390981,
+        "max_A": 1.8521569967269897
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9778734936093871,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      195,
+      197,
+      199,
+      201,
+      202,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      214,
+      215,
+      227,
+      291,
+      292,
+      293,
+      294,
+      338,
+      339,
+      340,
+      341,
+      343,
+      344,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "521a3c16206ebfb10393efd4b40b88ff82a1e242b32e10d4cbd5acf413ae2b7d",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

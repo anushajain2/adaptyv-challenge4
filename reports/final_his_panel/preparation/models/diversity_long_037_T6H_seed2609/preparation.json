@@ -1,0 +1,97 @@
+{
+  "id": "diversity_long_037_T6H",
+  "seed": 2609,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H/4/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_seed2609",
+  "status": "ok",
+  "source_sha256": "fe715bb2eb982a82ed7b6b84e96aa6a8bdfbe3c5a35a5f7b4843af21c212096f",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.14818247088565842,
+        "max_A": 0.5497899651527405
+      },
+      "sidechain": {
+        "rms_A": 0.4614067001605329,
+        "max_A": 1.833900809288025
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1917302907525507,
+        "max_A": 0.780299186706543
+      },
+      "sidechain": {
+        "rms_A": 0.5860125668518464,
+        "max_A": 2.1859724521636963
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:4:LYS:NZ",
+        "b": "A:28:GLY:O",
+        "distance_A": 1.5857304310632367
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.8834307373946972,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      204,
+      205,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      227,
+      291,
+      293,
+      294,
+      340,
+      341,
+      343,
+      344,
+      346,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "4d55e95290ea4c411680b57f925bc916bccd0256c280a6ec3c4a2230f1e1f20c",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

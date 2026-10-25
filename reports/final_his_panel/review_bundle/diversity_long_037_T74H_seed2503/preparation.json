@@ -1,0 +1,91 @@
+{
+  "id": "diversity_long_037_T74H",
+  "seed": 2503,
+  "sample": 1,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T74H/1/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T74H_seed2503",
+  "status": "ok",
+  "source_sha256": "fb5e0d55e03886d4557d1a25968d405365594c88b068b024c809ffb9acf9c1c6",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15351453270586524,
+        "max_A": 0.5125912427902222
+      },
+      "sidechain": {
+        "rms_A": 0.4447352392328677,
+        "max_A": 2.1317760944366455
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1528236191413575,
+        "max_A": 0.4343416392803192
+      },
+      "sidechain": {
+        "rms_A": 0.3868098633564233,
+        "max_A": 1.8127918243408203
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9507443605448033,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      203,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      291,
+      292,
+      293,
+      294,
+      339,
+      340,
+      343,
+      344,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "93352e10f46f542cf83d07a43c255ab773efa4c18a5a23d64640013e09d034ef",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

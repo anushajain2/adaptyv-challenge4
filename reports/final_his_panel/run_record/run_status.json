@@ -1,0 +1,15 @@
+{
+  "run_id": "final-his-025-6wrw",
+  "boltzgen_commit": "247b9bbd8b68a60aba854c2968d6a0cddd21ad6d",
+  "statuses": [
+    {
+      "seed": 2503,
+      "returncode": 0
+    },
+    {
+      "seed": 2609,
+      "returncode": 0
+    }
+  ],
+  "elapsed_seconds": 517.0381853429999
+}

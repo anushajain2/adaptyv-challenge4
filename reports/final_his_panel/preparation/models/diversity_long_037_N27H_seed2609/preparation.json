@@ -1,0 +1,93 @@
+{
+  "id": "diversity_long_037_N27H",
+  "seed": 2609,
+  "sample": 1,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_N27H/1/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_N27H_seed2609",
+  "status": "ok",
+  "source_sha256": "d38c2403239382a5228652aa7fca8e2cde90d5675abc0d85d48afdbcc4b7589b",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.16458166344074826,
+        "max_A": 0.5049488544464111
+      },
+      "sidechain": {
+        "rms_A": 0.49262822400697254,
+        "max_A": 2.875732421875
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.18032870167134096,
+        "max_A": 0.6480313539505005
+      },
+      "sidechain": {
+        "rms_A": 0.5158148195028747,
+        "max_A": 2.838986396789551
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 2.224688427318271,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      204,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      214,
+      215,
+      227,
+      291,
+      292,
+      293,
+      294,
+      339,
+      340,
+      343,
+      344,
+      347,
+      348,
+      352,
+      361,
+      362,
+      363,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "f3282aab53da40af87a4285afdae841bb5ed4680c54a9c62049ff4d63a1a5ade",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

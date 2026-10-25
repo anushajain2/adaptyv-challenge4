@@ -1,0 +1,90 @@
+{
+  "id": "diversity_long_037_S37H",
+  "seed": 2609,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S37H/4/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S37H_seed2609",
+  "status": "ok",
+  "source_sha256": "cd35cffad3534dfbffc01208b44d3ef73771b8639ac82b9e2404d5225a48f9c9",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.15567878399928464,
+        "max_A": 0.5397794246673584
+      },
+      "sidechain": {
+        "rms_A": 0.5421228330478566,
+        "max_A": 3.095519781112671
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.16677198473377358,
+        "max_A": 0.5041713118553162
+      },
+      "sidechain": {
+        "rms_A": 0.5328668504990405,
+        "max_A": 1.9934568405151367
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:150:ARG:NH1",
+        "b": "A:154:GLU:OE2",
+        "distance_A": 1.6823492503044664
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9330483859222137,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      199,
+      201,
+      202,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      294,
+      343,
+      344,
+      347,
+      348,
+      349,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "60628ac2154f26996e4bc0a54829dec72c37947159d570a28dd46fee5ee1c542",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

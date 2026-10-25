@@ -2,7 +2,13 @@
 
 The workflow is built and has run on real designs. The initial 75-design pilot found six exploratory pKa-lowering variants, none passing its parent-quality gate. Historical results below retain those original decisions.
 
-## Latest bounded diversity round — 21 October 2026
+## Final bounded His round and submission freeze — 25 October 2026
+
+The [final round](final_his_panel/RESULTS.md) tested twelve anchor-preserving variants of long_037 with matched parent and three controls (160 predictions). Four variants passed both selected raw checks; none met the full two-pose pH-direction criteria. All 32 selected models were prepared; all preparations executed, 25 passed movement checks, and six mutant poses were eligible for direction interpretation. The second-seed positive control exceeded the predeclared maximum-backbone-movement threshold (1.017 Å versus 1.0 Å); full prepared-control qualification fails. S90H has modest 1.71/1.87 ratio proxies; S72H passes the heuristic in one pose but fails preparation in the other. No threshold was relaxed.
+
+The conditional tag job was skipped. The unchanged parent passes both fresh raw poses (7/10, following 8/10 previously). The [eight-sequence, seven-lineage submission package](submission_draft/README.md) retains its sequences and ranking, adds the new evidence and excludes all twelve variants. Computational experimentation stops here. Gross incremental usage is approximately $0.48; the latest meter is $12.57 and conservative historical accounting is $12.72/$30. All cloud jobs are stopped. No challenge submission or upstream issue/PR was filed.
+
+## Earlier bounded diversity round — 21 October 2026
 
 The [100-design round](diversity_generation/RESULTS.md) produced 99 unique sequences, none identical to the 495 prior generated designs. Four short and one long design passed the initial raw screen and frozen diversity checks. [Fresh confirmation](diversity_confirmation/RESULTS.md) retained **diversity_long_037 (8/10 samples)** and **diversity_short_055 (9/10)**, with all six selected control checks passing. The other three candidates failed a selected clash check and remain excluded. All 16 selected models were uniformly prepared; both retained parents pass both-pose movement and internal-geometry guards.
 

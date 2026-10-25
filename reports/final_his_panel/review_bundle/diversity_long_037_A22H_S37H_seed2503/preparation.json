@@ -1,0 +1,89 @@
+{
+  "id": "diversity_long_037_A22H_S37H",
+  "seed": 2503,
+  "sample": 1,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H_S37H/1/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_S37H_seed2503",
+  "status": "ok",
+  "source_sha256": "920ee6509c1c0adff69cb48c040507623292f3fd08bfc4b69cf5b6b3dd5ee1d7",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1673740427001147,
+        "max_A": 0.6896794438362122
+      },
+      "sidechain": {
+        "rms_A": 0.46374137515265057,
+        "max_A": 2.3111629486083984
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.20423372453390204,
+        "max_A": 0.7105380296707153
+      },
+      "sidechain": {
+        "rms_A": 0.5313835456389837,
+        "max_A": 1.818483829498291
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:136:ARG:NH1",
+        "b": "A:136:ARG:NH2",
+        "distance_A": 1.7993793374383291
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9626817479088896,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      202,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      344,
+      347,
+      348,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "49e621e41d1efb4683b88c5e32041d9afdcf5f3d384cba4b62c468f67f6a04fd",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 25
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 74
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-25T18:00:22.315304+00:00",
+  "predictions": 160,
+  "new_variants": 12,
+  "raw_controls_pass": true,
+  "raw_variant_passes": 4,
+  "prepared_controls_pass": false,
+  "direction_passes": 0,
+  "fully_qualified_passes": 0,
+  "tag_selected_ids": [],
+  "challenge_submitted": false,
+  "bundle_manifest_sha256": "c185d2cc0df67620ce38f826f2d0f34e7772b5cfd66607d45e7b7a87be4d7b28"
+}

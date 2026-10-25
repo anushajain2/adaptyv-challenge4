@@ -1,0 +1,107 @@
+{
+  "id": "diversity_long_037_V47H",
+  "seed": 2503,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_V47H/4/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_V47H_seed2503",
+  "status": "ok",
+  "source_sha256": "f2581fe379a666255e19e4942e267e700d6aaa9f7820b27df980e1e91e5d149d",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.16020205161925435,
+        "max_A": 0.5449812412261963
+      },
+      "sidechain": {
+        "rms_A": 0.5152710432204362,
+        "max_A": 1.9405169486999512
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.2143583602715835,
+        "max_A": 0.8245290517807007
+      },
+      "sidechain": {
+        "rms_A": 0.5277444306963818,
+        "max_A": 1.6469221115112305
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:3:ARG:NH1",
+        "b": "B:93:THR:OG1",
+        "distance_A": 1.6640408648828304
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "B:3:ARG:NE",
+        "b": "B:3:ARG:NH2",
+        "distance_A": 1.7261118156133444
+      },
+      {
+        "a": "B:3:ARG:NH1",
+        "b": "B:3:ARG:NH2",
+        "distance_A": 1.5880746204130345
+      }
+    ],
+    "pass": false
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 0.9581217179689914,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      199,
+      201,
+      202,
+      204,
+      205,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      215,
+      227,
+      294,
+      343,
+      344,
+      346,
+      347,
+      348,
+      349,
+      350,
+      352,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "c51dc523865e62a05a4dc703af49d4caf72104b314625a554aeb77e5f747110b",
+  "propka": {
+    "free": {
+      "status": "failed",
+      "error": "PROPKA reported incomplete/protonation-failed groups; raw tables retained, variant not scored"
+    },
+    "bound": {
+      "status": "failed",
+      "error": "PROPKA reported incomplete/protonation-failed groups; raw tables retained, variant not scored"
+    }
+  }
+}

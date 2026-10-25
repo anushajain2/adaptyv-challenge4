@@ -1,0 +1,8 @@
+{
+  "status": "SKIPPED_BY_FROZEN_RULE",
+  "reason": "Zero fully qualified two-pose direction variants. No eligible tag-panel candidates.",
+  "tag_job_launched": false,
+  "additional_tag_compute_usd": 0,
+  "unused_tag_reservation_usd": 1.5,
+  "next_action": "Freeze eight-sequence review package; no further automatic experiments."
+}

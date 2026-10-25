@@ -1,0 +1,292 @@
+{
+  "protocol": {
+    "version": "receptor-preparation-v2",
+    "interpretation": "Uniform post-hoc sensitivity analysis, specified before revised outcomes; never replaces raw or v1 decisions.",
+    "method": "Amber14/GBn2, 12 A cutoff, both backbones restrained; all side chains and hydrogens mobile",
+    "restraint_expression": "k*((x-x0)^2+(y-y0)^2+(z-z0)^2)",
+    "backbone_k_kJ_mol_nm2": 1000.0,
+    "seed": 43,
+    "hydrogen_placement_pH": 7.4,
+    "max_iterations": 500,
+    "minimization_timeout_seconds": 120,
+    "hard_timeout_seconds": 180,
+    "backbone_rms_limit_A": 0.5,
+    "backbone_max_limit_A": 1.0,
+    "internal_nonbonded_distance_cutoff_A": 1.8,
+    "internal_nonbonded_pairs_allowed": 0,
+    "protonation": "Strip explicit H; PROPKA assigns H consistently to free and bound forms of the same prepared conformation. Any incomplete/protonation-failed group invalidates that calculation.",
+    "cohort": "Every confidence-selected final His panel candidate and control, including failures.",
+    "policy": "One preparation per source; no selective retries; source sequence and original atom identities preserved; raw screen failures cannot be rescued. Original pose/contact/context gates and pKa heuristics unchanged.",
+    "limitations": [
+      "Fixed conformation free/bound pKa comparison",
+      "No unbound ensemble or full proton linkage",
+      "No assay tag modeled",
+      "No experimental binding claim",
+      "Finite minimization is not proof of convergence or global stereochemical validity"
+    ]
+  },
+  "source_results_sha256": "1e6d39d54587027a975f480583e543fd2eb4857c6f754cd11b741fa19bb9e540",
+  "script_sha256": "6cb0c519335cc5fd675cd31ff18d8bc4326691c2a00664d76dd40dd49525ade3",
+  "preparation_library_sha256": "5d8eab755707222a52a9057a42c086e5cd9fb6f8b3500dd4df7f90c6f6fec2b6",
+  "source_hashes": {
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037/4/model.pdb": "937ea29378f215ca46bf1ea026236f0f0938c521f338cc34c935fe673e383fce",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/2ds25_5_6wrw/4/model.pdb": "ce7756ef083a8645a48d7a4d8545f4667d892e1cd69966131822df8c3f38ecdd",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/scrambled_6wrw/0/model.pdb": "7a9cbeeabbd1fa83a0f5358b56d2b2ca996040cc9d4464739a171ff653bfb61d",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/caplacizumab_6wrw/0/model.pdb": "a0061ef970a949c00678a6926422fc43ccff41ed88730023fb10b0c80bea9c4e",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T6H/4/model.pdb": "78bfdec249ae8f56cfa99be195e85f53b6725de01949cd736116897b8750c150",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S37H/2/model.pdb": "8e401fbdfdc9b03799d3fd28f08ec1db66bf24fed607ef175bcee41843fea5f4",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H/1/model.pdb": "91abf71e2aad0dd43d065f07eb0d2317e1cd4ac8f5d08bb1f5135adb82091988",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_N40H/2/model.pdb": "b6bb40aeb2cd44bdcbe8a9dfdace50fe12124feb537ccce9637c3939c85c1551",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_V47H/4/model.pdb": "f2581fe379a666255e19e4942e267e700d6aaa9f7820b27df980e1e91e5d149d",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S90H/2/model.pdb": "e226d7ddc0badc468b6fa4c10611189bd329cb1c86bd3a2e1b802885ec64afc2",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T74H/1/model.pdb": "fb5e0d55e03886d4557d1a25968d405365594c88b068b024c809ffb9acf9c1c6",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_N27H/3/model.pdb": "8417431436890edd9c918d105d2780e8eb4313e0bd8a7b047ffbad5b44daf021",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A43H/3/model.pdb": "925c2292053336ebbf70b1ac69548dc7fc524f0dc18bae6efae161a4cd2870e6",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S72H/0/model.pdb": "088c8ac8fb79de503a5e904176bc9f3b28b937f53b67d046c3d6d4206e8292a8",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T6H_S37H/4/model.pdb": "3a92d7ec3c50fa25199e8c2de91bd12fcfc9e2f11cbc7e80a44ee117062f9be5",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H_S37H/1/model.pdb": "920ee6509c1c0adff69cb48c040507623292f3fd08bfc4b69cf5b6b3dd5ee1d7",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037/4/model.pdb": "eaae2ee4f187a4eb9c2a161493d1fc75f9ee5f771f3075ecd18532a82af39a8f",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/2ds25_5_6wrw/0/model.pdb": "16d4537d8725392d1f04fd5e5b9805705ff90d7307a6338fa21c7f61fa5c7979",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/scrambled_6wrw/0/model.pdb": "5c17b6e2812fdcc360f52040ec37ea04b7cade7e9458da05944351b7e6808f75",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/caplacizumab_6wrw/1/model.pdb": "950db65631742b33def2403bb9a6966960947afebfd282646d502e3310f1d784",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H/4/model.pdb": "fe715bb2eb982a82ed7b6b84e96aa6a8bdfbe3c5a35a5f7b4843af21c212096f",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S37H/4/model.pdb": "cd35cffad3534dfbffc01208b44d3ef73771b8639ac82b9e2404d5225a48f9c9",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A22H/2/model.pdb": "c30d6fd1e473dc2a9f2f196a93b53fe27d46cb05fb5a7bab6979d4464b29b079",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_N40H/0/model.pdb": "73c33eb36c56202b9d7444fd928e78bb50eb5ee8fd82b6d7b80fb5491137229f",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_V47H/3/model.pdb": "29e1cbf337bc65b6a6e7ac813bb503f680179c9fd864c1d477083ab479d26e55",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S90H/0/model.pdb": "6a52eb2add5cebeb17f7179f2f27483f738b472a9bae12079360b1fa3fa497b4",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T74H/3/model.pdb": "ba20f132790e6b0edf0b8ac7e007877bed521309dd6311f592a8105d9cee6fcb",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_N27H/1/model.pdb": "d38c2403239382a5228652aa7fca8e2cde90d5675abc0d85d48afdbcc4b7589b",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A43H/4/model.pdb": "adda1ea1809b98118a754e51f7a885f42d32e49aeaaf9b9305e55f1f08835883",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S72H/3/model.pdb": "567355370f7bce58b9a0a407fd41cdc299691906604cbe24babc52d8e2c53ea9",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H_S37H/4/model.pdb": "1b154f28804ea021205a53148faca9d6e0ec9e8e2f74f7e58a0ab18012a4697f",
+    "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A22H_S37H/4/model.pdb": "63c75567515db655c7c32fa1df3dd22dc3e945a80def032432394a7d75c461fa"
+  },
+  "plan": [
+    {
+      "id": "diversity_long_037",
+      "seed": 2503,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_seed2503"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2503,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/2ds25_5_6wrw/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/2ds25_5_6wrw_seed2503"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2503,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/scrambled_6wrw/0/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/scrambled_6wrw_seed2503"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2503,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/caplacizumab_6wrw/0/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/caplacizumab_6wrw_seed2503"
+    },
+    {
+      "id": "diversity_long_037_T6H",
+      "seed": 2503,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T6H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_S37H",
+      "seed": 2503,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S37H/2/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S37H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_A22H",
+      "seed": 2503,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H/1/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_N40H",
+      "seed": 2503,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_N40H/2/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_N40H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_V47H",
+      "seed": 2503,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_V47H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_V47H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 2503,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S90H/2/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S90H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_T74H",
+      "seed": 2503,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T74H/1/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T74H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_N27H",
+      "seed": 2503,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_N27H/3/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_N27H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_A43H",
+      "seed": 2503,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A43H/3/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A43H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_S72H",
+      "seed": 2503,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_S72H/0/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S72H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_T6H_S37H",
+      "seed": 2503,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_T6H_S37H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_S37H_seed2503"
+    },
+    {
+      "id": "diversity_long_037_A22H_S37H",
+      "seed": 2503,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H_S37H/1/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_S37H_seed2503"
+    },
+    {
+      "id": "diversity_long_037",
+      "seed": 2609,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_seed2609"
+    },
+    {
+      "id": "2ds25_5_6wrw",
+      "seed": 2609,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/2ds25_5_6wrw/0/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/2ds25_5_6wrw_seed2609"
+    },
+    {
+      "id": "scrambled_6wrw",
+      "seed": 2609,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/scrambled_6wrw/0/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/scrambled_6wrw_seed2609"
+    },
+    {
+      "id": "caplacizumab_6wrw",
+      "seed": 2609,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/caplacizumab_6wrw/1/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/caplacizumab_6wrw_seed2609"
+    },
+    {
+      "id": "diversity_long_037_T6H",
+      "seed": 2609,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_S37H",
+      "seed": 2609,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S37H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S37H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_A22H",
+      "seed": 2609,
+      "sample": 2,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A22H/2/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_N40H",
+      "seed": 2609,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_N40H/0/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_N40H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_V47H",
+      "seed": 2609,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_V47H/3/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_V47H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_S90H",
+      "seed": 2609,
+      "sample": 0,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S90H/0/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S90H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_T74H",
+      "seed": 2609,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T74H/3/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T74H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_N27H",
+      "seed": 2609,
+      "sample": 1,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_N27H/1/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_N27H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_A43H",
+      "seed": 2609,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A43H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A43H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_S72H",
+      "seed": 2609,
+      "sample": 3,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_S72H/3/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_S72H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_T6H_S37H",
+      "seed": 2609,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_T6H_S37H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_T6H_S37H_seed2609"
+    },
+    {
+      "id": "diversity_long_037_A22H_S37H",
+      "seed": 2609,
+      "sample": 4,
+      "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A22H_S37H/4/model.pdb",
+      "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A22H_S37H_seed2609"
+    }
+  ],
+  "rows": []
+}

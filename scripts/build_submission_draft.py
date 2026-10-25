@@ -25,7 +25,7 @@ from prepare_controls import ROOT, read_structure, sequence
 from prepare_assay_tag_review import SUFFIX
 
 OUT = ROOT / 'reports/submission_draft'
-ROUNDS = ['his_confirmation', 'expansion_validation', 'expansion_his_confirmation', 'tag_comparison', 'diversity_confirmation']
+ROUNDS = ['his_confirmation', 'expansion_validation', 'expansion_his_confirmation', 'tag_comparison', 'diversity_confirmation', 'final_his_panel']
 SHORTLIST = [
     ('apical_short_008_A41H', 'apical_short_008', 'pH-direction hypothesis',
      'Leading repeated bare-model pKa-lowering hypothesis. Latest bare core screen passes both selected seeds; tagged core fails one. No qualified two-pose direction pass.'),
@@ -34,7 +34,7 @@ SHORTLIST = [
     ('expansion_apical_short_026', 'expansion_apical_short_026', 'binding hypothesis',
      'Repeated bare structural retention (8/10, 9/10, then 9/10). Tagged core passes both selected seeds, but tag independence remains unresolved.'),
     ('diversity_long_037', 'diversity_long_037', 'additional binding hypothesis',
-     'Both selected fresh confirmation poses pass (8/10 samples), as do preparation guards. Distinct from the earlier draft under the frozen comparison. NTS sequon and mildly positive GRAVY are review flags; no His, pH-release or tag validation.'),
+     'Both selected poses pass in two fresh confirmation rounds (8/10 then 7/10 samples). Distinct from the earlier draft under the frozen comparison; preparation outcomes are recorded separately. NTS sequon and mildly positive GRAVY are review flags; no His, pH-release or tag validation.'),
     ('diversity_short_055', 'diversity_short_055', 'disulfide-containing diversity hypothesis',
      'Both selected fresh confirmation poses pass (9/10 samples), with lower interface confidence than the leading parents. Models and preparation assume a C31-C42 disulfide; formation is unmeasured. No His, pH-release or tag validation.'),
     ('expansion_apical_short_015', 'expansion_apical_short_015', 'diversity backup',
@@ -157,6 +157,11 @@ def main():
     new_parents=[c for c in new_confirmation['candidates'] if c['id'] in new_novelty['reviewed_candidate_ids']]
     assert {c['id'] for c in new_parents}==set(new_novelty['reviewed_candidate_ids'])
     assert all(c['two_seed_raw_screen_pass'] and c['two_pose_preparation_pass'] for c in new_parents)
+    final_direction_path=ROOT/'reports/final_his_direction/results.json'
+    final_direction=json.loads(final_direction_path.read_text())
+    assert not final_direction['tag_selected_ids'], 'Complete and review conditional tag follow-up before finalizing this baseline package.'
+    for v in final_direction['variants']:
+        RESERVE[v['id']]='Final anchor-preserving panel: no fully qualified two-pose pH-direction pass. Raw pass: '+str(v['raw_pass_both_seeds'])+'; direction heuristic pass: '+str(v['direction_pass_both_seeds'])+'. Full per-pose exclusions are linked in final_pH_experiment.'
     seqs, evidence, latest_bare = {}, {}, {}
     for r in ROUNDS:
         report = sources[f'reports/{r}/results.json']
@@ -228,7 +233,7 @@ def main():
     known = [{'candidate': c['name'], 'control': name, 'global_sequence_identity': alignment(c['sequence'], seq)[1]}
              for c in candidates for name, seq in controls.items()]
     result = {
-        'status': 'DRAFT_NOT_SUBMITTED', 'as_of_date': '2026-10-21', 'track_scope': 'User confirmed Track 2 or 3',
+        'status': 'DRAFT_NOT_SUBMITTED', 'as_of_date': '2026-10-25', 'track_scope': 'Tracks 2/3 format; Track 3 recommended unless accepted into Track 2 support program',
         'ranking_policy': 'Editorial prioritization: pH hypothesis first, repeated human structural retention next, additional lineages then matched parent. Not a calibrated probability or automatic score.',
         'candidate_count': len(rows), 'parent_lineage_count': len({c['family'] for c in candidates}),
         'independent_fold_class_count': None, 'candidates': candidates,
@@ -240,6 +245,7 @@ def main():
         'database_similarity_review': {'source':'reports/novelty_review/summary.json', 'sha256':digest(novelty_path), 'status':novelty['status'], 'candidate_names':[c['name'] for c in novelty['candidates']]} if novelty else None,
         'additional_database_similarity_review': {'source':'reports/diversity_novelty/summary.json','sha256':digest(new_novelty_path),'status':new_novelty['status'],'candidate_names':new_novelty['reviewed_candidate_ids']},
         'additional_disulfide_review': {'source':'reports/diversity_confirmation/disulfide_audit.json','sha256':digest(ROOT/'reports/diversity_confirmation/disulfide_audit.json')},
+        'final_pH_experiment': {'source':'reports/final_his_direction/results.json','sha256':digest(final_direction_path),'variant_count':len(final_direction['variants']),'qualified_two_pose_count':sum(v['fully_qualified_direction_pass_both_seeds'] for v in final_direction['variants']),'conditional_tag_selected_ids':final_direction['tag_selected_ids']},
         'software': {'python': platform.python_version(), 'biopython': Bio.__version__},
         'rules_source': 'https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/tfr1',
         'sequence_descriptor_source': 'https://biopython.org/docs/latest/api/Bio.SeqUtils.ProtParam.html',
@@ -252,7 +258,7 @@ def main():
                                    'scripts/build_submission_draft.py']
     if novelty: dependencies.append('reports/novelty_review/summary.json')
     dependencies+=['reports/diversity_novelty/summary.json','reports/diversity_confirmation/summary.json',
-                   'reports/diversity_confirmation/disulfide_audit.json','reports/diversity_confirmation/confirmed_diversity.json']
+                   'reports/diversity_confirmation/disulfide_audit.json','reports/diversity_confirmation/confirmed_diversity.json','reports/final_his_direction/results.json']
     manifest = {'status': 'DRAFT_NOT_SUBMITTED', 'inputs': {p: digest(ROOT/p) for p in dependencies},
                 'models': model_index, 'outputs': {p.name: digest(p) for p in OUT.iterdir() if p.is_file() and p.name!='manifest.json'}}
     (OUT/'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')

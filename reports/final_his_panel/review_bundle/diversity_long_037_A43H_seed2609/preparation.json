@@ -1,0 +1,97 @@
+{
+  "id": "diversity_long_037_A43H",
+  "seed": 2609,
+  "sample": 4,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_A43H/4/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_A43H_seed2609",
+  "status": "ok",
+  "source_sha256": "adda1ea1809b98118a754e51f7a885f42d32e49aeaaf9b9305e55f1f08835883",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.16311265659444837,
+        "max_A": 0.5956588983535767
+      },
+      "sidechain": {
+        "rms_A": 0.475126433870945,
+        "max_A": 1.9297819137573242
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.16585667149693367,
+        "max_A": 0.4966662526130676
+      },
+      "sidechain": {
+        "rms_A": 0.5185221565755302,
+        "max_A": 2.3008878231048584
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:126:SER:OG",
+        "b": "A:129:HIS:CD2",
+        "distance_A": 1.7860652283721357
+      },
+      {
+        "a": "B:3:ARG:NH1",
+        "b": "B:92:SER:O",
+        "distance_A": 1.7743207150907054
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.6867506282142706,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      203,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      294,
+      340,
+      343,
+      344,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "13f5b075a518a51d0ca7f4e459f455d9ba443c9fe0da58045c77aef1a0ffd79b",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

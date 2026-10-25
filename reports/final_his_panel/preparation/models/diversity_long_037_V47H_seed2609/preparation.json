@@ -1,0 +1,99 @@
+{
+  "id": "diversity_long_037_V47H",
+  "seed": 2609,
+  "sample": 3,
+  "source": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2609/diversity_long_037_V47H/3/model.pdb",
+  "dest": "reports/final_his_panel/preparation/models/diversity_long_037_V47H_seed2609",
+  "status": "ok",
+  "source_sha256": "29e1cbf337bc65b6a6e7ac813bb503f680179c9fd864c1d477083ab479d26e55",
+  "displacement": {
+    "A": {
+      "backbone": {
+        "rms_A": 0.1548512678453654,
+        "max_A": 0.45446521043777466
+      },
+      "sidechain": {
+        "rms_A": 0.5456098994188283,
+        "max_A": 2.5421249866485596
+      }
+    },
+    "B": {
+      "backbone": {
+        "rms_A": 0.1924013429587413,
+        "max_A": 0.680617094039917
+      },
+      "sidechain": {
+        "rms_A": 0.5650074206506686,
+        "max_A": 2.938443899154663
+      }
+    },
+    "pass": true
+  },
+  "raw_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [
+      {
+        "a": "A:9:ASN:O",
+        "b": "A:26:ASN:ND2",
+        "distance_A": 1.7953436996853842
+      },
+      {
+        "a": "B:41:GLY:O",
+        "b": "B:74:THR:O",
+        "distance_A": 1.7375724445328877
+      }
+    ],
+    "pass": false
+  },
+  "prepared_internal_geometry": {
+    "nonbonded_pairs_lt1_8A": [],
+    "pass": true
+  },
+  "prepared_geometry": {
+    "target_fit_rmsd_A": 1.5776997567409883,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 0,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      199,
+      201,
+      203,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      227,
+      291,
+      292,
+      293,
+      294,
+      340,
+      343,
+      344,
+      347,
+      348,
+      361,
+      362,
+      364,
+      371,
+      374,
+      376
+    ]
+  },
+  "prepared_sha256": "031bb187b76cacd0ed6920cce12eac6a0f5bd1ecf0c2e1696a9d669c0a869798",
+  "propka": {
+    "free": {
+      "status": "ok",
+      "titratable_groups": 24
+    },
+    "bound": {
+      "status": "ok",
+      "titratable_groups": 73
+    }
+  }
+}

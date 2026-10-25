@@ -1,0 +1,13 @@
+[
+  "Missing atoms or failed protonation for ARG   3 B (ARG) -- please check the structure",
+  "Group (ARG) for  1502-  CZ     3-ARG (B) [  12.093   16.616    3.143] C",
+  "Expected 8 interaction atoms for acids, found:",
+  "              1501-  NE     3-ARG (B) [  13.224   16.305    2.527] N",
+  "              1503- NH1     3-ARG (B) [  11.011   17.309    3.381] N",
+  "              1504- NH2     3-ARG (B) [  12.065   17.546    2.217] N",
+  "                 0- HH1     3-ARG (B) [  10.170   17.524    3.897] H",
+  "Expected 3 interaction atoms for bases, found:",
+  "              1501-  NE     3-ARG (B) [  13.224   16.305    2.527] N",
+  "              1503- NH1     3-ARG (B) [  11.011   17.309    3.381] N",
+  "              1504- NH2     3-ARG (B) [  12.065   17.546    2.217] N"
+]

@@ -1,0 +1,133 @@
+{
+  "id": "diversity_long_037_A22H",
+  "arm": "diversity_long",
+  "kind": "novel_design",
+  "seed": 2503,
+  "sample": 1,
+  "upstream_confidence_selected": true,
+  "confidence_selected": true,
+  "target_CA_rmsd_to_input_A": 0.6661549344422117,
+  "metrics": {
+    "iptm": 0.1298910677433014,
+    "ptm": 0.497207909822464,
+    "design_to_target_iptm": 0.1298910677433014,
+    "interaction_pae": 26.347658157348633,
+    "min_design_to_target_pae": 22.032312393188477,
+    "design_ptm": 0.7279838919639587
+  },
+  "scores": {
+    "ipsae_directional": {
+      "A_B": 0.0,
+      "B_A": 0.0
+    },
+    "ipsae_min": 0.0,
+    "ipsae_max": 0.0,
+    "contact_residue_pairs": 47,
+    "contact_pae_A_to_B_A": 24.595186233520508,
+    "contact_pae_B_to_A_A": 24.77210807800293,
+    "contact_pae_both_directions_A": 24.68364715576172,
+    "binder_mean_plddt": 0.6452468633651733
+  },
+  "raw_scoring_output": "outputs/his_panel_scoring/final-his-025-6wrw/seed-2503/diversity_long_037_A22H/1",
+  "pose": {
+    "target_CA_rmsd_to_reference_A": 0.6661549344422117,
+    "binder_CA_pose_rmsd_after_target_fit_A": 7.668504787279764,
+    "binder_interface_CA_rmsd_after_target_fit_A": 6.30719549543354,
+    "binder_CA_fold_rmsd_A": 0.617700474648549,
+    "native_contacts": 75,
+    "recovered_contacts": 13,
+    "native_contact_recall": 0.17333333333333334
+  },
+  "geometry": {
+    "target_fit_rmsd_A": 0.9053969128827494,
+    "mapped_target_residues": 194,
+    "modeled_target_clash_pairs_lt2A": 1,
+    "omitted_same_subunit_clash_pairs_lt2A": 0,
+    "partner_subunit_clash_pairs_lt2A": 0,
+    "observed_glycans_clash_pairs_lt2A": 0,
+    "native_target_contacts_lt5A": [
+      197,
+      198,
+      199,
+      201,
+      202,
+      204,
+      205,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      294,
+      344,
+      347,
+      348,
+      371,
+      376
+    ]
+  },
+  "contacts": {
+    "pairs": 47,
+    "target_native_positions": [
+      197,
+      198,
+      199,
+      201,
+      202,
+      204,
+      205,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      215,
+      294,
+      344,
+      347,
+      348,
+      371,
+      376
+    ],
+    "hotspots_contacted_crop": [
+      19,
+      21,
+      22
+    ],
+    "fraction_pairs_in_reference_region": 0.8723404255319149,
+    "fraction_pairs_at_conserved_target_positions": 0.3829787234042553,
+    "backbone_NO_contacts_lt3_5A": [
+      {
+        "target_native": 347,
+        "target_atom": "O",
+        "binder_position": 72,
+        "binder_atom": "N",
+        "distance_A": 3.1893744468688965
+      }
+    ],
+    "backbone_contact_note": "Distance-only observations, not hydrogen-bond or beta-sheet assignments"
+  },
+  "screen": {
+    "pass": false,
+    "checks": {
+      "interface_confidence": false,
+      "binder_fold": true,
+      "interface_pose": false,
+      "design_contact_recall": false,
+      "hotspot_contacts": true,
+      "intended_region": true,
+      "context_fit": true,
+      "clash_clearance": false
+    },
+    "failed": [
+      "interface_confidence",
+      "interface_pose",
+      "design_contact_recall",
+      "clash_clearance"
+    ]
+  },
+  "target_integrity_pass": true
+}
