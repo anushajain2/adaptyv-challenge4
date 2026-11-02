@@ -1,5 +1,6 @@
 """Package the selected Track 3 CSV and current evidence without changing old releases."""
 import csv
+import argparse
 import hashlib
 import json
 import shutil
@@ -27,6 +28,11 @@ NOTES={
 
 
 def main():
+    global OUT
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--output',type=Path,default=OUT)
+    OUT=parser.parse_args().output.resolve()
+    assert OUT.is_relative_to(ROOT/'reports')
     assert not (OUT/'manifest.json').exists(),'Create a new release rather than overwrite a completed package'
     selected=json.loads((ROOT/'outputs/submission-authoring/selection.json').read_text())
     rows=list(csv.DictReader((OUT/'submission.csv').open()))
@@ -123,14 +129,14 @@ Participant review and any required form declarations remain the participant's r
         'frozen_release_unchanged':True,'new_modal_compute_usd':0,'checked_utc':datetime.now(timezone.utc).isoformat()})
     save(OUT/'manifest.json',{'status':'PREPARED_NOT_SUBMITTED','track':3,'created_utc':datetime.now(timezone.utc).isoformat(),
         'source_commit':commit,'files':{str(p.relative_to(OUT)):sha(p) for p in sorted(OUT.rglob('*')) if p.is_file()}})
-    archive=ROOT/'outputs/submission_2026-11-02.zip'
+    archive=ROOT/'outputs'/f'{OUT.name}.zip'
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
         for p in sorted(OUT.rglob('*')):
             if p.is_file():z.write(p,str(p.relative_to(OUT.parent)))
     with zipfile.ZipFile(archive) as z:
         assert z.testzip() is None
         for rel,digest in json.loads((OUT/'manifest.json').read_text())['files'].items():assert hashlib.sha256(z.read(OUT.name+'/'+rel)).hexdigest()==digest
-    save(ROOT/'reports/submission_2026-11-02_archive.json',{'archive':str(archive.relative_to(ROOT)),'sha256':sha(archive),'bytes':archive.stat().st_size,'all_member_hashes_verified':True})
+    save(ROOT/'reports'/f'{OUT.name}_archive.json',{'archive':str(archive.relative_to(ROOT)),'sha256':sha(archive),'bytes':archive.stat().st_size,'all_member_hashes_verified':True})
     print('Prepared and verified:',archive)
 
 

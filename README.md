@@ -2,14 +2,16 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
-**Track 3 submission package prepared (2 November):** the user confirmed the open
-track. The [current review package](reports/submission_2026-11-02/README.md)
-contains the original eight ranked bare sequences, updated methods and evidence,
-16 sequence-verified selected complexes, and form text. The CSV format, sequence
-uniqueness, model correspondence and ZIP hashes pass validation. The proposed
-short_015/reserve substitution remains a participant decision; this copy keeps
-the frozen shortlist intact. **No online submission has been made.** The published
-deadline is 2 November at 17:29 IST. Packaging used no additional Modal compute.
+**Track 3 submission packages prepared (2 November):** the user confirmed the open
+track and will upload personally. The [recommended package](reports/submission_2026-11-02_recommended/README.md)
+contains eight ranked bare sequences across six parent lineages, replacing the
+known-backbone short_015 backup with A41H/A34K/A38R as an explicitly unvalidated
+pH hypothesis. The original eight-sequence [fallback package](reports/submission_2026-11-02/README.md)
+is preserved separately. Both include current methods, evidence, 16 sequence-verified
+complexes and form text; CSV, model and archive validation passes. Neither changes
+the reserve's failed scientific qualification status. **No online submission has
+been made.** The published deadline is 2 November at 17:29 IST. Packaging used no
+additional Modal compute.
 
 **Fresh reserve confirmation completed (26 October):** the
 [140-prediction bare/tag comparison](reports/reserve_tag/RESULTS.md) strengthens

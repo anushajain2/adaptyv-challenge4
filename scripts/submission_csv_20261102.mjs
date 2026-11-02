@@ -6,7 +6,7 @@ const {Workbook}=await import(require.resolve('@oai/artifact-tool'));
 
 const choice=process.argv[2];
 if (!['original','revised'].includes(choice)) throw new Error('Choose original or revised explicitly');
-const out='reports/submission_2026-11-02';
+const out=process.argv[3]||'reports/submission_2026-11-02';
 const csv=await fs.readFile('reports/submission_draft/submission_draft.csv','utf8');
 const workbook=await Workbook.fromCSV(csv,{sheetName:'Submission'});
 const sheet=workbook.worksheets.getItem('Submission');

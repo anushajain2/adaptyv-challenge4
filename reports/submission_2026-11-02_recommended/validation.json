@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "track": 3,
+  "candidate_count": 8,
+  "parent_lineages": 6,
+  "required_columns": true,
+  "canonical_sequences_and_length": true,
+  "unique_names_and_sequences": true,
+  "bare_sequences_only": true,
+  "known_controls_excluded": true,
+  "all_16_model_chain_B_sequences_match_CSV": true,
+  "frozen_release_unchanged": true,
+  "new_modal_compute_usd": 0,
+  "checked_utc": "2026-11-02T11:04:21.577309+00:00"
+}

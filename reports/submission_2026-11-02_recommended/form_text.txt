@@ -1,0 +1,32 @@
+TRACK
+Track 3 — Open track
+
+TITLE
+Control-calibrated TfR1 apical miniproteins with histidine release hypotheses
+
+SHORT DESCRIPTION
+De novo human TfR1 apical-domain miniproteins selected through control-calibrated refolding, receptor-context geometry checks and prospective multi-seed confirmation. Histidine substitutions in our own generated parents explore acidic-release mechanisms using matched free/bound PROPKA calculations. The submission combines pH-direction hypotheses, independent parent lineages and a matched parent comparator. All candidates are computational and untested; binding, pH release, mouse cross-reactivity and assay-tag compatibility remain unestablished.
+
+WORKFLOW
+BoltzGen generation against a 6WRW-bound human TfR1 apical crop (native 190–383; hotspots 208/210/211), using Adaptyv-derived Modal wrappers and verified feature labels. Receptor-only templates excluded binder and tag coordinates during refolding. Known binders, scrambled sequences and an unrelated VHH calibrated confidence interpretation. Frozen per-round selection rules combined core/interface PAE with fold, receptor-frame interface, hotspot, full-dimer context and clash checks. Selected failures remained in the record. Histidine variants and local ProteinMPNN redesigns were evaluated on our own de novo parents, followed by uniform restrained preparation and PROPKA. The complete methods and per-candidate evidence document failures and limitations. Scores and histidine-only release ratios are computational proxies, not measured affinity. No qualified two-pose pH switch or mouse cross-reactivity is claimed.
+
+TARGET EPITOPE
+Human TfR1 apical domain, targeting the region around native residues Arg208, Val210 and Tyr211. Functional-site motivation is based on the challenge's apical-domain recommendation; lack of transferrin competition has not been measured.
+
+TOOLS AND AI DISCLOSURE
+OpenAI Codex (implementation, documentation research, execution and interpretation); BoltzGen; ProteinMPNN; Modal; PROPKA; OpenMM/PDBFixer; Biopython; ipSAE; Foldseek; TM-align; NCBI BLAST+. Chai-1 was explored but did not provide independent interface confirmation. No Claude usage is claimed.
+
+REPOSITORY
+https://github.com/anushajain2/adaptyv-challenge4
+
+REPRODUCIBLE SCIENTIFIC SNAPSHOT
+https://github.com/anushajain2/adaptyv-challenge4/tree/4a92a78c91e66cc8fa4966e3eac93e6c3695cfa8
+
+METHODS AND FINAL PACKAGE
+https://github.com/anushajain2/adaptyv-challenge4/tree/main/reports/submission_2026-11-02_recommended
+
+UPLOAD
+Upload submission.csv, which contains bare sequences only. Do not append the platform tag. The ranked CSV is authoritative; supporting structures, methods, provenance and limitations accompany it in the repository/package.
+
+FINAL RANKING NOTE
+Eight sequences across six generated parent lineages. The A41H/A34K/A38R reserve replaces short_015 because of short_015's close known-backbone match. The reserve is ranked as an unvalidated experimental pH hypothesis, not a pass of the frozen qualification rule. A41H and the original short_008 parent are related comparators, not independent scaffolds.
