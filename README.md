@@ -2,6 +2,12 @@
 
 This project prepares a human TfR1 target, generates and evaluates binder designs on Modal, and screens histidine variants for a predicted acidic-release direction. A computational pKa shift is a hypothesis, not a measurement of binding or proof of a pH switch.
 
+**Use the form-compatible upload package:** [submission_upload_2026-11-02](reports/submission_upload_2026-11-02/README.md)
+matches the participant's live-form screenshot: CSV class `single_chain`, one
+paste-ready methodology statement, and one supporting ZIP below 1 MB. All eight
+recommended sequences and their order are unchanged. The form's automatic novelty
+check remains unrun; no online submission or terms acceptance has occurred.
+
 **Track 3 submission packages prepared (2 November):** the user confirmed the open
 track and will upload personally. The [recommended package](reports/submission_2026-11-02_recommended/README.md)
 contains eight ranked bare sequences across six parent lineages, replacing the

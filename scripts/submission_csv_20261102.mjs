@@ -7,6 +7,8 @@ const {Workbook}=await import(require.resolve('@oai/artifact-tool'));
 const choice=process.argv[2];
 if (!['original','revised'].includes(choice)) throw new Error('Choose original or revised explicitly');
 const out=process.argv[3]||'reports/submission_2026-11-02';
+const moleculeClass=process.argv[4]||'protein';
+if(!['protein','single_chain'].includes(moleculeClass)) throw new Error('Unsupported protein class label');
 const csv=await fs.readFile('reports/submission_draft/submission_draft.csv','utf8');
 const workbook=await Workbook.fromCSV(csv,{sheetName:'Submission'});
 const sheet=workbook.worksheets.getItem('Submission');
@@ -19,9 +21,11 @@ if(choice==='revised') {
   rows=[[c.base_id,c.core_sequence,'protein'],...rows.filter(x=>x[0]!=='expansion_apical_short_015')];
   sheet.getRange('A2:C9').values=rows;
 }
+rows=rows.map(([name,sequence])=>[name,sequence,moleculeClass]);
+sheet.getRange('A2:C9').values=rows;
 if(rows.length!==8 || new Set(rows.map(x=>x[0])).size!==8 || new Set(rows.map(x=>x[1])).size!==8) throw new Error('Count/uniqueness failed');
 for(const [name,sequence,kind] of rows) {
-  if(!/^[A-Za-z0-9_]+$/.test(name)||!/^[ACDEFGHIKLMNPQRSTVWY]{10,250}$/.test(sequence)||kind!=='protein') throw new Error('Invalid submission row');
+  if(!/^[A-Za-z0-9_]+$/.test(name)||!/^[ACDEFGHIKLMNPQRSTVWY]{10,250}$/.test(sequence)||kind!==moleculeClass) throw new Error('Invalid submission row');
 }
 workbook.recalculate();
 const check=await workbook.inspect({kind:'table',range:'Submission!A1:C9',include:'values,formulas',tableMaxRows:9,tableMaxCols:3,tableMaxCellChars:250,maxChars:5000});

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "track": 3,
+  "candidate_count": 8,
+  "parent_lineages": 6,
+  "required_columns": true,
+  "canonical_sequences_and_length": true,
+  "unique_names_and_sequences": true,
+  "bare_sequences_only": true,
+  "known_controls_excluded": true,
+  "all_16_model_chain_B_sequences_match_CSV": true,
+  "frozen_release_unchanged": true,
+  "new_modal_compute_usd": 0,
+  "checked_utc": "2026-11-02T11:17:22.634769+00:00",
+  "upload_molecule_class": "single_chain",
+  "sequences_and_ranking_unchanged_from_recommended": true,
+  "csv_below_5_MB": true,
+  "server_novelty_check": "NOT_RUN",
+  "terms_accepted": false,
+  "submitted": false,
+  "schema_source": "User-provided screenshot, Screenshot 2026-11-02 at 4.44.19 PM.png"
+}
